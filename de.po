@@ -238,7 +238,8 @@ msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 
 #: ../plugins/versionlock.py:44 ../plugins/versionlock_master.py:41
@@ -309,8 +310,7 @@ msgid "Some packages could not be found."
 msgstr "Einige Pakete konnten nicht gefunden werden. "
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -448,8 +448,7 @@ msgstr ""
 
 #: ../plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
-msgstr ""
-"Eine Liste der unaufgelösten Abhängigkeiten einer Paketquelle anzeigen"
+msgstr "Eine Liste der unaufgelösten Abhängigkeiten einer Paketquelle anzeigen"
 
 #: ../plugins/repoclosure.py:66
 msgid "Repoclosure ended with unresolved dependencies."
@@ -495,8 +494,7 @@ msgstr ""
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
 
 #: ../plugins/repodiff.py:72
@@ -615,8 +613,8 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
 
 #: ../plugins/reposync.py:82
@@ -837,8 +835,8 @@ msgstr "Fehler: "
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
 
 #: ../plugins/copr.py:149
@@ -852,8 +850,8 @@ msgstr "Der copr-Befehl benötigt genau zwei zusätzliche Parameter."
 #: ../plugins/copr.py:231
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
-"Benutzen Sie `copr_Benutzername/copr_Projektname` um auf ein copr Projekt zu"
-" verweisen."
+"Benutzen Sie `copr_Benutzername/copr_Projektname` um auf ein copr Projekt zu "
+"verweisen."
 
 #: ../plugins/copr.py:233
 msgid "bad copr project format"
@@ -868,7 +866,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -895,8 +894,8 @@ msgstr "Unbekannter Unterbefehl {}."
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 

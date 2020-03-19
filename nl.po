@@ -249,7 +249,8 @@ msgstr ""
 "toegepast: {}"
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 "Versieslot plug-in: aantal uitsluitingsregels van bestand \"{}\" toegepast: "
 "{}"
@@ -260,8 +261,7 @@ msgstr "Versieslot plug-in: kon patroon niet ontleden:"
 
 #: ../plugins/versionlock.py:133
 msgid "Use package specifications as they are, do not try to parse them"
-msgstr ""
-"Gebruik pakketspecificaties zoals ze zijn, probeer ze niet te ontleden"
+msgstr "Gebruik pakketspecificaties zoals ze zijn, probeer ze niet te ontleden"
 
 #: ../plugins/post-transaction-actions.py:71
 #, python-format
@@ -324,8 +324,7 @@ msgid "Some packages could not be found."
 msgstr "Sommige pakketten konden niet gevonden worden."
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -367,8 +366,8 @@ msgstr "sla de huidige opties op (nuttig met --setopt)"
 #: ../plugins/config_manager.py:50
 msgid "add (and enable) the repo from the specified file or url"
 msgstr ""
-"voeg de repo toe vanuit het opgegeven bestand of de opgegeven URL en schakel"
-" deze in"
+"voeg de repo toe vanuit het opgegeven bestand of de opgegeven URL en schakel "
+"deze in"
 
 #: ../plugins/config_manager.py:53
 msgid "print current configuration values to stdout"
@@ -430,8 +429,7 @@ msgstr ""
 
 #: ../plugins/needs_restarting.py:173
 msgid "determine updated binaries that need restarting"
-msgstr ""
-"bepaal bijgewerkte binaire bestanden die opnieuw moeten worden gestart"
+msgstr "bepaal bijgewerkte binaire bestanden die opnieuw moeten worden gestart"
 
 #: ../plugins/needs_restarting.py:178
 msgid "only consider this user's processes"
@@ -519,8 +517,7 @@ msgstr "Voer extra gegevens uit over de grootte van de wijzigingen."
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
 "Vergelijk pakketten ook per architectuur. Standaard worden pakketten alleen "
 "op naam vergeleken."
@@ -650,8 +647,8 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
 "waar de gedownloade repository metadata moet worden opgeslagen. Standaard "
 "staat de waarde op --download-path."
@@ -764,8 +761,8 @@ msgstr ""
 msgid ""
 "print list of urls where the rpms can be downloaded instead of downloading"
 msgstr ""
-"print lijst met url's waar de rpms kunnen worden gedownload in plaats van te"
-" downloaden"
+"print lijst met url's waar de rpms kunnen worden gedownload in plaats van te "
+"downloaden"
 
 #: ../plugins/download.py:72
 msgid "when running with --url, limit to specific protocols"
@@ -877,11 +874,11 @@ msgstr "Fout: "
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
-"specificeer Copr hub met `--hub` of gebruik het formaat "
-"`copr_hub/copr_username/copr_projectname`"
+"specificeer Copr hub met `--hub` of gebruik het formaat `copr_hub/"
+"copr_username/copr_projectname`"
 
 #: ../plugins/copr.py:149
 msgid "multiple hubs specified"
@@ -910,7 +907,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -919,16 +917,20 @@ msgid ""
 "Do you really want to enable {0}?"
 msgstr ""
 "\n"
-"Je staat op het punt een Copr-repository in te schakelen. Houd er rekening mee dat dit\n"
-"repository geen deel uitmaakt van de hoofddistributie en de kwaliteit kan variëren.\n"
+"Je staat op het punt een Copr-repository in te schakelen. Houd er rekening "
+"mee dat dit\n"
+"repository geen deel uitmaakt van de hoofddistributie en de kwaliteit kan "
+"variëren.\n"
 "\n"
 "Het Fedora Project heeft geen zeggenschap over de inhoud van\n"
 "deze repository behalve de regels beschreven in de Copr_FAQ in\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "en pakketten worden niet getoetst op kwaliteit of beveiliging.\n"
 "\n"
 "Stuur alstublieft geen bug-rapporten over deze pakketten in Fedora\n"
-"Bugzilla. Neem in geval van problemen contact op met de eigenaar van deze repository.\n"
+"Bugzilla. Neem in geval van problemen contact op met de eigenaar van deze "
+"repository.\n"
 "\n"
 "Wil je {0} echt inschakelen?"
 
@@ -950,12 +952,12 @@ msgstr "Onbekend subcommando {}."
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
-"* Deze coprs hebben een repo-bestand met een oud formaat dat geen informatie"
-" bevat over Copr hub - de standaard werd verondersteld. Schakel het project "
+"* Deze coprs hebben een repo-bestand met een oud formaat dat geen informatie "
+"bevat over Copr hub - de standaard werd verondersteld. Schakel het project "
 "opnieuw in om dit te verhelpen."
 
 #: ../plugins/copr.py:340
@@ -1075,8 +1077,8 @@ msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
 msgstr ""
-"Negeer architectuur en installeer ontbrekende pakketten die overeenkomen met"
-" de naam, het tijdvak, de versie en de release."
+"Negeer architectuur en installeer ontbrekende pakketten die overeenkomen met "
+"de naam, het tijdvak, de versie en de release."
 
 #: ../plugins/debug.py:194
 msgid "limit to specified type"

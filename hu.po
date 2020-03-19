@@ -247,7 +247,8 @@ msgstr ""
 "száma: {}"
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 "Versionlock bővítmény:  a(z) „{}” fájlból alkalmazott kizárási szabályok "
 "száma: {}"
@@ -321,8 +322,7 @@ msgid "Some packages could not be found."
 msgstr "Néhány csomag nem található."
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -455,8 +455,8 @@ msgstr "További információk:"
 #: ../plugins/needs_restarting.py:209
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
-"Egyetlen rendszerszintű programkönyvtár és szolgáltatás sem lett frissítve a"
-" rendszerindítás óta."
+"Egyetlen rendszerszintű programkönyvtár és szolgáltatás sem lett frissítve a "
+"rendszerindítás óta."
 
 #: ../plugins/needs_restarting.py:211
 msgid "Reboot should not be necessary."
@@ -512,11 +512,10 @@ msgstr "További adatok kiírása a változások méretéről."
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
-"Csomagok összehasonlítása architektúra szerint. Alapértelmezetten a csomagok"
-" csak név szerint lesznek összehasonlítva."
+"Csomagok összehasonlítása architektúra szerint. Alapértelmezetten a csomagok "
+"csak név szerint lesznek összehasonlítva."
 
 #: ../plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
@@ -644,11 +643,11 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
-"hol tárolja a letöltött tároló-metaadatokat. Az alapértelmezett a "
-"--download-path értéke."
+"hol tárolja a letöltött tároló-metaadatokat. Az alapértelmezett a --download-"
+"path értéke."
 
 #: ../plugins/reposync.py:82
 msgid "try to set local timestamps of local files by the one on the server"
@@ -758,8 +757,7 @@ msgstr ""
 msgid ""
 "print list of urls where the rpms can be downloaded instead of downloading"
 msgstr ""
-"a letöltés helyett csak írja ki az URL-ek listáját, hogy honnan tölthetőek "
-"le"
+"a letöltés helyett csak írja ki az URL-ek listáját, hogy honnan tölthetőek le"
 
 #: ../plugins/download.py:72
 msgid "when running with --url, limit to specific protocols"
@@ -872,11 +870,11 @@ msgstr "Hiba: "
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
-"adja meg a Copr kiszolgálót a „--hub” kapcsolóval vagy  "
-"„copr_hub/copr_username/copr_projectname” formátummal"
+"adja meg a Copr kiszolgálót a „--hub” kapcsolóval vagy  „copr_hub/"
+"copr_username/copr_projectname” formátummal"
 
 #: ../plugins/copr.py:149
 msgid "multiple hubs specified"
@@ -905,7 +903,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -919,7 +918,8 @@ msgstr ""
 "\n"
 "A Fedora Projektnek semmilyen hatalma nincs a tároló tartalma felett,\n"
 "a Copr GYIK-ben leírt szabályokon kívül, amely itt található:\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>.\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>.\n"
 "A csomagoknál nincs garancia semmilyen minőségi vagy biztonsági szintre.\n"
 "\n"
 "Ne jelentsen be hibákat a Fedora Bugzillába. Problémák esetén keresse\n"
@@ -945,8 +945,8 @@ msgstr "Ismeretlen alparancs: {}."
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 "* Ezek a Copr tárolók olyan régi formátumú repo fájlokat tartalmaz, "
@@ -988,8 +988,7 @@ msgstr "Ezt a parancsot root felhasználóként kell futtatni."
 #: ../plugins/copr.py:458
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
-msgstr ""
-"Ez a tároló még nem tartalmaz építéseket, így most nem engedélyezheti."
+msgstr "Ez a tároló még nem tartalmaz építéseket, így most nem engedélyezheti."
 
 #: ../plugins/copr.py:461
 msgid "Such repository does not exist."

@@ -156,8 +156,7 @@ msgstr ""
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr ""
-"Impossible de trouver le paquet debugsource pour ces paquets disponibles : "
-"%s"
+"Impossible de trouver le paquet debugsource pour ces paquets disponibles : %s"
 
 #: ../plugins/debuginfo-install.py:190
 #, python-format
@@ -254,7 +253,8 @@ msgstr ""
 "appliquées : {}"
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 "Versionlock plugin: nombre de règles d’exclusion du fichier \"{}\" "
 "appliquées : {}"
@@ -310,8 +310,7 @@ msgstr "définit une macro pour l’interprétation du fichier spec"
 
 #: ../plugins/builddep.py:95
 msgid "skip build dependencies not available in repositories"
-msgstr ""
-"ignorer les dépendances de compilation non disponibles dans les dépôts"
+msgstr "ignorer les dépendances de compilation non disponibles dans les dépôts"
 
 #: ../plugins/builddep.py:98
 msgid "treat commandline arguments as spec files"
@@ -330,8 +329,7 @@ msgid "Some packages could not be found."
 msgstr "Certains paquets n’ont pu être trouvés."
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -526,11 +524,10 @@ msgstr "Affichez des données supplémentaires sur la taille des changements."
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
-"Compare également les paquets par architecture. Par défaut, les paquets sont"
-" uniquement comparés par nom."
+"Compare également les paquets par architecture. Par défaut, les paquets sont "
+"uniquement comparés par nom."
 
 #: ../plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
@@ -658,11 +655,11 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
-"là où stocker les métadonnées du dépôt. Prend par défaut la valeur de "
-"--download-path."
+"là où stocker les métadonnées du dépôt. Prend par défaut la valeur de --"
+"download-path."
 
 #: ../plugins/reposync.py:82
 msgid "try to set local timestamps of local files by the one on the server"
@@ -691,8 +688,8 @@ msgstr "Échec de l’obtention du miroir pour le fichier de groupe."
 #: ../plugins/reposync.py:175
 msgid "Download target '{}' is outside of download path '{}'."
 msgstr ""
-"La cible de téléchargement « {} » est en dehors du chemin de téléchargement"
-"  « {} »."
+"La cible de téléchargement « {} » est en dehors du chemin de téléchargement  "
+"« {} »."
 
 #: ../plugins/reposync.py:260 ../plugins/download.py:121
 #, python-format
@@ -888,11 +885,11 @@ msgstr "Erreur :"
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
-"précisez un hub Copr soit via `--hub` ou en utilisant le format "
-"`hub_copr/utilisateur_copr/projet_copr`"
+"précisez un hub Copr soit via `--hub` ou en utilisant le format `hub_copr/"
+"utilisateur_copr/projet_copr`"
 
 #: ../plugins/copr.py:149
 msgid "multiple hubs specified"
@@ -905,8 +902,8 @@ msgstr "la commande copr requiert exactement deux paramètres additionnels"
 #: ../plugins/copr.py:231
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
-"utilisez le  format `copr_username/copr_projectname` pour faire référence au"
-" projet copr"
+"utilisez le  format `copr_username/copr_projectname` pour faire référence au "
+"projet copr"
 
 #: ../plugins/copr.py:233
 msgid "bad copr project format"
@@ -921,7 +918,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -930,14 +928,18 @@ msgid ""
 "Do you really want to enable {0}?"
 msgstr ""
 "\n"
-"Vous êtes sur le point d’activer un dépôt Copr. Veuillez remarquer que ce dépôt\n"
-"n’est pas partie intégrante de la distribution, et que la qualité pourrait varier.\n"
+"Vous êtes sur le point d’activer un dépôt Copr. Veuillez remarquer que ce "
+"dépôt\n"
+"n’est pas partie intégrante de la distribution, et que la qualité pourrait "
+"varier.\n"
 "\n"
 "Le projet Fedora n’exerce aucun pouvoir sur le contenu de ce dépôt au delà\n"
-"des règles précisées dans la FAQ Copr <https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>\n"
+"des règles précisées dans la FAQ Copr <https://docs.pagure.org/copr.copr/"
+"user_documentation.html#what-i-can-build-in-copr>\n"
 "et les paquets ne sont tenus à aucun niveau de qualité ou de sécurité.\n"
 "\n"
-"Veuillez ne pas signaler de bugs à propos de ces paquets dans le Bugzilla de Fedora.\n"
+"Veuillez ne pas signaler de bugs à propos de ces paquets dans le Bugzilla de "
+"Fedora.\n"
 "En cas de problèmes, contactez le propriétaire de ce dépôt.\n"
 "\n"
 "Voulez-vous vraiment activer {0} ?"
@@ -960,8 +962,8 @@ msgstr "Sous-commande inconnue {}."
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 "* Ces Copr ont des fichiers de dépôts avec un ancien format qui ne contient "

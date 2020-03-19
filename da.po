@@ -87,8 +87,8 @@ msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
 msgstr ""
-"vis ændringslogposter siden DATO. Det anbefales at bruge ÅÅÅÅ-MM-DD-formatet"
-" for at undgå tvetydighed."
+"vis ændringslogposter siden DATO. Det anbefales at bruge ÅÅÅÅ-MM-DD-formatet "
+"for at undgå tvetydighed."
 
 #: ../plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
@@ -243,8 +243,10 @@ msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr "Versionslås-plugin: antal låseregler fra filen \"{}\" anvendt: {}"
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
-msgstr "Versionslås-plugin: antal udelukkelsesregler fra filen \"{}\" anvendt: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgstr ""
+"Versionslås-plugin: antal udelukkelsesregler fra filen \"{}\" anvendt: {}"
 
 #: ../plugins/versionlock.py:44 ../plugins/versionlock_master.py:41
 msgid "Versionlock plugin: could not parse pattern:"
@@ -315,8 +317,7 @@ msgid "Some packages could not be found."
 msgstr "Nogle pakker blev ikke fundet."
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -428,8 +429,8 @@ msgstr "overvej kun denne brugers processer"
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
-"rapportér kun om det er nødvendigt at genstarte (afslutningskode 1) eller ej"
-" (afslutningskode 0)"
+"rapportér kun om det er nødvendigt at genstarte (afslutningskode 1) eller ej "
+"(afslutningskode 0)"
 
 #: ../plugins/needs_restarting.py:199
 msgid "Core libraries or services have been updated since boot-up:"
@@ -503,8 +504,7 @@ msgstr "Output yderligere data om ændringens størrelse."
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
 "Sammenlign pakker, også efter arkitektur. Som standard sammenlignes pakker "
 "kun efter navn."
@@ -632,11 +632,11 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
-"hvor downloadede softwarearkivmetadata skal gemmes. Standard er værdien af "
-"--download-path."
+"hvor downloadede softwarearkivmetadata skal gemmes. Standard er værdien af --"
+"download-path."
 
 #: ../plugins/reposync.py:82
 msgid "try to set local timestamps of local files by the one on the server"
@@ -858,11 +858,11 @@ msgstr "Fejl: "
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
-"angiv enten Copr-hub med `--hub` eller ved at bruge "
-"`copr_hub/copr_brugernavn/copr_projektnavn`-format"
+"angiv enten Copr-hub med `--hub` eller ved at bruge `copr_hub/"
+"copr_brugernavn/copr_projektnavn`-format"
 
 #: ../plugins/copr.py:149
 msgid "multiple hubs specified"
@@ -891,7 +891,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -900,16 +901,19 @@ msgid ""
 "Do you really want to enable {0}?"
 msgstr ""
 "\n"
-"Du er ved at aktivere et Copr-softwarearkiv. Bemærk venligst at softwarearkivet\n"
+"Du er ved at aktivere et Copr-softwarearkiv. Bemærk venligst at "
+"softwarearkivet\n"
 "ikke er en del af hoveddistributionen, og kvaliteten kan være en anden.\n"
 "\n"
 "Fedora-projektet bestemmer ikke over indholdet i\n"
 "softwarearkivet, udover reglerne som beskrevet i Copr FAQ på\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "og pakkerne holdes ikke på noget kvalitets- eller sikkerhedsniveau.\n"
 "\n"
 "Indsend venligst ikke fejlrapporter om pakkerne i Fedora\n"
-"Bugzilla. Hvis du oplever problemer kan du kontakte ejeren af softwarearkivet.\n"
+"Bugzilla. Hvis du oplever problemer kan du kontakte ejeren af "
+"softwarearkivet.\n"
 "\n"
 "Vil du virkelig aktivere {0}?"
 
@@ -931,8 +935,8 @@ msgstr "Ukendt underkommando {}."
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 "* Disse coprs har softwarearkivfil med et ældre format som ikke indeholder "

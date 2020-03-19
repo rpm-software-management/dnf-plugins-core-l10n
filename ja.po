@@ -233,7 +233,8 @@ msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr "versionlock プラグイン: ファイル \"{}\" のロックルールの数を適用: {}"
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr "versionlock プラグイン: ファイル \"{}\" の除外ルールの数を適用: {}"
 
 #: ../plugins/versionlock.py:44 ../plugins/versionlock_master.py:41
@@ -304,8 +305,7 @@ msgid "Some packages could not be found."
 msgstr "一部のパッケージは見つかりませんでした。"
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -314,7 +314,8 @@ msgstr "インストール用の一致するパッケージがありません: '
 #: ../plugins/builddep.py:191
 #, python-format
 msgid "Failed to open: '%s', not a valid source rpm file."
-msgstr "開くことに失敗しました: '%s'、有効なソース rpm ファイルではありません。"
+msgstr ""
+"開くことに失敗しました: '%s'、有効なソース rpm ファイルではありません。"
 
 #: ../plugins/builddep.py:204 ../plugins/builddep.py:220
 #: ../plugins/builddep.py:237
@@ -402,7 +403,8 @@ msgstr "ローカル repo を再ビルド中"
 
 #: ../plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
-msgstr "他のパッケージから必要とされないインスール済みパッケージを一覧表示します"
+msgstr ""
+"他のパッケージから必要とされないインスール済みパッケージを一覧表示します"
 
 #: ../plugins/needs_restarting.py:173
 msgid "determine updated binaries that need restarting"
@@ -485,8 +487,7 @@ msgstr ""
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
 
 #: ../plugins/repodiff.py:72
@@ -605,8 +606,8 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
 
 #: ../plugins/reposync.py:82
@@ -712,7 +713,8 @@ msgstr ""
 #: ../plugins/download.py:67
 msgid ""
 "print list of urls where the rpms can be downloaded instead of downloading"
-msgstr "ダウンロードする代わりに、rpm をダウンロードできる url の一覧を印刷します"
+msgstr ""
+"ダウンロードする代わりに、rpm をダウンロードできる url の一覧を印刷します"
 
 #: ../plugins/download.py:72
 msgid "when running with --url, limit to specific protocols"
@@ -738,7 +740,8 @@ msgstr "利用可能なパッケージ %s はありません。"
 
 #: ../plugins/show_leaves.py:54
 msgid "New leaves:"
-msgstr "新規のリーフパッケージ (他のパッケージから依存されていないパッケージ) :"
+msgstr ""
+"新規のリーフパッケージ (他のパッケージから依存されていないパッケージ) :"
 
 #: ../plugins/copr.py:56
 msgid "yes"
@@ -800,7 +803,8 @@ msgstr ""
 
 #: ../plugins/copr.py:103
 msgid "List all installed Copr repositories (default)"
-msgstr "インストール済みのすべての Copr リポジトリーを一覧表示します (デフォルト)"
+msgstr ""
+"インストール済みのすべての Copr リポジトリーを一覧表示します (デフォルト)"
 
 #: ../plugins/copr.py:105
 msgid "List enabled Copr repositories"
@@ -824,8 +828,8 @@ msgstr "エラー: "
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
 
 #: ../plugins/copr.py:149
@@ -838,7 +842,9 @@ msgstr "copr コマンドに厳密に 2 つの追加パラメーターが必要�
 
 #: ../plugins/copr.py:231
 msgid "use format `copr_username/copr_projectname` to reference copr project"
-msgstr "copr プロジェクトを参照するには `copr_username/copr_projectname` 形式を使用します"
+msgstr ""
+"copr プロジェクトを参照するには `copr_username/copr_projectname` 形式を使用し"
+"ます"
 
 #: ../plugins/copr.py:233
 msgid "bad copr project format"
@@ -853,7 +859,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -880,8 +887,8 @@ msgstr "不明なサブコマンド {}。"
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 
@@ -920,7 +927,8 @@ msgstr "このコマンドは root ユーザーの下で実行する必要があ
 #: ../plugins/copr.py:458
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
-msgstr "このリポジトリーにはまだビルドがありませんので、今すぐ有効化できません。"
+msgstr ""
+"このリポジトリーにはまだビルドがありませんので、今すぐ有効化できません。"
 
 #: ../plugins/copr.py:461
 msgid "Such repository does not exist."
@@ -1000,7 +1008,9 @@ msgstr "記録されたパッケージの最新バージョンをインストー
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
-msgstr "アーキテクチャーを無視し、名前、エポック、バージョン、およびリリースと一致する不足のパッケージをインストールします。"
+msgstr ""
+"アーキテクチャーを無視し、名前、エポック、バージョン、およびリリースと一致す"
+"る不足のパッケージをインストールします。"
 
 #: ../plugins/debug.py:194
 msgid "limit to specified type"

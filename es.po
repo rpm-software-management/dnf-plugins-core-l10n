@@ -91,8 +91,7 @@ msgstr "Mostrar cambios de los paquetes"
 msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
-msgstr ""
-"mostrar cambios desde FECHA. Se recomienda usar el formato AAAA-MM-DD."
+msgstr "mostrar cambios desde FECHA. Se recomienda usar el formato AAAA-MM-DD."
 
 #: ../plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
@@ -269,7 +268,8 @@ msgstr ""
 "\"{}\": {}"
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 "Versionlock plugin: número de reglas de exclusión aplicadas del archivo "
 "\"{}\": {}"
@@ -342,8 +342,7 @@ msgid "Some packages could not be found."
 msgstr "Algunos paquetes no pudieron ser encontrados."
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -552,11 +551,10 @@ msgstr "Mostrar datos sobre el tamaño de los cambios."
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
-"Comparar paquetes por arquitectura. De forma predeterminado sólo se comparan"
-" por nombre."
+"Comparar paquetes por arquitectura. De forma predeterminado sólo se comparan "
+"por nombre."
 
 #: ../plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
@@ -682,8 +680,8 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
 "dónde almacenar los metadatos descargados de los repositorios. El valor "
 "predeterminado es el de --download-path."
@@ -805,8 +803,8 @@ msgid ""
 "when running with --resolve, download all dependencies (do not exclude "
 "already installed ones)"
 msgstr ""
-"descargar todas las dependencias cuando se usa --resolve (no excluir las que"
-" ya están instaladas)"
+"descargar todas las dependencias cuando se usa --resolve (no excluir las que "
+"ya están instaladas)"
 
 #: ../plugins/download.py:67
 msgid ""
@@ -901,8 +899,7 @@ msgstr ""
 
 #: ../plugins/copr.py:103
 msgid "List all installed Copr repositories (default)"
-msgstr ""
-"Mostrar todos los repositorios Copr instalados (opción predeterminada)"
+msgstr "Mostrar todos los repositorios Copr instalados (opción predeterminada)"
 
 #: ../plugins/copr.py:105
 msgid "List enabled Copr repositories"
@@ -926,8 +923,8 @@ msgstr "Error:"
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
 
 #: ../plugins/copr.py:149
@@ -958,7 +955,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -972,11 +970,13 @@ msgstr ""
 "\n"
 "El Proyecto Fedora no ejerce ningún control sobre el contenido de este\n"
 "repositorio, más allá de las reglas publicadas en el P+F de Copr\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "y no se comprueba la calidad ni la seguridad de los paquetes.\n"
 "\n"
 "No envíe informes de errores sobre estos paquetes al Bugzilla de Fedora. Si\n"
-"observa problemas, contacte directamente con el propietario de este repositorio.\n"
+"observa problemas, contacte directamente con el propietario de este "
+"repositorio.\n"
 "\n"
 "¿Realmente quiere activar {0}?"
 
@@ -998,8 +998,8 @@ msgstr "Subcomando {} desconocido."
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 
@@ -1039,8 +1039,7 @@ msgstr "Este comando debe ejecutarse como usuario root."
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr ""
-"Este repositorio no tiene construcciones todavía así que no lo puede "
-"activar."
+"Este repositorio no tiene construcciones todavía así que no lo puede activar."
 
 #: ../plugins/copr.py:461
 msgid "Such repository does not exist."

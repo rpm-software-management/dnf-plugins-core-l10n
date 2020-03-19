@@ -13,7 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Zanata 4.6.2\n"
 
 #: ../plugins/reposync.orig.py:42 ../plugins/reposync.py:54
@@ -29,8 +30,7 @@ msgstr "загрузить только пакеты для этой архит�
 #: ../plugins/reposync.orig.py:50 ../plugins/reposync.py:65
 #: ../plugins/reposync.175df5c.py:50
 msgid "delete local packages no longer present in repository"
-msgstr ""
-"удалить локальные пакеты, которые больше не присутствуют в репозитории"
+msgstr "удалить локальные пакеты, которые больше не присутствуют в репозитории"
 
 #: ../plugins/reposync.orig.py:52 ../plugins/reposync.175df5c.py:52
 msgid "also download comps.xml"
@@ -244,7 +244,8 @@ msgstr ""
 "{}"
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 "Подключаемый модуль Versionlock: применено правил исключения из файла «{}»: "
 "{}"
@@ -317,8 +318,7 @@ msgid "Some packages could not be found."
 msgstr "Некоторые пакеты не удалось найти."
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -433,8 +433,7 @@ msgstr "рассматривать только процессы этого по
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
-"сообщать только, требуется перезагрузка (код выхода 1) или нет (код выхода "
-"0)"
+"сообщать только, требуется перезагрузка (код выхода 1) или нет (код выхода 0)"
 
 #: ../plugins/needs_restarting.py:199
 msgid "Core libraries or services have been updated since boot-up:"
@@ -451,8 +450,7 @@ msgstr "Дополнительная информация:"
 #: ../plugins/needs_restarting.py:209
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
-"Никакие основные библиотеки или службы не были обновлены со времени "
-"загрузки:"
+"Никакие основные библиотеки или службы не были обновлены со времени загрузки:"
 
 #: ../plugins/needs_restarting.py:211
 msgid "Reboot should not be necessary."
@@ -468,8 +466,7 @@ msgstr "Repoclosure завершил работу с неразрешенным�
 
 #: ../plugins/repoclosure.py:153
 msgid "check packages of the given archs, can be specified multiple times"
-msgstr ""
-"проверить пакеты указанных архитектур, могут быть заданы несколько раз"
+msgstr "проверить пакеты указанных архитектур, могут быть заданы несколько раз"
 
 #: ../plugins/repoclosure.py:156
 msgid "Specify repositories to check"
@@ -509,8 +506,7 @@ msgstr "Выводить дополнительные данные о разме
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
 "Сравнивать пакеты еще и по архитектуре. По умолчанию, пакеты сравниваются "
 "только по имени."
@@ -641,8 +637,8 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
 "где хранить метаданные загруженных репозиториев. По умолчанию --download-"
 "path."
@@ -866,8 +862,8 @@ msgstr "Ошибка:"
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
 "укажите узел Copr либо с помощью `--hub`, либо с использованием формата "
 "`copr_hub/copr_username/copr_projectname`"
@@ -883,8 +879,7 @@ msgstr "требуются в точности два дополнительны
 #: ../plugins/copr.py:231
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
-"для ссылки на проект copr используйте формат "
-"`copr_username/copr_projectname`"
+"для ссылки на проект copr используйте формат `copr_username/copr_projectname`"
 
 #: ../plugins/copr.py:233
 msgid "bad copr project format"
@@ -899,7 +894,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -909,15 +905,18 @@ msgid ""
 msgstr ""
 "\n"
 "Вы собираетесь включить репозиторий Copr. Обратите внимание, \n"
-"что этот репозиторий не является частью основного дистрибутива, и качество может отличаться.\n"
+"что этот репозиторий не является частью основного дистрибутива, и качество "
+"может отличаться.\n"
 "\n"
 "Проект Fedora не имеет какого-либо влияния на содержимое этого\n"
 "репозитория за рамками  правил, описанных в Вопросах и Ответах Copr в\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "а качество и безопасность пакетов не поддерживаются на каком-либо уровне.\n"
 "\n"
 "Не отправляйте сообщения об ошибках этих пакетов в Fedora\n"
-"Bugzilla. В случае возникновения проблем обращайтесь к владельцу этого репозитория.\n"
+"Bugzilla. В случае возникновения проблем обращайтесь к владельцу этого "
+"репозитория.\n"
 "\n"
 "Действительно хотите включить {0}?"
 
@@ -939,8 +938,8 @@ msgstr "Неизвестная подкоманда {}."
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 "* У этих copr-репозиториев rep-файл имеет старый формат, в котором нет "

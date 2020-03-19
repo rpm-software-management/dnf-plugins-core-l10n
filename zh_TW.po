@@ -237,7 +237,8 @@ msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr "Versionlock 外掛程式：來自「{}」檔案的封鎖條件數量已經套用：{}"
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr "Versionlock 外掛程式：來自「{}」檔案的排除條件數量已經套用：{}"
 
 #: ../plugins/versionlock.py:44 ../plugins/versionlock_master.py:41
@@ -308,8 +309,7 @@ msgid "Some packages could not be found."
 msgstr "有些軟體包遍尋不著。"
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -489,8 +489,7 @@ msgstr ""
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
 
 #: ../plugins/repodiff.py:72
@@ -609,8 +608,8 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
 
 #: ../plugins/reposync.py:82
@@ -828,10 +827,11 @@ msgstr "錯誤："
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
-"對 Copr hub 指定任選 `--hub` 或使用 `copr_hub/copr_username/copr_projectname` 格式"
+"對 Copr hub 指定任選 `--hub` 或使用 `copr_hub/copr_username/"
+"copr_projectname` 格式"
 
 #: ../plugins/copr.py:149
 msgid "multiple hubs specified"
@@ -858,7 +858,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -870,9 +871,12 @@ msgstr ""
 "您正打算啟用一個 Copr 軟體庫。請注意這個軟體庫\n"
 "不是主散布版的一部分，並且品質不定。\n"
 "\n"
-"Fedora Project 不會對這個軟體庫的內容行使任何超出 Copr 常見問題（<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>）列出規則之外的權力，且軟體包並不保有任何的品質與安全性保證。\n"
+"Fedora Project 不會對這個軟體庫的內容行使任何超出 Copr 常見問題（<https://"
+"docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>）"
+"列出規則之外的權力，且軟體包並不保有任何的品質與安全性保證。\n"
 "\n"
-"請不要發送關於這些軟體包的漏洞回報至 Fedora Bugzilla。假如碰到問題，請聯絡此軟體庫的擁有者。\n"
+"請不要發送關於這些軟體包的漏洞回報至 Fedora Bugzilla。假如碰到問題，請聯絡此"
+"軟體庫的擁有者。\n"
 "\n"
 "仍要啟用 {0}？"
 
@@ -894,10 +898,12 @@ msgstr "未知的子指令 {}。"
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
-msgstr "* 這些 Copr 包含舊格式的 repo 檔案，其可能不包含 Copr hub 的資訊 - 已假定為預設值。重新啟用專案以修復此問題。"
+msgstr ""
+"* 這些 Copr 包含舊格式的 repo 檔案，其可能不包含 Copr hub 的資訊 - 已假定為預"
+"設值。重新啟用專案以修復此問題。"
 
 #: ../plugins/copr.py:340
 msgid "Can't parse repositories for username '{}'."

@@ -232,7 +232,8 @@ msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 
 #: ../plugins/versionlock.py:44 ../plugins/versionlock_master.py:41
@@ -303,8 +304,7 @@ msgid "Some packages could not be found."
 msgstr ""
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: ../plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -484,8 +484,7 @@ msgstr ""
 
 #: ../plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
 
 #: ../plugins/repodiff.py:72
@@ -604,8 +603,8 @@ msgstr ""
 
 #: ../plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
 
 #: ../plugins/reposync.py:82
@@ -780,7 +779,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"  프로젝트 이름 / 프로젝트 제거 - 설치 / 사용 / 사용 안 함 목록 - 사용 가능 사용자 = NAME 검색 프로젝트 예 : copr enable rhscl / perl516 epel-6-x86_64 copr enable ignatenkobrain / ocltoys copr 비활성화 rhscl / perl516 copr 제거 rhscl / perl516 copr 목록 - 사용 가능 목록 - 사용 가능 사용자 = ignatenkobrain copr 검색 테스트\n"
+"  프로젝트 이름 / 프로젝트 제거 - 설치 / 사용 / 사용 안 함 목록 - 사용 가능 "
+"사용자 = NAME 검색 프로젝트 예 : copr enable rhscl / perl516 epel-6-x86_64 "
+"copr enable ignatenkobrain / ocltoys copr 비활성화 rhscl / perl516 copr 제거 "
+"rhscl / perl516 copr 목록 - 사용 가능 목록 - 사용 가능 사용자 = "
+"ignatenkobrain copr 검색 테스트\n"
 "    "
 
 #: ../plugins/copr.py:103
@@ -809,8 +812,8 @@ msgstr "오류: "
 
 #: ../plugins/copr.py:146
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
 
 #: ../plugins/copr.py:149
@@ -823,7 +826,9 @@ msgstr "copr 명령에 정확히 두 개의 추가 매개 변수가 필요합니
 
 #: ../plugins/copr.py:231
 msgid "use format `copr_username/copr_projectname` to reference copr project"
-msgstr "copr 프로젝트를 참조하기 위해`copr_username / copr_projectname` 형식을 사용하십시오"
+msgstr ""
+"copr 프로젝트를 참조하기 위해`copr_username / copr_projectname` 형식을 사용하"
+"십시오"
 
 #: ../plugins/copr.py:233
 msgid "bad copr project format"
@@ -838,7 +843,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -865,8 +871,8 @@ msgstr "알 수없는 부속 명령 {}."
 
 #: ../plugins/copr.py:328
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 
@@ -983,7 +989,9 @@ msgstr "기록 된 패키지의 최신 버전을 설치하십시오."
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
-msgstr "아키텍처를 무시하고 이름, 기원, 버전 및 릴리스와 일치하는 누락 된 패키지를 설치하십시오."
+msgstr ""
+"아키텍처를 무시하고 이름, 기원, 버전 및 릴리스와 일치하는 누락 된 패키지를 설"
+"치하십시오."
 
 #: ../plugins/debug.py:194
 msgid "limit to specified type"
