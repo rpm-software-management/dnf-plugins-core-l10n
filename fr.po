@@ -1,24 +1,25 @@
 # Charles-Antoine Couret <renault@fedoraproject.org>, 2016. #zanata
-# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2016. #zanata
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2016. #zanata, 2020.
 # José Fournier <jaaf64@zoraldia.com>, 2017. #zanata
 # Jérôme Fenal <jfenal@gmail.com>, 2017. #zanata
-# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2018. #zanata
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2018. #zanata, 2020.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
-# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 14:54+0100\n"
-"PO-Revision-Date: 2019-12-02 09:04+0000\n"
+"PO-Revision-Date: 2020-03-19 21:07+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
-"Language-Team: French\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../plugins/reposync.orig.py:42 ../plugins/reposync.py:54
 #: ../plugins/reposync.175df5c.py:42
@@ -46,7 +47,7 @@ msgstr "ne télécharger que les nouveaux paquets per-rep"
 
 #: ../plugins/reposync.orig.py:56 ../plugins/reposync.175df5c.py:56
 msgid "where to store downloaded repositories "
-msgstr "là où stocker les dépôts téléchargés"
+msgstr "là où stocker les dépôts téléchargés "
 
 #: ../plugins/reposync.orig.py:58 ../plugins/reposync.py:80
 #: ../plugins/reposync.175df5c.py:58
@@ -79,7 +80,7 @@ msgstr "comps.xml pour le dépôt %s sauvegardé"
 #: ../plugins/changelog.py:37
 #, python-brace-format
 msgid "Not a valid date: \"{0}\"."
-msgstr "Date invalide :  « {0} »"
+msgstr "Date invalide : « {0} »."
 
 #: ../plugins/changelog.py:43
 msgid "Show changelog data of packages"
@@ -185,7 +186,7 @@ msgstr "Ne peut lire la configuration du verrouillage de version : %s"
 #: ../plugins/versionlock_old.py:33 ../plugins/versionlock.py:33
 #: ../plugins/versionlock_master.py:33
 msgid "Locklist not set"
-msgstr "Liste des verrouillages non établie."
+msgstr "Liste des verrouillages non établie"
 
 #: ../plugins/versionlock_old.py:34 ../plugins/versionlock.py:34
 #: ../plugins/versionlock_master.py:34
@@ -236,32 +237,32 @@ msgstr "Aucun paquet ne fournit : « %s »"
 
 #: ../plugins/versionlock.py:36
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "Paquet déjà verrouillé sous une forme équivalente :"
 
 #: ../plugins/versionlock.py:37
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "Le paquet {} est déjà verrouillé"
 
 #: ../plugins/versionlock.py:38
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "Le paquet {} est déjà exclu"
 
 #: ../plugins/versionlock.py:42 ../plugins/versionlock_master.py:39
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
-"Versionlock plugin: nombre de règles de verrouillage du fichier \"{}\" "
-"appliquées : {}"
+"Plugin versionlock : nombre de règles de verrouillage du fichier \"{}\" "
+"appliquées : {}"
 
 #: ../plugins/versionlock.py:43 ../plugins/versionlock_master.py:40
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
-"Versionlock plugin: nombre de règles d’exclusion du fichier \"{}\" "
-"appliquées : {}"
+"Plugin versionlock : nombre de règles d’exclusion du fichier \"{}\" "
+"appliquées : {}"
 
 #: ../plugins/versionlock.py:44 ../plugins/versionlock_master.py:41
 msgid "Versionlock plugin: could not parse pattern:"
-msgstr "Versionlock plugin: n’a pas pu analyser le modèle :"
+msgstr "Plugin versionlock : n’a pas pu analyser le modèle :"
 
 #: ../plugins/versionlock.py:133
 msgid "Use package specifications as they are, do not try to parse them"
@@ -348,7 +349,7 @@ msgstr "Toutes les dépendances ne sont pas satisfaites"
 #: ../plugins/builddep.py:211
 #, python-format
 msgid "Failed to open: '%s', not a valid spec file: %s"
-msgstr "Échec à l’ouverture de « %s », %s n’est pas un fichier  spec valide"
+msgstr "Échec à l’ouverture de « %s », %s n’est pas un fichier spec valide"
 
 #: ../plugins/builddep.py:230 ../plugins/repoclosure.py:118
 #, python-format
@@ -358,7 +359,7 @@ msgstr "aucun paquet ne correspond à : %s"
 #: ../plugins/config_manager.py:37
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
-msgstr "gestion de la configuration et des dépôts  {prog}"
+msgstr "gestion de la configuration et des dépôts {prog}"
 
 #: ../plugins/config_manager.py:44
 msgid "repo to modify"
@@ -383,7 +384,7 @@ msgstr "affiche les valeurs des variables sur la sortie standard"
 
 #: ../plugins/config_manager.py:70
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "un des paramètres suivants est nécessaire : {}"
 
 #: ../plugins/config_manager.py:113
 #, python-format
@@ -465,8 +466,8 @@ msgstr "Plus d’information :"
 #: ../plugins/needs_restarting.py:209
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
-"Aucune bibliothèque ou service de base mis à jour depuis le démarrage (boot-"
-"up) :"
+"Aucune bibliothèque ou service de base n’a été mis à jour depuis le "
+"démarrage."
 
 #: ../plugins/needs_restarting.py:211
 msgid "Reboot should not be necessary."
@@ -478,7 +479,7 @@ msgstr "Affiche une liste de dépendances non résolues pour les dépôts"
 
 #: ../plugins/repoclosure.py:66
 msgid "Repoclosure ended with unresolved dependencies."
-msgstr "Repoclosure a terminé avec des dépendances non-résolues"
+msgstr "Repoclosure a terminé avec des dépendances non-résolues."
 
 #: ../plugins/repoclosure.py:153
 msgid "check packages of the given archs, can be specified multiple times"
@@ -651,7 +652,7 @@ msgstr "lieu où stocker les dépôts téléchargés"
 
 #: ../plugins/reposync.py:75
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "N’ajoutez pas le nom du dépôt dans le chemin de téléchargement."
 
 #: ../plugins/reposync.py:77
 msgid ""
@@ -674,7 +675,7 @@ msgstr ""
 
 #: ../plugins/reposync.py:109
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "Impossible d’utiliser --norepopath avec de multiples dépôts"
 
 #: ../plugins/reposync.py:127
 #, python-format
@@ -688,8 +689,8 @@ msgstr "Échec de l’obtention du miroir pour le fichier de groupe."
 #: ../plugins/reposync.py:175
 msgid "Download target '{}' is outside of download path '{}'."
 msgstr ""
-"La cible de téléchargement « {} » est en dehors du chemin de téléchargement  "
-"« {} »."
+"La cible de téléchargement « {} » est en dehors du chemin de téléchargement «"
+" {} »."
 
 #: ../plugins/reposync.py:260 ../plugins/download.py:121
 #, python-format
@@ -726,7 +727,7 @@ msgstr "Sorties séparées par des espaces plutôt que des retours à la ligne"
 
 #: ../plugins/repomanage.py:136
 msgid "Newest N packages to keep - defaults to 1"
-msgstr "N paquets les plus récents à conserver  — par défaut 1"
+msgstr "N paquets les plus récents à conserver — par défaut 1"
 
 #: ../plugins/repomanage.py:139
 msgid "Path to directory"
@@ -754,7 +755,7 @@ msgstr "télécharge plutôt le paquet -debugsource"
 
 #: ../plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
-msgstr "limite les requêtes de paquets aux architectures spécifiées"
+msgstr "limite les requêtes de paquets aux architectures spécifiées."
 
 #: ../plugins/download.py:62
 msgid "resolve and download needed dependencies"
@@ -795,7 +796,7 @@ msgstr "Aucune source définie pour %s"
 #: ../plugins/download.py:296 ../plugins/download.py:309
 #, python-format
 msgid "No package %s available."
-msgstr "Aucun paquet %s n’est disponible"
+msgstr "Aucun paquet %s n’est disponible."
 
 #: ../plugins/show_leaves.py:54
 msgid "New leaves:"
@@ -849,7 +850,7 @@ msgstr ""
 "  list --available-by-user=NOM\n"
 "  search projet\n"
 "\n"
-"  Exemples:\n"
+"  Exemples :\n"
 "  copr enable rhscl/perl516 epel-6-x86_64\n"
 "  copr enable ignatenkobrain/ocltoys\n"
 "  copr disable rhscl/perl516\n"
@@ -881,7 +882,7 @@ msgstr "Précisez une instance Copr avec laquelle travailler"
 
 #: ../plugins/copr.py:145 ../plugins/copr.py:210 ../plugins/copr.py:230
 msgid "Error: "
-msgstr "Erreur :"
+msgstr "Erreur : "
 
 #: ../plugins/copr.py:146
 msgid ""
@@ -902,12 +903,12 @@ msgstr "la commande copr requiert exactement deux paramètres additionnels"
 #: ../plugins/copr.py:231
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
-"utilisez le  format `copr_username/copr_projectname` pour faire référence au "
+"utilisez le format `copr_username/copr_projectname` pour faire référence au "
 "projet copr"
 
 #: ../plugins/copr.py:233
 msgid "bad copr project format"
-msgstr "mauvais format de projet  copr"
+msgstr "mauvais format de projet copr"
 
 #: ../plugins/copr.py:247
 #, python-brace-format
@@ -934,8 +935,9 @@ msgstr ""
 "varier.\n"
 "\n"
 "Le projet Fedora n’exerce aucun pouvoir sur le contenu de ce dépôt au delà\n"
-"des règles précisées dans la FAQ Copr <https://docs.pagure.org/copr.copr/"
-"user_documentation.html#what-i-can-build-in-copr>\n"
+"des règles précisées dans la FAQ Copr \n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "et les paquets ne sont tenus à aucun niveau de qualité ou de sécurité.\n"
 "\n"
 "Veuillez ne pas signaler de bugs à propos de ces paquets dans le Bugzilla de "
@@ -977,7 +979,7 @@ msgstr ""
 
 #: ../plugins/copr.py:343
 msgid "List of {} coprs"
-msgstr "Liste de  {} coprs"
+msgstr "Liste de {} coprs"
 
 #: ../plugins/copr.py:351
 msgid "No description given"
@@ -1057,11 +1059,11 @@ msgstr "Mise à jour des dépôts Playground réussie."
 
 #: ../plugins/debug.py:53
 msgid "dump information about installed rpm packages to file"
-msgstr "déverse les informations des paquets rpm installés vers un fichier "
+msgstr "déverse les informations des paquets rpm installés vers un fichier"
 
 #: ../plugins/debug.py:67
 msgid "do not attempt to dump the repository contents."
-msgstr "ne tente pas de déverser le contenu du dépôt"
+msgstr "ne pas tenter de déverser le contenu du dépôt."
 
 #: ../plugins/debug.py:70
 msgid "optional name of dump file"
