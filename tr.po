@@ -1,12 +1,13 @@
 # Serdar Sağlam <teknomobil@msn.com>, 2019. #zanata
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 14:54+0100\n"
 "PO-Revision-Date: 2020-03-22 12:28+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
@@ -310,7 +311,7 @@ msgstr "komut satırı argümanlarını kaynak rpm olarak değerlendir"
 
 #: ../plugins/builddep.py:144
 msgid "RPM: {}"
-msgstr ""
+msgstr "RPM: {}"
 
 #: ../plugins/builddep.py:153
 msgid "Some packages could not be found."
@@ -775,7 +776,7 @@ msgstr "%s için tanımlanan kaynak rpm yok"
 #: ../plugins/download.py:296 ../plugins/download.py:309
 #, python-format
 msgid "No package %s available."
-msgstr ""
+msgstr "%s paketi mevcut değil."
 
 #: ../plugins/show_leaves.py:54
 msgid "New leaves:"
@@ -783,7 +784,7 @@ msgstr "Yeni yaprak paketler:"
 
 #: ../plugins/copr.py:56
 msgid "yes"
-msgstr ""
+msgstr "evet"
 
 #: ../plugins/copr.py:56
 msgid "y"
@@ -791,7 +792,7 @@ msgstr "e"
 
 #: ../plugins/copr.py:57
 msgid "no"
-msgstr ""
+msgstr "hayır"
 
 #: ../plugins/copr.py:57
 msgid "n"
