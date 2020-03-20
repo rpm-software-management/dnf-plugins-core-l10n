@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 14:54+0100\n"
-"PO-Revision-Date: 2020-03-20 12:33+0000\n"
+"PO-Revision-Date: 2020-03-22 12:28+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/nl/>\n"
@@ -66,7 +66,7 @@ msgstr "verwijderen van bestand %s mislukte"
 #: ../plugins/reposync.orig.py:110 ../plugins/reposync.175df5c.py:107
 #, python-format
 msgid "Could not make repository directory: %s"
-msgstr ""
+msgstr "Kan repositorymap niet aanmaken: %s"
 
 #: ../plugins/reposync.orig.py:114 ../plugins/reposync.py:201
 #: ../plugins/reposync.175df5c.py:111
@@ -101,7 +101,7 @@ msgid ""
 "some of already installed packages."
 msgstr ""
 "toon alleen nieuwe changelog-vermeldingen voor pakketten, die een upgrade "
-"bieden voor sommige reeds geïnstalleerde pakketten.Pa"
+"bieden voor sommige reeds geïnstalleerde pakketten."
 
 #: ../plugins/changelog.py:60
 msgid "PACKAGE"
@@ -129,11 +129,11 @@ msgstr ""
 
 #: ../plugins/changelog.py:118
 msgid "Listing all changelogs"
-msgstr "Toon alle changelogs "
+msgstr "Toon alle changelogs"
 
 #: ../plugins/changelog.py:122
 msgid "Changelogs for {}"
-msgstr "Changelogs voor {}"
+msgstr "Veranderlogs voor {}"
 
 #: ../plugins/debuginfo-install.py:56
 msgid "install debuginfo packages"
@@ -158,16 +158,16 @@ msgstr ""
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
 msgstr ""
-"Kan geen debuginfo-pakket vinden voor de volgende geïnstalleerde\n"
-"pakketten: %s"
+"Kan geen debuginfo-pakket vinden voor de volgende geïnstalleerde pakketten: "
+"%s"
 
 #: ../plugins/debuginfo-install.py:195
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
 msgstr ""
-"Kan geen debugbron-pakket vinden voor de volgende geïnstalleerde\n"
-"pakketten: %s"
+"Kan geen debugbron-pakket vinden voor de volgende geïnstalleerde pakketten: "
+"%s"
 
 #: ../plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
@@ -381,7 +381,7 @@ msgstr "print variabelewaarden naar stdout"
 
 #: ../plugins/config_manager.py:70
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "een van de volgende argumenten is vereist: {}"
 
 #: ../plugins/config_manager.py:113
 #, python-format
@@ -585,7 +585,9 @@ msgstr ""
 msgid ""
 "\n"
 "Summary"
-msgstr "Samenvatting"
+msgstr ""
+"\n"
+"Samenvatting"
 
 #: ../plugins/repodiff.py:213
 msgid "Added packages: {}"
@@ -645,7 +647,7 @@ msgstr "waar gedownloade repositories moeten worden opgeslagen"
 
 #: ../plugins/reposync.py:75
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "Voeg de reponaam niet toe aan het downloadpad."
 
 #: ../plugins/reposync.py:77
 msgid ""
@@ -667,7 +669,7 @@ msgstr "Toon de url's die gedownload gaan worden, download ze nog niet"
 
 #: ../plugins/reposync.py:109
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "Kan --norepopath niet gebruiken met meerdere repositories"
 
 #: ../plugins/reposync.py:127
 #, python-format
