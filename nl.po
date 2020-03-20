@@ -1,4 +1,4 @@
-# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata
+# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020.
 # Geert Warrink <geert.warrink@onsnet.nu>, 2020. #zanata
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
@@ -7,7 +7,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 14:54+0100\n"
 "PO-Revision-Date: 2020-03-20 12:33+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/nl/>\n"
 "Language: nl\n"
@@ -44,7 +44,7 @@ msgstr "download alleen de nieuwste pakketten per-repo"
 
 #: ../plugins/reposync.orig.py:56 ../plugins/reposync.175df5c.py:56
 msgid "where to store downloaded repositories "
-msgstr "waar gedownloade repositories moeten worden opgeslagen"
+msgstr "waar gedownloade repositories moeten worden opgeslagen "
 
 #: ../plugins/reposync.orig.py:58 ../plugins/reposync.py:80
 #: ../plugins/reposync.175df5c.py:58
