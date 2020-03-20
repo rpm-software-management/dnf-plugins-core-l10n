@@ -1,19 +1,21 @@
 # Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata
 # Geert Warrink <geert.warrink@onsnet.nu>, 2020. #zanata
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 14:54+0100\n"
-"PO-Revision-Date: 2020-01-07 03:03+0000\n"
-"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch\n"
+"PO-Revision-Date: 2020-03-20 12:33+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../plugins/reposync.orig.py:42 ../plugins/reposync.py:54
 #: ../plugins/reposync.175df5c.py:42
@@ -42,7 +44,7 @@ msgstr "download alleen de nieuwste pakketten per-repo"
 
 #: ../plugins/reposync.orig.py:56 ../plugins/reposync.175df5c.py:56
 msgid "where to store downloaded repositories "
-msgstr ""
+msgstr "waar gedownloade repositories moeten worden opgeslagen"
 
 #: ../plugins/reposync.orig.py:58 ../plugins/reposync.py:80
 #: ../plugins/reposync.175df5c.py:58
