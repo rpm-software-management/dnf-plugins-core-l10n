@@ -1,20 +1,21 @@
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020.
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 14:54+0100\n"
-"PO-Revision-Date: 2018-11-29 07:03+0000\n"
+"PO-Revision-Date: 2020-03-22 12:28+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../plugins/reposync.orig.py:42 ../plugins/reposync.py:54
 #: ../plugins/reposync.175df5c.py:42
@@ -33,7 +34,7 @@ msgstr ""
 
 #: ../plugins/reposync.orig.py:52 ../plugins/reposync.175df5c.py:52
 msgid "also download comps.xml"
-msgstr ""
+msgstr "lataa myös comps.xml"
 
 #: ../plugins/reposync.orig.py:54 ../plugins/reposync.py:71
 #: ../plugins/reposync.175df5c.py:54
@@ -59,7 +60,7 @@ msgstr "[POISTETTU] %s"
 #: ../plugins/reposync.175df5c.py:97
 #, python-format
 msgid "failed to delete file %s"
-msgstr ""
+msgstr "tiedoston %s poistaminen epäonnistui"
 
 #: ../plugins/reposync.orig.py:110 ../plugins/reposync.175df5c.py:107
 #, python-format
@@ -75,7 +76,7 @@ msgstr ""
 #: ../plugins/changelog.py:37
 #, python-brace-format
 msgid "Not a valid date: \"{0}\"."
-msgstr ""
+msgstr "Ei kelvollinen päivä: \"{0}\"."
 
 #: ../plugins/changelog.py:43
 msgid "Show changelog data of packages"
@@ -121,7 +122,7 @@ msgstr ""
 
 #: ../plugins/changelog.py:118
 msgid "Listing all changelogs"
-msgstr ""
+msgstr "Listataan kaikki muutoslokit"
 
 #: ../plugins/changelog.py:122
 msgid "Changelogs for {}"
@@ -223,7 +224,7 @@ msgstr ""
 
 #: ../plugins/versionlock.py:37
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "Paketti {} on jo lukittu"
 
 #: ../plugins/versionlock.py:38
 msgid "Package {} is already excluded"
@@ -299,7 +300,7 @@ msgstr ""
 
 #: ../plugins/builddep.py:144
 msgid "RPM: {}"
-msgstr ""
+msgstr "RPM: {}"
 
 #: ../plugins/builddep.py:153
 msgid "Some packages could not be found."
@@ -420,23 +421,23 @@ msgstr ""
 
 #: ../plugins/needs_restarting.py:199
 msgid "Core libraries or services have been updated since boot-up:"
-msgstr ""
+msgstr "Ydinkirjastot tai -palvelut on päivitetty käynnistyksen jälkeen:"
 
 #: ../plugins/needs_restarting.py:204
 msgid "Reboot is required to fully utilize these updates."
-msgstr ""
+msgstr "Uudelleenkäynnistys vaaditaan näiden päivitysten hyödyntämiseksi."
 
 #: ../plugins/needs_restarting.py:205
 msgid "More information:"
-msgstr ""
+msgstr "Lisätietoja:"
 
 #: ../plugins/needs_restarting.py:209
 msgid "No core libraries or services have been updated since boot-up."
-msgstr ""
+msgstr "Ydinkirjastoja tai -palveluja ei ole päivitetty käynnistyksen jälkeen."
 
 #: ../plugins/needs_restarting.py:211
 msgid "Reboot should not be necessary."
-msgstr ""
+msgstr "Uudelleenkäynnistyksen ei pitäisi olla tarpeen."
 
 #: ../plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
@@ -509,11 +510,11 @@ msgstr ""
 
 #: ../plugins/repodiff.py:184
 msgid "Added package  : {}"
-msgstr ""
+msgstr "Lisättiin paketti  : {}"
 
 #: ../plugins/repodiff.py:187
 msgid "Removed package: {}"
-msgstr ""
+msgstr "Poistettiin paketti: {}"
 
 #: ../plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
@@ -542,14 +543,16 @@ msgid ""
 "\n"
 "Summary"
 msgstr ""
+"\n"
+"Yhteenveto"
 
 #: ../plugins/repodiff.py:213
 msgid "Added packages: {}"
-msgstr ""
+msgstr "Lisättiin paketit: {}"
 
 #: ../plugins/repodiff.py:214
 msgid "Removed packages: {}"
-msgstr ""
+msgstr "Poistettiin paketit: {}"
 
 #: ../plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
