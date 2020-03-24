@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 14:54+0100\n"
-"PO-Revision-Date: 2020-03-24 09:48+0000\n"
+"PO-Revision-Date: 2020-03-25 14:38+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -114,7 +114,7 @@ msgstr "ПАКУНОК"
 #: ../plugins/changelog.py:81 ../plugins/debuginfo-install.py:90
 #, python-format
 msgid "No match for argument: %s"
-msgstr "Немає відповідника для аргумента: %s"
+msgstr "Відповідника параметра не знайдено: %s"
 
 #: ../plugins/changelog.py:109
 msgid "Listing changelogs since {}"
@@ -800,7 +800,7 @@ msgstr "так"
 
 #: ../plugins/copr.py:56
 msgid "y"
-msgstr "т"
+msgstr "y"
 
 #: ../plugins/copr.py:57
 msgid "no"
@@ -808,7 +808,7 @@ msgstr "ні"
 
 #: ../plugins/copr.py:57
 msgid "n"
-msgstr "н"
+msgstr "n"
 
 #: ../plugins/copr.py:76
 msgid "Interact with Copr repositories."
@@ -994,7 +994,7 @@ msgstr "Безпечна і добра відповідь. Завершуємо 
 
 #: ../plugins/copr.py:394
 msgid "This command has to be run under the root user."
-msgstr "Команду слід віддавати від імені користувача root."
+msgstr "Цю команду слід виконувати від імені користувача root."
 
 #: ../plugins/copr.py:458
 msgid ""
