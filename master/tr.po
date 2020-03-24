@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 14:54+0100\n"
-"PO-Revision-Date: 2020-03-24 09:48+0000\n"
+"PO-Revision-Date: 2020-03-25 14:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/tr/>\n"
@@ -1044,7 +1044,7 @@ msgstr "depo içeriğini yazdırmaya çalışma."
 
 #: ../plugins/debug.py:70
 msgid "optional name of dump file"
-msgstr "isteğe bağlı yazdırılacak dosya adı"
+msgstr "isteğe bağlı debug-dump dosyası adı"
 
 #: ../plugins/debug.py:95
 #, python-format
