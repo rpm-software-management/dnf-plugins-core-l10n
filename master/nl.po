@@ -1,13 +1,14 @@
 # Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020.
 # Geert Warrink <geert.warrink@onsnet.nu>, 2020. #zanata
 # Anonymous <noreply@weblate.org>, 2020.
+# Richard E. van der Luit <fedoraproject@veneax.nl>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 14:54+0100\n"
-"PO-Revision-Date: 2020-03-22 12:28+0000\n"
-"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"PO-Revision-Date: 2020-03-27 14:38+0000\n"
+"Last-Translator: Richard E. van der Luit <fedoraproject@veneax.nl>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/nl/>\n"
 "Language: nl\n"
@@ -994,7 +995,7 @@ msgstr "Veilig en goed antwoord. Afsluiten."
 
 #: ../plugins/copr.py:394
 msgid "This command has to be run under the root user."
-msgstr "Dit commando moet met de root gebruiker uitgevoerd worden."
+msgstr "Dit commando moet als root uitgevoerd worden."
 
 #: ../plugins/copr.py:458
 msgid ""
