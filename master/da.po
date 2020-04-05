@@ -1,21 +1,22 @@
 # Danish translation for dnf-plugins-core
 # scootergrisen, 2018.
-# scootergrisen <scootergrisen@gmail.com>, 2018. #zanata
-# scootergrisen <scootergrisen@gmail.com>, 2019. #zanata
+# scootergrisen <scootergrisen@gmail.com>, 2018. #zanata, 2020.
+# scootergrisen <scootergrisen@gmail.com>, 2019. #zanata, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2019-12-09 10:39+0000\n"
+"PO-Revision-Date: 2020-04-06 10:40+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
-"Language-Team: Danish\n"
+"Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -169,7 +170,7 @@ msgstr "udskriv variabelværdier til stdout"
 
 #: plugins/config_manager.py:70
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "en af følgende argumenter kræves: {}"
 
 #: plugins/config_manager.py:113
 #, python-format
@@ -809,7 +810,9 @@ msgstr ""
 msgid ""
 "\n"
 "Summary"
-msgstr "Opsummering"
+msgstr ""
+"\n"
+"Opsummering"
 
 #: plugins/repodiff.py:213
 msgid "Added packages: {}"
@@ -930,7 +933,7 @@ msgstr "hvor downloadede softwarearkiver skal gemmes"
 
 #: plugins/reposync.py:75
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "Tilføj ikke softwarearkivnavnet til downloadstien."
 
 #: plugins/reposync.py:77
 msgid ""
@@ -955,7 +958,7 @@ msgstr "Vis kun url'er på det der skal downlodes men download ikke"
 
 #: plugins/reposync.py:109
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "Kan ikke bruge --norepopath mere flere softwarearkiver"
 
 #: plugins/reposync.py:127
 #, python-format
@@ -1008,15 +1011,15 @@ msgstr "Tilføjer udelukkelse på:"
 
 #: plugins/versionlock.py:36
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "Pakken er allerede låst i tilsvarende form:"
 
 #: plugins/versionlock.py:37
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "Pakken {} er allerede låst"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "Pakken {} er allerede ekskluderet"
 
 #: plugins/versionlock.py:39
 msgid "Deleting versionlock for:"
