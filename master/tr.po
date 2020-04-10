@@ -6,10 +6,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-03-25 14:38+0000\n"
+"PO-Revision-Date: 2020-04-11 15:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,7 +59,7 @@ msgstr "Bazı paketler bulunamadı."
 #: plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
-msgstr "Yüklemek için eşleşen paket yok: '%s'"
+msgstr "Kurmak için eşleşen paket yok: '%s'"
 
 #: plugins/builddep.py:191
 #, python-format
@@ -471,7 +471,7 @@ msgstr "çalıştırılacak komutları standart çıkışa yazdır."
 
 #: plugins/debug.py:186
 msgid "Install the latest version of recorded packages."
-msgstr "Kaydedilen paketlerin en son sürümünü yükle."
+msgstr "Kaydedilen paketlerin en son sürümünü kur."
 
 #: plugins/debug.py:189
 msgid ""
@@ -479,7 +479,7 @@ msgid ""
 "version and release."
 msgstr ""
 "Mimariyi yok say ve isim, dönem, sürüm ve dağıtımla eşleşen eksik paketleri "
-"yükle."
+"kur."
 
 #: plugins/debug.py:194
 msgid "limit to specified type"
@@ -501,7 +501,7 @@ msgstr "Hatalı dnf debug-dump dosyası: %s"
 
 #: plugins/debuginfo-install.py:56
 msgid "install debuginfo packages"
-msgstr "debuginfo paketlerini yükle"
+msgstr "debuginfo paketlerini kur"
 
 #: plugins/debuginfo-install.py:180
 #, python-format
@@ -564,7 +564,7 @@ msgid ""
 "when running with --resolve, download all dependencies (do not exclude "
 "already installed ones)"
 msgstr ""
-"--resolve seçeneğiyle çalışırken (önceden yüklenmiş olanlar dahil) tüm "
+"--resolve seçeneğiyle çalışırken (önceden kurulmuş olanlar dahil) tüm "
 "bağımlılıkları indir"
 
 #: plugins/download.py:67
