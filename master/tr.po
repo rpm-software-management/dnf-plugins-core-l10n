@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-04-11 15:40+0000\n"
+"PO-Revision-Date: 2020-04-14 06:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/tr/>\n"
@@ -252,7 +252,7 @@ msgstr ""
 
 #: plugins/copr.py:103
 msgid "List all installed Copr repositories (default)"
-msgstr "Kurulu tüm Copr depolarını listele (varsayılan)"
+msgstr "Kurulu tüm Copr depolarını listele (öntanımlı)"
 
 #: plugins/copr.py:105
 msgid "List enabled Copr repositories"
@@ -357,7 +357,7 @@ msgid ""
 "this."
 msgstr ""
 "* Bu copr'lar, Copr hub hakkında hiçbir bilgi içermeyen eski bir biçimde "
-"depo dosyasına sahip - varsayılan değer kabul edildi. Bunu düzeltmek için "
+"depo dosyasına sahip - öntanımlı değer kabul edildi. Bunu düzeltmek için "
 "projeyi yeniden etkinleştirin."
 
 #: plugins/copr.py:340
@@ -734,7 +734,7 @@ msgid ""
 "only source rpms are compared."
 msgstr ""
 "Karşılaştırılacak mimarileri belirtin, birden çok kez kullanılabilir. "
-"Varsayılan olarak, sadece kaynak rpm'ler karşılaştırılır."
+"Öntanımlı olarak, sadece kaynak rpm'ler karşılaştırılır."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
@@ -744,7 +744,7 @@ msgstr "Değişikliklerin boyutu hakkında ek veriler yazdır."
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
-"Paketleri mimariye göre de karşılaştır. Varsayılan olarak paketler sadece "
+"Paketleri mimariye göre de karşılaştır. Öntanımlı olarak paketler sadece "
 "isme göre karşılaştırılır."
 
 #: plugins/repodiff.py:72
@@ -765,7 +765,7 @@ msgstr "Hem eski hem de yeni depolar ayarlanmalıdır."
 
 #: plugins/repodiff.py:178
 msgid "Size change: {} bytes"
-msgstr "Boyut değişimi: {} byte"
+msgstr "Boyut değişimi: {} bayt"
 
 #: plugins/repodiff.py:184
 msgid "Added package  : {}"
@@ -898,7 +898,7 @@ msgstr ""
 
 #: plugins/repomanage.py:136
 msgid "Newest N packages to keep - defaults to 1"
-msgstr "En yeni N paketi sakla - varsayılan olarak 1"
+msgstr "En yeni N paketi sakla - öntanımlı olarak 1"
 
 #: plugins/repomanage.py:139
 msgid "Path to directory"
@@ -922,7 +922,7 @@ msgstr "ayrıca comps.xml dosyasını indir ve çıkart"
 
 #: plugins/reposync.py:69
 msgid "download all the metadata."
-msgstr "tüm meta verileri indir."
+msgstr "tüm üst verileri indir."
 
 #: plugins/reposync.py:71
 msgid "download only newest packages per-repo"
@@ -941,8 +941,8 @@ msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
-"indirilen depo meta verilerinin saklanacağı yer. Varsayılan olarak --"
-"download-path değeridir."
+"indirilen depo üst verilerinin saklanacağı yer. Öntanımlı olarak --download-"
+"path değeridir."
 
 #: plugins/reposync.py:80
 msgid "operate on source packages"
@@ -964,7 +964,7 @@ msgstr "--norepopath, birden fazla depoyla birlikte kullanılamaz"
 #: plugins/reposync.py:127
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr "Meta veriler için yansı alınamadı: %s"
+msgstr "Üst veriler için yansı alınamadı: %s"
 
 #: plugins/reposync.py:144
 msgid "Failed to get mirror for the group file."
