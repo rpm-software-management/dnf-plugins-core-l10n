@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-04-14 06:40+0000\n"
+"PO-Revision-Date: 2020-04-17 09:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/tr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -32,11 +32,11 @@ msgstr "kurulacak oluşturma bağımlılıkları olan paketler"
 
 #: plugins/builddep.py:93
 msgid "define a macro for spec file parsing"
-msgstr "spec dosyası ayrıştırma için makro tanımlama"
+msgstr "spec dosyası ayrıştırma için bir makro tanımla"
 
 #: plugins/builddep.py:95
 msgid "skip build dependencies not available in repositories"
-msgstr "depolarda mevcut olmayan oluşturma bağımlılıklarını atla"
+msgstr "depolarda bulunmayan oluşturma bağımlılıklarını atla"
 
 #: plugins/builddep.py:98
 msgid "treat commandline arguments as spec files"
@@ -95,7 +95,7 @@ msgid ""
 "is recommended."
 msgstr ""
 "TARİH'ten itibaren değişiklik günlüğü girdilerini göster. Belirsizliği "
-"önlemek için, YYYY-AA-GG biçimi önerilir."
+"önlemek için, YYYY-AA-GG biçimi tavsiye edilir."
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
@@ -264,7 +264,7 @@ msgstr "Devre dışı bırakılmış Copr depolarını listele"
 
 #: plugins/copr.py:109
 msgid "List available Copr repositories by user NAME"
-msgstr "NAME kullanıcısına ait mevcut Copr depolarını listele"
+msgstr "İSİM kullanıcısına ait kullanılabilir Copr depolarını listele"
 
 #: plugins/copr.py:111
 msgid "Specify an instance of Copr to work with"
@@ -279,8 +279,8 @@ msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
-"Copr hub'ını ya `--hub` seçeneğini kullanarak, ya da `copr_hub/"
-"copr_kullanıcı_adı/copr_proje_adı` biçimini kullanarak belirtin"
+"`--hub` seçeneğini ile ya da `copr_hub/copr_kullanıcı_adı/copr_proje_adı` "
+"biçimini kullanarak Copr hub belirtin"
 
 #: plugins/copr.py:149
 msgid "multiple hubs specified"
@@ -322,12 +322,13 @@ msgstr ""
 "Bir Copr deposunu etkinleştirmek üzeresiniz. Bu deponun ana dağıtımın\n"
 "bir parçası olmadığını ve kalitenin değişebileceğini lütfen unutmayın.\n"
 "\n"
-"Fedora Projesinin, bu deponun içeriği üzerinde Copr SSS'de belirtilen "
-"kuralların\n"
+"Fedora Projesinin, bu deponun içeriği üzerinde\n"
 "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
-"in-copr>,\n"
-"ötesinde herhangi bir kontrolü yoktur, ve paket kalite veya güvenlik\n"
-"seviyesi hakkında herhangi bir garanti verilmemektedir.\n"
+"in-copr>\n"
+"adresindeki Copr SSS'de belirtilen kuralların ötesinde herhangi bir kontrolü "
+"yoktur,\n"
+"ve paket kalite veya güvenlik seviyesi hakkında herhangi bir garanti "
+"verilmemektedir.\n"
 "\n"
 "Lütfen bu paketlerle ilgili hata raporlarını Fedora Bugzilla'ya\n"
 "bildirmeyin. Sorun olması durumunda, bu deponun sahibiyle iletişime geçin.\n"
@@ -492,7 +493,7 @@ msgstr "debug-dump dosyasının adı"
 #: plugins/debug.py:264
 #, python-format
 msgid "Package %s is not available"
-msgstr "%s paketi mevcut değil"
+msgstr "%s paketi kullanılabilir değil"
 
 #: plugins/debug.py:274
 #, python-format
@@ -507,13 +508,13 @@ msgstr "debuginfo paketlerini kur"
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
-msgstr "Şu mevcut paketler için debuginfo paketi bulunamadı: %s"
+msgstr "Şu kullanılabilir paketler için debuginfo paketi bulunamadı: %s"
 
 #: plugins/debuginfo-install.py:185
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
-msgstr "Şu mevcut paketler için debugsource paketi bulunamadı: %s"
+msgstr "Şu kullanılabilir paketler için debugsource paketi bulunamadı: %s"
 
 #: plugins/debuginfo-install.py:190
 #, python-format
@@ -597,7 +598,7 @@ msgstr "%s için tanımlanan kaynak rpm yok"
 #: plugins/download.py:296 plugins/download.py:309
 #, python-format
 msgid "No package %s available."
-msgstr "%s paketi mevcut değil."
+msgstr "%s paketi kullanılabilir değil."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -633,8 +634,7 @@ msgstr "Geçmiş verileri taşınıyor..."
 
 #: plugins/needs_restarting.py:173
 msgid "determine updated binaries that need restarting"
-msgstr ""
-"güncellenen program dosyalarından yeniden başlatılması gerekenleri belirle"
+msgstr "güncellenen programlardan yeniden başlatılması gerekenleri belirle"
 
 #: plugins/needs_restarting.py:178
 msgid "only consider this user's processes"
@@ -702,19 +702,19 @@ msgstr "Repoclosure, çözümlenmemiş bağımlılıklarla sona erdi."
 #: plugins/repoclosure.py:153
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
-"verilen mimarilere sahip paketleri kontrol et, birden çok kez belirtilebilir"
+"verilen mimarilere sahip paketleri denetle, birden çok kez belirtilebilir"
 
 #: plugins/repoclosure.py:156
 msgid "Specify repositories to check"
-msgstr "Belirtilen depoları kontrol et"
+msgstr "Belirtilen depoları denetle"
 
 #: plugins/repoclosure.py:158
 msgid "Check only the newest packages in the repos"
-msgstr "Sadece depolardaki en yeni paketleri kontrol et"
+msgstr "Sadece depolardaki en yeni paketleri denetle"
 
 #: plugins/repoclosure.py:161
 msgid "Check closure for this package only"
-msgstr "Sadece bu paket için çözümlenmemiş bağımlılıkları kontrol et"
+msgstr "Sadece bu paket için çözümlenmemiş bağımlılıkları denetle"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
