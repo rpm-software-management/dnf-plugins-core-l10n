@@ -1,11 +1,12 @@
 # Andika Triwidada <andika@gmail.com>, 2018. #zanata, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 09:18-0400\n"
 "PO-Revision-Date: 2020-05-01 12:20+0000\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/id/>\n"
 "Language: id\n"
@@ -290,7 +291,7 @@ msgstr ""
 
 #: plugins/copr.py:263
 msgid "Repository successfully enabled."
-msgstr ""
+msgstr "Repositori sukses dinonaktifkan."
 
 #: plugins/copr.py:267
 msgid "Repository successfully disabled."
