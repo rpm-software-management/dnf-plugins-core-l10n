@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 09:18-0400\n"
+"POT-Creation-Date: 2020-05-06 09:18-0400\n"
 "PO-Revision-Date: 2020-03-27 14:38+0000\n"
 "Last-Translator: Richard E. van der Luit <fedoraproject@veneax.nl>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1065,11 +1065,11 @@ msgstr ""
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "Versieslot plug-in: kon patroon niet ontleden:"
 
-#: plugins/versionlock.py:127
+#: plugins/versionlock.py:130
 msgid "control package version locks"
 msgstr "controleer pakketversieslot"
 
-#: plugins/versionlock.py:133
+#: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr "Gebruik pakketspecificaties zoals ze zijn, probeer ze niet te ontleden"
 

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 09:18-0400\n"
+"POT-Creation-Date: 2020-05-06 09:18-0400\n"
 "PO-Revision-Date: 2020-05-04 06:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -994,11 +994,11 @@ msgstr "versionlock プラグイン: ファイル \"{}\" の除外ルールの�
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "versionlock プラグイン: パターンを解析できませんでした:"
 
-#: plugins/versionlock.py:127
+#: plugins/versionlock.py:130
 msgid "control package version locks"
 msgstr "パッケージバージョンロックの制御"
 
-#: plugins/versionlock.py:133
+#: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
 

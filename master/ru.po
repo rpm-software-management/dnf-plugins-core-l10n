@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 09:18-0400\n"
+"POT-Creation-Date: 2020-05-06 09:18-0400\n"
 "PO-Revision-Date: 2019-08-19 08:32+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -1047,11 +1047,11 @@ msgstr ""
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "Подключаемый модуль Versionlock: не удалось разобрать шаблон:"
 
-#: plugins/versionlock.py:127
+#: plugins/versionlock.py:130
 msgid "control package version locks"
 msgstr "управление блокированием версии пакетов"
 
-#: plugins/versionlock.py:133
+#: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
 

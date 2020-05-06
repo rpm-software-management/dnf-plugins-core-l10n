@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 09:18-0400\n"
+"POT-Creation-Date: 2020-05-06 09:18-0400\n"
 "PO-Revision-Date: 2020-02-08 03:23+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/dnf-plugins-"
@@ -1070,11 +1070,11 @@ msgstr ""
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "Wtyczka blokady wersji: nie można przetworzyć wzoru:"
 
-#: plugins/versionlock.py:127
+#: plugins/versionlock.py:130
 msgid "control package version locks"
 msgstr "kontroluje blokady wersji pakietów"
 
-#: plugins/versionlock.py:133
+#: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr "Używa specyfikacji pakietów bez ich przetwarzania"
 
