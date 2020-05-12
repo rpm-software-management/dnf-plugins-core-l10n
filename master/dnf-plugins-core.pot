@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 09:19-0400\n"
+"POT-Creation-Date: 2020-05-12 09:18-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,27 +162,41 @@ msgstr ""
 msgid "print variable values to stdout"
 msgstr ""
 
-#: plugins/config_manager.py:70
+#: plugins/config_manager.py:60
+msgid "enable repos (automatically saves)"
+msgstr ""
+
+#: plugins/config_manager.py:63
+msgid "disable repos (automatically saves)"
+msgstr ""
+
+#: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
 msgstr ""
 
-#: plugins/config_manager.py:113
+#: plugins/config_manager.py:86
+msgid ""
+"Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
+"manager. Use --set-enabled/--set-disabled instead."
+msgstr ""
+
+#: plugins/config_manager.py:126
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr ""
 
-#: plugins/config_manager.py:164
+#: plugins/config_manager.py:177
 #, python-format
 msgid "Adding repo from: %s"
 msgstr ""
 
-#: plugins/config_manager.py:188
+#: plugins/config_manager.py:201
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] ""
 msgstr[1] ""
 
-#: plugins/config_manager.py:198
+#: plugins/config_manager.py:211
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr ""
