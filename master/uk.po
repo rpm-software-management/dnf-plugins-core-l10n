@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-15 09:18-0400\n"
-"PO-Revision-Date: 2020-03-25 14:38+0000\n"
+"PO-Revision-Date: 2020-05-18 09:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -17,9 +17,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -175,11 +175,11 @@ msgstr "вивести значення змінних до stdout"
 
 #: plugins/config_manager.py:60
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "увімкнути сховища (автоматично зберігається)"
 
 #: plugins/config_manager.py:63
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "вимкнути сховища (автоматично зберігається)"
 
 #: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
@@ -190,6 +190,9 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"Попередження: параметри --enablerepo/--disablerepo не мають сенсу із "
+"керуванням за допомогою файла налаштувань. Скористайтеся замість них "
+"--set-enabled/--set-disabled."
 
 #: plugins/config_manager.py:126
 #, python-format
@@ -437,6 +440,14 @@ msgid ""
 "above applies here too, Fedora Project doesn't control the\n"
 "content. Please review the list:"
 msgstr ""
+"Супровідник увімкненого сховища Copr вирішив зробити\n"
+"його залежним від інших сховищ. Такі сховища, зазвичай,\n"
+"є необхідними для успішного встановлення пакунків RPM\n"
+"з основного сховища Copr (надають динамічні залежності).\n"
+"\n"
+"Майте на увазі, що зауваження щодо якості на звітування\n"
+"щодо вад стосуються і цього сховища — Проєкт Fedora не\n"
+"керує вмістом сховища. Будь ласка, перегляньте список:"
 
 #: plugins/copr.py:519
 msgid ""
@@ -444,6 +455,9 @@ msgid ""
 "These repositories have been enabled automatically.\n"
 "Do you want to keep them enabled?"
 msgstr ""
+"\n"
+"Це сховища було увімкнено автоматично.\n"
+"Хочете лишити їх увімкненими?"
 
 #: plugins/copr.py:556
 #, python-brace-format
