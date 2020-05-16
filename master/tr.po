@@ -6,16 +6,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-15 09:18-0400\n"
-"PO-Revision-Date: 2020-04-21 18:40+0000\n"
+"PO-Revision-Date: 2020-05-18 09:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -169,11 +169,11 @@ msgstr "değişken değerlerini standart çıkışa yazdır"
 
 #: plugins/config_manager.py:60
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "depoları etkinleştir (otomatik olarak kaydeder)"
 
 #: plugins/config_manager.py:63
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "depoları devre dışı bırak (otomatik olarak kaydeder)"
 
 #: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
@@ -184,6 +184,9 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"Uyarı: --enablerepo/--disablerepo argümanlarının yapılandırma yöneticisi "
+"için bir anlamı yoktur. Bunların yerine --set-enabled/--set-disabled "
+"seçeneklerini kullanın."
 
 #: plugins/config_manager.py:126
 #, python-format
@@ -429,6 +432,14 @@ msgid ""
 "above applies here too, Fedora Project doesn't control the\n"
 "content. Please review the list:"
 msgstr ""
+"Etkinleştirilmiş Copr deposunun sahibi, onun diğer depolara\n"
+"bağımlı olmasına karar verdi. Bu tür depolar,\n"
+"genellikle RPM'lerin ana Copr deposundan başarılı bir şekilde\n"
+"kurulması için gereklidir (çalışma zamanı bağımlılıkları sağlanır).\n"
+"\n"
+"Yukarıda kalite ve hata bildirimi ile ilgili notun burada da geçerli\n"
+"olduğunu unutmayın, Fedora Projesi içeriği kontrol etmemektedir.\n"
+"Lütfen listeyi inceleyin:"
 
 #: plugins/copr.py:519
 msgid ""
@@ -436,6 +447,9 @@ msgid ""
 "These repositories have been enabled automatically.\n"
 "Do you want to keep them enabled?"
 msgstr ""
+"\n"
+"Bu depolar otomatik olarak etkinleştirildi.\n"
+"Etkinleştirilmiş olarak kalmalarını istiyor musunuz?"
 
 #: plugins/copr.py:556
 #, python-brace-format
