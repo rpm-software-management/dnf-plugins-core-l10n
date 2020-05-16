@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 09:19-0400\n"
+"POT-Creation-Date: 2020-05-15 09:18-0400\n"
 "PO-Revision-Date: 2020-03-27 14:38+0000\n"
 "Last-Translator: Richard E. van der Luit <fedoraproject@veneax.nl>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -170,27 +170,41 @@ msgstr "print huidige configuratiewaarden naar stdout"
 msgid "print variable values to stdout"
 msgstr "print variabelewaarden naar stdout"
 
-#: plugins/config_manager.py:70
+#: plugins/config_manager.py:60
+msgid "enable repos (automatically saves)"
+msgstr ""
+
+#: plugins/config_manager.py:63
+msgid "disable repos (automatically saves)"
+msgstr ""
+
+#: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
 msgstr "een van de volgende argumenten is vereist: {}"
 
-#: plugins/config_manager.py:113
+#: plugins/config_manager.py:86
+msgid ""
+"Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
+"manager. Use --set-enabled/--set-disabled instead."
+msgstr ""
+
+#: plugins/config_manager.py:126
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Geen overeenkomende repo om te wijzigen: %s."
 
-#: plugins/config_manager.py:164
+#: plugins/config_manager.py:177
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Voeg repo toe van: %s"
 
-#: plugins/config_manager.py:188
+#: plugins/config_manager.py:201
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Configuratie van repo mislukte"
 msgstr[1] "Configuratie van repo's mislukte"
 
-#: plugins/config_manager.py:198
+#: plugins/config_manager.py:211
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Kon repo niet opslaan naar repo-bestand %s: %s"
@@ -343,19 +357,19 @@ msgstr ""
 msgid "Repository successfully enabled."
 msgstr "Repository succesvol ingeschakeld."
 
-#: plugins/copr.py:267
+#: plugins/copr.py:268
 msgid "Repository successfully disabled."
 msgstr "Repository succesvol uitgeschakeld."
 
-#: plugins/copr.py:271
+#: plugins/copr.py:272
 msgid "Repository successfully removed."
 msgstr "Repository succesvol verwijderd."
 
-#: plugins/copr.py:275 plugins/copr.py:625
+#: plugins/copr.py:276 plugins/copr.py:668
 msgid "Unknown subcommand {}."
 msgstr "Onbekend subcommando {}."
 
-#: plugins/copr.py:328
+#: plugins/copr.py:329
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -365,66 +379,85 @@ msgstr ""
 "bevat over Copr hub - de standaard werd verondersteld. Schakel het project "
 "opnieuw in om dit te verhelpen."
 
-#: plugins/copr.py:340
+#: plugins/copr.py:341
 msgid "Can't parse repositories for username '{}'."
 msgstr "Kan repositories voor gebruikersnaam '{}' niet ontleden."
 
-#: plugins/copr.py:343
+#: plugins/copr.py:344
 msgid "List of {} coprs"
 msgstr "Lijst met {} coprs"
 
-#: plugins/copr.py:351
+#: plugins/copr.py:352
 msgid "No description given"
 msgstr "Geen beschrijving gegeven"
 
-#: plugins/copr.py:363
+#: plugins/copr.py:364
 msgid "Can't parse search for '{}'."
 msgstr "Kan zoekopdracht voor '{}' niet ontleden."
 
-#: plugins/copr.py:366
+#: plugins/copr.py:367
 msgid "Matched: {}"
 msgstr "Op elkaar afgestemd: {}"
 
-#: plugins/copr.py:374
+#: plugins/copr.py:375
 msgid "No description given."
 msgstr "Geen beschrijving gegeven."
 
-#: plugins/copr.py:387
+#: plugins/copr.py:388
 msgid "Safe and good answer. Exiting."
 msgstr "Veilig en goed antwoord. Afsluiten."
 
-#: plugins/copr.py:394
+#: plugins/copr.py:395
 msgid "This command has to be run under the root user."
 msgstr "Dit commando moet als root uitgevoerd worden."
 
-#: plugins/copr.py:458
+#: plugins/copr.py:459
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr ""
 "Deze repository heeft nog geen builds, dus je kunt deze nu niet inschakelen."
 
-#: plugins/copr.py:461
+#: plugins/copr.py:462
 msgid "Such repository does not exist."
 msgstr "Een dergelijke repository bestaat niet."
 
-#: plugins/copr.py:509
+#: plugins/copr.py:505
+msgid ""
+"Maintainer of the enabled Copr repository decided to make\n"
+"it dependent on other repositories. Such repositories are\n"
+"usually necessary for successful installation of RPMs from\n"
+"the main Copr repository (runtime dependencies provided).\n"
+"\n"
+"Be aware that the note about quality and bug-reporting\n"
+"above applies here too, Fedora Project doesn't control the\n"
+"content. Please review the list:"
+msgstr ""
+
+#: plugins/copr.py:519
+msgid ""
+"\n"
+"These repositories have been enabled automatically.\n"
+"Do you want to keep them enabled?"
+msgstr ""
+
+#: plugins/copr.py:556
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Kan copr repo {0}/{1}/{2} niet verwijderen"
 
-#: plugins/copr.py:520
+#: plugins/copr.py:567
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Kon copr repo {}/{} niet uitschakelen"
 
-#: plugins/copr.py:542 plugins/copr.py:580
+#: plugins/copr.py:585 plugins/copr.py:623
 msgid "Unknown response from server."
 msgstr "Onbekend antwoord van server."
 
-#: plugins/copr.py:564
+#: plugins/copr.py:607
 msgid "Interact with Playground repository."
 msgstr "Interactie met Playground repository."
 
-#: plugins/copr.py:569
+#: plugins/copr.py:612
 msgid ""
 "\n"
 "You are about to enable a Playground repository.\n"
@@ -436,15 +469,15 @@ msgstr ""
 "\n"
 "Wil je doorgaan?"
 
-#: plugins/copr.py:615
+#: plugins/copr.py:658
 msgid "Playground repositories successfully enabled."
 msgstr "Playground repositories succesvol ingeschakeld."
 
-#: plugins/copr.py:618
+#: plugins/copr.py:661
 msgid "Playground repositories successfully disabled."
 msgstr "Playground repositories succesvol uitgeschakeld."
 
-#: plugins/copr.py:622
+#: plugins/copr.py:665
 msgid "Playground repositories successfully updated."
 msgstr "Playground repositories succesvol bijgewerkt."
 

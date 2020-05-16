@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 09:19-0400\n"
+"POT-Creation-Date: 2020-05-15 09:18-0400\n"
 "PO-Revision-Date: 2020-05-08 15:40+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -171,27 +171,41 @@ msgstr "kiírja a jelenlegi konfigurációs értékeket a sztenderd kimenetre"
 msgid "print variable values to stdout"
 msgstr "kiírja a változó értékeket a sztenderd kimenetre"
 
-#: plugins/config_manager.py:70
+#: plugins/config_manager.py:60
+msgid "enable repos (automatically saves)"
+msgstr ""
+
+#: plugins/config_manager.py:63
+msgid "disable repos (automatically saves)"
+msgstr ""
+
+#: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
 msgstr "a következő argumentumok egyike szüksége: {}"
 
-#: plugins/config_manager.py:113
+#: plugins/config_manager.py:86
+msgid ""
+"Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
+"manager. Use --set-enabled/--set-disabled instead."
+msgstr ""
+
+#: plugins/config_manager.py:126
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Nincs egyező módosítandó tároló: %s."
 
-#: plugins/config_manager.py:164
+#: plugins/config_manager.py:177
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Tároló hozzáadása innen: %s"
 
-#: plugins/config_manager.py:188
+#: plugins/config_manager.py:201
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "A tároló beállítása meghiúsult"
 msgstr[1] "A tárolók beállítása meghiúsult"
 
-#: plugins/config_manager.py:198
+#: plugins/config_manager.py:211
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "A tároló nem menthető a(z) %s tárolófájlba: %s"
@@ -341,19 +355,19 @@ msgstr ""
 msgid "Repository successfully enabled."
 msgstr "Tároló sikeresen engedélyezve."
 
-#: plugins/copr.py:267
+#: plugins/copr.py:268
 msgid "Repository successfully disabled."
 msgstr "Tároló sikeresen letiltva."
 
-#: plugins/copr.py:271
+#: plugins/copr.py:272
 msgid "Repository successfully removed."
 msgstr "Tároló sikeresen eltávolítva."
 
-#: plugins/copr.py:275 plugins/copr.py:625
+#: plugins/copr.py:276 plugins/copr.py:668
 msgid "Unknown subcommand {}."
 msgstr "Ismeretlen alparancs: {}."
 
-#: plugins/copr.py:328
+#: plugins/copr.py:329
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -363,65 +377,84 @@ msgstr ""
 "amelyekben nincs információ a Copr kiszolgálóról – az alapértelmezett lett "
 "feltételezve. Engedélyezze újra a projektet a kijavításhoz."
 
-#: plugins/copr.py:340
+#: plugins/copr.py:341
 msgid "Can't parse repositories for username '{}'."
 msgstr "A tárolók nem értelmezhetőek a(z) „{}” felhasználónévhez."
 
-#: plugins/copr.py:343
+#: plugins/copr.py:344
 msgid "List of {} coprs"
 msgstr "{} copr tárolók listája"
 
-#: plugins/copr.py:351
+#: plugins/copr.py:352
 msgid "No description given"
 msgstr "Nincs leírás adva"
 
-#: plugins/copr.py:363
+#: plugins/copr.py:364
 msgid "Can't parse search for '{}'."
 msgstr "Nem értelmezhető a keresés erre: „{}”."
 
-#: plugins/copr.py:366
+#: plugins/copr.py:367
 msgid "Matched: {}"
 msgstr "Találat: {}"
 
-#: plugins/copr.py:374
+#: plugins/copr.py:375
 msgid "No description given."
 msgstr "Nincs leírás adva."
 
-#: plugins/copr.py:387
+#: plugins/copr.py:388
 msgid "Safe and good answer. Exiting."
 msgstr "Biztonságos és jó válasz. Kilépés."
 
-#: plugins/copr.py:394
+#: plugins/copr.py:395
 msgid "This command has to be run under the root user."
 msgstr "Ezt a parancsot root felhasználóként kell futtatni."
 
-#: plugins/copr.py:458
+#: plugins/copr.py:459
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr "Ez a tároló még nem tartalmaz építéseket, így most nem engedélyezheti."
 
-#: plugins/copr.py:461
+#: plugins/copr.py:462
 msgid "Such repository does not exist."
 msgstr "Nem létezik ilyen tároló."
 
-#: plugins/copr.py:509
+#: plugins/copr.py:505
+msgid ""
+"Maintainer of the enabled Copr repository decided to make\n"
+"it dependent on other repositories. Such repositories are\n"
+"usually necessary for successful installation of RPMs from\n"
+"the main Copr repository (runtime dependencies provided).\n"
+"\n"
+"Be aware that the note about quality and bug-reporting\n"
+"above applies here too, Fedora Project doesn't control the\n"
+"content. Please review the list:"
+msgstr ""
+
+#: plugins/copr.py:519
+msgid ""
+"\n"
+"These repositories have been enabled automatically.\n"
+"Do you want to keep them enabled?"
+msgstr ""
+
+#: plugins/copr.py:556
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Nem sikerült a(z) {0}/{1}/{2} copr tároló eltávolítása"
 
-#: plugins/copr.py:520
+#: plugins/copr.py:567
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Nem sikerült a(z) {}/{} copr tároló letiltása"
 
-#: plugins/copr.py:542 plugins/copr.py:580
+#: plugins/copr.py:585 plugins/copr.py:623
 msgid "Unknown response from server."
 msgstr "Ismeretlen válasz a kiszolgálótól."
 
-#: plugins/copr.py:564
+#: plugins/copr.py:607
 msgid "Interact with Playground repository."
 msgstr "Együttműködés a Playground tárolóval."
 
-#: plugins/copr.py:569
+#: plugins/copr.py:612
 msgid ""
 "\n"
 "You are about to enable a Playground repository.\n"
@@ -433,15 +466,15 @@ msgstr ""
 "\n"
 "Szeretné folytatni?"
 
-#: plugins/copr.py:615
+#: plugins/copr.py:658
 msgid "Playground repositories successfully enabled."
 msgstr "Playground tárolók sikeresen engedélyezve."
 
-#: plugins/copr.py:618
+#: plugins/copr.py:661
 msgid "Playground repositories successfully disabled."
 msgstr "Playground tárolók sikeresen letiltva."
 
-#: plugins/copr.py:622
+#: plugins/copr.py:665
 msgid "Playground repositories successfully updated."
 msgstr "Playground tárolók sikeresen frissítve."
 

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 09:19-0400\n"
+"POT-Creation-Date: 2020-05-15 09:18-0400\n"
 "PO-Revision-Date: 2019-08-19 08:32+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -168,28 +168,42 @@ msgstr "вывести текущие параметры конфигураци�
 msgid "print variable values to stdout"
 msgstr "вывести значения переменных в stdout"
 
-#: plugins/config_manager.py:70
+#: plugins/config_manager.py:60
+msgid "enable repos (automatically saves)"
+msgstr ""
+
+#: plugins/config_manager.py:63
+msgid "disable repos (automatically saves)"
+msgstr ""
+
+#: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
 msgstr ""
 
-#: plugins/config_manager.py:113
+#: plugins/config_manager.py:86
+msgid ""
+"Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
+"manager. Use --set-enabled/--set-disabled instead."
+msgstr ""
+
+#: plugins/config_manager.py:126
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Нет подходящего репозитория для изменения: %s."
 
-#: plugins/config_manager.py:164
+#: plugins/config_manager.py:177
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Добавление репозитория из: %s"
 
-#: plugins/config_manager.py:188
+#: plugins/config_manager.py:201
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Не удалось настроить конфигурацию репозитория"
 msgstr[1] "Не удалось настроить конфигурацию репозиториев"
 msgstr[2] "Не удалось настроить конфигурацию репозиториев"
 
-#: plugins/config_manager.py:198
+#: plugins/config_manager.py:211
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Не удалось сохранить репозиторий в repofile %s: %s"
@@ -340,19 +354,19 @@ msgstr ""
 msgid "Repository successfully enabled."
 msgstr "Репозиторий успешно подключен."
 
-#: plugins/copr.py:267
+#: plugins/copr.py:268
 msgid "Repository successfully disabled."
 msgstr "Репозиторий успешно отключен."
 
-#: plugins/copr.py:271
+#: plugins/copr.py:272
 msgid "Repository successfully removed."
 msgstr "Репозиторий успешно удален."
 
-#: plugins/copr.py:275 plugins/copr.py:625
+#: plugins/copr.py:276 plugins/copr.py:668
 msgid "Unknown subcommand {}."
 msgstr "Неизвестная подкоманда {}."
 
-#: plugins/copr.py:328
+#: plugins/copr.py:329
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -362,67 +376,86 @@ msgstr ""
 "информации об узле Copr - был принят узел по умолчанию. Переподключите "
 "проект для исправления этого."
 
-#: plugins/copr.py:340
+#: plugins/copr.py:341
 msgid "Can't parse repositories for username '{}'."
 msgstr "Не удается обработать репозитории для имени пользователя «{}»."
 
-#: plugins/copr.py:343
+#: plugins/copr.py:344
 msgid "List of {} coprs"
 msgstr "Список copr {}"
 
-#: plugins/copr.py:351
+#: plugins/copr.py:352
 msgid "No description given"
 msgstr "Нет описания"
 
-#: plugins/copr.py:363
+#: plugins/copr.py:364
 msgid "Can't parse search for '{}'."
 msgstr "Ошибка обработки поиска для «{}»."
 
-#: plugins/copr.py:366
+#: plugins/copr.py:367
 msgid "Matched: {}"
 msgstr "Совпадений: {}"
 
-#: plugins/copr.py:374
+#: plugins/copr.py:375
 msgid "No description given."
 msgstr "Нет описания."
 
-#: plugins/copr.py:387
+#: plugins/copr.py:388
 msgid "Safe and good answer. Exiting."
 msgstr "Верный и хороший ответ. Выход."
 
-#: plugins/copr.py:394
+#: plugins/copr.py:395
 msgid "This command has to be run under the root user."
 msgstr "Эта команда должна быть выполнена от имени пользователя root."
 
-#: plugins/copr.py:458
+#: plugins/copr.py:459
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr ""
 "В этом репозитории еще нет собранных пакетов, так что сейчас его нельзя "
 "подключить."
 
-#: plugins/copr.py:461
+#: plugins/copr.py:462
 msgid "Such repository does not exist."
 msgstr "Такой репозиторий не существует."
 
-#: plugins/copr.py:509
+#: plugins/copr.py:505
+msgid ""
+"Maintainer of the enabled Copr repository decided to make\n"
+"it dependent on other repositories. Such repositories are\n"
+"usually necessary for successful installation of RPMs from\n"
+"the main Copr repository (runtime dependencies provided).\n"
+"\n"
+"Be aware that the note about quality and bug-reporting\n"
+"above applies here too, Fedora Project doesn't control the\n"
+"content. Please review the list:"
+msgstr ""
+
+#: plugins/copr.py:519
+msgid ""
+"\n"
+"These repositories have been enabled automatically.\n"
+"Do you want to keep them enabled?"
+msgstr ""
+
+#: plugins/copr.py:556
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Не удалось удалить репозиторий copr {0}/{1}/{2}"
 
-#: plugins/copr.py:520
+#: plugins/copr.py:567
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Не удалось отключить репозиторий copr {}/{}"
 
-#: plugins/copr.py:542 plugins/copr.py:580
+#: plugins/copr.py:585 plugins/copr.py:623
 msgid "Unknown response from server."
 msgstr "Неизвестный ответ сервера."
 
-#: plugins/copr.py:564
+#: plugins/copr.py:607
 msgid "Interact with Playground repository."
 msgstr "Взаимодействие с репозиторием Playground."
 
-#: plugins/copr.py:569
+#: plugins/copr.py:612
 msgid ""
 "\n"
 "You are about to enable a Playground repository.\n"
@@ -434,15 +467,15 @@ msgstr ""
 "\n"
 "Продолжить?"
 
-#: plugins/copr.py:615
+#: plugins/copr.py:658
 msgid "Playground repositories successfully enabled."
 msgstr "Репозитории Playground успешно подключены."
 
-#: plugins/copr.py:618
+#: plugins/copr.py:661
 msgid "Playground repositories successfully disabled."
 msgstr "Репозитории Playground успешно отключены."
 
-#: plugins/copr.py:622
+#: plugins/copr.py:665
 msgid "Playground repositories successfully updated."
 msgstr "Репозитории Playground успешно обновлены."
 
