@@ -5,21 +5,22 @@
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2018. #zanata, 2020.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2020.
+# Julien Humbert <julroy67@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-15 09:18-0400\n"
-"PO-Revision-Date: 2020-03-19 21:07+0000\n"
-"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fr/>\n"
+"PO-Revision-Date: 2020-05-18 09:40+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -176,11 +177,11 @@ msgstr "affiche les valeurs des variables sur la sortie standard"
 
 #: plugins/config_manager.py:60
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "activer les dépôts (enregistre automatiquement)"
 
 #: plugins/config_manager.py:63
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "désactiver les dépôts (enregistre automatiquement)"
 
 #: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
@@ -191,6 +192,9 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"Attention : les arguments --enablerepo/--disablerepo n’ont aucune "
+"signification avec le gestionnaire de configuration. Utilisez plutôt "
+"--set-enabled/--set-disabled."
 
 #: plugins/config_manager.py:126
 #, python-format
@@ -438,6 +442,14 @@ msgid ""
 "above applies here too, Fedora Project doesn't control the\n"
 "content. Please review the list:"
 msgstr ""
+"Le mainteneur du dépôt Copr activé a décidé de le faire\n"
+"dépend d’autres dépôts. Ces dépôts sont généralement\n"
+"nécessaires pour l’installation correcte des RPM du dépôt\n"
+"Copr principal (fourniture des dépendances d’exécution).\n"
+"\n"
+"Veuillez noter que la mention sur la qualité et le signalement\n"
+"de bogues ci-dessus s’applique ici aussi, le projet Fedora ne\n"
+"contrôle pas le contenu. Veuillez examiner la liste :"
 
 #: plugins/copr.py:519
 msgid ""
@@ -445,6 +457,9 @@ msgid ""
 "These repositories have been enabled automatically.\n"
 "Do you want to keep them enabled?"
 msgstr ""
+"\n"
+"Ces dépôts ont été activés automatiquement.\n"
+"Souhaitez-vous les conserver activés ?"
 
 #: plugins/copr.py:556
 #, python-brace-format
