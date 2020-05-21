@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-17 09:18-0400\n"
-"PO-Revision-Date: 2020-04-06 10:40+0000\n"
+"PO-Revision-Date: 2020-05-22 11:46+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
-"Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/da/>\n"
+"Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -170,11 +170,11 @@ msgstr "udskriv variabelværdier til stdout"
 
 #: plugins/config_manager.py:60
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "aktivér softwarearkiver (gemmer automatisk)"
 
 #: plugins/config_manager.py:63
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "deaktivér softwarearkiver (gemmer automatisk)"
 
 #: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
@@ -185,6 +185,8 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"Advarsel: argumenterne --enablerepo/--disablerepo har ingen betydning med "
+"konfigurationshåndtering. Brug i stedet --set-enabled/--set-disabled."
 
 #: plugins/config_manager.py:126
 #, python-format
@@ -437,6 +439,9 @@ msgid ""
 "These repositories have been enabled automatically.\n"
 "Do you want to keep them enabled?"
 msgstr ""
+"\n"
+"Softwarearkiverne er blevet aktiveret automatisk.\n"
+"Vil du holde dem aktiveret?"
 
 #: plugins/copr.py:556
 #, python-brace-format
