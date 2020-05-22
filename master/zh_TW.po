@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-21 09:18-0400\n"
-"PO-Revision-Date: 2020-05-22 11:46+0000\n"
+"PO-Revision-Date: 2020-05-23 12:40+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_TW/>\n"
@@ -943,38 +943,38 @@ msgstr "儲存下載軟體庫的位置"
 
 #: plugins/reposync.py:75
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "不要將軟體庫名稱加進下載路徑中。"
 
 #: plugins/reposync.py:77
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
-msgstr ""
+msgstr "儲存下載軟體庫之中介資料的位置。預設值為 --download-path 的值。"
 
 #: plugins/reposync.py:80
 msgid "operate on source packages"
-msgstr "在源包上運行"
+msgstr "在來源軟體包上操作"
 
 #: plugins/reposync.py:82
 msgid "try to set local timestamps of local files by the one on the server"
-msgstr ""
+msgstr "嘗試將本機檔案的本地時間戳設定與伺服器一致"
 
 #: plugins/reposync.py:85
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr ""
+msgstr "只列出會下載的 URL 而不下載"
 
 #: plugins/reposync.py:109
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "無法在多個軟體庫使用 --norepopath"
 
 #: plugins/reposync.py:127
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr ""
+msgstr "無法取得中介資料的鏡像：%s"
 
 #: plugins/reposync.py:144
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "無法取得群組檔案的鏡像。"
 
 #: plugins/reposync.py:175
 msgid "Download target '{}' is outside of download path '{}'."
@@ -983,17 +983,17 @@ msgstr "下載目標「{}」在下載位置「{}」之外。"
 #: plugins/reposync.py:190
 #, python-format
 msgid "[DELETED] %s"
-msgstr "[DELETED] %s"
+msgstr "[已刪除] %s"
 
 #: plugins/reposync.py:192
 #, python-format
 msgid "failed to delete file %s"
-msgstr "無法刪除文件 %s"
+msgstr "無法刪除 %s 檔案"
 
 #: plugins/reposync.py:201
 #, python-format
 msgid "comps.xml for repository %s saved"
-msgstr "comps.xml for repository %s 保存"
+msgstr "已儲存 %s 軟體庫的 comps.xml"
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
@@ -1006,60 +1006,60 @@ msgstr "無法讀取版本鎖設定：%s"
 
 #: plugins/versionlock.py:33
 msgid "Locklist not set"
-msgstr "鎖定列表尚未設定"
+msgstr "未設定鎖定列表"
 
 #: plugins/versionlock.py:34
 msgid "Adding versionlock on:"
-msgstr "增加版本鎖於："
+msgstr "加入版本鎖於："
 
 #: plugins/versionlock.py:35
 msgid "Adding exclude on:"
-msgstr "增加排除於："
+msgstr "加入排除於："
 
 #: plugins/versionlock.py:36
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "版本已鎖定在下述等同格式："
 
 #: plugins/versionlock.py:37
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "已鎖定 {} 軟體包"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "已排除 {} 軟體包"
 
 #: plugins/versionlock.py:39
 msgid "Deleting versionlock for:"
-msgstr "移除版本鎖為："
+msgstr "刪除下述的版本鎖："
 
 #: plugins/versionlock.py:40
 msgid "No package found for:"
-msgstr "沒有軟體包被找到於："
+msgstr "找不到下述的軟體包："
 
 #: plugins/versionlock.py:41
 msgid "Excludes from versionlock plugin were not applied"
-msgstr "從版本鎖附加元件排除的項目將不會被套用"
+msgstr "不會套用到自 versionlock 插件排除的軟體包"
 
 #: plugins/versionlock.py:42
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
-msgstr "Versionlock 插件：來自「{}」檔案的封鎖條件數量已經套用：{}"
+msgstr "Versionlock 插件：已從「{}」檔案套用大量的鎖定規則：{}"
 
 #: plugins/versionlock.py:43
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
-msgstr "Versionlock 插件：來自「{}」檔案的排除條件數量已經套用：{}"
+msgstr "Versionlock 插件：已從「{}」檔案套用大量的排除規則：{}"
 
 #: plugins/versionlock.py:44
 msgid "Versionlock plugin: could not parse pattern:"
-msgstr "Versionlock 插件：無法解析範本："
+msgstr "Versionlock 插件：無法解析模式："
 
 #: plugins/versionlock.py:130
 msgid "control package version locks"
-msgstr "控制軟體包版本鎖"
+msgstr "控制軟體包的版本鎖"
 
 #: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
-msgstr ""
+msgstr "使用其原本的軟體包規範，不要嘗試解析"
 
 #~ msgid "also download comps.xml"
 #~ msgstr "還下載comps.xml"
