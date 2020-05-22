@@ -5,13 +5,14 @@
 # Peter Pan <pan93412@gmail.com>, 2018. #zanata
 # Cheng-Chia Tseng <pswo10680@gmail.com>, 2019. #zanata
 # Yi-Jyun Pan <pan93412@gmail.com>, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-17 09:18-0400\n"
 "PO-Revision-Date: 2020-05-22 11:46+0000\n"
-"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -933,7 +934,7 @@ msgstr "只下載每個軟體庫最新的軟體包"
 
 #: plugins/reposync.py:73
 msgid "where to store downloaded repositories"
-msgstr ""
+msgstr "儲存下載軟體庫的地方"
 
 #: plugins/reposync.py:75
 msgid "Don't add the reponame to the download path."
