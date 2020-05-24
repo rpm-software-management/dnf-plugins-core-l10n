@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-22 09:18-0400\n"
-"PO-Revision-Date: 2020-05-23 12:40+0000\n"
+"PO-Revision-Date: 2020-05-24 14:31+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_TW/>\n"
@@ -604,7 +604,7 @@ msgstr "使用 --url 執行時，限縮至指定的通訊協定"
 #: plugins/download.py:121 plugins/reposync.py:260
 #, python-format
 msgid "Failed to get mirror for package: %s"
-msgstr "無法取得軟體庫的鏡像：%s"
+msgstr "無法取得軟體庫的鏡像站：%s"
 
 #: plugins/download.py:243
 msgid "Exiting due to strict setting."
@@ -970,11 +970,11 @@ msgstr "無法在多個軟體庫使用 --norepopath"
 #: plugins/reposync.py:127
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr "無法取得中介資料的鏡像：%s"
+msgstr "無法取得中介資料的鏡像站：%s"
 
 #: plugins/reposync.py:144
 msgid "Failed to get mirror for the group file."
-msgstr "無法取得群組檔案的鏡像。"
+msgstr "無法取得群組檔案的鏡像站。"
 
 #: plugins/reposync.py:175
 msgid "Download target '{}' is outside of download path '{}'."
