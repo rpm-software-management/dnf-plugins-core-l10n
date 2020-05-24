@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-22 09:18-0400\n"
+"POT-Creation-Date: 2020-05-24 09:18-0400\n"
 "PO-Revision-Date: 2020-05-16 10:01+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -220,27 +220,27 @@ msgstr[2] "Utworzenie repozytoriów się nie powiodło"
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Nie można zapisać repozytorium do pliku %s: %s"
 
-#: plugins/copr.py:56
+#: plugins/copr.py:59
 msgid "y"
 msgstr "t"
 
-#: plugins/copr.py:56
+#: plugins/copr.py:59
 msgid "yes"
 msgstr "tak"
 
-#: plugins/copr.py:57
+#: plugins/copr.py:60
 msgid "n"
 msgstr "n"
 
-#: plugins/copr.py:57
+#: plugins/copr.py:60
 msgid "no"
 msgstr "nie"
 
-#: plugins/copr.py:76
+#: plugins/copr.py:79
 msgid "Interact with Copr repositories."
 msgstr "używa repozytoriów Copr"
 
-#: plugins/copr.py:77
+#: plugins/copr.py:81
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -278,32 +278,32 @@ msgstr ""
 "  copr search tests\n"
 "    "
 
-#: plugins/copr.py:103
+#: plugins/copr.py:107
 msgid "List all installed Copr repositories (default)"
 msgstr ""
 "wyświetla listę wszystkich zainstalowanych repozytoriów Copr (domyślnie)"
 
-#: plugins/copr.py:105
+#: plugins/copr.py:109
 msgid "List enabled Copr repositories"
 msgstr "wyświetla listę włączonych repozytoriów Copr"
 
-#: plugins/copr.py:107
+#: plugins/copr.py:111
 msgid "List disabled Copr repositories"
 msgstr "wyświetla listę wyłączonych repozytoriów Copr"
 
-#: plugins/copr.py:109
+#: plugins/copr.py:113
 msgid "List available Copr repositories by user NAME"
 msgstr "wyświetla listę dostępnych repozytoriów Copr według NAZWY użytkownika"
 
-#: plugins/copr.py:111
+#: plugins/copr.py:115
 msgid "Specify an instance of Copr to work with"
 msgstr "Podaje używane wystąpienie Copr"
 
-#: plugins/copr.py:145 plugins/copr.py:210 plugins/copr.py:230
+#: plugins/copr.py:149 plugins/copr.py:217 plugins/copr.py:237
 msgid "Error: "
 msgstr "Błąd: "
 
-#: plugins/copr.py:146
+#: plugins/copr.py:150
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -311,30 +311,45 @@ msgstr ""
 "podaje centrum Copr za pomocą opcji „--hub” lub używając formatu "
 "„centrum_copr/nazwa_użytkownika_copr/nazwa_projektu_copr”"
 
-#: plugins/copr.py:149
+#: plugins/copr.py:153
 msgid "multiple hubs specified"
 msgstr "podano wiele centrów"
 
-#: plugins/copr.py:211 plugins/copr.py:215
+#: plugins/copr.py:218 plugins/copr.py:222
 msgid "exactly two additional parameters to copr command are required"
 msgstr "wymagane są dokładnie dwa dodatkowe parametry dla polecenia copr"
 
-#: plugins/copr.py:231
+#: plugins/copr.py:238
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "należy użyć formatu „copr_nazwaużytkownika/copr_nazwaprojektu”, aby odnieść "
 "się do projektu Copr"
 
-#: plugins/copr.py:233
+#: plugins/copr.py:240
 msgid "bad copr project format"
 msgstr "błędny format projektu Copr"
 
-#: plugins/copr.py:247
-#, python-brace-format
+#: plugins/copr.py:254
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "You are about to enable a Copr repository. Please note that this\n"
+#| "repository is not part of the main distribution, and quality may vary.\n"
+#| "\n"
+#| "The Fedora Project does not exercise any power over the contents of\n"
+#| "this repository beyond the rules outlined in the Copr FAQ at\n"
+#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
+#| "build-in-copr>,\n"
+#| "and packages are not held to any quality or security level.\n"
+#| "\n"
+#| "Please do not file bug reports about these packages in Fedora\n"
+#| "Bugzilla. In case of problems, contact the owner of this repository.\n"
+#| "\n"
+#| "Do you really want to enable {0}?"
 msgid ""
 "\n"
-"You are about to enable a Copr repository. Please note that this\n"
-"repository is not part of the main distribution, and quality may vary.\n"
+"Enabling a Copr repository. Please note that this repository is not part\n"
+"of the main distribution, and quality may vary.\n"
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
@@ -344,8 +359,6 @@ msgid ""
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
-"\n"
-"Do you really want to enable {0}?"
 msgstr ""
 "\n"
 "Zostanie włączone repozytorium Copr. Proszę zauważyć, że to\n"
@@ -364,23 +377,23 @@ msgstr ""
 "\n"
 "Na pewno włączyć {0}?"
 
-#: plugins/copr.py:263
+#: plugins/copr.py:271
 msgid "Repository successfully enabled."
 msgstr "Pomyślnie włączono repozytorium."
 
-#: plugins/copr.py:268
+#: plugins/copr.py:276
 msgid "Repository successfully disabled."
 msgstr "Pomyślnie wyłączono repozytorium."
 
-#: plugins/copr.py:272
+#: plugins/copr.py:280
 msgid "Repository successfully removed."
 msgstr "Pomyślnie usunięto repozytorium."
 
-#: plugins/copr.py:276 plugins/copr.py:668
+#: plugins/copr.py:284 plugins/copr.py:689
 msgid "Unknown subcommand {}."
 msgstr "Nieznane podpolecenie {}."
 
-#: plugins/copr.py:329
+#: plugins/copr.py:337
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -390,59 +403,73 @@ msgstr ""
 "nie zawiera informacji o centrum Copr — przyjęto domyślne. Ponowne włączenie "
 "projektu to naprawi."
 
-#: plugins/copr.py:341
+#: plugins/copr.py:349
 msgid "Can't parse repositories for username '{}'."
 msgstr "Nie można przetworzyć repozytoriów dla nazwy użytkownika „{}”."
 
-#: plugins/copr.py:344
+#: plugins/copr.py:352
 msgid "List of {} coprs"
 msgstr "Lista repozytoriów Copr {}"
 
-#: plugins/copr.py:352
+#: plugins/copr.py:360
 msgid "No description given"
 msgstr "Nie podano opisu"
 
-#: plugins/copr.py:364
+#: plugins/copr.py:372
 msgid "Can't parse search for '{}'."
 msgstr "Nie można przetworzyć wyszukiwania dla „{}”."
 
-#: plugins/copr.py:367
+#: plugins/copr.py:375
 msgid "Matched: {}"
 msgstr "Pasujące: {}"
 
-#: plugins/copr.py:375
+#: plugins/copr.py:383
 msgid "No description given."
 msgstr "Nie podano opisu."
 
-#: plugins/copr.py:388
+#: plugins/copr.py:406
 msgid "Safe and good answer. Exiting."
 msgstr "Bezpieczna i dobra odpowiedź. Kończenie działania."
 
-#: plugins/copr.py:395
+#: plugins/copr.py:413
 msgid "This command has to be run under the root user."
 msgstr "To polecenie może być wykonywane tylko przez użytkownika root."
 
-#: plugins/copr.py:459
+#: plugins/copr.py:477
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr ""
 "To repozytorium nie posiada jeszcze żadnych pakietów, więc nie można go "
 "teraz włączyć."
 
-#: plugins/copr.py:462
+#: plugins/copr.py:480
 msgid "Such repository does not exist."
 msgstr "Repozytorium nie istnieje."
 
-#: plugins/copr.py:505
+#: plugins/copr.py:524
+#, fuzzy, python-brace-format
+#| msgid ""
+#| "Maintainer of the enabled Copr repository decided to make\n"
+#| "it dependent on other repositories. Such repositories are\n"
+#| "usually necessary for successful installation of RPMs from\n"
+#| "the main Copr repository (runtime dependencies provided).\n"
+#| "\n"
+#| "Be aware that the note about quality and bug-reporting\n"
+#| "above applies here too, Fedora Project doesn't control the\n"
+#| "content. Please review the list:"
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
 "it dependent on other repositories. Such repositories are\n"
 "usually necessary for successful installation of RPMs from\n"
-"the main Copr repository (runtime dependencies provided).\n"
+"the main Copr repository (they provide runtime dependencies).\n"
 "\n"
 "Be aware that the note about quality and bug-reporting\n"
 "above applies here too, Fedora Project doesn't control the\n"
-"content. Please review the list:"
+"content. Please review the list:\n"
+"\n"
+"{0}\n"
+"\n"
+"These repositories have been enabled automatically."
 msgstr ""
 "Opiekun włączonego repozytorium Copr zdecydował,\n"
 "że będzie ono zależne od innych repozytoriów. Takie\n"
@@ -454,54 +481,46 @@ msgstr ""
 "i miejsca zgłaszania błędów ma zastosowanie także tutaj.\n"
 "Projekt Fedora nie kontroluje zawartości. Proszę przejrzeć listę:"
 
-#: plugins/copr.py:519
-msgid ""
-"\n"
-"These repositories have been enabled automatically.\n"
-"Do you want to keep them enabled?"
+#: plugins/copr.py:545
+msgid "Do you want to keep them enabled?"
 msgstr ""
-"\n"
-"Te repozytoria zostały automatycznie włączone.\n"
-"Czy zostawić je włączone?"
 
-#: plugins/copr.py:556
+#: plugins/copr.py:578
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Usunięcie repozytorium Copr {0}/{1}/{2} się nie powiodło"
 
-#: plugins/copr.py:567
+#: plugins/copr.py:589
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Wyłączenie repozytorium Copr {}/{} się nie powiodło"
 
-#: plugins/copr.py:585 plugins/copr.py:623
+#: plugins/copr.py:607 plugins/copr.py:644
 msgid "Unknown response from server."
 msgstr "Nieznana odpowiedź serwera."
 
-#: plugins/copr.py:607
+#: plugins/copr.py:629
 msgid "Interact with Playground repository."
 msgstr "używa repozytorium Playground"
 
-#: plugins/copr.py:612
-msgid ""
-"\n"
-"You are about to enable a Playground repository.\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-"\n"
-"Zostanie włączone repozytorium Playground.\n"
-"\n"
-"Kontynuować?"
+#: plugins/copr.py:635
+#, fuzzy
+#| msgid "Interact with Playground repository."
+msgid "Enabling a Playground repository."
+msgstr "używa repozytorium Playground"
 
-#: plugins/copr.py:658
+#: plugins/copr.py:636
+msgid "Do you want to continue?"
+msgstr ""
+
+#: plugins/copr.py:679
 msgid "Playground repositories successfully enabled."
 msgstr "Pomyślnie włączono repozytoria Playground."
 
-#: plugins/copr.py:661
+#: plugins/copr.py:682
 msgid "Playground repositories successfully disabled."
 msgstr "Pomyślnie wyłączono repozytoria Playground."
 
-#: plugins/copr.py:665
+#: plugins/copr.py:686
 msgid "Playground repositories successfully updated."
 msgstr "Pomyślnie zaktualizowano repozytoria Playground."
 
@@ -1124,6 +1143,26 @@ msgstr "kontroluje blokady wersji pakietów"
 #: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr "Używa specyfikacji pakietów bez ich przetwarzania"
+
+#~ msgid ""
+#~ "\n"
+#~ "These repositories have been enabled automatically.\n"
+#~ "Do you want to keep them enabled?"
+#~ msgstr ""
+#~ "\n"
+#~ "Te repozytoria zostały automatycznie włączone.\n"
+#~ "Czy zostawić je włączone?"
+
+#~ msgid ""
+#~ "\n"
+#~ "You are about to enable a Playground repository.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "\n"
+#~ "Zostanie włączone repozytorium Playground.\n"
+#~ "\n"
+#~ "Kontynuować?"
 
 #~ msgid "also download comps.xml"
 #~ msgstr "pobiera także comps.xml"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-22 09:18-0400\n"
+"POT-Creation-Date: 2020-05-24 09:18-0400\n"
 "PO-Revision-Date: 2020-05-18 09:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -216,27 +216,27 @@ msgstr[2] "Помилка під час налаштовування схови�
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Не вдалося зберегти дані сховища до файла сховищ %s: %s"
 
-#: plugins/copr.py:56
+#: plugins/copr.py:59
 msgid "y"
 msgstr "y"
 
-#: plugins/copr.py:56
+#: plugins/copr.py:59
 msgid "yes"
 msgstr "так"
 
-#: plugins/copr.py:57
+#: plugins/copr.py:60
 msgid "n"
 msgstr "n"
 
-#: plugins/copr.py:57
+#: plugins/copr.py:60
 msgid "no"
 msgstr "ні"
 
-#: plugins/copr.py:76
+#: plugins/copr.py:79
 msgid "Interact with Copr repositories."
 msgstr "Працювати зі сховищами Copr."
 
-#: plugins/copr.py:77
+#: plugins/copr.py:81
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -274,32 +274,32 @@ msgstr ""
 "  copr search tests\n"
 "    "
 
-#: plugins/copr.py:103
+#: plugins/copr.py:107
 msgid "List all installed Copr repositories (default)"
 msgstr "Список усіх встановлених сховищ Copr (типово)"
 
-#: plugins/copr.py:105
+#: plugins/copr.py:109
 msgid "List enabled Copr repositories"
 msgstr "Список увімкнених сховищ Copr"
 
-#: plugins/copr.py:107
+#: plugins/copr.py:111
 msgid "List disabled Copr repositories"
 msgstr "Список вимкнених сховищ Copr"
 
-#: plugins/copr.py:109
+#: plugins/copr.py:113
 msgid "List available Copr repositories by user NAME"
 msgstr ""
 "Список доступних сховищ Copr, які належать користувачу із вказаним ім'ям"
 
-#: plugins/copr.py:111
+#: plugins/copr.py:115
 msgid "Specify an instance of Copr to work with"
 msgstr "Вказати екземпляр Copr для роботи"
 
-#: plugins/copr.py:145 plugins/copr.py:210 plugins/copr.py:230
+#: plugins/copr.py:149 plugins/copr.py:217 plugins/copr.py:237
 msgid "Error: "
 msgstr "Помилка: "
 
-#: plugins/copr.py:146
+#: plugins/copr.py:150
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -307,30 +307,45 @@ msgstr ""
 "вкажіть концентратор Copr за допомогою «--hub» або за допомогою формату "
 "«концентратор_copr/користувач_copr/назва_проєкту_copr»"
 
-#: plugins/copr.py:149
+#: plugins/copr.py:153
 msgid "multiple hubs specified"
 msgstr "вказано декілька концентраторів"
 
-#: plugins/copr.py:211 plugins/copr.py:215
+#: plugins/copr.py:218 plugins/copr.py:222
 msgid "exactly two additional parameters to copr command are required"
 msgstr "команді copr слід передавати точно два додаткові параметри"
 
-#: plugins/copr.py:231
+#: plugins/copr.py:238
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "для використання проєкт copr скористайтеся форматом «copr_користувач/"
 "copr_назва_проєкту»"
 
-#: plugins/copr.py:233
+#: plugins/copr.py:240
 msgid "bad copr project format"
 msgstr "помилкове форматування проєкту copr"
 
-#: plugins/copr.py:247
-#, python-brace-format
+#: plugins/copr.py:254
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "You are about to enable a Copr repository. Please note that this\n"
+#| "repository is not part of the main distribution, and quality may vary.\n"
+#| "\n"
+#| "The Fedora Project does not exercise any power over the contents of\n"
+#| "this repository beyond the rules outlined in the Copr FAQ at\n"
+#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
+#| "build-in-copr>,\n"
+#| "and packages are not held to any quality or security level.\n"
+#| "\n"
+#| "Please do not file bug reports about these packages in Fedora\n"
+#| "Bugzilla. In case of problems, contact the owner of this repository.\n"
+#| "\n"
+#| "Do you really want to enable {0}?"
 msgid ""
 "\n"
-"You are about to enable a Copr repository. Please note that this\n"
-"repository is not part of the main distribution, and quality may vary.\n"
+"Enabling a Copr repository. Please note that this repository is not part\n"
+"of the main distribution, and quality may vary.\n"
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
@@ -340,8 +355,6 @@ msgid ""
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
-"\n"
-"Do you really want to enable {0}?"
 msgstr ""
 "\n"
 "Ви наказали системі увімкнути сховище Copr. Будь ласка, зауважте,\n"
@@ -360,23 +373,23 @@ msgstr ""
 "\n"
 "Ви справді хочете увімкнути {0}?"
 
-#: plugins/copr.py:263
+#: plugins/copr.py:271
 msgid "Repository successfully enabled."
 msgstr "Сховище успішно увімкнено."
 
-#: plugins/copr.py:268
+#: plugins/copr.py:276
 msgid "Repository successfully disabled."
 msgstr "Сховище успішно вимкнено."
 
-#: plugins/copr.py:272
+#: plugins/copr.py:280
 msgid "Repository successfully removed."
 msgstr "Сховище успішно вилучено."
 
-#: plugins/copr.py:276 plugins/copr.py:668
+#: plugins/copr.py:284 plugins/copr.py:689
 msgid "Unknown subcommand {}."
 msgstr "Невідома підкоманда {}."
 
-#: plugins/copr.py:329
+#: plugins/copr.py:337
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -386,59 +399,73 @@ msgstr ""
 "даних щодо концентратора Copr — припускаємо типовий. Знову увімкніть проєкт "
 "для виправлення."
 
-#: plugins/copr.py:341
+#: plugins/copr.py:349
 msgid "Can't parse repositories for username '{}'."
 msgstr "Не вдалося обробити сховища для користувача '{}'."
 
-#: plugins/copr.py:344
+#: plugins/copr.py:352
 msgid "List of {} coprs"
 msgstr "Список copr {}"
 
-#: plugins/copr.py:352
+#: plugins/copr.py:360
 msgid "No description given"
 msgstr "Опис не надано"
 
-#: plugins/copr.py:364
+#: plugins/copr.py:372
 msgid "Can't parse search for '{}'."
 msgstr "Не вдалося обробити пошук для '{}'."
 
-#: plugins/copr.py:367
+#: plugins/copr.py:375
 msgid "Matched: {}"
 msgstr "Відповідник: {}"
 
-#: plugins/copr.py:375
+#: plugins/copr.py:383
 msgid "No description given."
 msgstr "Опис не надано."
 
-#: plugins/copr.py:388
+#: plugins/copr.py:406
 msgid "Safe and good answer. Exiting."
 msgstr "Безпечна і добра відповідь. Завершуємо роботу."
 
-#: plugins/copr.py:395
+#: plugins/copr.py:413
 msgid "This command has to be run under the root user."
 msgstr "Цю команду слід виконувати від імені користувача root."
 
-#: plugins/copr.py:459
+#: plugins/copr.py:477
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr ""
 "У цьому сховищі ще немає нічого зібраного, отже ви не можете його зараз "
 "увімкнути."
 
-#: plugins/copr.py:462
+#: plugins/copr.py:480
 msgid "Such repository does not exist."
 msgstr "Такого сховища не існує."
 
-#: plugins/copr.py:505
+#: plugins/copr.py:524
+#, fuzzy, python-brace-format
+#| msgid ""
+#| "Maintainer of the enabled Copr repository decided to make\n"
+#| "it dependent on other repositories. Such repositories are\n"
+#| "usually necessary for successful installation of RPMs from\n"
+#| "the main Copr repository (runtime dependencies provided).\n"
+#| "\n"
+#| "Be aware that the note about quality and bug-reporting\n"
+#| "above applies here too, Fedora Project doesn't control the\n"
+#| "content. Please review the list:"
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
 "it dependent on other repositories. Such repositories are\n"
 "usually necessary for successful installation of RPMs from\n"
-"the main Copr repository (runtime dependencies provided).\n"
+"the main Copr repository (they provide runtime dependencies).\n"
 "\n"
 "Be aware that the note about quality and bug-reporting\n"
 "above applies here too, Fedora Project doesn't control the\n"
-"content. Please review the list:"
+"content. Please review the list:\n"
+"\n"
+"{0}\n"
+"\n"
+"These repositories have been enabled automatically."
 msgstr ""
 "Супровідник увімкненого сховища Copr вирішив зробити\n"
 "його залежним від інших сховищ. Такі сховища, зазвичай,\n"
@@ -449,54 +476,46 @@ msgstr ""
 "щодо вад стосуються і цього сховища — Проєкт Fedora не\n"
 "керує вмістом сховища. Будь ласка, перегляньте список:"
 
-#: plugins/copr.py:519
-msgid ""
-"\n"
-"These repositories have been enabled automatically.\n"
-"Do you want to keep them enabled?"
+#: plugins/copr.py:545
+msgid "Do you want to keep them enabled?"
 msgstr ""
-"\n"
-"Це сховища було увімкнено автоматично.\n"
-"Хочете лишити їх увімкненими?"
 
-#: plugins/copr.py:556
+#: plugins/copr.py:578
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Не вдалося вилучити сховище copr {0}/{1}/{2}"
 
-#: plugins/copr.py:567
+#: plugins/copr.py:589
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Не вдалося вилучити сховище copr {}/{}"
 
-#: plugins/copr.py:585 plugins/copr.py:623
+#: plugins/copr.py:607 plugins/copr.py:644
 msgid "Unknown response from server."
 msgstr "Невідома відповідь від сервера."
 
-#: plugins/copr.py:607
+#: plugins/copr.py:629
 msgid "Interact with Playground repository."
 msgstr "Працювати зі сховищем Playground."
 
-#: plugins/copr.py:612
-msgid ""
-"\n"
-"You are about to enable a Playground repository.\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-"\n"
-"Ви наказали системі увімкнути сховище Playground.\n"
-"\n"
-"Ви справді хочете продовжити виконання цієї дії?"
+#: plugins/copr.py:635
+#, fuzzy
+#| msgid "Interact with Playground repository."
+msgid "Enabling a Playground repository."
+msgstr "Працювати зі сховищем Playground."
 
-#: plugins/copr.py:658
+#: plugins/copr.py:636
+msgid "Do you want to continue?"
+msgstr ""
+
+#: plugins/copr.py:679
 msgid "Playground repositories successfully enabled."
 msgstr "Сховища playground успішно увімкнено."
 
-#: plugins/copr.py:661
+#: plugins/copr.py:682
 msgid "Playground repositories successfully disabled."
 msgstr "Сховища playground успішно вимкнено."
 
-#: plugins/copr.py:665
+#: plugins/copr.py:686
 msgid "Playground repositories successfully updated."
 msgstr "Сховища playground успішно оновлено."
 
@@ -1119,6 +1138,26 @@ msgstr "керування блокуванням версій пакунків"
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
 "Використовувати специфікації пакунків без змін, не намагатися обробити їх"
+
+#~ msgid ""
+#~ "\n"
+#~ "These repositories have been enabled automatically.\n"
+#~ "Do you want to keep them enabled?"
+#~ msgstr ""
+#~ "\n"
+#~ "Це сховища було увімкнено автоматично.\n"
+#~ "Хочете лишити їх увімкненими?"
+
+#~ msgid ""
+#~ "\n"
+#~ "You are about to enable a Playground repository.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "\n"
+#~ "Ви наказали системі увімкнути сховище Playground.\n"
+#~ "\n"
+#~ "Ви справді хочете продовжити виконання цієї дії?"
 
 #~ msgid "also download comps.xml"
 #~ msgstr "також отримати comps.xml"

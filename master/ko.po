@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-22 09:18-0400\n"
+"POT-Creation-Date: 2020-05-24 09:18-0400\n"
 "PO-Revision-Date: 2018-11-02 04:31+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Korean\n"
@@ -195,27 +195,27 @@ msgstr[0] "저장소 구성에 실패했습니다."
 msgid "Could not save repo to repofile %s: %s"
 msgstr "repofile에 repo를 저장할 수 없습니다. %s: %s"
 
-#: plugins/copr.py:56
+#: plugins/copr.py:59
 msgid "y"
 msgstr "y"
 
-#: plugins/copr.py:56
+#: plugins/copr.py:59
 msgid "yes"
 msgstr "예"
 
-#: plugins/copr.py:57
+#: plugins/copr.py:60
 msgid "n"
 msgstr "n"
 
-#: plugins/copr.py:57
+#: plugins/copr.py:60
 msgid "no"
 msgstr "아니"
 
-#: plugins/copr.py:76
+#: plugins/copr.py:79
 msgid "Interact with Copr repositories."
 msgstr "Copr 저장소와 상호 작용하십시오."
 
-#: plugins/copr.py:77
+#: plugins/copr.py:81
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -243,60 +243,59 @@ msgstr ""
 "ignatenkobrain copr 검색 테스트\n"
 "    "
 
-#: plugins/copr.py:103
+#: plugins/copr.py:107
 msgid "List all installed Copr repositories (default)"
 msgstr "설치된 모든 Copr 저장소 나열 (기본값)"
 
-#: plugins/copr.py:105
+#: plugins/copr.py:109
 msgid "List enabled Copr repositories"
 msgstr "사용 가능한 Copr 저장소 목록"
 
-#: plugins/copr.py:107
+#: plugins/copr.py:111
 msgid "List disabled Copr repositories"
 msgstr "비활성화 된 Copr 저장소 목록"
 
-#: plugins/copr.py:109
+#: plugins/copr.py:113
 msgid "List available Copr repositories by user NAME"
 msgstr "사용자가 사용할 수있는 Copr 저장소를 나열합니다. NAME"
 
-#: plugins/copr.py:111
+#: plugins/copr.py:115
 msgid "Specify an instance of Copr to work with"
 msgstr ""
 
-#: plugins/copr.py:145 plugins/copr.py:210 plugins/copr.py:230
+#: plugins/copr.py:149 plugins/copr.py:217 plugins/copr.py:237
 msgid "Error: "
 msgstr "오류: "
 
-#: plugins/copr.py:146
+#: plugins/copr.py:150
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
 
-#: plugins/copr.py:149
+#: plugins/copr.py:153
 msgid "multiple hubs specified"
 msgstr ""
 
-#: plugins/copr.py:211 plugins/copr.py:215
+#: plugins/copr.py:218 plugins/copr.py:222
 msgid "exactly two additional parameters to copr command are required"
 msgstr "copr 명령에 정확히 두 개의 추가 매개 변수가 필요합니다."
 
-#: plugins/copr.py:231
+#: plugins/copr.py:238
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "copr 프로젝트를 참조하기 위해`copr_username / copr_projectname` 형식을 사용하"
 "십시오"
 
-#: plugins/copr.py:233
+#: plugins/copr.py:240
 msgid "bad copr project format"
 msgstr "나쁜 copr 프로젝트 형식"
 
-#: plugins/copr.py:247
-#, python-brace-format
+#: plugins/copr.py:254
 msgid ""
 "\n"
-"You are about to enable a Copr repository. Please note that this\n"
-"repository is not part of the main distribution, and quality may vary.\n"
+"Enabling a Copr repository. Please note that this repository is not part\n"
+"of the main distribution, and quality may vary.\n"
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
@@ -306,129 +305,129 @@ msgid ""
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
-"\n"
-"Do you really want to enable {0}?"
 msgstr ""
 
-#: plugins/copr.py:263
+#: plugins/copr.py:271
 msgid "Repository successfully enabled."
 msgstr "저장소가 사용 설정되었습니다."
 
-#: plugins/copr.py:268
+#: plugins/copr.py:276
 msgid "Repository successfully disabled."
 msgstr "저장소가 사용 중지되었습니다."
 
-#: plugins/copr.py:272
+#: plugins/copr.py:280
 msgid "Repository successfully removed."
 msgstr "저장소가 제거되었습니다."
 
-#: plugins/copr.py:276 plugins/copr.py:668
+#: plugins/copr.py:284 plugins/copr.py:689
 msgid "Unknown subcommand {}."
 msgstr "알 수없는 부속 명령 {}."
 
-#: plugins/copr.py:329
+#: plugins/copr.py:337
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 
-#: plugins/copr.py:341
+#: plugins/copr.py:349
 msgid "Can't parse repositories for username '{}'."
 msgstr "사용자 이름 '{}'에 대한 리포지토리를 구문 분석 할 수 없습니다."
 
-#: plugins/copr.py:344
+#: plugins/copr.py:352
 msgid "List of {} coprs"
 msgstr "{} 명의 경찰 목록"
 
-#: plugins/copr.py:352
+#: plugins/copr.py:360
 msgid "No description given"
 msgstr "설명이 없습니다."
 
-#: plugins/copr.py:364
+#: plugins/copr.py:372
 msgid "Can't parse search for '{}'."
 msgstr "'{}'에 대한 검색을 구문 분석 할 수 없습니다."
 
-#: plugins/copr.py:367
+#: plugins/copr.py:375
 msgid "Matched: {}"
 msgstr "일치하는 항목 : {}"
 
-#: plugins/copr.py:375
+#: plugins/copr.py:383
 msgid "No description given."
 msgstr "설명이 없습니다."
 
-#: plugins/copr.py:388
+#: plugins/copr.py:406
 msgid "Safe and good answer. Exiting."
 msgstr "안전하고 좋은 대답. 나가기."
 
-#: plugins/copr.py:395
+#: plugins/copr.py:413
 msgid "This command has to be run under the root user."
 msgstr "이 명령은 루트 사용자로 실행해야합니다."
 
-#: plugins/copr.py:459
+#: plugins/copr.py:477
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr "이 저장소에는 빌드가 아직 없으므로 지금 사용할 수 없습니다."
 
-#: plugins/copr.py:462
+#: plugins/copr.py:480
 msgid "Such repository does not exist."
 msgstr "이러한 저장소는 존재하지 않습니다."
 
-#: plugins/copr.py:505
+#: plugins/copr.py:524
+#, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
 "it dependent on other repositories. Such repositories are\n"
 "usually necessary for successful installation of RPMs from\n"
-"the main Copr repository (runtime dependencies provided).\n"
+"the main Copr repository (they provide runtime dependencies).\n"
 "\n"
 "Be aware that the note about quality and bug-reporting\n"
 "above applies here too, Fedora Project doesn't control the\n"
-"content. Please review the list:"
-msgstr ""
-
-#: plugins/copr.py:519
-msgid ""
+"content. Please review the list:\n"
 "\n"
-"These repositories have been enabled automatically.\n"
-"Do you want to keep them enabled?"
+"{0}\n"
+"\n"
+"These repositories have been enabled automatically."
 msgstr ""
 
-#: plugins/copr.py:556
+#: plugins/copr.py:545
+msgid "Do you want to keep them enabled?"
+msgstr ""
+
+#: plugins/copr.py:578
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr ""
 
-#: plugins/copr.py:567
+#: plugins/copr.py:589
 msgid "Failed to disable copr repo {}/{}"
 msgstr "copr repo {} / {}를 사용 중지하지 못했습니다."
 
-#: plugins/copr.py:585 plugins/copr.py:623
+#: plugins/copr.py:607 plugins/copr.py:644
 msgid "Unknown response from server."
 msgstr "서버에서 알 수없는 응답."
 
-#: plugins/copr.py:607
+#: plugins/copr.py:629
 msgid "Interact with Playground repository."
 msgstr "놀이터 저장소와 상호 작용하십시오."
 
-#: plugins/copr.py:612
-msgid ""
-"\n"
-"You are about to enable a Playground repository.\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-"\n"
-"놀이터 저장소를 사용하려고합니다. 계속 하시겠습니까?"
+#: plugins/copr.py:635
+#, fuzzy
+#| msgid "Interact with Playground repository."
+msgid "Enabling a Playground repository."
+msgstr "놀이터 저장소와 상호 작용하십시오."
 
-#: plugins/copr.py:658
+#: plugins/copr.py:636
+msgid "Do you want to continue?"
+msgstr ""
+
+#: plugins/copr.py:679
 msgid "Playground repositories successfully enabled."
 msgstr "놀이터 저장소를 사용하도록 설정했습니다."
 
-#: plugins/copr.py:661
+#: plugins/copr.py:682
 msgid "Playground repositories successfully disabled."
 msgstr "놀이터 저장소가 사용 중지되었습니다."
 
-#: plugins/copr.py:665
+#: plugins/copr.py:686
 msgid "Playground repositories successfully updated."
 msgstr "놀이터 저장소가 성공적으로 업데이트되었습니다."
 
@@ -1013,6 +1012,15 @@ msgstr ""
 #: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "You are about to enable a Playground repository.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "\n"
+#~ "놀이터 저장소를 사용하려고합니다. 계속 하시겠습니까?"
 
 #~ msgid "also download comps.xml"
 #~ msgstr "comps.xml도 다운로드하십시오."
