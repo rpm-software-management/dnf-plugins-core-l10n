@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 09:18-0400\n"
-"PO-Revision-Date: 2020-05-18 09:40+0000\n"
+"PO-Revision-Date: 2020-05-25 18:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.0.4\n"
 
 #: plugins/builddep.py:45
@@ -326,22 +326,6 @@ msgid "bad copr project format"
 msgstr "помилкове форматування проєкту copr"
 
 #: plugins/copr.py:254
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "You are about to enable a Copr repository. Please note that this\n"
-#| "repository is not part of the main distribution, and quality may vary.\n"
-#| "\n"
-#| "The Fedora Project does not exercise any power over the contents of\n"
-#| "this repository beyond the rules outlined in the Copr FAQ at\n"
-#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
-#| "build-in-copr>,\n"
-#| "and packages are not held to any quality or security level.\n"
-#| "\n"
-#| "Please do not file bug reports about these packages in Fedora\n"
-#| "Bugzilla. In case of problems, contact the owner of this repository.\n"
-#| "\n"
-#| "Do you really want to enable {0}?"
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -370,8 +354,6 @@ msgstr ""
 "Будь ласка, не повідомляйте про виявлені у цих пакунках вади до\n"
 "системи стеження за вадами Fedora. Якщо виникнуть якісь проблеми,\n"
 "зв’яжіться із власником цього сховища пакунків.\n"
-"\n"
-"Ви справді хочете увімкнути {0}?"
 
 #: plugins/copr.py:271
 msgid "Repository successfully enabled."
@@ -443,16 +425,7 @@ msgid "Such repository does not exist."
 msgstr "Такого сховища не існує."
 
 #: plugins/copr.py:524
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "Maintainer of the enabled Copr repository decided to make\n"
-#| "it dependent on other repositories. Such repositories are\n"
-#| "usually necessary for successful installation of RPMs from\n"
-#| "the main Copr repository (runtime dependencies provided).\n"
-#| "\n"
-#| "Be aware that the note about quality and bug-reporting\n"
-#| "above applies here too, Fedora Project doesn't control the\n"
-#| "content. Please review the list:"
+#, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
 "it dependent on other repositories. Such repositories are\n"
@@ -474,11 +447,15 @@ msgstr ""
 "\n"
 "Майте на увазі, що зауваження щодо якості на звітування\n"
 "щодо вад стосуються і цього сховища — Проєкт Fedora не\n"
-"керує вмістом сховища. Будь ласка, перегляньте список:"
+"керує вмістом сховища. Будь ласка, перегляньте список:\n"
+"\n"
+"{0}\n"
+"\n"
+"Ці сховища було увімкнено автоматично."
 
 #: plugins/copr.py:545
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "Хочете не вимикати їх?"
 
 #: plugins/copr.py:578
 #, python-brace-format
@@ -498,14 +475,12 @@ msgid "Interact with Playground repository."
 msgstr "Працювати зі сховищем Playground."
 
 #: plugins/copr.py:635
-#, fuzzy
-#| msgid "Interact with Playground repository."
 msgid "Enabling a Playground repository."
-msgstr "Працювати зі сховищем Playground."
+msgstr "Вмикання сховища Playground."
 
 #: plugins/copr.py:636
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Хочете продовжити виконання цієї дії?"
 
 #: plugins/copr.py:679
 msgid "Playground repositories successfully enabled."
