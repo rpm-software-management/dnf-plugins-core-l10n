@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-25 09:18-0400\n"
-"PO-Revision-Date: 2020-05-24 14:31+0000\n"
+"PO-Revision-Date: 2020-05-27 17:40+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_TW/>\n"
@@ -313,22 +313,6 @@ msgid "bad copr project format"
 msgstr "Copr 專案格式無效"
 
 #: plugins/copr.py:254
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "You are about to enable a Copr repository. Please note that this\n"
-#| "repository is not part of the main distribution, and quality may vary.\n"
-#| "\n"
-#| "The Fedora Project does not exercise any power over the contents of\n"
-#| "this repository beyond the rules outlined in the Copr FAQ at\n"
-#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
-#| "build-in-copr>,\n"
-#| "and packages are not held to any quality or security level.\n"
-#| "\n"
-#| "Please do not file bug reports about these packages in Fedora\n"
-#| "Bugzilla. In case of problems, contact the owner of this repository.\n"
-#| "\n"
-#| "Do you really want to enable {0}?"
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -344,18 +328,16 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"您正要啟用一個 Copr 軟體庫。請注意這個軟體庫\n"
+"啟用 Copr 軟體庫中。請注意這個軟體庫\n"
 "不是主散布版的一部分，並且品質不定。\n"
 "\n"
 "Fedora Project 不會對這個軟體庫的內容行使任何超出 Copr 常見問題\n"
-"（<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
-"build-in-copr>）\n"
+"（<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>）\n"
 "列出規則之外的權力，且軟體包並不保有任何的品質與安全性保證。\n"
 "\n"
 "請不要將這些軟體包的漏洞回報至 Fedora Bugzilla。\n"
 "假如碰到問題，請聯絡此軟體庫的擁有者。\n"
-"\n"
-"是否仍要啟用 {0}？"
 
 #: plugins/copr.py:271
 msgid "Repository successfully enabled."
@@ -442,7 +424,7 @@ msgstr ""
 
 #: plugins/copr.py:545
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "是否保持啟用？"
 
 #: plugins/copr.py:578
 #, python-brace-format
@@ -462,14 +444,12 @@ msgid "Interact with Playground repository."
 msgstr "與 Playground 軟體庫互動。"
 
 #: plugins/copr.py:635
-#, fuzzy
-#| msgid "Interact with Playground repository."
 msgid "Enabling a Playground repository."
-msgstr "與 Playground 軟體庫互動。"
+msgstr "啟用 Playground 軟體庫。"
 
 #: plugins/copr.py:636
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "是否繼續？"
 
 #: plugins/copr.py:679
 msgid "Playground repositories successfully enabled."
