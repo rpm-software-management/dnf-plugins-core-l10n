@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-09 09:18-0400\n"
+"POT-Creation-Date: 2020-06-10 09:18-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -609,36 +609,43 @@ msgstr ""
 msgid "Migrating history data..."
 msgstr ""
 
-#: plugins/needs_restarting.py:173
+#: plugins/needs_restarting.py:63
+#, python-brace-format
+msgid ""
+"No installed package found for package name \"{pkg}\"specified in needs-"
+"restarting file \"{file}\"."
+msgstr ""
+
+#: plugins/needs_restarting.py:197
 msgid "determine updated binaries that need restarting"
 msgstr ""
 
-#: plugins/needs_restarting.py:178
+#: plugins/needs_restarting.py:202
 msgid "only consider this user's processes"
 msgstr ""
 
-#: plugins/needs_restarting.py:180
+#: plugins/needs_restarting.py:204
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:228
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:233
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 
-#: plugins/needs_restarting.py:205
+#: plugins/needs_restarting.py:234
 msgid "More information:"
 msgstr ""
 
-#: plugins/needs_restarting.py:209
+#: plugins/needs_restarting.py:238
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:211
+#: plugins/needs_restarting.py:240
 msgid "Reboot should not be necessary."
 msgstr ""
 
