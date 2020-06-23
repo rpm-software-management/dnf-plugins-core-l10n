@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 09:18-0400\n"
+"POT-Creation-Date: 2020-06-22 09:18-0400\n"
 "PO-Revision-Date: 2019-11-27 09:17+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian\n"
@@ -675,39 +675,46 @@ msgstr "migre la cronologjie di yum, i grups e i dâts di yumdb su dnf"
 msgid "Migrating history data..."
 msgstr "Daûr a migrâ i dâts de cronologjie..."
 
-#: plugins/needs_restarting.py:173
+#: plugins/needs_restarting.py:65
+#, python-brace-format
+msgid ""
+"No installed package found for package name \"{pkg}\" specified in needs-"
+"restarting file \"{file}\"."
+msgstr ""
+
+#: plugins/needs_restarting.py:199
 msgid "determine updated binaries that need restarting"
 msgstr "determine i binaris inzornâts che a àn bisugne di tornâ a inviâsi"
 
-#: plugins/needs_restarting.py:178
+#: plugins/needs_restarting.py:204
 msgid "only consider this user's processes"
 msgstr "considere dome i procès di chest utent"
 
-#: plugins/needs_restarting.py:180
+#: plugins/needs_restarting.py:206
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "segnale dome se al covente tornâ a inviâ (codiç di jessude 1) o mancul "
 "(codiç di jessude 0)"
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:230
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:235
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Al covente tornâ a inviâ il sisteme par utilizâ dal dut chescj inzornaments."
 
-#: plugins/needs_restarting.py:205
+#: plugins/needs_restarting.py:236
 msgid "More information:"
 msgstr "Plui informazions:"
 
-#: plugins/needs_restarting.py:209
+#: plugins/needs_restarting.py:240
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:211
+#: plugins/needs_restarting.py:242
 msgid "Reboot should not be necessary."
 msgstr "Nol varès di coventâ tornâ a inviâ il sisteme."
 
@@ -906,39 +913,39 @@ msgstr "Mostre un grafic complet des dipendencis in formât dot"
 msgid "Nothing provides: '%s'"
 msgstr "Nuie al furnìs: '%s'"
 
-#: plugins/repomanage.py:44
+#: plugins/repomanage.py:45
 msgid "Manage a directory of rpm packages"
 msgstr "Gjestìs un cartele di pachets rpm"
 
-#: plugins/repomanage.py:58
+#: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
 msgstr "Passe o --old o --new, no ducj i doi!"
 
-#: plugins/repomanage.py:68
+#: plugins/repomanage.py:71
 msgid "No files to process"
 msgstr "Nissun file di elaborâ"
 
-#: plugins/repomanage.py:73
+#: plugins/repomanage.py:93
 msgid "Could not open {}"
 msgstr "Impussibil vierzi {}"
 
-#: plugins/repomanage.py:130
+#: plugins/repomanage.py:177
 msgid "Print the older packages"
 msgstr "Stampe i pachets plui vecjos"
 
-#: plugins/repomanage.py:132
+#: plugins/repomanage.py:179
 msgid "Print the newest packages"
 msgstr "Stampe i pachets plui gnûfs"
 
-#: plugins/repomanage.py:134
+#: plugins/repomanage.py:181
 msgid "Space separated output, not newline"
 msgstr "Jessude separade di spazis no di riis gnovis"
 
-#: plugins/repomanage.py:136
+#: plugins/repomanage.py:183
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "I N plui gnûfs pachets di tignî - predefinît a 1"
 
-#: plugins/repomanage.py:139
+#: plugins/repomanage.py:186
 msgid "Path to directory"
 msgstr "Percors ae cartele"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 09:18-0400\n"
+"POT-Creation-Date: 2020-06-22 09:18-0400\n"
 "PO-Revision-Date: 2020-05-11 22:44+0000\n"
 "Last-Translator: Mikael Granberg <mikael@famgra.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -678,38 +678,45 @@ msgstr "migrera yums historie-, grupp- och yumdb-data till dnf"
 msgid "Migrating history data..."
 msgstr "Migrerar historiedata …"
 
-#: plugins/needs_restarting.py:173
+#: plugins/needs_restarting.py:65
+#, python-brace-format
+msgid ""
+"No installed package found for package name \"{pkg}\" specified in needs-"
+"restarting file \"{file}\"."
+msgstr ""
+
+#: plugins/needs_restarting.py:199
 msgid "determine updated binaries that need restarting"
 msgstr "avgör vilka uppdaterade binärer som behöver startas om"
 
-#: plugins/needs_restarting.py:178
+#: plugins/needs_restarting.py:204
 msgid "only consider this user's processes"
 msgstr "betrakta endast denna användares processer"
 
-#: plugins/needs_restarting.py:180
+#: plugins/needs_restarting.py:206
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "rapportera endast huruvida en omstart behövs (slutkod 1) eller inte (slutkod "
 "0)"
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:230
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Kärnbibliotek och -tjänster har uppdaterats sedan uppstart:"
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:235
 msgid "Reboot is required to fully utilize these updates."
 msgstr "En omstart behövs för att helt utnyttja dessa uppdateringar."
 
-#: plugins/needs_restarting.py:205
+#: plugins/needs_restarting.py:236
 msgid "More information:"
 msgstr "Mer information:"
 
-#: plugins/needs_restarting.py:209
+#: plugins/needs_restarting.py:240
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "Inga kärnbibliotek eller -tjänster har uppdaterats sedan uppstart."
 
-#: plugins/needs_restarting.py:211
+#: plugins/needs_restarting.py:242
 msgid "Reboot should not be necessary."
 msgstr "En omstart skall inte behövas."
 
@@ -905,39 +912,39 @@ msgstr "Mata ut en fullständig paketberoendegraf i dot-format"
 msgid "Nothing provides: '%s'"
 msgstr "Inget tillhandahåller: ”%s”"
 
-#: plugins/repomanage.py:44
+#: plugins/repomanage.py:45
 msgid "Manage a directory of rpm packages"
 msgstr "Hantera en katalog med rpm-paket"
 
-#: plugins/repomanage.py:58
+#: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
 msgstr "Skicka antingen --old eller --new, inte båda!"
 
-#: plugins/repomanage.py:68
+#: plugins/repomanage.py:71
 msgid "No files to process"
 msgstr "Inga filer att behandla"
 
-#: plugins/repomanage.py:73
+#: plugins/repomanage.py:93
 msgid "Could not open {}"
 msgstr "Kunde inte öppna {}"
 
-#: plugins/repomanage.py:130
+#: plugins/repomanage.py:177
 msgid "Print the older packages"
 msgstr "Skriv de äldre paketen"
 
-#: plugins/repomanage.py:132
+#: plugins/repomanage.py:179
 msgid "Print the newest packages"
 msgstr "Skriv de senaste paketen"
 
-#: plugins/repomanage.py:134
+#: plugins/repomanage.py:181
 msgid "Space separated output, not newline"
 msgstr "Mellanslagsseparerad utdata, inte nyrader"
 
-#: plugins/repomanage.py:136
+#: plugins/repomanage.py:183
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "N nyaste paket att behålla, 1 som standard"
 
-#: plugins/repomanage.py:139
+#: plugins/repomanage.py:186
 msgid "Path to directory"
 msgstr "Sökväg till katalogen"
 

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 09:18-0400\n"
+"POT-Creation-Date: 2020-06-22 09:18-0400\n"
 "PO-Revision-Date: 2020-05-05 07:40+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
@@ -605,36 +605,43 @@ msgstr ""
 msgid "Migrating history data..."
 msgstr ""
 
-#: plugins/needs_restarting.py:173
+#: plugins/needs_restarting.py:65
+#, python-brace-format
+msgid ""
+"No installed package found for package name \"{pkg}\" specified in needs-"
+"restarting file \"{file}\"."
+msgstr ""
+
+#: plugins/needs_restarting.py:199
 msgid "determine updated binaries that need restarting"
 msgstr ""
 
-#: plugins/needs_restarting.py:178
+#: plugins/needs_restarting.py:204
 msgid "only consider this user's processes"
 msgstr ""
 
-#: plugins/needs_restarting.py:180
+#: plugins/needs_restarting.py:206
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:230
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:235
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 
-#: plugins/needs_restarting.py:205
+#: plugins/needs_restarting.py:236
 msgid "More information:"
 msgstr ""
 
-#: plugins/needs_restarting.py:209
+#: plugins/needs_restarting.py:240
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:211
+#: plugins/needs_restarting.py:242
 msgid "Reboot should not be necessary."
 msgstr ""
 
@@ -820,39 +827,39 @@ msgstr ""
 msgid "Nothing provides: '%s'"
 msgstr ""
 
-#: plugins/repomanage.py:44
+#: plugins/repomanage.py:45
 msgid "Manage a directory of rpm packages"
 msgstr ""
 
-#: plugins/repomanage.py:58
+#: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
 msgstr ""
 
-#: plugins/repomanage.py:68
+#: plugins/repomanage.py:71
 msgid "No files to process"
 msgstr ""
 
-#: plugins/repomanage.py:73
+#: plugins/repomanage.py:93
 msgid "Could not open {}"
 msgstr ""
 
-#: plugins/repomanage.py:130
+#: plugins/repomanage.py:177
 msgid "Print the older packages"
 msgstr ""
 
-#: plugins/repomanage.py:132
+#: plugins/repomanage.py:179
 msgid "Print the newest packages"
 msgstr ""
 
-#: plugins/repomanage.py:134
+#: plugins/repomanage.py:181
 msgid "Space separated output, not newline"
 msgstr ""
 
-#: plugins/repomanage.py:136
+#: plugins/repomanage.py:183
 msgid "Newest N packages to keep - defaults to 1"
 msgstr ""
 
-#: plugins/repomanage.py:139
+#: plugins/repomanage.py:186
 msgid "Path to directory"
 msgstr ""
 

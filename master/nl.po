@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 09:18-0400\n"
+"POT-Creation-Date: 2020-06-22 09:18-0400\n"
 "PO-Revision-Date: 2020-03-27 14:38+0000\n"
 "Last-Translator: Richard E. van der Luit <fedoraproject@veneax.nl>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -690,41 +690,48 @@ msgstr "migreer de geschiedenis, groeps- en yumdb-data van yum naar dnf"
 msgid "Migrating history data..."
 msgstr "Migreren van geschiedenis data..."
 
-#: plugins/needs_restarting.py:173
+#: plugins/needs_restarting.py:65
+#, python-brace-format
+msgid ""
+"No installed package found for package name \"{pkg}\" specified in needs-"
+"restarting file \"{file}\"."
+msgstr ""
+
+#: plugins/needs_restarting.py:199
 msgid "determine updated binaries that need restarting"
 msgstr "bepaal bijgewerkte binaire bestanden die opnieuw moeten worden gestart"
 
-#: plugins/needs_restarting.py:178
+#: plugins/needs_restarting.py:204
 msgid "only consider this user's processes"
 msgstr "houd alleen rekening met de processen van deze gebruiker"
 
-#: plugins/needs_restarting.py:180
+#: plugins/needs_restarting.py:206
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "rapporteer alleen of opnieuw opstarten vereist is (exitcode 1) of niet "
 "(exitcode 0)"
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:230
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Kernbibliotheken of services die sinds het opstarten zijn bijgewerkt:"
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:235
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Opnieuw opstarten is vereist om deze vernieuwingen volledig te kunnen "
 "gebruiken."
 
-#: plugins/needs_restarting.py:205
+#: plugins/needs_restarting.py:236
 msgid "More information:"
 msgstr "Meer informatie:"
 
-#: plugins/needs_restarting.py:209
+#: plugins/needs_restarting.py:240
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Sinds het opstarten zijn er geen kernbibliotheken of services bijgewerkt."
 
-#: plugins/needs_restarting.py:211
+#: plugins/needs_restarting.py:242
 msgid "Reboot should not be necessary."
 msgstr "Opnieuw opstarten zou niet nodig moeten zijn."
 
@@ -926,39 +933,39 @@ msgstr ""
 msgid "Nothing provides: '%s'"
 msgstr "Niets biedt: '%s'"
 
-#: plugins/repomanage.py:44
+#: plugins/repomanage.py:45
 msgid "Manage a directory of rpm packages"
 msgstr "Beheer een map met rpm-pakketten"
 
-#: plugins/repomanage.py:58
+#: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
 msgstr "Geef --old of --new door, niet beide!"
 
-#: plugins/repomanage.py:68
+#: plugins/repomanage.py:71
 msgid "No files to process"
 msgstr "Geen bestanden om te verwerken"
 
-#: plugins/repomanage.py:73
+#: plugins/repomanage.py:93
 msgid "Could not open {}"
 msgstr "Kon {} niet openen"
 
-#: plugins/repomanage.py:130
+#: plugins/repomanage.py:177
 msgid "Print the older packages"
 msgstr "Print de oudere pakketten"
 
-#: plugins/repomanage.py:132
+#: plugins/repomanage.py:179
 msgid "Print the newest packages"
 msgstr "Print de nieuwste pakketten"
 
-#: plugins/repomanage.py:134
+#: plugins/repomanage.py:181
 msgid "Space separated output, not newline"
 msgstr "Uitvoer gescheiden met spatie, geen nieuwe regel"
 
-#: plugins/repomanage.py:136
+#: plugins/repomanage.py:183
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "Nieuwste N pakketten om te bewaren - standaard 1"
 
-#: plugins/repomanage.py:139
+#: plugins/repomanage.py:186
 msgid "Path to directory"
 msgstr "Pad naar map"
 
