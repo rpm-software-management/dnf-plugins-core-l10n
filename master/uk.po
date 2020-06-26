@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-23 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 09:18-0400\n"
 "PO-Revision-Date: 2020-06-23 14:53+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -194,24 +194,24 @@ msgstr ""
 "керуванням за допомогою файла налаштувань. Скористайтеся замість них --set-"
 "enabled/--set-disabled."
 
-#: plugins/config_manager.py:126
+#: plugins/config_manager.py:131
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Немає відповідного сховища для внесення змін: %s."
 
-#: plugins/config_manager.py:177
+#: plugins/config_manager.py:182
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Додаємо сховище з %s"
 
-#: plugins/config_manager.py:201
+#: plugins/config_manager.py:206
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Помилка під час налаштовування сховища"
 msgstr[1] "Помилка під час налаштовування сховищ"
 msgstr[2] "Помилка під час налаштовування сховищ"
 
-#: plugins/config_manager.py:211
+#: plugins/config_manager.py:216
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Не вдалося зберегти дані сховища до файла сховищ %s: %s"
@@ -539,12 +539,12 @@ msgstr "обмежитися вказаним типом"
 msgid "name of dump file"
 msgstr "назва файла дампу"
 
-#: plugins/debug.py:264
+#: plugins/debug.py:270
 #, python-format
 msgid "Package %s is not available"
 msgstr "Пакунок %s недоступний"
 
-#: plugins/debug.py:274
+#: plugins/debug.py:280
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "Помилковий файл діагностики dnf: %s"

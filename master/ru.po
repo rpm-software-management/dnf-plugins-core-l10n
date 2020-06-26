@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-23 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 09:18-0400\n"
 "PO-Revision-Date: 2019-08-19 08:32+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -186,24 +186,24 @@ msgid ""
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
 
-#: plugins/config_manager.py:126
+#: plugins/config_manager.py:131
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Нет подходящего репозитория для изменения: %s."
 
-#: plugins/config_manager.py:177
+#: plugins/config_manager.py:182
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Добавление репозитория из: %s"
 
-#: plugins/config_manager.py:201
+#: plugins/config_manager.py:206
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Не удалось настроить конфигурацию репозитория"
 msgstr[1] "Не удалось настроить конфигурацию репозиториев"
 msgstr[2] "Не удалось настроить конфигурацию репозиториев"
 
-#: plugins/config_manager.py:211
+#: plugins/config_manager.py:216
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Не удалось сохранить репозиторий в repofile %s: %s"
@@ -537,12 +537,12 @@ msgstr "ограничить указанным типом"
 msgid "name of dump file"
 msgstr "имя файла для выгрузки"
 
-#: plugins/debug.py:264
+#: plugins/debug.py:270
 #, python-format
 msgid "Package %s is not available"
 msgstr "Пакета %s нет"
 
-#: plugins/debug.py:274
+#: plugins/debug.py:280
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "Плохой отладочный файл dnf: %s"

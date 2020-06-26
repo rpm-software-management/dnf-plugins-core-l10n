@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-23 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 09:18-0400\n"
 "PO-Revision-Date: 2019-05-23 04:01+0000\n"
 "Last-Translator: A S Alam <aalam@fedoraproject.org>\n"
 "Language-Team: Punjabi\n"
@@ -176,22 +176,22 @@ msgid ""
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
 
-#: plugins/config_manager.py:126
+#: plugins/config_manager.py:131
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr ""
 
-#: plugins/config_manager.py:177
+#: plugins/config_manager.py:182
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "%s: ਤੋਂ ਰੈਪੋ ਜੋੜੀ ਜਾ ਰਹੀ ਹੈ"
 
-#: plugins/config_manager.py:201
+#: plugins/config_manager.py:206
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] ""
 
-#: plugins/config_manager.py:211
+#: plugins/config_manager.py:216
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr ""
@@ -464,12 +464,12 @@ msgstr ""
 msgid "name of dump file"
 msgstr ""
 
-#: plugins/debug.py:264
+#: plugins/debug.py:270
 #, python-format
 msgid "Package %s is not available"
 msgstr "%s ਪੈਕੇਜ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"
 
-#: plugins/debug.py:274
+#: plugins/debug.py:280
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr ""

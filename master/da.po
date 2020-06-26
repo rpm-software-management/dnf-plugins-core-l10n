@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-23 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 09:18-0400\n"
 "PO-Revision-Date: 2020-05-25 18:40+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -188,23 +188,23 @@ msgstr ""
 "Advarsel: argumenterne --enablerepo/--disablerepo har ingen betydning med "
 "konfigurationshåndtering. Brug i stedet --set-enabled/--set-disabled."
 
-#: plugins/config_manager.py:126
+#: plugins/config_manager.py:131
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Intet matchende softwarearkiv at ændre: %s."
 
-#: plugins/config_manager.py:177
+#: plugins/config_manager.py:182
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Tilføjer softwarearkiv fra: %s"
 
-#: plugins/config_manager.py:201
+#: plugins/config_manager.py:206
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Konfiguration af softwarearkiv mislykkedes"
 msgstr[1] "Konfiguration af softwarearkiver mislykkedes"
 
-#: plugins/config_manager.py:211
+#: plugins/config_manager.py:216
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Kunne ikke gemme softwarearkiv til softwarearkivfilen %s: %s"
@@ -518,12 +518,12 @@ msgstr "begræns til angivne type"
 msgid "name of dump file"
 msgstr "navn på dump-fil"
 
-#: plugins/debug.py:264
+#: plugins/debug.py:270
 #, python-format
 msgid "Package %s is not available"
 msgstr "Pakken %s er ikke tilgængelig"
 
-#: plugins/debug.py:274
+#: plugins/debug.py:280
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "Dårlig dnf debug-fil: %s"
