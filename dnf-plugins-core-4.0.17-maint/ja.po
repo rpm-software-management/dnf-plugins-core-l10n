@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 08:46+0200\n"
 "PO-Revision-Date: 2020-05-04 06:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -179,22 +179,22 @@ msgid ""
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
 
-#: plugins/config_manager.py:131
+#: plugins/config_manager.py:126
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "修正用の一致する repo はありません: %s."
 
-#: plugins/config_manager.py:182
+#: plugins/config_manager.py:177
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "repo の追加: %s"
 
-#: plugins/config_manager.py:206
+#: plugins/config_manager.py:201
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "repo の設定に失敗しました"
 
-#: plugins/config_manager.py:216
+#: plugins/config_manager.py:211
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "repofile %s に repo を保存できませんでした: %s"
@@ -492,12 +492,12 @@ msgstr "指定したタイプに限定します"
 msgid "name of dump file"
 msgstr "ダンプファイルの名前"
 
-#: plugins/debug.py:270
+#: plugins/debug.py:264
 #, python-format
 msgid "Package %s is not available"
 msgstr "パッケージ %s は利用できません"
 
-#: plugins/debug.py:280
+#: plugins/debug.py:274
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "不正な dnf デバッグファイル: %s"

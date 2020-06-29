@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 08:46+0200\n"
 "PO-Revision-Date: 2020-03-22 12:28+0000\n"
 "Last-Translator: Christian Kujau <fedora@nerdbynature.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -184,23 +184,23 @@ msgid ""
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
 
-#: plugins/config_manager.py:131
+#: plugins/config_manager.py:126
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Keine passende Paketquelle zum Ändern: %s"
 
-#: plugins/config_manager.py:182
+#: plugins/config_manager.py:177
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Paketquelle von %s wird hinzugefügt"
 
-#: plugins/config_manager.py:206
+#: plugins/config_manager.py:201
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Konfiguration des Repository fehlgeschlagen\n"
 msgstr[1] "Konfiguration der Repositories fehlgeschlagen"
 
-#: plugins/config_manager.py:216
+#: plugins/config_manager.py:211
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Paketquelle konnte nicht in repo-Datei % gespeichert werden: %s"
@@ -498,12 +498,12 @@ msgstr "Auf angegebenen Typ begrenzen"
 msgid "name of dump file"
 msgstr "Name der Speicherdatei"
 
-#: plugins/debug.py:270
+#: plugins/debug.py:264
 #, python-format
 msgid "Package %s is not available"
 msgstr "Paket %s ist nicht verfügbar"
 
-#: plugins/debug.py:280
+#: plugins/debug.py:274
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "Fehlerhafte dnf-Debug-Datei: %s"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 08:46+0200\n"
 "PO-Revision-Date: 2020-05-27 17:40+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -186,22 +186,22 @@ msgstr ""
 "警告：--enablerepo/--disablerepo 引數在組態管理員下沒有意義。請改用 --set-"
 "enabled/--set-disabled。"
 
-#: plugins/config_manager.py:131
+#: plugins/config_manager.py:126
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "沒有符合要修改的軟體庫：%s。"
 
-#: plugins/config_manager.py:182
+#: plugins/config_manager.py:177
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "從下述加入軟體庫：%s"
 
-#: plugins/config_manager.py:206
+#: plugins/config_manager.py:201
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "設定軟體庫失敗"
 
-#: plugins/config_manager.py:216
+#: plugins/config_manager.py:211
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "無法儲存軟體庫至 repofile %s：%s"
@@ -506,12 +506,12 @@ msgstr "限縮至指定類型"
 msgid "name of dump file"
 msgstr "傾印檔案的名稱"
 
-#: plugins/debug.py:270
+#: plugins/debug.py:264
 #, python-format
 msgid "Package %s is not available"
 msgstr "無法使用 %s 軟體包"
 
-#: plugins/debug.py:280
+#: plugins/debug.py:274
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "DNF 除錯檔案無效：%s"
