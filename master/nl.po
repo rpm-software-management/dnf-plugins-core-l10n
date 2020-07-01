@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-28 09:18-0400\n"
-"PO-Revision-Date: 2020-03-27 14:38+0000\n"
-"Last-Translator: Richard E. van der Luit <fedoraproject@veneax.nl>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/nl/>\n"
+"PO-Revision-Date: 2020-07-05 17:27+0000\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -172,11 +172,11 @@ msgstr "print variabelewaarden naar stdout"
 
 #: plugins/config_manager.py:60
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "schakel repo's in (slaat automatisch op)"
 
 #: plugins/config_manager.py:63
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "schakel repo's uit (slaat automatisch op)"
 
 #: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
@@ -187,6 +187,8 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"Waarschuwing: --enablerepo/--disablerepo argumenten hebben geen betekenis "
+"met config manager. Gebruik in plaats daarvan --set-enabled/--set-disabled."
 
 #: plugins/config_manager.py:131
 #, python-format
@@ -318,22 +320,6 @@ msgid "bad copr project format"
 msgstr "slecht copr-projectformaat"
 
 #: plugins/copr.py:254
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "You are about to enable a Copr repository. Please note that this\n"
-#| "repository is not part of the main distribution, and quality may vary.\n"
-#| "\n"
-#| "The Fedora Project does not exercise any power over the contents of\n"
-#| "this repository beyond the rules outlined in the Copr FAQ at\n"
-#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
-#| "build-in-copr>,\n"
-#| "and packages are not held to any quality or security level.\n"
-#| "\n"
-#| "Please do not file bug reports about these packages in Fedora\n"
-#| "Bugzilla. In case of problems, contact the owner of this repository.\n"
-#| "\n"
-#| "Do you really want to enable {0}?"
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -349,10 +335,9 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Je staat op het punt een Copr-repository in te schakelen. Houd er rekening "
-"mee dat dit\n"
-"repository geen deel uitmaakt van de hoofddistributie en de kwaliteit kan "
-"variëren.\n"
+"Een Copr-repository inschakelen. Houd er rekening mee dat dit repository "
+"geen deel\n"
+"uitmaakt van de hoofddistributie en de kwaliteit kan variëren.\n"
 "\n"
 "Het Fedora Project heeft geen zeggenschap over de inhoud van\n"
 "deze repository behalve de regels beschreven in de Copr_FAQ in\n"
@@ -363,8 +348,6 @@ msgstr ""
 "Stuur alstublieft geen bug-rapporten over deze pakketten in Fedora\n"
 "Bugzilla. Neem in geval van problemen contact op met de eigenaar van deze "
 "repository.\n"
-"\n"
-"Wil je {0} echt inschakelen?"
 
 #: plugins/copr.py:271
 msgid "Repository successfully enabled."
@@ -450,10 +433,22 @@ msgid ""
 "\n"
 "These repositories have been enabled automatically."
 msgstr ""
+"Beheerder van de ingeschakelde Copr-repository besloot het afhankelijk\n"
+"te maken van andere repositories. Dergelijke repositories zijn\n"
+"meestal nodig voor een succesvolle installatie van RPM's vanaf\n"
+"de belangrijkste Copr-repository (ze bieden runtime-afhankelijkheden).\n"
+"\n"
+"Houd er rekening mee dat de opmerking over kwaliteit en bugrapportage\n"
+"hierboven hier ook geldt, Fedora Project heeft geen controle over de\n"
+"inhoud. Bekijk de lijst:\n"
+"\n"
+"{0}\n"
+"\n"
+"Deze repositories zijn automatisch ingeschakeld."
 
 #: plugins/copr.py:545
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "Wil je ze ingeschakeld houden?"
 
 #: plugins/copr.py:578
 #, python-brace-format
@@ -473,14 +468,12 @@ msgid "Interact with Playground repository."
 msgstr "Interactie met Playground repository."
 
 #: plugins/copr.py:635
-#, fuzzy
-#| msgid "Interact with Playground repository."
 msgid "Enabling a Playground repository."
-msgstr "Interactie met Playground repository."
+msgstr "Een Playground repositories inschakelen."
 
 #: plugins/copr.py:636
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Wil je verder gaan?"
 
 #: plugins/copr.py:679
 msgid "Playground repositories successfully enabled."
@@ -696,6 +689,8 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
+"Geen geïnstalleerd pakket gevonden voor pakketnaam \"{pkg}\" gespecificeerd "
+"in het herstartbestand \"{file}\"."
 
 #: plugins/needs_restarting.py:199
 msgid "determine updated binaries that need restarting"
