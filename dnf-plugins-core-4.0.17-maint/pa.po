@@ -1,19 +1,21 @@
 # A S Alam <aalam@fedoraproject.org>, 2017. #zanata
 # A S Alam <aalam@fedoraproject.org>, 2019. #zanata
+# A S Alam <amanpreet.alam@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:46+0200\n"
-"PO-Revision-Date: 2019-05-23 04:01+0000\n"
-"Last-Translator: A S Alam <aalam@fedoraproject.org>\n"
-"Language-Team: Punjabi\n"
+"PO-Revision-Date: 2020-07-05 17:27+0000\n"
+"Last-Translator: A S Alam <amanpreet.alam@gmail.com>\n"
+"Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-dnf-plugins-core-4017-maint/pa/>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -46,7 +48,7 @@ msgstr ""
 
 #: plugins/builddep.py:144
 msgid "RPM: {}"
-msgstr ""
+msgstr "RPM: {}"
 
 #: plugins/builddep.py:153
 msgid "Some packages could not be found."
