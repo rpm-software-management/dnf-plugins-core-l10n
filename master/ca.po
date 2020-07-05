@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-28 09:18-0400\n"
+"POT-Creation-Date: 2020-07-05 09:18-0400\n"
 "PO-Revision-Date: 2020-04-20 13:40+0000\n"
 "Last-Translator: Adolfo Ketzer <reztek@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -471,15 +471,15 @@ msgstr "La sortida es va escriure a: %s"
 msgid "restore packages recorded in debug-dump file"
 msgstr "restaura els paquets registrats al fitxer de depuració de bolcat"
 
-#: plugins/debug.py:183
+#: plugins/debug.py:185
 msgid "output commands that would be run to stdout."
 msgstr "imprimeix les ordres que s'executen per la sortida estàndard."
 
-#: plugins/debug.py:186
+#: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
 msgstr "Instal·la l'última versió dels paquets registrats."
 
-#: plugins/debug.py:189
+#: plugins/debug.py:191
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
@@ -487,20 +487,26 @@ msgstr ""
 "No facis cas de l'arquitectura i instal·la els paquets que facin falta que "
 "coincideixin amb el nom, l'època, la versió i el llançament."
 
-#: plugins/debug.py:194
+#: plugins/debug.py:196
 msgid "limit to specified type"
 msgstr "limita-ho al tipus especificat"
 
-#: plugins/debug.py:196
+#: plugins/debug.py:199
+msgid ""
+"Allow removing of install-only packages. Using this option may result in an "
+"attempt to remove the running kernel."
+msgstr ""
+
+#: plugins/debug.py:202
 msgid "name of dump file"
 msgstr "nom del fitxer del blocat"
 
-#: plugins/debug.py:270
+#: plugins/debug.py:273
 #, python-format
 msgid "Package %s is not available"
 msgstr "El paquet %s no està disponible"
 
-#: plugins/debug.py:280
+#: plugins/debug.py:283
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "Fitxer incorrecte de depuració dnf: %s"

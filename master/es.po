@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-28 09:18-0400\n"
+"POT-Creation-Date: 2020-07-05 09:18-0400\n"
 "PO-Revision-Date: 2019-03-02 12:23+0000\n"
 "Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
 "Language-Team: Spanish\n"
@@ -507,15 +507,15 @@ msgstr "Salida escrita en: %s"
 msgid "restore packages recorded in debug-dump file"
 msgstr "restaurar paquetes grabados en el archivo de volcado"
 
-#: plugins/debug.py:183
+#: plugins/debug.py:185
 msgid "output commands that would be run to stdout."
 msgstr "mostrar los comandos que se ejecutarían."
 
-#: plugins/debug.py:186
+#: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
 msgstr "instalar la última versión de los paquetes grabados."
 
-#: plugins/debug.py:189
+#: plugins/debug.py:191
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
@@ -523,20 +523,26 @@ msgstr ""
 "No tener en cuenta la arquitectura, e instalar los paquetes faltantes que "
 "concuerden con el nombre, epoch, versión y lanzamiento."
 
-#: plugins/debug.py:194
+#: plugins/debug.py:196
 msgid "limit to specified type"
 msgstr "limitar al tipo especificado"
 
-#: plugins/debug.py:196
+#: plugins/debug.py:199
+msgid ""
+"Allow removing of install-only packages. Using this option may result in an "
+"attempt to remove the running kernel."
+msgstr ""
+
+#: plugins/debug.py:202
 msgid "name of dump file"
 msgstr "nombre del archivo de volcado"
 
-#: plugins/debug.py:270
+#: plugins/debug.py:273
 #, python-format
 msgid "Package %s is not available"
 msgstr "El paquete %s no está disponible"
 
-#: plugins/debug.py:280
+#: plugins/debug.py:283
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "Archivo de depuración de dnf incorrecto: %s"

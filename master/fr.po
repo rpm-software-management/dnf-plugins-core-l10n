@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-28 09:18-0400\n"
+"POT-Creation-Date: 2020-07-05 09:18-0400\n"
 "PO-Revision-Date: 2020-06-29 02:40+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -516,16 +516,16 @@ msgid "restore packages recorded in debug-dump file"
 msgstr ""
 "restaure les paquets enregistrés dans le fichier de déversement de débuggage"
 
-#: plugins/debug.py:183
+#: plugins/debug.py:185
 msgid "output commands that would be run to stdout."
 msgstr ""
 "liste les commandes qui devraient être exécutées vers la sortie standard."
 
-#: plugins/debug.py:186
+#: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
 msgstr "Installer la dernière version des paquets enregistrés."
 
-#: plugins/debug.py:189
+#: plugins/debug.py:191
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
@@ -533,20 +533,26 @@ msgstr ""
 "Ignorer l’architecture et installe les paquets manquants correspondant aux "
 "nom, époque, version et révision."
 
-#: plugins/debug.py:194
+#: plugins/debug.py:196
 msgid "limit to specified type"
 msgstr "limiter au type spécifié"
 
-#: plugins/debug.py:196
+#: plugins/debug.py:199
+msgid ""
+"Allow removing of install-only packages. Using this option may result in an "
+"attempt to remove the running kernel."
+msgstr ""
+
+#: plugins/debug.py:202
 msgid "name of dump file"
 msgstr "nom du fichier de l’instantané"
 
-#: plugins/debug.py:270
+#: plugins/debug.py:273
 #, python-format
 msgid "Package %s is not available"
 msgstr "Le paquet %s n’est pas disponible"
 
-#: plugins/debug.py:280
+#: plugins/debug.py:283
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "Erreur du fichier debug : %s"

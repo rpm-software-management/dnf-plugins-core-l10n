@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-28 09:18-0400\n"
+"POT-Creation-Date: 2020-07-05 09:18-0400\n"
 "PO-Revision-Date: 2020-05-27 17:40+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -484,34 +484,40 @@ msgstr "輸出寫入：%s"
 msgid "restore packages recorded in debug-dump file"
 msgstr "還原除錯傾印檔案中記錄的軟體包"
 
-#: plugins/debug.py:183
+#: plugins/debug.py:185
 msgid "output commands that would be run to stdout."
 msgstr "輸出執行時會向 stdout 輸出的命令。"
 
-#: plugins/debug.py:186
+#: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
 msgstr "安裝記錄軟體包的最新版。"
 
-#: plugins/debug.py:189
+#: plugins/debug.py:191
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
 msgstr "忽略架構，並安裝符合名稱、Epoch、版本與發行版本的遺失軟體包。"
 
-#: plugins/debug.py:194
+#: plugins/debug.py:196
 msgid "limit to specified type"
 msgstr "限縮至指定類型"
 
-#: plugins/debug.py:196
+#: plugins/debug.py:199
+msgid ""
+"Allow removing of install-only packages. Using this option may result in an "
+"attempt to remove the running kernel."
+msgstr ""
+
+#: plugins/debug.py:202
 msgid "name of dump file"
 msgstr "傾印檔案的名稱"
 
-#: plugins/debug.py:270
+#: plugins/debug.py:273
 #, python-format
 msgid "Package %s is not available"
 msgstr "無法使用 %s 軟體包"
 
-#: plugins/debug.py:280
+#: plugins/debug.py:283
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "DNF 除錯檔案無效：%s"

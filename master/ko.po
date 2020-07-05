@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-28 09:18-0400\n"
+"POT-Creation-Date: 2020-07-05 09:18-0400\n"
 "PO-Revision-Date: 2018-11-02 04:31+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Korean\n"
@@ -452,15 +452,15 @@ msgstr "작성된 출력 : %s"
 msgid "restore packages recorded in debug-dump file"
 msgstr "디버그 덤프 파일에 기록 된 패키지 복원"
 
-#: plugins/debug.py:183
+#: plugins/debug.py:185
 msgid "output commands that would be run to stdout."
 msgstr "stdout으로 실행될 출력 명령."
 
-#: plugins/debug.py:186
+#: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
 msgstr "기록 된 패키지의 최신 버전을 설치하십시오."
 
-#: plugins/debug.py:189
+#: plugins/debug.py:191
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
@@ -468,20 +468,26 @@ msgstr ""
 "아키텍처를 무시하고 이름, 기원, 버전 및 릴리스와 일치하는 누락 된 패키지를 설"
 "치하십시오."
 
-#: plugins/debug.py:194
+#: plugins/debug.py:196
 msgid "limit to specified type"
 msgstr "특정 유형으로 제한"
 
-#: plugins/debug.py:196
+#: plugins/debug.py:199
+msgid ""
+"Allow removing of install-only packages. Using this option may result in an "
+"attempt to remove the running kernel."
+msgstr ""
+
+#: plugins/debug.py:202
 msgid "name of dump file"
 msgstr "덤프 파일의 이름"
 
-#: plugins/debug.py:270
+#: plugins/debug.py:273
 #, python-format
 msgid "Package %s is not available"
 msgstr "꾸러미 %s 사용할 수 없습니다"
 
-#: plugins/debug.py:280
+#: plugins/debug.py:283
 #, python-format
 msgid "Bad dnf debug file: %s"
 msgstr "잘못된 dnf 디버그 파일 : %s"
