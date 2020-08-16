@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:46+0200\n"
-"PO-Revision-Date: 2020-08-04 11:18+0000\n"
+"PO-Revision-Date: 2020-08-17 21:29+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-dnf-plugins-core-4017-maint/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-dnf-plugins-core-4017-maint/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,7 +96,7 @@ msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
 msgstr ""
-"visa ändringsloggsposter sedan DATE.  För att undvika tvetydigheter "
+"visa ändringsloggsposter sedan DATE. För att undvika tvetydigheter "
 "rekommenderas formatet ÅÅÅÅ-MM-DD."
 
 #: plugins/changelog.py:55
@@ -186,7 +186,7 @@ msgid ""
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
 "Varning: argumenten --enablerepo/--disablerepo har ingen mening med "
-"konfigurationshanteraren.  Använd --set-enabled/--set-disabled istället."
+"konfigurationshanteraren. Använd --set-enabled/--set-disabled istället."
 
 #: plugins/config_manager.py:126
 #, python-format
@@ -333,7 +333,7 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Att aktivera ett Copr-förråd. Observera att detta förråd inte är en del\n"
+"Aktivering av ett Copr-förråd. Observera att detta förråd inte är en del\n"
 "av huvuddistributionen, och kvaliteten kan variera.\n"
 "\n"
 "Fedoraprojektet har ingen makt över innehållet i detta förråd\n"
@@ -342,8 +342,7 @@ msgstr ""
 "in-copr>,\n"
 "och upprätthåller inte någon viss kvalitet eller säkerhetsnivå på paketen.\n"
 "\n"
-"Rapportera inte fel på dessa paket i Fedoras Bugzilla.  Kontakta vid "
-"problem\n"
+"Rapportera inte fel på dessa paket i Fedoras Bugzilla. Kontakta vid problem\n"
 "förrådets ägare.\n"
 
 #: plugins/copr.py:271
@@ -431,17 +430,17 @@ msgid ""
 "These repositories have been enabled automatically."
 msgstr ""
 "Administratören av det aktiverade Copr-förrådet beslutade att\n"
-"göra det beroende på andra förråd.  Sådana förråd är vanligen\n"
+"göra det beroende på andra förråd. Sådana förråd är vanligen\n"
 "nödvändiga för en lyckad installation av RPM:er från huvud-\n"
 "Copr-förrådet (de tillhandahåller körtidsberoenden).\n"
 "\n"
 "Var medveten om att kommentaren om kvalitet och\n"
 "felrapportering ovan gäller även här, Fedoraprojektet\n"
-"styr inte  innehållet.  Granska listan:\n"
+"styr inte innehållet. Granska listan:\n"
 "\n"
 "{0}\n"
 "\n"
-"Dessa färr jar aktiverats automatiskt."
+"Dessa förråd har aktiverats automatiskt."
 
 #: plugins/copr.py:545
 msgid "Do you want to keep them enabled?"
@@ -744,7 +743,7 @@ msgstr "Visa en lista över olösta beroenden för förråd"
 
 #: plugins/repoclosure.py:66
 msgid "Repoclosure ended with unresolved dependencies."
-msgstr "Förrådshöljet slutade med olösta beroenden"
+msgstr "Förrådshöljet slutade med olösta beroenden."
 
 #: plugins/repoclosure.py:153
 msgid "check packages of the given archs, can be specified multiple times"
@@ -779,7 +778,7 @@ msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
 msgstr ""
-"Ange arkitekturer att jämföra, kan användas flera gånger.  Som standard "
+"Ange arkitekturer att jämföra, kan användas flera gånger. Som standard "
 "jämförs endast källkods-rpm:er."
 
 #: plugins/repodiff.py:67
@@ -962,7 +961,7 @@ msgstr "hämta även och dekomprimera comps.xml"
 
 #: plugins/reposync.py:69
 msgid "download all the metadata."
-msgstr "hämta all metadatan"
+msgstr "hämta all metadatan."
 
 #: plugins/reposync.py:71
 msgid "download only newest packages per-repo"
@@ -981,7 +980,7 @@ msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
-"var hämtad förrådsmetadata skall lagras.  Standard är värdet på --download-"
+"var hämtad förrådsmetadata skall lagras. Standard är värdet på --download-"
 "path."
 
 #: plugins/reposync.py:80
