@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-03 09:18-0400\n"
+"POT-Creation-Date: 2020-08-17 09:18-0400\n"
 "PO-Revision-Date: 2018-11-02 04:31+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Korean\n"
@@ -567,7 +567,7 @@ msgstr "다운로드 대신 rpms를 다운로드 할 수있는 URL 목록 인쇄
 msgid "when running with --url, limit to specific protocols"
 msgstr "--url을 사용하여 실행하면 특정 프로토콜로 제한됩니다."
 
-#: plugins/download.py:121 plugins/reposync.py:260
+#: plugins/download.py:121 plugins/reposync.py:293
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "패키지 미러링에 실패했습니다. %s"
