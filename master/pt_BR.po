@@ -6,13 +6,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Cássio Rodrigo Honorato Rodrigues <cassiorhr@outlook.com>, 2019. #zanata
 # Daniel Lara Souza <daniellarasouza@yahoo.com.br>, 2020.
+# Gustavo Costa <gusta@null.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-05 09:18-0400\n"
-"PO-Revision-Date: 2020-07-18 17:29+0000\n"
-"Last-Translator: Daniel Lara Souza <daniellarasouza@yahoo.com.br>\n"
+"PO-Revision-Date: 2020-10-26 16:15+0000\n"
+"Last-Translator: Gustavo Costa <gusta@null.net>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.3.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -118,7 +119,7 @@ msgstr "PACOTE"
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:90
 #, python-format
 msgid "No match for argument: %s"
-msgstr "Não há correspondência para o argumento: %s"
+msgstr "Nenhuma correspondência para o argumento: %s"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
@@ -577,7 +578,7 @@ msgstr ""
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
-msgstr "Não é possível encontrar uma correspondência"
+msgstr "Impossível de encontrar uma correspondência"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
