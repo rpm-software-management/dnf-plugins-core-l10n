@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-10 09:18-0500\n"
+"POT-Creation-Date: 2020-11-16 09:18-0500\n"
 "PO-Revision-Date: 2020-08-23 08:29+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -734,13 +734,13 @@ msgstr "Felaktig åtgärdsrad ”%s”: %s"
 msgid "Bad Transaction State: %s"
 msgstr "Felaktigt transaktionstillstånd: %s"
 
-#: plugins/post-transaction-actions.py:153
-#: plugins/post-transaction-actions.py:155
+#: plugins/post-transaction-actions.py:157
+#: plugins/post-transaction-actions.py:159
 #, python-format
 msgid "post-transaction-actions: %s"
 msgstr "post-transaktionsåtgärder: %s"
 
-#: plugins/post-transaction-actions.py:157
+#: plugins/post-transaction-actions.py:161
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
 msgstr "post-transaktionsåtgärder: Felaktigt kommando ”%s”: %s"

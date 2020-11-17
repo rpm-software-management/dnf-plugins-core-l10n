@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-10 09:18-0500\n"
+"POT-Creation-Date: 2020-11-16 09:18-0500\n"
 "PO-Revision-Date: 2017-04-11 06:25+0000\n"
 "Last-Translator: Mikel Olasagasti Uranga <mikel@olasagasti.info>\n"
 "Language-Team: Basque\n"
@@ -660,13 +660,13 @@ msgstr ""
 msgid "Bad Transaction State: %s"
 msgstr ""
 
-#: plugins/post-transaction-actions.py:153
-#: plugins/post-transaction-actions.py:155
+#: plugins/post-transaction-actions.py:157
+#: plugins/post-transaction-actions.py:159
 #, python-format
 msgid "post-transaction-actions: %s"
 msgstr ""
 
-#: plugins/post-transaction-actions.py:157
+#: plugins/post-transaction-actions.py:161
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
 msgstr ""

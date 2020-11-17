@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-10 09:18-0500\n"
+"POT-Creation-Date: 2020-11-16 09:18-0500\n"
 "PO-Revision-Date: 2020-07-09 13:27+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -760,13 +760,13 @@ msgstr "Mauvaise ligne d’action « %s » : %s"
 msgid "Bad Transaction State: %s"
 msgstr "Mauvais état de transaction : %s"
 
-#: plugins/post-transaction-actions.py:153
-#: plugins/post-transaction-actions.py:155
+#: plugins/post-transaction-actions.py:157
+#: plugins/post-transaction-actions.py:159
 #, python-format
 msgid "post-transaction-actions: %s"
 msgstr "post-transaction-actions : %s"
 
-#: plugins/post-transaction-actions.py:157
+#: plugins/post-transaction-actions.py:161
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
 msgstr "post-transaction-actions : mauvaise commande « %s » : %s"
