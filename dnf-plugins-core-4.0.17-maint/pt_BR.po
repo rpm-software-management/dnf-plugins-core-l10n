@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:46+0200\n"
-"PO-Revision-Date: 2020-10-26 16:15+0000\n"
+"PO-Revision-Date: 2020-11-21 03:35+0000\n"
 "Last-Translator: Gustavo Costa <gusta@null.net>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-dnf-plugins-core-4017-maint/pt_BR/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.3.1\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -414,7 +414,7 @@ msgstr "Resposta boa e segura. Saindo."
 
 #: plugins/copr.py:413
 msgid "This command has to be run under the root user."
-msgstr "Este comando deve ser executado sobre o usuário root."
+msgstr "Este comando deve ser executado sob o usuário root."
 
 #: plugins/copr.py:477
 msgid ""
