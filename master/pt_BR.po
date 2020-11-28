@@ -7,13 +7,15 @@
 # Cássio Rodrigo Honorato Rodrigues <cassiorhr@outlook.com>, 2019. #zanata
 # Daniel Lara Souza <daniellarasouza@yahoo.com.br>, 2020.
 # Gustavo Costa <gusta@null.net>, 2020.
+# Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-20 09:18-0500\n"
-"PO-Revision-Date: 2020-11-21 03:35+0000\n"
-"Last-Translator: Gustavo Costa <gusta@null.net>\n"
+"PO-Revision-Date: 2020-11-29 01:35+0000\n"
+"Last-Translator: Henrique Roberto Gattermann Mittelstaedt <henrique."
+"roberto97@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -128,11 +130,13 @@ msgstr "Listar log de alterações desde {}"
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] ""
+msgstr[0] "Listando apenas o último log de mudanças"
+msgstr[1] "Listando {} últimos logs de mudanças"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
 msgstr ""
+"Listando apenas os novos logs de mudança desde a versão instalada do pacote"
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
@@ -169,15 +173,15 @@ msgstr "imprime valores das variáveis para a saída padrão"
 
 #: plugins/config_manager.py:60
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "habilitar repos (salva automaticamente)"
 
 #: plugins/config_manager.py:63
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "desabilitar repos (salva automaticamente)"
 
 #: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "um dos seguintes argumentos é necessário: {}"
 
 #: plugins/config_manager.py:86
 msgid ""
@@ -314,22 +318,6 @@ msgid "bad copr project format"
 msgstr "formato inválido de projeto copr"
 
 #: plugins/copr.py:254
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "You are about to enable a Copr repository. Please note that this\n"
-#| "repository is not part of the main distribution, and quality may vary.\n"
-#| "\n"
-#| "The Fedora Project does not exercise any power over the contents of\n"
-#| "this repository beyond the rules outlined in the Copr FAQ at\n"
-#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
-#| "build-in-copr>,\n"
-#| "and packages are not held to any quality or security level.\n"
-#| "\n"
-#| "Please do not file bug reports about these packages in Fedora\n"
-#| "Bugzilla. In case of problems, contact the owner of this repository.\n"
-#| "\n"
-#| "Do you really want to enable {0}?"
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -345,9 +333,8 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Você está prestes a habilitar o repositório Copr. Por favor, note que este "
-"repositório não é parte da distribuição principal, e a qualidade pode "
-"variar.\n"
+"Habilitando um repositório Copr. Por favor, note que este repositório não é "
+"parte da distribuição principal, e a qualidade pode variar.\n"
 "\n"
 "O Projeto Fedora não exerce nenhum poder sobre os conteúdos deste "
 "repositório além das normas descritas no FAQ do Copr em\n"
@@ -358,8 +345,6 @@ msgstr ""
 "Por favor, não reporte quaisquer bugs a respeito destes pacotes no Fedora "
 "Bugzilla. Em caso de problemas, entre em contato com os proprietários deste "
 "repositório.\n"
-"\n"
-"Você quer mesmo habilitá-lo {0}?"
 
 #: plugins/copr.py:271
 msgid "Repository successfully enabled."
@@ -446,7 +431,7 @@ msgstr ""
 
 #: plugins/copr.py:549
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "Você deseja mantê-los habilitados?"
 
 #: plugins/copr.py:582
 #, python-brace-format
@@ -466,14 +451,12 @@ msgid "Interact with Playground repository."
 msgstr "Interagir com o repositório Playground."
 
 #: plugins/copr.py:639
-#, fuzzy
-#| msgid "Interact with Playground repository."
 msgid "Enabling a Playground repository."
-msgstr "Interagir com o repositório Playground."
+msgstr "Habilitando um repositório Playground."
 
 #: plugins/copr.py:640
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Você deseja continuar?"
 
 #: plugins/copr.py:683
 msgid "Playground repositories successfully enabled."
@@ -708,6 +691,7 @@ msgstr ""
 #: plugins/needs_restarting.py:235
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
+"Reinicialização é necessária para utilizar totalmente estas atualizações."
 
 #: plugins/needs_restarting.py:236
 msgid "More information:"
@@ -800,7 +784,7 @@ msgstr ""
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
-msgstr ""
+msgstr "Escrever uma mensagem simples de uma linha para pacotes modificados."
 
 #: plugins/repodiff.py:74
 msgid ""
