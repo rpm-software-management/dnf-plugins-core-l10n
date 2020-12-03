@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 09:18-0500\n"
+"POT-Creation-Date: 2020-12-03 09:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -581,6 +581,120 @@ msgstr ""
 #: plugins/download.py:296 plugins/download.py:309
 #, python-format
 msgid "No package %s available."
+msgstr ""
+
+#: plugins/groups_manager.py:49
+msgid "Invalid group id"
+msgstr ""
+
+#: plugins/groups_manager.py:58
+msgid "Invalid translated data, should be in form 'lang:text'"
+msgstr ""
+
+#: plugins/groups_manager.py:61
+msgid "Invalid/empty language for translated data"
+msgstr ""
+
+#: plugins/groups_manager.py:71
+msgid "Can't generate group id from '{}'. Please specify group id using --id."
+msgstr ""
+
+#: plugins/groups_manager.py:79
+msgid "create and edit groups metadata file"
+msgstr ""
+
+#: plugins/groups_manager.py:90
+msgid "load groups metadata from file"
+msgstr ""
+
+#: plugins/groups_manager.py:93
+msgid "save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:95
+msgid "load and save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:97
+msgid "print the result metadata to stdout"
+msgstr ""
+
+#: plugins/groups_manager.py:100
+msgid "group id"
+msgstr ""
+
+#: plugins/groups_manager.py:101
+msgid "group name"
+msgstr ""
+
+#: plugins/groups_manager.py:103
+msgid "group description"
+msgstr ""
+
+#: plugins/groups_manager.py:105
+msgid "group display order"
+msgstr ""
+
+#: plugins/groups_manager.py:108
+msgid "translated name for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:111
+msgid "translated description for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:115
+msgid "make the group user visible (default)"
+msgstr ""
+
+#: plugins/groups_manager.py:118
+msgid "make the group user invisible"
+msgstr ""
+
+#: plugins/groups_manager.py:123
+msgid "add packages to the mandatory section"
+msgstr ""
+
+#: plugins/groups_manager.py:125
+msgid "add packages to the optional section"
+msgstr ""
+
+#: plugins/groups_manager.py:127
+msgid "remove packages from the group instead of adding them"
+msgstr ""
+
+#: plugins/groups_manager.py:129
+msgid "include also direct dependencies for packages"
+msgstr ""
+
+#: plugins/groups_manager.py:132
+msgid "package specification"
+msgstr ""
+
+#: plugins/groups_manager.py:156
+msgid "Can't edit group without specifying it (use --id or --name)"
+msgstr ""
+
+#: plugins/groups_manager.py:190
+msgid "Can't load file \"{}\": {}"
+msgstr ""
+
+#: plugins/groups_manager.py:206
+msgid "Can't save file \"{}\": {}"
+msgstr ""
+
+#: plugins/groups_manager.py:259
+msgid "No match for argument: {}"
+msgstr ""
+
+#: plugins/groups_manager.py:296
+msgid "Can't remove packages from non-existent group"
+msgstr ""
+
+#: plugins/groups_manager.py:305
+msgid ""
+"Group id '{}' generated from '{}' is duplicit. Please specify group id using "
+"--id."
 msgstr ""
 
 #: plugins/leaves.py:32
