@@ -1,21 +1,21 @@
 # Serdar Sağlam <teknomobil@msn.com>, 2019. #zanata
-# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-03 09:18-0500\n"
-"PO-Revision-Date: 2020-07-07 05:27+0000\n"
+"PO-Revision-Date: 2021-01-04 16:23+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -107,7 +107,7 @@ msgid ""
 "some of already installed packages."
 msgstr ""
 "zaten kurulu paketlerin bazıları için bir yükseltme sağlayan paketler için, "
-"sadece yeni değişiklik günlüğü girdilerini göster."
+"yalnızca yeni değişiklik günlüğü girdilerini göster."
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
@@ -125,13 +125,13 @@ msgstr "{} tarihinden itibaren değişiklik günlükleri listeleniyor"
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] "Sadece en son değişiklik günlüğü listeleniyor"
+msgstr[0] "Yalnızca en son değişiklik günlüğü listeleniyor"
 msgstr[1] "Son {} değişiklik günlüğü listeleniyor"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
 msgstr ""
-"Sadece paketin kurulu sürümünden bu yana olan yeni değişiklik günlükleri "
+"Yalnızca paketin kurulu sürümünden bu yana olan yeni değişiklik günlükleri "
 "listeleniyor"
 
 #: plugins/changelog.py:118
@@ -532,8 +532,8 @@ msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
 msgstr ""
-"Sadece-kur paketlerinin kaldırılmasına izin ver. Bu seçeneğin kullanılması, "
-"çalışan çekirdeği kaldırma girişimine neden olabilir."
+"Yalnızca-kur paketlerinin kaldırılmasına izin ver. Bu seçeneğin "
+"kullanılması, çalışan çekirdeği kaldırma girişimine neden olabilir."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -651,131 +651,121 @@ msgstr "%s paketi kullanılabilir değil."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "Geçersiz grup kimliği"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr ""
+msgstr "Geçersiz çevrilen veri, 'dil:metin' biçiminde olmalıdır"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
-msgstr ""
+msgstr "Çevrilen veri için geçersiz/boş dil"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
+"'{}'den grup kimliği oluşturulamıyor. Lütfen --id kullanarak grup kimliğini "
+"belirtin."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
-msgstr ""
+msgstr "grup üst veri dosyası oluştur ve düzenle"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
-msgstr ""
+msgstr "grup üst verilerini dosyadan yükle"
 
 #: plugins/groups_manager.py:93
 msgid "save groups metadata to file"
-msgstr ""
+msgstr "grup üst verilerini dosyaya kaydet"
 
 #: plugins/groups_manager.py:95
 msgid "load and save groups metadata to file"
-msgstr ""
+msgstr "grup üst verilerini yükle ve dosyaya kaydet"
 
 #: plugins/groups_manager.py:97
-#, fuzzy
-#| msgid "print variable values to stdout"
 msgid "print the result metadata to stdout"
-msgstr "değişken değerlerini standart çıkışa yazdır"
+msgstr "sonuç üst verisini standart çıkışa yazdır"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr ""
+msgstr "grup kimliği"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
-msgstr ""
+msgstr "grup adı"
 
 #: plugins/groups_manager.py:103
-#, fuzzy
-#| msgid "No description given"
 msgid "group description"
-msgstr "Açıklama verilmedi"
+msgstr "grup açıklaması"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr ""
+msgstr "grup görüntüleme sırası"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
-msgstr ""
+msgstr "grubun çevrilen adı"
 
 #: plugins/groups_manager.py:111
-#, fuzzy
-#| msgid "Failed to get mirror for the group file."
 msgid "translated description for the group"
-msgstr "Grup dosyası için yansı alınamadı."
+msgstr "grubun çevrilen açıklaması"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
-msgstr ""
+msgstr "grup kullanıcısını görünür yap (öntanımlı)"
 
 #: plugins/groups_manager.py:118
 msgid "make the group user invisible"
-msgstr ""
+msgstr "grup kullanıcısını görünmez yap"
 
 #: plugins/groups_manager.py:123
 msgid "add packages to the mandatory section"
-msgstr ""
+msgstr "zorunlu bölümüne paket ekle"
 
 #: plugins/groups_manager.py:125
 msgid "add packages to the optional section"
-msgstr ""
+msgstr "isteğe bağlı bölümüne paket ekle"
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
-msgstr ""
+msgstr "paketleri eklemek yerine onları gruptan kaldır"
 
 #: plugins/groups_manager.py:129
-#, fuzzy
-#| msgid "Display a list of unresolved dependencies for repositories"
 msgid "include also direct dependencies for packages"
-msgstr "Depolar için çözümlenmemiş bağımlılıkların bir listesini görüntüle"
+msgstr "paketler için doğrudan bağımlılıkları da dahil et"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr ""
+msgstr "paket belirtimi"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
-msgstr ""
+msgstr "Grup belirtilmediği için düzenlenemiyor (--id veya --name kullanın)"
 
 #: plugins/groups_manager.py:190
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't load file \"{}\": {}"
-msgstr "'{}' dosyası yazılamıyor"
+msgstr "\"{}\" dosyası yüklenemiyor: {}"
 
 #: plugins/groups_manager.py:206
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't save file \"{}\": {}"
-msgstr "'{}' dosyası yazılamıyor"
+msgstr "\"{}\" dosyası kaydedilemiyor: {}"
 
 #: plugins/groups_manager.py:259
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
-msgstr "Argüman için eşleşme yok: %s"
+msgstr "Argüman için eşleşme yok: {}"
 
 #: plugins/groups_manager.py:296
 msgid "Can't remove packages from non-existent group"
-msgstr ""
+msgstr "Var olmayan gruptan paketler kaldırılamaz"
 
 #: plugins/groups_manager.py:305
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
+"'{}' grup kimliği ('{}'den oluşturulan) zaten var. Lütfen --id kullanarak "
+"grup kimliğini belirtin."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -824,18 +814,18 @@ msgstr "güncellenen programlardan yeniden başlatılması gerekenleri belirle"
 
 #: plugins/needs_restarting.py:229
 msgid "only consider this user's processes"
-msgstr "sadece bu kullanıcının işlemlerini göz önünde bulundur"
+msgstr "yalnızca bu kullanıcının işlemlerini göz önünde bulundur"
 
 #: plugins/needs_restarting.py:231
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
-"sadece yeniden başlatma gerektiğini (çıkış kodu 1) veya gerekmediğini (çıkış "
-"kodu 0) bildir"
+"yalnızca yeniden başlatma gerektiğini (çıkış kodu 1) veya gerekmediğini ("
+"çıkış kodu 0) bildir"
 
 #: plugins/needs_restarting.py:234
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "yalnızca etkilenen systemd hizmetlerini bildir"
 
 #: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
@@ -903,11 +893,11 @@ msgstr "Belirtilen depoları denetle"
 
 #: plugins/repoclosure.py:158
 msgid "Check only the newest packages in the repos"
-msgstr "Sadece depolardaki en yeni paketleri denetle"
+msgstr "Yalnızca depolardaki en yeni paketleri denetle"
 
 #: plugins/repoclosure.py:161
 msgid "Check closure for this package only"
-msgstr "Sadece bu paket için çözümlenmemiş bağımlılıkları denetle"
+msgstr "Yalnızca bu paket için çözümlenmemiş bağımlılıkları denetle"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
@@ -927,7 +917,7 @@ msgid ""
 "only source rpms are compared."
 msgstr ""
 "Karşılaştırılacak mimarileri belirtin, birden çok kez kullanılabilir. "
-"Öntanımlı olarak, sadece kaynak rpm'ler karşılaştırılır."
+"Öntanımlı olarak, yalnızca kaynak rpm'ler karşılaştırılır."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
@@ -1103,7 +1093,7 @@ msgstr "tüm paketleri uzak depodan indir"
 
 #: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
-msgstr "sadece bu MİMARİ için paketleri indir"
+msgstr "yalnızca bu MİMARİ için paketleri indir"
 
 #: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
@@ -1115,7 +1105,7 @@ msgstr "tüm üst verileri indir."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
-msgstr ""
+msgstr "İndirdikten sonra GPG imza denetimi başarısız olan paketleri kaldır"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
@@ -1131,7 +1121,7 @@ msgstr ""
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
-msgstr "her depo için sadece en yeni paketleri indir"
+msgstr "her depo için yalnızca en yeni paketleri indir"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
@@ -1169,11 +1159,11 @@ msgstr "Grup dosyası için yansı alınamadı."
 
 #: plugins/reposync.py:168
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "{} kaldırılıyor: {}"
 
 #: plugins/reposync.py:175
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "GPG imza denetimi başarısız oldu."
 
 #: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
