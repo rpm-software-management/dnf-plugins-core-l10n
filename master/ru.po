@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 09:18-0500\n"
+"POT-Creation-Date: 2021-01-03 09:18-0500\n"
 "PO-Revision-Date: 2020-09-14 20:29+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -628,7 +628,7 @@ msgstr "вместо загрузки вывести список URL, отку�
 msgid "when running with --url, limit to specific protocols"
 msgstr "ограничить указанными протоколами при работе с --url"
 
-#: plugins/download.py:121 plugins/reposync.py:293
+#: plugins/download.py:121 plugins/reposync.py:314
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Не удалось получить зеркало для пакета: %s"
@@ -650,6 +650,134 @@ msgstr "Не заданы пакеты с исходными текстами д
 #, python-format
 msgid "No package %s available."
 msgstr "Нет пакета %s."
+
+#: plugins/groups_manager.py:49
+msgid "Invalid group id"
+msgstr ""
+
+#: plugins/groups_manager.py:58
+msgid "Invalid translated data, should be in form 'lang:text'"
+msgstr ""
+
+#: plugins/groups_manager.py:61
+msgid "Invalid/empty language for translated data"
+msgstr ""
+
+#: plugins/groups_manager.py:71
+msgid "Can't generate group id from '{}'. Please specify group id using --id."
+msgstr ""
+
+#: plugins/groups_manager.py:79
+msgid "create and edit groups metadata file"
+msgstr ""
+
+#: plugins/groups_manager.py:90
+msgid "load groups metadata from file"
+msgstr ""
+
+#: plugins/groups_manager.py:93
+msgid "save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:95
+msgid "load and save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:97
+#, fuzzy
+#| msgid "print variable values to stdout"
+msgid "print the result metadata to stdout"
+msgstr "вывести значения переменных в stdout"
+
+#: plugins/groups_manager.py:100
+msgid "group id"
+msgstr ""
+
+#: plugins/groups_manager.py:101
+msgid "group name"
+msgstr ""
+
+#: plugins/groups_manager.py:103
+#, fuzzy
+#| msgid "No description given"
+msgid "group description"
+msgstr "Нет описания"
+
+#: plugins/groups_manager.py:105
+msgid "group display order"
+msgstr ""
+
+#: plugins/groups_manager.py:108
+msgid "translated name for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:111
+#, fuzzy
+#| msgid "Failed to get mirror for the group file."
+msgid "translated description for the group"
+msgstr "Не удалось получить зеркало для файла группы."
+
+#: plugins/groups_manager.py:115
+msgid "make the group user visible (default)"
+msgstr ""
+
+#: plugins/groups_manager.py:118
+msgid "make the group user invisible"
+msgstr ""
+
+#: plugins/groups_manager.py:123
+msgid "add packages to the mandatory section"
+msgstr ""
+
+#: plugins/groups_manager.py:125
+msgid "add packages to the optional section"
+msgstr ""
+
+#: plugins/groups_manager.py:127
+msgid "remove packages from the group instead of adding them"
+msgstr ""
+
+#: plugins/groups_manager.py:129
+#, fuzzy
+#| msgid "Display a list of unresolved dependencies for repositories"
+msgid "include also direct dependencies for packages"
+msgstr "Показать список неразрешенных зависимостей для репозиториев"
+
+#: plugins/groups_manager.py:132
+msgid "package specification"
+msgstr ""
+
+#: plugins/groups_manager.py:156
+msgid "Can't edit group without specifying it (use --id or --name)"
+msgstr ""
+
+#: plugins/groups_manager.py:190
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't load file \"{}\": {}"
+msgstr "Ошибка записи файла «{}»"
+
+#: plugins/groups_manager.py:206
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't save file \"{}\": {}"
+msgstr "Ошибка записи файла «{}»"
+
+#: plugins/groups_manager.py:259
+#, fuzzy
+#| msgid "No match for argument: %s"
+msgid "No match for argument: {}"
+msgstr "Нет совпадений для аргумента: %s"
+
+#: plugins/groups_manager.py:296
+msgid "Can't remove packages from non-existent group"
+msgstr ""
+
+#: plugins/groups_manager.py:305
+msgid ""
+"Group id '{}' generated from '{}' is duplicit. Please specify group id using "
+"--id."
+msgstr ""
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -684,7 +812,7 @@ msgstr "перенести данные истории yum, групп и yumdb 
 msgid "Migrating history data..."
 msgstr "Перенос данных истории..."
 
-#: plugins/needs_restarting.py:65
+#: plugins/needs_restarting.py:66
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
@@ -693,38 +821,42 @@ msgstr ""
 "Не найдено установленного пакета для пакета с именем «{pkg}», указанного в "
 "файле «{file}», для которого требуется перезапуск."
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:224
 msgid "determine updated binaries that need restarting"
 msgstr "определить обновленные двоичные файлы, требующие перезапуска"
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:229
 msgid "only consider this user's processes"
 msgstr "рассматривать только процессы этого пользователя"
 
-#: plugins/needs_restarting.py:206
+#: plugins/needs_restarting.py:231
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "сообщать только, требуется перезагрузка (код выхода 1) или нет (код выхода 0)"
 
-#: plugins/needs_restarting.py:230
+#: plugins/needs_restarting.py:234
+msgid "only report affected systemd services"
+msgstr ""
+
+#: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Основные библиотеки или службы были обновлены со времени загрузки:"
 
-#: plugins/needs_restarting.py:235
+#: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Требуется перезагрузка для полного использования этих обновлений."
 
-#: plugins/needs_restarting.py:236
+#: plugins/needs_restarting.py:263
 msgid "More information:"
 msgstr "Дополнительная информация:"
 
-#: plugins/needs_restarting.py:240
+#: plugins/needs_restarting.py:267
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Никакие основные библиотеки или службы не были обновлены со времени загрузки:"
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:269
 msgid "Reboot should not be necessary."
 msgstr "Перезагрузка не должна потребоваться."
 
@@ -934,63 +1066,55 @@ msgstr "Передавайте либо --old, либо --new, но не оба!
 msgid "No files to process"
 msgstr "Нет файлов для обработки"
 
-#: plugins/repomanage.py:93
+#: plugins/repomanage.py:96
 msgid "Could not open {}"
 msgstr "Не удалось открыть {}"
 
-#: plugins/repomanage.py:177
+#: plugins/repomanage.py:180
 msgid "Print the older packages"
 msgstr "Вывести более старые пакеты"
 
-#: plugins/repomanage.py:179
+#: plugins/repomanage.py:182
 msgid "Print the newest packages"
 msgstr "Вывести самые новые пакеты"
 
-#: plugins/repomanage.py:181
+#: plugins/repomanage.py:184
 msgid "Space separated output, not newline"
 msgstr "Вывод с разделением пробелами, а не новой строкой"
 
-#: plugins/repomanage.py:183
+#: plugins/repomanage.py:186
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "Сохранять N самых новых пакетов - 1 по умолчанию"
 
-#: plugins/repomanage.py:186
+#: plugins/repomanage.py:189
 msgid "Path to directory"
 msgstr "Путь к каталогу"
 
-#: plugins/reposync.py:54
+#: plugins/reposync.py:55
 msgid "download all packages from remote repo"
 msgstr "загрузить все пакеты из удаленного репозитория"
 
-#: plugins/reposync.py:63
+#: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
 msgstr "загрузить только пакеты для этой архитектуры"
 
-#: plugins/reposync.py:65
+#: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
 msgstr "удалить локальные пакеты, которые больше не присутствуют в репозитории"
 
-#: plugins/reposync.py:67
-msgid "also download and uncompress comps.xml"
-msgstr "также загрузить и распаковать comps.xml"
-
-#: plugins/reposync.py:69
+#: plugins/reposync.py:68
 msgid "download all the metadata."
 msgstr "загрузить все метаданные."
 
-#: plugins/reposync.py:71
-msgid "download only newest packages per-repo"
-msgstr "загружать только самые новые пакеты для каждого репозитория"
+#: plugins/reposync.py:70
+msgid "Remove packages that fail GPG signature checking after downloading"
+msgstr ""
 
 #: plugins/reposync.py:73
-msgid "where to store downloaded repositories"
-msgstr "где хранить загруженные репозитории"
+msgid "also download and uncompress comps.xml"
+msgstr "также загрузить и распаковать comps.xml"
 
 #: plugins/reposync.py:75
-msgid "Don't add the reponame to the download path."
-msgstr "Не добавлять имя репозитория к пути для загрузки."
-
-#: plugins/reposync.py:77
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
@@ -998,48 +1122,68 @@ msgstr ""
 "где хранить метаданные загруженных репозиториев. По умолчанию --download-"
 "path."
 
+#: plugins/reposync.py:78
+msgid "download only newest packages per-repo"
+msgstr "загружать только самые новые пакеты для каждого репозитория"
+
 #: plugins/reposync.py:80
-msgid "operate on source packages"
-msgstr "работать с исходными пакетами"
+msgid "Don't add the reponame to the download path."
+msgstr "Не добавлять имя репозитория к пути для загрузки."
 
 #: plugins/reposync.py:82
+msgid "where to store downloaded repositories"
+msgstr "где хранить загруженные репозитории"
+
+#: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
 "пробовать установить локальные метки времени локальных файлов по времени на "
 "сервере"
 
-#: plugins/reposync.py:85
+#: plugins/reposync.py:87
+msgid "operate on source packages"
+msgstr "работать с исходными пакетами"
+
+#: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr "Просто дать список адресов для загрузки, не загружать"
 
-#: plugins/reposync.py:109
+#: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "Нельзя использовать --norepopath в случае нескольких репозиториев"
 
-#: plugins/reposync.py:127
+#: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr "Не удалось получить зеркало для метаданных: %s"
 
-#: plugins/reposync.py:144
+#: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
 msgstr "Не удалось получить зеркало для файла группы."
 
+#: plugins/reposync.py:168
+msgid "Removing {}: {}"
+msgstr ""
+
 #: plugins/reposync.py:175
+msgid "GPG signature check failed."
+msgstr ""
+
+#: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
 msgstr "Место для загрузки «{}» вне пути для загрузки «{}»."
 
-#: plugins/reposync.py:190
+#: plugins/reposync.py:211
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[УДАЛЕНО] %s"
 
-#: plugins/reposync.py:192
+#: plugins/reposync.py:213
 #, python-format
 msgid "failed to delete file %s"
 msgstr "не удалось удалить файл %s"
 
-#: plugins/reposync.py:201
+#: plugins/reposync.py:222
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "comps.xml для репозитория %s сохранен"

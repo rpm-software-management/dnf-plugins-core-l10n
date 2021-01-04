@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 09:18-0500\n"
+"POT-Creation-Date: 2021-01-03 09:18-0500\n"
 "PO-Revision-Date: 2019-11-27 09:17+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian\n"
@@ -626,7 +626,7 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "cuant che si eseguìs cun --url, limite ai protocoi specificâts"
 
-#: plugins/download.py:121 plugins/reposync.py:293
+#: plugins/download.py:121 plugins/reposync.py:314
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "No si è rivâts a otignî il spieli (mirror) pal pachet: %s"
@@ -648,6 +648,132 @@ msgstr "Nissun rpm sorzint definît par %s"
 #, python-format
 msgid "No package %s available."
 msgstr "Nissun pachet %s disponibil."
+
+#: plugins/groups_manager.py:49
+msgid "Invalid group id"
+msgstr ""
+
+#: plugins/groups_manager.py:58
+msgid "Invalid translated data, should be in form 'lang:text'"
+msgstr ""
+
+#: plugins/groups_manager.py:61
+msgid "Invalid/empty language for translated data"
+msgstr ""
+
+#: plugins/groups_manager.py:71
+msgid "Can't generate group id from '{}'. Please specify group id using --id."
+msgstr ""
+
+#: plugins/groups_manager.py:79
+msgid "create and edit groups metadata file"
+msgstr ""
+
+#: plugins/groups_manager.py:90
+msgid "load groups metadata from file"
+msgstr ""
+
+#: plugins/groups_manager.py:93
+msgid "save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:95
+msgid "load and save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:97
+#, fuzzy
+#| msgid "print variable values to stdout"
+msgid "print the result metadata to stdout"
+msgstr "stampe i valôrs des variabilis sul stdout"
+
+#: plugins/groups_manager.py:100
+msgid "group id"
+msgstr ""
+
+#: plugins/groups_manager.py:101
+msgid "group name"
+msgstr ""
+
+#: plugins/groups_manager.py:103
+#, fuzzy
+#| msgid "No description given"
+msgid "group description"
+msgstr "Nissune descrizione furnide"
+
+#: plugins/groups_manager.py:105
+msgid "group display order"
+msgstr ""
+
+#: plugins/groups_manager.py:108
+msgid "translated name for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:111
+msgid "translated description for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:115
+msgid "make the group user visible (default)"
+msgstr ""
+
+#: plugins/groups_manager.py:118
+msgid "make the group user invisible"
+msgstr ""
+
+#: plugins/groups_manager.py:123
+msgid "add packages to the mandatory section"
+msgstr ""
+
+#: plugins/groups_manager.py:125
+msgid "add packages to the optional section"
+msgstr ""
+
+#: plugins/groups_manager.py:127
+msgid "remove packages from the group instead of adding them"
+msgstr ""
+
+#: plugins/groups_manager.py:129
+#, fuzzy
+#| msgid "Display a list of unresolved dependencies for repositories"
+msgid "include also direct dependencies for packages"
+msgstr "Mostre une liste des dipendencis no risolvudis pai repository"
+
+#: plugins/groups_manager.py:132
+msgid "package specification"
+msgstr ""
+
+#: plugins/groups_manager.py:156
+msgid "Can't edit group without specifying it (use --id or --name)"
+msgstr ""
+
+#: plugins/groups_manager.py:190
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't load file \"{}\": {}"
+msgstr "Impussibil scrivi il file '{}'"
+
+#: plugins/groups_manager.py:206
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't save file \"{}\": {}"
+msgstr "Impussibil scrivi il file '{}'"
+
+#: plugins/groups_manager.py:259
+#, fuzzy
+#| msgid "No match for argument: %s"
+msgid "No match for argument: {}"
+msgstr "Nissune corispondence pal argoment: %s"
+
+#: plugins/groups_manager.py:296
+msgid "Can't remove packages from non-existent group"
+msgstr ""
+
+#: plugins/groups_manager.py:305
+msgid ""
+"Group id '{}' generated from '{}' is duplicit. Please specify group id using "
+"--id."
+msgstr ""
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -681,46 +807,50 @@ msgstr "migre la cronologjie di yum, i grups e i dâts di yumdb su dnf"
 msgid "Migrating history data..."
 msgstr "Daûr a migrâ i dâts de cronologjie..."
 
-#: plugins/needs_restarting.py:65
+#: plugins/needs_restarting.py:66
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:224
 msgid "determine updated binaries that need restarting"
 msgstr "determine i binaris inzornâts che a àn bisugne di tornâ a inviâsi"
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:229
 msgid "only consider this user's processes"
 msgstr "considere dome i procès di chest utent"
 
-#: plugins/needs_restarting.py:206
+#: plugins/needs_restarting.py:231
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "segnale dome se al covente tornâ a inviâ (codiç di jessude 1) o mancul "
 "(codiç di jessude 0)"
 
-#: plugins/needs_restarting.py:230
+#: plugins/needs_restarting.py:234
+msgid "only report affected systemd services"
+msgstr ""
+
+#: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:235
+#: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Al covente tornâ a inviâ il sisteme par utilizâ dal dut chescj inzornaments."
 
-#: plugins/needs_restarting.py:236
+#: plugins/needs_restarting.py:263
 msgid "More information:"
 msgstr "Plui informazions:"
 
-#: plugins/needs_restarting.py:240
+#: plugins/needs_restarting.py:267
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:269
 msgid "Reboot should not be necessary."
 msgstr "Nol varès di coventâ tornâ a inviâ il sisteme."
 
@@ -931,63 +1061,55 @@ msgstr "Passe o --old o --new, no ducj i doi!"
 msgid "No files to process"
 msgstr "Nissun file di elaborâ"
 
-#: plugins/repomanage.py:93
+#: plugins/repomanage.py:96
 msgid "Could not open {}"
 msgstr "Impussibil vierzi {}"
 
-#: plugins/repomanage.py:177
+#: plugins/repomanage.py:180
 msgid "Print the older packages"
 msgstr "Stampe i pachets plui vecjos"
 
-#: plugins/repomanage.py:179
+#: plugins/repomanage.py:182
 msgid "Print the newest packages"
 msgstr "Stampe i pachets plui gnûfs"
 
-#: plugins/repomanage.py:181
+#: plugins/repomanage.py:184
 msgid "Space separated output, not newline"
 msgstr "Jessude separade di spazis no di riis gnovis"
 
-#: plugins/repomanage.py:183
+#: plugins/repomanage.py:186
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "I N plui gnûfs pachets di tignî - predefinît a 1"
 
-#: plugins/repomanage.py:186
+#: plugins/repomanage.py:189
 msgid "Path to directory"
 msgstr "Percors ae cartele"
 
-#: plugins/reposync.py:54
+#: plugins/reposync.py:55
 msgid "download all packages from remote repo"
 msgstr "discjarie ducj i pachets dal repository rimot"
 
-#: plugins/reposync.py:63
+#: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
 msgstr "discjarie dome i pachets par cheste ARCHITETURE"
 
-#: plugins/reposync.py:65
+#: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
 msgstr "elimine i pachets locâi che no son plui tal repository"
 
-#: plugins/reposync.py:67
-msgid "also download and uncompress comps.xml"
-msgstr ""
-
-#: plugins/reposync.py:69
+#: plugins/reposync.py:68
 msgid "download all the metadata."
 msgstr "discjarie ducj i metadâts."
 
-#: plugins/reposync.py:71
-msgid "download only newest packages per-repo"
-msgstr "discjarie dome i pachets plui gnûfs par repository"
-
-#: plugins/reposync.py:73
-msgid "where to store downloaded repositories"
-msgstr "dulà archiviâ i repository discjariâts"
-
-#: plugins/reposync.py:75
-msgid "Don't add the reponame to the download path."
+#: plugins/reposync.py:70
+msgid "Remove packages that fail GPG signature checking after downloading"
 msgstr ""
 
-#: plugins/reposync.py:77
+#: plugins/reposync.py:73
+msgid "also download and uncompress comps.xml"
+msgstr ""
+
+#: plugins/reposync.py:75
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
@@ -995,48 +1117,68 @@ msgstr ""
 "dulà archiviâ i metadâts dai repository discjariâts. Il predefinît al è il "
 "valôr di --download-path."
 
+#: plugins/reposync.py:78
+msgid "download only newest packages per-repo"
+msgstr "discjarie dome i pachets plui gnûfs par repository"
+
 #: plugins/reposync.py:80
-msgid "operate on source packages"
-msgstr "lavorâ cui pachets sorzint"
+msgid "Don't add the reponame to the download path."
+msgstr ""
 
 #: plugins/reposync.py:82
+msgid "where to store downloaded repositories"
+msgstr "dulà archiviâ i repository discjariâts"
+
+#: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
 
-#: plugins/reposync.py:85
+#: plugins/reposync.py:87
+msgid "operate on source packages"
+msgstr "lavorâ cui pachets sorzint"
+
+#: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr ""
 
-#: plugins/reposync.py:109
+#: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
 msgstr ""
 
-#: plugins/reposync.py:127
+#: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr ""
 
-#: plugins/reposync.py:144
+#: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
 msgstr ""
 
+#: plugins/reposync.py:168
+msgid "Removing {}: {}"
+msgstr ""
+
 #: plugins/reposync.py:175
+msgid "GPG signature check failed."
+msgstr ""
+
+#: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
 msgstr ""
 "La destinazion di discjariament '{}' e je fûr dal percors di discjariament "
 "'{}'"
 
-#: plugins/reposync.py:190
+#: plugins/reposync.py:211
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[ELIMINÂT] %s"
 
-#: plugins/reposync.py:192
+#: plugins/reposync.py:213
 #, python-format
 msgid "failed to delete file %s"
 msgstr "no si è rivâts a eliminâ il file %s"
 
-#: plugins/reposync.py:201
+#: plugins/reposync.py:222
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "salvât comps.xml pal repository %s"

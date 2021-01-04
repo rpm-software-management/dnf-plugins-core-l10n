@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 09:18-0500\n"
+"POT-Creation-Date: 2021-01-03 09:18-0500\n"
 "PO-Revision-Date: 2020-05-04 06:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -584,7 +584,7 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "--url で実行中の際は、特定のプロトコルに限定します"
 
-#: plugins/download.py:121 plugins/reposync.py:293
+#: plugins/download.py:121 plugins/reposync.py:314
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "パッケージのミラー取得に失敗しました: %s"
@@ -606,6 +606,132 @@ msgstr "%s に対して定義されているソース rpm はありません"
 #, python-format
 msgid "No package %s available."
 msgstr "利用可能なパッケージ %s はありません。"
+
+#: plugins/groups_manager.py:49
+msgid "Invalid group id"
+msgstr ""
+
+#: plugins/groups_manager.py:58
+msgid "Invalid translated data, should be in form 'lang:text'"
+msgstr ""
+
+#: plugins/groups_manager.py:61
+msgid "Invalid/empty language for translated data"
+msgstr ""
+
+#: plugins/groups_manager.py:71
+msgid "Can't generate group id from '{}'. Please specify group id using --id."
+msgstr ""
+
+#: plugins/groups_manager.py:79
+msgid "create and edit groups metadata file"
+msgstr ""
+
+#: plugins/groups_manager.py:90
+msgid "load groups metadata from file"
+msgstr ""
+
+#: plugins/groups_manager.py:93
+msgid "save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:95
+msgid "load and save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:97
+#, fuzzy
+#| msgid "print variable values to stdout"
+msgid "print the result metadata to stdout"
+msgstr "stdout に変数値を印刷"
+
+#: plugins/groups_manager.py:100
+msgid "group id"
+msgstr ""
+
+#: plugins/groups_manager.py:101
+msgid "group name"
+msgstr ""
+
+#: plugins/groups_manager.py:103
+#, fuzzy
+#| msgid "No description given"
+msgid "group description"
+msgstr "説明がありません"
+
+#: plugins/groups_manager.py:105
+msgid "group display order"
+msgstr ""
+
+#: plugins/groups_manager.py:108
+msgid "translated name for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:111
+msgid "translated description for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:115
+msgid "make the group user visible (default)"
+msgstr ""
+
+#: plugins/groups_manager.py:118
+msgid "make the group user invisible"
+msgstr ""
+
+#: plugins/groups_manager.py:123
+msgid "add packages to the mandatory section"
+msgstr ""
+
+#: plugins/groups_manager.py:125
+msgid "add packages to the optional section"
+msgstr ""
+
+#: plugins/groups_manager.py:127
+msgid "remove packages from the group instead of adding them"
+msgstr ""
+
+#: plugins/groups_manager.py:129
+#, fuzzy
+#| msgid "Display a list of unresolved dependencies for repositories"
+msgid "include also direct dependencies for packages"
+msgstr "リポジトリーの未解決の依存関係の一覧を表示します"
+
+#: plugins/groups_manager.py:132
+msgid "package specification"
+msgstr ""
+
+#: plugins/groups_manager.py:156
+msgid "Can't edit group without specifying it (use --id or --name)"
+msgstr ""
+
+#: plugins/groups_manager.py:190
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't load file \"{}\": {}"
+msgstr "ファイル '{}' を書き込みできません"
+
+#: plugins/groups_manager.py:206
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't save file \"{}\": {}"
+msgstr "ファイル '{}' を書き込みできません"
+
+#: plugins/groups_manager.py:259
+#, fuzzy
+#| msgid "No match for argument: %s"
+msgid "No match for argument: {}"
+msgstr "一致した引数がありません: %s"
+
+#: plugins/groups_manager.py:296
+msgid "Can't remove packages from non-existent group"
+msgstr ""
+
+#: plugins/groups_manager.py:305
+msgid ""
+"Group id '{}' generated from '{}' is duplicit. Please specify group id using "
+"--id."
+msgstr ""
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -640,43 +766,47 @@ msgstr "yum の履歴、グループ、および yumdb データを dnf へ移�
 msgid "Migrating history data..."
 msgstr "履歴データを移行中..."
 
-#: plugins/needs_restarting.py:65
+#: plugins/needs_restarting.py:66
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:224
 msgid "determine updated binaries that need restarting"
 msgstr "再起動が必要な更新済みバイナリーを決定します"
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:229
 msgid "only consider this user's processes"
 msgstr "このユーザーのプロセスのみを検討します"
 
-#: plugins/needs_restarting.py:206
+#: plugins/needs_restarting.py:231
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 
-#: plugins/needs_restarting.py:230
+#: plugins/needs_restarting.py:234
+msgid "only report affected systemd services"
+msgstr ""
+
+#: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:235
+#: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 
-#: plugins/needs_restarting.py:236
+#: plugins/needs_restarting.py:263
 msgid "More information:"
 msgstr ""
 
-#: plugins/needs_restarting.py:240
+#: plugins/needs_restarting.py:267
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:269
 msgid "Reboot should not be necessary."
 msgstr ""
 
@@ -872,108 +1002,120 @@ msgstr "--old または --new のいずれかを渡します。両方ではあ�
 msgid "No files to process"
 msgstr "処理するファイルはありません"
 
-#: plugins/repomanage.py:93
+#: plugins/repomanage.py:96
 msgid "Could not open {}"
 msgstr "{} を開くことができません"
 
-#: plugins/repomanage.py:177
+#: plugins/repomanage.py:180
 msgid "Print the older packages"
 msgstr "古いパッケージを印刷します"
 
-#: plugins/repomanage.py:179
+#: plugins/repomanage.py:182
 msgid "Print the newest packages"
 msgstr "最新のパッケージを印刷します"
 
-#: plugins/repomanage.py:181
+#: plugins/repomanage.py:184
 msgid "Space separated output, not newline"
 msgstr "スペースで区切られた出力で、改行ではありません"
 
-#: plugins/repomanage.py:183
+#: plugins/repomanage.py:186
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "維持する最新の N パッケージ - デフォルトは 1 に設定されます"
 
-#: plugins/repomanage.py:186
+#: plugins/repomanage.py:189
 msgid "Path to directory"
 msgstr "ディレクトリーへのパス"
 
-#: plugins/reposync.py:54
+#: plugins/reposync.py:55
 msgid "download all packages from remote repo"
 msgstr "リモート repo からすべてのパッケージをダウンロードします"
 
-#: plugins/reposync.py:63
+#: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
 msgstr "この ARCH 向けのパッケージのみをダウンロード"
 
-#: plugins/reposync.py:65
+#: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
 msgstr "リポジトリーにもはや存在しないローカルパッケージを削除"
 
-#: plugins/reposync.py:67
-msgid "also download and uncompress comps.xml"
-msgstr ""
-
-#: plugins/reposync.py:69
+#: plugins/reposync.py:68
 msgid "download all the metadata."
 msgstr ""
 
-#: plugins/reposync.py:71
-msgid "download only newest packages per-repo"
-msgstr "最新のパッケージ per-repo のみをダウンロード"
+#: plugins/reposync.py:70
+msgid "Remove packages that fail GPG signature checking after downloading"
+msgstr ""
 
 #: plugins/reposync.py:73
-msgid "where to store downloaded repositories"
+msgid "also download and uncompress comps.xml"
 msgstr ""
 
 #: plugins/reposync.py:75
-msgid "Don't add the reponame to the download path."
-msgstr ""
-
-#: plugins/reposync.py:77
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
 
+#: plugins/reposync.py:78
+msgid "download only newest packages per-repo"
+msgstr "最新のパッケージ per-repo のみをダウンロード"
+
 #: plugins/reposync.py:80
-msgid "operate on source packages"
-msgstr "ソースパッケージでの操作"
+msgid "Don't add the reponame to the download path."
+msgstr ""
 
 #: plugins/reposync.py:82
+msgid "where to store downloaded repositories"
+msgstr ""
+
+#: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
 
-#: plugins/reposync.py:85
+#: plugins/reposync.py:87
+msgid "operate on source packages"
+msgstr "ソースパッケージでの操作"
+
+#: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr ""
 
-#: plugins/reposync.py:109
+#: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
 msgstr ""
 
-#: plugins/reposync.py:127
+#: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr ""
 
-#: plugins/reposync.py:144
+#: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
 msgstr ""
 
+#: plugins/reposync.py:168
+msgid "Removing {}: {}"
+msgstr ""
+
 #: plugins/reposync.py:175
+msgid "GPG signature check failed."
+msgstr ""
+
+#: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
 msgstr ""
 
-#: plugins/reposync.py:190
+#: plugins/reposync.py:211
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[DELETED] %s"
 
-#: plugins/reposync.py:192
+#: plugins/reposync.py:213
 #, python-format
 msgid "failed to delete file %s"
 msgstr "ファイル %s の削除に失敗しました"
 
-#: plugins/reposync.py:201
+#: plugins/reposync.py:222
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "リポジトリー %s の comps.xml が保存されました"
