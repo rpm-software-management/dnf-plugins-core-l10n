@@ -1,21 +1,21 @@
 # Serdar Sağlam <teknomobil@msn.com>, 2019. #zanata
-# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:46+0200\n"
-"PO-Revision-Date: 2020-06-23 14:53+0000\n"
+"PO-Revision-Date: 2021-01-04 16:23+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-dnf-plugins-core-4017-maint/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -107,7 +107,7 @@ msgid ""
 "some of already installed packages."
 msgstr ""
 "zaten kurulu paketlerin bazıları için bir yükseltme sağlayan paketler için, "
-"sadece yeni değişiklik günlüğü girdilerini göster."
+"yalnızca yeni değişiklik günlüğü girdilerini göster."
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
@@ -125,13 +125,13 @@ msgstr "{} tarihinden itibaren değişiklik günlükleri listeleniyor"
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] "Sadece en son değişiklik günlüğü listeleniyor"
+msgstr[0] "Yalnızca en son değişiklik günlüğü listeleniyor"
 msgstr[1] "Son {} değişiklik günlüğü listeleniyor"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
 msgstr ""
-"Sadece paketin kurulu sürümünden bu yana olan yeni değişiklik günlükleri "
+"Yalnızca paketin kurulu sürümünden bu yana olan yeni değişiklik günlükleri "
 "listeleniyor"
 
 #: plugins/changelog.py:118
@@ -688,14 +688,14 @@ msgstr "güncellenen programlardan yeniden başlatılması gerekenleri belirle"
 
 #: plugins/needs_restarting.py:204
 msgid "only consider this user's processes"
-msgstr "sadece bu kullanıcının işlemlerini göz önünde bulundur"
+msgstr "yalnızca bu kullanıcının işlemlerini göz önünde bulundur"
 
 #: plugins/needs_restarting.py:206
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
-"sadece yeniden başlatma gerektiğini (çıkış kodu 1) veya gerekmediğini (çıkış "
-"kodu 0) bildir"
+"yalnızca yeniden başlatma gerektiğini (çıkış kodu 1) veya gerekmediğini ("
+"çıkış kodu 0) bildir"
 
 #: plugins/needs_restarting.py:230
 msgid "Core libraries or services have been updated since boot-up:"
@@ -763,11 +763,11 @@ msgstr "Belirtilen depoları denetle"
 
 #: plugins/repoclosure.py:158
 msgid "Check only the newest packages in the repos"
-msgstr "Sadece depolardaki en yeni paketleri denetle"
+msgstr "Yalnızca depolardaki en yeni paketleri denetle"
 
 #: plugins/repoclosure.py:161
 msgid "Check closure for this package only"
-msgstr "Sadece bu paket için çözümlenmemiş bağımlılıkları denetle"
+msgstr "Yalnızca bu paket için çözümlenmemiş bağımlılıkları denetle"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
@@ -787,7 +787,7 @@ msgid ""
 "only source rpms are compared."
 msgstr ""
 "Karşılaştırılacak mimarileri belirtin, birden çok kez kullanılabilir. "
-"Öntanımlı olarak, sadece kaynak rpm'ler karşılaştırılır."
+"Öntanımlı olarak, yalnızca kaynak rpm'ler karşılaştırılır."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
@@ -963,7 +963,7 @@ msgstr "tüm paketleri uzak depodan indir"
 
 #: plugins/reposync.py:63
 msgid "download only packages for this ARCH"
-msgstr "sadece bu MİMARİ için paketleri indir"
+msgstr "yalnızca bu MİMARİ için paketleri indir"
 
 #: plugins/reposync.py:65
 msgid "delete local packages no longer present in repository"
@@ -979,7 +979,7 @@ msgstr "tüm üst verileri indir."
 
 #: plugins/reposync.py:71
 msgid "download only newest packages per-repo"
-msgstr "her depo için sadece en yeni paketleri indir"
+msgstr "her depo için yalnızca en yeni paketleri indir"
 
 #: plugins/reposync.py:73
 msgid "where to store downloaded repositories"
