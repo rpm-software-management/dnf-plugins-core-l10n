@@ -2,21 +2,22 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-04 09:18-0500\n"
-"PO-Revision-Date: 2020-11-17 13:35+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fi/>\n"
+"PO-Revision-Date: 2021-01-10 20:36+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -628,10 +629,8 @@ msgid "group name"
 msgstr ""
 
 #: plugins/groups_manager.py:103
-#, fuzzy
-#| msgid "No description given"
 msgid "group description"
-msgstr "Kuvausta ei annettu"
+msgstr "ryhmän kuvaus"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
@@ -678,22 +677,16 @@ msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
 
 #: plugins/groups_manager.py:190
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't load file \"{}\": {}"
-msgstr "Tiedostoa '{}' ei voi kirjoittaa"
+msgstr "Tiedostoa \"{}\": {} ei pystytä lataamaan"
 
 #: plugins/groups_manager.py:206
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't save file \"{}\": {}"
-msgstr "Tiedostoa '{}' ei voi kirjoittaa"
+msgstr "Tiedostoa \"{}\": {} ei voi tallentaa"
 
 #: plugins/groups_manager.py:259
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
-msgstr "Tuntematon argumentti: %s"
+msgstr "Tuntematon argumentti: {}"
 
 #: plugins/groups_manager.py:296
 msgid "Can't remove packages from non-existent group"
