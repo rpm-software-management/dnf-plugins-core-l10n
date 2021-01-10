@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 09:18-0500\n"
+"POT-Creation-Date: 2021-01-10 09:18-0500\n"
 "PO-Revision-Date: 2020-07-05 17:27+0000\n"
 "Last-Translator: A S Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -259,7 +259,7 @@ msgstr ""
 msgid "Specify an instance of Copr to work with"
 msgstr ""
 
-#: plugins/copr.py:149 plugins/copr.py:217 plugins/copr.py:237
+#: plugins/copr.py:149 plugins/copr.py:217 plugins/copr.py:244
 msgid "Error: "
 msgstr ""
 
@@ -277,15 +277,25 @@ msgstr ""
 msgid "exactly two additional parameters to copr command are required"
 msgstr ""
 
-#: plugins/copr.py:238
+#: plugins/copr.py:227
+msgid "Too many arguments."
+msgstr ""
+
+#: plugins/copr.py:230
+msgid ""
+"Bad format of optional chroot. The format is distribution-version-"
+"architecture."
+msgstr ""
+
+#: plugins/copr.py:245
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 
-#: plugins/copr.py:240
+#: plugins/copr.py:247
 msgid "bad copr project format"
 msgstr ""
 
-#: plugins/copr.py:254
+#: plugins/copr.py:261
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -301,71 +311,71 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 
-#: plugins/copr.py:271
+#: plugins/copr.py:278
 msgid "Repository successfully enabled."
 msgstr "ਰਿਪੋਜ਼ਟਰੀ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਸਮਰੱਥ ਕੀਤਾ।"
 
-#: plugins/copr.py:276
+#: plugins/copr.py:283
 msgid "Repository successfully disabled."
 msgstr "ਰਿਪੋਜ਼ਟਰੀ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਅਸਮਰੱਥ ਕੀਤਾ।"
 
-#: plugins/copr.py:280
+#: plugins/copr.py:287
 msgid "Repository successfully removed."
 msgstr "ਰਿਪੋਜ਼ਟਰੀ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਹਟਾਇਆ ਗਿਆ।"
 
-#: plugins/copr.py:284 plugins/copr.py:693
+#: plugins/copr.py:291 plugins/copr.py:698
 msgid "Unknown subcommand {}."
 msgstr ""
 
-#: plugins/copr.py:341
+#: plugins/copr.py:348
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 
-#: plugins/copr.py:353
+#: plugins/copr.py:360
 msgid "Can't parse repositories for username '{}'."
 msgstr ""
 
-#: plugins/copr.py:356
+#: plugins/copr.py:363
 msgid "List of {} coprs"
 msgstr ""
 
-#: plugins/copr.py:364
+#: plugins/copr.py:371
 msgid "No description given"
 msgstr ""
 
-#: plugins/copr.py:376
+#: plugins/copr.py:383
 msgid "Can't parse search for '{}'."
 msgstr ""
 
-#: plugins/copr.py:379
+#: plugins/copr.py:386
 msgid "Matched: {}"
 msgstr ""
 
-#: plugins/copr.py:387
+#: plugins/copr.py:394
 msgid "No description given."
 msgstr ""
 
-#: plugins/copr.py:410
+#: plugins/copr.py:417
 msgid "Safe and good answer. Exiting."
 msgstr ""
 
-#: plugins/copr.py:417
+#: plugins/copr.py:424
 msgid "This command has to be run under the root user."
 msgstr ""
 
-#: plugins/copr.py:481
+#: plugins/copr.py:486
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr ""
 
-#: plugins/copr.py:484
+#: plugins/copr.py:489
 msgid "Such repository does not exist."
 msgstr ""
 
-#: plugins/copr.py:528
+#: plugins/copr.py:533
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -382,44 +392,44 @@ msgid ""
 "These repositories have been enabled automatically."
 msgstr ""
 
-#: plugins/copr.py:549
+#: plugins/copr.py:554
 msgid "Do you want to keep them enabled?"
 msgstr ""
 
-#: plugins/copr.py:582
+#: plugins/copr.py:587
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr ""
 
-#: plugins/copr.py:593
+#: plugins/copr.py:598
 msgid "Failed to disable copr repo {}/{}"
 msgstr ""
 
-#: plugins/copr.py:611 plugins/copr.py:648
+#: plugins/copr.py:616 plugins/copr.py:653
 msgid "Unknown response from server."
 msgstr ""
 
-#: plugins/copr.py:633
+#: plugins/copr.py:638
 msgid "Interact with Playground repository."
 msgstr ""
 
-#: plugins/copr.py:639
+#: plugins/copr.py:644
 msgid "Enabling a Playground repository."
 msgstr ""
 
-#: plugins/copr.py:640
+#: plugins/copr.py:645
 msgid "Do you want to continue?"
 msgstr ""
 
-#: plugins/copr.py:683
+#: plugins/copr.py:688
 msgid "Playground repositories successfully enabled."
 msgstr ""
 
-#: plugins/copr.py:686
+#: plugins/copr.py:691
 msgid "Playground repositories successfully disabled."
 msgstr ""
 
-#: plugins/copr.py:690
+#: plugins/copr.py:695
 msgid "Playground repositories successfully updated."
 msgstr ""
 
