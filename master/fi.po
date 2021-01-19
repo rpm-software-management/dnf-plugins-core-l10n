@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-13 09:18-0500\n"
-"PO-Revision-Date: 2021-01-10 20:36+0000\n"
+"PO-Revision-Date: 2021-01-20 14:36+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -280,10 +280,8 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "tasan kaksi lisäparametria copr-komentoon vaaditaan"
 
 #: plugins/copr.py:227
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Tuntematon argumentti: %s"
+msgstr "Liian monta argumenttia."
 
 #: plugins/copr.py:230
 msgid ""
