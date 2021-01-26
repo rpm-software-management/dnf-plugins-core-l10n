@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-20 09:18-0500\n"
+"POT-Creation-Date: 2021-01-26 09:18-0500\n"
 "PO-Revision-Date: 2020-05-08 15:40+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -835,46 +835,46 @@ msgid ""
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:224
+#: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
 msgstr "határozza meg az újraindítást igénylő frissített binárisokat"
 
-#: plugins/needs_restarting.py:229
+#: plugins/needs_restarting.py:225
 msgid "only consider this user's processes"
 msgstr "csak ezen felhasználó folyamatait vegye figyelembe"
 
-#: plugins/needs_restarting.py:231
+#: plugins/needs_restarting.py:227
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "csak arról jelentsen, hogy szükséges-e újraindítás (kilépési kód: 1) vagy "
 "sem (kilépési kód: 0)"
 
-#: plugins/needs_restarting.py:234
+#: plugins/needs_restarting.py:230
 msgid "only report affected systemd services"
 msgstr ""
 
-#: plugins/needs_restarting.py:257
+#: plugins/needs_restarting.py:253
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 "Rendszerszintű programkönyvtárak és szolgáltatások lettek frissítve a "
 "rendszerindítás óta:"
 
-#: plugins/needs_restarting.py:262
+#: plugins/needs_restarting.py:258
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Újraindítás szükséges ezen frissítések életbe lépéséhez."
 
-#: plugins/needs_restarting.py:263
+#: plugins/needs_restarting.py:259
 msgid "More information:"
 msgstr "További információk:"
 
-#: plugins/needs_restarting.py:267
+#: plugins/needs_restarting.py:263
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Egyetlen rendszerszintű programkönyvtár és szolgáltatás sem lett frissítve a "
 "rendszerindítás óta."
 
-#: plugins/needs_restarting.py:269
+#: plugins/needs_restarting.py:265
 msgid "Reboot should not be necessary."
 msgstr "Újraindítás nem szükséges."
 
