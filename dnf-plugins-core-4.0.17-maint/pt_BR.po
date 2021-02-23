@@ -777,6 +777,7 @@ msgstr ""
 "vezes. Por padrão, somente os rpms de origem são comparados."
 
 #: plugins/repodiff.py:67
+#, fuzzy
 msgid "Output additional data about the size of the changes."
 msgstr "Escrever dados adicionais sobre o tamanho das mudanças."
 
