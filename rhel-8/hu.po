@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 09:18-0400\n"
+"POT-Creation-Date: 2021-02-22 10:06+0100\n"
 "PO-Revision-Date: 2020-05-08 15:40+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
-"Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/dnf-plugins-core-l10n-master/hu/>\n"
+"Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,8 +58,7 @@ msgid "Some packages could not be found."
 msgstr "Néhány csomag nem található."
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -294,11 +294,11 @@ msgstr "Hiba: "
 
 #: plugins/copr.py:150
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
-"adja meg a Copr kiszolgálót a „--hub” kapcsolóval vagy a "
-"„copr_hub/copr_username/copr_projectname” formátummal"
+"adja meg a Copr kiszolgálót a „--hub” kapcsolóval vagy a „copr_hub/"
+"copr_username/copr_projectname” formátummal"
 
 #: plugins/copr.py:153
 msgid "multiple hubs specified"
@@ -327,7 +327,8 @@ msgstr "hibás copr projektformátum"
 #| "\n"
 #| "The Fedora Project does not exercise any power over the contents of\n"
 #| "this repository beyond the rules outlined in the Copr FAQ at\n"
-#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
+#| "build-in-copr>,\n"
 #| "and packages are not held to any quality or security level.\n"
 #| "\n"
 #| "Please do not file bug reports about these packages in Fedora\n"
@@ -341,7 +342,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -353,7 +355,8 @@ msgstr ""
 "\n"
 "A Fedora Projektnek semmilyen hatalma nincs a tároló tartalma felett,\n"
 "a Copr GYIK-ben leírt szabályokon kívül, amely itt található:\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>.\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>.\n"
 "A csomagoknál nincs garancia semmilyen minőségi vagy biztonsági szintre.\n"
 "\n"
 "Ne jelentsen be hibákat a Fedora Bugzillába. Problémák esetén keresse\n"
@@ -379,8 +382,8 @@ msgstr "Ismeretlen alparancs: {}."
 
 #: plugins/copr.py:341
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 "* Ezek a Copr tárolók olyan régi formátumú repo fájlokat tartalmaz, "
@@ -422,8 +425,7 @@ msgstr "Ezt a parancsot root felhasználóként kell futtatni."
 #: plugins/copr.py:481
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
-msgstr ""
-"Ez a tároló még nem tartalmaz építéseket, így most nem engedélyezheti."
+msgstr "Ez a tároló még nem tartalmaz építéseket, így most nem engedélyezheti."
 
 #: plugins/copr.py:484
 msgid "Such repository does not exist."
@@ -623,15 +625,14 @@ msgstr ""
 msgid ""
 "print list of urls where the rpms can be downloaded instead of downloading"
 msgstr ""
-"a letöltés helyett csak írja ki az URL-ek listáját, hogy honnan tölthetőek "
-"le"
+"a letöltés helyett csak írja ki az URL-ek listáját, hogy honnan tölthetőek le"
 
 #: plugins/download.py:72
 msgid "when running with --url, limit to specific protocols"
 msgstr ""
 "amikor az --url kapcsolóval fut, akkor korlátozza bizonyos protokollokra"
 
-#: plugins/download.py:121 plugins/reposync.py:293
+#: plugins/download.py:121 plugins/reposync.py:314
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Nem található tükör a csomaghoz: %s"
@@ -653,6 +654,134 @@ msgstr "Nincs forrás rpm megadva ehhez: %s"
 #, python-format
 msgid "No package %s available."
 msgstr "A(z) %s csomag nem érhető el."
+
+#: plugins/groups_manager.py:49
+msgid "Invalid group id"
+msgstr ""
+
+#: plugins/groups_manager.py:58
+msgid "Invalid translated data, should be in form 'lang:text'"
+msgstr ""
+
+#: plugins/groups_manager.py:61
+msgid "Invalid/empty language for translated data"
+msgstr ""
+
+#: plugins/groups_manager.py:71
+msgid "Can't generate group id from '{}'. Please specify group id using --id."
+msgstr ""
+
+#: plugins/groups_manager.py:79
+msgid "create and edit groups metadata file"
+msgstr ""
+
+#: plugins/groups_manager.py:90
+msgid "load groups metadata from file"
+msgstr ""
+
+#: plugins/groups_manager.py:93
+msgid "save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:95
+msgid "load and save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:97
+#, fuzzy
+#| msgid "print variable values to stdout"
+msgid "print the result metadata to stdout"
+msgstr "kiírja a változó értékeket a sztenderd kimenetre"
+
+#: plugins/groups_manager.py:100
+msgid "group id"
+msgstr ""
+
+#: plugins/groups_manager.py:101
+msgid "group name"
+msgstr ""
+
+#: plugins/groups_manager.py:103
+#, fuzzy
+#| msgid "No description given"
+msgid "group description"
+msgstr "Nincs leírás adva"
+
+#: plugins/groups_manager.py:105
+msgid "group display order"
+msgstr ""
+
+#: plugins/groups_manager.py:108
+msgid "translated name for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:111
+#, fuzzy
+#| msgid "Failed to get mirror for the group file."
+msgid "translated description for the group"
+msgstr "Nem található tükör a csoportfájlhoz."
+
+#: plugins/groups_manager.py:115
+msgid "make the group user visible (default)"
+msgstr ""
+
+#: plugins/groups_manager.py:118
+msgid "make the group user invisible"
+msgstr ""
+
+#: plugins/groups_manager.py:123
+msgid "add packages to the mandatory section"
+msgstr ""
+
+#: plugins/groups_manager.py:125
+msgid "add packages to the optional section"
+msgstr ""
+
+#: plugins/groups_manager.py:127
+msgid "remove packages from the group instead of adding them"
+msgstr ""
+
+#: plugins/groups_manager.py:129
+#, fuzzy
+#| msgid "Display a list of unresolved dependencies for repositories"
+msgid "include also direct dependencies for packages"
+msgstr "A tárolók kielégítetlen függőségeinek megjelenítése"
+
+#: plugins/groups_manager.py:132
+msgid "package specification"
+msgstr ""
+
+#: plugins/groups_manager.py:156
+msgid "Can't edit group without specifying it (use --id or --name)"
+msgstr ""
+
+#: plugins/groups_manager.py:190
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't load file \"{}\": {}"
+msgstr "A(z) „{}” fájl nem írható"
+
+#: plugins/groups_manager.py:206
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't save file \"{}\": {}"
+msgstr "A(z) „{}” fájl nem írható"
+
+#: plugins/groups_manager.py:259
+#, fuzzy
+#| msgid "No match for argument: %s"
+msgid "No match for argument: {}"
+msgstr "Nem található egyezés a következő argumentumra: %s"
+
+#: plugins/groups_manager.py:296
+msgid "Can't remove packages from non-existent group"
+msgstr ""
+
+#: plugins/groups_manager.py:305
+msgid ""
+"Group id '{}' generated from '{}' is duplicit. Please specify group id using "
+"--id."
+msgstr ""
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -687,49 +816,53 @@ msgstr ""
 msgid "Migrating history data..."
 msgstr "Előzményadatok migrálása…"
 
-#: plugins/needs_restarting.py:65
+#: plugins/needs_restarting.py:66
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:224
 msgid "determine updated binaries that need restarting"
 msgstr "határozza meg az újraindítást igénylő frissített binárisokat"
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:229
 msgid "only consider this user's processes"
 msgstr "csak ezen felhasználó folyamatait vegye figyelembe"
 
-#: plugins/needs_restarting.py:206
+#: plugins/needs_restarting.py:231
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "csak arról jelentsen, hogy szükséges-e újraindítás (kilépési kód: 1) vagy "
 "sem (kilépési kód: 0)"
 
-#: plugins/needs_restarting.py:230
+#: plugins/needs_restarting.py:234
+msgid "only report affected systemd services"
+msgstr ""
+
+#: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 "Rendszerszintű programkönyvtárak és szolgáltatások lettek frissítve a "
 "rendszerindítás óta:"
 
-#: plugins/needs_restarting.py:235
+#: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Újraindítás szükséges ezen frissítések életbe lépéséhez."
 
-#: plugins/needs_restarting.py:236
+#: plugins/needs_restarting.py:263
 msgid "More information:"
 msgstr "További információk:"
 
-#: plugins/needs_restarting.py:240
+#: plugins/needs_restarting.py:267
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
-"Egyetlen rendszerszintű programkönyvtár és szolgáltatás sem lett frissítve a"
-" rendszerindítás óta."
+"Egyetlen rendszerszintű programkönyvtár és szolgáltatás sem lett frissítve a "
+"rendszerindítás óta."
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:269
 msgid "Reboot should not be necessary."
 msgstr "Újraindítás nem szükséges."
 
@@ -805,11 +938,10 @@ msgstr "További adatok kiírása a változások méretéről."
 
 #: plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
-"Csomagok összehasonlítása architektúra szerint. Alapértelmezetten a csomagok"
-" csak név szerint lesznek összehasonlítva."
+"Csomagok összehasonlítása architektúra szerint. Alapértelmezetten a csomagok "
+"csak név szerint lesznek összehasonlítva."
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
@@ -964,88 +1096,100 @@ msgstr "Megtartandó legfrissebb N csomag – alapértelmezésben 1"
 msgid "Path to directory"
 msgstr "Útvonal a könyvtárhoz"
 
-#: plugins/reposync.py:54
+#: plugins/reposync.py:55
 msgid "download all packages from remote repo"
 msgstr "minden csomag letöltése a távoli tárolóból"
 
-#: plugins/reposync.py:63
+#: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
 msgstr "csak az ezen ARCHITEKTÚRÁhoz tartozó csomagok letöltése"
 
-#: plugins/reposync.py:65
+#: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
 msgstr "a tárolóban már nem található helyi csomagok törlése"
 
-#: plugins/reposync.py:67
-msgid "also download and uncompress comps.xml"
-msgstr "a comps.xml is kerüljön letöltésre és kibontásra"
-
-#: plugins/reposync.py:69
+#: plugins/reposync.py:68
 msgid "download all the metadata."
 msgstr "összes metaadat letöltése."
 
-#: plugins/reposync.py:71
+#: plugins/reposync.py:70
+msgid "Remove packages that fail GPG signature checking after downloading"
+msgstr ""
+
+#: plugins/reposync.py:73
+msgid "also download and uncompress comps.xml"
+msgstr "a comps.xml is kerüljön letöltésre és kibontásra"
+
+#: plugins/reposync.py:75
+msgid ""
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
+msgstr ""
+"hol tárolja a letöltött tároló-metaadatokat. Az alapértelmezett a --download-"
+"path értéke."
+
+#: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
 msgstr "csak a tárolókban lévő legújabb csomagok letöltése"
 
-#: plugins/reposync.py:73
-msgid "where to store downloaded repositories"
-msgstr "hol tárolja a letöltött tárolókat"
-
-#: plugins/reposync.py:75
+#: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
 msgstr "Ne adja hozzá a tároló nevét a letöltési útvonalhoz."
 
-#: plugins/reposync.py:77
-msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
-msgstr ""
-"hol tárolja a letöltött tároló-metaadatokat. Az alapértelmezett a "
-"--download-path értéke."
-
-#: plugins/reposync.py:80
-msgid "operate on source packages"
-msgstr "műveletek elvégzése a forráscsomagokon"
-
 #: plugins/reposync.py:82
+msgid "where to store downloaded repositories"
+msgstr "hol tárolja a letöltött tárolókat"
+
+#: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
 "a helyi fájlok helyi időbélyegeit próbálja meg a kiszolgáló alapján "
 "beállítani"
 
-#: plugins/reposync.py:85
+#: plugins/reposync.py:87
+msgid "operate on source packages"
+msgstr "műveletek elvégzése a forráscsomagokon"
+
+#: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr "Csak a letöltendő URL-ek felsorolása, ne töltse le azokat"
 
-#: plugins/reposync.py:109
+#: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "A --norepopath nem használható több tárolóval"
 
-#: plugins/reposync.py:127
+#: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr "Nem található tükör a metaadatokhoz: %s"
 
-#: plugins/reposync.py:144
+#: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
 msgstr "Nem található tükör a csoportfájlhoz."
 
+#: plugins/reposync.py:168
+msgid "Removing {}: {}"
+msgstr ""
+
 #: plugins/reposync.py:175
+msgid "GPG signature check failed."
+msgstr ""
+
+#: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
 msgstr "A(z) „{}” letöltési cél a(z) „{}” letöltési útvonalon kívül esik."
 
-#: plugins/reposync.py:190
+#: plugins/reposync.py:211
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[TÖRÖLVE] %s"
 
-#: plugins/reposync.py:192
+#: plugins/reposync.py:213
 #, python-format
 msgid "failed to delete file %s"
 msgstr "nem sikerült törölni a(z) %s fájlt"
 
-#: plugins/reposync.py:201
+#: plugins/reposync.py:222
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "a(z) %s tárolóhoz tartozó comps.xml mentve"
@@ -1098,14 +1242,15 @@ msgstr "A verziózár bővítmény kizárásai nem lettek alkalmazva"
 #: plugins/versionlock.py:42
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
-"Verziózár bővítmény: a(z) „{}” fájlból alkalmazott zárolási szabályok száma:"
-" {}"
+"Verziózár bővítmény: a(z) „{}” fájlból alkalmazott zárolási szabályok száma: "
+"{}"
 
 #: plugins/versionlock.py:43
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
-"Verziózár bővítmény: a(z) „{}” fájlból alkalmazott kizárási szabályok száma:"
-" {}"
+"Verziózár bővítmény: a(z) „{}” fájlból alkalmazott kizárási szabályok száma: "
+"{}"
 
 #: plugins/versionlock.py:44
 msgid "Versionlock plugin: could not parse pattern:"

@@ -9,10 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 09:18-0400\n"
+"POT-Creation-Date: 2021-02-22 10:06+0100\n"
 "PO-Revision-Date: 2020-07-09 13:27+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/projects/dnf/dnf-plugins-core-l10n-master/zh_CN/>\n"
+"Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
+"projects/dnf/dnf-plugins-core-l10n-master/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,8 +59,7 @@ msgid "Some packages could not be found."
 msgstr "某些软件包无法找到。"
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -286,8 +286,8 @@ msgstr "错误： "
 
 #: plugins/copr.py:150
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
 
 #: plugins/copr.py:153
@@ -314,7 +314,8 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
@@ -339,8 +340,8 @@ msgstr "未知的子命令 {}。"
 
 #: plugins/copr.py:341
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
 
@@ -579,7 +580,7 @@ msgstr "打印 rpm 可被下载的 url 列表而不是直接下载"
 msgid "when running with --url, limit to specific protocols"
 msgstr "当执行时带有 --url 参数，则限制使用指定协议"
 
-#: plugins/download.py:121 plugins/reposync.py:293
+#: plugins/download.py:121 plugins/reposync.py:314
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "获取针对以下软件包的镜像失败：%s"
@@ -601,6 +602,132 @@ msgstr "未找到所定义 %s 的源代码软件包 SRPM"
 #, python-format
 msgid "No package %s available."
 msgstr "没有可用的软件包 %s。"
+
+#: plugins/groups_manager.py:49
+msgid "Invalid group id"
+msgstr ""
+
+#: plugins/groups_manager.py:58
+msgid "Invalid translated data, should be in form 'lang:text'"
+msgstr ""
+
+#: plugins/groups_manager.py:61
+msgid "Invalid/empty language for translated data"
+msgstr ""
+
+#: plugins/groups_manager.py:71
+msgid "Can't generate group id from '{}'. Please specify group id using --id."
+msgstr ""
+
+#: plugins/groups_manager.py:79
+msgid "create and edit groups metadata file"
+msgstr ""
+
+#: plugins/groups_manager.py:90
+msgid "load groups metadata from file"
+msgstr ""
+
+#: plugins/groups_manager.py:93
+msgid "save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:95
+msgid "load and save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:97
+#, fuzzy
+#| msgid "print variable values to stdout"
+msgid "print the result metadata to stdout"
+msgstr "打印变量值到标准输出"
+
+#: plugins/groups_manager.py:100
+msgid "group id"
+msgstr ""
+
+#: plugins/groups_manager.py:101
+msgid "group name"
+msgstr ""
+
+#: plugins/groups_manager.py:103
+#, fuzzy
+#| msgid "No description given"
+msgid "group description"
+msgstr "没有给出描述"
+
+#: plugins/groups_manager.py:105
+msgid "group display order"
+msgstr ""
+
+#: plugins/groups_manager.py:108
+msgid "translated name for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:111
+msgid "translated description for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:115
+msgid "make the group user visible (default)"
+msgstr ""
+
+#: plugins/groups_manager.py:118
+msgid "make the group user invisible"
+msgstr ""
+
+#: plugins/groups_manager.py:123
+msgid "add packages to the mandatory section"
+msgstr ""
+
+#: plugins/groups_manager.py:125
+msgid "add packages to the optional section"
+msgstr ""
+
+#: plugins/groups_manager.py:127
+msgid "remove packages from the group instead of adding them"
+msgstr ""
+
+#: plugins/groups_manager.py:129
+#, fuzzy
+#| msgid "Display a list of unresolved dependencies for repositories"
+msgid "include also direct dependencies for packages"
+msgstr "显示仓库中未被解决的依赖关系的列表"
+
+#: plugins/groups_manager.py:132
+msgid "package specification"
+msgstr ""
+
+#: plugins/groups_manager.py:156
+msgid "Can't edit group without specifying it (use --id or --name)"
+msgstr ""
+
+#: plugins/groups_manager.py:190
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't load file \"{}\": {}"
+msgstr "无法写入文件 '{}'"
+
+#: plugins/groups_manager.py:206
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't save file \"{}\": {}"
+msgstr "无法写入文件 '{}'"
+
+#: plugins/groups_manager.py:259
+#, fuzzy
+#| msgid "No match for argument: %s"
+msgid "No match for argument: {}"
+msgstr "未找到匹配的参数： %s"
+
+#: plugins/groups_manager.py:296
+msgid "Can't remove packages from non-existent group"
+msgstr ""
+
+#: plugins/groups_manager.py:305
+msgid ""
+"Group id '{}' generated from '{}' is duplicit. Please specify group id using "
+"--id."
+msgstr ""
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -634,43 +761,47 @@ msgstr "迁移 yum 的历史、分组以及 yumdb 数据至 dnf"
 msgid "Migrating history data..."
 msgstr "正在迁移历史数据…"
 
-#: plugins/needs_restarting.py:65
+#: plugins/needs_restarting.py:66
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:224
 msgid "determine updated binaries that need restarting"
 msgstr "判断所升级的二进制文件是否需要重启"
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:229
 msgid "only consider this user's processes"
 msgstr "仅考虑当前用户的进程"
 
-#: plugins/needs_restarting.py:206
+#: plugins/needs_restarting.py:231
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 
-#: plugins/needs_restarting.py:230
+#: plugins/needs_restarting.py:234
+msgid "only report affected systemd services"
+msgstr ""
+
+#: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:235
+#: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 
-#: plugins/needs_restarting.py:236
+#: plugins/needs_restarting.py:263
 msgid "More information:"
 msgstr ""
 
-#: plugins/needs_restarting.py:240
+#: plugins/needs_restarting.py:267
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:269
 msgid "Reboot should not be necessary."
 msgstr ""
 
@@ -744,8 +875,7 @@ msgstr ""
 
 #: plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
 
 #: plugins/repodiff.py:72
@@ -891,84 +1021,96 @@ msgstr "要保留的最新的 N 个软件包 - 默认值为 1"
 msgid "Path to directory"
 msgstr "指向目录的路径"
 
-#: plugins/reposync.py:54
+#: plugins/reposync.py:55
 msgid "download all packages from remote repo"
 msgstr "下载远程仓库中的全部软件包"
 
-#: plugins/reposync.py:63
+#: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
 msgstr "只下载这个 ARCH 的软件包"
 
-#: plugins/reposync.py:65
+#: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
 msgstr "删除已不在仓库中的本地软件包"
 
-#: plugins/reposync.py:67
-msgid "also download and uncompress comps.xml"
-msgstr ""
-
-#: plugins/reposync.py:69
+#: plugins/reposync.py:68
 msgid "download all the metadata."
 msgstr ""
 
-#: plugins/reposync.py:71
-msgid "download only newest packages per-repo"
-msgstr "只下载最新的软件包 per-repo"
+#: plugins/reposync.py:70
+msgid "Remove packages that fail GPG signature checking after downloading"
+msgstr ""
 
 #: plugins/reposync.py:73
-msgid "where to store downloaded repositories"
+msgid "also download and uncompress comps.xml"
 msgstr ""
 
 #: plugins/reposync.py:75
+msgid ""
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
+msgstr ""
+
+#: plugins/reposync.py:78
+msgid "download only newest packages per-repo"
+msgstr "只下载最新的软件包 per-repo"
+
+#: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
 msgstr ""
 
-#: plugins/reposync.py:77
-msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+#: plugins/reposync.py:82
+msgid "where to store downloaded repositories"
 msgstr ""
 
-#: plugins/reposync.py:80
-msgid "operate on source packages"
-msgstr "在源软件包中操作"
-
-#: plugins/reposync.py:82
+#: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
 
-#: plugins/reposync.py:85
+#: plugins/reposync.py:87
+msgid "operate on source packages"
+msgstr "在源软件包中操作"
+
+#: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr ""
 
-#: plugins/reposync.py:109
+#: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
 msgstr ""
 
-#: plugins/reposync.py:127
+#: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr ""
 
-#: plugins/reposync.py:144
+#: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
 msgstr ""
 
+#: plugins/reposync.py:168
+msgid "Removing {}: {}"
+msgstr ""
+
 #: plugins/reposync.py:175
+msgid "GPG signature check failed."
+msgstr ""
+
+#: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
 msgstr ""
 
-#: plugins/reposync.py:190
+#: plugins/reposync.py:211
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[DELETED] %s"
 
-#: plugins/reposync.py:192
+#: plugins/reposync.py:213
 #, python-format
 msgid "failed to delete file %s"
 msgstr "无法删除文件 %s"
 
-#: plugins/reposync.py:201
+#: plugins/reposync.py:222
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "仓库 %s 的 comps.xml 已保存"
@@ -1023,7 +1165,8 @@ msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr "Versionlock 插件: 文件 \"{}\" 中的锁定数量规则被应用：{}"
 
 #: plugins/versionlock.py:43
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr "Versionlock 插件: 文件 \"{}\" 中的排除规则数量被应用：{}"
 
 #: plugins/versionlock.py:44

@@ -6,10 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 09:18-0400\n"
+"POT-Creation-Date: 2021-02-22 10:06+0100\n"
 "PO-Revision-Date: 2020-07-10 22:27+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-plugins-core-l10n-master/nl/>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,8 +57,7 @@ msgid "Some packages could not be found."
 msgstr "Sommige pakketten konden niet gevonden worden."
 
 #. No provides, no files
-#. Richdeps can have no matches but it could be correct (solver must decide
-#. later)
+#. Richdeps can have no matches but it could be correct (solver must decide later)
 #: plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
@@ -159,8 +159,8 @@ msgstr "sla de huidige opties op (nuttig met --setopt)"
 #: plugins/config_manager.py:50
 msgid "add (and enable) the repo from the specified file or url"
 msgstr ""
-"voeg de repo toe vanuit het opgegeven bestand of de opgegeven URL en schakel"
-" deze in"
+"voeg de repo toe vanuit het opgegeven bestand of de opgegeven URL en schakel "
+"deze in"
 
 #: plugins/config_manager.py:53
 msgid "print current configuration values to stdout"
@@ -295,11 +295,11 @@ msgstr "Fout: "
 
 #: plugins/copr.py:150
 msgid ""
-"specify Copr hub either with `--hub` or using "
-"`copr_hub/copr_username/copr_projectname` format"
+"specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
+"copr_projectname` format"
 msgstr ""
-"specificeer Copr hub met `--hub` of gebruik het formaat "
-"`copr_hub/copr_username/copr_projectname`"
+"specificeer Copr hub met `--hub` of gebruik het formaat `copr_hub/"
+"copr_username/copr_projectname`"
 
 #: plugins/copr.py:153
 msgid "multiple hubs specified"
@@ -327,23 +327,27 @@ msgid ""
 "\n"
 "The Fedora Project does not exercise any power over the contents of\n"
 "this repository beyond the rules outlined in the Copr FAQ at\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "and packages are not held to any quality or security level.\n"
 "\n"
 "Please do not file bug reports about these packages in Fedora\n"
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Een Copr-repository inschakelen. Houd er rekening mee dat dit repository geen deel\n"
+"Een Copr-repository inschakelen. Houd er rekening mee dat dit repository "
+"geen deel\n"
 "uitmaakt van de hoofddistributie en de kwaliteit kan variëren.\n"
 "\n"
 "Het Fedora Project heeft geen zeggenschap over de inhoud van\n"
 "deze repository behalve de regels beschreven in de Copr_FAQ in\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
 "en pakketten worden niet getoetst op kwaliteit of beveiliging.\n"
 "\n"
 "Stuur alstublieft geen bug-rapporten over deze pakketten in Fedora\n"
-"Bugzilla. Neem in geval van problemen contact op met de eigenaar van deze repository.\n"
+"Bugzilla. Neem in geval van problemen contact op met de eigenaar van deze "
+"repository.\n"
 
 #: plugins/copr.py:271
 msgid "Repository successfully enabled."
@@ -363,12 +367,12 @@ msgstr "Onbekend subcommando {}."
 
 #: plugins/copr.py:341
 msgid ""
-"* These coprs have repo file with an old format that contains no information"
-" about Copr hub - the default one was assumed. Re-enable the project to fix "
+"* These coprs have repo file with an old format that contains no information "
+"about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
-"* Deze coprs hebben een repo-bestand met een oud formaat dat geen informatie"
-" bevat over Copr hub - de standaard werd verondersteld. Schakel het project "
+"* Deze coprs hebben een repo-bestand met een oud formaat dat geen informatie "
+"bevat over Copr hub - de standaard werd verondersteld. Schakel het project "
 "opnieuw in om dit te verhelpen."
 
 #: plugins/copr.py:353
@@ -517,8 +521,8 @@ msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
 msgstr ""
-"Negeer architectuur en installeer ontbrekende pakketten die overeenkomen met"
-" de naam, het tijdvak, de versie en de release."
+"Negeer architectuur en installeer ontbrekende pakketten die overeenkomen met "
+"de naam, het tijdvak, de versie en de release."
 
 #: plugins/debug.py:196
 msgid "limit to specified type"
@@ -624,14 +628,14 @@ msgstr ""
 msgid ""
 "print list of urls where the rpms can be downloaded instead of downloading"
 msgstr ""
-"print lijst met url's waar de rpms kunnen worden gedownload in plaats van te"
-" downloaden"
+"print lijst met url's waar de rpms kunnen worden gedownload in plaats van te "
+"downloaden"
 
 #: plugins/download.py:72
 msgid "when running with --url, limit to specific protocols"
 msgstr "bij gebruik van --url, beperken tot specifieke protocollen"
 
-#: plugins/download.py:121 plugins/reposync.py:293
+#: plugins/download.py:121 plugins/reposync.py:314
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Kan spiegel voor pakket niet ophalen: %s"
@@ -653,6 +657,134 @@ msgstr "Geen bron-rpm gedefinieerd voor %s"
 #, python-format
 msgid "No package %s available."
 msgstr "Pakket %s niet beschikbaar."
+
+#: plugins/groups_manager.py:49
+msgid "Invalid group id"
+msgstr ""
+
+#: plugins/groups_manager.py:58
+msgid "Invalid translated data, should be in form 'lang:text'"
+msgstr ""
+
+#: plugins/groups_manager.py:61
+msgid "Invalid/empty language for translated data"
+msgstr ""
+
+#: plugins/groups_manager.py:71
+msgid "Can't generate group id from '{}'. Please specify group id using --id."
+msgstr ""
+
+#: plugins/groups_manager.py:79
+msgid "create and edit groups metadata file"
+msgstr ""
+
+#: plugins/groups_manager.py:90
+msgid "load groups metadata from file"
+msgstr ""
+
+#: plugins/groups_manager.py:93
+msgid "save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:95
+msgid "load and save groups metadata to file"
+msgstr ""
+
+#: plugins/groups_manager.py:97
+#, fuzzy
+#| msgid "print variable values to stdout"
+msgid "print the result metadata to stdout"
+msgstr "print variabelewaarden naar stdout"
+
+#: plugins/groups_manager.py:100
+msgid "group id"
+msgstr ""
+
+#: plugins/groups_manager.py:101
+msgid "group name"
+msgstr ""
+
+#: plugins/groups_manager.py:103
+#, fuzzy
+#| msgid "No description given"
+msgid "group description"
+msgstr "Geen beschrijving gegeven"
+
+#: plugins/groups_manager.py:105
+msgid "group display order"
+msgstr ""
+
+#: plugins/groups_manager.py:108
+msgid "translated name for the group"
+msgstr ""
+
+#: plugins/groups_manager.py:111
+#, fuzzy
+#| msgid "Failed to get mirror for the group file."
+msgid "translated description for the group"
+msgstr "Verkrijgen van spiegel voor het groepsbestand mislukte."
+
+#: plugins/groups_manager.py:115
+msgid "make the group user visible (default)"
+msgstr ""
+
+#: plugins/groups_manager.py:118
+msgid "make the group user invisible"
+msgstr ""
+
+#: plugins/groups_manager.py:123
+msgid "add packages to the mandatory section"
+msgstr ""
+
+#: plugins/groups_manager.py:125
+msgid "add packages to the optional section"
+msgstr ""
+
+#: plugins/groups_manager.py:127
+msgid "remove packages from the group instead of adding them"
+msgstr ""
+
+#: plugins/groups_manager.py:129
+#, fuzzy
+#| msgid "Display a list of unresolved dependencies for repositories"
+msgid "include also direct dependencies for packages"
+msgstr "Toon een lijst met onopgeloste afhankelijkheden voor repositories"
+
+#: plugins/groups_manager.py:132
+msgid "package specification"
+msgstr ""
+
+#: plugins/groups_manager.py:156
+msgid "Can't edit group without specifying it (use --id or --name)"
+msgstr ""
+
+#: plugins/groups_manager.py:190
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't load file \"{}\": {}"
+msgstr "Kan bestand '{}' niet schrijven"
+
+#: plugins/groups_manager.py:206
+#, fuzzy
+#| msgid "Can't write file '{}'"
+msgid "Can't save file \"{}\": {}"
+msgstr "Kan bestand '{}' niet schrijven"
+
+#: plugins/groups_manager.py:259
+#, fuzzy
+#| msgid "No match for argument: %s"
+msgid "No match for argument: {}"
+msgstr "Geen match voor argument: %s"
+
+#: plugins/groups_manager.py:296
+msgid "Can't remove packages from non-existent group"
+msgstr ""
+
+#: plugins/groups_manager.py:305
+msgid ""
+"Group id '{}' generated from '{}' is duplicit. Please specify group id using "
+"--id."
+msgstr ""
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -687,7 +819,7 @@ msgstr "migreer de geschiedenis, groeps- en yumdb-data van yum naar dnf"
 msgid "Migrating history data..."
 msgstr "Migreren van geschiedenis data..."
 
-#: plugins/needs_restarting.py:65
+#: plugins/needs_restarting.py:66
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
@@ -696,42 +828,45 @@ msgstr ""
 "Geen geïnstalleerd pakket gevonden voor pakketnaam \"{pkg}\" gespecificeerd "
 "in het herstartbestand \"{file}\"."
 
-#: plugins/needs_restarting.py:199
+#: plugins/needs_restarting.py:224
 msgid "determine updated binaries that need restarting"
-msgstr ""
-"bepaal bijgewerkte binaire bestanden die opnieuw moeten worden gestart"
+msgstr "bepaal bijgewerkte binaire bestanden die opnieuw moeten worden gestart"
 
-#: plugins/needs_restarting.py:204
+#: plugins/needs_restarting.py:229
 msgid "only consider this user's processes"
 msgstr "houd alleen rekening met de processen van deze gebruiker"
 
-#: plugins/needs_restarting.py:206
+#: plugins/needs_restarting.py:231
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "rapporteer alleen of opnieuw opstarten vereist is (exitcode 1) of niet "
 "(exitcode 0)"
 
-#: plugins/needs_restarting.py:230
+#: plugins/needs_restarting.py:234
+msgid "only report affected systemd services"
+msgstr ""
+
+#: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Kernbibliotheken of services die sinds het opstarten zijn bijgewerkt:"
 
-#: plugins/needs_restarting.py:235
+#: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Opnieuw opstarten is vereist om deze vernieuwingen volledig te kunnen "
 "gebruiken."
 
-#: plugins/needs_restarting.py:236
+#: plugins/needs_restarting.py:263
 msgid "More information:"
 msgstr "Meer informatie:"
 
-#: plugins/needs_restarting.py:240
+#: plugins/needs_restarting.py:267
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Sinds het opstarten zijn er geen kernbibliotheken of services bijgewerkt."
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:269
 msgid "Reboot should not be necessary."
 msgstr "Opnieuw opstarten zou niet nodig moeten zijn."
 
@@ -809,8 +944,7 @@ msgstr "Voer extra gegevens uit over de grootte van de wijzigingen."
 
 #: plugins/repodiff.py:69
 msgid ""
-"Compare packages also by arch. By default packages are compared just by "
-"name."
+"Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
 "Vergelijk pakketten ook per architectuur. Standaard worden pakketten alleen "
 "op naam vergeleken."
@@ -970,89 +1104,101 @@ msgstr "Nieuwste N pakketten om te bewaren - standaard 1"
 msgid "Path to directory"
 msgstr "Pad naar map"
 
-#: plugins/reposync.py:54
+#: plugins/reposync.py:55
 msgid "download all packages from remote repo"
 msgstr "download alle pakketten van repo op afstand"
 
-#: plugins/reposync.py:63
+#: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
 msgstr "download alleen pakketten voor deze ARCH"
 
-#: plugins/reposync.py:65
+#: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
 msgstr ""
 "lokale pakketten verwijderen die niet meer in de repository aanwezig zijn"
 
-#: plugins/reposync.py:67
-msgid "also download and uncompress comps.xml"
-msgstr "download en pak ook comps.xml uit"
-
-#: plugins/reposync.py:69
+#: plugins/reposync.py:68
 msgid "download all the metadata."
 msgstr "download alle metadata."
 
-#: plugins/reposync.py:71
-msgid "download only newest packages per-repo"
-msgstr "download alleen de nieuwste pakketten per-repo"
+#: plugins/reposync.py:70
+msgid "Remove packages that fail GPG signature checking after downloading"
+msgstr ""
 
 #: plugins/reposync.py:73
-msgid "where to store downloaded repositories"
-msgstr "waar gedownloade repositories moeten worden opgeslagen"
+msgid "also download and uncompress comps.xml"
+msgstr "download en pak ook comps.xml uit"
 
 #: plugins/reposync.py:75
-msgid "Don't add the reponame to the download path."
-msgstr "Voeg de reponaam niet toe aan het downloadpad."
-
-#: plugins/reposync.py:77
 msgid ""
-"where to store downloaded repository metadata. Defaults to the value of "
-"--download-path."
+"where to store downloaded repository metadata. Defaults to the value of --"
+"download-path."
 msgstr ""
 "waar de gedownloade repository metadata moet worden opgeslagen. Standaard "
 "staat de waarde op --download-path."
 
+#: plugins/reposync.py:78
+msgid "download only newest packages per-repo"
+msgstr "download alleen de nieuwste pakketten per-repo"
+
 #: plugins/reposync.py:80
-msgid "operate on source packages"
-msgstr "bewerk bronpakketten"
+msgid "Don't add the reponame to the download path."
+msgstr "Voeg de reponaam niet toe aan het downloadpad."
 
 #: plugins/reposync.py:82
+msgid "where to store downloaded repositories"
+msgstr "waar gedownloade repositories moeten worden opgeslagen"
+
+#: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
 "probeer lokale tijdsstempels van lokale bestanden in te stellen met die op "
 "de server"
 
-#: plugins/reposync.py:85
+#: plugins/reposync.py:87
+msgid "operate on source packages"
+msgstr "bewerk bronpakketten"
+
+#: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr "Toon de url's die gedownload gaan worden, download ze nog niet"
 
-#: plugins/reposync.py:109
+#: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "Kan --norepopath niet gebruiken met meerdere repositories"
 
-#: plugins/reposync.py:127
+#: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr "Verkrijgen van spiegel voor metadata mislukte: %s"
 
-#: plugins/reposync.py:144
+#: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
 msgstr "Verkrijgen van spiegel voor het groepsbestand mislukte."
 
+#: plugins/reposync.py:168
+msgid "Removing {}: {}"
+msgstr ""
+
 #: plugins/reposync.py:175
+msgid "GPG signature check failed."
+msgstr ""
+
+#: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
 msgstr "Downloaddoel '{}' bevindt zich buiten downloadpad '{}'."
 
-#: plugins/reposync.py:190
+#: plugins/reposync.py:211
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[VERWIJDERD] %s"
 
-#: plugins/reposync.py:192
+#: plugins/reposync.py:213
 #, python-format
 msgid "failed to delete file %s"
 msgstr "verwijderen van bestand %s mislukte"
 
-#: plugins/reposync.py:201
+#: plugins/reposync.py:222
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "comps.xml voor repository %s opgeslagen"
@@ -1109,7 +1255,8 @@ msgstr ""
 "toegepast: {}"
 
 #: plugins/versionlock.py:43
-msgid "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
+msgid ""
+"Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 "Versieslot plug-in: aantal uitsluitingsregels van bestand \"{}\" toegepast: "
 "{}"
@@ -1124,8 +1271,7 @@ msgstr "controleer pakketversieslot"
 
 #: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
-msgstr ""
-"Gebruik pakketspecificaties zoals ze zijn, probeer ze niet te ontleden"
+msgstr "Gebruik pakketspecificaties zoals ze zijn, probeer ze niet te ontleden"
 
 #~ msgid ""
 #~ "\n"
