@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 09:18-0500\n"
 "PO-Revision-Date: 2021-03-01 07:05+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
@@ -654,12 +654,12 @@ msgstr "Poistutaan tiukkojen asetusten takia."
 
 #: plugins/download.py:261
 msgid "Error in resolve of packages:"
-msgstr ""
+msgstr "Virhe pakettien ratkaisemisessa:"
 
 #: plugins/download.py:279
 #, python-format
 msgid "No source rpm defined for %s"
-msgstr ""
+msgstr "Lähdettä rpm ei määriteltyfor %s:lle"
 
 #: plugins/download.py:296 plugins/download.py:309
 #, python-format
@@ -668,11 +668,11 @@ msgstr "Pakettia %s ei ole saatavilla."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "Ei kelvollinen ryhmän tunnus"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr ""
+msgstr "Virheelliset käännetyt tiedot; pitäisi olla muodossa 'lang:text'"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
