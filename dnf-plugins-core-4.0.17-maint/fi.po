@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:46+0200\n"
-"PO-Revision-Date: 2021-03-01 07:05+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2021-03-01 14:51+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-dnf-plugins-core-4017-maint/fi/>\n"
 "Language: fi\n"
@@ -641,7 +641,7 @@ msgstr "Virhe pakettien ratkaisemisessa:"
 #: plugins/download.py:279
 #, python-format
 msgid "No source rpm defined for %s"
-msgstr "Lähdettä rpm ei määriteltyfor %s:lle"
+msgstr "Lähde-rpm:ää ei ole määritelty %s:lle"
 
 #: plugins/download.py:296 plugins/download.py:309
 #, python-format
@@ -650,11 +650,11 @@ msgstr "Pakettia %s ei ole saatavilla."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
-msgstr ""
+msgstr "Listaa asennetut paketit, joita muut paketit eivät vaadi"
 
 #: plugins/local.py:122
 msgid "Unable to create a directory '{}' due to '{}'"
-msgstr ""
+msgstr "Hakemistoa \"{}\" ei voitu luoda, koska \"{}\""
 
 #: plugins/local.py:126
 msgid "'{}' is not a directory"
@@ -662,7 +662,7 @@ msgstr "'{}' ei ole hakemisto"
 
 #: plugins/local.py:135
 msgid "Copying '{}' to local repo"
-msgstr ""
+msgstr "Kopioidaan ”{}” paikalliseen asennuslähteeseen"
 
 #: plugins/local.py:141
 msgid "Can't write file '{}'"
@@ -670,15 +670,15 @@ msgstr "Tiedostoa '{}' ei voi kirjoittaa"
 
 #: plugins/local.py:156
 msgid "Rebuilding local repo"
-msgstr ""
+msgstr "Kopioidaan \"{}\" paikalliseen asennuslähteeseen"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
-msgstr ""
+msgstr "siirrä yumin historia, ryhmä ja yumdb-tiedot DNF:ään"
 
 #: plugins/migrate.py:54
 msgid "Migrating history data..."
-msgstr ""
+msgstr "Siirrä historiatiedot..."
 
 #: plugins/needs_restarting.py:65
 #, python-brace-format
@@ -686,19 +686,23 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
+"Asennettua pakettia ei löytynyt tarvitsee-uudelleenkäynnistyksen tiedostossa "
+"\"{file}\" määritetylle paketin nimelle \"{pkg}\"."
 
 #: plugins/needs_restarting.py:199
 msgid "determine updated binaries that need restarting"
-msgstr ""
+msgstr "selvitä päivitetyt binäärit, jotka tarvitsevat uudelleen käynnistyksen"
 
 #: plugins/needs_restarting.py:204
 msgid "only consider this user's processes"
-msgstr ""
+msgstr "ota huomioon vain tämän käyttäjän prosessit"
 
 #: plugins/needs_restarting.py:206
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
+"ilmoita vain, tarvitaanko uudelleenkäynnistys (poistumiskoodi 1) vaiko ei ("
+"poistumiskoodi 0)"
 
 #: plugins/needs_restarting.py:230
 msgid "Core libraries or services have been updated since boot-up:"
@@ -723,93 +727,101 @@ msgstr "Uudelleenkäynnistyksen ei pitäisi olla tarpeen."
 #: plugins/post-transaction-actions.py:71
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
-msgstr ""
+msgstr "Virheellinen toimintarivi \"%s\": %s"
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:130
 #, python-format
 msgid "Bad Transaction State: %s"
-msgstr ""
+msgstr "Virheellinen transaktion tila: %s"
 
 #: plugins/post-transaction-actions.py:153
 #: plugins/post-transaction-actions.py:155
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr ""
+msgstr "transaktionin jälkeiset toiminnot: %s"
 
 #: plugins/post-transaction-actions.py:157
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "transaktionin jälkeiset toiminnot: Virheellinen komento \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
-msgstr ""
+msgstr "Näytä luettelo asennuslähteiden ratkaisemattomista riippuvuuksista"
 
 #: plugins/repoclosure.py:66
 msgid "Repoclosure ended with unresolved dependencies."
-msgstr ""
+msgstr "Asennuslähteensulkeminen päättyi ratkaisemattomilla riippuvuuksilla."
 
 #: plugins/repoclosure.py:153
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
+"tarkista paketit annettuille arkkitehtuureille, voidaan määrittää useita "
+"kertoja"
 
 #: plugins/repoclosure.py:156
 msgid "Specify repositories to check"
-msgstr ""
+msgstr "Määritä tarkistettavat asennuslähteet"
 
 #: plugins/repoclosure.py:158
 msgid "Check only the newest packages in the repos"
-msgstr ""
+msgstr "Tarkista vain asennuslähteen uusimmat paketit"
 
 #: plugins/repoclosure.py:161
 msgid "Check closure for this package only"
-msgstr ""
+msgstr "Tarkista sulkeminen vain tälle paketille"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
-msgstr ""
+msgstr "Listaa kahden asennuslähdesetin eroavaisuudet"
 
 #: plugins/repodiff.py:58
 msgid "Specify old repository, can be used multiple times"
-msgstr ""
+msgstr "Määritä vanha asennuslähde, voidaan määrittää useita kertoja"
 
 #: plugins/repodiff.py:60
 msgid "Specify new repository, can be used multiple times"
-msgstr ""
+msgstr "Määritä uusi asennuslähde, voidaan määrittää useita kertoja"
 
 #: plugins/repodiff.py:63
 msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
 msgstr ""
+"Määritä verrattavat arkkitehtuurit, voidaan määrittää useita kertoja. "
+"Oletuksena vain lähde rpm:iä verrataan."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
-msgstr ""
+msgstr "Anna lisätietoja muutosten koosta."
 
 #: plugins/repodiff.py:69
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
+"Vertaa paketteja myös arkkitehtuurin mukaan. Paketteja verrataan "
+"oletusarvoisesti vain nimen perusteella."
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
-msgstr ""
+msgstr "Tulosta yksinkertainen yhden rivin viesti muokatuille paketeille."
 
 #: plugins/repodiff.py:74
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
 msgstr ""
+"Jaa muokattujen pakettien tiedot päivitettyjen ja vanhennettujen pakettien "
+"kesken."
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
-msgstr ""
+msgstr "Sekä vanhat että uudet asennuslähteet on määritettävä."
 
 #: plugins/repodiff.py:178
 msgid "Size change: {} bytes"
-msgstr ""
+msgstr "Koon muutos: {} bittiä"
 
 #: plugins/repodiff.py:184
 msgid "Added package  : {}"
@@ -821,7 +833,7 @@ msgstr "Poistettiin paketti: {}"
 
 #: plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
-msgstr ""
+msgstr "{} vanhentama"
 
 #: plugins/repodiff.py:195
 msgid ""
@@ -844,6 +856,8 @@ msgid ""
 "\n"
 "Modified packages"
 msgstr ""
+"\n"
+"Muokatut paketit"
 
 #: plugins/repodiff.py:212
 msgid ""
@@ -863,43 +877,43 @@ msgstr "Poistettiin paketit: {}"
 
 #: plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
-msgstr ""
+msgstr "Päivitetyt paketit: {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr ""
+msgstr "Vanhennetut paketit: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
-msgstr ""
+msgstr "Muokatut paketit: {}"
 
 #: plugins/repodiff.py:222
 msgid "Size of added packages: {}"
-msgstr ""
+msgstr "Lisättyjen pakettien koko: {}"
 
 #: plugins/repodiff.py:223
 msgid "Size of removed packages: {}"
-msgstr ""
+msgstr "Poistettujen pakettien koko: {}"
 
 #: plugins/repodiff.py:225
 msgid "Size of modified packages: {}"
-msgstr ""
+msgstr "Muokattujen pakettien koko: {}"
 
 #: plugins/repodiff.py:228
 msgid "Size of upgraded packages: {}"
-msgstr ""
+msgstr "Päivitettyjen pakettien koko: {}"
 
 #: plugins/repodiff.py:230
 msgid "Size of downgraded packages: {}"
-msgstr ""
+msgstr "Vanhennettujen pakettien koko: {}"
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
-msgstr ""
+msgstr "Koon muutos: {}"
 
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
-msgstr ""
+msgstr "Tulosta koko paketin riippuvuuskaavio pistemuodossa"
 
 #: plugins/repograph.py:110
 #, python-format
@@ -932,11 +946,11 @@ msgstr "Tulosta uusimmat paketit"
 
 #: plugins/repomanage.py:181
 msgid "Space separated output, not newline"
-msgstr ""
+msgstr "Välilyönnillä eroteltu tulostus, ei uudella rivillä"
 
 #: plugins/repomanage.py:183
 msgid "Newest N packages to keep - defaults to 1"
-msgstr ""
+msgstr "N uusinta säilytettävää pakettia - oletuksena 1"
 
 #: plugins/repomanage.py:186
 msgid "Path to directory"
@@ -944,57 +958,61 @@ msgstr "Polku hakemistoon"
 
 #: plugins/reposync.py:54
 msgid "download all packages from remote repo"
-msgstr ""
+msgstr "lataa kaikki paketit etäasennuslähteestä"
 
 #: plugins/reposync.py:63
 msgid "download only packages for this ARCH"
-msgstr ""
+msgstr "lataa paketit vain tälle ARKKITEHTUURILLE"
 
 #: plugins/reposync.py:65
 msgid "delete local packages no longer present in repository"
-msgstr ""
+msgstr "poista paikalliset paketit, joita ei enää ole asennuslähteessä"
 
 #: plugins/reposync.py:67
 msgid "also download and uncompress comps.xml"
-msgstr ""
+msgstr "lataa ja pura myös comps.xml"
 
 #: plugins/reposync.py:69
 msgid "download all the metadata."
-msgstr ""
+msgstr "lataa kaikki metatieto."
 
 #: plugins/reposync.py:71
 msgid "download only newest packages per-repo"
-msgstr ""
+msgstr "lataa vain uusimmat asennuslähdekohtaiset paketit"
 
 #: plugins/reposync.py:73
 msgid "where to store downloaded repositories"
-msgstr ""
+msgstr "minne ladatat asennuslähteet tallennetaan"
 
 #: plugins/reposync.py:75
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "Älä lisää asennuslähteen nimeä latauspolkuun."
 
 #: plugins/reposync.py:77
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
+"mihin ladatut asennuslähteen metatiedot tallennetaan. Oletusarvoisesti "
+"--download-path."
 
 #: plugins/reposync.py:80
 msgid "operate on source packages"
-msgstr ""
+msgstr "operoi lähdekoodipaketteja"
 
 #: plugins/reposync.py:82
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
+"yritä asettaa paikallisten tiedostojen paikalliset aikaleimat palvelimella "
+"olevan mukaan"
 
 #: plugins/reposync.py:85
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr ""
+msgstr "Listaa vain URL-osoitteet ladattavista, älä lataa"
 
 #: plugins/reposync.py:109
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "Ei voi käyttää --norepopathia kun on käytössä useita asennuslähteitä"
 
 #: plugins/reposync.py:127
 #, python-format
@@ -1003,11 +1021,11 @@ msgstr "Metatietojen peilin saaminen epäonnistui: %s"
 
 #: plugins/reposync.py:144
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "Ryhmätiedoston peilin saaminen epäonnistui."
 
 #: plugins/reposync.py:175
 msgid "Download target '{}' is outside of download path '{}'."
-msgstr ""
+msgstr "Latauskohde ”{}” on latauspolun ”{}” ulkopuolella."
 
 #: plugins/reposync.py:190
 #, python-format
@@ -1022,32 +1040,32 @@ msgstr "tiedoston %s poistaminen epäonnistui"
 #: plugins/reposync.py:201
 #, python-format
 msgid "comps.xml for repository %s saved"
-msgstr ""
+msgstr "comps.xml asennuslähteelle %s tallennettu"
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
-msgstr ""
+msgstr "Uudet lehdet:"
 
 #: plugins/versionlock.py:32
 #, python-format
 msgid "Unable to read version lock configuration: %s"
-msgstr ""
+msgstr "Versiolukituksen määritystä ei voi lukea: %s"
 
 #: plugins/versionlock.py:33
 msgid "Locklist not set"
-msgstr ""
+msgstr "Lukkolistaa ei ole asetettu"
 
 #: plugins/versionlock.py:34
 msgid "Adding versionlock on:"
-msgstr ""
+msgstr "Lisätään versiolukko kohteelle:"
 
 #: plugins/versionlock.py:35
 msgid "Adding exclude on:"
-msgstr ""
+msgstr "Lisätään ohita kohteelle:"
 
 #: plugins/versionlock.py:36
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "Paketti on jo lukittu vastaavassa muodossa:"
 
 #: plugins/versionlock.py:37
 msgid "Package {} is already locked"
@@ -1059,36 +1077,41 @@ msgstr "Paketti {} on jo suljettu pois"
 
 #: plugins/versionlock.py:39
 msgid "Deleting versionlock for:"
-msgstr ""
+msgstr "Poistetaan versiolukitus kohteelta:"
 
 #: plugins/versionlock.py:40
 msgid "No package found for:"
-msgstr ""
+msgstr "Pakettia ei löytynyt kohteelle:"
 
 #: plugins/versionlock.py:41
 msgid "Excludes from versionlock plugin were not applied"
-msgstr ""
+msgstr "Versiolukon laajennuksen määrittämää poissulkemista ei sovellettu"
 
 #: plugins/versionlock.py:42
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
+"Versionlock-laajennus: lukittujen sääntöjen lukumäärä tiedostosta \"{}\" "
+"otettu käyttöön: {}"
 
 #: plugins/versionlock.py:43
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
+"Versionlock-laajennus: poissuljettujen sääntöjen lukumäärä tiedostosta \"{}\""
+" otettu käyttöön: {}"
 
 #: plugins/versionlock.py:44
 msgid "Versionlock plugin: could not parse pattern:"
-msgstr ""
+msgstr "Versionlock-laajennus: mallin jäsentäminen epäonnistui:"
 
 #: plugins/versionlock.py:130
 msgid "control package version locks"
-msgstr ""
+msgstr "ohjauspaketin version lukot"
 
 #: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
+"Käytä pakettimäärityksiä sellaisina kuin ne ovat, älä yritä jäsentää niitä"
 
 #~ msgid "also download comps.xml"
 #~ msgstr "lataa myös comps.xml"
