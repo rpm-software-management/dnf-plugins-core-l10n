@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:46+0200\n"
 "PO-Revision-Date: 2021-03-01 07:05+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-dnf-plugins-core-4017-maint/fi/>\n"
 "Language: fi\n"
@@ -636,12 +636,12 @@ msgstr "Poistutaan tiukkojen asetusten takia."
 
 #: plugins/download.py:261
 msgid "Error in resolve of packages:"
-msgstr ""
+msgstr "Virhe pakettien ratkaisemisessa:"
 
 #: plugins/download.py:279
 #, python-format
 msgid "No source rpm defined for %s"
-msgstr ""
+msgstr "Lähdettä rpm ei määriteltyfor %s:lle"
 
 #: plugins/download.py:296 plugins/download.py:309
 #, python-format
