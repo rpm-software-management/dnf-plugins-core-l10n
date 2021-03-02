@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-02 15:01+0000\n"
+"PO-Revision-Date: 2021-03-03 15:34+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/fi/>\n"
@@ -908,7 +908,7 @@ msgstr "Tarkista sulkeminen vain tälle paketille"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
-msgstr "Listaa kahden asennuslähdesetin eroavaisuudet"
+msgstr "Luettele kahden ohjelmistolähteiden sarjojen väliset eroavaisuudet"
 
 #: plugins/repodiff.py:58
 msgid "Specify old repository, can be used multiple times"
