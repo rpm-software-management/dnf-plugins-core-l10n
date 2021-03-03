@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-03 15:34+0000\n"
+"PO-Revision-Date: 2021-03-05 08:01+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-rhel-8/pt_BR/>\n"
@@ -41,8 +41,9 @@ msgid "define a macro for spec file parsing"
 msgstr "define uma macro para especificações por file parsing"
 
 #: plugins/builddep.py:95
+#, fuzzy
 msgid "skip build dependencies not available in repositories"
-msgstr ""
+msgstr "pular dependências de compilação não disponíveis em repositórios"
 
 #: plugins/builddep.py:98
 msgid "treat commandline arguments as spec files"
@@ -126,13 +127,16 @@ msgid "Listing changelogs since {}"
 msgstr "Listar log de alterações desde {}"
 
 #: plugins/changelog.py:111
+#, fuzzy
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] ""
+msgstr[0] "Listando apenas o último log de mudanças"
+msgstr[1] "Listando {} últimos logs de mudanças"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
 msgstr ""
+"Listando apenas os novos logs de mudança desde a versão instalada do pacote"
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
@@ -169,15 +173,15 @@ msgstr "imprime valores das variáveis para a saída padrão"
 
 #: plugins/config_manager.py:60
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "habilitar repos (salva automaticamente)"
 
 #: plugins/config_manager.py:63
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "desabilitar repos (salva automaticamente)"
 
 #: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "um dos seguintes argumentos é necessário: {}"
 
 #: plugins/config_manager.py:86
 msgid ""
@@ -196,10 +200,11 @@ msgid "Adding repo from: %s"
 msgstr "Adicionando repositório de: %s"
 
 #: plugins/config_manager.py:206
+#, fuzzy
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
-msgstr[0] "A configuração do repositório falhou."
-msgstr[1] "A configuração dos repositórios falharam."
+msgstr[0] "A configuração do repositório falhou"
+msgstr[1] "A configuração dos repositórios falharam"
 
 #: plugins/config_manager.py:216
 #, python-format
@@ -265,20 +270,24 @@ msgstr ""
 "    "
 
 #: plugins/copr.py:107
+#, fuzzy
 msgid "List all installed Copr repositories (default)"
-msgstr "Listar todos os repositórios Copr instalados (padrão)."
+msgstr "Listar todos os repositórios Copr instalados (padrão)"
 
 #: plugins/copr.py:109
+#, fuzzy
 msgid "List enabled Copr repositories"
-msgstr "Listar respositórios Copr habilitados."
+msgstr "Listar respositórios Copr habilitados"
 
 #: plugins/copr.py:111
+#, fuzzy
 msgid "List disabled Copr repositories"
-msgstr "Listar repositórios Copr desabilitados."
+msgstr "Listar repositórios Copr desabilitados"
 
 #: plugins/copr.py:113
+#, fuzzy
 msgid "List available Copr repositories by user NAME"
-msgstr "Listar, pelo nome de usuário, os respositórios Copr disponíveis."
+msgstr "Lista os repositórios Copr disponíveis por usuário NAME"
 
 #: plugins/copr.py:115
 msgid "Specify an instance of Copr to work with"
@@ -345,21 +354,19 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Você está prestes a habilitar o repositório Copr. Por favor, note que este "
-"repositório não é parte da distribuição principal, e a qualidade pode "
-"variar.\n"
+"Habilitando um repositório Copr. Por favor, note que este repositório não é "
+"parte\n"
+"da distribuição principal, e a qualidade pode variar.\n"
 "\n"
-"O Projeto Fedora não exerce nenhum poder sobre os conteúdos deste "
-"repositório além das normas descritas no FAQ do Copr em\n"
+"O Projeto Fedora não exerce nenhum poder sobre os conteúdos\n"
+"deste repositório além das normas descritas no FAQ do Copr em\n"
 "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
 "in-copr>,\n"
 "e os pacotes não serão mantidos sob alguma qualidade ou nível de segurança.\n"
 "\n"
-"Por favor, não reporte quaisquer bugs a respeito destes pacotes no Fedora "
+"Por favor, não reporte quaisquer bugs a respeito destes pacotes no Fedora\n"
 "Bugzilla. Em caso de problemas, entre em contato com os proprietários deste "
 "repositório.\n"
-"\n"
-"Você quer mesmo habilitá-lo {0}?\n"
 
 #: plugins/copr.py:271
 msgid "Repository successfully enabled."
@@ -414,7 +421,7 @@ msgstr "Resposta boa e segura. Saindo."
 
 #: plugins/copr.py:417
 msgid "This command has to be run under the root user."
-msgstr "Este comando deve ser executado sobre o usuário root."
+msgstr "Este comando deve ser executado sob o usuário root."
 
 #: plugins/copr.py:481
 msgid ""
@@ -446,7 +453,7 @@ msgstr ""
 
 #: plugins/copr.py:549
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "Você deseja mantê-los habilitados?"
 
 #: plugins/copr.py:582
 #, python-brace-format
@@ -466,14 +473,12 @@ msgid "Interact with Playground repository."
 msgstr "Interagir com o repositório Playground."
 
 #: plugins/copr.py:639
-#, fuzzy
-#| msgid "Interact with Playground repository."
 msgid "Enabling a Playground repository."
-msgstr "Interagir com o repositório Playground."
+msgstr "Habilitando um repositório Playground."
 
 #: plugins/copr.py:640
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Você deseja continuar?"
 
 #: plugins/copr.py:683
 msgid "Playground repositories successfully enabled."
@@ -692,8 +697,9 @@ msgid "group id"
 msgstr ""
 
 #: plugins/groups_manager.py:101
+#, fuzzy
 msgid "group name"
-msgstr ""
+msgstr "nome do grupo"
 
 #: plugins/groups_manager.py:103
 #, fuzzy
@@ -740,8 +746,9 @@ msgid "include also direct dependencies for packages"
 msgstr "Exibir uma lista de dependências não resolvidas para os repositórios"
 
 #: plugins/groups_manager.py:132
+#, fuzzy
 msgid "package specification"
-msgstr ""
+msgstr "especificação do pacote"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
@@ -763,7 +770,7 @@ msgstr "Impossível escrever arquivo '{}'"
 #, fuzzy
 #| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
-msgstr "Não há correspondência para o argumento: %s"
+msgstr "Sem correspondência para o argumento: {}"
 
 #: plugins/groups_manager.py:296
 msgid "Can't remove packages from non-existent group"
@@ -838,6 +845,7 @@ msgstr ""
 #: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
+"Reinicialização é necessária para utilizar totalmente estas atualizações."
 
 #: plugins/needs_restarting.py:263
 msgid "More information:"
@@ -924,13 +932,16 @@ msgid "Output additional data about the size of the changes."
 msgstr ""
 
 #: plugins/repodiff.py:69
+#, fuzzy
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
+"Também comparar pacotes por arco. Por padrão os pacotes são comparados "
+"apenas pelo nome."
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
-msgstr ""
+msgstr "Escrever uma mensagem simples de uma linha para pacotes modificados."
 
 #: plugins/repodiff.py:74
 msgid ""
@@ -1139,9 +1150,9 @@ msgid "Can't use --norepopath with multiple repositories"
 msgstr ""
 
 #: plugins/reposync.py:132
-#, python-format
+#, fuzzy, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr ""
+msgstr "Falha ao obter espelho para metadados: %s"
 
 #: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
@@ -1216,8 +1227,9 @@ msgid "No package found for:"
 msgstr "Nenhum pacote encontrado para:"
 
 #: plugins/versionlock.py:41
+#, fuzzy
 msgid "Excludes from versionlock plugin were not applied"
-msgstr "A exclusão de plugins de bloqueio de versão não foram aplicadas."
+msgstr "A exclusão de plugins de bloqueio de versão não foram aplicadas"
 
 #: plugins/versionlock.py:42
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
