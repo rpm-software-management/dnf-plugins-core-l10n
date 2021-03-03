@@ -7,15 +7,16 @@
 # Cássio Rodrigo Honorato Rodrigues <cassiorhr@outlook.com>, 2019. #zanata
 # Daniel Lara Souza <daniellarasouza@yahoo.com.br>, 2020.
 # Gustavo Costa <gusta@null.net>, 2020.
-# Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
+# Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020, 2021.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 09:18-0500\n"
-"PO-Revision-Date: 2021-02-23 12:57+0000\n"
-"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
+"PO-Revision-Date: 2021-03-03 15:34+0000\n"
+"Last-Translator: Henrique Roberto Gattermann Mittelstaedt <henrique."
+"roberto97@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -149,7 +150,7 @@ msgstr "Registros de alterações para {}"
 #: plugins/config_manager.py:37
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
-msgstr ""
+msgstr "gerencie {prog} opções de configuração e repositórios"
 
 #: plugins/config_manager.py:44
 msgid "repo to modify"
