@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-03 15:34+0000\n"
+"PO-Revision-Date: 2021-03-05 08:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/fi/>\n"
@@ -137,7 +137,7 @@ msgstr "Luetellaan vain uudet muutoslokit paketin asennetun version jälkeen"
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
-msgstr "Listataan kaikki muutoslokit"
+msgstr "Luetellaan kaikki muutoslokit"
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
