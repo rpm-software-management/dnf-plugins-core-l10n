@@ -1,22 +1,22 @@
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020.
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2018. #zanata, 2020.
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2019. #zanata, 2020.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020, 2021.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2018. #zanata, 2020, 2021.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2019. #zanata, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 09:18-0500\n"
-"PO-Revision-Date: 2020-09-14 20:29+0000\n"
+"PO-Revision-Date: 2021-03-08 11:08+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
-"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ru/>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -311,16 +311,16 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "требуются в точности два дополнительных параметра к команде copr"
 
 #: plugins/copr.py:227
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Нет совпадений для аргумента: %s"
+msgstr "Слишком много аргументов."
 
 #: plugins/copr.py:230
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
+"Плохой формат необязательного chroot. Формат - "
+"дистрибутив-версия-архитектура."
 
 #: plugins/copr.py:245
 msgid "use format `copr_username/copr_projectname` to reference copr project"
@@ -546,6 +546,8 @@ msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
 msgstr ""
+"Разрешить удаление пакетов только для установки. Использование этого "
+"параметра может привести к попытке удалить работающее ядро."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -665,131 +667,122 @@ msgstr "Нет пакета %s."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "Недействительный идентификатор группы"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr ""
+msgstr "Неправильные переведенные данные, должны быть в форме «язык: текст»"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
-msgstr ""
+msgstr "Неправильный/пустой язык для переведенных данных"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
+"Не удается создать идентификатор группы из «{}». Укажите идентификатор "
+"группы с помощью --id."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
-msgstr ""
+msgstr "создать и редактировать файл метаданных групп"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
-msgstr ""
+msgstr "загрузить метаданные групп из файла"
 
 #: plugins/groups_manager.py:93
 msgid "save groups metadata to file"
-msgstr ""
+msgstr "сохранить метаданные групп в файл"
 
 #: plugins/groups_manager.py:95
 msgid "load and save groups metadata to file"
-msgstr ""
+msgstr "загрузить и сохранить метаданные групп в файл"
 
 #: plugins/groups_manager.py:97
-#, fuzzy
-#| msgid "print variable values to stdout"
 msgid "print the result metadata to stdout"
-msgstr "вывести значения переменных в stdout"
+msgstr "вывести метаданные-результат в stdout"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr ""
+msgstr "идентификатор группы"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
-msgstr ""
+msgstr "название группы"
 
 #: plugins/groups_manager.py:103
-#, fuzzy
-#| msgid "No description given"
 msgid "group description"
-msgstr "Нет описания"
+msgstr "описание группы"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr ""
+msgstr "порядок отображения группы"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
-msgstr ""
+msgstr "переведенное название для группы"
 
 #: plugins/groups_manager.py:111
-#, fuzzy
-#| msgid "Failed to get mirror for the group file."
 msgid "translated description for the group"
-msgstr "Не удалось получить зеркало для файла группы."
+msgstr "переведенное название для группы"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
-msgstr ""
+msgstr "сделать пользователя группы видимым (по умолчанию)"
 
 #: plugins/groups_manager.py:118
 msgid "make the group user invisible"
-msgstr ""
+msgstr "сделать пользователя группы невидимым"
 
 #: plugins/groups_manager.py:123
 msgid "add packages to the mandatory section"
-msgstr ""
+msgstr "добавить пакеты в обязательный раздел"
 
 #: plugins/groups_manager.py:125
 msgid "add packages to the optional section"
-msgstr ""
+msgstr "добавить пакеты в необязательный раздел"
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
-msgstr ""
+msgstr "удалять пакеты из группы вместо того, чтобы добавлять их"
 
 #: plugins/groups_manager.py:129
-#, fuzzy
-#| msgid "Display a list of unresolved dependencies for repositories"
 msgid "include also direct dependencies for packages"
-msgstr "Показать список неразрешенных зависимостей для репозиториев"
+msgstr "включить также прямые зависимости для пакетов"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr ""
+msgstr "спецификации пакета"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
+"Невозможно редактировать группу без ее указания (используйте --id или --name)"
 
 #: plugins/groups_manager.py:190
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't load file \"{}\": {}"
-msgstr "Ошибка записи файла «{}»"
+msgstr "Не удается загрузить файл «{}»: {}"
 
 #: plugins/groups_manager.py:206
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't save file \"{}\": {}"
-msgstr "Ошибка записи файла «{}»"
+msgstr "Не удается сохранить файл «{}»: {}"
 
 #: plugins/groups_manager.py:259
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
-msgstr "Нет совпадений для аргумента: %s"
+msgstr "Нет совпадений для аргумента: {}"
 
 #: plugins/groups_manager.py:296
 msgid "Can't remove packages from non-existent group"
-msgstr ""
+msgstr "Невозможно удалить пакеты из несуществующей группы"
 
 #: plugins/groups_manager.py:305
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
+"Идентификатор группы «{}», созданный из «{}», повторяется. Укажите "
+"идентификатор группы с помощью --id."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -849,7 +842,7 @@ msgstr ""
 
 #: plugins/needs_restarting.py:230
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "сообщать только о службах systemd, которых это касается"
 
 #: plugins/needs_restarting.py:253
 msgid "Core libraries or services have been updated since boot-up:"
@@ -1120,7 +1113,7 @@ msgstr "загрузить все метаданные."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
-msgstr ""
+msgstr "Удалите пакеты, которые не прошли проверку подписи GPG после загрузки"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
@@ -1175,11 +1168,11 @@ msgstr "Не удалось получить зеркало для файла г
 
 #: plugins/reposync.py:168
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "Удаление {}: {}"
 
 #: plugins/reposync.py:175
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "Ошибка проверки подписи GPG."
 
 #: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
