@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-04 09:18-0500\n"
+"POT-Creation-Date: 2021-03-07 09:18-0500\n"
 "PO-Revision-Date: 2021-01-26 15:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1200,71 +1200,75 @@ msgstr "%s deposu için comps.xml dosyası kaydedildi"
 msgid "New leaves:"
 msgstr "Yeni yaprak paketler:"
 
-#: plugins/versionlock.py:32
+#: plugins/versionlock.py:33
 #, python-format
 msgid "Unable to read version lock configuration: %s"
 msgstr "Sürüm kilidi yapılandırması okunamadı: %s"
 
-#: plugins/versionlock.py:33
+#: plugins/versionlock.py:34
 msgid "Locklist not set"
 msgstr "Kilit listesi ayarlanmadı"
 
-#: plugins/versionlock.py:34
+#: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
 msgstr "Sürüm kilidi ekleniyor:"
 
-#: plugins/versionlock.py:35
+#: plugins/versionlock.py:36
 msgid "Adding exclude on:"
 msgstr "Hariç tutma ekleniyor:"
 
-#: plugins/versionlock.py:36
+#: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
 msgstr "Paket zaten eşdeğer biçimde kilitlenmiş:"
 
-#: plugins/versionlock.py:37
+#: plugins/versionlock.py:38
 msgid "Package {} is already locked"
 msgstr "{} paketi zaten kilitlendi"
 
-#: plugins/versionlock.py:38
+#: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
 msgstr "{} paketi zaten hariç tutuldu"
 
-#: plugins/versionlock.py:39
+#: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
 msgstr "Şunun için sürüm kilidi kaldırılıyor:"
 
-#: plugins/versionlock.py:40
+#: plugins/versionlock.py:41
 msgid "No package found for:"
 msgstr "Şunun için bir paket bulunamadı:"
 
-#: plugins/versionlock.py:41
+#: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
 msgstr "versionlock eklentisinin hariç tutmaları uygulanmadı"
 
-#: plugins/versionlock.py:42
+#: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Versionlock eklentisi: \"{}\" dosyasından uygulanan kilit kuralları sayısı: "
 "{}"
 
-#: plugins/versionlock.py:43
+#: plugins/versionlock.py:44
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 "Versionlock eklentisi: \"{}\" dosyasından uygulanan hariç tutma kuralları "
 "sayısı: {}"
 
-#: plugins/versionlock.py:44
+#: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "Versionlock eklentisi: kalıp ayrıştırılamadı:"
 
-#: plugins/versionlock.py:130
+#: plugins/versionlock.py:132
 msgid "control package version locks"
 msgstr "paket sürüm kilitlerini denetle"
 
-#: plugins/versionlock.py:136
+#: plugins/versionlock.py:138
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr "Paket belirtimlerini oldukları gibi kullan, ayrıştırmaya çalışma"
+
+#: plugins/versionlock.py:158
+msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
+msgstr ""
 
 #~ msgid ""
 #~ "\n"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-04 09:18-0500\n"
+"POT-Creation-Date: 2021-03-07 09:18-0500\n"
 "PO-Revision-Date: 2021-03-05 08:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1205,72 +1205,76 @@ msgstr "comps.xml asennuslähteelle %s tallennettu"
 msgid "New leaves:"
 msgstr "Uudet lehdet:"
 
-#: plugins/versionlock.py:32
+#: plugins/versionlock.py:33
 #, python-format
 msgid "Unable to read version lock configuration: %s"
 msgstr "Versiolukituksen määritystä ei voi lukea: %s"
 
-#: plugins/versionlock.py:33
+#: plugins/versionlock.py:34
 msgid "Locklist not set"
 msgstr "Lukkolistaa ei ole asetettu"
 
-#: plugins/versionlock.py:34
+#: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
 msgstr "Lisätään versiolukko kohteelle:"
 
-#: plugins/versionlock.py:35
+#: plugins/versionlock.py:36
 msgid "Adding exclude on:"
 msgstr "Lisätään ohita kohteelle:"
 
-#: plugins/versionlock.py:36
+#: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
 msgstr "Paketti on jo lukittu vastaavassa muodossa:"
 
-#: plugins/versionlock.py:37
+#: plugins/versionlock.py:38
 msgid "Package {} is already locked"
 msgstr "Paketti {} on jo lukittu"
 
-#: plugins/versionlock.py:38
+#: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
 msgstr "Paketti {} on jo suljettu pois"
 
-#: plugins/versionlock.py:39
+#: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
 msgstr "Poistetaan versiolukitus kohteelta:"
 
-#: plugins/versionlock.py:40
+#: plugins/versionlock.py:41
 msgid "No package found for:"
 msgstr "Pakettia ei löytynyt kohteelle:"
 
-#: plugins/versionlock.py:41
+#: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
 msgstr "Versiolukon laajennuksen määrittämää poissulkemista ei sovellettu"
 
-#: plugins/versionlock.py:42
+#: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Versionlock-laajennus: lukittujen sääntöjen lukumäärä tiedostosta \"{}\" "
 "otettu käyttöön: {}"
 
-#: plugins/versionlock.py:43
+#: plugins/versionlock.py:44
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 "Versionlock-laajennus: poissuljettujen sääntöjen lukumäärä tiedostosta "
 "\"{}\" otettu käyttöön: {}"
 
-#: plugins/versionlock.py:44
+#: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "Versionlock-laajennus: mallin jäsentäminen epäonnistui:"
 
-#: plugins/versionlock.py:130
+#: plugins/versionlock.py:132
 msgid "control package version locks"
 msgstr "ohjauspaketin version lukot"
 
-#: plugins/versionlock.py:136
+#: plugins/versionlock.py:138
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
 "Käytä pakettimäärityksiä sellaisina kuin ne ovat, älä yritä jäsentää niitä"
+
+#: plugins/versionlock.py:158
+msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
+msgstr ""
 
 #~ msgid "also download comps.xml"
 #~ msgstr "lataa myös comps.xml"

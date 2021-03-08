@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-04 09:18-0500\n"
+"POT-Creation-Date: 2021-03-07 09:18-0500\n"
 "PO-Revision-Date: 2020-07-09 13:27+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -1131,66 +1131,70 @@ msgstr "仓库 %s 的 comps.xml 已保存"
 msgid "New leaves:"
 msgstr "新增保留项："
 
-#: plugins/versionlock.py:32
+#: plugins/versionlock.py:33
 #, python-format
 msgid "Unable to read version lock configuration: %s"
 msgstr "无法读取版本锁配置： %s"
 
-#: plugins/versionlock.py:33
+#: plugins/versionlock.py:34
 msgid "Locklist not set"
 msgstr "锁列表未设置"
 
-#: plugins/versionlock.py:34
+#: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
 msgstr "正在添加版本锁："
 
-#: plugins/versionlock.py:35
+#: plugins/versionlock.py:36
 msgid "Adding exclude on:"
 msgstr "正在添加排除："
 
-#: plugins/versionlock.py:36
+#: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
 msgstr ""
 
-#: plugins/versionlock.py:37
+#: plugins/versionlock.py:38
 msgid "Package {} is already locked"
 msgstr ""
 
-#: plugins/versionlock.py:38
+#: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
 msgstr ""
 
-#: plugins/versionlock.py:39
+#: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
 msgstr "正在删除版本锁："
 
-#: plugins/versionlock.py:40
+#: plugins/versionlock.py:41
 msgid "No package found for:"
 msgstr "未找到软件包："
 
-#: plugins/versionlock.py:41
+#: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
 msgstr "从 versionlock 插件中排除的没有被应用"
 
-#: plugins/versionlock.py:42
+#: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr "Versionlock 插件: 文件 \"{}\" 中的锁定数量规则被应用：{}"
 
-#: plugins/versionlock.py:43
+#: plugins/versionlock.py:44
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr "Versionlock 插件: 文件 \"{}\" 中的排除规则数量被应用：{}"
 
-#: plugins/versionlock.py:44
+#: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "Versionlock 插件：不能解析特征："
 
-#: plugins/versionlock.py:130
+#: plugins/versionlock.py:132
 msgid "control package version locks"
 msgstr "控制软件包版本锁"
 
-#: plugins/versionlock.py:136
+#: plugins/versionlock.py:138
 msgid "Use package specifications as they are, do not try to parse them"
+msgstr ""
+
+#: plugins/versionlock.py:158
+msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 
 #~ msgid ""

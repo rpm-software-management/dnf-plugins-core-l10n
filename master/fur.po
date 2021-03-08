@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-04 09:18-0500\n"
+"POT-Creation-Date: 2021-03-07 09:18-0500\n"
 "PO-Revision-Date: 2019-11-27 09:17+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian\n"
@@ -1199,70 +1199,74 @@ msgstr "salvât comps.xml pal repository %s"
 msgid "New leaves:"
 msgstr "Gnûfs pachets che di chei no dipendin altris:"
 
-#: plugins/versionlock.py:32
+#: plugins/versionlock.py:33
 #, python-format
 msgid "Unable to read version lock configuration: %s"
 msgstr "Impussibil lei la configurazion di bloc de version: %s"
 
-#: plugins/versionlock.py:33
+#: plugins/versionlock.py:34
 msgid "Locklist not set"
 msgstr "No je stade stabilide la liste dai blocs"
 
-#: plugins/versionlock.py:34
+#: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
 msgstr "Daûr a zontâ il bloc de version su:"
 
-#: plugins/versionlock.py:35
+#: plugins/versionlock.py:36
 msgid "Adding exclude on:"
 msgstr "Daûr a zontâ la esculsion su:"
 
-#: plugins/versionlock.py:36
+#: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
 msgstr ""
 
-#: plugins/versionlock.py:37
+#: plugins/versionlock.py:38
 msgid "Package {} is already locked"
 msgstr ""
 
-#: plugins/versionlock.py:38
+#: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
 msgstr ""
 
-#: plugins/versionlock.py:39
+#: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
 msgstr "Daûr a eliminâ il bloc de version par:"
 
-#: plugins/versionlock.py:40
+#: plugins/versionlock.py:41
 msgid "No package found for:"
 msgstr "Nissun pachet cjatât par:"
 
-#: plugins/versionlock.py:41
+#: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
 msgstr "No si aplicarin lis esclusions dal plugin di bloc de version"
 
-#: plugins/versionlock.py:42
+#: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Plugin di bloc de version: numar di regulis di bloc aplicadis dal file "
 "\"{}\": {}"
 
-#: plugins/versionlock.py:43
+#: plugins/versionlock.py:44
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
 "Plugin di bloc de version: numar di regulis di esclusion aplicadis dal file "
 "\"{}\": {}"
 
-#: plugins/versionlock.py:44
+#: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "Plugin di bloc de version: impussibil analizâ il model:"
 
-#: plugins/versionlock.py:130
+#: plugins/versionlock.py:132
 msgid "control package version locks"
 msgstr "controle i blocs de version dal pachet"
 
-#: plugins/versionlock.py:136
+#: plugins/versionlock.py:138
 msgid "Use package specifications as they are, do not try to parse them"
+msgstr ""
+
+#: plugins/versionlock.py:158
+msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 
 #~ msgid ""
