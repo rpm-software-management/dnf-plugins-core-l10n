@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 09:18-0500\n"
-"PO-Revision-Date: 2021-03-08 16:08+0000\n"
+"PO-Revision-Date: 2021-03-12 15:50+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -1159,10 +1159,8 @@ msgstr ""
 "позначками часу на сервері"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "працювати із пакунками початкових кодів"
+msgstr "отримати лише пакунки початкових кодів"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
