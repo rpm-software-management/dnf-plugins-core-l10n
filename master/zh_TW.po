@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-09 09:18-0500\n"
+"POT-Creation-Date: 2021-03-11 09:18-0500\n"
 "PO-Revision-Date: 2020-08-28 21:29+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -1110,7 +1110,9 @@ msgid "try to set local timestamps of local files by the one on the server"
 msgstr "嘗試將本機檔案的本地時間戳設定與伺服器一致"
 
 #: plugins/reposync.py:87
-msgid "operate on source packages"
+#, fuzzy
+#| msgid "operate on source packages"
+msgid "download only source packages"
 msgstr "在來源軟體包上操作"
 
 #: plugins/reposync.py:89

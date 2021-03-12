@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-09 09:18-0500\n"
+"POT-Creation-Date: 2021-03-11 09:18-0500\n"
 "PO-Revision-Date: 2021-01-14 06:37+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1170,7 +1170,9 @@ msgstr ""
 "serveur"
 
 #: plugins/reposync.py:87
-msgid "operate on source packages"
+#, fuzzy
+#| msgid "operate on source packages"
+msgid "download only source packages"
 msgstr "opère sur les paquets source"
 
 #: plugins/reposync.py:89

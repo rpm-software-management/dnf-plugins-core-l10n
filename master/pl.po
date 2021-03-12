@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-09 09:18-0500\n"
+"POT-Creation-Date: 2021-03-11 09:18-0500\n"
 "PO-Revision-Date: 2021-03-08 16:08+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1166,7 +1166,9 @@ msgid "try to set local timestamps of local files by the one on the server"
 msgstr "próbuje ustawić lokalne czasy lokalnych plików na ten na serwerze"
 
 #: plugins/reposync.py:87
-msgid "operate on source packages"
+#, fuzzy
+#| msgid "operate on source packages"
+msgid "download only source packages"
 msgstr "działa na pakietach źródłowych"
 
 #: plugins/reposync.py:89

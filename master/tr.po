@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-09 09:18-0500\n"
+"POT-Creation-Date: 2021-03-11 09:18-0500\n"
 "PO-Revision-Date: 2021-03-08 16:08+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1149,7 +1149,9 @@ msgstr ""
 "yerel dosyaların yerel zaman damgalarını sunucudakine göre ayarlamaya çalış"
 
 #: plugins/reposync.py:87
-msgid "operate on source packages"
+#, fuzzy
+#| msgid "operate on source packages"
+msgid "download only source packages"
 msgstr "kaynak paketleri üzerinde çalış"
 
 #: plugins/reposync.py:89

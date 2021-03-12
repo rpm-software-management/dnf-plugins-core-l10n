@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-09 09:18-0500\n"
+"POT-Creation-Date: 2021-03-11 09:18-0500\n"
 "PO-Revision-Date: 2021-03-12 11:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1070,7 +1070,9 @@ msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
 
 #: plugins/reposync.py:87
-msgid "operate on source packages"
+#, fuzzy
+#| msgid "operate on source packages"
+msgid "download only source packages"
 msgstr "소스 패키지를 조작한다."
 
 #: plugins/reposync.py:89
