@@ -6,10 +6,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 09:18-0500\n"
-"PO-Revision-Date: 2021-03-08 16:08+0000\n"
+"PO-Revision-Date: 2021-03-12 15:50+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1149,10 +1149,8 @@ msgstr ""
 "yerel dosyaların yerel zaman damgalarını sunucudakine göre ayarlamaya çalış"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "kaynak paketleri üzerinde çalış"
+msgstr "yalnızca kaynak paketlerini indir"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
