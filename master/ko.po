@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-13 09:18-0500\n"
+"POT-Creation-Date: 2021-03-16 09:18-0400\n"
 "PO-Revision-Date: 2021-03-17 08:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -93,7 +93,9 @@ msgstr "꾸러미의 변화기록 자료를 보여줍니다"
 msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
-msgstr "DATE 이후에 변화기록를 보여줍니다. 모호함을 피하기 위하여, YYYY-MM-DD 형식을 추천합니다."
+msgstr ""
+"DATE 이후에 변화기록를 보여줍니다. 모호함을 피하기 위하여, YYYY-MM-DD 형식을 "
+"추천합니다."
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
@@ -103,7 +105,9 @@ msgstr "주어진 수의 꾸러미 마다 변화기록 항목을 보여줍니다
 msgid ""
 "show only new changelog entries for packages, that provide an upgrade for "
 "some of already installed packages."
-msgstr "몇몇 이미 설치된 꾸러미들의 최신화를 제공하는 꾸러미를 위하여 새로운 변화기록만을 보여줍니다."
+msgstr ""
+"몇몇 이미 설치된 꾸러미들의 최신화를 제공하는 꾸러미를 위하여 새로운 변화기록"
+"만을 보여줍니다."
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
@@ -177,8 +181,8 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
-"경고: -- --enablerepo/--disablerepo 인수는 설정 관리자와 함께 의미를 갖고 있지 않습니다. 대신에 "
-"--set-enabled/--set-disabled를 사용하세요."
+"경고: -- --enablerepo/--disablerepo 인수는 설정 관리자와 함께 의미를 갖고 있"
+"지 않습니다. 대신에 --set-enabled/--set-disabled를 사용하세요."
 
 #: plugins/config_manager.py:131
 #, python-format
@@ -287,7 +291,8 @@ msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
-"Corp hub를 `--hub` 또는 사용하기 `copr_hub/copr_username/copr_projectname`형식으로 지정합니다"
+"Corp hub를 `--hub` 또는 사용하기 `copr_hub/copr_username/copr_projectname`형"
+"식으로 지정합니다"
 
 #: plugins/copr.py:153
 msgid "multiple hubs specified"
@@ -333,13 +338,15 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Core 저정소를 활성화합니다. 이 저장소는 주요 배포판 부분이 아님을 알고 있기 바라고,\n"
+"Core 저정소를 활성화합니다. 이 저장소는 주요 배포판 부분이 아님을 알고 있기 "
+"바라고,\n"
 "품질이 다를 수 있습니다.\n"
 "\n"
 "페도라 프로젝트는\n"
 "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
 "in-copr>에\n"
-"Core FAQ에 있는 설명된 규칙을 넘는 저장소 내용 이상의 권한을 시험하지 않으며,\n"
+"Core FAQ에 있는 설명된 규칙을 넘는 저장소 내용 이상의 권한을 시험하지 않으"
+"며,\n"
 "그리고 꾸러미는 어떤 품질이나 보안 수준을 유지하지 않습니다.\n"
 "\n"
 "페도라 버그질라에 이들 꾸러미에 대한 파일 결점 보고를 제출하지 마세요.\n"
@@ -367,8 +374,8 @@ msgid ""
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
-"* 이들 coprs은 Copr hub에 대하여 어떤 정보도 포함하지 않는 오래된 형태의 저장소 파일을 갖고 있습니다. 이 문제를 수정하기 "
-"위하여 프로젝트를 재활성화하세요."
+"* 이들 coprs은 Copr hub에 대하여 어떤 정보도 포함하지 않는 오래된 형태의 저장"
+"소 파일을 갖고 있습니다. 이 문제를 수정하기 위하여 프로젝트를 재활성화하세요."
 
 #: plugins/copr.py:360
 msgid "Can't parse repositories for username '{}'."
@@ -514,7 +521,9 @@ msgstr "기록 된 꾸러미의 최신 버전을 설치하십시오."
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
-msgstr "아키텍처를 무시하고 이름, 기원, 버전 및 릴리스와 일치하는 누락 된 꾸러미를 설치하십시오."
+msgstr ""
+"아키텍처를 무시하고 이름, 기원, 버전 및 릴리스와 일치하는 누락 된 꾸러미를 설"
+"치하십시오."
 
 #: plugins/debug.py:196
 msgid "limit to specified type"
@@ -524,7 +533,9 @@ msgstr "특정 유형으로 제한"
 msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
-msgstr "설치전용 꾸리미 제거를 허용합니다. 이 선택의 사용은 동작하고 있는 커널을 제거하는 결과가 나타날 수 있습니다."
+msgstr ""
+"설치전용 꾸리미 제거를 허용합니다. 이 선택의 사용은 동작하고 있는 커널을 제거"
+"하는 결과가 나타날 수 있습니다."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -548,7 +559,8 @@ msgstr "디버그정보 꾸러미 설치"
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
-msgstr "다음 사용가능한 꾸러미: %s 를 위하여 디버그정보 꾸러미를 찾을 수 없습니다"
+msgstr ""
+"다음 사용가능한 꾸러미: %s 를 위하여 디버그정보 꾸러미를 찾을 수 없습니다"
 
 #: plugins/debuginfo-install.py:185
 #, python-format
@@ -604,7 +616,9 @@ msgstr "필요한 종속성을 해결하고 내려받아요"
 msgid ""
 "when running with --resolve, download all dependencies (do not exclude "
 "already installed ones)"
-msgstr "--resolve 와 함께 실행 할 때에, 모든 의존성을 내려받습니다 (이미 설치된 것들은 포함하지 않습니다)"
+msgstr ""
+"--resolve 와 함께 실행 할 때에, 모든 의존성을 내려받습니다 (이미 설치된 것들"
+"은 포함하지 않습니다)"
 
 #: plugins/download.py:67
 msgid ""
@@ -652,7 +666,9 @@ msgstr "번역된 자료가 유효하지 않음/비워짐"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
-msgstr "'{}' 에서 그룹 id를 발생 할 수 없습니다. --id를 사용하여 그룹 id를 지정해 주세요."
+msgstr ""
+"'{}' 에서 그룹 id를 발생 할 수 없습니다. --id를 사용하여 그룹 id를 지정해 주"
+"세요."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
@@ -750,7 +766,9 @@ msgstr "존재하지 않는 그룹에서 꾸러미를 제거 할 수 없습니�
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
-msgstr "'{}'에서 발생한 그룹 id '{}'는 중복되었습니다. --id를 사용하여 그룹 id를 지정하기 바랍니다."
+msgstr ""
+"'{}'에서 발생한 그룹 id '{}'는 중복되었습니다. --id를 사용하여 그룹 id를 지정"
+"하기 바랍니다."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -789,7 +807,9 @@ msgstr "기록 데이터 마이그레이션 중 ..."
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
-msgstr "재시작이 필요한 파일 \"{file}\" 에 지정한 꾸러미 이름 \"{pkg}\"을 위하여 설치된 꾸러미를 찾을 수 없습니다."
+msgstr ""
+"재시작이 필요한 파일 \"{file}\" 에 지정한 꾸러미 이름 \"{pkg}\"을 위하여 설치"
+"된 꾸러미를 찾을 수 없습니다."
 
 #: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
@@ -802,7 +822,8 @@ msgstr "이 사용자의 프로세스만 고려하세요"
 #: plugins/needs_restarting.py:227
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
-msgstr "재시작이 요구되는 (exit code 1) 또는 아닌(exit code0) 경우에만 보고합니다"
+msgstr ""
+"재시작이 요구되는 (exit code 1) 또는 아닌(exit code0) 경우에만 보고합니다"
 
 #: plugins/needs_restarting.py:230
 msgid "only report affected systemd services"
@@ -890,7 +911,9 @@ msgstr "여러 번 사용 될 수 있는, 새로운 저장소를 지정합니다
 msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
-msgstr "비교 할 아키텍쳐를 지정하고, 여러 번 사용 될 수 있습니다. 기본적으로, 자원 rpms만 비교됩니다."
+msgstr ""
+"비교 할 아키텍쳐를 지정하고, 여러 번 사용 될 수 있습니다. 기본적으로, 자원 "
+"rpms만 비교됩니다."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
@@ -899,7 +922,9 @@ msgstr "크기 변화에 대한 추가 자료를 출력합니다."
 #: plugins/repodiff.py:69
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
-msgstr "아키텍처에 의해 꾸러미 또한 비교합니다. 기본적으로 꾸러미는 이름으로만 비교됩니다."
+msgstr ""
+"아키텍처에 의해 꾸러미 또한 비교합니다. 기본적으로 꾸러미는 이름으로만 비교됩"
+"니다."
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
@@ -909,7 +934,9 @@ msgstr "수정된 패키지를 위해 단순히 한 줄 메시지를 출력합�
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
-msgstr "업그레이드 또는 다운그레이드 꾸러미 사이에서 변형된 꾸러미를 위해 자료를 분할합니다."
+msgstr ""
+"업그레이드 또는 다운그레이드 꾸러미 사이에서 변형된 꾸러미를 위해 자료를 분할"
+"합니다."
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
@@ -1080,7 +1107,9 @@ msgstr "또한 comps.xml 내려받기와 압축 풀기"
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
-msgstr "내려받은 저장소 메타데이타를 저장하기 위한 장소. --download-path의 값으로 기본 지정합니다."
+msgstr ""
+"내려받은 저장소 메타데이타를 저장하기 위한 장소. --download-path의 값으로 기"
+"본 지정합니다."
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
@@ -1214,7 +1243,9 @@ msgstr "꾸러미 사양을 그대로 사용하며, 구문 분석을 시도하�
 
 #: plugins/versionlock.py:158
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
-msgstr "하위명령 '{}'는 더 이상 사용하지 않습니다. 대신에 하위명령 'exclude'를 사용합니다."
+msgstr ""
+"하위명령 '{}'는 더 이상 사용하지 않습니다. 대신에 하위명령 'exclude'를 사용합"
+"니다."
 
 #~ msgid ""
 #~ "\n"
