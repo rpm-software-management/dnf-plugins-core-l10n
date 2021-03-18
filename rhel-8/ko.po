@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-17 08:01+0000\n"
+"PO-Revision-Date: 2021-03-19 03:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ko/>\n"
@@ -1137,7 +1137,7 @@ msgstr "저장소에 대한 comps.xml %s 저장된"
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
-msgstr "새 잎 :"
+msgstr "독립 꾸러미:"
 
 #: plugins/versionlock.py:32
 #, python-format
