@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-19 03:01+0000\n"
+"PO-Revision-Date: 2021-03-21 07:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ko/>\n"
@@ -132,7 +132,7 @@ msgstr "모든 변화기록 목록"
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
-msgstr "{}를 위한 변경로그"
+msgstr "{}의 변경 사항"
 
 #: plugins/config_manager.py:37
 #, python-brace-format
