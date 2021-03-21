@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 09:18-0400\n"
+"POT-Creation-Date: 2021-03-20 09:18-0400\n"
 "PO-Revision-Date: 2021-03-21 07:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -139,44 +139,44 @@ msgstr "모든 변화기록 목록"
 msgid "Changelogs for {}"
 msgstr "{}의 변경 사항"
 
-#: plugins/config_manager.py:37
+#: plugins/config_manager.py:38
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
 msgstr "{prog} 환경 선택과 저장소 관리"
 
-#: plugins/config_manager.py:44
+#: plugins/config_manager.py:45
 msgid "repo to modify"
 msgstr "수정할 repo"
 
-#: plugins/config_manager.py:47
+#: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
 msgstr "현재 옵션 저장 (--setopt와 함께 유용함)"
 
-#: plugins/config_manager.py:50
+#: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
 msgstr "지정된 파일 또는 URL에서 repo를 추가 (및 활성화)"
 
-#: plugins/config_manager.py:53
+#: plugins/config_manager.py:54
 msgid "print current configuration values to stdout"
 msgstr "현재 구성 값을 표준 출력으로 인쇄"
 
-#: plugins/config_manager.py:56
+#: plugins/config_manager.py:57
 msgid "print variable values to stdout"
 msgstr "변수 값을 표준 출력으로 출력"
 
-#: plugins/config_manager.py:60
+#: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
 msgstr "저장소 활성화 (자동으로 저장합니다)"
 
-#: plugins/config_manager.py:63
+#: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
 msgstr "저장소 비활성화 (자동으로 저장합니다)"
 
-#: plugins/config_manager.py:77
+#: plugins/config_manager.py:78
 msgid "one of the following arguments is required: {}"
 msgstr "다음 인수 중 하나가 필요합니다: {}"
 
-#: plugins/config_manager.py:86
+#: plugins/config_manager.py:87
 msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
@@ -184,22 +184,22 @@ msgstr ""
 "경고: -- --enablerepo/--disablerepo 인수는 설정 관리자와 함께 의미를 갖고 있"
 "지 않습니다. 대신에 --set-enabled/--set-disabled를 사용하세요."
 
-#: plugins/config_manager.py:131
+#: plugins/config_manager.py:132
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "수정할 일치하는 Repo가 없습니다. %s."
 
-#: plugins/config_manager.py:182
+#: plugins/config_manager.py:183
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "다음 위치에서 레포 추가 : %s"
 
-#: plugins/config_manager.py:206
+#: plugins/config_manager.py:207
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "저장소 구성에 실패했습니다"
 
-#: plugins/config_manager.py:216
+#: plugins/config_manager.py:217
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "repofile에 repo를 저장할 수 없습니다. %s: %s"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 09:18-0400\n"
+"POT-Creation-Date: 2021-03-20 09:18-0400\n"
 "PO-Revision-Date: 2021-03-12 15:50+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -143,46 +143,46 @@ msgstr "Toon alle changelogs"
 msgid "Changelogs for {}"
 msgstr "Veranderlogs voor {}"
 
-#: plugins/config_manager.py:37
+#: plugins/config_manager.py:38
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
 msgstr "beheer {prog} configuratie-opties en repositories"
 
-#: plugins/config_manager.py:44
+#: plugins/config_manager.py:45
 msgid "repo to modify"
 msgstr "te wijzigingen repo"
 
-#: plugins/config_manager.py:47
+#: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
 msgstr "sla de huidige opties op (nuttig met --setopt)"
 
-#: plugins/config_manager.py:50
+#: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
 msgstr ""
 "voeg de repo toe vanuit het opgegeven bestand of de opgegeven URL en schakel "
 "deze in"
 
-#: plugins/config_manager.py:53
+#: plugins/config_manager.py:54
 msgid "print current configuration values to stdout"
 msgstr "print huidige configuratiewaarden naar stdout"
 
-#: plugins/config_manager.py:56
+#: plugins/config_manager.py:57
 msgid "print variable values to stdout"
 msgstr "print variabelewaarden naar stdout"
 
-#: plugins/config_manager.py:60
+#: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
 msgstr "schakel repo's in (slaat automatisch op)"
 
-#: plugins/config_manager.py:63
+#: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
 msgstr "schakel repo's uit (slaat automatisch op)"
 
-#: plugins/config_manager.py:77
+#: plugins/config_manager.py:78
 msgid "one of the following arguments is required: {}"
 msgstr "een van de volgende argumenten is vereist: {}"
 
-#: plugins/config_manager.py:86
+#: plugins/config_manager.py:87
 msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
@@ -190,23 +190,23 @@ msgstr ""
 "Waarschuwing: --enablerepo/--disablerepo argumenten hebben geen betekenis "
 "met config manager. Gebruik in plaats daarvan --set-enabled/--set-disabled."
 
-#: plugins/config_manager.py:131
+#: plugins/config_manager.py:132
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Geen overeenkomende repo om te wijzigen: %s."
 
-#: plugins/config_manager.py:182
+#: plugins/config_manager.py:183
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Voeg repo toe van: %s"
 
-#: plugins/config_manager.py:206
+#: plugins/config_manager.py:207
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Configuratie van repo mislukte"
 msgstr[1] "Configuratie van repo's mislukte"
 
-#: plugins/config_manager.py:216
+#: plugins/config_manager.py:217
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Kon repo niet opslaan naar repo-bestand %s: %s"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 09:18-0400\n"
+"POT-Creation-Date: 2021-03-20 09:18-0400\n"
 "PO-Revision-Date: 2020-05-04 06:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -136,65 +136,65 @@ msgstr ""
 msgid "Changelogs for {}"
 msgstr "{} の Changelogs"
 
-#: plugins/config_manager.py:37
+#: plugins/config_manager.py:38
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
 msgstr ""
 
-#: plugins/config_manager.py:44
+#: plugins/config_manager.py:45
 msgid "repo to modify"
 msgstr "修正する repo"
 
-#: plugins/config_manager.py:47
+#: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
 msgstr "現在のオプションを保存 (--setopt で有用)"
 
-#: plugins/config_manager.py:50
+#: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
 msgstr "指定されたファイルまたは url から repo を追加 (および有効化)"
 
-#: plugins/config_manager.py:53
+#: plugins/config_manager.py:54
 msgid "print current configuration values to stdout"
 msgstr "stdout に現在の設定値を印刷"
 
-#: plugins/config_manager.py:56
+#: plugins/config_manager.py:57
 msgid "print variable values to stdout"
 msgstr "stdout に変数値を印刷"
 
-#: plugins/config_manager.py:60
+#: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
 msgstr ""
 
-#: plugins/config_manager.py:63
+#: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
 msgstr ""
 
-#: plugins/config_manager.py:77
+#: plugins/config_manager.py:78
 msgid "one of the following arguments is required: {}"
 msgstr ""
 
-#: plugins/config_manager.py:86
+#: plugins/config_manager.py:87
 msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
 
-#: plugins/config_manager.py:131
+#: plugins/config_manager.py:132
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "修正用の一致する repo はありません: %s."
 
-#: plugins/config_manager.py:182
+#: plugins/config_manager.py:183
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "repo の追加: %s"
 
-#: plugins/config_manager.py:206
+#: plugins/config_manager.py:207
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "repo の設定に失敗しました"
 
-#: plugins/config_manager.py:216
+#: plugins/config_manager.py:217
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "repofile %s に repo を保存できませんでした: %s"
