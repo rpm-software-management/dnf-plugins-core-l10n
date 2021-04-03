@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-25 04:01+0000\n"
+"PO-Revision-Date: 2021-04-04 06:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ko/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -503,7 +503,7 @@ msgstr "기록 된 꾸러미(package)의 최신 버전을 설치하십시오."
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
-msgstr "아키텍처를 무시하고 이름, 기원, 버전 및 출시와 일치하는 누락 된 꾸러미(package)를 설치하십시오."
+msgstr "구조를 무시하고 이름, 기원, 버전 및 출시와 일치하는 누락 된 꾸러미(package)를 설치하십시오."
 
 #: plugins/debug.py:196
 msgid "limit to specified type"
@@ -583,7 +583,7 @@ msgstr "대신 -debuginfo 꾸러미(package)를 내려받으세요"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
-msgstr "쿼리를 주어진 아키텍처의 꾸러미(package)로 제한하십시오."
+msgstr "요청를 주어진 구조 꾸러미(package)로 제한하십시오."
 
 #: plugins/download.py:62
 msgid "resolve and download needed dependencies"
@@ -881,7 +881,7 @@ msgstr "여러 번 사용 될 수 있는, 새로운 저장소를 지정합니다
 msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
-msgstr "비교 할 아키텍쳐를 지정하고, 여러 번 사용 될 수 있습니다. 기본적으로, 자원 rpms만 비교됩니다."
+msgstr "비교 할 구조를 지정하고, 여러 번 사용 될 수 있습니다. 기본적으로, 자원 rpms만 비교됩니다."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
@@ -890,7 +890,7 @@ msgstr "크기 변화에 대한 추가 자료를 출력합니다."
 #: plugins/repodiff.py:69
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
-msgstr "아키텍처에 의해 꾸러미(package) 또한 비교합니다. 기본적으로 꾸러미(package)는 이름으로만 비교됩니다."
+msgstr "구조에 의해 꾸러미(package) 또한 비교합니다. 기본적으로 꾸러미(package)는 이름으로만 비교됩니다."
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
