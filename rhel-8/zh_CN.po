@@ -6,13 +6,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Hongqiao Chen <harrychen0314@gmail.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
+# Qiyu Yan <yanqiyu01@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-08 11:08+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-04-06 08:39+0000\n"
+"Last-Translator: Qiyu Yan <yanqiyu01@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-rhel-8/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -88,7 +89,7 @@ msgstr "无匹配软件包： %s"
 #: plugins/changelog.py:37
 #, python-brace-format
 msgid "Not a valid date: \"{0}\"."
-msgstr "无效的日期 : \"{0}\"."
+msgstr "无效的日期 : \"{0}\"。"
 
 #: plugins/changelog.py:43
 msgid "Show changelog data of packages"
@@ -108,7 +109,7 @@ msgstr "每个软件包显示指定数量的改变日志信息"
 msgid ""
 "show only new changelog entries for packages, that provide an upgrade for "
 "some of already installed packages."
-msgstr "只显示软件包新的改变日志信息，为已安装的软件包提供升级"
+msgstr "只显示软件包新的改变日志信息，为已安装的软件包提供升级。"
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
@@ -126,7 +127,7 @@ msgstr "列出自 {} 后的改变日志信息"
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] "只列出最新的改变日志"
+msgstr[0] "只列出最新 {} 项更改日志"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
@@ -223,7 +224,7 @@ msgstr "否"
 
 #: plugins/copr.py:79
 msgid "Interact with Copr repositories."
-msgstr "与 Copr 仓库交互"
+msgstr "与 Copr 仓库交互。"
 
 #: plugins/copr.py:81
 msgid ""
@@ -390,7 +391,7 @@ msgstr "安全及明智的答案。退出。"
 
 #: plugins/copr.py:417
 msgid "This command has to be run under the root user."
-msgstr "该命令必须以 root 用户运行"
+msgstr "该命令必须以 root 用户运行。"
 
 #: plugins/copr.py:481
 msgid ""
@@ -437,7 +438,7 @@ msgstr "您需要保持它们被启用吗？"
 #: plugins/copr.py:582
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
-msgstr "删除 copr repo {0}/{1}/{2} 失败"
+msgstr "删除 copr 仓库 {0}/{1}/{2} 失败"
 
 #: plugins/copr.py:593
 msgid "Failed to disable copr repo {}/{}"
@@ -453,7 +454,7 @@ msgstr "与 Playground 仓库交互。"
 
 #: plugins/copr.py:639
 msgid "Enabling a Playground repository."
-msgstr "启用一个 Playground 仓库。"
+msgstr "启用 Playground 仓库。"
 
 #: plugins/copr.py:640
 msgid "Do you want to continue?"
@@ -514,7 +515,7 @@ msgstr "限制到指定类型"
 msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
-msgstr "允许删除只安装的软件包。使用这个选项可能会导致尝试删除正在运行的内核。"
+msgstr "允许删除仅安装(install-only)的软件包。使用这个选项可能会导致尝试删除正在运行的内核。"
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -523,7 +524,7 @@ msgstr "转储文件名称"
 #: plugins/debug.py:273
 #, python-format
 msgid "Package %s is not available"
-msgstr "软件包 %s 不可用。"
+msgstr "软件包 %s 不可用"
 
 #: plugins/debug.py:283
 #, python-format
@@ -584,7 +585,7 @@ msgstr "取而代之下载 -debugsource 软件包"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
-msgstr "限定查询指定架构的软件包"
+msgstr "限定查询指定架构的软件包。"
 
 #: plugins/download.py:62
 msgid "resolve and download needed dependencies"
@@ -804,7 +805,7 @@ msgstr "在引导后 Core 库或服务已被更新 ："
 
 #: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
-msgstr "需要重新启动后才可以使这些更新完全生效"
+msgstr "需要重新启动后才可以使这些更新完全生效。"
 
 #: plugins/needs_restarting.py:263
 msgid "More information:"
@@ -833,12 +834,12 @@ msgstr "错误的事务状态： %s"
 #: plugins/post-transaction-actions.py:155
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr "交易后的操作： %s"
+msgstr "事物后的操作： %s"
 
 #: plugins/post-transaction-actions.py:157
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr "交易后的操作 : 错误命令 \"%s\": %s"
+msgstr "事物后的操作 : 无效的命令 \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
@@ -919,7 +920,7 @@ msgstr "删除的软件包 : {}"
 
 #: plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
-msgstr "过期于   : {}"
+msgstr "被下述软件包弃用：{}"
 
 #: plugins/repodiff.py:195
 msgid ""
@@ -1056,11 +1057,11 @@ msgstr "删除已不在仓库中的本地软件包"
 
 #: plugins/reposync.py:68
 msgid "download all the metadata."
-msgstr "下载所有元数据"
+msgstr "下载所有元数据。"
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
-msgstr "下载后删除无法进行 GPG 签名检查的软件包"
+msgstr "下载后删除无法通过 GPG 签名检查的软件包"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
@@ -1098,7 +1099,7 @@ msgstr "只列出要下载内容的 url，不实际下载"
 
 #: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
-msgstr "不能使用 --norepopath 与多个仓库一起使用。"
+msgstr "不能将 --norepopath 与多个仓库一起使用"
 
 #: plugins/reposync.py:132
 #, python-format
@@ -1107,7 +1108,7 @@ msgstr "获取元数据镜像失败：%s"
 
 #: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
-msgstr "获取组文件镜像失败"
+msgstr "获取组文件镜像失败。"
 
 #: plugins/reposync.py:168
 msgid "Removing {}: {}"
