@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-04-04 06:01+0000\n"
+"PO-Revision-Date: 2021-04-06 08:39+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ko/>\n"
@@ -124,7 +124,7 @@ msgstr[0] "최신화된 변화기록 목록 {}"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
-msgstr "꾸러미(package) 설치버전 이후의 새로운 변화기록만 목록화함"
+msgstr "꾸러미 설치 상태번호 이후의 새로운 변화기록만 목록화함"
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
@@ -497,13 +497,13 @@ msgstr "stdout으로 실행될 출력 명령."
 
 #: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
-msgstr "기록 된 꾸러미(package)의 최신 버전을 설치하십시오."
+msgstr "기록 된 꾸러미의 최신 상태번호를 설치하십시오."
 
 #: plugins/debug.py:191
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
-msgstr "구조를 무시하고 이름, 기원, 버전 및 출시와 일치하는 누락 된 꾸러미(package)를 설치하십시오."
+msgstr "구조를 무시하고 이름, 기원, 상태번호및 출시와 일치하는 누락 된 꾸러미(package)를 설치하십시오."
 
 #: plugins/debug.py:196
 msgid "limit to specified type"
@@ -900,7 +900,7 @@ msgstr "수정된 꾸러미(pacakage)지를 위해 단순히 한 줄 메시지�
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
-msgstr "업그레이드 또는 다운그레이드 꾸러미(package) 사이에서 변형된 꾸러미(package)를 위해 자료를 분할합니다."
+msgstr "향상 또는 향상 꾸러미 사이에서 변형된 꾸러미를 위해 자료를 분할합니다."
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
@@ -928,7 +928,7 @@ msgid ""
 "Upgraded packages"
 msgstr ""
 "\n"
-"업그레이드된 꾸러미(package)"
+"향상된 꾸러미(package)"
 
 #: plugins/repodiff.py:200
 msgid ""
@@ -936,7 +936,7 @@ msgid ""
 "Downgraded packages"
 msgstr ""
 "\n"
-"꾸러미(package) 다운그레이드"
+"꾸러미 하향설치"
 
 #: plugins/repodiff.py:207
 msgid ""
@@ -964,11 +964,11 @@ msgstr "제거된 꾸러미(package): {}"
 
 #: plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
-msgstr "업그레이드된 꾸러미(package): {}"
+msgstr "향상된 꾸러미(package): {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr "다운그레이드된 꾸러미(package): {}"
+msgstr "하향설치된 꾸러미: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
@@ -988,11 +988,11 @@ msgstr "크기가 변형된 꾸러미(package): {}"
 
 #: plugins/repodiff.py:228
 msgid "Size of upgraded packages: {}"
-msgstr "크기가 업그레이드된 꾸러미(package): {}"
+msgstr "크기가 향상된 꾸러미: {}"
 
 #: plugins/repodiff.py:230
 msgid "Size of downgraded packages: {}"
-msgstr "크기가 다운그레이드된 꾸러미(package): {}"
+msgstr "크기가 하향설치된 꾸러미: {}"
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
@@ -1144,7 +1144,7 @@ msgstr "독립 꾸러미(package):"
 #: plugins/versionlock.py:32
 #, python-format
 msgid "Unable to read version lock configuration: %s"
-msgstr "버전 잠금 설정을 읽을 수 없습니다 : %s"
+msgstr "상태번호 잠금 설정을 읽을 수 없습니다 : %s"
 
 #: plugins/versionlock.py:33
 msgid "Locklist not set"
@@ -1152,7 +1152,7 @@ msgstr "잠금 목록 설정되지 않음"
 
 #: plugins/versionlock.py:34
 msgid "Adding versionlock on:"
-msgstr "버전잠금 설정 추가하기:"
+msgstr "상태번호잠금 설정 추가하기:"
 
 #: plugins/versionlock.py:35
 msgid "Adding exclude on:"
@@ -1172,7 +1172,7 @@ msgstr "꾸러미(package) {} 는 이미 제외되었습니다"
 
 #: plugins/versionlock.py:39
 msgid "Deleting versionlock for:"
-msgstr "버전잠금을 제거하기:"
+msgstr "상태번호 잠금을 제거하기:"
 
 #: plugins/versionlock.py:40
 msgid "No package found for:"
@@ -1180,24 +1180,24 @@ msgstr "찾고자 하는 꾸러미(package)가 없습니다:"
 
 #: plugins/versionlock.py:41
 msgid "Excludes from versionlock plugin were not applied"
-msgstr "버전잠금 플러그인에서 제외는 적용되지 않습니다"
+msgstr "상태번호 잠금 플러그인에서 제외는 적용되지 않습니다"
 
 #: plugins/versionlock.py:42
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
-msgstr "버전잠금 플러그인: 적용된 파일 \"{} \"에서 잠금 규칙의 수: {}"
+msgstr "상태번호 잠금 플러그인: 적용된 파일 \"{} \"에서 잠금 규칙의 수: {}"
 
 #: plugins/versionlock.py:43
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
-msgstr "버전잠금 플러그인: 적용된 파일 \"{} \"에서 제외 규칙의 수: {}"
+msgstr "상태번호 잠금 플러그인: 적용된 파일 \"{} \"에서 제외 규칙의 수: {}"
 
 #: plugins/versionlock.py:44
 msgid "Versionlock plugin: could not parse pattern:"
-msgstr "버전잠금 플러그인: 유형을 구문분석 할 수 없습니다:"
+msgstr "상태번호 잠금 플러그인: 유형을 구문 분석 할 수 없습니다:"
 
 #: plugins/versionlock.py:130
 msgid "control package version locks"
-msgstr "꾸러미(package) 버전 잠금을 제어합니다"
+msgstr "꾸러미 상태번호 잠금을 제어합니다"
 
 #: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
