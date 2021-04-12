@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-31 18:01+0000\n"
+"PO-Revision-Date: 2021-04-13 06:02+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/sv/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.2\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -681,10 +681,8 @@ msgid "load and save groups metadata to file"
 msgstr "läs in och spara gruppmetadata till fil"
 
 #: plugins/groups_manager.py:97
-#, fuzzy
-#| msgid "print variable values to stdout"
 msgid "print the result metadata to stdout"
-msgstr "skriv ut variabelvärden till standard ut"
+msgstr "skriv ut resultatmetadata till standard ut"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
@@ -720,11 +718,11 @@ msgstr "gör gruppen osynlig för användare"
 
 #: plugins/groups_manager.py:123
 msgid "add packages to the mandatory section"
-msgstr ""
+msgstr "lägg till paket till det obligatoriska avsnittet"
 
 #: plugins/groups_manager.py:125
 msgid "add packages to the optional section"
-msgstr ""
+msgstr "lägg till paket till det valfria avsnittet"
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
