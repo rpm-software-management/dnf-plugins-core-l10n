@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-04-13 06:02+0000\n"
+"PO-Revision-Date: 2021-04-15 12:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ko/>\n"
@@ -43,7 +43,7 @@ msgstr "명령줄 인수를 지정한 파일로 다룬다"
 
 #: plugins/builddep.py:100
 msgid "treat commandline arguments as source rpm"
-msgstr "명령줄 인수를 rpm 원천으로 다룬다"
+msgstr "명령줄 인수를 rpm 소스로 다룬다"
 
 #: plugins/builddep.py:144
 msgid "RPM: {}"
