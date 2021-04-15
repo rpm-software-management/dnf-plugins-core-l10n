@@ -1,12 +1,13 @@
 # Manuela Silva <mmsrs@sky.com>, 2019. #zanata
 # Pedro Flores <pedro_flores_16@hotmail.com>, 2021.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-14 08:01+0000\n"
-"Last-Translator: Pedro Flores <pedro_flores_16@hotmail.com>\n"
+"PO-Revision-Date: 2021-04-16 15:02+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/pt/>\n"
 "Language: pt\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -106,7 +107,7 @@ msgstr ""
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
-msgstr ""
+msgstr "PACOTE"
 
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:90
 #, python-format
