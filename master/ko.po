@@ -6,10 +6,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 09:18-0400\n"
-"PO-Revision-Date: 2021-04-15 12:02+0000\n"
+"PO-Revision-Date: 2021-04-18 16:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -593,11 +593,11 @@ msgstr "일치하는 항목을 찾을 수 없습니다"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
-msgstr "현재 디렉토리에 꾸러미(package) 내려받기"
+msgstr "현재 디렉토리에 꾸러미 내려받기"
 
 #: plugins/download.py:51
 msgid "packages to download"
-msgstr "내려받기 할 꾸러미(package)"
+msgstr "내려받기 할 꾸러미"
 
 #: plugins/download.py:53
 msgid "download the src.rpm instead"
@@ -1102,7 +1102,7 @@ msgstr "모든 메타데이타 내려받기."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
-msgstr "내려받기 후에 점검한 GPG 서명이 실패한 꾸러미(package)를 제거합니다"
+msgstr "내려받기 후에 점검한 GPG 서명이 실패한 꾸러미를 제거합니다"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
