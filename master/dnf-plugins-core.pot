@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-23 09:18-0400\n"
+"POT-Creation-Date: 2021-05-24 09:18-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1151,14 +1151,14 @@ msgstr ""
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr ""
 
-#: plugins/versionlock.py:134
+#: plugins/versionlock.py:138
 msgid "control package version locks"
 msgstr ""
 
-#: plugins/versionlock.py:140
+#: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
 
-#: plugins/versionlock.py:160
+#: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
