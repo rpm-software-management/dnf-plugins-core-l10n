@@ -4,13 +4,14 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2018. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
 # Balázs Meskó <meskobalazs@mailbox.org>, 2020.
+# Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 09:18-0400\n"
-"PO-Revision-Date: 2020-05-08 15:40+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"PO-Revision-Date: 2021-06-18 05:04+0000\n"
+"Last-Translator: Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/hu/>\n"
 "Language: hu\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.7\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -173,11 +174,11 @@ msgstr "kiírja a változó értékeket a sztenderd kimenetre"
 
 #: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "tárolók engedélyezése (automatikusan mentés)"
 
 #: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "tárolók tiltása (automatikusan mentés)"
 
 #: plugins/config_manager.py:78
 msgid "one of the following arguments is required: {}"
@@ -309,10 +310,8 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "pontosan két további paraméter szükséges a copr parancshoz"
 
 #: plugins/copr.py:227
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Nem található egyezés a következő argumentumra: %s"
+msgstr "Túl sok argumentum."
 
 #: plugins/copr.py:230
 msgid ""
@@ -331,22 +330,6 @@ msgid "bad copr project format"
 msgstr "hibás copr projektformátum"
 
 #: plugins/copr.py:261
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "You are about to enable a Copr repository. Please note that this\n"
-#| "repository is not part of the main distribution, and quality may vary.\n"
-#| "\n"
-#| "The Fedora Project does not exercise any power over the contents of\n"
-#| "this repository beyond the rules outlined in the Copr FAQ at\n"
-#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
-#| "build-in-copr>,\n"
-#| "and packages are not held to any quality or security level.\n"
-#| "\n"
-#| "Please do not file bug reports about these packages in Fedora\n"
-#| "Bugzilla. In case of problems, contact the owner of this repository.\n"
-#| "\n"
-#| "Do you really want to enable {0}?"
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -373,8 +356,6 @@ msgstr ""
 "\n"
 "Ne jelentsen be hibákat a Fedora Bugzillába. Problémák esetén keresse\n"
 "a tároló tulajdonosát.\n"
-"\n"
-"Biztosan engedélyezi ezt: {0}?"
 
 #: plugins/copr.py:278
 msgid "Repository successfully enabled."
@@ -728,10 +709,8 @@ msgid "translated name for the group"
 msgstr ""
 
 #: plugins/groups_manager.py:111
-#, fuzzy
-#| msgid "Failed to get mirror for the group file."
 msgid "translated description for the group"
-msgstr "Nem található tükör a csoportfájlhoz."
+msgstr "lefordított leírás a csoport számára"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
