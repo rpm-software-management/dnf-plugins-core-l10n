@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 09:18-0400\n"
+"POT-Creation-Date: 2021-06-17 09:18-0400\n"
 "PO-Revision-Date: 2020-08-28 21:29+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -1035,7 +1035,7 @@ msgstr "管理 rpm 軟體包目錄"
 msgid "Pass either --old or --new, not both!"
 msgstr "只能傳入 --old 或 --new 任一，而非兩者！"
 
-#: plugins/repomanage.py:71
+#: plugins/repomanage.py:89
 msgid "No files to process"
 msgstr "沒有要處理的檔案"
 
@@ -1217,15 +1217,15 @@ msgstr "Versionlock 插件：已從「{}」檔案套用大量的排除規則：{
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "Versionlock 插件：無法解析模式："
 
-#: plugins/versionlock.py:132
+#: plugins/versionlock.py:138
 msgid "control package version locks"
 msgstr "控制軟體包的版本鎖"
 
-#: plugins/versionlock.py:138
+#: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr "使用其原本的軟體包規範，不要嘗試解析"
 
-#: plugins/versionlock.py:158
+#: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 

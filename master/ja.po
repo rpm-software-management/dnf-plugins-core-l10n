@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 09:18-0400\n"
+"POT-Creation-Date: 2021-06-17 09:18-0400\n"
 "PO-Revision-Date: 2020-05-04 06:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -1010,7 +1010,7 @@ msgstr "rpm パッケージのディレクトリーを管理します"
 msgid "Pass either --old or --new, not both!"
 msgstr "--old または --new のいずれかを渡します。両方ではありません。"
 
-#: plugins/repomanage.py:71
+#: plugins/repomanage.py:89
 msgid "No files to process"
 msgstr "処理するファイルはありません"
 
@@ -1193,15 +1193,15 @@ msgstr "versionlock プラグイン: ファイル \"{}\" の除外ルールの�
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "versionlock プラグイン: パターンを解析できませんでした:"
 
-#: plugins/versionlock.py:132
+#: plugins/versionlock.py:138
 msgid "control package version locks"
 msgstr "パッケージバージョンロックの制御"
 
-#: plugins/versionlock.py:138
+#: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
 
-#: plugins/versionlock.py:158
+#: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 

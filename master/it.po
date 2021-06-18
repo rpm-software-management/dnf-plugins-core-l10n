@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 09:18-0400\n"
+"POT-Creation-Date: 2021-06-17 09:18-0400\n"
 "PO-Revision-Date: 2021-04-27 21:02+0000\n"
 "Last-Translator: dav ide <davide.luigi@gmail.com>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1011,7 +1011,7 @@ msgstr "Gestisce una directory di pacchetti rpm"
 msgid "Pass either --old or --new, not both!"
 msgstr "Specificare --old o --new, ma non entrambi!"
 
-#: plugins/repomanage.py:71
+#: plugins/repomanage.py:89
 msgid "No files to process"
 msgstr "Nessun file da elaborare"
 
@@ -1193,15 +1193,15 @@ msgstr ""
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr ""
 
-#: plugins/versionlock.py:132
+#: plugins/versionlock.py:138
 msgid "control package version locks"
 msgstr "controllo del blocco di versione dei pacchetti"
 
-#: plugins/versionlock.py:138
+#: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
 
-#: plugins/versionlock.py:158
+#: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 09:18-0400\n"
+"POT-Creation-Date: 2021-06-17 09:18-0400\n"
 "PO-Revision-Date: 2021-03-12 15:50+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1078,7 +1078,7 @@ msgstr "Beheer een map met rpm-pakketten"
 msgid "Pass either --old or --new, not both!"
 msgstr "Geef --old of --new door, niet beide!"
 
-#: plugins/repomanage.py:71
+#: plugins/repomanage.py:89
 msgid "No files to process"
 msgstr "Geen bestanden om te verwerken"
 
@@ -1269,15 +1269,15 @@ msgstr ""
 msgid "Versionlock plugin: could not parse pattern:"
 msgstr "Versieslot plug-in: kon patroon niet ontleden:"
 
-#: plugins/versionlock.py:132
+#: plugins/versionlock.py:138
 msgid "control package version locks"
 msgstr "controleer pakketversieslot"
 
-#: plugins/versionlock.py:138
+#: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr "Gebruik pakketspecificaties zoals ze zijn, probeer ze niet te ontleden"
 
-#: plugins/versionlock.py:158
+#: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Subcommanddo '{}' is verouderd. Gebruik in plaats daarvan subcommanddo "
