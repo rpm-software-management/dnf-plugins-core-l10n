@@ -5,13 +5,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Enrico Bella <enric@e.email>, 2020.
 # dav ide <davide.luigi@gmail.com>, 2021.
+# Nathan <nathan95@live.it>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-04-27 21:02+0000\n"
-"Last-Translator: dav ide <davide.luigi@gmail.com>\n"
+"PO-Revision-Date: 2021-06-26 23:04+0000\n"
+"Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/it/>\n"
 "Language: it\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.7\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -116,7 +117,7 @@ msgstr ""
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:90
 #, python-format
 msgid "No match for argument: %s"
-msgstr "Nessuna corrispondenza per argomento: %s"
+msgstr "Nessuna corrispondenza per l'argomento: %s"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
