@@ -1,18 +1,19 @@
-# Fabio Tomat <f.t.public@gmail.com>, 2019. #zanata
+# Fabio Tomat <f.t.public@gmail.com>, 2019. #zanata, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2019-11-27 09:17+0000\n"
+"PO-Revision-Date: 2021-07-02 09:04+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
-"Language-Team: Friulian\n"
+"Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fur/>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -143,11 +144,11 @@ msgstr "Regjistris des modifichis par {}"
 #: plugins/config_manager.py:38
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
-msgstr "gjestìs lis opzions di configurazion di {prog} e i repository"
+msgstr "gjestìs lis opzions di configurazion di {prog} e i dipuesits"
 
 #: plugins/config_manager.py:45
 msgid "repo to modify"
-msgstr "repository di modificâ"
+msgstr "dipuesit di modificâ"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -155,7 +156,7 @@ msgstr "salve lis opzions atuâls (util cun --setopt)"
 
 #: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
-msgstr "zonte (e abilite) il repository dal url o dal file specificât"
+msgstr "zonte (e abilite) il dipuesit dal url o dal file specificât"
 
 #: plugins/config_manager.py:54
 msgid "print current configuration values to stdout"
@@ -191,18 +192,18 @@ msgstr "Nissun reposiory corispondent di modificâ: %s"
 #: plugins/config_manager.py:183
 #, python-format
 msgid "Adding repo from: %s"
-msgstr "Daûr a zontâ il repository di: %s"
+msgstr "Daûr a zontâ il dipuesit di: %s"
 
 #: plugins/config_manager.py:207
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
-msgstr[0] "Configurazion dal repository falide"
+msgstr[0] "Configurazion dal dipuesit falide"
 msgstr[1] "Configurazion dai repository failde"
 
 #: plugins/config_manager.py:217
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
-msgstr "Impussibil salvâ il repository sul file dai repository %s: %s"
+msgstr "Impussibil salvâ il dipuesit sul file dai dipuesits %s: %s"
 
 #: plugins/copr.py:59
 msgid "y"
@@ -222,7 +223,7 @@ msgstr "no"
 
 #: plugins/copr.py:79
 msgid "Interact with Copr repositories."
-msgstr "Interagjìs cui repository Copr."
+msgstr "Interagjìs cui dipuesits Copr."
 
 #: plugins/copr.py:81
 msgid ""
@@ -264,19 +265,19 @@ msgstr ""
 
 #: plugins/copr.py:107
 msgid "List all installed Copr repositories (default)"
-msgstr "Liste ducj i repository Copr instalâts (predefinît)"
+msgstr "Liste ducj i dipuesits Copr instalâts (predefinît)"
 
 #: plugins/copr.py:109
 msgid "List enabled Copr repositories"
-msgstr "Liste i repository Copr abilitâts"
+msgstr "Liste i dipuesits Copr abilitâts"
 
 #: plugins/copr.py:111
 msgid "List disabled Copr repositories"
-msgstr "Liste i repository Copr disabilitâts"
+msgstr "Liste i dipuesits Copr disativâts"
 
 #: plugins/copr.py:113
 msgid "List available Copr repositories by user NAME"
-msgstr "Liste i repository Copr disponibii par NON utent"
+msgstr "Liste i dipuesits Copr disponibii par NON utent"
 
 #: plugins/copr.py:115
 msgid "Specify an instance of Copr to work with"
@@ -322,22 +323,6 @@ msgid "bad copr project format"
 msgstr "formât dal progjet copr sbaliât"
 
 #: plugins/copr.py:261
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "You are about to enable a Copr repository. Please note that this\n"
-#| "repository is not part of the main distribution, and quality may vary.\n"
-#| "\n"
-#| "The Fedora Project does not exercise any power over the contents of\n"
-#| "this repository beyond the rules outlined in the Copr FAQ at\n"
-#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
-#| "build-in-copr>,\n"
-#| "and packages are not held to any quality or security level.\n"
-#| "\n"
-#| "Please do not file bug reports about these packages in Fedora\n"
-#| "Bugzilla. In case of problems, contact the owner of this repository.\n"
-#| "\n"
-#| "Do you really want to enable {0}?"
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -353,31 +338,31 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Si sta par abilitâ un repository Copr. Viôt che chest repository\n"
-"nol fâs part de distribuzion principâl e duncje no si garantìs la cualitât.\n"
+"Si abilite un dipuesit Copr. Viôt che chest dipuesit nol fâs part\n"
+"de distribuzion principâl e duncje no si garantìs la cualitât.\n"
 "\n"
 "Il Progjet Fedora nol à nissun podê sui contignûts di chest\n"
-"repository infûr des regulis delineadis tes FAQ di Copr su\n"
+"dipuesit infûr des regulis delineadis tes FAQ di Copr su\n"
 "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
 "in-copr>,\n"
-"e i pachets no son are tignûts a vê nissun nivel di sigurece o di cualitât.\n"
+"e i pachets no son tignûts a vê nissun nivel di sigurece o di cualitât.\n"
 "\n"
 "Par plasê no steit a segnalâ erôrs su Fedora Bugzilla par chescj pachets. In "
-"câs di problemis, contatait il proprietari di chest repository.\n"
+"câs di problemis, contatait il proprietari di chest dipuesit.\n"
 "\n"
-"Signûrs di abilitâ {0}?"
+"Abilitâ pardabon {0}?\n"
 
 #: plugins/copr.py:278
 msgid "Repository successfully enabled."
-msgstr "Repository abilitât cun sucès."
+msgstr "Dipuesit abilitât cun sucès."
 
 #: plugins/copr.py:283
 msgid "Repository successfully disabled."
-msgstr "Repository disabilitât cun sucès."
+msgstr "Dipuesit disabilitât cun sucès."
 
 #: plugins/copr.py:287
 msgid "Repository successfully removed."
-msgstr "Repository gjavât cun sucès."
+msgstr "Dipuesit gjavât cun sucès."
 
 #: plugins/copr.py:291 plugins/copr.py:698
 msgid "Unknown subcommand {}."
@@ -395,7 +380,7 @@ msgstr ""
 
 #: plugins/copr.py:360
 msgid "Can't parse repositories for username '{}'."
-msgstr "Impussibil analizâ i repository pal non utent '{}'."
+msgstr "Impussibil analizâ i dipuesits pal non utent '{}'."
 
 #: plugins/copr.py:363
 msgid "List of {} coprs"
@@ -429,12 +414,12 @@ msgstr "Si à di eseguî chest comant come utent root."
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr ""
-"Chest repository nol à ancjemò nissune costruzion, duncje no si pues "
+"Chest dipuesit nol à ancjemò nissune costruzion, duncje nol è pussibil "
 "abilitâlu pal moment."
 
 #: plugins/copr.py:489
 msgid "Such repository does not exist."
-msgstr "Chel repository nol esist."
+msgstr "Chel dipuesit nol esist."
 
 #: plugins/copr.py:533
 #, python-brace-format
@@ -452,6 +437,18 @@ msgid ""
 "\n"
 "These repositories have been enabled automatically."
 msgstr ""
+"Chel che al manten il dipuesit Copr abilitât al à decidût di rindilu\n"
+"dipendent di altris dipuesits. Chei dipuesits a son di solit\n"
+"necessaris pe corete instalazion dai RPMs dal dipuesit Copr\n"
+"principâl (a furnissin dipendencis in timp di esecuzion).\n"
+"\n"
+"Sta atent che si apliche l'avîs su la cualitât e la segnalazion\n"
+"di erôrs scrite chi parsore, il Progjet Fedora nol controle il\n"
+"contignût. Revisione la liste:\n"
+"\n"
+"{0}\n"
+"\n"
+"Chescj dipuesits a son stâts abilitâts in automatic."
 
 #: plugins/copr.py:554
 msgid "Do you want to keep them enabled?"
@@ -460,11 +457,11 @@ msgstr ""
 #: plugins/copr.py:587
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
-msgstr "No si è rivâts a gjavâ il repository copr {0}/{1}/{2}"
+msgstr "Impussibil gjavâ il dipuesit copr {0}/{1}/{2}"
 
 #: plugins/copr.py:598
 msgid "Failed to disable copr repo {}/{}"
-msgstr "No si è rivâts a disabilitâ il repository copr {}/{}"
+msgstr "Impussibil disabilitâ il dipuesit copr {}/{}"
 
 #: plugins/copr.py:616 plugins/copr.py:653
 msgid "Unknown response from server."
@@ -472,13 +469,11 @@ msgstr "Rispueste no cognossude dal servidôr."
 
 #: plugins/copr.py:638
 msgid "Interact with Playground repository."
-msgstr "Interagjìs cul repository Playground."
+msgstr "Interagjìs cul dipuesits Playground."
 
 #: plugins/copr.py:644
-#, fuzzy
-#| msgid "Interact with Playground repository."
 msgid "Enabling a Playground repository."
-msgstr "Interagjìs cul repository Playground."
+msgstr "Daûr a abilitâ un dipuesit Playground."
 
 #: plugins/copr.py:645
 msgid "Do you want to continue?"
@@ -486,15 +481,15 @@ msgstr ""
 
 #: plugins/copr.py:688
 msgid "Playground repositories successfully enabled."
-msgstr "Repository Playground abilitâts cun sucès."
+msgstr "Dipuesits Playground abilitâts cun sucès."
 
 #: plugins/copr.py:691
 msgid "Playground repositories successfully disabled."
-msgstr "Repository Playground disabilitâts cun sucès."
+msgstr "Dipuesits Playground disabilitâts cun sucès."
 
 #: plugins/copr.py:695
 msgid "Playground repositories successfully updated."
-msgstr "Repository Playground inzornâts cun sucès."
+msgstr "Dipuesits Playground inzornâts cun sucès."
 
 #: plugins/debug.py:53
 msgid "dump information about installed rpm packages to file"
@@ -502,7 +497,7 @@ msgstr "ingrume jù sul file lis informazions sui pachets rpm instalâts"
 
 #: plugins/debug.py:67
 msgid "do not attempt to dump the repository contents."
-msgstr "no sta cirî di butâ jù dal grum i contignûts dal repository."
+msgstr "no sta cirî di scrivi jù i contignûts dal dipuesit."
 
 #: plugins/debug.py:70
 msgid "optional name of dump file"
@@ -746,10 +741,8 @@ msgid "remove packages from the group instead of adding them"
 msgstr ""
 
 #: plugins/groups_manager.py:129
-#, fuzzy
-#| msgid "Display a list of unresolved dependencies for repositories"
 msgid "include also direct dependencies for packages"
-msgstr "Mostre une liste des dipendencis no risolvudis pai repository"
+msgstr "inclût ancje lis dipendencis diretis pai pachets"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
@@ -801,7 +794,7 @@ msgstr "'{}' no je une cartele"
 
 #: plugins/local.py:135
 msgid "Copying '{}' to local repo"
-msgstr "Daûr a copiâ '{}' al repository locâl"
+msgstr "Daûr a copiâ '{}' tal dipuesit locâl"
 
 #: plugins/local.py:141
 msgid "Can't write file '{}'"
@@ -809,7 +802,7 @@ msgstr "Impussibil scrivi il file '{}'"
 
 #: plugins/local.py:156
 msgid "Rebuilding local repo"
-msgstr "Ricostruzion al repository locâl"
+msgstr "Ricostruzion dal dipuesit locâl"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
@@ -890,7 +883,7 @@ msgstr ""
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
-msgstr "Mostre une liste des dipendencis no risolvudis pai repository"
+msgstr "Mostre une liste des dipendencis no risolvudis pai dipuesits"
 
 #: plugins/repoclosure.py:66
 msgid "Repoclosure ended with unresolved dependencies."
@@ -903,11 +896,11 @@ msgstr ""
 
 #: plugins/repoclosure.py:156
 msgid "Specify repositories to check"
-msgstr "Specifiche i repository di controlâ"
+msgstr "Specifiche i dipuesits di controlâ"
 
 #: plugins/repoclosure.py:158
 msgid "Check only the newest packages in the repos"
-msgstr "Controle dome i gnûfs pachets tai repository"
+msgstr "Controle dome i gnûfs pachets tai dipuesits"
 
 #: plugins/repoclosure.py:161
 msgid "Check closure for this package only"
@@ -915,15 +908,15 @@ msgstr ""
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
-msgstr "Liste lis diferencis tra dôs cumbinazions di repository"
+msgstr "Liste lis diferencis tra dôs cumbinazions di dipuesits"
 
 #: plugins/repodiff.py:58
 msgid "Specify old repository, can be used multiple times"
-msgstr "Repository vecjo, si pues doprâ plui voltis"
+msgstr "Specificâ un dipuesit vecjo, si pues doprâ plui voltis"
 
 #: plugins/repodiff.py:60
 msgid "Specify new repository, can be used multiple times"
-msgstr "Gnûf repository, si pues doprâ plui voltis"
+msgstr "Specificâ un gnûf dipuesit, si pues doprâ plui voltis"
 
 #: plugins/repodiff.py:63
 msgid ""
@@ -958,7 +951,7 @@ msgstr ""
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
-msgstr "Si àn di indicâ ducj i doi i repository, chei vielis e chei gnûfs."
+msgstr "Si àn di indicâ ducj i doi i dipuesits, chei vielis e chei gnûfs."
 
 #: plugins/repodiff.py:178
 msgid "Size change: {} bytes"
@@ -1099,7 +1092,7 @@ msgstr "Percors ae cartele"
 
 #: plugins/reposync.py:55
 msgid "download all packages from remote repo"
-msgstr "discjarie ducj i pachets dal repository rimot"
+msgstr "discjarie ducj i pachets dal dipuesit lontan"
 
 #: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
@@ -1107,7 +1100,7 @@ msgstr "discjarie dome i pachets par cheste ARCHITETURE"
 
 #: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
-msgstr "elimine i pachets locâi che no son plui tal repository"
+msgstr "elimine i pachets locâi che no son plui tal dipuesit"
 
 #: plugins/reposync.py:68
 msgid "download all the metadata."
@@ -1126,12 +1119,12 @@ msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
-"dulà archiviâ i metadâts dai repository discjariâts. Il predefinît al è il "
+"dulà archiviâ i metadâts dai dipuesits discjariâts. Il predefinît al è il "
 "valôr di --download-path."
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
-msgstr "discjarie dome i pachets plui gnûfs par repository"
+msgstr "discjarie dome i pachets plui gnûfs par dipuesit"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
@@ -1139,7 +1132,7 @@ msgstr ""
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
-msgstr "dulà archiviâ i repository discjariâts"
+msgstr "dulà archiviâ i dipuesits discjariâts"
 
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
@@ -1195,7 +1188,7 @@ msgstr "no si è rivâts a eliminâ il file %s"
 #: plugins/reposync.py:222
 #, python-format
 msgid "comps.xml for repository %s saved"
-msgstr "salvât comps.xml pal repository %s"
+msgstr "salvât comps.xml pal dipuesit %s"
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
