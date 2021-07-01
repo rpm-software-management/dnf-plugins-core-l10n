@@ -1,22 +1,23 @@
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020, 2021.
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2018. #zanata, 2020, 2021.
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2019. #zanata, 2020, 2021.
+# Alexey Rubtsov <rushills@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-03-21 07:01+0000\n"
-"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
-"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ru/>\n"
+"PO-Revision-Date: 2021-07-02 09:04+0000\n"
+"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -292,7 +293,7 @@ msgstr "Укажите экземпляр Copr, с которым нужно р�
 
 #: plugins/copr.py:149 plugins/copr.py:217 plugins/copr.py:244
 msgid "Error: "
-msgstr "Ошибка:"
+msgstr "Ошибка: "
 
 #: plugins/copr.py:150
 msgid ""
@@ -347,11 +348,11 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Включение репозитория Copr. Обратите внимание, что этот репозиторий \n"
+"Включение репозитория Copr. Обратите внимание, что этот репозиторий\n"
 "не является частью основного дистрибутива, и качество может отличаться.\n"
 "\n"
 "Проект Fedora не имеет какого-либо влияния на содержимое этого\n"
-"репозитория за рамками  правил, описанных в Вопросах и Ответах Copr в\n"
+"репозитория за рамками правил, описанных в Вопросах и Ответах Copr в\n"
 "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
 "in-copr>,\n"
 "а качество и безопасность пакетов не поддерживаются на каком-либо уровне.\n"
@@ -595,7 +596,7 @@ msgstr ""
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
-msgstr "Не удалось найти совпадение"
+msgstr "Совпадений не найдено"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
@@ -753,7 +754,7 @@ msgstr "включить также прямые зависимости для �
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr "спецификации пакета"
+msgstr "спецификация пакета"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
@@ -859,7 +860,7 @@ msgstr "Дополнительная информация:"
 #: plugins/needs_restarting.py:263
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
-"Никакие основные библиотеки или службы не были обновлены со времени загрузки:"
+"Никакие основные библиотеки или службы не были обновлены со времени загрузки."
 
 #: plugins/needs_restarting.py:265
 msgid "Reboot should not be necessary."
@@ -880,7 +881,7 @@ msgstr "Плохое состояние транзакции: %s"
 #: plugins/post-transaction-actions.py:159
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr "post-transaction-actions: %s"
+msgstr "пост-транзакционные-действия: %s"
 
 #: plugins/post-transaction-actions.py:161
 #, python-format
