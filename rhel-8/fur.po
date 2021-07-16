@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-07-16 06:04+0000\n"
+"PO-Revision-Date: 2021-07-17 21:04+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/fur/>\n"
@@ -739,39 +739,35 @@ msgstr "inclût ancje lis dipendencis diretis pai pachets"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr ""
+msgstr "specificazion dal pachet"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
-msgstr ""
+msgstr "Impussibil modificâ il grup cence specificâlu (dopre --id o --name)"
 
 #: plugins/groups_manager.py:190
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't load file \"{}\": {}"
-msgstr "Impussibil scrivi il file '{}'"
+msgstr "Impussibil cjamâ il file \"{}\": {}"
 
 #: plugins/groups_manager.py:206
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't save file \"{}\": {}"
-msgstr "Impussibil scrivi il file '{}'"
+msgstr "Impussibil salvâ il file \"{}\": {}"
 
 #: plugins/groups_manager.py:259
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
-msgstr "Nissune corispondence pal argoment: %s"
+msgstr "Nissune corispondence pal argoment: {}"
 
 #: plugins/groups_manager.py:296
 msgid "Can't remove packages from non-existent group"
-msgstr ""
+msgstr "Impussibil gjavâ i pachets dal grup inesistent"
 
 #: plugins/groups_manager.py:305
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
+"L'ID dal grup '{}' gjenerât di '{}' al è duplicât. Par plasê specifiche l'ID "
+"dal grup doprant --id."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -811,6 +807,8 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
+"Nissun pachet instalât cjatât pal non di pachet \"{pkg}\" specificât tal "
+"file di needs-restarting \"{file}\"."
 
 #: plugins/needs_restarting.py:224
 msgid "determine updated binaries that need restarting"
@@ -829,11 +827,13 @@ msgstr ""
 
 #: plugins/needs_restarting.py:234
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "segnale dome i servizis di systemd interessâts"
 
 #: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
+"Dal inviament dal sisteme, lis librariis cûr o i servizis a son stâts "
+"inzornâts:"
 
 #: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
@@ -847,6 +847,7 @@ msgstr "Plui informazions:"
 #: plugins/needs_restarting.py:267
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
+"Dal inviament dal sisteme nissune librarie cûr o servizi al è stât inzornât."
 
 #: plugins/needs_restarting.py:269
 msgid "Reboot should not be necessary."
@@ -867,12 +868,12 @@ msgstr "Stât de transazion sbaliât: %s"
 #: plugins/post-transaction-actions.py:155
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr ""
+msgstr "azions sucessivis ae transazion: %s"
 
 #: plugins/post-transaction-actions.py:157
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "azions sucessivis ae transazion: comant sbaliât \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
@@ -897,7 +898,7 @@ msgstr "Controle dome i gnûfs pachets tai dipuesits"
 
 #: plugins/repoclosure.py:161
 msgid "Check closure for this package only"
-msgstr ""
+msgstr "Controle il sierâ dome par chest pachet"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
@@ -1102,10 +1103,11 @@ msgstr "discjarie ducj i metadâts."
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
 msgstr ""
+"Gjave i pachets che no passin il control de firme GPG dopo il discjariament"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
-msgstr ""
+msgstr "ancje discjame e decomprim comps.xml"
 
 #: plugins/reposync.py:75
 msgid ""
@@ -1121,7 +1123,7 @@ msgstr "discjarie dome i pachets plui gnûfs par dipuesit"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "No sta zontâ il non dal dipuesit al percors di discjariament."
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
@@ -1130,6 +1132,8 @@ msgstr "dulà archiviâ i dipuesits discjariâts"
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
+"prove a stabilî la marche temporâl locâl dai files locâi cun chei che a stan "
+"sul servidôr"
 
 #: plugins/reposync.py:87
 msgid "operate on source packages"
@@ -1137,28 +1141,28 @@ msgstr "lavorâ cui pachets sorzint"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr ""
+msgstr "Liste juste i urls di ce che al vignarà discjariât, no sta discjamâ"
 
 #: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "Impussibil doprâ --norepopath cun plui dipuesits"
 
 #: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr ""
+msgstr "Nol è stât pussibil otignî il spieli (mirror) pai metadâts: %s"
 
 #: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "Nol è stât pussibil otignî il spieli (mirror) pal file dal grup."
 
 #: plugins/reposync.py:168
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "Rimozion di {}: {}"
 
 #: plugins/reposync.py:175
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "Control de firme GPG falît."
 
 #: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
@@ -1208,11 +1212,11 @@ msgstr ""
 
 #: plugins/versionlock.py:37
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "Il pachet {} al è za blocât"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "Il pachet {} al è za escludût"
 
 #: plugins/versionlock.py:39
 msgid "Deleting versionlock for:"
@@ -1250,6 +1254,8 @@ msgstr "controle i blocs de version dal pachet"
 #: plugins/versionlock.py:136
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
+"Dopre lis specificazions dal pachet cussì ce mût che a son, no stâ cirî di "
+"analizâlis"
 
 #~ msgid ""
 #~ "\n"
