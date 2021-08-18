@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 01:43+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-19 06:05+0000\n"
+"Last-Translator: Hela Basa <r45xveza@pm.me>\n"
+"Language-Team: Sinhala <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/si/>\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -82,7 +84,7 @@ msgstr ""
 #: plugins/changelog.py:37
 #, python-brace-format
 msgid "Not a valid date: \"{0}\"."
-msgstr ""
+msgstr "වලංගු දිනයක් නොවේ: \"{0}\"."
 
 #: plugins/changelog.py:43
 msgid "Show changelog data of packages"
@@ -106,7 +108,7 @@ msgstr ""
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
-msgstr ""
+msgstr "ඇසුරුම"
 
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:90
 #, python-format
