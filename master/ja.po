@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 01:48+0000\n"
-"PO-Revision-Date: 2021-09-01 07:24+0000\n"
+"PO-Revision-Date: 2021-09-02 08:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ja/>\n"
@@ -223,6 +223,7 @@ msgid "Interact with Copr repositories."
 msgstr "Copr リポジトリーとの対話。"
 
 #: plugins/copr.py:81
+#, fuzzy
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -731,10 +732,8 @@ msgid "remove packages from the group instead of adding them"
 msgstr "パッケージを追加する代わりに、グループからパッケージを削除します"
 
 #: plugins/groups_manager.py:129
-#, fuzzy
-#| msgid "Display a list of unresolved dependencies for repositories"
 msgid "include also direct dependencies for packages"
-msgstr "リポジトリーの未解決の依存関係の一覧を表示します"
+msgstr "リポジトリーの直接の依存関係を含みます"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
@@ -986,43 +985,43 @@ msgstr "追加されたパッケージ: {}"
 
 #: plugins/repodiff.py:214
 msgid "Removed packages: {}"
-msgstr ""
+msgstr "削除されたパッケージ: {}"
 
 #: plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
-msgstr ""
+msgstr "アップグレードされたパッケージ: {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr ""
+msgstr "ダウングレードされたパッケージ: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
-msgstr ""
+msgstr "変更されたパッケージ: {}"
 
 #: plugins/repodiff.py:222
 msgid "Size of added packages: {}"
-msgstr ""
+msgstr "追加されたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:223
 msgid "Size of removed packages: {}"
-msgstr ""
+msgstr "削除されたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:225
 msgid "Size of modified packages: {}"
-msgstr ""
+msgstr "変更されたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:228
 msgid "Size of upgraded packages: {}"
-msgstr ""
+msgstr "アップグレードされたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:230
 msgid "Size of downgraded packages: {}"
-msgstr ""
+msgstr "ダウングレードされたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
-msgstr ""
+msgstr "サイズの変更: {}"
 
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
@@ -1083,21 +1082,21 @@ msgstr "リポジトリーにもはや存在しないローカルパッケージ
 
 #: plugins/reposync.py:68
 msgid "download all the metadata."
-msgstr ""
+msgstr "すべてのメタデータをダウンロードします。"
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
-msgstr ""
+msgstr "ダウンロード後に GPG 署名の確認に失敗するパッケージを削除します"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
-msgstr ""
+msgstr "comps.xml もダウンロードして展開します"
 
 #: plugins/reposync.py:75
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
-msgstr ""
+msgstr "ダウンロード済みリポジトリーメタデータの保管場所。初期値は --download-path です。"
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
@@ -1105,15 +1104,15 @@ msgstr "最新のパッケージ per-repo のみをダウンロード"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "ダウンロードパスにはリポネームを追加しないでください。"
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
-msgstr ""
+msgstr "ダウンロード済みリポジトリーの保管場所"
 
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
-msgstr ""
+msgstr "サーバー上から、ローカルファイルのローカル timestamps の設定を試みます"
 
 #: plugins/reposync.py:87
 #, fuzzy
@@ -1123,32 +1122,32 @@ msgstr "ソースパッケージでの操作"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr ""
+msgstr "ダウンロードする予定のものの URL をリストするだけで、ダウンロードしないでください"
 
 #: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "複数のリポジトリーでは -norepopath は使えません"
 
 #: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr ""
+msgstr "メタデータのミラー取得に失敗しました: %s"
 
 #: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "グループファイルのミラー取得に失敗しました。"
 
 #: plugins/reposync.py:168
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "{} の削除中: {}"
 
 #: plugins/reposync.py:175
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "GPG 署名の確認に失敗しました。"
 
 #: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
-msgstr ""
+msgstr "ダウンロードターゲット '{}' は、ダウンロードパス '{}' の外にあります。"
 
 #: plugins/reposync.py:211
 #, python-format
@@ -1189,15 +1188,15 @@ msgstr "除外を追加:"
 
 #: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "同等の形で既にロックされているパッケージ:"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "パッケージ {} は既にロックされています"
 
 #: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "パッケージ{}はすでに除外されています"
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
@@ -1230,7 +1229,7 @@ msgstr "パッケージバージョンロックの制御"
 
 #: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
-msgstr ""
+msgstr "パッケージ仕様をそのまま使用し、解析を試みないでください"
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
