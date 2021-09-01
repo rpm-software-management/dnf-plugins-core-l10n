@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 01:48+0000\n"
-"PO-Revision-Date: 2021-09-01 07:23+0000\n"
+"PO-Revision-Date: 2021-09-01 07:24+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ja/>\n"
@@ -926,55 +926,63 @@ msgstr "変更されたパッケージに簡単な 1 行メッセージを出力
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
-msgstr ""
+msgstr "アップグレードされたパッケージとダウングレードされたパッケージとの間で、変更されたパッケージのデータを分割します。"
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
-msgstr ""
+msgstr "新旧両方のリポジトリーを設定する必要があります。"
 
 #: plugins/repodiff.py:178
 msgid "Size change: {} bytes"
-msgstr ""
+msgstr "サイズの変更: {} バイト"
 
 #: plugins/repodiff.py:184
 msgid "Added package  : {}"
-msgstr ""
+msgstr "追加されたパッケージ  : {}"
 
 #: plugins/repodiff.py:187
 msgid "Removed package: {}"
-msgstr ""
+msgstr "削除されたパッケージ: {}"
 
 #: plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
-msgstr ""
+msgstr "により廃止されました: {}"
 
 #: plugins/repodiff.py:195
 msgid ""
 "\n"
 "Upgraded packages"
 msgstr ""
+"\n"
+"アップグレードされたパッケージ"
 
 #: plugins/repodiff.py:200
 msgid ""
 "\n"
 "Downgraded packages"
 msgstr ""
+"\n"
+"ダウングレードされたパッケージ"
 
 #: plugins/repodiff.py:207
 msgid ""
 "\n"
 "Modified packages"
 msgstr ""
+"\n"
+"変更されたパッケージ"
 
 #: plugins/repodiff.py:212
 msgid ""
 "\n"
 "Summary"
 msgstr ""
+"\n"
+"サマリー"
 
 #: plugins/repodiff.py:213
 msgid "Added packages: {}"
-msgstr ""
+msgstr "追加されたパッケージ: {}"
 
 #: plugins/repodiff.py:214
 msgid "Removed packages: {}"
