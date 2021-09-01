@@ -1,5 +1,5 @@
 # Ooyama Yosiyuki <qqke6wd9k@apricot.ocn.ne.jp>, 2015. #zanata
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Casey Jones <nahareport@yahoo.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 09:17+0200\n"
-"PO-Revision-Date: 2021-03-08 11:08+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-09-02 08:04+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-rhel-8/ja/>\n"
+"dnf-plugins-core-rhel-9/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -229,6 +229,7 @@ msgid "Interact with Copr repositories."
 msgstr "Copr リポジトリーとの対話。"
 
 #: plugins/copr.py:81
+#, fuzzy
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -1222,7 +1223,7 @@ msgstr "除外を追加:"
 
 #: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
-msgstr "同等の形で既にロックされているパッケージ。"
+msgstr "同等の形で既にロックされているパッケージ:"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already locked"
