@@ -3,7 +3,7 @@
 # mosquito <sensor.wen@gmail.com>, 2016. #zanata
 # Charles Lee <lchopn@gmail.com>, 2017. #zanata, 2020, 2021.
 # cheng ye <18969068329@163.com>, 2017. #zanata
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Hongqiao Chen <harrychen0314@gmail.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
@@ -12,16 +12,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 09:17+0200\n"
-"PO-Revision-Date: 2021-04-23 08:02+0000\n"
-"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"PO-Revision-Date: 2021-09-02 08:04+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
-"projects/dnf/dnf-plugins-core-rhel-8/zh_CN/>\n"
+"projects/dnf/dnf-plugins-core-rhel-9/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.8\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -228,6 +228,7 @@ msgid "Interact with Copr repositories."
 msgstr "与 Copr 仓库交互。"
 
 #: plugins/copr.py:81
+#, fuzzy
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
