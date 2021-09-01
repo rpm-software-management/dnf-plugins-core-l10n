@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-09-01 07:24+0000\n"
+"PO-Revision-Date: 2021-09-01 07:34+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ja/>\n"
@@ -224,6 +224,7 @@ msgid "Interact with Copr repositories."
 msgstr "Copr リポジトリーとの対話。"
 
 #: plugins/copr.py:81
+#, fuzzy
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -1174,7 +1175,7 @@ msgstr "除外を追加:"
 
 #: plugins/versionlock.py:36
 msgid "Package already locked in equivalent form:"
-msgstr "同等の形で既にロックされているパッケージ。"
+msgstr "同等の形で既にロックされているパッケージ:"
 
 #: plugins/versionlock.py:37
 msgid "Package {} is already locked"
