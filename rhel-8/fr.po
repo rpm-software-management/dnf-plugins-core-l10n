@@ -3,7 +3,7 @@
 # José Fournier <jaaf64@zoraldia.com>, 2017. #zanata
 # Jérôme Fenal <jfenal@gmail.com>, 2017. #zanata
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2018. #zanata, 2020.
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2020.
 # Julien Humbert <julroy67@gmail.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-03-08 11:08+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-09-03 10:36+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/fr/>\n"
 "Language: fr\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -669,21 +669,20 @@ msgstr "Aucun paquet %s n’est disponible."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr "ID de groupe non valide"
+msgstr "id de groupe invalide"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr ""
-"Les données traduites non valides doivent être sous la forme \"lang:text\""
+msgstr "Données traduites invalides, doivent être au format « lang : text »"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
-msgstr "Langue non valable/vide pour les données traduites"
+msgstr "Langue non valide / vide pour les données traduites"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
-"Impossible de générer un id de groupe à partir de '{}'. Veuillez spécifier "
+"Impossible de générer l'id du groupe à partir de «{}». Veuillez spécifier "
 "l'id du groupe en utilisant --id."
 
 #: plugins/groups_manager.py:79
@@ -692,7 +691,7 @@ msgstr "créer et modifier le fichier de métadonnées des groupes"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
-msgstr "charger les groupes de métadonnées du fichier"
+msgstr "charger des métadonnées de groupes à partir d'un fichier"
 
 #: plugins/groups_manager.py:93
 msgid "save groups metadata to file"
@@ -700,19 +699,19 @@ msgstr "enregistrer les métadonnées des groupes dans un fichier"
 
 #: plugins/groups_manager.py:95
 msgid "load and save groups metadata to file"
-msgstr "charger et enregistrer les métadonnées des groupes dans un fichier"
+msgstr "charge et enregistre les métadonnées des groupes dans un fichier"
 
 #: plugins/groups_manager.py:97
 msgid "print the result metadata to stdout"
-msgstr "imprimer les métadonnées de résultat sur stdout"
+msgstr "affiche les métadonnées du résultat sur la sortie standard"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr "id groupe"
+msgstr "id du groupe"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
-msgstr "nom du groupe"
+msgstr "Nom du groupe"
 
 #: plugins/groups_manager.py:103
 msgid "group description"
@@ -720,7 +719,7 @@ msgstr "description du groupe"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr "ordre d'affichage des groupes"
+msgstr "ordre d'affichage du groupe"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
@@ -740,36 +739,36 @@ msgstr "rendre l'utilisateur du groupe invisible"
 
 #: plugins/groups_manager.py:123
 msgid "add packages to the mandatory section"
-msgstr "ajouter des paquets à la section obligatoire"
+msgstr "ajoute les paquets à la section obligatoire"
 
 #: plugins/groups_manager.py:125
 msgid "add packages to the optional section"
-msgstr "ajouter des paquets à la section facultative"
+msgstr "ajoute les paquets à la section optionnelle"
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
-msgstr "retirer des paquets du groupe au lieu de les ajouter"
+msgstr "supprime les paquets du groupe au lieu de les ajouter"
 
 #: plugins/groups_manager.py:129
 msgid "include also direct dependencies for packages"
-msgstr "inclure également les dépendances directes pour les paquets"
+msgstr "inclus également les dépendances directes pour les paquets"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr "caractéristiques du paquet"
+msgstr "spécification du paquet"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
-"Impossible de modifier le groupe sans le spécifier (utiliser --id ou --name)"
+"Un groupe ne peut pas être édité sans le spécifier (utilisez --id ou --name)"
 
 #: plugins/groups_manager.py:190
 msgid "Can't load file \"{}\": {}"
-msgstr "Impossible de charger le fichier \"{}\" : {}"
+msgstr "Impossible de charger le fichier « {} » : {}"
 
 #: plugins/groups_manager.py:206
 msgid "Can't save file \"{}\": {}"
-msgstr "Impossible d'enregistrer le fichier \"{}\" : {}"
+msgstr "Impossible d’enregistrer le fichier « {} » : {}"
 
 #: plugins/groups_manager.py:259
 msgid "No match for argument: {}"
@@ -777,15 +776,15 @@ msgstr "Aucune correspondance pour l’argument : {}"
 
 #: plugins/groups_manager.py:296
 msgid "Can't remove packages from non-existent group"
-msgstr "Impossible de retirer des paquets d'un groupe inexistant"
+msgstr "Les paquets ne peuvent pas être retirés d'un groupe qui n'existe pas"
 
 #: plugins/groups_manager.py:305
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
-"L'identifiant de groupe '{}' généré à partir de '{}' est redondant. Veuillez "
-"spécifier l'identifiant du groupe en utilisant --id."
+"L'id du groupe « {} » qui a été généré pour « {} » est en double. Veuillez "
+"le spécifier en utilisant --id."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -846,7 +845,7 @@ msgstr ""
 
 #: plugins/needs_restarting.py:234
 msgid "only report affected systemd services"
-msgstr "ne signaler que les services systémiques concernés"
+msgstr "signaler uniquement les services systemd affectés"
 
 #: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
@@ -1125,8 +1124,8 @@ msgstr "télécharger toutes les métadonnées."
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
 msgstr ""
-"Supprimer les paquets qui échouent à la vérification de la signature GPG "
-"après le téléchargement"
+"Retire les paquets qui ont échoué la vérification de la signature GPG après "
+"téléchargement"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
@@ -1182,11 +1181,11 @@ msgstr "Échec de l’obtention du miroir pour le fichier de groupe."
 
 #: plugins/reposync.py:168
 msgid "Removing {}: {}"
-msgstr "Suppression {}: {}"
+msgstr "Suppression de « {} » : {}"
 
 #: plugins/reposync.py:175
 msgid "GPG signature check failed."
-msgstr "La vérification de la signature du GPG a échoué."
+msgstr "La vérification de la signature GPG a échoué."
 
 #: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
