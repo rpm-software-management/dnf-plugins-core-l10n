@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 09:17+0200\n"
-"PO-Revision-Date: 2021-04-18 16:02+0000\n"
+"PO-Revision-Date: 2021-09-04 17:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-8/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-9/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.8\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -302,16 +302,14 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "copr 명령에 정확히 두 개의 추가 매개 변수가 필요합니다"
 
 #: plugins/copr.py:227
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "인수가 일치하지 않습니다: %s"
+msgstr "너무 많은 인수."
 
 #: plugins/copr.py:230
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
-msgstr ""
+msgstr "선택적인 chroot의 나쁜 형식. 형식은 배포-버전-구조입니다."
 
 #: plugins/copr.py:245
 msgid "use format `copr_username/copr_projectname` to reference copr project"
@@ -1134,10 +1132,8 @@ msgid "try to set local timestamps of local files by the one on the server"
 msgstr "서버에 있는 하나에서 로컬파일의 로컬 타임스템프 설정을 시도하세요"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "자원 꾸러미에서 동작합니다"
+msgstr "원천 꾸러미에서만 내려받습니다"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1251,7 +1247,7 @@ msgstr "꾸러미(package) 사양을 그대로 사용하며, 구문 분석을 �
 
 #: plugins/versionlock.py:158
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
-msgstr ""
+msgstr "하위명령 '{}'가 더 이상 사용되지 않습니다. 대신에 '예외' 하위명령를 사용합니다."
 
 #~ msgid ""
 #~ "\n"
