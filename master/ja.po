@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-01 01:48+0000\n"
+"POT-Creation-Date: 2021-09-03 01:44+0000\n"
 "PO-Revision-Date: 2021-09-02 08:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -94,7 +94,9 @@ msgstr "パッケージの changelog データを表示します"
 msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
-msgstr "DATE 以降の changelog エントリーを表示します。不明瞭さを避けるため、YYYY-MM-DD のフォーマットが推奨されます。"
+msgstr ""
+"DATE 以降の changelog エントリーを表示します。不明瞭さを避けるため、YYYY-MM-"
+"DD のフォーマットが推奨されます。"
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
@@ -105,7 +107,8 @@ msgid ""
 "show only new changelog entries for packages, that provide an upgrade for "
 "some of already installed packages."
 msgstr ""
-"パッケージ向けの新しい changelog エントリーのみを表示します。これは、インストール済みのパッケージの一部にアップグレードを提供します。"
+"パッケージ向けの新しい changelog エントリーのみを表示します。これは、インス"
+"トール済みのパッケージの一部にアップグレードを提供します。"
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
@@ -127,7 +130,9 @@ msgstr[0] "最新の changelog のみを一覧表示します"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
-msgstr "パッケージのインストールされたバージョン以降の新しい changelogs のみを一覧表示します"
+msgstr ""
+"パッケージのインストールされたバージョン以降の新しい changelogs のみを一覧表"
+"示します"
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
@@ -179,8 +184,8 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
-"警告: --enablerepo/--disablerepo の引数は config manager では意味がありません。代わりに "
-"-set-enabled/--set-disabled を使用してください。"
+"警告: --enablerepo/--disablerepo の引数は config manager では意味がありませ"
+"ん。代わりに -set-enabled/--set-disabled を使用してください。"
 
 #: plugins/config_manager.py:132
 #, python-format
@@ -291,8 +296,8 @@ msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
-"`--hub` または `copr_hub/copr_username/copr_projectname` フォーマットを使って、Copr "
-"ハブを指定します"
+"`--hub` または `copr_hub/copr_username/copr_projectname` フォーマットを使っ"
+"て、Copr ハブを指定します"
 
 #: plugins/copr.py:153
 msgid "multiple hubs specified"
@@ -341,10 +346,11 @@ msgid ""
 msgstr ""
 "\n"
 "Copr リポジトリーを有効化しています。このリポジトリーは\n"
-"主要ディストリビューションの一部ではないため、品質が一定していない点に注意してください。\n"
+"主要ディストリビューションの一部ではないため、品質が一定していない点に注意し"
+"てください。\n"
 "\n"
-"Fedora Project は、このリポジトリーのコンテンツに関して、<https://docs.pagure.org/copr.copr/"
-"user_documentation.html#what-i-can-build-in-copr> の \n"
+"Fedora Project は、このリポジトリーのコンテンツに関して、<https://docs."
+"pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr> の \n"
 "Copr FAQ で示されたルールを超えて権利を行使することは\n"
 "ありません。また、パッケージは、任意の品質またはセキュリ\n"
 "ティーレベルを固守していません。\n"
@@ -375,7 +381,8 @@ msgid ""
 "this."
 msgstr ""
 "* これらの coprs には、Copr ハブに関する情報がない古いフォーマットの repo "
-"ファイルがあります。デフォルトは仮定です。これを修正するには、プロジェクトを再度有効化してください。"
+"ファイルがあります。デフォルトは仮定です。これを修正するには、プロジェクトを"
+"再度有効化してください。"
 
 #: plugins/copr.py:360
 msgid "Can't parse repositories for username '{}'."
@@ -536,7 +543,9 @@ msgstr "指定したタイプに限定します"
 msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
-msgstr "インストールのみのパッケージの削除を許可します。このオプションを使用すると、実行しているカーネルの削除を試みる可能性があります。"
+msgstr ""
+"インストールのみのパッケージの削除を許可します。このオプションを使用すると、"
+"実行しているカーネルの削除を試みる可能性があります。"
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -560,25 +569,31 @@ msgstr "debuginfo パッケージのインストール"
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
-msgstr "次の利用可能なパッケージの debuginfo パッケージが見つかりませんでした: %s"
+msgstr ""
+"次の利用可能なパッケージの debuginfo パッケージが見つかりませんでした: %s"
 
 #: plugins/debuginfo-install.py:185
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
-msgstr "次の利用可能なパッケージの debugsource パッケージが見つかりませんでした: %s"
+msgstr ""
+"次の利用可能なパッケージの debugsource パッケージが見つかりませんでした: %s"
 
 #: plugins/debuginfo-install.py:190
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
-msgstr "次のインストールされたパッケージの debuginfo パッケージが見つかりませんでした: %s"
+msgstr ""
+"次のインストールされたパッケージの debuginfo パッケージが見つかりませんでし"
+"た: %s"
 
 #: plugins/debuginfo-install.py:195
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
-msgstr "次のインストールされたパッケージの debugsource パッケージが見つかりませんでした: %s"
+msgstr ""
+"次のインストールされたパッケージの debugsource パッケージが見つかりませんでし"
+"た: %s"
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
@@ -616,7 +631,9 @@ msgstr "必要な依存関係を解決し、ダウンロードします"
 msgid ""
 "when running with --resolve, download all dependencies (do not exclude "
 "already installed ones)"
-msgstr "--resolve で実行する場合、すべての依存関係をダウンロードします (インストール済みのものを除外しないでください)"
+msgstr ""
+"--resolve で実行する場合、すべての依存関係をダウンロードします (インストール"
+"済みのものを除外しないでください)"
 
 #: plugins/download.py:67
 msgid ""
@@ -665,7 +682,9 @@ msgstr "翻訳されたデータの無効または空な言語"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
-msgstr "'{}' からグループ ID を生成できません。--id を使用してグループ ID を指定してください。"
+msgstr ""
+"'{}' からグループ ID を生成できません。--id を使用してグループ ID を指定して"
+"ください。"
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
@@ -741,7 +760,8 @@ msgstr "パッケージ仕様"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
-msgstr "指定せずにはグループを編集できません (--id または --name を使用してください)"
+msgstr ""
+"指定せずにはグループを編集できません (--id または --name を使用してください)"
 
 #: plugins/groups_manager.py:190
 msgid "Can't load file \"{}\": {}"
@@ -763,7 +783,9 @@ msgstr "存在しないグループからパッケージを削除できません
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
-msgstr "'{}' から生成されたグループ ID '{}' は重複しています。--id を使用してグループ ID を指定してください。"
+msgstr ""
+"'{}' から生成されたグループ ID '{}' は重複しています。--id を使用してグルー"
+"プ ID を指定してください。"
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -804,8 +826,8 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
-"needs-restarting ファイル \"{file}\" に指定されている {pkg} "
-"というパッケージのインストール済みパッケージが見つかりません。"
+"needs-restarting ファイル \"{file}\" に指定されている {pkg} というパッケージ"
+"のインストール済みパッケージが見つかりません。"
 
 #: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
@@ -818,7 +840,8 @@ msgstr "このユーザーのプロセスのみを検討します"
 #: plugins/needs_restarting.py:227
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
-msgstr "再起動が必要か (終了コード 1) 必要でないか (終了コード 0) のみを報告します"
+msgstr ""
+"再起動が必要か (終了コード 1) 必要でないか (終了コード 0) のみを報告します"
 
 #: plugins/needs_restarting.py:230
 msgid "only report affected systemd services"
@@ -838,7 +861,8 @@ msgstr "詳細情報:"
 
 #: plugins/needs_restarting.py:263
 msgid "No core libraries or services have been updated since boot-up."
-msgstr "起動以降にアップデートされたコアライブラリーまたはサービスはありません。"
+msgstr ""
+"起動以降にアップデートされたコアライブラリーまたはサービスはありません。"
 
 #: plugins/needs_restarting.py:265
 msgid "Reboot should not be necessary."
@@ -906,7 +930,9 @@ msgstr "新しいリポジトリーを指定します、これは複数回使用
 msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
-msgstr "比較するアーキテクチャーを指定します、これは複数回使用できます。デフォルトで、ソース rpms のみが比較されます。"
+msgstr ""
+"比較するアーキテクチャーを指定します、これは複数回使用できます。デフォルト"
+"で、ソース rpms のみが比較されます。"
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
@@ -915,7 +941,9 @@ msgstr "変更サイズに関する追加データを出力します。"
 #: plugins/repodiff.py:69
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
-msgstr "パッケージを Arch でも比較します。デフォルトで、パッケージは名前のみで比較されます。"
+msgstr ""
+"パッケージを Arch でも比較します。デフォルトで、パッケージは名前のみで比較さ"
+"れます。"
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
@@ -925,7 +953,9 @@ msgstr "変更されたパッケージに簡単な 1 行メッセージを出力
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
-msgstr "アップグレードされたパッケージとダウングレードされたパッケージとの間で、変更されたパッケージのデータを分割します。"
+msgstr ""
+"アップグレードされたパッケージとダウングレードされたパッケージとの間で、変更"
+"されたパッケージのデータを分割します。"
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
@@ -1096,7 +1126,9 @@ msgstr "comps.xml もダウンロードして展開します"
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
-msgstr "ダウンロード済みリポジトリーメタデータの保管場所。初期値は --download-path です。"
+msgstr ""
+"ダウンロード済みリポジトリーメタデータの保管場所。初期値は --download-path で"
+"す。"
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
@@ -1122,7 +1154,9 @@ msgstr "ソースパッケージでの操作"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr "ダウンロードする予定のものの URL をリストするだけで、ダウンロードしないでください"
+msgstr ""
+"ダウンロードする予定のものの URL をリストするだけで、ダウンロードしないでくだ"
+"さい"
 
 #: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
