@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-04 01:44+0000\n"
+"POT-Creation-Date: 2021-09-10 01:47+0000\n"
 "PO-Revision-Date: 2021-09-04 17:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -282,11 +282,11 @@ msgstr "사용자가 사용할 수있는 Copr 저장소를 나열합니다. NAME
 msgid "Specify an instance of Copr to work with"
 msgstr "일하는 Copr의 예를 지정합니다"
 
-#: plugins/copr.py:149 plugins/copr.py:217 plugins/copr.py:244
+#: plugins/copr.py:151 plugins/copr.py:219 plugins/copr.py:246
 msgid "Error: "
 msgstr "오류: "
 
-#: plugins/copr.py:150
+#: plugins/copr.py:152
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -294,35 +294,35 @@ msgstr ""
 "Corp hub를 `--hub` 또는 사용하기 `copr_hub/copr_username/copr_projectname`형"
 "식으로 지정합니다"
 
-#: plugins/copr.py:153
+#: plugins/copr.py:155
 msgid "multiple hubs specified"
 msgstr "지정된 여러 허브"
 
-#: plugins/copr.py:218 plugins/copr.py:222
+#: plugins/copr.py:220 plugins/copr.py:224
 msgid "exactly two additional parameters to copr command are required"
 msgstr "copr 명령에 정확히 두 개의 추가 매개 변수가 필요합니다"
 
-#: plugins/copr.py:227
+#: plugins/copr.py:229
 msgid "Too many arguments."
 msgstr "너무 많은 인수."
 
-#: plugins/copr.py:230
+#: plugins/copr.py:232
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr "선택적인 chroot의 나쁜 형식. 형식은 배포-버전-구조입니다."
 
-#: plugins/copr.py:245
+#: plugins/copr.py:247
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "copr 프로젝트를 참조하기 위해`copr_username / copr_projectname` 형식을 사용하"
 "십시오"
 
-#: plugins/copr.py:247
+#: plugins/copr.py:249
 msgid "bad copr project format"
 msgstr "나쁜 copr 프로젝트 형식"
 
-#: plugins/copr.py:261
+#: plugins/copr.py:263
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -352,23 +352,23 @@ msgstr ""
 "페도라 버그질라에 이들 꾸러미에 대한 파일 결점 보고를 제출하지 마세요.\n"
 "이들 문제는, 이들 저장소 소유자와 접촉하세요.\n"
 
-#: plugins/copr.py:278
+#: plugins/copr.py:280
 msgid "Repository successfully enabled."
 msgstr "저장소가 사용 설정되었습니다."
 
-#: plugins/copr.py:283
+#: plugins/copr.py:285
 msgid "Repository successfully disabled."
 msgstr "저장소가 사용 중지되었습니다."
 
-#: plugins/copr.py:287
+#: plugins/copr.py:289
 msgid "Repository successfully removed."
 msgstr "저장소가 제거되었습니다."
 
-#: plugins/copr.py:291 plugins/copr.py:698
+#: plugins/copr.py:293 plugins/copr.py:701
 msgid "Unknown subcommand {}."
 msgstr "알 수없는 부속 명령 {}."
 
-#: plugins/copr.py:348
+#: plugins/copr.py:350
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -377,48 +377,48 @@ msgstr ""
 "* 이들 coprs은 Copr hub에 대하여 어떤 정보도 포함하지 않는 오래된 형태의 저장"
 "소 파일을 갖고 있습니다. 이 문제를 수정하기 위하여 프로젝트를 재활성화하세요."
 
-#: plugins/copr.py:360
+#: plugins/copr.py:362
 msgid "Can't parse repositories for username '{}'."
 msgstr "사용자 이름 '{}'에 대한 리포지토리를 구문 분석 할 수 없습니다."
 
-#: plugins/copr.py:363
+#: plugins/copr.py:365
 msgid "List of {} coprs"
 msgstr "{} 명의 경찰 목록"
 
-#: plugins/copr.py:371
+#: plugins/copr.py:373
 msgid "No description given"
 msgstr "설명이 없습니다"
 
-#: plugins/copr.py:383
+#: plugins/copr.py:385
 msgid "Can't parse search for '{}'."
 msgstr "'{}'에 대한 검색을 구문 분석 할 수 없습니다."
 
-#: plugins/copr.py:386
+#: plugins/copr.py:388
 msgid "Matched: {}"
 msgstr "일치하는 항목 : {}"
 
-#: plugins/copr.py:394
+#: plugins/copr.py:396
 msgid "No description given."
 msgstr "설명이 없습니다."
 
-#: plugins/copr.py:417
+#: plugins/copr.py:419
 msgid "Safe and good answer. Exiting."
 msgstr "안전하고 좋은 대답. 나가기."
 
-#: plugins/copr.py:424
+#: plugins/copr.py:426
 msgid "This command has to be run under the root user."
 msgstr "이 명령은 루트 사용자로 실행해야합니다."
 
-#: plugins/copr.py:486
+#: plugins/copr.py:488
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr "이 저장소에는 빌드가 아직 없으므로 지금 사용할 수 없습니다."
 
-#: plugins/copr.py:489
+#: plugins/copr.py:491
 msgid "Such repository does not exist."
 msgstr "이러한 저장소는 존재하지 않습니다."
 
-#: plugins/copr.py:533
+#: plugins/copr.py:535
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -447,44 +447,44 @@ msgstr ""
 "\n"
 "이들 저장소는 자동으로 활성화 됩니다."
 
-#: plugins/copr.py:554
+#: plugins/copr.py:556
 msgid "Do you want to keep them enabled?"
 msgstr "계속 사용하길 원하시나요?"
 
-#: plugins/copr.py:587
+#: plugins/copr.py:589
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "copr repo {0}/{1}/{2} 제거를 실패하였습니다"
 
-#: plugins/copr.py:598
+#: plugins/copr.py:600
 msgid "Failed to disable copr repo {}/{}"
 msgstr "copr repo {} / {}를 사용 중지를 실패하였습니다"
 
-#: plugins/copr.py:616 plugins/copr.py:653
+#: plugins/copr.py:618 plugins/copr.py:655
 msgid "Unknown response from server."
 msgstr "서버에서 알 수없는 응답."
 
-#: plugins/copr.py:638
+#: plugins/copr.py:640
 msgid "Interact with Playground repository."
 msgstr "놀이터 저장소와 상호 작용하십시오."
 
-#: plugins/copr.py:644
+#: plugins/copr.py:646
 msgid "Enabling a Playground repository."
 msgstr "동작 저장소와 활용하기."
 
-#: plugins/copr.py:645
+#: plugins/copr.py:647
 msgid "Do you want to continue?"
 msgstr "계속하기를 원하십니까?"
 
-#: plugins/copr.py:688
+#: plugins/copr.py:691
 msgid "Playground repositories successfully enabled."
 msgstr "놀이터 저장소를 사용하도록 설정했습니다."
 
-#: plugins/copr.py:691
+#: plugins/copr.py:694
 msgid "Playground repositories successfully disabled."
 msgstr "놀이터 저장소가 사용 중지되었습니다."
 
-#: plugins/copr.py:695
+#: plugins/copr.py:698
 msgid "Playground repositories successfully updated."
 msgstr "놀이터 저장소가 성공적으로 업데이트되었습니다."
 
