@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-10 01:47+0000\n"
-"PO-Revision-Date: 2021-09-10 09:49+0000\n"
+"PO-Revision-Date: 2021-09-11 10:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ja/>\n"
@@ -307,10 +307,8 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "copr コマンドに厳密に 2 つの追加パラメーターが必要です"
 
 #: plugins/copr.py:229
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "一致した引数がありません: %s"
+msgstr "引数が多すぎます。"
 
 #: plugins/copr.py:232
 msgid ""
@@ -1148,10 +1146,8 @@ msgid "try to set local timestamps of local files by the one on the server"
 msgstr "サーバー上から、ローカルファイルのローカル timestamps の設定を試みます"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "ソースパッケージでの操作"
+msgstr "ソースパッケージのみをダウンロード"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1268,7 +1264,7 @@ msgstr "パッケージ仕様をそのまま使用し、解析を試みないで
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
-msgstr ""
+msgstr "サブコマンド '{}' は非推奨になりました。代わりに 'exclude' サブコマンドを使用してください。"
 
 #~ msgid ""
 #~ "\n"
