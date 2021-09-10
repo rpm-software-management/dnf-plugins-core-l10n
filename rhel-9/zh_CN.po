@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 09:17+0200\n"
-"PO-Revision-Date: 2021-09-03 07:40+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2021-09-10 09:49+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-rhel-9/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -306,16 +306,14 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "Copr 命令要求有且仅有两个额外参数"
 
 #: plugins/copr.py:227
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "未找到匹配的参数： %s"
+msgstr "参数过多。"
 
 #: plugins/copr.py:230
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
-msgstr ""
+msgstr "可选 chroot 的错误格式。格式为 distribution-version-architecture。"
 
 #: plugins/copr.py:245
 msgid "use format `copr_username/copr_projectname` to reference copr project"
@@ -1111,10 +1109,8 @@ msgid "try to set local timestamps of local files by the one on the server"
 msgstr "根据服务器上的文件设置本地文件的本地时间戳"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "在源软件包中操作"
+msgstr "只下载源软件包"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1228,7 +1224,7 @@ msgstr "按原样使用程序包规格，请勿尝试解析它们"
 
 #: plugins/versionlock.py:158
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
-msgstr ""
+msgstr "子命令 '{}' 已被弃用。改为使用 'exclude' 子命令。"
 
 #~ msgid ""
 #~ "\n"
