@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 01:47+0000\n"
+"POT-Creation-Date: 2021-09-11 01:43+0000\n"
 "PO-Revision-Date: 2021-09-11 10:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -1264,7 +1264,9 @@ msgstr "パッケージ仕様をそのまま使用し、解析を試みないで
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
-msgstr "サブコマンド '{}' は非推奨になりました。代わりに 'exclude' サブコマンドを使用してください。"
+msgstr ""
+"サブコマンド '{}' は非推奨になりました。代わりに 'exclude' サブコマンドを使用"
+"してください。"
 
 #~ msgid ""
 #~ "\n"
