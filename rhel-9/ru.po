@@ -7,17 +7,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 09:17+0200\n"
-"PO-Revision-Date: 2021-07-02 09:04+0000\n"
-"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
-"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-8/ru/>\n"
+"PO-Revision-Date: 2021-10-14 20:05+0000\n"
+"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-9/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -312,16 +312,16 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "требуются в точности два дополнительных параметра к команде copr"
 
 #: plugins/copr.py:227
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Нет совпадений для аргумента: %s"
+msgstr "Слишком много аргументов."
 
 #: plugins/copr.py:230
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
+"Плохой формат необязательного chroot. Формат - "
+"архитектура-версия-дистрибутив."
 
 #: plugins/copr.py:245
 msgid "use format `copr_username/copr_projectname` to reference copr project"
@@ -1147,10 +1147,8 @@ msgstr ""
 "сервере"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "работать с исходными пакетами"
+msgstr "загружать только пакеты с исходными текстами"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1270,6 +1268,7 @@ msgstr ""
 #: plugins/versionlock.py:158
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+"Подкоманда «{}» устарела. Вместо этого используйте подкоманду «exclude»."
 
 #~ msgid ""
 #~ "\n"
