@@ -3,15 +3,15 @@
 # Zoltan Hoppar <zoltanh721@fedoraproject.org>, 2017. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2018. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
 # Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-14 01:48+0000\n"
-"PO-Revision-Date: 2021-06-18 05:04+0000\n"
-"Last-Translator: Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>\n"
+"PO-Revision-Date: 2021-11-02 10:05+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/hu/>\n"
 "Language: hu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.8\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -189,6 +189,9 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"Figyelem: az --enablerepo/--disablerepo argumentumoknak nincs értelme a "
+"konfigurációkezelővel. Használja inkább a --set-enabled/--set-disabled "
+"kapcsolókat."
 
 #: plugins/config_manager.py:132
 #, python-format
@@ -318,6 +321,8 @@ msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
+"Hibás formátum a nem kötelező chrootnál. A formátum "
+"disztribúció-verzió-architektúra."
 
 #: plugins/copr.py:256
 msgid "use format `copr_username/copr_projectname` to reference copr project"
@@ -440,10 +445,22 @@ msgid ""
 "\n"
 "These repositories have been enabled automatically."
 msgstr ""
+"Az engedélyezett Copr tároló karbantartója úgy döntött,\n"
+"hogy más tárolóktól függ. Az ilyen tárolók általában a fő\n"
+"Copr tárolóból történő RPM telepítéshez szükségesek\n"
+"(futásidejű függőségeket biztosítanak).\n"
+"\n"
+"Vegye figyelembe, hogy a minőséggel és hibajelzéssel\n"
+"kapcsolatos figyelmeztetés itt is érvényes, nem a Fedora\n"
+"Project irányítja a tartalmat. Nézze át a listát:\n"
+"\n"
+"{0}\n"
+"\n"
+"Ezek a tárolók automatikusan engedélyezve lettek."
 
 #: plugins/copr.py:567
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "Továbbra is engedélyezve hagyja őket?"
 
 #: plugins/copr.py:600
 #, python-brace-format
@@ -463,14 +480,12 @@ msgid "Interact with Playground repository."
 msgstr "Együttműködés a Playground tárolóval."
 
 #: plugins/copr.py:657
-#, fuzzy
-#| msgid "Interact with Playground repository."
 msgid "Enabling a Playground repository."
-msgstr "Együttműködés a Playground tárolóval."
+msgstr "A Playground tároló engedélyezése."
 
 #: plugins/copr.py:658
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Folytatja?"
 
 #: plugins/copr.py:702
 msgid "Playground repositories successfully enabled."
@@ -530,6 +545,8 @@ msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
 msgstr ""
+"A csak telepíthető csomagok eltávolításának engedélyezése. A kapcsoló "
+"használata a futó kernel törlésének kísérletét eredményezheti."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -650,63 +667,63 @@ msgstr "A(z) %s csomag nem érhető el."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "Érvénytelen csoportazonosító"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
 msgstr ""
+"Érvénytelen lefordított adatok, a formátumnak ilyennek kellene lennie: "
+"„nyelv:szöveg”"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
-msgstr ""
+msgstr "Érvénytelen/üres nyelv a lefordított adatoknál"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
+"A csoportazonosító ebből nem állítható elő: „{}”. Adja meg a "
+"csoportazonosítót az --id kapcsolóval."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
-msgstr ""
+msgstr "csoportok metaadat-fájljainak létrehozása és szerkesztése"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
-msgstr ""
+msgstr "csoportok metaadatainak betöltése fájlból"
 
 #: plugins/groups_manager.py:93
 msgid "save groups metadata to file"
-msgstr ""
+msgstr "csoportok metaadatainak fájlba mentése"
 
 #: plugins/groups_manager.py:95
 msgid "load and save groups metadata to file"
-msgstr ""
+msgstr "csoportok metaadatainak fájlból betöltése, és abba mentése"
 
 #: plugins/groups_manager.py:97
-#, fuzzy
-#| msgid "print variable values to stdout"
 msgid "print the result metadata to stdout"
-msgstr "kiírja a változó értékeket a sztenderd kimenetre"
+msgstr "az eredményezett metaadatok kiírása a szabványos kimenetre"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr ""
+msgstr "csoportazonosító"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
-msgstr ""
+msgstr "csoportnév"
 
 #: plugins/groups_manager.py:103
-#, fuzzy
-#| msgid "No description given"
 msgid "group description"
-msgstr "Nincs leírás adva"
+msgstr "csoportleírás"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr ""
+msgstr "csoportok megjelenítése sorrendje"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
-msgstr ""
+msgstr "a csoport lefordított neve"
 
 #: plugins/groups_manager.py:111
 msgid "translated description for the group"
@@ -714,65 +731,61 @@ msgstr "lefordított leírás a csoport számára"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
-msgstr ""
+msgstr "a csoportfelhasználó láthatóvá tétele (alapértelmezett)"
 
 #: plugins/groups_manager.py:118
 msgid "make the group user invisible"
-msgstr ""
+msgstr "a csoportfelhasználó láthatatlanná tétele"
 
 #: plugins/groups_manager.py:123
 msgid "add packages to the mandatory section"
-msgstr ""
+msgstr "csomagok hozzáadása a kötelező szakaszhoz"
 
 #: plugins/groups_manager.py:125
 msgid "add packages to the optional section"
-msgstr ""
+msgstr "csomagok hozzáadása a nem kötelező szakaszhoz"
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
-msgstr ""
+msgstr "csomagok eltávolítása a csoportból, a hozzáadásuk helyett"
 
 #: plugins/groups_manager.py:129
-#, fuzzy
-#| msgid "Display a list of unresolved dependencies for repositories"
 msgid "include also direct dependencies for packages"
-msgstr "A tárolók kielégítetlen függőségeinek megjelenítése"
+msgstr "a csomagok közvetlen függőségeinek belevétele"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr ""
+msgstr "csomagspecifikáció"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
+"Csoport nem szerkeszthető a megadása nélkül (használja az --id vagy --name "
+"kapcsolókat)"
 
 #: plugins/groups_manager.py:190
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't load file \"{}\": {}"
-msgstr "A(z) „{}” fájl nem írható"
+msgstr "A(z) „{}” fájl nem tölthető be: {}"
 
 #: plugins/groups_manager.py:206
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't save file \"{}\": {}"
-msgstr "A(z) „{}” fájl nem írható"
+msgstr "A(z) „{}” fájl nem írható: {}"
 
 #: plugins/groups_manager.py:259
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
-msgstr "Nem található egyezés a következő argumentumra: %s"
+msgstr "Nem található egyezés a következő argumentumra: {}"
 
 #: plugins/groups_manager.py:296
 msgid "Can't remove packages from non-existent group"
-msgstr ""
+msgstr "Nem távolítható el csomag egy nem létező csoportból"
 
 #: plugins/groups_manager.py:305
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
+"A következőből előállított „{}” csoportazonosító duplikátum: „{}”. Adja meg "
+"a csoportazonosítót az --id kapcsolóval."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -813,6 +826,8 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
+"Nem található a(z) „{pkg}” telepített csomag, amely szerepel az újraindítást "
+"igénylő csomagokat tartalmazó „{file}” fájlban."
 
 #: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
@@ -831,7 +846,7 @@ msgstr ""
 
 #: plugins/needs_restarting.py:230
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "csak az érintett systemd szolgáltatások jelentése"
 
 #: plugins/needs_restarting.py:253
 msgid "Core libraries or services have been updated since boot-up:"
@@ -1105,7 +1120,7 @@ msgstr "összes metaadat letöltése."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
-msgstr ""
+msgstr "A GPG aláírás-ellenőrzésen elbukott csomagok eltávolítása letöltés után"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
@@ -1138,10 +1153,8 @@ msgstr ""
 "beállítani"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "műveletek elvégzése a forráscsomagokon"
+msgstr "csak a forráscsomagok letöltése"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1162,11 +1175,11 @@ msgstr "Nem található tükör a csoportfájlhoz."
 
 #: plugins/reposync.py:168
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "A(z) {} eltávolítása: {}"
 
 #: plugins/reposync.py:175
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "A GPG aláírás-ellenőrzés sikertelen."
 
 #: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
@@ -1261,6 +1274,7 @@ msgstr ""
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+"A(z) „{}” alparancs elavult. Helyette használja a(z) „exclude” alparancsot."
 
 #~ msgid ""
 #~ "\n"
