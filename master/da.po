@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-14 01:48+0000\n"
+"POT-Creation-Date: 2021-10-25 01:48+0000\n"
 "PO-Revision-Date: 2020-07-21 20:29+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -370,7 +370,7 @@ msgstr "Softwarearkiv deaktiveret."
 msgid "Repository successfully removed."
 msgstr "Softwarearkiv fjernet."
 
-#: plugins/copr.py:302 plugins/copr.py:712
+#: plugins/copr.py:302 plugins/copr.py:706
 msgid "Unknown subcommand {}."
 msgstr "Ukendt underkommando {}."
 
@@ -384,50 +384,50 @@ msgstr ""
 "nogen information om Copr-hub - standarden blev antaget. Genaktivér "
 "projektet for at rette det."
 
-#: plugins/copr.py:371
+#: plugins/copr.py:372
 msgid "Can't parse repositories for username '{}'."
 msgstr "Kan ikke fortolke softwarearkiver for brugernavnet '{}'."
 
-#: plugins/copr.py:374
+#: plugins/copr.py:375
 msgid "List of {} coprs"
 msgstr "Liste over {}-copr'er"
 
-#: plugins/copr.py:382
+#: plugins/copr.py:380
 msgid "No description given"
 msgstr "Ingen beskrivelse givet"
 
-#: plugins/copr.py:394
+#: plugins/copr.py:392
 msgid "Can't parse search for '{}'."
 msgstr "Kan ikke fortolke søgning til '{}'."
 
-#: plugins/copr.py:397
+#: plugins/copr.py:395
 msgid "Matched: {}"
 msgstr "Matchet: {}"
 
-#: plugins/copr.py:405
+#: plugins/copr.py:400
 msgid "No description given."
 msgstr "Ingen beskrivelse givet."
 
-#: plugins/copr.py:428
+#: plugins/copr.py:422
 msgid "Safe and good answer. Exiting."
 msgstr "Sikkert og godt svar. Afslutter."
 
-#: plugins/copr.py:435
+#: plugins/copr.py:429
 msgid "This command has to be run under the root user."
 msgstr "Kommandoen skal køres under root-brugeren."
 
-#: plugins/copr.py:499
+#: plugins/copr.py:493
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr ""
 "Softwarearkivet har endnu ikke nogen bygninger, så du kan ikke aktivere den "
 "nu."
 
-#: plugins/copr.py:502
+#: plugins/copr.py:496
 msgid "Such repository does not exist."
 msgstr "Softwarearkivet findes ikke."
 
-#: plugins/copr.py:546
+#: plugins/copr.py:540
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -456,44 +456,44 @@ msgstr ""
 "\n"
 "Softwarearkiverne er blevet aktiveret automatisk."
 
-#: plugins/copr.py:567
+#: plugins/copr.py:561
 msgid "Do you want to keep them enabled?"
 msgstr "Vil du holde dem aktiveret?"
 
-#: plugins/copr.py:600
+#: plugins/copr.py:594
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Kunne ikke fjerne copr-softwarearkiv {0}/{1}/{2}"
 
-#: plugins/copr.py:611
+#: plugins/copr.py:605
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Kunne ikke deaktivere copr-softwarearkivet {}/{}"
 
-#: plugins/copr.py:629 plugins/copr.py:666
+#: plugins/copr.py:623 plugins/copr.py:660
 msgid "Unknown response from server."
 msgstr "Ukendt svar fra server."
 
-#: plugins/copr.py:651
+#: plugins/copr.py:645
 msgid "Interact with Playground repository."
 msgstr "Interager med Playground-softwarearkiv."
 
-#: plugins/copr.py:657
+#: plugins/copr.py:651
 msgid "Enabling a Playground repository."
 msgstr "Aktiverer et Playground-softwarearkiv."
 
-#: plugins/copr.py:658
+#: plugins/copr.py:652
 msgid "Do you want to continue?"
 msgstr "Vil du fortsætte?"
 
-#: plugins/copr.py:702
+#: plugins/copr.py:696
 msgid "Playground repositories successfully enabled."
 msgstr "Playground-softwarearkiver blev aktiveret."
 
-#: plugins/copr.py:705
+#: plugins/copr.py:699
 msgid "Playground repositories successfully disabled."
 msgstr "Playground-softwarearkiver blev deaktiveret."
 
-#: plugins/copr.py:709
+#: plugins/copr.py:703
 msgid "Playground repositories successfully updated."
 msgstr "Playground-softwarearkiver blev opdateret."
 

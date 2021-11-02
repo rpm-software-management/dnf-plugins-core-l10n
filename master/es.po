@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-14 01:48+0000\n"
+"POT-Creation-Date: 2021-10-25 01:48+0000\n"
 "PO-Revision-Date: 2020-09-01 14:29+0000\n"
 "Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -369,7 +369,7 @@ msgstr "Repositorio desactivado."
 msgid "Repository successfully removed."
 msgstr "Repositorio eliminado exitosamente."
 
-#: plugins/copr.py:302 plugins/copr.py:712
+#: plugins/copr.py:302 plugins/copr.py:706
 msgid "Unknown subcommand {}."
 msgstr "Subcomando {} desconocido."
 
@@ -380,49 +380,49 @@ msgid ""
 "this."
 msgstr ""
 
-#: plugins/copr.py:371
+#: plugins/copr.py:372
 msgid "Can't parse repositories for username '{}'."
 msgstr "No se pueden procesar repositorios para el usuario '{}'."
 
-#: plugins/copr.py:374
+#: plugins/copr.py:375
 msgid "List of {} coprs"
 msgstr "Lista de coprs {}"
 
-#: plugins/copr.py:382
+#: plugins/copr.py:380
 msgid "No description given"
 msgstr "No se dio una descripción"
 
-#: plugins/copr.py:394
+#: plugins/copr.py:392
 msgid "Can't parse search for '{}'."
 msgstr "No se puede procesar búsqueda por '{}'."
 
-#: plugins/copr.py:397
+#: plugins/copr.py:395
 msgid "Matched: {}"
 msgstr "Coincidencias: {}"
 
-#: plugins/copr.py:405
+#: plugins/copr.py:400
 msgid "No description given."
 msgstr "No se dio una descripción."
 
-#: plugins/copr.py:428
+#: plugins/copr.py:422
 msgid "Safe and good answer. Exiting."
 msgstr "Respuesta buena y segura. Saliendo."
 
-#: plugins/copr.py:435
+#: plugins/copr.py:429
 msgid "This command has to be run under the root user."
 msgstr "Este comando debe ejecutarse como usuario root."
 
-#: plugins/copr.py:499
+#: plugins/copr.py:493
 msgid ""
 "This repository does not have any builds yet so you cannot enable it now."
 msgstr ""
 "Este repositorio no tiene construcciones todavía así que no lo puede activar."
 
-#: plugins/copr.py:502
+#: plugins/copr.py:496
 msgid "Such repository does not exist."
 msgstr "Tal repositorio no existe."
 
-#: plugins/copr.py:546
+#: plugins/copr.py:540
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -439,44 +439,44 @@ msgid ""
 "These repositories have been enabled automatically."
 msgstr ""
 
-#: plugins/copr.py:567
+#: plugins/copr.py:561
 msgid "Do you want to keep them enabled?"
 msgstr ""
 
-#: plugins/copr.py:600
+#: plugins/copr.py:594
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "No se pudo eliminar el repositorio copr {0}/{1}/{2}"
 
-#: plugins/copr.py:611
+#: plugins/copr.py:605
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Falló la activación del repo copr {}/{}"
 
-#: plugins/copr.py:629 plugins/copr.py:666
+#: plugins/copr.py:623 plugins/copr.py:660
 msgid "Unknown response from server."
 msgstr "Respuesta desconocida del servidor."
 
-#: plugins/copr.py:651
+#: plugins/copr.py:645
 msgid "Interact with Playground repository."
 msgstr "Interactuar con el repositorio Playground."
 
-#: plugins/copr.py:657
+#: plugins/copr.py:651
 msgid "Enabling a Playground repository."
 msgstr "Habilitando un repositorio Playground."
 
-#: plugins/copr.py:658
+#: plugins/copr.py:652
 msgid "Do you want to continue?"
 msgstr ""
 
-#: plugins/copr.py:702
+#: plugins/copr.py:696
 msgid "Playground repositories successfully enabled."
 msgstr "Se han activado los repositorios Playground."
 
-#: plugins/copr.py:705
+#: plugins/copr.py:699
 msgid "Playground repositories successfully disabled."
 msgstr "Se desactivaron los repositorios Playground."
 
-#: plugins/copr.py:709
+#: plugins/copr.py:703
 msgid "Playground repositories successfully updated."
 msgstr "Repositorios Playground actualizados exitosamente."
 
