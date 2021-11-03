@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 09:17+0200\n"
-"PO-Revision-Date: 2021-11-02 10:05+0000\n"
+"PO-Revision-Date: 2021-11-04 21:05+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-9/hu/>\n"
@@ -313,10 +313,8 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "pontosan két további paraméter szükséges a copr parancshoz"
 
 #: plugins/copr.py:227
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Nem található egyezés a következő argumentumra: %s"
+msgstr "Túl sok argumentum."
 
 #: plugins/copr.py:230
 msgid ""
