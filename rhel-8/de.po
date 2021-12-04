@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-11-07 21:05+0000\n"
+"PO-Revision-Date: 2021-12-05 20:16+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -94,17 +94,20 @@ msgstr ""
 
 #: plugins/changelog.py:43
 msgid "Show changelog data of packages"
-msgstr ""
+msgstr "Änderungsprotokolldaten von Paketen anzeigen"
 
 #: plugins/changelog.py:51
 msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
 msgstr ""
+"Änderungsprotokolleinträge seit DATUM anzeigen. Um Mehrdeutigkeiten zu "
+"vermeiden, wird das Format JJJJ-MM-TT empfohlen."
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
 msgstr ""
+"die angegebene Anzahl von Änderungsprotokolleinträgen pro Paket anzeigen"
 
 #: plugins/changelog.py:58
 msgid ""
@@ -114,7 +117,7 @@ msgstr ""
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
-msgstr ""
+msgstr "PAKET"
 
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:90
 #, python-format
@@ -123,20 +126,23 @@ msgstr "Keine Übereinstimmung für Argument: %s"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
-msgstr ""
+msgstr "Auflistung der Änderungsprotokolle seit {}"
 
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] ""
+msgstr[0] "Auflistung nur des letzten Änderungsprotokolls"
+msgstr[1] "Auflistung der {} letzten Änderungsprotokolle"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
 msgstr ""
+"Auflistung nur neuer Änderungsprotokolle seit der installierten Version des "
+"Pakets"
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
-msgstr ""
+msgstr "Auflistung aller Änderungsprotokolle"
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
@@ -169,15 +175,15 @@ msgstr "variable Werte in stdout ausgeben"
 
 #: plugins/config_manager.py:60
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "Paketquellen aktivieren (speichert automatisch)"
 
 #: plugins/config_manager.py:63
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "Paketquellen deaktivieren (speichert automatisch)"
 
 #: plugins/config_manager.py:77
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "eines der folgenden Argumente ist erforderlich: {}"
 
 #: plugins/config_manager.py:86
 msgid ""
@@ -413,7 +419,7 @@ msgstr ""
 
 #: plugins/copr.py:549
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "Möchten Sie sie aktiviert lassen?"
 
 #: plugins/copr.py:582
 #, python-brace-format
@@ -440,7 +446,7 @@ msgstr "Interaktion mit Playground-Paketquellen"
 
 #: plugins/copr.py:640
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Möchten Sie fortfahren?"
 
 #: plugins/copr.py:683
 msgid "Playground repositories successfully enabled."
@@ -561,11 +567,11 @@ msgstr "Stattdessen das Source-RPM herunterladen"
 
 #: plugins/download.py:55
 msgid "download the -debuginfo package instead"
-msgstr "stattdessen das -debuginfo-Paket herunterladen"
+msgstr "stattdessen das Paket -debuginfo herunterladen"
 
 #: plugins/download.py:57
 msgid "download the -debugsource package instead"
-msgstr ""
+msgstr "stattdessen das Paket -debugsource herunterladen"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
@@ -618,7 +624,7 @@ msgstr "Kein Paket »%s« verfügbar."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "Ungültige Gruppenkennung"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
@@ -663,10 +669,8 @@ msgid "group name"
 msgstr ""
 
 #: plugins/groups_manager.py:103
-#, fuzzy
-#| msgid "No description given"
 msgid "group description"
-msgstr "Keine Beschreibung angegeben"
+msgstr "Gruppenbeschreibung"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
@@ -674,11 +678,11 @@ msgstr ""
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
-msgstr ""
+msgstr "übersetzter Name für die Gruppe"
 
 #: plugins/groups_manager.py:111
 msgid "translated description for the group"
-msgstr ""
+msgstr "übersetzte Beschreibung für die Gruppe"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
@@ -708,7 +712,7 @@ msgstr "Eine Liste der unaufgelösten Abhängigkeiten einer Paketquelle anzeigen
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr ""
+msgstr "Paketspezifikation"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
@@ -727,10 +731,8 @@ msgid "Can't save file \"{}\": {}"
 msgstr "Datei »{}« kann nicht geschrieben werden"
 
 #: plugins/groups_manager.py:259
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
-msgstr "Keine Übereinstimmung für Argument: %s"
+msgstr "Keine Übereinstimmung für Argument: {}"
 
 #: plugins/groups_manager.py:296
 msgid "Can't remove packages from non-existent group"
@@ -798,27 +800,30 @@ msgstr ""
 
 #: plugins/needs_restarting.py:234
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "nur betroffene systemd-Dienste melden"
 
 #: plugins/needs_restarting.py:257
 msgid "Core libraries or services have been updated since boot-up:"
-msgstr ""
+msgstr "Seit dem Hochfahren wurden Kernbibliotheken oder Dienste aktualisiert:"
 
 #: plugins/needs_restarting.py:262
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
+"Ein Neustart ist erforderlich, um diese Aktualisierungen vollständig nutzen "
+"zu können."
 
 #: plugins/needs_restarting.py:263
 msgid "More information:"
-msgstr ""
+msgstr "Weitere Informationen:"
 
 #: plugins/needs_restarting.py:267
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
+"Seit dem Hochfahren wurden keine Kernbibliotheken oder Dienste aktualisiert."
 
 #: plugins/needs_restarting.py:269
 msgid "Reboot should not be necessary."
-msgstr ""
+msgstr "Ein Neustart sollte nicht erforderlich sein."
 
 #: plugins/post-transaction-actions.py:71
 #, python-format
@@ -876,7 +881,7 @@ msgstr ""
 
 #: plugins/repodiff.py:60
 msgid "Specify new repository, can be used multiple times"
-msgstr ""
+msgstr "Neue Paketquelle angeben, kann mehrfach verwendet werden"
 
 #: plugins/repodiff.py:63
 msgid ""
@@ -886,7 +891,7 @@ msgstr ""
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
-msgstr ""
+msgstr "Ausgabe zusätzlicher Daten über den Umfang der Änderungen."
 
 #: plugins/repodiff.py:69
 msgid ""
@@ -895,101 +900,111 @@ msgstr ""
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
-msgstr ""
+msgstr "Ausgabe einer einfachen einzeiligen Meldung für geänderte Pakete."
 
 #: plugins/repodiff.py:74
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
 msgstr ""
+"Die Daten für geänderte Pakete zwischen hochgestuften und herabgestuften "
+"Paketen aufteilen."
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
-msgstr ""
+msgstr "Sowohl die alte als auch die neue Paketquelle muss festgelegt werden."
 
 #: plugins/repodiff.py:178
 msgid "Size change: {} bytes"
-msgstr ""
+msgstr "Größenänderung: {} Bytes"
 
 #: plugins/repodiff.py:184
 msgid "Added package  : {}"
-msgstr ""
+msgstr "Hinzugefügtes Paket  : {}"
 
 #: plugins/repodiff.py:187
 msgid "Removed package: {}"
-msgstr ""
+msgstr "Entferntes Paket: {}"
 
 #: plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
-msgstr ""
+msgstr "Überholt von   : {}"
 
 #: plugins/repodiff.py:195
 msgid ""
 "\n"
 "Upgraded packages"
 msgstr ""
+"\n"
+"Hochgestufte Pakete"
 
 #: plugins/repodiff.py:200
 msgid ""
 "\n"
 "Downgraded packages"
 msgstr ""
+"\n"
+"Herabgestufte Pakete"
 
 #: plugins/repodiff.py:207
 msgid ""
 "\n"
 "Modified packages"
 msgstr ""
+"\n"
+"Geänderte Pakete"
 
 #: plugins/repodiff.py:212
 msgid ""
 "\n"
 "Summary"
 msgstr ""
+"\n"
+"Zusammenfassung"
 
 #: plugins/repodiff.py:213
 msgid "Added packages: {}"
-msgstr ""
+msgstr "Hinzugefügte Pakete: {}"
 
 #: plugins/repodiff.py:214
 msgid "Removed packages: {}"
-msgstr ""
+msgstr "Entfernte Pakete: {}"
 
 #: plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
-msgstr ""
+msgstr "Hochgestufte Pakete {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr ""
+msgstr "Herabgestufte Pakete: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
-msgstr ""
+msgstr "Geänderte Pakete: {}"
 
 #: plugins/repodiff.py:222
 msgid "Size of added packages: {}"
-msgstr ""
+msgstr "Größe der hinzugefügten Pakete: {}"
 
 #: plugins/repodiff.py:223
 msgid "Size of removed packages: {}"
-msgstr ""
+msgstr "Größe der entfernten Pakete: {}"
 
 #: plugins/repodiff.py:225
 msgid "Size of modified packages: {}"
-msgstr ""
+msgstr "Größe der geänderten Pakete: {}"
 
 #: plugins/repodiff.py:228
 msgid "Size of upgraded packages: {}"
-msgstr ""
+msgstr "Größe der hochgestuften Pakete: {}"
 
 #: plugins/repodiff.py:230
 msgid "Size of downgraded packages: {}"
-msgstr ""
+msgstr "Größe der herabgestuften Pakete: {}"
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
-msgstr ""
+msgstr "Größenänderung: {}"
 
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
@@ -1050,7 +1065,7 @@ msgstr "lokale Pakete löschen, die nicht mehr im Repository vorhanden sind"
 
 #: plugins/reposync.py:68
 msgid "download all the metadata."
-msgstr ""
+msgstr "alle Metadaten herunterladen."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
@@ -1058,7 +1073,7 @@ msgstr ""
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
-msgstr ""
+msgstr "auch comps.xml herunterladen und dekomprimieren"
 
 #: plugins/reposync.py:75
 msgid ""
@@ -1076,7 +1091,7 @@ msgstr ""
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
-msgstr ""
+msgstr "wo heruntergeladene Paketquellen gespeichert werden sollen"
 
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
@@ -1089,6 +1104,8 @@ msgstr "mit Quellpaketen arbeiten"
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr ""
+"Nur die URLs dessen auflisten, was heruntergeladen werden soll, nicht "
+"herunterladen"
 
 #: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
@@ -1105,11 +1122,11 @@ msgstr ""
 
 #: plugins/reposync.py:168
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "{} wird entfernt: {}"
 
 #: plugins/reposync.py:175
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "GPG-Signaturprüfung ist fehlgeschlagen."
 
 #: plugins/reposync.py:196
 msgid "Download target '{}' is outside of download path '{}'."
@@ -1157,11 +1174,11 @@ msgstr ""
 
 #: plugins/versionlock.py:37
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "Paket {} ist bereits gesperrt"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "Paket {} ist bereits ausgeschlossen"
 
 #: plugins/versionlock.py:39
 msgid "Deleting versionlock for:"
