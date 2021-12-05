@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 01:48+0000\n"
+"POT-Creation-Date: 2021-12-05 01:53+0000\n"
 "PO-Revision-Date: 2021-10-08 05:05+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -782,15 +782,15 @@ msgstr "Impossible de charger le fichier « {} » : {}"
 msgid "Can't save file \"{}\": {}"
 msgstr "Impossible d’enregistrer le fichier « {} » : {}"
 
-#: plugins/groups_manager.py:259
+#: plugins/groups_manager.py:261
 msgid "No match for argument: {}"
 msgstr "Aucune correspondance pour l’argument : {}"
 
-#: plugins/groups_manager.py:296
+#: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
 msgstr "Les paquets ne peuvent pas être retirés d'un groupe qui n'existe pas"
 
-#: plugins/groups_manager.py:305
+#: plugins/groups_manager.py:307
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."

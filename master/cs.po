@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 01:48+0000\n"
+"POT-Creation-Date: 2021-12-05 01:53+0000\n"
 "PO-Revision-Date: 2020-01-14 01:52+0000\n"
 "Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
 "Language-Team: Czech\n"
@@ -731,17 +731,17 @@ msgstr "Nelze zapsat soubor '{}'"
 msgid "Can't save file \"{}\": {}"
 msgstr "Nelze zapsat soubor '{}'"
 
-#: plugins/groups_manager.py:259
+#: plugins/groups_manager.py:261
 #, fuzzy
 #| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
 msgstr "Žádná shoda pro argument: %s"
 
-#: plugins/groups_manager.py:296
+#: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
 msgstr ""
 
-#: plugins/groups_manager.py:305
+#: plugins/groups_manager.py:307
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."

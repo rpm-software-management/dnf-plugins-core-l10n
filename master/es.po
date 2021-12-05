@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 01:48+0000\n"
+"POT-Creation-Date: 2021-12-05 01:53+0000\n"
 "PO-Revision-Date: 2020-09-01 14:29+0000\n"
 "Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -759,17 +759,17 @@ msgstr "No es posible escribir el archivo '{}'"
 msgid "Can't save file \"{}\": {}"
 msgstr "No es posible escribir el archivo '{}'"
 
-#: plugins/groups_manager.py:259
+#: plugins/groups_manager.py:261
 #, fuzzy
 #| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
 msgstr "No hay coincidencias para el argumento: %s"
 
-#: plugins/groups_manager.py:296
+#: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
 msgstr ""
 
-#: plugins/groups_manager.py:305
+#: plugins/groups_manager.py:307
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."

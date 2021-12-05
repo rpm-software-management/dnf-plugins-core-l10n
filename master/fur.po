@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 01:48+0000\n"
+"POT-Creation-Date: 2021-12-05 01:53+0000\n"
 "PO-Revision-Date: 2021-11-07 21:05+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -765,15 +765,15 @@ msgstr "Impussibil cjamâ il file \"{}\": {}"
 msgid "Can't save file \"{}\": {}"
 msgstr "Impussibil salvâ il file \"{}\": {}"
 
-#: plugins/groups_manager.py:259
+#: plugins/groups_manager.py:261
 msgid "No match for argument: {}"
 msgstr "Nissune corispondence pal argoment: {}"
 
-#: plugins/groups_manager.py:296
+#: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
 msgstr "Impussibil gjavâ i pachets dal grup inesistent"
 
-#: plugins/groups_manager.py:305
+#: plugins/groups_manager.py:307
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."

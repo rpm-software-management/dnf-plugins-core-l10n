@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 01:48+0000\n"
+"POT-Creation-Date: 2021-12-05 01:53+0000\n"
 "PO-Revision-Date: 2021-09-04 17:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -761,15 +761,15 @@ msgstr "파일 \"{}\": {} 를 적재 할 수 없습니다"
 msgid "Can't save file \"{}\": {}"
 msgstr "파일 \"{}\": {}을 저장 할 수 없습니다"
 
-#: plugins/groups_manager.py:259
+#: plugins/groups_manager.py:261
 msgid "No match for argument: {}"
 msgstr "일치하는 인수가 없습니다 :{}"
 
-#: plugins/groups_manager.py:296
+#: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
 msgstr "존재하지 않는 그룹에서 꾸러미(package)를 제거 할 수 없습니다"
 
-#: plugins/groups_manager.py:305
+#: plugins/groups_manager.py:307
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
