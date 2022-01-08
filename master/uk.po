@@ -1,15 +1,15 @@
-# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2020. #zanata, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020. #zanata, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-08 01:52+0000\n"
-"PO-Revision-Date: 2021-03-12 15:50+0000\n"
+"PO-Revision-Date: 2022-01-09 13:37+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -428,25 +428,24 @@ msgstr "Цю команду слід виконувати від імені ко
 #: plugins/copr.py:485
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Не вдалося виконати запит до {0}: {1} - {2}"
 
 #: plugins/copr.py:487
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Увімкнути цей проєкт неможливо.\n"
 
 #: plugins/copr.py:492
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Такого сховища не існує."
+msgstr "У проєкті «{1}» немає сховища «{0}»."
 
 #: plugins/copr.py:495
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Список увімкнених сховищ Copr"
+msgstr ""
+"\n"
+"Доступні сховища: "
 
 #: plugins/copr.py:497
 #, python-brace-format
@@ -457,18 +456,22 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Якщо вам хочеться увімкнути нетипове сховища, скористайтеся такою командою:\n"
+"  'dnf copr enable {0} <сховище>'\n"
+"Втім, зауважте, що, ймовірно, до встановленого файла сховища доведеться "
+"внести зміни вручну."
 
 #: plugins/copr.py:503
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Такого сховища не існує."
+msgstr "Проєкта {0} не існує."
 
 #: plugins/copr.py:506
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Не вдалося вилучити сховище copr {0}/{1}/{2}"
+msgstr "Не вдалося з'єднатися із {0}: {1}"
 
 #: plugins/copr.py:553
 #, python-brace-format
@@ -862,69 +865,61 @@ msgstr "Переносимо дані журналу…"
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "Отримати пакунки з модулів і/або створити сховище з модульними даними"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "МОДУЛЬ"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "пакунки для отримання"
+msgstr "модулі для отримання"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Вказати сховища для перевірки"
+msgstr "увімкнути сховища із пакунками з початковим кодом"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "увімкнути сховища із пакунками debug-info і debug-source"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "отримати усі пакунки із віддаленого сховища"
+msgstr "отримати лише пакунки із найновіших модулів"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Відповідника параметра не знайдено: {}"
-msgstr[1] "Відповідника параметра не знайдено: {}"
-msgstr[2] "Відповідника параметра не знайдено: {}"
+msgstr[0] "Відповідника аргументу не знайдено: {}"
+msgstr[1] "Відповідника аргументів не знайдено: {}"
+msgstr[2] "Відповідника аргументів не знайдено: {}"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Спроба створити сховище завершилася помилкою із кодом {}. Усі отримані дані "
+"лишилися у системі"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Не виявлено відповідника елемента «{0}» з модуля «{1}»"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "Немає відповідника назві пакунка «{0}» у профілі {1} з модуля {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Відповідника параметра не знайдено: {}"
+msgstr "Немає відповідника аргументу «{}»"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Не вдалося задовольнити вимогу {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
