@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-05 01:53+0000\n"
+"POT-Creation-Date: 2022-01-08 01:52+0000\n"
 "PO-Revision-Date: 2021-11-07 21:05+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -207,27 +207,27 @@ msgstr[1] "Configurazion dai repository failde"
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Impussibil salvâ il dipuesit sul file dai dipuesits %s: %s"
 
-#: plugins/copr.py:68
+#: plugins/copr.py:70
 msgid "y"
 msgstr "s"
 
-#: plugins/copr.py:68
+#: plugins/copr.py:70
 msgid "yes"
 msgstr "sì"
 
-#: plugins/copr.py:69
+#: plugins/copr.py:71
 msgid "n"
 msgstr "n"
 
-#: plugins/copr.py:69
+#: plugins/copr.py:71
 msgid "no"
 msgstr "no"
 
-#: plugins/copr.py:88
+#: plugins/copr.py:92
 msgid "Interact with Copr repositories."
 msgstr "Interagjìs cui dipuesits Copr."
 
-#: plugins/copr.py:90
+#: plugins/copr.py:94
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -265,31 +265,31 @@ msgstr ""
 "  copr search tests\n"
 "    "
 
-#: plugins/copr.py:116
+#: plugins/copr.py:120
 msgid "List all installed Copr repositories (default)"
 msgstr "Liste ducj i dipuesits Copr instalâts (predefinît)"
 
-#: plugins/copr.py:118
+#: plugins/copr.py:122
 msgid "List enabled Copr repositories"
 msgstr "Liste i dipuesits Copr abilitâts"
 
-#: plugins/copr.py:120
+#: plugins/copr.py:124
 msgid "List disabled Copr repositories"
 msgstr "Liste i dipuesits Copr disativâts"
 
-#: plugins/copr.py:122
+#: plugins/copr.py:126
 msgid "List available Copr repositories by user NAME"
 msgstr "Liste i dipuesits Copr disponibii par NON utent"
 
-#: plugins/copr.py:124
+#: plugins/copr.py:128
 msgid "Specify an instance of Copr to work with"
 msgstr "Specifiche une istance di Copr che cun chê si à di lavorâ"
 
-#: plugins/copr.py:160 plugins/copr.py:228 plugins/copr.py:255
+#: plugins/copr.py:164 plugins/copr.py:232 plugins/copr.py:259
 msgid "Error: "
 msgstr "Erôr: "
 
-#: plugins/copr.py:161
+#: plugins/copr.py:165
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -297,19 +297,19 @@ msgstr ""
 "specifiche l'hub Copr o cun `--hub`o doprant il formât `copr_hub/"
 "copr_username/copr_projectname`"
 
-#: plugins/copr.py:164
+#: plugins/copr.py:168
 msgid "multiple hubs specified"
 msgstr "a son stâts specificâts plui hubs"
 
-#: plugins/copr.py:229 plugins/copr.py:233
+#: plugins/copr.py:233 plugins/copr.py:237
 msgid "exactly two additional parameters to copr command are required"
 msgstr "a son necessaris juste doi parametris adizionâi al comant copr"
 
-#: plugins/copr.py:238
+#: plugins/copr.py:242
 msgid "Too many arguments."
 msgstr "Masse argoments."
 
-#: plugins/copr.py:241
+#: plugins/copr.py:245
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
@@ -317,16 +317,16 @@ msgstr ""
 "Formât sbaliât di chroot opzionâl. Il formât al è distribuzion-version-"
 "architeture."
 
-#: plugins/copr.py:256
+#: plugins/copr.py:260
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "dopre il formât `nonutent_copr/progjet_copr` par riferîsi al progjet copr"
 
-#: plugins/copr.py:258
+#: plugins/copr.py:262
 msgid "bad copr project format"
 msgstr "formât dal progjet copr sbaliât"
 
-#: plugins/copr.py:272
+#: plugins/copr.py:276
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -356,23 +356,23 @@ msgstr ""
 "\n"
 "Abilitâ pardabon {0}?\n"
 
-#: plugins/copr.py:289
+#: plugins/copr.py:293
 msgid "Repository successfully enabled."
 msgstr "Dipuesit abilitât cun sucès."
 
-#: plugins/copr.py:294
+#: plugins/copr.py:298
 msgid "Repository successfully disabled."
 msgstr "Dipuesit disabilitât cun sucès."
 
-#: plugins/copr.py:298
+#: plugins/copr.py:302
 msgid "Repository successfully removed."
 msgstr "Dipuesit gjavât cun sucès."
 
-#: plugins/copr.py:302 plugins/copr.py:706
+#: plugins/copr.py:306 plugins/copr.py:719
 msgid "Unknown subcommand {}."
 msgstr "Sot-comant {} no cognossût."
 
-#: plugins/copr.py:359
+#: plugins/copr.py:363
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -382,50 +382,84 @@ msgstr ""
 "infomazions sul hub Copr - si à considerât chel predefinît. Tornâ a abilitâ "
 "il progjet par comedâ chest probleme."
 
-#: plugins/copr.py:372
+#: plugins/copr.py:376
 msgid "Can't parse repositories for username '{}'."
 msgstr "Impussibil analizâ i dipuesits pal non utent '{}'."
 
-#: plugins/copr.py:375
+#: plugins/copr.py:379
 msgid "List of {} coprs"
 msgstr "Liste di {} copr"
 
-#: plugins/copr.py:380
+#: plugins/copr.py:384
 msgid "No description given"
 msgstr "Nissune descrizione furnide"
 
-#: plugins/copr.py:392
+#: plugins/copr.py:396
 msgid "Can't parse search for '{}'."
 msgstr "Impussibil analizâ la ricercje par '{}'."
 
-#: plugins/copr.py:395
+#: plugins/copr.py:399
 msgid "Matched: {}"
 msgstr "Corispondencis: {}"
 
-#: plugins/copr.py:400
+#: plugins/copr.py:404
 msgid "No description given."
 msgstr "Nissune descrizion furnide."
 
-#: plugins/copr.py:422
+#: plugins/copr.py:426
 msgid "Safe and good answer. Exiting."
 msgstr "Rispueste buine e sigure. Si jes."
 
-#: plugins/copr.py:429
+#: plugins/copr.py:433
 msgid "This command has to be run under the root user."
 msgstr "Si à di eseguî chest comant come utent root."
 
-#: plugins/copr.py:493
-msgid ""
-"This repository does not have any builds yet so you cannot enable it now."
+#: plugins/copr.py:485
+#, python-brace-format
+msgid "Request to {0} failed: {1} - {2}"
 msgstr ""
-"Chest dipuesit nol à ancjemò nissune costruzion, duncje nol è pussibil "
-"abilitâlu pal moment."
 
-#: plugins/copr.py:496
-msgid "Such repository does not exist."
+#: plugins/copr.py:487
+msgid "It wasn't possible to enable this project.\n"
+msgstr ""
+
+#: plugins/copr.py:492
+#, fuzzy, python-brace-format
+#| msgid "Such repository does not exist."
+msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "Chel dipuesit nol esist."
 
-#: plugins/copr.py:540
+#: plugins/copr.py:495
+#, fuzzy
+#| msgid "List enabled Copr repositories"
+msgid ""
+"\n"
+"Available repositories: "
+msgstr "Liste i dipuesits Copr abilitâts"
+
+#: plugins/copr.py:497
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"If you want to enable a non-default repository, use the following command:\n"
+"  'dnf copr enable {0} <repository>'\n"
+"But note that the installed repo file will likely need a manual modification."
+msgstr ""
+
+#: plugins/copr.py:503
+#, fuzzy, python-brace-format
+#| msgid "Such repository does not exist."
+msgid "Project {0} does not exist."
+msgstr "Chel dipuesit nol esist."
+
+#: plugins/copr.py:506
+#, fuzzy, python-brace-format
+#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+msgid "Failed to connect to {0}: {1}"
+msgstr "Impussibil gjavâ il dipuesit copr {0}/{1}/{2}"
+
+#: plugins/copr.py:553
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -454,44 +488,44 @@ msgstr ""
 "\n"
 "Chescj dipuesits a son stâts abilitâts in automatic."
 
-#: plugins/copr.py:561
+#: plugins/copr.py:574
 msgid "Do you want to keep them enabled?"
 msgstr "Desideristu tignîju abilitâts?"
 
-#: plugins/copr.py:594
+#: plugins/copr.py:607
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Impussibil gjavâ il dipuesit copr {0}/{1}/{2}"
 
-#: plugins/copr.py:605
+#: plugins/copr.py:618
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Impussibil disabilitâ il dipuesit copr {}/{}"
 
-#: plugins/copr.py:623 plugins/copr.py:660
+#: plugins/copr.py:636 plugins/copr.py:673
 msgid "Unknown response from server."
 msgstr "Rispueste no cognossude dal servidôr."
 
-#: plugins/copr.py:645
+#: plugins/copr.py:658
 msgid "Interact with Playground repository."
 msgstr "Interagjìs cul dipuesits Playground."
 
-#: plugins/copr.py:651
+#: plugins/copr.py:664
 msgid "Enabling a Playground repository."
 msgstr "Daûr a abilitâ un dipuesit Playground."
 
-#: plugins/copr.py:652
+#: plugins/copr.py:665
 msgid "Do you want to continue?"
 msgstr "Desideristu continuâ?"
 
-#: plugins/copr.py:696
+#: plugins/copr.py:709
 msgid "Playground repositories successfully enabled."
 msgstr "Dipuesits Playground abilitâts cun sucès."
 
-#: plugins/copr.py:699
+#: plugins/copr.py:712
 msgid "Playground repositories successfully disabled."
 msgstr "Dipuesits Playground disabilitâts cun sucès."
 
-#: plugins/copr.py:703
+#: plugins/copr.py:716
 msgid "Playground repositories successfully updated."
 msgstr "Dipuesits Playground inzornâts cun sucès."
 
@@ -617,7 +651,7 @@ msgstr "discjarie invezit il pachet -debugsource"
 msgid "limit  the  query to packages of given architectures."
 msgstr "limite  la  interogazion ai pachets de architeture indicade."
 
-#: plugins/download.py:62
+#: plugins/download.py:62 plugins/modulesync.py:51
 msgid "resolve and download needed dependencies"
 msgstr "risolf e discjarie lis dipendencis necessariis"
 
@@ -812,6 +846,72 @@ msgstr "migre la cronologjie di yum, i grups e i dâts di yumdb su dnf"
 #: plugins/migrate.py:54
 msgid "Migrating history data..."
 msgstr "Daûr a migrâ i dâts de cronologjie..."
+
+#: plugins/modulesync.py:37
+msgid ""
+"Download packages from modules and/or create a repository with modular data"
+msgstr ""
+
+#: plugins/modulesync.py:44
+msgid "MODULE"
+msgstr ""
+
+#: plugins/modulesync.py:45
+#, fuzzy
+#| msgid "packages to download"
+msgid "modules to download"
+msgstr "pachets di discjariâ"
+
+#: plugins/modulesync.py:47
+#, fuzzy
+#| msgid "Specify repositories to check"
+msgid "enable repositories with source packages"
+msgstr "Specifiche i dipuesits di controlâ"
+
+#: plugins/modulesync.py:49
+msgid "enable repositories with debug-info and debug-source packages"
+msgstr ""
+
+#: plugins/modulesync.py:53
+#, fuzzy
+#| msgid "download all packages from remote repo"
+msgid "download only packages from newest modules"
+msgstr "discjarie ducj i pachets dal dipuesit lontan"
+
+#: plugins/modulesync.py:85
+#, fuzzy
+#| msgid "No match for argument: {}"
+msgid "Unable to find a match for argument: '{}'"
+msgid_plural "Unable to find a match for arguments: '{}'"
+msgstr[0] "Nissune corispondence pal argoment: {}"
+msgstr[1] "Nissune corispondence pal argoment: {}"
+
+#: plugins/modulesync.py:107
+msgid ""
+"Creation of repository failed with return code {}. All downloaded content "
+"was kept on the system"
+msgstr ""
+
+#: plugins/modulesync.py:144
+#, python-brace-format
+msgid "No match for artifact '{0}' from module '{1}'"
+msgstr ""
+
+#: plugins/modulesync.py:162
+#, python-brace-format
+msgid "No match for package name '{0}' in profile {1} from module {2}"
+msgstr ""
+
+#: plugins/modulesync.py:166
+#, fuzzy
+#| msgid "No match for argument: {}"
+msgid "No mach for argument '{}'"
+msgstr "Nissune corispondence pal argoment: {}"
+
+#. TODO(jmracek) Shell we end with an error or with RC 1?
+#: plugins/modulesync.py:198
+msgid "Unable to satisfy require {}"
+msgstr ""
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -1273,6 +1373,12 @@ msgstr ""
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Il sot-comant '{}' al è deplorât. Dopre invezit il sot-comant 'exclude'."
+
+#~ msgid ""
+#~ "This repository does not have any builds yet so you cannot enable it now."
+#~ msgstr ""
+#~ "Chest dipuesit nol à ancjemò nissune costruzion, duncje nol è pussibil "
+#~ "abilitâlu pal moment."
 
 #~ msgid ""
 #~ "\n"
