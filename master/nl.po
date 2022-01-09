@@ -1,5 +1,5 @@
-# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020, 2021.
-# Geert Warrink <geert.warrink@onsnet.nu>, 2020. #zanata, 2021.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020, 2021, 2022.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2020. #zanata, 2021, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
 # Richard E. van der Luit <fedoraproject@veneax.nl>, 2020.
 msgid ""
@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-09 01:58+0000\n"
-"PO-Revision-Date: 2021-09-06 12:04+0000\n"
+"PO-Revision-Date: 2022-01-11 20:16+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/nl/>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -423,25 +423,24 @@ msgstr "Dit commando moet als root uitgevoerd worden."
 #: plugins/copr.py:485
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Verzoek aan {0} mislukt: {1} - {2}"
 
 #: plugins/copr.py:487
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Het was niet mogelijk om dit project in te schakelen.\n"
 
 #: plugins/copr.py:492
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Een dergelijke repository bestaat niet."
+msgstr "Repository '{0}' bestaat niet in project '{1}'."
 
 #: plugins/copr.py:495
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Toon ingeschakelde Copr-repositories"
+msgstr ""
+"\n"
+"Beschikbare repositories: "
 
 #: plugins/copr.py:497
 #, python-brace-format
@@ -452,18 +451,23 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Als je een niet-standaard repository wilt inschakelen, gebruik je het "
+"volgende commando:\n"
+"   'dnf copr enable {0} <repository>'\n"
+"Houd er echter rekening mee dat het geïnstalleerde repo-bestand "
+"waarschijnlijk handmatig moet worden gewijzigd."
 
 #: plugins/copr.py:503
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Een dergelijke repository bestaat niet."
+msgstr "Project {0} bestaat niet."
 
 #: plugins/copr.py:506
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Kan copr repo {0}/{1}/{2} niet verwijderen"
+msgstr "Verbinden met {0} mislukte: {1}"
 
 #: plugins/copr.py:553
 #, python-brace-format
@@ -860,67 +864,60 @@ msgstr "Migreren van geschiedenis data..."
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr ""
+"Download pakketten van modules en/of creëer een repository met modulaire data"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODULE"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "te downloaden pakketten"
+msgstr "Modules te downloaden"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Geef de te controleren repositories op"
+msgstr "schakel repository's met bronpakketten in"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "schakel repositories in met debug-info en debug-bron pakketten"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "download alle pakketten van repo op afstand"
+msgstr "download alleen pakketten van de nieuwste modules"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Geen match voor argument: {}"
-msgstr[1] "Geen match voor argument: {}"
+msgstr[0] "Kan geen match vinden voor argument: '{}'"
+msgstr[1] "Kan geen match vinden voor argumenten: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Creatie van repository is mislukt met retourcode {}. Alle gedownloade inhoud "
+"werd op het systeem bewaard"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Geen overeenkomst voor artefact '{0}' uit module '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "Geen overeenkomst voor pakketnaam '{0}' in profiel {1} van module {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Geen match voor argument: {}"
+msgstr "Geen overeenkomst voor argument '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Kan niet voldoen aan vereiste {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
