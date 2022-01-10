@@ -1,23 +1,23 @@
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020, 2021.
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2018. #zanata, 2020, 2021.
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2019. #zanata, 2020, 2021.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020, 2021, 2022.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2018. #zanata, 2020, 2021, 2022.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2019. #zanata, 2020, 2021, 2022.
 # Alexey Rubtsov <rushills@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-09 01:58+0000\n"
-"PO-Revision-Date: 2021-10-14 20:05+0000\n"
+"PO-Revision-Date: 2022-01-11 20:16+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
-"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ru/>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -422,25 +422,24 @@ msgstr "Эта команда должна быть выполнена от им
 #: plugins/copr.py:485
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Запрос к {0} не выполнен: {1} - {2}"
 
 #: plugins/copr.py:487
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Не удалось активировать этот проект.\n"
 
 #: plugins/copr.py:492
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Такой репозиторий не существует."
+msgstr "Репозиторий «{0}» не существует в проекте «{1}»."
 
 #: plugins/copr.py:495
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Перечислять разрешенные репозитории Copr"
+msgstr ""
+"\n"
+"Доступные репозитории: "
 
 #: plugins/copr.py:497
 #, python-brace-format
@@ -451,18 +450,23 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Если вы хотите включить нестандартный репозиторий, используйте следующую "
+"команду:\n"
+"  «dnf copr enable {0} <repository>»\n"
+"Но учтите, что, скорее всего, установленный repo-файл потребуется изменять "
+"вручную."
 
 #: plugins/copr.py:503
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Такой репозиторий не существует."
+msgstr "Проект {0} не существует."
 
 #: plugins/copr.py:506
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Не удалось удалить репозиторий copr {0}/{1}/{2}"
+msgstr "Не удалось подключиться к {0}: {1}"
 
 #: plugins/copr.py:553
 #, python-brace-format
@@ -856,68 +860,61 @@ msgstr "Перенос данных истории..."
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr ""
+"Загрузить пакеты из модулей и/или создать репозиторий с модульными данными"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "МОДУЛЬ"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "пакеты для загрузки"
+msgstr "модули для загрузки"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Указать репозитории для проверки"
+msgstr "включить репозитории с пакетами c исходным кодом"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "включить репозитории с пакетами debug-info и debug-source"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "загрузить все пакеты из удаленного репозитория"
+msgstr "загрузить только пакеты из новейших модулей"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Нет совпадений для аргумента: {}"
-msgstr[1] "Нет совпадений для аргумента: {}"
-msgstr[2] "Нет совпадений для аргумента: {}"
+msgstr[0] "Не удалось найти соответствия для аргумента: {}"
+msgstr[1] "Не удалось найти соответствия для аргументов: {}"
+msgstr[2] "Не удалось найти соответствия для аргументов: {}"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Не удалось создать репозиторий с кодом возврата {}. Все загрузки остались в "
+"системе"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Нет совпадений для артефакта «{0}» из модуля «{1}»"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "Нет соответствий имени пакета «{0}» в профиле {1} из модуля {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Нет совпадений для аргумента: {}"
+msgstr "Нет совпадений для аргумента «{}»"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Не удалось удовлетворить требование {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
