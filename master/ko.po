@@ -1,21 +1,21 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2020.
 # Marek Blaha <mblaha@redhat.com>, 2020.
-# simmon <simmon@nplob.com>, 2021.
+# simmon <simmon@nplob.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-11 01:55+0000\n"
-"PO-Revision-Date: 2021-09-04 17:04+0000\n"
+"PO-Revision-Date: 2022-01-12 22:16+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -412,25 +412,24 @@ msgstr "이 명령은 루트 사용자로 실행해야합니다."
 #: plugins/copr.py:485
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "{0}에 대한 요청이 실패함: {1} - {2}"
 
 #: plugins/copr.py:487
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "이 프로젝트는 활성화 할 수 없습니다.\n"
 
 #: plugins/copr.py:492
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "이러한 저장소는 존재하지 않습니다."
+msgstr "저장소(Repository) '{0}'는 프로젝트 '{1}'에서 존재하지 않습니다."
 
 #: plugins/copr.py:495
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "사용 가능한 Copr 저장소 목록"
+msgstr ""
+"\n"
+"사용 가능한 저장소 목록: "
 
 #: plugins/copr.py:497
 #, python-brace-format
@@ -443,16 +442,14 @@ msgid ""
 msgstr ""
 
 #: plugins/copr.py:503
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "이러한 저장소는 존재하지 않습니다."
+msgstr "프로젝트 {0}는 존재하지 않습니다."
 
 #: plugins/copr.py:506
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "copr repo {0}/{1}/{2} 제거를 실패하였습니다"
+msgstr "{0}: {1}로 연결 하는데 실패하였습니다"
 
 #: plugins/copr.py:553
 #, python-brace-format
@@ -852,36 +849,28 @@ msgstr ""
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "모듈"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "내려받기 할 꾸러미"
+msgstr "내려받아야 할 모듈"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "점검 할 저장소를 지정하세요"
+msgstr "원천 꾸러미와 함께 저장소를 활성화"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "디버그-정보와 디버그-원천 꾸러미로 저장소 활성화"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "원격 저장소에서 모든 꾸러미(package)를 내려받아요"
+msgstr "최신 모듈에서 꾸러미만 내려받기"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "일치하는 인수가 없습니다 :{}"
+msgstr[0] "인수와 일치하는 항목을 찾을 수 없습니다: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
@@ -900,10 +889,8 @@ msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "일치하는 인수가 없습니다 :{}"
+msgstr "일치하는 인수가 없습니다 '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
