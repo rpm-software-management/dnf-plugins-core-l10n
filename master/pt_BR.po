@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 01:55+0000\n"
+"POT-Creation-Date: 2022-01-12 01:54+0000\n"
 "PO-Revision-Date: 2021-08-11 01:04+0000\n"
 "Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -84,7 +84,7 @@ msgstr "Nem todas as dependências satisfeitas"
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "Falha ao abrir: '%s', arquivo spec inválido: %s"
 
-#: plugins/builddep.py:230 plugins/repoclosure.py:118
+#: plugins/builddep.py:230 plugins/repoclosure.py:124
 #, python-format
 msgid "no package matched: %s"
 msgstr "nenhum pacote corresponde: %s"
@@ -1004,25 +1004,27 @@ msgstr ""
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "exibe uma lista de dependências não resolvidas para repositórios"
 
-#: plugins/repoclosure.py:66
-msgid "Repoclosure ended with unresolved dependencies."
+#: plugins/repoclosure.py:69
+#, fuzzy
+#| msgid "Repoclosure ended with unresolved dependencies."
+msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "O reparo terminou com dependências não resolvidas."
 
-#: plugins/repoclosure.py:153
+#: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 "verificar pacotes das arquiteturas informadas, pode ser definido diversas "
 "vezes"
 
-#: plugins/repoclosure.py:156
+#: plugins/repoclosure.py:162
 msgid "Specify repositories to check"
 msgstr "Especificar repositórios para checagem"
 
-#: plugins/repoclosure.py:158
+#: plugins/repoclosure.py:164
 msgid "Check only the newest packages in the repos"
 msgstr "Verifique apenas os pacotes mais recentes nos repositórios"
 
-#: plugins/repoclosure.py:161
+#: plugins/repoclosure.py:167
 msgid "Check closure for this package only"
 msgstr "Verificar o encerramento somente para este pacote"
 

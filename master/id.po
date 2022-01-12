@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 01:55+0000\n"
+"POT-Creation-Date: 2022-01-12 01:54+0000\n"
 "PO-Revision-Date: 2020-05-05 07:40+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
@@ -74,7 +74,7 @@ msgstr "Tidak semua kebergantungan terpenuhi"
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "Gagal membuka: '%s', bukan suatu berkas spec yang valid: %s"
 
-#: plugins/builddep.py:230 plugins/repoclosure.py:118
+#: plugins/builddep.py:230 plugins/repoclosure.py:124
 #, python-format
 msgid "no package matched: %s"
 msgstr "tidak ada paket yang cocok: %s"
@@ -903,23 +903,23 @@ msgstr ""
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr ""
 
-#: plugins/repoclosure.py:66
-msgid "Repoclosure ended with unresolved dependencies."
+#: plugins/repoclosure.py:69
+msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 
-#: plugins/repoclosure.py:153
+#: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 
-#: plugins/repoclosure.py:156
+#: plugins/repoclosure.py:162
 msgid "Specify repositories to check"
 msgstr ""
 
-#: plugins/repoclosure.py:158
+#: plugins/repoclosure.py:164
 msgid "Check only the newest packages in the repos"
 msgstr ""
 
-#: plugins/repoclosure.py:161
+#: plugins/repoclosure.py:167
 msgid "Check closure for this package only"
 msgstr ""
 

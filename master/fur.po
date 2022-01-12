@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 01:55+0000\n"
+"POT-Creation-Date: 2022-01-12 01:54+0000\n"
 "PO-Revision-Date: 2021-11-07 21:05+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -73,7 +73,7 @@ msgstr "No son sodisfatis dutis lis dipendencis."
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "No si è rivâts a vierzi: '%s', nol è un file spec valit: %s"
 
-#: plugins/builddep.py:230 plugins/repoclosure.py:118
+#: plugins/builddep.py:230 plugins/repoclosure.py:124
 #, python-format
 msgid "no package matched: %s"
 msgstr "nissun pachet corispondent: %s"
@@ -991,24 +991,26 @@ msgstr "azions sucessivis ae transazion: comant sbaliât \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Mostre une liste des dipendencis no risolvudis pai dipuesits"
 
-#: plugins/repoclosure.py:66
-msgid "Repoclosure ended with unresolved dependencies."
+#: plugins/repoclosure.py:69
+#, fuzzy
+#| msgid "Repoclosure ended with unresolved dependencies."
+msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "Repoclosure al à finît cun dipendencis no risolvudis."
 
-#: plugins/repoclosure.py:153
+#: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 "controle pachets de architeture indicade, si pues specificâ plui voltis"
 
-#: plugins/repoclosure.py:156
+#: plugins/repoclosure.py:162
 msgid "Specify repositories to check"
 msgstr "Specifiche i dipuesits di controlâ"
 
-#: plugins/repoclosure.py:158
+#: plugins/repoclosure.py:164
 msgid "Check only the newest packages in the repos"
 msgstr "Controle dome i gnûfs pachets tai dipuesits"
 
-#: plugins/repoclosure.py:161
+#: plugins/repoclosure.py:167
 msgid "Check closure for this package only"
 msgstr "Controle il sierâ dome par chest pachet"
 

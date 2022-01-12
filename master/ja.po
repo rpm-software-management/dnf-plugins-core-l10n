@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 01:55+0000\n"
+"POT-Creation-Date: 2022-01-12 01:54+0000\n"
 "PO-Revision-Date: 2021-09-11 10:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -76,7 +76,7 @@ msgstr "すべての依存関係が満たされているわけではない"
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "開くことに失敗しました: '%s'、有効なスペックファイルではありません: %s"
 
-#: plugins/builddep.py:230 plugins/repoclosure.py:118
+#: plugins/builddep.py:230 plugins/repoclosure.py:124
 #, python-format
 msgid "no package matched: %s"
 msgstr "一致するパッケージはありません: %s"
@@ -993,23 +993,25 @@ msgstr "post-transaction-actions: 不正なコマンド \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "リポジトリーの未解決の依存関係の一覧を表示します"
 
-#: plugins/repoclosure.py:66
-msgid "Repoclosure ended with unresolved dependencies."
+#: plugins/repoclosure.py:69
+#, fuzzy
+#| msgid "Repoclosure ended with unresolved dependencies."
+msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "repoclosure は未解決の依存関係で終了しました。"
 
-#: plugins/repoclosure.py:153
+#: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr "特定の arch のパッケージを確認します。複数回指定することができます"
 
-#: plugins/repoclosure.py:156
+#: plugins/repoclosure.py:162
 msgid "Specify repositories to check"
 msgstr "確認するリポジトリーを指定します"
 
-#: plugins/repoclosure.py:158
+#: plugins/repoclosure.py:164
 msgid "Check only the newest packages in the repos"
 msgstr "repo の最新パッケージのみを確認します"
 
-#: plugins/repoclosure.py:161
+#: plugins/repoclosure.py:167
 msgid "Check closure for this package only"
 msgstr "このパッケージのみのクロージャーを確認します"
 

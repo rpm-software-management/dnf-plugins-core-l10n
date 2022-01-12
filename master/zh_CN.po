@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 01:55+0000\n"
+"POT-Creation-Date: 2022-01-12 01:54+0000\n"
 "PO-Revision-Date: 2021-09-11 10:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -80,7 +80,7 @@ msgstr "没有满足全部的依赖关系"
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "打开失败： '%s'， 不是有效的 spec 文件： %s"
 
-#: plugins/builddep.py:230 plugins/repoclosure.py:118
+#: plugins/builddep.py:230 plugins/repoclosure.py:124
 #, python-format
 msgid "no package matched: %s"
 msgstr "无匹配软件包： %s"
@@ -964,23 +964,25 @@ msgstr "事物后的操作 : 无效的命令 \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "显示仓库中未被解决的依赖关系的列表"
 
-#: plugins/repoclosure.py:66
-msgid "Repoclosure ended with unresolved dependencies."
+#: plugins/repoclosure.py:69
+#, fuzzy
+#| msgid "Repoclosure ended with unresolved dependencies."
+msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "Repoclosure 退出时还有依赖关系未解决。"
 
-#: plugins/repoclosure.py:153
+#: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr "检查给定架构的软件包，可以被指定多次"
 
-#: plugins/repoclosure.py:156
+#: plugins/repoclosure.py:162
 msgid "Specify repositories to check"
 msgstr "指定要检查的软件仓库"
 
-#: plugins/repoclosure.py:158
+#: plugins/repoclosure.py:164
 msgid "Check only the newest packages in the repos"
 msgstr "只检查仓库中最新的软件包"
 
-#: plugins/repoclosure.py:161
+#: plugins/repoclosure.py:167
 msgid "Check closure for this package only"
 msgstr "仅为该软件包检查依赖闭合性"
 
