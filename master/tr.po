@@ -6,10 +6,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 01:57+0000\n"
-"PO-Revision-Date: 2022-01-11 20:16+0000\n"
+"PO-Revision-Date: 2022-01-14 16:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -988,10 +988,9 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Depolar için çözümlenmemiş bağımlılıkların bir listesini görüntüle"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Repoclosure, çözümlenmemiş bağımlılıklarla sona erdi."
+msgstr ""
+"Repoclosure, {} çözümlenmemiş bağımlılıkla ({} paket boyunca) sona erdi."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
