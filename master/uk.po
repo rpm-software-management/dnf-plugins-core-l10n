@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-12 01:54+0000\n"
-"PO-Revision-Date: 2022-01-09 13:37+0000\n"
+"PO-Revision-Date: 2022-01-13 13:23+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -998,10 +998,10 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Показати список нерозв’язаних залежностей для сховищ"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Виконання repoclosure завершилося із нерозв’язаними залежностями."
+msgstr ""
+"Виконання repoclosure завершилося із нерозв’язаними залежностями ({}) між {} "
+"пакунками."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
