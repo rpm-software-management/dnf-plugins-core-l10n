@@ -3,22 +3,22 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020, 2021.
 # Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata, 2021.
 # Mikael Granberg <mikael@famgra.se>, 2020.
-# Luna Jernberg <bittin@reimu.nl>, 2021.
+# Luna Jernberg <bittin@reimu.nl>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-14 01:56+0000\n"
-"PO-Revision-Date: 2021-03-31 18:01+0000\n"
+"PO-Revision-Date: 2022-01-17 03:16+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.2\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -419,25 +419,24 @@ msgstr "Detta kommando måste köras som användaren root."
 #: plugins/copr.py:485
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Förfrågan att {0} misslyckades: {1} - {2}"
 
 #: plugins/copr.py:487
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Det gick inte att aktivera det här projektet.\n"
 
 #: plugins/copr.py:492
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Något sådant förråd finns inte."
+msgstr "Förrådet '{0}' finns inte i projektet '{1}'."
 
 #: plugins/copr.py:495
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Lista aktiverade Copr-förråd"
+msgstr ""
+"\n"
+"Tillgängliga förråd: "
 
 #: plugins/copr.py:497
 #, python-brace-format
@@ -450,16 +449,14 @@ msgid ""
 msgstr ""
 
 #: plugins/copr.py:503
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Något sådant förråd finns inte."
+msgstr "Projektet {0} finns inte."
 
 #: plugins/copr.py:506
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Misslyckades att ta bort copr-förrpdet {0}/{1}/{2}"
+msgstr "Misslyckades att ansluta till {0}:{1}"
 
 #: plugins/copr.py:553
 #, python-brace-format
@@ -847,33 +844,27 @@ msgstr "Migrerar historiedata …"
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "Ladda ner paket från moduler och/eller skapa ett arkiv med modulär data"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODUL"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "paket att hämta"
+msgstr "moduler att hämta"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Ange förråd att kontrollera"
+msgstr "aktivera förråd med källkodspaket"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "aktivera förråd med debug-info och debug-source-paket"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "hämta alla paket från fjärrförrådet"
+msgstr "hämta endast paket från de senaste modulerna"
 
 #: plugins/modulesync.py:85
 #, fuzzy
@@ -892,23 +883,21 @@ msgstr ""
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Ingen matchning för artefakten '{0}' från modulen '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "Ingen matchning för paketnamnet '{0}' i profilen {1} från modul {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Ingen matchning för argumentet: {}"
+msgstr "Ingen matchning för argumentet '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Kan inte uppfylla kravet {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -985,10 +974,8 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Visa en lista över olösta beroenden för förråd"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Förrådshöljet slutade med olösta beroenden."
+msgstr "Förrådshöljet slutade med olösta beroenden. ({}) över {} paket."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
