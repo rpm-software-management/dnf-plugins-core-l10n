@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-14 01:56+0000\n"
+"POT-Creation-Date: 2022-01-17 01:55+0000\n"
 "PO-Revision-Date: 2022-01-17 03:16+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -442,9 +442,11 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"만약 기본설정되지 않은 저장소를 활성화 하고자 한다면, 다음 명령을 사용하세요:\n"
+"만약 기본설정되지 않은 저장소를 활성화 하고자 한다면, 다음 명령을 사용하세"
+"요:\n"
 "  'dnf copr enable {0} <repository>'\n"
-"하지만 설치된 저장소 파일은 수동으로 수정해야 할 필요가 있다는 점을 참고하세요."
+"하지만 설치된 저장소 파일은 수동으로 수정해야 할 필요가 있다는 점을 참고하세"
+"요."
 
 #: plugins/copr.py:503
 #, python-brace-format
@@ -850,7 +852,8 @@ msgstr "기록 데이터 마이그레이션 중 ..."
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr "모듈에서 꾸러미를 내려 받기와/또는 모듈식 자료를 갖고 있는 저장소를 생성"
+msgstr ""
+"모듈에서 꾸러미를 내려 받기와/또는 모듈식 자료를 갖고 있는 저장소를 생성"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
@@ -881,7 +884,9 @@ msgstr[0] "인수와 일치하는 항목을 찾을 수 없습니다: '{}'"
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
-msgstr "반환 코드 {}로 인하여 저장소 생성에 실패함. 모두 내려받기된 내용은 시스템에서 보관됩니다"
+msgstr ""
+"반환 코드 {}로 인하여 저장소 생성에 실패함. 모두 내려받기된 내용은 시스템에"
+"서 보관됩니다"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
@@ -891,7 +896,8 @@ msgstr "모듈 '{1}' 에서 인위 결과물 '{0}'과 일치하는 부분이 없
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr "모듈 {2}에서 프로파일 {1}인 꾸러미 이름 '{0}'과 일치하는 부분이 없습니다"
+msgstr ""
+"모듈 {2}에서 프로파일 {1}인 꾸러미 이름 '{0}'과 일치하는 부분이 없습니다"
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
@@ -977,7 +983,8 @@ msgstr "저장소에 대한 확인되지 않은 종속성 목록 표시"
 
 #: plugins/repoclosure.py:69
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Repoclosure는 {} 꾸러미를 통해 해결되지 않은 의존성 ({})으로 종료되었습니다."
+msgstr ""
+"Repoclosure는 {} 꾸러미를 통해 해결되지 않은 의존성 ({})으로 종료되었습니다."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
