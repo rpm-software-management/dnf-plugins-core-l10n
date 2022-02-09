@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-04 01:38+0000\n"
-"PO-Revision-Date: 2022-02-05 10:16+0000\n"
+"PO-Revision-Date: 2022-02-09 02:16+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/id/>\n"
@@ -132,7 +132,7 @@ msgstr ""
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
-msgstr ""
+msgstr "Changelog bagi {}"
 
 #: plugins/config_manager.py:38
 #, python-brace-format
@@ -554,7 +554,7 @@ msgstr ""
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
-msgstr ""
+msgstr "Tidak berhasil menemukan yang cocok"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
