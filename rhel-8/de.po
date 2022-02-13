@@ -6,13 +6,13 @@
 # Thomas Eichhorn <tomislav@posteo.de>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Christian Kujau <fedora@nerdbynature.de>, 2020.
-# Ettore Atalan <atalanttore@googlemail.com>, 2021.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 10:06+0100\n"
-"PO-Revision-Date: 2021-12-05 20:16+0000\n"
+"PO-Revision-Date: 2022-02-14 12:16+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -439,10 +439,8 @@ msgid "Interact with Playground repository."
 msgstr "Interaktion mit Playground-Paketquellen"
 
 #: plugins/copr.py:639
-#, fuzzy
-#| msgid "Interact with Playground repository."
 msgid "Enabling a Playground repository."
-msgstr "Interaktion mit Playground-Paketquellen"
+msgstr "Aktivierung einer Playground-Paketquelle."
 
 #: plugins/copr.py:640
 msgid "Do you want to continue?"
@@ -506,6 +504,8 @@ msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
 msgstr ""
+"Das Entfernen von Nur-Installations-Paketen zulassen. Die Verwendung dieser "
+"Option kann zu einem Versuch führen, den laufenden Kernel zu entfernen."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -530,24 +530,32 @@ msgstr "Debuginfo-Pakete installieren"
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
 msgstr ""
+"Für die folgenden verfügbaren Pakete konnte das debuginfo-Paket nicht "
+"gefunden werden: %s"
 
 #: plugins/debuginfo-install.py:185
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr ""
+"Für die folgenden verfügbaren Pakete konnte das debugsource-Paket nicht "
+"gefunden werden: %s"
 
 #: plugins/debuginfo-install.py:190
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
 msgstr ""
+"Für die folgenden installierten Pakete konnte das debuginfo-Paket nicht "
+"gefunden werden: %s"
 
 #: plugins/debuginfo-install.py:195
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
 msgstr ""
+"Für die folgenden installierten Pakete konnte das debugsource-Paket nicht "
+"gefunden werden: %s"
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
@@ -628,11 +636,11 @@ msgstr "Ungültige Gruppenkennung"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr ""
+msgstr "Ungültige übersetzte Daten, sollten in der Form 'lang:text' sein"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
-msgstr ""
+msgstr "Ungültige/leere Sprache für übersetzte Daten"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
@@ -640,33 +648,31 @@ msgstr ""
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
-msgstr ""
+msgstr "Gruppen-Metadaten-Datei erstellen und bearbeiten"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
-msgstr ""
+msgstr "Gruppen-Metadaten aus Datei laden"
 
 #: plugins/groups_manager.py:93
 msgid "save groups metadata to file"
-msgstr ""
+msgstr "Gruppen-Metadaten in einer Datei speichern"
 
 #: plugins/groups_manager.py:95
 msgid "load and save groups metadata to file"
-msgstr ""
+msgstr "Gruppen-Metadaten in eine Datei laden und speichern"
 
 #: plugins/groups_manager.py:97
-#, fuzzy
-#| msgid "print variable values to stdout"
 msgid "print the result metadata to stdout"
-msgstr "variable Werte in stdout ausgeben"
+msgstr "die Ergebnis-Metadaten auf stdout ausgeben"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr ""
+msgstr "Gruppenkennung"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
-msgstr ""
+msgstr "Gruppenname"
 
 #: plugins/groups_manager.py:103
 msgid "group description"
@@ -702,13 +708,11 @@ msgstr ""
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
-msgstr ""
+msgstr "Pakete aus der Gruppe entfernen, anstatt sie hinzuzufügen"
 
 #: plugins/groups_manager.py:129
-#, fuzzy
-#| msgid "Display a list of unresolved dependencies for repositories"
 msgid "include also direct dependencies for packages"
-msgstr "Eine Liste der unaufgelösten Abhängigkeiten einer Paketquelle anzeigen"
+msgstr "auch direkte Abhängigkeiten für Pakete mit einbeziehen"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
@@ -719,16 +723,12 @@ msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
 
 #: plugins/groups_manager.py:190
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't load file \"{}\": {}"
-msgstr "Datei »{}« kann nicht geschrieben werden"
+msgstr "Datei »{}«: {} kann nicht geladen werden"
 
 #: plugins/groups_manager.py:206
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't save file \"{}\": {}"
-msgstr "Datei »{}« kann nicht geschrieben werden"
+msgstr "Datei »{}«: {} kann nicht gespeichert werden"
 
 #: plugins/groups_manager.py:259
 msgid "No match for argument: {}"
@@ -737,6 +737,7 @@ msgstr "Keine Übereinstimmung für Argument: {}"
 #: plugins/groups_manager.py:296
 msgid "Can't remove packages from non-existent group"
 msgstr ""
+"Pakete können nicht aus einer nicht existierenden Gruppe entfernt werden"
 
 #: plugins/groups_manager.py:305
 msgid ""
@@ -797,6 +798,8 @@ msgstr "Nur die Prozesse dieses Benutzers berücksichtigen"
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
+"nur melden, ob ein Neustart erforderlich ist (Beendungscode 1) oder nicht ( "
+"Beendigungscode 0)"
 
 #: plugins/needs_restarting.py:234
 msgid "only report affected systemd services"
@@ -834,7 +837,7 @@ msgstr ""
 #: plugins/post-transaction-actions.py:130
 #, python-format
 msgid "Bad Transaction State: %s"
-msgstr ""
+msgstr "Falscher Transaktionsstatus: %s"
 
 #: plugins/post-transaction-actions.py:153
 #: plugins/post-transaction-actions.py:155
@@ -873,11 +876,11 @@ msgstr "Unaufgelöste Abhängigkeiten nur für dieses Paket prüfen"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
-msgstr ""
+msgstr "Unterschiede zwischen zwei Mengen von Paketquellen auflisten"
 
 #: plugins/repodiff.py:58
 msgid "Specify old repository, can be used multiple times"
-msgstr ""
+msgstr "Geben Sie die alte Paketquelle an, die mehrfach verwendet werden kann"
 
 #: plugins/repodiff.py:60
 msgid "Specify new repository, can be used multiple times"
@@ -888,6 +891,8 @@ msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
 msgstr ""
+"Geben Sie die zu vergleichenden Architekturen an, die mehrfach verwendet "
+"werden können. Standardmäßig werden nur die Quell-RPMs verglichen."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
@@ -1070,6 +1075,8 @@ msgstr "alle Metadaten herunterladen."
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
 msgstr ""
+"Pakete entfernen, die nach dem Herunterladen die GPG-Signaturprüfung nicht "
+"bestehen"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
@@ -1080,6 +1087,8 @@ msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
+"wo heruntergeladene Paketquellen-Metadaten gespeichert werden sollen. "
+"Voreinstellung ist der Wert von --download-path."
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
@@ -1096,6 +1105,7 @@ msgstr "wo heruntergeladene Paketquellen gespeichert werden sollen"
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
+"versuchen, den Zeitstempel lokaler Dateien durch den des Servers zu ersetzen"
 
 #: plugins/reposync.py:87
 msgid "operate on source packages"
@@ -1114,11 +1124,11 @@ msgstr ""
 #: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr ""
+msgstr "Spiegelserver für Metadaten konnte nicht abgerufen werden: %s"
 
 #: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "Spiegelserver für die Gruppendatei konnte nicht abgerufen werden."
 
 #: plugins/reposync.py:168
 msgid "Removing {}: {}"
@@ -1170,7 +1180,7 @@ msgstr "Ausnahme wird hinzugefügt:"
 
 #: plugins/versionlock.py:36
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "Paket ist bereits in gleichwertiger Form gesperrt:"
 
 #: plugins/versionlock.py:37
 msgid "Package {} is already locked"
