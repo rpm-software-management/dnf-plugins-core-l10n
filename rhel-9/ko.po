@@ -1,20 +1,21 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2020.
 # simmon <simmon@nplob.com>, 2021.
+# Kim InSoo <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 13:42+0100\n"
-"PO-Revision-Date: 2021-09-04 17:04+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-9/ko/>\n"
+"PO-Revision-Date: 2022-03-02 04:16+0000\n"
+"Last-Translator: Kim InSoo <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-9/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -813,9 +814,8 @@ msgstr "기록 데이터 마이그레이션 중 ..."
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
-msgstr ""
-"재시작이 필요한 파일 \"{file}\" 에 지정한 꾸러미 이름 \"{pkg}\"을 위하여 설치"
-"된 꾸러미(package)를 찾을 수 없습니다."
+msgstr "재시작이 필요한 파일 \"{file}\" 에 지정한 꾸러미 이름 \"{pkg}\"을 위하여 "
+"설치된 꾸러미를 찾을 수 없습니다."
 
 #: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
@@ -1133,7 +1133,7 @@ msgstr "서버에 있는 하나에서 로컬파일의 로컬 타임스템프 설
 
 #: plugins/reposync.py:87
 msgid "download only source packages"
-msgstr "원천 꾸러미에서만 내려받습니다"
+msgstr "원천 꾸러미만 내려받기"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1247,9 +1247,8 @@ msgstr "꾸러미(package) 사양을 그대로 사용하며, 구문 분석을 �
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
-msgstr ""
-"하위명령 '{}'가 더 이상 사용되지 않습니다. 대신에 '예외' 하위명령를 사용합니"
-"다."
+msgstr "하위명령 '{}'는 더 이상 사용하지 않습니다. 대신에 하위명령 'exclude'를 "
+"사용합니다."
 
 #~ msgid ""
 #~ "\n"
