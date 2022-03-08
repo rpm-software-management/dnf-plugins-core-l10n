@@ -3,22 +3,22 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020.
 # Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata
 # Mikael Granberg <mikael@famgra.se>, 2020.
-# Luna Jernberg <bittin@reimu.nl>, 2021.
+# Luna Jernberg <bittin@reimu.nl>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2021-04-13 06:02+0000\n"
+"PO-Revision-Date: 2022-03-08 22:24+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-8/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-8/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -309,10 +309,8 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "exakt två ytterligare parametrar till kommandot copr behövs"
 
 #: plugins/copr.py:232
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Ingen matchning för argumentet: %s"
+msgstr "För många argument."
 
 #: plugins/copr.py:235
 msgid ""
@@ -813,67 +811,60 @@ msgstr "Migrerar historiedata …"
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr ""
+"Ladda ner paket från moduler och/eller skapa ett förråd med modulär data"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODUL"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "paket att hämta"
+msgstr "moduler att hämta"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "enable repositories with source packages"
-msgstr "arbeta på källpaket"
+msgstr "aktivera förråd med källkodspaket"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "aktivera förråd med debug-info och debug-source-paket"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "hämta alla paket från fjärrförrådet"
+msgstr "hämta endast paket från de senaste modulerna"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Ingen matchning för argumentet: {}"
-msgstr[1] "Ingen matchning för argumentet: {}"
+msgstr[0] "Det gick inte att hitta en matchning för argument: '{}'"
+msgstr[1] "Det gick inte att hitta en matchning för argumenten: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Skapandet av förråd misslyckades med returkoden {}. Allt nedladdat innehåll "
+"behölls på systemet"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Ingen matchning för artefakten '{0}' från modulen '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "Ingen matchning för paketnamnet '{0}' i profilen {1} från modul {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Ingen matchning för argumentet: {}"
+msgstr "Ingen matchning för argumentet '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Kan inte uppfylla kravet {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -1202,10 +1193,8 @@ msgstr ""
 "försök att sätta lokala tidsstämplar på lokala filer från den på servern"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "arbeta på källpaket"
+msgstr "hämta endast källkodspaket"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1324,6 +1313,7 @@ msgstr "Använd paketspecifikationer som de är, försök inte att tolka dem"
 #: plugins/versionlock.py:160
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+"Underkommandot ”{}” bör undvikas. Använd underkommandot ”exclude” istället."
 
 #~ msgid ""
 #~ "\n"
