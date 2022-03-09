@@ -7,21 +7,22 @@
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2020.
 # Julien Humbert <julroy67@gmail.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
+# Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2021-09-03 10:36+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-8/fr/>\n"
+"PO-Revision-Date: 2022-03-09 10:22+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-8/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -317,16 +318,16 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "la commande copr requiert exactement deux paramètres additionnels"
 
 #: plugins/copr.py:232
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Aucune correspondance pour l’argument : %s"
+msgstr "Trop d'arguments."
 
 #: plugins/copr.py:235
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
+"Mauvais format du chroot optionnel. Le format est distribution-version-"
+"architecture."
 
 #: plugins/copr.py:250
 msgid "use format `copr_username/copr_projectname` to reference copr project"
@@ -835,67 +836,63 @@ msgstr "Migration des données d’historique …"
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr ""
+"Télécharger les paquets des modules et/ou créer un référentiel avec les "
+"données des modules"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODULE"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "paquets à télécharger"
+msgstr "modules à télécharger"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "enable repositories with source packages"
-msgstr "opère sur les paquets source"
+msgstr "activer les dépôts avec les paquets sources"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "activer les dépôts avec les paquets debug-info et debug-source"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "télécharger tous les paquets depuis le dépôt distant"
+msgstr "télécharger uniquement les paquets des modules les plus récents"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Aucune correspondance pour l’argument : {}"
-msgstr[1] "Aucune correspondance pour l’argument : {}"
+msgstr[0] "Impossible de trouver une correspondance pour l'argument : '{}'."
+msgstr[1] "Impossible de trouver une correspondance pour les arguments : '{}'."
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"La création du référentiel a échoué avec le code de retour {}. Tout le "
+"contenu téléchargé a été conservé sur le système"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Aucune correspondance pour l'artefact '{0}' du module '{1}'."
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
+"Aucune correspondance pour le nom de paquet '{0}' dans le profil {1} du "
+"module {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Aucune correspondance pour l’argument : {}"
+msgstr "Pas de correspondance pour l'argument '{}'."
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Impossible de satisfaire le besoin {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -1236,10 +1233,8 @@ msgstr ""
 "serveur"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "opère sur les paquets source"
+msgstr "télécharger uniquement les packages sources"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1363,6 +1358,8 @@ msgstr ""
 #: plugins/versionlock.py:160
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+"La sous-commande '{}' est obsolète. Utilisez plutôt la sous-commande "
+"'exclude'."
 
 #~ msgid ""
 #~ "\n"
