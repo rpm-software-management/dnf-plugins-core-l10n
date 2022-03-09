@@ -7,13 +7,14 @@
 # Hongqiao Chen <harrychen0314@gmail.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
+# Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 13:42+0100\n"
-"PO-Revision-Date: 2021-09-11 10:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2022-03-09 12:39+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-rhel-9/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -797,9 +798,8 @@ msgstr "正在迁移历史数据…"
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
-msgstr ""
-"没有为在需要重新启动文件 \"{file}\" 中指定的名为 \"{pkg}\" 的软件包找到安装的"
-"软件包。"
+msgstr "未找到在需要重新启动文件 \"{file}\" 中指定的软件包名为 \"{pkg}\" "
+"的已安装的软件包。"
 
 #: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
