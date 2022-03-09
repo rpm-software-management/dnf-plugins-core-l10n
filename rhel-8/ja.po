@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2022-03-09 10:20+0000\n"
+"PO-Revision-Date: 2022-03-09 12:39+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ja/>\n"
@@ -823,7 +823,7 @@ msgstr "履歴データを移行中..."
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr "モジュールからパッケージをダウンロードしたり、モジュラーデータでリポジトリー"
-"を作成したりします。"
+"を作成したりします"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
@@ -835,16 +835,16 @@ msgstr "ダウンロードするモジュール"
 
 #: plugins/modulesync.py:47
 msgid "enable repositories with source packages"
-msgstr "ソースパッケージを含むリポジトリーを有効にします。"
+msgstr "ソースパッケージを含むリポジトリーを有効にします"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
 msgstr "debug-info パッケージおよび debug-source "
-"パッケージでリポジトリーを有効にします。"
+"パッケージでリポジトリーを有効にします"
 
 #: plugins/modulesync.py:53
 msgid "download only packages from newest modules"
-msgstr "最新のモジュールからパッケージのみをダウンロードします。"
+msgstr "最新のモジュールからパッケージのみをダウンロードします"
 
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
@@ -855,28 +855,28 @@ msgstr[0] "引数に一致するものが見つかりませんでした: '{}'"
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
-msgstr "リポジトリーの作成は戻りコード {} で失敗しました。ダウンロードされたコンテン"
-"ツはすべてシステムに保持されました。"
+msgstr "リポジトリーの作成は戻りコード {} "
+"で失敗しました。ダウンロードされたコンテンツはすべてシステムに保持されました"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr "モジュール '{1}' のアーティファクト '{0}' に一致するものはありません。"
+msgstr "モジュール '{1}' のアーティファクト '{0}' に一致するものはありません"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr "モジュール {2} からのプロファイル {1} のパッケージ名 '{0}' "
-"に一致するものはありません。"
+"に一致するものはありません"
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
-msgstr "引数 '{}' に一致するものはありません。"
+msgstr "引数 '{}' に一致するものはありません"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr "要求 {} を満たすことができません。"
+msgstr "要求 {} を満たすことができません"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
