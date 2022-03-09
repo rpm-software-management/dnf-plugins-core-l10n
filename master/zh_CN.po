@@ -6,13 +6,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Hongqiao Chen <harrychen0314@gmail.com>, 2020.
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
+# Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 02:00+0000\n"
-"PO-Revision-Date: 2021-09-11 10:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2022-03-09 10:22+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -830,76 +831,65 @@ msgstr "正在迁移历史数据…"
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "从模块下载软件包和/或创建带有模块化数据的存储库"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "模块"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "将要下载的软件包"
+msgstr "要下载的模块"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "指定要检查的软件仓库"
+msgstr "启用带有源软件包的软件仓库"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "启用带有 debug-info 和 debug-source 软件包的软件仓库"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "下载远程仓库中的全部软件包"
+msgstr "只从最新的模块中下载软件包"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "未找到匹配的参数： {}"
+msgstr[0] "找不到与参数：'{}'相匹配的项"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
-msgstr ""
+msgstr "创建存储库会失败，并显示返回码 {}。所有下载的内容都保存在系统上"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "没有与模块 '{1}' 的工件 '{0}' 相匹配的项"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "没有与模块 {2} 中配置文件 {1} 的软件包名称 '{0}' 相匹配的项"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "未找到匹配的参数： {}"
+msgstr "没有与参数 '{}' 相匹配的项"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "无法满足要求 {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
-msgstr ""
-"没有为在需要重新启动文件 \"{file}\" 中指定的名为 \"{pkg}\" 的软件包找到安装的"
-"软件包。"
+msgstr "未找到在需要重新启动文件 \"{file}\" 中指定的软件包名为 \"{pkg}\" "
+"的已安装的软件包。"
 
 #: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
@@ -1212,7 +1202,7 @@ msgstr "根据服务器上的文件设置本地文件的本地时间戳"
 
 #: plugins/reposync.py:87
 msgid "download only source packages"
-msgstr "只下载源码包"
+msgstr "只下载源软件包"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1326,7 +1316,7 @@ msgstr "按原样使用程序包规格，请勿尝试解析它们"
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
-msgstr "子命令 '{}' 已被弃用。请换用 'exclude' 子命令。"
+msgstr "子命令 '{}' 已被弃用。改为使用 'exclude' 子命令。"
 
 #~ msgid ""
 #~ "This repository does not have any builds yet so you cannot enable it now."
