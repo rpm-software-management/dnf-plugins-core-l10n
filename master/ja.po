@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:00+0000\n"
+"POT-Creation-Date: 2022-03-09 02:03+0000\n"
 "PO-Revision-Date: 2022-03-09 12:39+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -479,8 +479,8 @@ msgid ""
 msgstr ""
 "有効化した Copr リポジトリーの管理者は\n"
 "他のリポジトリーに依存するように決めました。\n"
-"そのようなリポジトリーは通常、主な Corp "
-"レジストリー(ランタイム依存関係を提供) から RPM を\n"
+"そのようなリポジトリーは通常、主な Corp レジストリー(ランタイム依存関係を提"
+"供) から RPM を\n"
 "正常にインストールするために必要です。\n"
 "\n"
 "上記の品質とバグ報告についての注意点がここでも適用\n"
@@ -857,7 +857,8 @@ msgstr "履歴データを移行中..."
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr "モジュールからパッケージをダウンロードしたり、モジュラーデータでリポジトリー"
+msgstr ""
+"モジュールからパッケージをダウンロードしたり、モジュラーデータでリポジトリー"
 "を作成したりします"
 
 #: plugins/modulesync.py:44
@@ -874,8 +875,9 @@ msgstr "ソースパッケージを含むリポジトリーを有効にします
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr "debug-info パッケージおよび debug-source "
-"パッケージでリポジトリーを有効にします"
+msgstr ""
+"debug-info パッケージおよび debug-source パッケージでリポジトリーを有効にしま"
+"す"
 
 #: plugins/modulesync.py:53
 msgid "download only packages from newest modules"
@@ -890,8 +892,9 @@ msgstr[0] "引数に一致するものが見つかりませんでした: '{}'"
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
-msgstr "リポジトリーの作成は戻りコード {} "
-"で失敗しました。ダウンロードされたコンテンツはすべてシステムに保持されました"
+msgstr ""
+"リポジトリーの作成は戻りコード {} で失敗しました。ダウンロードされたコンテン"
+"ツはすべてシステムに保持されました"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
@@ -901,8 +904,9 @@ msgstr "モジュール '{1}' のアーティファクト '{0}' に一致する�
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr "モジュール {2} からのプロファイル {1} のパッケージ名 '{0}' "
-"に一致するものはありません"
+msgstr ""
+"モジュール {2} からのプロファイル {1} のパッケージ名 '{0}' に一致するものはあ"
+"りません"
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
@@ -919,8 +923,8 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
-"needs-restarting ファイル \"{file}\" に指定されている \"{pkg}\" "
-"というパッケージのインストール済みパッケージが見つかりません。"
+"needs-restarting ファイル \"{file}\" に指定されている \"{pkg}\" というパッ"
+"ケージのインストール済みパッケージが見つかりません。"
 
 #: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
