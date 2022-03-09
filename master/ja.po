@@ -1,13 +1,14 @@
 # Ooyama Yosiyuki <qqke6wd9k@apricot.ocn.ne.jp>, 2015. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Casey Jones <nahareport@yahoo.com>, 2020.
+# Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 02:00+0000\n"
-"PO-Revision-Date: 2021-09-11 10:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2022-03-09 10:22+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ja/>\n"
 "Language: ja\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -476,20 +477,19 @@ msgid ""
 "\n"
 "These repositories have been enabled automatically."
 msgstr ""
-"有効化した Copr リポジトリの管理者は\n"
-"他のリポジトリに依存するように決めました。\n"
-"そのようなリポジトリは主な Corp レジストリー\n"
-"ランタイム依存関係を提供) から RPM のインストールを\n"
-"成功させるために通常必要です。\n"
+"有効化した Copr リポジトリーの管理者は\n"
+"他のリポジトリーに依存するように決めました。\n"
+"そのようなリポジトリーは通常、主な Corp "
+"レジストリー(ランタイム依存関係を提供) から RPM を\n"
+"正常にインストールするために必要です。\n"
 "\n"
-"上記の品質とバグ報告についての注意点が\n"
-"ここでも適用されますが、Fedora Project は内容を\n"
-"管理していないことに注意してください。以下のリストを確認\n"
-"してください。\n"
+"上記の品質とバグ報告についての注意点がここでも適用\n"
+"されますが、Fedora Project は内容を管理していないことに\n"
+"注意してください。以下のリストを確認してください。\n"
 "\n"
 "{0}\n"
 "\n"
-"これらのリポジトリは自動的に有効になっています。"
+"これらのリポジトリーは自動的に有効になっています。"
 
 #: plugins/copr.py:578
 msgid "Do you want to keep them enabled?"
@@ -857,67 +857,61 @@ msgstr "履歴データを移行中..."
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "モジュールからパッケージをダウンロードしたり、モジュラーデータでリポジトリー"
+"を作成したりします。"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODULE"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "ダウンロードするパッケージ"
+msgstr "ダウンロードするモジュール"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "確認するリポジトリーを指定します"
+msgstr "ソースパッケージを含むリポジトリーを有効にします。"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "debug-info パッケージおよび debug-source "
+"パッケージでリポジトリーを有効にします。"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "リモート repo からすべてのパッケージをダウンロードします"
+msgstr "最新のモジュールからパッケージのみをダウンロードします。"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "一致した引数がありません: {}"
+msgstr[0] "引数に一致するものが見つかりませんでした: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
-msgstr ""
+msgstr "リポジトリーの作成は戻りコード {} で失敗しました。ダウンロードされたコンテン"
+"ツはすべてシステムに保持されました。"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "モジュール '{1}' のアーティファクト '{0}' に一致するものはありません。"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "モジュール {2} からのプロファイル {1} のパッケージ名 '{0}' "
+"に一致するものはありません。"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "一致した引数がありません: {}"
+msgstr "引数 '{}' に一致するものはありません。"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "要求 {} を満たすことができません。"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -925,8 +919,8 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
-"needs-restarting ファイル \"{file}\" に指定されている {pkg} というパッケージ"
-"のインストール済みパッケージが見つかりません。"
+"needs-restarting ファイル \"{file}\" に指定されている \"{pkg}\" "
+"というパッケージのインストール済みパッケージが見つかりません。"
 
 #: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
