@@ -1,15 +1,15 @@
-# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2020. #zanata, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020. #zanata, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2021-03-02 15:01+0000\n"
+"PO-Revision-Date: 2022-04-11 06:17+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/uk/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -316,16 +316,16 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "команді copr слід передавати точно два додаткові параметри"
 
 #: plugins/copr.py:232
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Відповідника параметра не знайдено: %s"
+msgstr "Забагато аргументів."
 
 #: plugins/copr.py:235
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
+"Помилкове форматування необов'язкового chroot. Значення мало бути записано у "
+"форматі «дистрибутив-версія-архітектура»."
 
 #: plugins/copr.py:250
 msgid "use format `copr_username/copr_projectname` to reference copr project"
@@ -828,69 +828,61 @@ msgstr "Переносимо дані журналу…"
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "Отримати пакунки з модулів і/або створити сховище з модульними даними"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "МОДУЛЬ"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "пакунки для отримання"
+msgstr "модулі для отримання"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "enable repositories with source packages"
-msgstr "працювати із пакунками початкових кодів"
+msgstr "увімкнути сховища із пакунками з початковим кодом"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "увімкнути сховища із пакунками debug-info і debug-source"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "отримати усі пакунки із віддаленого сховища"
+msgstr "отримати лише пакунки із найновіших модулів"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Відповідника параметра не знайдено: {}"
-msgstr[1] "Відповідника параметра не знайдено: {}"
-msgstr[2] "Відповідника параметра не знайдено: {}"
+msgstr[1] "Відповідника параметрів не знайдено: {}"
+msgstr[2] "Відповідника параметрів не знайдено: {}"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Спроба створити сховище завершилася помилкою із кодом {}. Усі отримані дані "
+"лишилися у системі"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Не виявлено відповідника елемента «{0}» з модуля «{1}»"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "Немає відповідника назві пакунка «{0}» у профілі {1} з модуля {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Відповідника параметра не знайдено: {}"
+msgstr "Немає відповідника аргументу «{}»"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Не вдалося задовольнити вимогу {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -1226,10 +1218,8 @@ msgstr ""
 "позначками часу на сервері"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "працювати із пакунками початкових кодів"
+msgstr "отримати лише пакунки початкових кодів"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
@@ -1352,6 +1342,8 @@ msgstr ""
 #: plugins/versionlock.py:160
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+"Підкоманда «{}» вважається застарілою. Скористайтеся замість неї підкомандою "
+"«exclude»."
 
 #~ msgid ""
 #~ "\n"
