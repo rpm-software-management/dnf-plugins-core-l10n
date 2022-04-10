@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-31 02:17+0000\n"
-"PO-Revision-Date: 2022-01-13 13:23+0000\n"
+"PO-Revision-Date: 2022-04-11 06:17+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -890,9 +890,9 @@ msgstr "отримати лише пакунки із найновіших мо�
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Відповідника аргументу не знайдено: {}"
-msgstr[1] "Відповідника аргументів не знайдено: {}"
-msgstr[2] "Відповідника аргументів не знайдено: {}"
+msgstr[0] "Відповідника параметра не знайдено: {}"
+msgstr[1] "Відповідника параметрів не знайдено: {}"
+msgstr[2] "Відповідника параметрів не знайдено: {}"
 
 #: plugins/modulesync.py:107
 msgid ""
