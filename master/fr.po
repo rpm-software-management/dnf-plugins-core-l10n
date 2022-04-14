@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-11 02:31+0000\n"
+"POT-Creation-Date: 2022-04-14 02:30+0000\n"
 "PO-Revision-Date: 2022-03-09 12:39+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1185,31 +1185,49 @@ msgstr "Gère un dossier de paquets rpm"
 msgid "Pass either --old or --new, not both!"
 msgstr "Passez soit --old, soit --new, mais pas les deux !"
 
-#: plugins/repomanage.py:89
+#: plugins/repomanage.py:61
+#, fuzzy
+#| msgid "Pass either --old or --new, not both!"
+msgid "Pass either --oldonly or --new, not both!"
+msgstr "Passez soit --old, soit --new, mais pas les deux !"
+
+#: plugins/repomanage.py:63
+#, fuzzy
+#| msgid "Pass either --old or --new, not both!"
+msgid "Pass either --old or --oldonly, not both!"
+msgstr "Passez soit --old, soit --new, mais pas les deux !"
+
+#: plugins/repomanage.py:95
 msgid "No files to process"
 msgstr "Aucun fichier à traiter"
 
-#: plugins/repomanage.py:96
+#: plugins/repomanage.py:102
 msgid "Could not open {}"
 msgstr "Ouverture de {} impossible"
 
-#: plugins/repomanage.py:180
+#: plugins/repomanage.py:218
 msgid "Print the older packages"
 msgstr "Afficher les paquets plus anciens"
 
-#: plugins/repomanage.py:182
+#: plugins/repomanage.py:220
+#, fuzzy
+#| msgid "Print the newest packages"
+msgid "Print the older packages. Exclude the newest packages."
+msgstr "Afficher les paquets les plus récents"
+
+#: plugins/repomanage.py:222
 msgid "Print the newest packages"
 msgstr "Afficher les paquets les plus récents"
 
-#: plugins/repomanage.py:184
+#: plugins/repomanage.py:224
 msgid "Space separated output, not newline"
 msgstr "Sorties séparées par des espaces plutôt que des retours à la ligne"
 
-#: plugins/repomanage.py:186
+#: plugins/repomanage.py:226
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "N paquets les plus récents à conserver — par défaut 1"
 
-#: plugins/repomanage.py:189
+#: plugins/repomanage.py:229
 msgid "Path to directory"
 msgstr "Chemin vers le répertoire"
 

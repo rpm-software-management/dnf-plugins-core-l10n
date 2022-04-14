@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-11 02:31+0000\n"
+"POT-Creation-Date: 2022-04-14 02:30+0000\n"
 "PO-Revision-Date: 2022-02-09 02:16+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
@@ -1067,31 +1067,43 @@ msgstr ""
 msgid "Pass either --old or --new, not both!"
 msgstr ""
 
-#: plugins/repomanage.py:89
+#: plugins/repomanage.py:61
+msgid "Pass either --oldonly or --new, not both!"
+msgstr ""
+
+#: plugins/repomanage.py:63
+msgid "Pass either --old or --oldonly, not both!"
+msgstr ""
+
+#: plugins/repomanage.py:95
 msgid "No files to process"
 msgstr ""
 
-#: plugins/repomanage.py:96
+#: plugins/repomanage.py:102
 msgid "Could not open {}"
 msgstr ""
 
-#: plugins/repomanage.py:180
+#: plugins/repomanage.py:218
 msgid "Print the older packages"
 msgstr ""
 
-#: plugins/repomanage.py:182
+#: plugins/repomanage.py:220
+msgid "Print the older packages. Exclude the newest packages."
+msgstr ""
+
+#: plugins/repomanage.py:222
 msgid "Print the newest packages"
 msgstr ""
 
-#: plugins/repomanage.py:184
+#: plugins/repomanage.py:224
 msgid "Space separated output, not newline"
 msgstr ""
 
-#: plugins/repomanage.py:186
+#: plugins/repomanage.py:226
 msgid "Newest N packages to keep - defaults to 1"
 msgstr ""
 
-#: plugins/repomanage.py:189
+#: plugins/repomanage.py:229
 msgid "Path to directory"
 msgstr ""
 

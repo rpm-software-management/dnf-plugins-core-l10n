@@ -13,11 +13,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-11 02:31+0000\n"
+"POT-Creation-Date: 2022-04-14 02:30+0000\n"
 "PO-Revision-Date: 2022-04-14 20:17+0000\n"
 "Last-Translator: Joachim Philipp <joachim.philipp@gmail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/de/>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1140,31 +1140,49 @@ msgstr "Ein Verzeichnis mir RPM-Paketen verwalten"
 msgid "Pass either --old or --new, not both!"
 msgstr "Nur --old oder --new angeben, nicht gleichzeitig!"
 
-#: plugins/repomanage.py:89
+#: plugins/repomanage.py:61
+#, fuzzy
+#| msgid "Pass either --old or --new, not both!"
+msgid "Pass either --oldonly or --new, not both!"
+msgstr "Nur --old oder --new angeben, nicht gleichzeitig!"
+
+#: plugins/repomanage.py:63
+#, fuzzy
+#| msgid "Pass either --old or --new, not both!"
+msgid "Pass either --old or --oldonly, not both!"
+msgstr "Nur --old oder --new angeben, nicht gleichzeitig!"
+
+#: plugins/repomanage.py:95
 msgid "No files to process"
 msgstr "Keine zu verarbeitenden Dateien"
 
-#: plugins/repomanage.py:96
+#: plugins/repomanage.py:102
 msgid "Could not open {}"
 msgstr "{} konnte nicht geöffnet werden"
 
-#: plugins/repomanage.py:180
+#: plugins/repomanage.py:218
 msgid "Print the older packages"
 msgstr "Ältere Pakete ausgeben"
 
-#: plugins/repomanage.py:182
+#: plugins/repomanage.py:220
+#, fuzzy
+#| msgid "Print the newest packages"
+msgid "Print the older packages. Exclude the newest packages."
+msgstr "Neueste Pakete ausgeben"
+
+#: plugins/repomanage.py:222
 msgid "Print the newest packages"
 msgstr "Neueste Pakete ausgeben"
 
-#: plugins/repomanage.py:184
+#: plugins/repomanage.py:224
 msgid "Space separated output, not newline"
 msgstr "Durch Leerzeichen getrennte Ausgabe, keine neuen Zeilen"
 
-#: plugins/repomanage.py:186
+#: plugins/repomanage.py:226
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "Neueste N Pakete behalten, Vorgabe ist 1"
 
-#: plugins/repomanage.py:189
+#: plugins/repomanage.py:229
 msgid "Path to directory"
 msgstr "Pfad zum Verzeichnis"
 

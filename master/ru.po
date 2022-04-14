@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-11 02:31+0000\n"
+"POT-Creation-Date: 2022-04-14 02:30+0000\n"
 "PO-Revision-Date: 2022-01-11 20:16+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1168,31 +1168,49 @@ msgstr "Управление каталогом пакетов rpm"
 msgid "Pass either --old or --new, not both!"
 msgstr "Передавайте либо --old, либо --new, но не оба!"
 
-#: plugins/repomanage.py:89
+#: plugins/repomanage.py:61
+#, fuzzy
+#| msgid "Pass either --old or --new, not both!"
+msgid "Pass either --oldonly or --new, not both!"
+msgstr "Передавайте либо --old, либо --new, но не оба!"
+
+#: plugins/repomanage.py:63
+#, fuzzy
+#| msgid "Pass either --old or --new, not both!"
+msgid "Pass either --old or --oldonly, not both!"
+msgstr "Передавайте либо --old, либо --new, но не оба!"
+
+#: plugins/repomanage.py:95
 msgid "No files to process"
 msgstr "Нет файлов для обработки"
 
-#: plugins/repomanage.py:96
+#: plugins/repomanage.py:102
 msgid "Could not open {}"
 msgstr "Не удалось открыть {}"
 
-#: plugins/repomanage.py:180
+#: plugins/repomanage.py:218
 msgid "Print the older packages"
 msgstr "Вывести более старые пакеты"
 
-#: plugins/repomanage.py:182
+#: plugins/repomanage.py:220
+#, fuzzy
+#| msgid "Print the newest packages"
+msgid "Print the older packages. Exclude the newest packages."
+msgstr "Вывести самые новые пакеты"
+
+#: plugins/repomanage.py:222
 msgid "Print the newest packages"
 msgstr "Вывести самые новые пакеты"
 
-#: plugins/repomanage.py:184
+#: plugins/repomanage.py:224
 msgid "Space separated output, not newline"
 msgstr "Вывод с разделением пробелами, а не новой строкой"
 
-#: plugins/repomanage.py:186
+#: plugins/repomanage.py:226
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "Сохранять N самых новых пакетов - 1 по умолчанию"
 
-#: plugins/repomanage.py:189
+#: plugins/repomanage.py:229
 msgid "Path to directory"
 msgstr "Путь к каталогу"
 
