@@ -2,21 +2,22 @@
 # Marek Blaha <mblaha@redhat.com>, 2020.
 # simmon <simmon@nplob.com>, 2021, 2022.
 # Kim InSoo <simmon@nplob.com>, 2022.
+# 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-14 02:30+0000\n"
-"PO-Revision-Date: 2022-03-02 04:16+0000\n"
-"Last-Translator: Kim InSoo <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"PO-Revision-Date: 2022-04-15 09:31+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1158,16 +1159,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "--old 또는 --new 중 하나를 전달하세요!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "--old 또는 --new 중 하나를 전달하세요!"
+msgstr "--oldonly 또는 --new 중 하나를 전달하세요!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "--old 또는 --new 중 하나를 전달하세요!"
+msgstr "--oldonly 또는 --new 중 하나를 전달하세요!"
 
 #: plugins/repomanage.py:95
 msgid "No files to process"
@@ -1182,10 +1179,8 @@ msgid "Print the older packages"
 msgstr "이전 꾸러미(package) 인쇄"
 
 #: plugins/repomanage.py:220
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "최신 꾸러미(package) 인쇄"
+msgstr "오래된 꾸러미를 출력합니다. 최신 꾸러미는 제외합니다."
 
 #: plugins/repomanage.py:222
 msgid "Print the newest packages"
