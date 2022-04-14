@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-14 02:30+0000\n"
-"PO-Revision-Date: 2022-04-11 06:17+0000\n"
+"PO-Revision-Date: 2022-04-15 09:31+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -1177,16 +1177,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Слід передавати --old або --new, не обидва одразу!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Слід передавати --old або --new, не обидва одразу!"
+msgstr "Слід передавати --oldonly або --new, не обидва одразу!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Слід передавати --old або --new, не обидва одразу!"
+msgstr "Слід передавати --old або --oldonly, не обидва одразу!"
 
 #: plugins/repomanage.py:95
 msgid "No files to process"
@@ -1201,10 +1197,8 @@ msgid "Print the older packages"
 msgstr "Вивести старіші пакунки"
 
 #: plugins/repomanage.py:220
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Вивести найновіші пакунки"
+msgstr "Вивести список старіших пакунків. Виключити найновіші пакунки."
 
 #: plugins/repomanage.py:222
 msgid "Print the newest packages"
