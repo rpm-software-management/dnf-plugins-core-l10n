@@ -1,13 +1,14 @@
 # Serdar Sağlam <teknomobil@msn.com>, 2019. #zanata
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
+# Oğuz Ersen <oguz@ersen.moe>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2022-03-02 04:16+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2022-04-15 09:31+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/tr/>\n"
 "Language: tr\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -998,7 +999,7 @@ msgstr "Değişikliklerin boyutu hakkında ek veriler yazdır."
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
-"Paketleri mimariye göre de karşılaştır. Öntanımlı olarak paketler sadece "
+"Paketleri mimariye göre de karşılaştır. Öntanımlı olarak paketler yalnızca "
 "isme göre karşılaştırılır."
 
 #: plugins/repodiff.py:72
@@ -1125,7 +1126,7 @@ msgstr "Bir rpm paketleri dizinini yönet"
 #: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
 msgstr ""
-"--old ya da --new seçeneklerinden sadece birini belirtin, ikisini birlikte "
+"--old ya da --new seçeneklerinden yalnızca birini belirtin, ikisini birlikte "
 "belirtmeyin!"
 
 #: plugins/repomanage.py:89
@@ -1213,7 +1214,7 @@ msgstr "yalnızca kaynak paketlerini indir"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr "İndirmek yerine sadece indirilecek ögelerin url'lerini listele"
+msgstr "İndirmek yerine yalnızca indirilecek ögelerin URL'lerini listele"
 
 #: plugins/reposync.py:113
 msgid "Can't use --norepopath with multiple repositories"
