@@ -8,21 +8,22 @@
 # Ludek Janda <ljanda@redhat.com>, 2019. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2019. #zanata
 # Emilio Herrera <ehespinosa57@gmail.com>, 2020.
+# Alejandro Alcaide <alex@blueselene.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2020-09-01 14:29+0000\n"
-"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/es/>\n"
+"PO-Revision-Date: 2022-04-30 22:18+0000\n"
+"Last-Translator: Alejandro Alcaide <alex@blueselene.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-8/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.1\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -148,7 +149,7 @@ msgstr "Registros de cambios para {}"
 #: plugins/config_manager.py:38
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
-msgstr ""
+msgstr "Dirige {*prog} opciones de configuración y repositorios"
 
 #: plugins/config_manager.py:45
 msgid "repo to modify"
@@ -173,7 +174,7 @@ msgstr "imprimir valores de variables a la salida estándar"
 
 #: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "Habilita repos (guarda automaticamente)"
 
 #: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
