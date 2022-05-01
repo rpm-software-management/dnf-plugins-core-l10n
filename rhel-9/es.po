@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 13:42+0100\n"
-"PO-Revision-Date: 2022-04-30 22:18+0000\n"
+"PO-Revision-Date: 2022-05-02 18:18+0000\n"
 "Last-Translator: Alejandro Alcaide <alex@blueselene.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-9/es/>\n"
@@ -178,11 +178,11 @@ msgstr "Habilita repos (guarda automaticamente)"
 
 #: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "desactivar repositorios (guarda automáticamente)"
 
 #: plugins/config_manager.py:78
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "Uno de los argumentos siguientes son necesarios: {}"
 
 #: plugins/config_manager.py:87
 msgid ""
