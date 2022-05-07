@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-02 03:10+0000\n"
+"POT-Creation-Date: 2022-05-07 02:22+0000\n"
 "PO-Revision-Date: 2022-05-07 15:51+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -972,18 +972,18 @@ msgid "Bad Action Line \"%s\": %s"
 msgstr "Virheellinen toimintarivi \"%s\": %s"
 
 #. unsupported state, skip it
-#: plugins/post-transaction-actions.py:130
+#: plugins/post-transaction-actions.py:133
 #, python-format
 msgid "Bad Transaction State: %s"
 msgstr "Virheellinen transaktion tila: %s"
 
-#: plugins/post-transaction-actions.py:157
-#: plugins/post-transaction-actions.py:159
+#: plugins/post-transaction-actions.py:160
+#: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
 msgstr "transaktionin jälkeiset toimet: %s"
 
-#: plugins/post-transaction-actions.py:161
+#: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
 msgstr "transaktionin jälkeiset toiminnot: Virheellinen komento '%s': %s"

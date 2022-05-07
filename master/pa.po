@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-02 03:10+0000\n"
+"POT-Creation-Date: 2022-05-07 02:22+0000\n"
 "PO-Revision-Date: 2022-04-18 16:17+0000\n"
 "Last-Translator: A S Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -881,18 +881,18 @@ msgid "Bad Action Line \"%s\": %s"
 msgstr ""
 
 #. unsupported state, skip it
-#: plugins/post-transaction-actions.py:130
+#: plugins/post-transaction-actions.py:133
 #, python-format
 msgid "Bad Transaction State: %s"
 msgstr ""
 
-#: plugins/post-transaction-actions.py:157
-#: plugins/post-transaction-actions.py:159
+#: plugins/post-transaction-actions.py:160
+#: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
 msgstr ""
 
-#: plugins/post-transaction-actions.py:161
+#: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
 msgstr ""
