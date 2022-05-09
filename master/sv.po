@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-07 02:22+0000\n"
-"PO-Revision-Date: 2022-03-08 22:24+0000\n"
+"PO-Revision-Date: 2022-05-09 22:33+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1156,16 +1156,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Skicka antingen --old eller --new, inte båda!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Skicka antingen --old eller --new, inte båda!"
+msgstr "Skicka antingen --oldonly eller --new, inte båda!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Skicka antingen --old eller --new, inte båda!"
+msgstr "Skicka antingen --old eller --oldonly, inte båda!"
 
 #: plugins/repomanage.py:95
 msgid "No files to process"
@@ -1180,10 +1176,8 @@ msgid "Print the older packages"
 msgstr "Skriv de äldre paketen"
 
 #: plugins/repomanage.py:220
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Skriv de senaste paketen"
+msgstr "Skriv ut de äldre paketen. Uteslut de senaste paketen."
 
 #: plugins/repomanage.py:222
 msgid "Print the newest packages"
