@@ -1,13 +1,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2020.
 # simmon <simmon@nplob.com>, 2021.
 # Kim InSoo <simmon@nplob.com>, 2022.
+# 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2022-03-02 04:16+0000\n"
-"Last-Translator: Kim InSoo <simmon@nplob.com>\n"
+"PO-Revision-Date: 2022-05-16 12:18+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ko/>\n"
 "Language: ko\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -87,7 +88,7 @@ msgstr "유효한 날자가 아닙니다: \"{0}\"."
 
 #: plugins/changelog.py:43
 msgid "Show changelog data of packages"
-msgstr "꾸러미(packages)의 변화 기록자료를 보여줍니다"
+msgstr "꾸러미의 변화 기록자료를 보여줍니다"
 
 #: plugins/changelog.py:51
 msgid ""
@@ -507,7 +508,7 @@ msgstr "작성된 출력 : %s"
 
 #: plugins/debug.py:172
 msgid "restore packages recorded in debug-dump file"
-msgstr "디버그 덤프 파일에 기록 된 꾸러미(package) 복원"
+msgstr "디버그 덤프 파일에 기록 된 꾸러미 복원"
 
 #: plugins/debug.py:185
 msgid "output commands that would be run to stdout."
@@ -553,15 +554,13 @@ msgstr "잘못된 dnf 디버그 파일 : %s"
 
 #: plugins/debuginfo-install.py:56
 msgid "install debuginfo packages"
-msgstr "디버그정보 꾸러미(package) 설치"
+msgstr "디버그정보 꾸러미 설치"
 
 #: plugins/debuginfo-install.py:180
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
-msgstr ""
-"다음 사용가능한 꾸러미(package): %s 를 위하여 디버그정보 꾸러미를 찾을 수 없"
-"습니다"
+msgstr "다음 사용가능한 꾸러미를 위하여 디버그정보 꾸러미를 찾을 수 없습니다: %s"
 
 #: plugins/debuginfo-install.py:185
 #, python-format
@@ -575,9 +574,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
-msgstr ""
-"다음 설치된 꾸러미(package): %s 를 위한 디버그정보 꾸러미(package)를 찾을 수 "
-"없습니다"
+msgstr "다음 설치된 꾸러미를 위한 디버그정보 꾸러미를 찾을 수 없습니다: %s"
 
 #: plugins/debuginfo-install.py:195
 #, python-format
@@ -605,7 +602,7 @@ msgstr "대신 src.rpm을 내려받으세요"
 
 #: plugins/download.py:55
 msgid "download the -debuginfo package instead"
-msgstr "대신 -debuginfo 꾸러미(package)를 내려받아요"
+msgstr "대신 -debuginfo 꾸러미를 내려받아요"
 
 #: plugins/download.py:57
 msgid "download the -debugsource package instead"
@@ -1096,7 +1093,7 @@ msgstr "크기 변경: {}"
 
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
-msgstr "도트 형식의 전체 꾸러미(package) 종속성 그래프 출력"
+msgstr "도트 형식의 전체 꾸러미 종속성 그래프 출력"
 
 #: plugins/repograph.py:110
 #, python-format
@@ -1105,7 +1102,7 @@ msgstr "아무것도 제공하지 않습니다 : '%s'"
 
 #: plugins/repomanage.py:45
 msgid "Manage a directory of rpm packages"
-msgstr "rpm 꾸러미(package) 디렉토리 관리"
+msgstr "rpm 꾸러미 디렉토리 관리"
 
 #: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
@@ -1141,7 +1138,7 @@ msgstr "디렉토리 경로"
 
 #: plugins/reposync.py:55
 msgid "download all packages from remote repo"
-msgstr "원격 저장소에서 모든 꾸러미(package)를 내려받아요"
+msgstr "원격 저장소에서 모든 꾸러미를 내려받아요"
 
 #: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
