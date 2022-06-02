@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-25 02:48+0000\n"
+"POT-Creation-Date: 2022-06-02 03:01+0000\n"
 "PO-Revision-Date: 2020-07-21 20:29+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1189,37 +1189,37 @@ msgstr "Videregiv --old eller --new, ikke begge!"
 msgid "Pass either --old or --oldonly, not both!"
 msgstr "Videregiv --old eller --new, ikke begge!"
 
-#: plugins/repomanage.py:95
+#: plugins/repomanage.py:100
 msgid "No files to process"
 msgstr "Ingen filer at behandle"
 
-#: plugins/repomanage.py:102
+#: plugins/repomanage.py:107
 msgid "Could not open {}"
 msgstr "Kunne ikke åbne {}"
 
-#: plugins/repomanage.py:218
+#: plugins/repomanage.py:223
 msgid "Print the older packages"
 msgstr "Udskriv de ældre pakker"
 
-#: plugins/repomanage.py:220
+#: plugins/repomanage.py:225
 #, fuzzy
 #| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
 msgstr "Udskriv de nyeste pakker"
 
-#: plugins/repomanage.py:222
+#: plugins/repomanage.py:227
 msgid "Print the newest packages"
 msgstr "Udskriv de nyeste pakker"
 
-#: plugins/repomanage.py:224
+#: plugins/repomanage.py:229
 msgid "Space separated output, not newline"
 msgstr "Mellemrumssepareret outout, ikke linjeskift"
 
-#: plugins/repomanage.py:226
+#: plugins/repomanage.py:231
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "Nyeste N pakker som skal bevares - standard er 1"
 
-#: plugins/repomanage.py:229
+#: plugins/repomanage.py:234
 msgid "Path to directory"
 msgstr "Sti til mappe"
 

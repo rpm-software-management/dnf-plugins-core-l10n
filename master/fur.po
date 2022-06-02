@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-25 02:48+0000\n"
+"POT-Creation-Date: 2022-06-02 03:01+0000\n"
 "PO-Revision-Date: 2021-11-07 21:05+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -1182,37 +1182,37 @@ msgstr "Passe o --old o --new, no ducj i doi!"
 msgid "Pass either --old or --oldonly, not both!"
 msgstr "Passe o --old o --new, no ducj i doi!"
 
-#: plugins/repomanage.py:95
+#: plugins/repomanage.py:100
 msgid "No files to process"
 msgstr "Nissun file di elaborâ"
 
-#: plugins/repomanage.py:102
+#: plugins/repomanage.py:107
 msgid "Could not open {}"
 msgstr "Impussibil vierzi {}"
 
-#: plugins/repomanage.py:218
+#: plugins/repomanage.py:223
 msgid "Print the older packages"
 msgstr "Stampe i pachets plui vecjos"
 
-#: plugins/repomanage.py:220
+#: plugins/repomanage.py:225
 #, fuzzy
 #| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
 msgstr "Stampe i pachets plui gnûfs"
 
-#: plugins/repomanage.py:222
+#: plugins/repomanage.py:227
 msgid "Print the newest packages"
 msgstr "Stampe i pachets plui gnûfs"
 
-#: plugins/repomanage.py:224
+#: plugins/repomanage.py:229
 msgid "Space separated output, not newline"
 msgstr "Jessude separade di spazis no di riis gnovis"
 
-#: plugins/repomanage.py:226
+#: plugins/repomanage.py:231
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "I N plui gnûfs pachets di tignî - predefinît a 1"
 
-#: plugins/repomanage.py:229
+#: plugins/repomanage.py:234
 msgid "Path to directory"
 msgstr "Percors ae cartele"
 

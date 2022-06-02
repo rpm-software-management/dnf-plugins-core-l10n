@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-25 02:48+0000\n"
+"POT-Creation-Date: 2022-06-02 03:01+0000\n"
 "PO-Revision-Date: 2022-05-02 18:18+0000\n"
 "Last-Translator: Alejandro Alcaide <alex@blueselene.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1212,25 +1212,25 @@ msgstr "Pase --old o --new, ¡no ambos!"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
-#: plugins/repomanage.py:95
+#: plugins/repomanage.py:100
 msgid "No files to process"
 msgstr "No hay archivos para procesar"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
-#: plugins/repomanage.py:102
+#: plugins/repomanage.py:107
 msgid "Could not open {}"
 msgstr "No se puede abrir {}"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
-#: plugins/repomanage.py:218
+#: plugins/repomanage.py:223
 msgid "Print the older packages"
 msgstr "Mostrar los paquetes antiguos"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
-#: plugins/repomanage.py:220
+#: plugins/repomanage.py:225
 #, fuzzy
 #| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
@@ -1238,25 +1238,25 @@ msgstr "Mostrar los paquetes más nuevos"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
-#: plugins/repomanage.py:222
+#: plugins/repomanage.py:227
 msgid "Print the newest packages"
 msgstr "Mostrar los paquetes más nuevos"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
-#: plugins/repomanage.py:224
+#: plugins/repomanage.py:229
 msgid "Space separated output, not newline"
 msgstr "Salida separada por espacios, sin salto de línea"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
-#: plugins/repomanage.py:226
+#: plugins/repomanage.py:231
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "Los N paquetes más recientes a conservar, 1 si no se indica"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
-#: plugins/repomanage.py:229
+#: plugins/repomanage.py:234
 msgid "Path to directory"
 msgstr "Ruta al directorio"
 
