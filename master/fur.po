@@ -1,10 +1,10 @@
-# Fabio Tomat <f.t.public@gmail.com>, 2019. #zanata, 2021.
+# Fabio Tomat <f.t.public@gmail.com>, 2019. #zanata, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-02 03:01+0000\n"
-"PO-Revision-Date: 2021-11-07 21:05+0000\n"
+"PO-Revision-Date: 2022-06-11 14:18+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/fur/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -417,25 +417,24 @@ msgstr "Si à di eseguî chest comant come utent root."
 #: plugins/copr.py:489
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Richieste a {0} falide: {1} - {2}"
 
 #: plugins/copr.py:491
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Nol è stât pussibil abilitâ chest progjet.\n"
 
 #: plugins/copr.py:496
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Chel dipuesit nol esist."
+msgstr "Il dipuesit '{0}' nol esist tal progjet '{1}'."
 
 #: plugins/copr.py:499
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Liste i dipuesits Copr abilitâts"
+msgstr ""
+"\n"
+"Dipuesits disponibii: "
 
 #: plugins/copr.py:501
 #, python-brace-format
