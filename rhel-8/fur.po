@@ -1,10 +1,10 @@
-# Fabio Tomat <f.t.public@gmail.com>, 2019. #zanata, 2021.
+# Fabio Tomat <f.t.public@gmail.com>, 2019. #zanata, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2021-11-07 21:05+0000\n"
+"PO-Revision-Date: 2022-06-14 11:18+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/fur/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -816,68 +816,63 @@ msgstr "Daûr a migrâ i dâts de cronologjie..."
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "Discjame i pachets dai modui e/o cree un dipuesit cun dâts modulârs"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODUL"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "pachets di discjariâ"
+msgstr "modui di discjariâ"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "enable repositories with source packages"
-msgstr "lavorâ cui pachets sorzint"
+msgstr "abilite i dipuesits cui pachets sorzint"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
 msgstr ""
+"abilite i dipuesits cui pachets des informazions di debug e i pachets "
+"sorzint di debug"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "discjarie ducj i pachets dal dipuesit lontan"
+msgstr "discjame dome i pachets dai modui gnûfs"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Nissune corispondence pal argoment: {}"
-msgstr[1] "Nissune corispondence pal argoment: {}"
+msgstr[0] "Impussibil cjatâ une corispondence pal argoment: '{}'"
+msgstr[1] "Impussibil cjatâ une corispondence pai argoments: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Creazion dal dipuesit falide cun codiç {}. Ducj i contignûts discjamâts a "
+"son stâts tignûts sul sisteme"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Nissune corispondence pal artefat '{0}' dal modul '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
+"Nissune corispondence pal non dal pachet '{0}' tal profîl {1} dal modul {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Nissune corispondence pal argoment: {}"
+msgstr "Nissune corispondence pal argoment '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Impussibil sodisfâ la richieste {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
