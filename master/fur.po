@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-11 02:44+0000\n"
-"PO-Revision-Date: 2022-06-11 14:18+0000\n"
+"PO-Revision-Date: 2022-06-14 11:18+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/fur/>\n"
@@ -445,18 +445,23 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Se tu desideris abilitâ un dipuesit che nol è predefinît, dopre chest comant:"
+"\n"
+"  'dnf copr enable {0} <dipuesit>'\n"
+"Ma viôt che al è facil che il file di dipuesit instalât al varà bisugne di "
+"une modifiche manuâl."
 
 #: plugins/copr.py:507
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Chel dipuesit nol esist."
+msgstr "Il progjet {0} nol esist."
 
 #: plugins/copr.py:510
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Impussibil gjavâ il dipuesit copr {0}/{1}/{2}"
+msgstr "Impussibil conetisi a {0}: {1}"
 
 #: plugins/copr.py:557
 #, python-brace-format
@@ -849,68 +854,63 @@ msgstr "Daûr a migrâ i dâts de cronologjie..."
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "Discjame i pachets dai modui e/o cree un dipuesit cun dâts modulârs"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODUL"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "pachets di discjariâ"
+msgstr "modui di discjariâ"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Specifiche i dipuesits di controlâ"
+msgstr "abilite i dipuesits cui pachets sorzint"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
 msgstr ""
+"abilite i dipuesits cui pachets des informazions di debug e i pachets "
+"sorzint di debug"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "discjarie ducj i pachets dal dipuesit lontan"
+msgstr "discjame dome i pachets dai modui gnûfs"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Nissune corispondence pal argoment: {}"
-msgstr[1] "Nissune corispondence pal argoment: {}"
+msgstr[0] "Impussibil cjatâ une corispondence pal argoment: '{}'"
+msgstr[1] "Impussibil cjatâ une corispondence pai argoments: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Creazion dal dipuesit falide cun codiç {}. Ducj i contignûts discjamâts a "
+"son stâts tignûts sul sisteme"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Nissune corispondence pal artefat '{0}' dal modul '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
+"Nissune corispondence pal non dal pachet '{0}' tal profîl {1} dal modul {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Nissune corispondence pal argoment: {}"
+msgstr "Nissune corispondence pal argoment '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Impussibil sodisfâ la richieste {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -991,10 +991,8 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Mostre une liste des dipendencis no risolvudis pai dipuesits"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Repoclosure al à finît cun dipendencis no risolvudis."
+msgstr "Repoclosure al à finît cun dipendencis no risoltis {(}) par {} pachets."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1170,16 +1168,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Passe o --old o --new, no ducj i doi!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Passe o --old o --new, no ducj i doi!"
+msgstr "Passe o --oldonly o --new, no ducj i doi!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Passe o --old o --new, no ducj i doi!"
+msgstr "Passe o --old o --oldonly, no ducj i doi!"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1194,10 +1188,8 @@ msgid "Print the older packages"
 msgstr "Stampe i pachets plui vecjos"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Stampe i pachets plui gnûfs"
+msgstr "Stampe i pachets vecjos. Esclût i pachets plui gnûfs."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
