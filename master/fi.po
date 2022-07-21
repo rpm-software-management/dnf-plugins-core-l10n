@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-14 03:01+0000\n"
+"POT-Creation-Date: 2022-07-21 03:03+0000\n"
 "PO-Revision-Date: 2022-05-20 12:18+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -369,7 +369,7 @@ msgstr "Ohjelmistolähteen käytöstä poisto onnistui."
 msgid "Repository successfully removed."
 msgstr "Ohjelmistolähteen poisto onnistui."
 
-#: plugins/copr.py:310 plugins/copr.py:723
+#: plugins/copr.py:310 plugins/copr.py:721
 msgid "Unknown subcommand {}."
 msgstr "Tuntematon alikomento {}."
 
@@ -415,21 +415,21 @@ msgstr "Turvallinen ja hyvä vastaus. Jännittävää."
 msgid "This command has to be run under the root user."
 msgstr "Tämä komento pitää suorittaa käyttäjänä root."
 
-#: plugins/copr.py:489
+#: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Pyyntö kohteeseen {0} epäonnistui: {1} - {2}"
 
-#: plugins/copr.py:491
+#: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Tätä projektia ei voitu ottaa käyttöön.\n"
 
-#: plugins/copr.py:496
+#: plugins/copr.py:494
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "Ohjelmistolähdettä '{0}' ei ole projektissa '{1}'."
 
-#: plugins/copr.py:499
+#: plugins/copr.py:497
 msgid ""
 "\n"
 "Available repositories: "
@@ -437,7 +437,7 @@ msgstr ""
 "\n"
 "Saattavilla olevat tietovarastot: "
 
-#: plugins/copr.py:501
+#: plugins/copr.py:499
 #, python-brace-format
 msgid ""
 "\n"
@@ -454,17 +454,17 @@ msgstr ""
 "Huomaa kuitenkin, että asennettu repo-tiedosto tarvitsee todennäköisesti "
 "manuaalisen muokkauksen."
 
-#: plugins/copr.py:507
+#: plugins/copr.py:505
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Projektia {0} ei ole olemassa."
 
-#: plugins/copr.py:510
+#: plugins/copr.py:508
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Yhteyden muodostaminen kohteeseen {0} epäonnistui: {1}"
 
-#: plugins/copr.py:557
+#: plugins/copr.py:555
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -492,44 +492,44 @@ msgstr ""
 "\n"
 "Nämä tietovarastot on otettu käyttöön automaattisesti."
 
-#: plugins/copr.py:578
+#: plugins/copr.py:576
 msgid "Do you want to keep them enabled?"
 msgstr "Haluatko pitää ne käytössä?"
 
-#: plugins/copr.py:611
+#: plugins/copr.py:609
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Copr-ohjelmistolähteen {0}/{1}/{2} poisto epäonnistui"
 
-#: plugins/copr.py:622
+#: plugins/copr.py:620
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Copr-ohjelmistolähteen {}/{} käytöstä poisto epäonnistui"
 
-#: plugins/copr.py:640 plugins/copr.py:677
+#: plugins/copr.py:638 plugins/copr.py:675
 msgid "Unknown response from server."
 msgstr "Tuntematon vastaus palvelimelta."
 
-#: plugins/copr.py:662
+#: plugins/copr.py:660
 msgid "Interact with Playground repository."
 msgstr "Vuorovaikuta Playground-ohjelmistolähteen kanssa."
 
-#: plugins/copr.py:668
+#: plugins/copr.py:666
 msgid "Enabling a Playground repository."
 msgstr "Otetaan käyttöön Playground-ohjelmistolähde."
 
-#: plugins/copr.py:669
+#: plugins/copr.py:667
 msgid "Do you want to continue?"
 msgstr "Haluatko jatkaa?"
 
-#: plugins/copr.py:713
+#: plugins/copr.py:711
 msgid "Playground repositories successfully enabled."
 msgstr "Playground-ohjelmistolähde otettu käyttöön."
 
-#: plugins/copr.py:716
+#: plugins/copr.py:714
 msgid "Playground repositories successfully disabled."
 msgstr "Playground-ohjelmistolähde poistettu käytöstä."
 
-#: plugins/copr.py:720
+#: plugins/copr.py:718
 msgid "Playground repositories successfully updated."
 msgstr "Playground-ohjelmistolähde päivitetty ."
 

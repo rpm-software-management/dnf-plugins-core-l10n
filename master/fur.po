@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-14 03:01+0000\n"
+"POT-Creation-Date: 2022-07-21 03:03+0000\n"
 "PO-Revision-Date: 2022-06-14 11:18+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -368,7 +368,7 @@ msgstr "Dipuesit disabilitât cun sucès."
 msgid "Repository successfully removed."
 msgstr "Dipuesit gjavât cun sucès."
 
-#: plugins/copr.py:310 plugins/copr.py:723
+#: plugins/copr.py:310 plugins/copr.py:721
 msgid "Unknown subcommand {}."
 msgstr "Sot-comant {} no cognossût."
 
@@ -414,21 +414,21 @@ msgstr "Rispueste buine e sigure. Si jes."
 msgid "This command has to be run under the root user."
 msgstr "Si à di eseguî chest comant come utent root."
 
-#: plugins/copr.py:489
+#: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Richieste a {0} falide: {1} - {2}"
 
-#: plugins/copr.py:491
+#: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Nol è stât pussibil abilitâ chest progjet.\n"
 
-#: plugins/copr.py:496
+#: plugins/copr.py:494
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "Il dipuesit '{0}' nol esist tal progjet '{1}'."
 
-#: plugins/copr.py:499
+#: plugins/copr.py:497
 msgid ""
 "\n"
 "Available repositories: "
@@ -436,7 +436,7 @@ msgstr ""
 "\n"
 "Dipuesits disponibii: "
 
-#: plugins/copr.py:501
+#: plugins/copr.py:499
 #, python-brace-format
 msgid ""
 "\n"
@@ -453,17 +453,17 @@ msgstr ""
 "Ma viôt che al è facil che il file di dipuesit instalât al varà bisugne di "
 "une modifiche manuâl."
 
-#: plugins/copr.py:507
+#: plugins/copr.py:505
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Il progjet {0} nol esist."
 
-#: plugins/copr.py:510
+#: plugins/copr.py:508
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Impussibil conetisi a {0}: {1}"
 
-#: plugins/copr.py:557
+#: plugins/copr.py:555
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -492,44 +492,44 @@ msgstr ""
 "\n"
 "Chescj dipuesits a son stâts abilitâts in automatic."
 
-#: plugins/copr.py:578
+#: plugins/copr.py:576
 msgid "Do you want to keep them enabled?"
 msgstr "Desideristu tignîju abilitâts?"
 
-#: plugins/copr.py:611
+#: plugins/copr.py:609
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Impussibil gjavâ il dipuesit copr {0}/{1}/{2}"
 
-#: plugins/copr.py:622
+#: plugins/copr.py:620
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Impussibil disabilitâ il dipuesit copr {}/{}"
 
-#: plugins/copr.py:640 plugins/copr.py:677
+#: plugins/copr.py:638 plugins/copr.py:675
 msgid "Unknown response from server."
 msgstr "Rispueste no cognossude dal servidôr."
 
-#: plugins/copr.py:662
+#: plugins/copr.py:660
 msgid "Interact with Playground repository."
 msgstr "Interagjìs cul dipuesits Playground."
 
-#: plugins/copr.py:668
+#: plugins/copr.py:666
 msgid "Enabling a Playground repository."
 msgstr "Daûr a abilitâ un dipuesit Playground."
 
-#: plugins/copr.py:669
+#: plugins/copr.py:667
 msgid "Do you want to continue?"
 msgstr "Desideristu continuâ?"
 
-#: plugins/copr.py:713
+#: plugins/copr.py:711
 msgid "Playground repositories successfully enabled."
 msgstr "Dipuesits Playground abilitâts cun sucès."
 
-#: plugins/copr.py:716
+#: plugins/copr.py:714
 msgid "Playground repositories successfully disabled."
 msgstr "Dipuesits Playground disabilitâts cun sucès."
 
-#: plugins/copr.py:720
+#: plugins/copr.py:718
 msgid "Playground repositories successfully updated."
 msgstr "Dipuesits Playground inzornâts cun sucès."
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-14 03:01+0000\n"
+"POT-Creation-Date: 2022-07-21 03:03+0000\n"
 "PO-Revision-Date: 2022-04-15 09:31+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -379,7 +379,7 @@ msgstr "Сховище успішно вимкнено."
 msgid "Repository successfully removed."
 msgstr "Сховище успішно вилучено."
 
-#: plugins/copr.py:310 plugins/copr.py:723
+#: plugins/copr.py:310 plugins/copr.py:721
 msgid "Unknown subcommand {}."
 msgstr "Невідома підкоманда {}."
 
@@ -425,21 +425,21 @@ msgstr "Безпечна і добра відповідь. Завершуємо 
 msgid "This command has to be run under the root user."
 msgstr "Цю команду слід виконувати від імені користувача root."
 
-#: plugins/copr.py:489
+#: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Не вдалося виконати запит до {0}: {1} - {2}"
 
-#: plugins/copr.py:491
+#: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Увімкнути цей проєкт неможливо.\n"
 
-#: plugins/copr.py:496
+#: plugins/copr.py:494
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "У проєкті «{1}» немає сховища «{0}»."
 
-#: plugins/copr.py:499
+#: plugins/copr.py:497
 msgid ""
 "\n"
 "Available repositories: "
@@ -447,7 +447,7 @@ msgstr ""
 "\n"
 "Доступні сховища: "
 
-#: plugins/copr.py:501
+#: plugins/copr.py:499
 #, python-brace-format
 msgid ""
 "\n"
@@ -463,17 +463,17 @@ msgstr ""
 "Втім, зауважте, що, ймовірно, до встановленого файла сховища доведеться "
 "внести зміни вручну."
 
-#: plugins/copr.py:507
+#: plugins/copr.py:505
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Проєкта {0} не існує."
 
-#: plugins/copr.py:510
+#: plugins/copr.py:508
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Не вдалося з'єднатися із {0}: {1}"
 
-#: plugins/copr.py:557
+#: plugins/copr.py:555
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -502,44 +502,44 @@ msgstr ""
 "\n"
 "Ці сховища було увімкнено автоматично."
 
-#: plugins/copr.py:578
+#: plugins/copr.py:576
 msgid "Do you want to keep them enabled?"
 msgstr "Хочете не вимикати їх?"
 
-#: plugins/copr.py:611
+#: plugins/copr.py:609
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Не вдалося вилучити сховище copr {0}/{1}/{2}"
 
-#: plugins/copr.py:622
+#: plugins/copr.py:620
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Не вдалося вилучити сховище copr {}/{}"
 
-#: plugins/copr.py:640 plugins/copr.py:677
+#: plugins/copr.py:638 plugins/copr.py:675
 msgid "Unknown response from server."
 msgstr "Невідома відповідь від сервера."
 
-#: plugins/copr.py:662
+#: plugins/copr.py:660
 msgid "Interact with Playground repository."
 msgstr "Працювати зі сховищем Playground."
 
-#: plugins/copr.py:668
+#: plugins/copr.py:666
 msgid "Enabling a Playground repository."
 msgstr "Вмикання сховища Playground."
 
-#: plugins/copr.py:669
+#: plugins/copr.py:667
 msgid "Do you want to continue?"
 msgstr "Хочете продовжити виконання цієї дії?"
 
-#: plugins/copr.py:713
+#: plugins/copr.py:711
 msgid "Playground repositories successfully enabled."
 msgstr "Сховища playground успішно увімкнено."
 
-#: plugins/copr.py:716
+#: plugins/copr.py:714
 msgid "Playground repositories successfully disabled."
 msgstr "Сховища playground успішно вимкнено."
 
-#: plugins/copr.py:720
+#: plugins/copr.py:718
 msgid "Playground repositories successfully updated."
 msgstr "Сховища playground успішно оновлено."
 
