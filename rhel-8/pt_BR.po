@@ -8,13 +8,14 @@
 # Daniel Lara Souza <daniellarasouza@yahoo.com.br>, 2020.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
+# Daimar Stein <daimarstein@pm.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2021-08-11 01:04+0000\n"
-"Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
+"PO-Revision-Date: 2022-08-01 15:19+0000\n"
+"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-rhel-8/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -101,8 +102,8 @@ msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
 msgstr ""
-"exibe os registros de alterações desde DATE. Para evitar ambiguidade, o "
-"formato AAAA-MM-DD é recomendado"
+"exibe os registros de alterações desde DATA. Para evitar ambiguidade, o "
+"formato AAAA-MM-DD é recomendado."
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
@@ -114,7 +115,7 @@ msgid ""
 "some of already installed packages."
 msgstr ""
 "exibe apenas novos registros de alterações para pacotes que fornecem uma "
-"atualização para alguns dos pacotes já instalados"
+"atualização para alguns dos pacotes já instalados."
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
@@ -149,7 +150,7 @@ msgid "Changelogs for {}"
 msgstr "Registros de alterações para {}"
 
 #: plugins/config_manager.py:38
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "manage {prog} configuration options and repositories"
 msgstr "gerencie {prog} opções de configuração e repositórios"
 
@@ -232,7 +233,7 @@ msgstr "não"
 
 #: plugins/copr.py:84
 msgid "Interact with Copr repositories."
-msgstr "interage com repositórios Copr"
+msgstr "Interage com repositórios Copr."
 
 #: plugins/copr.py:86
 msgid ""
@@ -314,10 +315,8 @@ msgstr ""
 "são necessários exatamente dois parâmetros adicionais para o comando copr"
 
 #: plugins/copr.py:232
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Nenhuma correspondência para o argumento: %s"
+msgstr "Argumentos em excesso."
 
 #: plugins/copr.py:235
 msgid ""
@@ -482,7 +481,7 @@ msgstr "Resposta desconhecida do servidor."
 
 #: plugins/copr.py:637
 msgid "Interact with Playground repository."
-msgstr "interage com o repositório Playground"
+msgstr "Interage com o repositório Playground."
 
 #: plugins/copr.py:643
 msgid "Enabling a Playground repository."
