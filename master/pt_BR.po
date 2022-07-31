@@ -10,13 +10,14 @@
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020, 2021.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
+# Daimar Stein <daimarstein@pm.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-28 02:59+0000\n"
-"PO-Revision-Date: 2021-08-11 01:04+0000\n"
-"Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
+"PO-Revision-Date: 2022-08-01 15:19+0000\n"
+"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -103,8 +104,8 @@ msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
 msgstr ""
-"exibe os registros de alterações desde DATE. Para evitar ambiguidade, o "
-"formato AAAA-MM-DD é recomendado"
+"exibe os registros de alterações desde DATA. Para evitar ambiguidade, o "
+"formato AAAA-MM-DD é recomendado."
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
@@ -116,7 +117,7 @@ msgid ""
 "some of already installed packages."
 msgstr ""
 "exibe apenas novos registros de alterações para pacotes que fornecem uma "
-"atualização para alguns dos pacotes já instalados"
+"atualização para alguns dos pacotes já instalados."
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
@@ -151,7 +152,7 @@ msgid "Changelogs for {}"
 msgstr "Registros de alterações para {}"
 
 #: plugins/config_manager.py:38
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "manage {prog} configuration options and repositories"
 msgstr "gerencie {prog} opções de configuração e repositórios"
 
@@ -234,7 +235,7 @@ msgstr "não"
 
 #: plugins/copr.py:92
 msgid "Interact with Copr repositories."
-msgstr "interage com repositórios Copr"
+msgstr "Interage com repositórios Copr."
 
 #: plugins/copr.py:94
 msgid ""
@@ -317,7 +318,7 @@ msgstr ""
 
 #: plugins/copr.py:246
 msgid "Too many arguments."
-msgstr "Muitos argumentos."
+msgstr "Argumentos em excesso."
 
 #: plugins/copr.py:249
 msgid ""
@@ -433,18 +434,17 @@ msgid "It wasn't possible to enable this project.\n"
 msgstr ""
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Esse repositório não existe."
+msgstr "O repositório '{0}' não existe no projeto '{1}'."
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Lista repositórios Copr habilitados"
+msgstr ""
+"\n"
+"Repositórios disponíveis: "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -457,16 +457,14 @@ msgid ""
 msgstr ""
 
 #: plugins/copr.py:505
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Esse repositório não existe."
+msgstr "Projeto {0} não existe."
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Falha ao remover o repositório copr {0}/{1}/{2}"
+msgstr "Falha ao conectar a {0}: {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -517,7 +515,7 @@ msgstr "Resposta desconhecida do servidor."
 
 #: plugins/copr.py:660
 msgid "Interact with Playground repository."
-msgstr "interage com o repositório Playground"
+msgstr "Interage com o repositório Playground."
 
 #: plugins/copr.py:666
 msgid "Enabling a Playground repository."
