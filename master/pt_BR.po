@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-01 03:18+0000\n"
-"PO-Revision-Date: 2022-08-01 15:19+0000\n"
+"PO-Revision-Date: 2022-08-03 12:19+0000\n"
 "Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
@@ -427,11 +427,11 @@ msgstr "Este comando deve ser executado sob o usuário root."
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Requisição para {0} falhou: {1} - {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Não foi possível habilitar este projeto.\n"
 
 #: plugins/copr.py:494
 #, python-brace-format
@@ -455,6 +455,13 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Se você deseja habilitar um repositório fora do padrão, use o seguinte "
+"comando:\n"
+"  'dnf copr enable {0} <repositório>'\n"
+"Mas note que o arquivo repo instalado provavelmente necessitará de "
+"modificação manual."
 
 #: plugins/copr.py:505
 #, python-brace-format
@@ -583,6 +590,8 @@ msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
 msgstr ""
+"Permite a remoção de pacotes apenas-instaláveis. Usar esta opção pode "
+"resultar numa tentativa de remover o kernel atualmente em execução."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -865,7 +874,7 @@ msgstr ""
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MÓDULO"
 
 #: plugins/modulesync.py:45
 #, fuzzy
@@ -890,28 +899,29 @@ msgid "download only packages from newest modules"
 msgstr "baixa todos os pacotes do repositório remoto"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Sem correspondência para o argumento: {}"
-msgstr[1] "Sem correspondência para o argumento: {}"
+msgstr[0] "Não foi possível encontrar correspondência para o argumento: '{}'"
+msgstr[1] "Não foi possível encontrar correspondência para os argumentos: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Criação de repositório falhou com código de retorno {}. Todo o conteúdo "
+"baixado foi mantido no sistema"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Sem correspondência para o artefato '{0}' do módulo '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
+"Sem correspondência para o nome do pacote '{0}' no perfil {1} do módulo {2}"
 
 #: plugins/modulesync.py:166
 #, fuzzy
@@ -1047,7 +1057,6 @@ msgstr ""
 "vezes. Por padrão, somente os rpms de origem são comparados."
 
 #: plugins/repodiff.py:67
-#, fuzzy
 msgid "Output additional data about the size of the changes."
 msgstr "Escrever dados adicionais sobre o tamanho das mudanças."
 
@@ -1211,7 +1220,7 @@ msgstr "Imprimir os pacotes mais antigos"
 #, fuzzy
 #| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Imprimir os pacotes mais novos"
+msgstr "Imprimir os pacotes mais antigos. Exclui os pacotes mais novos."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
@@ -1368,7 +1377,6 @@ msgid "No package found for:"
 msgstr "Nenhum pacote encontrado para:"
 
 #: plugins/versionlock.py:42
-#, fuzzy
 msgid "Excludes from versionlock plugin were not applied"
 msgstr "A exclusão de plugins de bloqueio de versão não foram aplicadas"
 
