@@ -3,14 +3,14 @@
 # Zoltan Hoppar <zoltanh721@fedoraproject.org>, 2017. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2018. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022.
 # Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 03:09+0000\n"
-"PO-Revision-Date: 2021-11-02 10:05+0000\n"
+"PO-Revision-Date: 2022-08-08 14:19+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/hu/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.13\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -423,25 +423,24 @@ msgstr "Ezt a parancsot root felhasználóként kell futtatni."
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "A(z) {0} számára küldött kérés sikertelen: {1} – {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "A projekt engedélyezése nem volt lehetséges.\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Nem létezik ilyen tároló."
+msgstr "A(z) „{0}” tároló nem létezik a(z) „{1}” projektben."
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Engedélyezett Copr tárolók"
+msgstr ""
+"\n"
+"Elérhető tárolók: "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -452,18 +451,23 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Ha egy nem alapértelmezett tárolót akar engedélyezni, használja a következő "
+"parancsot:\n"
+"  „dnf copr enable {0} <tároló>”\n"
+"De vegye figyelembe, hogy a telepített tárolónál jó eséllyel kézi módosítás "
+"lesz szükséges."
 
 #: plugins/copr.py:505
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Nem létezik ilyen tároló."
+msgstr "A(z) {0} projekt nem létezik."
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Nem sikerült a(z) {0}/{1}/{2} copr tároló eltávolítása"
+msgstr "Nem sikerült kapcsolódni a következőhöz: {0}: {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -860,67 +864,63 @@ msgstr "Előzményadatok migrálása…"
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr ""
+"Csomagok letöltése modulokból és/vagy moduláris adatokat tartalmazó tároló "
+"létrehozása"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODUL"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "letöltendő csomagok"
+msgstr "letöltendő modulok"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Adja meg az ellenőrizendő tárolókat"
+msgstr "forráscsomagokat tartalmazó tárolók engedélyezése"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "debug-info és debug-source csomagokat tartalmazó tárolók engedélyezése"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "minden csomag letöltése a távoli tárolóból"
+msgstr "csomagok letöltése csak a legújabb modulokból"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Nem található egyezés a következő argumentumra: {}"
-msgstr[1] "Nem található egyezés a következő argumentumra: {}"
+msgstr[0] "Nincs találat a(z) „{}” argumentumhoz"
+msgstr[1] "Nincs találat a(z) „{}” argumentumokhoz"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"A tároló létrehozása a következő sikertelen eredménykóddal tért vissza: {}. "
+"Az összes letöltött tartalom megmaradt a rendszeren."
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Nincs találat a(z) „{0}” elemre a(z) „{1}” modulból"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
+"Nincs találat a(z) „{0}” csomagnévre a(z) „{1}” profilban, a(z) „{2}” "
+"modulból"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Nem található egyezés a következő argumentumra: {}"
+msgstr "Nem található egyezés a(z) „{}” argumentumhoz"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "A következő igénylés nem teljesíthető: {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -1001,10 +1001,8 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "A tárolók kielégítetlen függőségeinek megjelenítése"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "A tárolózárás kielégítetlen függőségekkel ért véget."
+msgstr "A tárolózárás kielégítetlen függőségekkel ({}) ért véget {} csomagnál."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1179,16 +1177,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Csak az --old, vagy a --new kapcsolót használja, de ne mindkettőt!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Csak az --old, vagy a --new kapcsolót használja, de ne mindkettőt!"
+msgstr "Csak az --old, vagy a --new kapcsolót használja, ne mindkettőt."
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Csak az --old, vagy a --new kapcsolót használja, de ne mindkettőt!"
+msgstr "Csak az --old, vagy a --new kapcsolót használja, ne mindkettőt."
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1203,10 +1197,8 @@ msgid "Print the older packages"
 msgstr "Régebbi csomagok kiírása"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Legújabb csomagok kiírása"
+msgstr "A régebbi csomagok kiírása. A legújabb csomagok kihagyása."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
@@ -1277,7 +1269,7 @@ msgstr ""
 
 #: plugins/reposync.py:87
 msgid "download only source packages"
-msgstr "csak a forráscsomagok letöltése"
+msgstr "csak forráscsomagok letöltése"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
