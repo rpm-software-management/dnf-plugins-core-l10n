@@ -2,22 +2,23 @@
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2018. #zanata, 2020, 2021.
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2019. #zanata, 2020, 2021.
 # Alexey Rubtsov <rushills@gmail.com>, 2021.
+# V I <xasertop@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:53+0100\n"
-"PO-Revision-Date: 2021-07-02 09:04+0000\n"
-"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
-"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-8/ru/>\n"
+"PO-Revision-Date: 2022-08-27 14:19+0000\n"
+"Last-Translator: V I <xasertop@gmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-8/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.14\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -312,10 +313,8 @@ msgid "exactly two additional parameters to copr command are required"
 msgstr "требуются в точности два дополнительных параметра к команде copr"
 
 #: plugins/copr.py:232
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Нет совпадений для аргумента: %s"
+msgstr "Слишком много аргументов."
 
 #: plugins/copr.py:235
 msgid ""
@@ -822,41 +821,34 @@ msgstr "Перенос данных истории..."
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr ""
+"Загрузить пакеты из модулей и/или создать репозиторий с модульными данными"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "МОДУЛЬ"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "пакеты для загрузки"
+msgstr "модули для загрузки"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "enable repositories with source packages"
-msgstr "работать с исходными пакетами"
+msgstr "включить репозитории с исходными пакетами"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
 msgstr ""
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "загрузить все пакеты из удаленного репозитория"
+msgstr "загрузить только пакеты из новейших модулей"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Нет совпадений для аргумента: {}"
-msgstr[1] "Нет совпадений для аргумента: {}"
-msgstr[2] "Нет совпадений для аргумента: {}"
+msgstr[0] "Не удалось найти совпадений для аргумента: '{}'"
+msgstr[1] "Не удалось найти совпадений для аргументов: '{}'"
+msgstr[2] "Не удалось найти совпадений для аргументов: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
@@ -875,10 +867,8 @@ msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Нет совпадений для аргумента: {}"
+msgstr "Нет совпадений для аргумента '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
@@ -1214,10 +1204,8 @@ msgstr ""
 "сервере"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "работать с исходными пакетами"
+msgstr "загружать только исходные пакеты"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
