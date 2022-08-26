@@ -2,22 +2,23 @@
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2018. #zanata, 2020, 2021.
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2019. #zanata, 2020, 2021.
 # Alexey Rubtsov <rushills@gmail.com>, 2021.
+# V I <xasertop@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 13:42+0100\n"
-"PO-Revision-Date: 2021-10-14 20:05+0000\n"
-"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
-"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-9/ru/>\n"
+"PO-Revision-Date: 2022-08-27 14:19+0000\n"
+"Last-Translator: V I <xasertop@gmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-9/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.14\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1148,7 +1149,7 @@ msgstr ""
 
 #: plugins/reposync.py:87
 msgid "download only source packages"
-msgstr "загружать только пакеты с исходными текстами"
+msgstr "загружать только исходные пакеты"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
