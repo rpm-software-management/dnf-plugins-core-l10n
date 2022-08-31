@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 15:38+0200\n"
-"PO-Revision-Date: 2022-04-15 09:31+0000\n"
+"PO-Revision-Date: 2022-08-31 11:37+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-8/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-8/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -421,25 +421,24 @@ msgstr "Bu komut root kullanıcısı tarafından çalıştırılmalıdır."
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "{0} isteği başarısız oldu: {1} - {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Bu projeyi etkinleştirmek mümkün değildi.\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Böyle bir depo yok."
+msgstr "'{0}' deposu '{1}' projesinde yok."
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Etkinleştirilmiş Copr depolarını listele"
+msgstr ""
+"\n"
+"Kullanılabilir depolar: "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -450,18 +449,23 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Öntanımlı olmayan bir depoyu etkinleştirmek istiyorsanız şu komutu kullanın:"
+"\n"
+"  'dnf copr enable {0} <depo>'\n"
+"Ancak, kurulu repo dosyasının büyük olasılıkla elle bir değişiklik "
+"gerektireceğini unutmayın."
 
 #: plugins/copr.py:505
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Böyle bir depo yok."
+msgstr "{0} projesi yok."
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "{0}/{1}/{2} copr deposu kaldırılamadı"
+msgstr "{0} bağlantısı başarısız oldu: {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -1164,20 +1168,16 @@ msgstr ""
 "belirtmeyin!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
 msgstr ""
-"--old ya da --new seçeneklerinden yalnızca birini belirtin, ikisini birlikte "
-"belirtmeyin!"
+"--oldonly ya da --new seçeneklerinden yalnızca birini belirtin, ikisini "
+"birlikte belirtmeyin!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
 msgstr ""
-"--old ya da --new seçeneklerinden yalnızca birini belirtin, ikisini birlikte "
-"belirtmeyin!"
+"--old ya da --oldonly seçeneklerinden yalnızca birini belirtin, ikisini "
+"birlikte belirtmeyin!"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1192,10 +1192,8 @@ msgid "Print the older packages"
 msgstr "Eski paketleri yazdır"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "En yeni paketleri yazdır"
+msgstr "Eski paketleri yazdır. En yeni paketleri hariç tut."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
