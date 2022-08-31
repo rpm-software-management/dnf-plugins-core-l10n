@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-28 13:42+0100\n"
+"POT-Creation-Date: 2022-08-31 13:39+0200\n"
 "PO-Revision-Date: 2021-09-03 10:36+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -79,7 +79,7 @@ msgstr "Задоволено не усі залежності"
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "Не вдалося відкрити «%s» — файл не є коректним файлом spec: %s"
 
-#: plugins/builddep.py:230 plugins/repoclosure.py:118
+#: plugins/builddep.py:230 plugins/repoclosure.py:124
 #, python-format
 msgid "no package matched: %s"
 msgstr "немає відповідного пакунка: %s"
@@ -216,27 +216,27 @@ msgstr[2] "Помилка під час налаштовування схови�
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Не вдалося зберегти дані сховища до файла сховищ %s: %s"
 
-#: plugins/copr.py:68
+#: plugins/copr.py:70
 msgid "y"
 msgstr "y"
 
-#: plugins/copr.py:68
+#: plugins/copr.py:70
 msgid "yes"
 msgstr "так"
 
-#: plugins/copr.py:69
+#: plugins/copr.py:71
 msgid "n"
 msgstr "n"
 
-#: plugins/copr.py:69
+#: plugins/copr.py:71
 msgid "no"
 msgstr "ні"
 
-#: plugins/copr.py:88
+#: plugins/copr.py:92
 msgid "Interact with Copr repositories."
 msgstr "Працювати зі сховищами Copr."
 
-#: plugins/copr.py:90
+#: plugins/copr.py:94
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -274,32 +274,32 @@ msgstr ""
 "  copr search tests\n"
 "    "
 
-#: plugins/copr.py:116
+#: plugins/copr.py:120
 msgid "List all installed Copr repositories (default)"
 msgstr "Список усіх встановлених сховищ Copr (типово)"
 
-#: plugins/copr.py:118
+#: plugins/copr.py:122
 msgid "List enabled Copr repositories"
 msgstr "Список увімкнених сховищ Copr"
 
-#: plugins/copr.py:120
+#: plugins/copr.py:124
 msgid "List disabled Copr repositories"
 msgstr "Список вимкнених сховищ Copr"
 
-#: plugins/copr.py:122
+#: plugins/copr.py:126
 msgid "List available Copr repositories by user NAME"
 msgstr ""
 "Список доступних сховищ Copr, які належать користувачу із вказаним ім'ям"
 
-#: plugins/copr.py:124
+#: plugins/copr.py:128
 msgid "Specify an instance of Copr to work with"
 msgstr "Вказати екземпляр Copr для роботи"
 
-#: plugins/copr.py:160 plugins/copr.py:228 plugins/copr.py:255
+#: plugins/copr.py:164 plugins/copr.py:236 plugins/copr.py:263
 msgid "Error: "
 msgstr "Помилка: "
 
-#: plugins/copr.py:161
+#: plugins/copr.py:165
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -307,19 +307,19 @@ msgstr ""
 "вкажіть концентратор Copr за допомогою «--hub» або за допомогою формату "
 "«концентратор_copr/користувач_copr/назва_проєкту_copr»"
 
-#: plugins/copr.py:164
+#: plugins/copr.py:168
 msgid "multiple hubs specified"
 msgstr "вказано декілька концентраторів"
 
-#: plugins/copr.py:229 plugins/copr.py:233
+#: plugins/copr.py:237 plugins/copr.py:241
 msgid "exactly two additional parameters to copr command are required"
 msgstr "команді copr слід передавати точно два додаткові параметри"
 
-#: plugins/copr.py:238
+#: plugins/copr.py:246
 msgid "Too many arguments."
 msgstr "Забагато аргументів."
 
-#: plugins/copr.py:241
+#: plugins/copr.py:249
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
@@ -327,17 +327,17 @@ msgstr ""
 "Помилкове форматування необов'язкового chroot. Значення мало бути записано у "
 "форматі «дистрибутив-версія-архітектура»."
 
-#: plugins/copr.py:256
+#: plugins/copr.py:264
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "для використання проєкт copr скористайтеся форматом «copr_користувач/"
 "copr_назва_проєкту»"
 
-#: plugins/copr.py:258
+#: plugins/copr.py:266
 msgid "bad copr project format"
 msgstr "помилкове форматування проєкту copr"
 
-#: plugins/copr.py:272
+#: plugins/copr.py:280
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -367,23 +367,23 @@ msgstr ""
 "системи стеження за вадами Fedora. Якщо виникнуть якісь проблеми,\n"
 "зв’яжіться із власником цього сховища пакунків.\n"
 
-#: plugins/copr.py:289
+#: plugins/copr.py:297
 msgid "Repository successfully enabled."
 msgstr "Сховище успішно увімкнено."
 
-#: plugins/copr.py:294
+#: plugins/copr.py:302
 msgid "Repository successfully disabled."
 msgstr "Сховище успішно вимкнено."
 
-#: plugins/copr.py:298
+#: plugins/copr.py:306
 msgid "Repository successfully removed."
 msgstr "Сховище успішно вилучено."
 
-#: plugins/copr.py:302 plugins/copr.py:706
+#: plugins/copr.py:310 plugins/copr.py:721
 msgid "Unknown subcommand {}."
 msgstr "Невідома підкоманда {}."
 
-#: plugins/copr.py:359
+#: plugins/copr.py:367
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -393,50 +393,84 @@ msgstr ""
 "даних щодо концентратора Copr — припускаємо типовий. Знову увімкніть проєкт "
 "для виправлення."
 
-#: plugins/copr.py:372
+#: plugins/copr.py:380
 msgid "Can't parse repositories for username '{}'."
 msgstr "Не вдалося обробити сховища для користувача '{}'."
 
-#: plugins/copr.py:375
+#: plugins/copr.py:383
 msgid "List of {} coprs"
 msgstr "Список copr {}"
 
-#: plugins/copr.py:380
+#: plugins/copr.py:388
 msgid "No description given"
 msgstr "Опис не надано"
 
-#: plugins/copr.py:392
+#: plugins/copr.py:400
 msgid "Can't parse search for '{}'."
 msgstr "Не вдалося обробити пошук для '{}'."
 
-#: plugins/copr.py:395
+#: plugins/copr.py:403
 msgid "Matched: {}"
 msgstr "Відповідник: {}"
 
-#: plugins/copr.py:400
+#: plugins/copr.py:408
 msgid "No description given."
 msgstr "Опис не надано."
 
-#: plugins/copr.py:422
+#: plugins/copr.py:430
 msgid "Safe and good answer. Exiting."
 msgstr "Безпечна і добра відповідь. Завершуємо роботу."
 
-#: plugins/copr.py:429
+#: plugins/copr.py:437
 msgid "This command has to be run under the root user."
 msgstr "Цю команду слід виконувати від імені користувача root."
 
-#: plugins/copr.py:493
-msgid ""
-"This repository does not have any builds yet so you cannot enable it now."
+#: plugins/copr.py:487
+#, python-brace-format
+msgid "Request to {0} failed: {1} - {2}"
 msgstr ""
-"У цьому сховищі ще немає нічого зібраного, отже ви не можете його зараз "
-"увімкнути."
 
-#: plugins/copr.py:496
-msgid "Such repository does not exist."
+#: plugins/copr.py:489
+msgid "It wasn't possible to enable this project.\n"
+msgstr ""
+
+#: plugins/copr.py:494
+#, fuzzy, python-brace-format
+#| msgid "Such repository does not exist."
+msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "Такого сховища не існує."
 
-#: plugins/copr.py:540
+#: plugins/copr.py:497
+#, fuzzy
+#| msgid "List enabled Copr repositories"
+msgid ""
+"\n"
+"Available repositories: "
+msgstr "Список увімкнених сховищ Copr"
+
+#: plugins/copr.py:499
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"If you want to enable a non-default repository, use the following command:\n"
+"  'dnf copr enable {0} <repository>'\n"
+"But note that the installed repo file will likely need a manual modification."
+msgstr ""
+
+#: plugins/copr.py:505
+#, fuzzy, python-brace-format
+#| msgid "Such repository does not exist."
+msgid "Project {0} does not exist."
+msgstr "Такого сховища не існує."
+
+#: plugins/copr.py:508
+#, fuzzy, python-brace-format
+#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+msgid "Failed to connect to {0}: {1}"
+msgstr "Не вдалося вилучити сховище copr {0}/{1}/{2}"
+
+#: plugins/copr.py:555
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -465,44 +499,44 @@ msgstr ""
 "\n"
 "Ці сховища було увімкнено автоматично."
 
-#: plugins/copr.py:561
+#: plugins/copr.py:576
 msgid "Do you want to keep them enabled?"
 msgstr "Хочете не вимикати їх?"
 
-#: plugins/copr.py:594
+#: plugins/copr.py:609
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Не вдалося вилучити сховище copr {0}/{1}/{2}"
 
-#: plugins/copr.py:605
+#: plugins/copr.py:620
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Не вдалося вилучити сховище copr {}/{}"
 
-#: plugins/copr.py:623 plugins/copr.py:660
+#: plugins/copr.py:638 plugins/copr.py:675
 msgid "Unknown response from server."
 msgstr "Невідома відповідь від сервера."
 
-#: plugins/copr.py:645
+#: plugins/copr.py:660
 msgid "Interact with Playground repository."
 msgstr "Працювати зі сховищем Playground."
 
-#: plugins/copr.py:651
+#: plugins/copr.py:666
 msgid "Enabling a Playground repository."
 msgstr "Вмикання сховища Playground."
 
-#: plugins/copr.py:652
+#: plugins/copr.py:667
 msgid "Do you want to continue?"
 msgstr "Хочете продовжити виконання цієї дії?"
 
-#: plugins/copr.py:696
+#: plugins/copr.py:711
 msgid "Playground repositories successfully enabled."
 msgstr "Сховища playground успішно увімкнено."
 
-#: plugins/copr.py:699
+#: plugins/copr.py:714
 msgid "Playground repositories successfully disabled."
 msgstr "Сховища playground успішно вимкнено."
 
-#: plugins/copr.py:703
+#: plugins/copr.py:718
 msgid "Playground repositories successfully updated."
 msgstr "Сховища playground успішно оновлено."
 
@@ -626,7 +660,7 @@ msgstr "отримати замість цього пакунок -debugsource"
 msgid "limit  the  query to packages of given architectures."
 msgstr "обмежити пошук пакунків вказаними архітектурами."
 
-#: plugins/download.py:62
+#: plugins/download.py:62 plugins/modulesync.py:51
 msgid "resolve and download needed dependencies"
 msgstr "визначити і отримати потрібні залежності"
 
@@ -825,6 +859,73 @@ msgstr "перенести журнал yum, дані щодо груп та yum
 msgid "Migrating history data..."
 msgstr "Переносимо дані журналу…"
 
+#: plugins/modulesync.py:37
+msgid ""
+"Download packages from modules and/or create a repository with modular data"
+msgstr ""
+
+#: plugins/modulesync.py:44
+msgid "MODULE"
+msgstr ""
+
+#: plugins/modulesync.py:45
+#, fuzzy
+#| msgid "packages to download"
+msgid "modules to download"
+msgstr "пакунки для отримання"
+
+#: plugins/modulesync.py:47
+#, fuzzy
+#| msgid "Specify repositories to check"
+msgid "enable repositories with source packages"
+msgstr "Вказати сховища для перевірки"
+
+#: plugins/modulesync.py:49
+msgid "enable repositories with debug-info and debug-source packages"
+msgstr ""
+
+#: plugins/modulesync.py:53
+#, fuzzy
+#| msgid "download all packages from remote repo"
+msgid "download only packages from newest modules"
+msgstr "отримати усі пакунки із віддаленого сховища"
+
+#: plugins/modulesync.py:85
+#, fuzzy
+#| msgid "No match for argument: {}"
+msgid "Unable to find a match for argument: '{}'"
+msgid_plural "Unable to find a match for arguments: '{}'"
+msgstr[0] "Відповідника параметра не знайдено: {}"
+msgstr[1] "Відповідника параметра не знайдено: {}"
+msgstr[2] "Відповідника параметра не знайдено: {}"
+
+#: plugins/modulesync.py:107
+msgid ""
+"Creation of repository failed with return code {}. All downloaded content "
+"was kept on the system"
+msgstr ""
+
+#: plugins/modulesync.py:144
+#, python-brace-format
+msgid "No match for artifact '{0}' from module '{1}'"
+msgstr ""
+
+#: plugins/modulesync.py:162
+#, python-brace-format
+msgid "No match for package name '{0}' in profile {1} from module {2}"
+msgstr ""
+
+#: plugins/modulesync.py:166
+#, fuzzy
+#| msgid "No match for argument: {}"
+msgid "No mach for argument '{}'"
+msgstr "Відповідника параметра не знайдено: {}"
+
+#. TODO(jmracek) Shell we end with an error or with RC 1?
+#: plugins/modulesync.py:198
+msgid "Unable to satisfy require {}"
+msgstr ""
+
 #: plugins/needs_restarting.py:66
 #, python-brace-format
 msgid ""
@@ -901,24 +1002,26 @@ msgstr "post-transaction-actions: помилкова команда «%s»: %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Показати список нерозв’язаних залежностей для сховищ"
 
-#: plugins/repoclosure.py:66
-msgid "Repoclosure ended with unresolved dependencies."
+#: plugins/repoclosure.py:69
+#, fuzzy
+#| msgid "Repoclosure ended with unresolved dependencies."
+msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "Виконання repoclosure завершилося із нерозв’язаними залежностями."
 
-#: plugins/repoclosure.py:153
+#: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 "перевірити пакунки вказаної архітектури, можна використовувати декілька разів"
 
-#: plugins/repoclosure.py:156
+#: plugins/repoclosure.py:162
 msgid "Specify repositories to check"
 msgstr "Вказати сховища для перевірки"
 
-#: plugins/repoclosure.py:158
+#: plugins/repoclosure.py:164
 msgid "Check only the newest packages in the repos"
 msgstr "Перевірити лише найновіші пакунки у сховищах"
 
-#: plugins/repoclosure.py:161
+#: plugins/repoclosure.py:167
 msgid "Check closure for this package only"
 msgstr "Перевірити замкненість лише для цього пакунка"
 
@@ -1285,6 +1388,12 @@ msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Підкоманда «{}» вважається застарілою. Скористайтеся замість неї підкомандою "
 "«exclude»."
+
+#~ msgid ""
+#~ "This repository does not have any builds yet so you cannot enable it now."
+#~ msgstr ""
+#~ "У цьому сховищі ще немає нічого зібраного, отже ви не можете його зараз "
+#~ "увімкнути."
 
 #~ msgid ""
 #~ "\n"
