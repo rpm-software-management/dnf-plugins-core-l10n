@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-31 03:41+0000\n"
-"PO-Revision-Date: 2022-08-31 11:37+0000\n"
+"PO-Revision-Date: 2022-09-02 02:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -423,12 +423,12 @@ msgstr "{0}에 대한 요청이 실패함: {1} - {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr "이 프로젝트는 활성화 할 수 없습니다.\n"
+msgstr "이와 같은 프로젝트를 활성화 할 수 없습니다.\n"
 
 #: plugins/copr.py:494
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "저장소 '{0}'는 프로젝트 '{1}'에서 존재하지 않습니다."
+msgstr "저장소 '{0}'는 프로젝트 '{1}'에 존재하지 않습니다."
 
 #: plugins/copr.py:497
 msgid ""
@@ -458,12 +458,12 @@ msgstr ""
 #: plugins/copr.py:505
 #, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "프로젝트 {0}는 존재하지 않습니다."
+msgstr "프로젝트 {0}가 존재하지 않습니다."
 
 #: plugins/copr.py:508
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "{0}: {1}로 연결 하는데 실패하였습니다"
+msgstr "연결 하는데 실패함 {0}: {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -857,19 +857,19 @@ msgstr ""
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr "모듈"
+msgstr "MODULE"
 
 #: plugins/modulesync.py:45
 msgid "modules to download"
-msgstr "내려받아야 할 모듈"
+msgstr "내려받기 할 모듈"
 
 #: plugins/modulesync.py:47
 msgid "enable repositories with source packages"
-msgstr "원천 꾸러미와 함께 저장소를 활성화"
+msgstr "원천 꾸러미로 저장소 활성화"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr "디버그-정보와 디버그-원천 꾸러미와 함께 저장소 활성화"
+msgstr "debug-info와 debug-source 꾸러미로 저장소 활성화"
 
 #: plugins/modulesync.py:53
 msgid "download only packages from newest modules"
@@ -878,7 +878,7 @@ msgstr "최신 모듈에서 꾸러미만 내려받기"
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "인수와 일치하는 항목을 찾을 수 없습니다: '{}'"
+msgstr[0] "인수와 일치 항목을 찾을 수 없음: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
@@ -891,7 +891,7 @@ msgstr ""
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr "모듈 '{1}'에서 인위 결과물 '{0}'과 일치하는 부분이 없습니다"
+msgstr "모듈 '{1}' 에서 인위 결과물 '{0}'과 일치하는 부분이 없습니다"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
@@ -901,7 +901,7 @@ msgstr ""
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
-msgstr "인수와 일치하는 항목이 없습니다 '{}'"
+msgstr "인수 '{}'와 일치하는 항목이 없습니다"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
