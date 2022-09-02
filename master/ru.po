@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-01 03:20+0000\n"
-"PO-Revision-Date: 2022-08-27 14:19+0000\n"
+"PO-Revision-Date: 2022-09-03 14:19+0000\n"
 "Last-Translator: V I <xasertop@gmail.com>\n"
-"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ru/>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,6 +78,8 @@ msgstr "Не все зависимости удовлетворены"
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
+"Предупреждение: у аргументов -D или --define нет значения для исходных "
+"пакетов rpm."
 
 #: plugins/builddep.py:215
 #, python-format
@@ -326,8 +328,8 @@ msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
-"Плохой формат необязательного chroot. Формат - архитектура-версия-"
-"дистрибутив."
+"Неверный формат необязательного chroot. Формат должен быть "
+"архитектура-версия-дистрибутив."
 
 #: plugins/copr.py:264
 msgid "use format `copr_username/copr_projectname` to reference copr project"
@@ -437,7 +439,7 @@ msgstr "Не удалось активировать этот проект.\n"
 #: plugins/copr.py:494
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Репозиторий «{0}» не существует в проекте «{1}»."
+msgstr "Репозитория «{0}» в проекте «{1}» не существует."
 
 #: plugins/copr.py:497
 msgid ""
@@ -458,16 +460,16 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Если вы хотите включить нестандартный репозиторий, используйте следующую "
+"Если вы хотите включить репозиторий не по умолчанию, используйте следующую "
 "команду:\n"
-"  «dnf copr enable {0} <repository>»\n"
-"Но учтите, что, скорее всего, установленный repo-файл потребуется изменять "
-"вручную."
+"  'dnf copr enable {0} <репозиторий>'\n"
+"Но обратите внимание, что установленный файл репозитория, скорее всего, "
+"потребует ручного изменения."
 
 #: plugins/copr.py:505
 #, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Проект {0} не существует."
+msgstr "Проект «{0}» не существует."
 
 #: plugins/copr.py:508
 #, python-brace-format
@@ -891,17 +893,17 @@ msgstr "загрузить только пакеты из новейших мо�
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Не удалось найти совпадений для аргумента: '{}'"
-msgstr[1] "Не удалось найти совпадений для аргументов: '{}'"
-msgstr[2] "Не удалось найти совпадений для аргументов: '{}'"
+msgstr[0] "Нет удалось найти совпадений для аргумента: '{}'"
+msgstr[1] "Нет удалось найти совпадений для аргументов: '{}'"
+msgstr[2] "Нет удалось найти совпадений для аргументов: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
-"Не удалось создать репозиторий с кодом возврата {}. Все загрузки остались в "
-"системе"
+"Не удалось создать репозиторий с кодом возврата {}. Весь загруженный контент "
+"остался в системе"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
@@ -915,7 +917,7 @@ msgstr "Нет соответствий имени пакета «{0}» в пр�
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
-msgstr "Нет совпадений для аргумента '{}'"
+msgstr "Нет совпадений для аргумента: '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
@@ -999,7 +1001,7 @@ msgstr "Показать список неразрешенных зависим�
 #: plugins/repoclosure.py:69
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
-"Repoclosure завершил работу с неразрешенными зависимостями ({}) в {} пакетах."
+"Repoclosure завершил работу с неразрешёнными зависимостями ({}) в {} пакетах."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
