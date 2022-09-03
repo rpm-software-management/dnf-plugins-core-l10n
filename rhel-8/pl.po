@@ -15,17 +15,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 15:38+0200\n"
-"PO-Revision-Date: 2022-03-03 20:16+0000\n"
+"PO-Revision-Date: 2022-09-03 14:19+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-8/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-8/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.14\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -432,25 +432,24 @@ msgstr "To polecenie może być wykonywane tylko przez użytkownika root."
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Żądanie do {0} się nie powiodło: {1} — {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Włączenie tego projektu nie było możliwe.\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Repozytorium nie istnieje."
+msgstr "Repozytorium „{0}” nie istnieje w projekcie „{1}”."
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "wyświetla listę włączonych repozytoriów Copr"
+msgstr ""
+"\n"
+"Dostępne repozytoria: "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -461,18 +460,22 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Aby włączyć niedomyślne repozytorium, należy użyć tego polecenia:\n"
+"  „dnf copr enable {0} <repozytorium>”\n"
+"Proszę zauważyć, że zainstalowany plik repozytorium prawdopodobnie będzie "
+"wymagał ręcznej modyfikacji."
 
 #: plugins/copr.py:505
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Repozytorium nie istnieje."
+msgstr "Projekt {0} nie istnieje."
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Usunięcie repozytorium Copr {0}/{1}/{2} się nie powiodło"
+msgstr "Połączenie z {0} się nie powiodło: {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -1183,16 +1186,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Należy podać --old lub --new."
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Należy podać --old lub --new."
+msgstr "Należy podać --oldonly lub --new."
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Należy podać --old lub --new."
+msgstr "Należy podać --old lub --oldonly."
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1207,10 +1206,8 @@ msgid "Print the older packages"
 msgstr "Wyświetla listę poprzednich pakietów"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Wyświetla listę najnowszych pakietów"
+msgstr "Wyświetla listę poprzednich pakietów. Wyklucza najnowsze pakiety."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
