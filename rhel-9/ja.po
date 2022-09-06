@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-31 13:39+0200\n"
-"PO-Revision-Date: 2022-03-09 12:39+0000\n"
+"PO-Revision-Date: 2022-09-07 14:19+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-9/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -420,25 +420,24 @@ msgstr "このコマンドは root ユーザーの下で実行する必要があ
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "{0} へのリクエストに失敗しました: {1} - {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "このプロジェクトを有効にすることができませんでした。\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "そのようなリポジトリーは存在しません。"
+msgstr "'{0}' リポジトリーはプロジェクト '{1}' に存在しません。"
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "有効化された Copr リポジトリーを一覧表示します"
+msgstr ""
+"\n"
+"利用可能なリポジトリー: "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -449,18 +448,22 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"デフォルト以外のリポジトリーを有効にする場合は、以下のコマンドを使用します:\n"
+"  'dnf copr enable {0} <repository>'\n"
+"ただし、インストールされているリポジトリーファイルを手動で変更する必要がある"
+"可能性があることに注意してください。"
 
 #: plugins/copr.py:505
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "そのようなリポジトリーは存在しません。"
+msgstr "プロジェクト {0} は存在しません。"
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "copr repo {0}/{1}/{2} の削除に失敗しました"
+msgstr "{0} への接続に失敗しました: {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -858,67 +861,61 @@ msgstr "履歴データを移行中..."
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "モジュールからパッケージをダウンロードしたり、モジュラーデータでリポジトリー"
+"を作成したりします"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODULE"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "ダウンロードするパッケージ"
+msgstr "ダウンロードするモジュール"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "確認するリポジトリーを指定します"
+msgstr "ソースパッケージを含むリポジトリーを有効にします"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "debug-info パッケージおよび debug-source "
+"パッケージでリポジトリーを有効にします"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "リモート repo からすべてのパッケージをダウンロードします"
+msgstr "最新のモジュールからパッケージのみをダウンロードします"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "一致した引数がありません: {}"
+msgstr[0] "引数に一致するものが見つかりませんでした: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
-msgstr ""
+msgstr "リポジトリーの作成は戻りコード {} "
+"で失敗しました。ダウンロードされたコンテンツはすべてシステムに保持されました"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "モジュール '{1}' のアーティファクト '{0}' に一致するものはありません"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "モジュール {2} からのプロファイル {1} のパッケージ名 '{0}' "
+"に一致するものはありません"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "一致した引数がありません: {}"
+msgstr "引数 '{}' に一致するものはありません"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "要求 {} を満たすことができません"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -995,10 +992,8 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "リポジトリーの未解決の依存関係の一覧を表示します"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "repoclosure は未解決の依存関係で終了しました。"
+msgstr "Repoclosure は、{} パッケージで依存関係 ({}) が解決されずに終了します。"
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1170,7 +1165,7 @@ msgstr "rpm パッケージのディレクトリーを管理します"
 
 #: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
-msgstr "--old または --new のいずれかを渡します。両方ではありません。"
+msgstr "--old または --new のいずれかを渡します、両方ではありません!"
 
 #: plugins/repomanage.py:89
 msgid "No files to process"
