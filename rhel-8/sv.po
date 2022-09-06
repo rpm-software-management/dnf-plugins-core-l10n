@@ -1,7 +1,7 @@
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2022.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2022.
+# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020, 2022.
+# Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata, 2022.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Luna Jernberg <bittin@reimu.nl>, 2021, 2022.
 msgid ""
@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 15:38+0200\n"
-"PO-Revision-Date: 2022-03-09 12:39+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-8/sv/>\n"
+"PO-Revision-Date: 2022-09-07 14:19+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-8/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -419,25 +419,24 @@ msgstr "Detta kommando måste köras som användaren root."
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Förfrågan att {0} misslyckades: {1} - {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Det gick inte att aktivera det här projektet.\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Något sådant förråd finns inte."
+msgstr "Förrådet '{0}' finns inte i projektet '{1}'."
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Lista aktiverade Copr-förråd"
+msgstr ""
+"\n"
+"Tillgängliga förråd: "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -448,18 +447,23 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Om man vill aktivera ett icke-standard-förråd använder man följande kommando:"
+"\n"
+"  ”dnf copr enable {0} <förråd>”\n"
+"Men observera att den installerade förrådsfilen sannolikt behöver en manuell "
+"justering."
 
 #: plugins/copr.py:505
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Något sådant förråd finns inte."
+msgstr "Projektet {0} finns inte."
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Misslyckades att ta bort copr-förrpdet {0}/{1}/{2}"
+msgstr "Misslyckades att ansluta till {0}:{1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -874,7 +878,7 @@ msgstr "hämta endast paket från de senaste modulerna"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Det gick inte att hitta en matchning för argument: '{}'"
-msgstr[1] "Det gick inte att hitta en matchning för argumenten: '{}'"
+msgstr[1] "Det gick inte att hitta en matchning för argument: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
@@ -1152,16 +1156,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Skicka antingen --old eller --new, inte båda!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Skicka antingen --old eller --new, inte båda!"
+msgstr "Skicka antingen --oldonly eller --new, inte båda!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Skicka antingen --old eller --new, inte båda!"
+msgstr "Skicka antingen --old eller --oldonly, inte båda!"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1176,10 +1176,8 @@ msgid "Print the older packages"
 msgstr "Skriv de äldre paketen"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Skriv de senaste paketen"
+msgstr "Skriv ut de äldre paketen. Uteslut de senaste paketen."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
