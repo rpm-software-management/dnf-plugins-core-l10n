@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-31 13:39+0200\n"
-"PO-Revision-Date: 2022-03-09 12:39+0000\n"
+"PO-Revision-Date: 2022-09-07 14:19+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-rhel-9/zh_CN/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -412,25 +412,24 @@ msgstr "该命令必须以 root 用户运行。"
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "请求 {0} 失败：{1} - {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "无法启用此项目。\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "该软件仓库不存在。"
+msgstr "仓库 '{0}' 在项目 '{1}' 中不存在。"
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "列出启动的 Copr 仓库"
+msgstr ""
+"\n"
+"可用软件仓库： "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -441,18 +440,21 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"如果需要启用一个非默认的仓库，使用以下命令 :\n"
+"  'dnf copr enable {0} <repository>'\n"
+"但请注意，安装的 repo 文件将来可能需要手动修改。"
 
 #: plugins/copr.py:505
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "该软件仓库不存在。"
+msgstr "项目 {0} 不存在。"
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "删除 copr 仓库 {0}/{1}/{2} 失败"
+msgstr "连接到 {0} 失败：{1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -490,11 +492,11 @@ msgstr "您需要保持它们被启用吗？"
 #: plugins/copr.py:609
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
-msgstr "删除 copr 仓库 {0}/{1}/{2} 失败"
+msgstr "无法删除 copr 存储库 {0}/{1}/{2}"
 
 #: plugins/copr.py:620
 msgid "Failed to disable copr repo {}/{}"
-msgstr "无法禁用 Copr 软件仓库 {}/{}"
+msgstr "无法禁用 Copr 存储库 {}/{}"
 
 #: plugins/copr.py:638 plugins/copr.py:675
 msgid "Unknown response from server."
@@ -773,7 +775,7 @@ msgstr "软件包规格"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
-msgstr "没有指定组（使用 --id 或 --name）就无法编辑组"
+msgstr "没有指定它（使用 --id 或 --name）就不能编辑组"
 
 #: plugins/groups_manager.py:190
 msgid "Can't load file \"{}\": {}"
@@ -832,76 +834,65 @@ msgstr "正在迁移历史数据…"
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "从模块下载软件包和/或创建带有模块化数据的存储库"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "模块"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "将要下载的软件包"
+msgstr "要下载的模块"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "指定要检查的软件仓库"
+msgstr "启用带有源软件包的软件仓库"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "启用带有 debug-info 和 debug-source 软件包的软件仓库"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "下载远程仓库中的全部软件包"
+msgstr "只从最新的模块中下载软件包"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "未找到匹配的参数： {}"
+msgstr[0] "找不到与参数匹配的项：'{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
-msgstr ""
+msgstr "创建存储库会失败，并显示返回码 {}。所有下载的内容都保存在系统上"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "没有与模块 '{1}' 的工件 '{0}' 相匹配的项"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "没有与模块 {2} 中配置文件 {1} 的软件包名称 '{0}' 相匹配的项"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "未找到匹配的参数： {}"
+msgstr "没有与参数 '{}' 相匹配的项"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "无法满足要求 {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
-msgstr ""
-"未找到在需要重新启动文件 \"{file}\" 中指定的软件包名为 \"{pkg}\" 的已安装的软"
-"件包。"
+msgstr "未找到在需要重新启动的文件 \"{file}\" 中指定的软件包名为 \"{pkg}\" "
+"的已安装的软件包。"
 
 #: plugins/needs_restarting.py:220
 msgid "determine updated binaries that need restarting"
@@ -967,10 +958,8 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "显示仓库中未被解决的依赖关系的列表"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Repoclosure 退出时还有依赖关系未解决。"
+msgstr "Repoclosure 退出时还有未解决的依赖项（{}），针对 {} 软件包。"
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1136,7 +1125,7 @@ msgstr "管理 RPM 软件包目录"
 
 #: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
-msgstr "传入 --old 或者 --new，不可同时传入！"
+msgstr "传递 --old 或者 --new，而不是两者都传递！"
 
 #: plugins/repomanage.py:89
 msgid "No files to process"
