@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-03 03:20+0000\n"
+"POT-Creation-Date: 2022-09-07 03:33+0000\n"
 "PO-Revision-Date: 2022-09-07 14:19+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -1001,7 +1001,8 @@ msgstr "リポジトリーの未解決の依存関係の一覧を表示します
 
 #: plugins/repoclosure.py:69
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Repoclosure は、{} パッケージで依存関係 ({}) が解決されずに終了します。"
+msgstr ""
+"Repoclosure は、{} パッケージで依存関係 ({}) が解決されずに終了します。"
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
