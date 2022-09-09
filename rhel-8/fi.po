@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 15:38+0200\n"
-"PO-Revision-Date: 2022-09-08 20:19+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2022-09-10 16:19+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/fi/>\n"
 "Language: fi\n"
@@ -418,25 +418,24 @@ msgstr "Tämä komento pitää suorittaa käyttäjänä root."
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Pyyntö kohteeseen {0} epäonnistui: {1} - {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Tätä projektia ei voitu ottaa käyttöön.\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Tällaista ohjelmistolähdettä ei ole."
+msgstr "Ohjelmistolähdettä '{0}' ei ole projektissa '{1}'."
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Luettele käyttöönotetut Copr-tietovarastot"
+msgstr ""
+"\n"
+"Saattavilla olevat tietovarastot: "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -447,6 +446,13 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Jos haluat ottaa käyttöön muun kuin oletusarvoisen ohjelmistolähteen, käytä "
+"seuraavaa komentoa:\n"
+"   'dnf copr enable {0} <ohjelmistolähde>'\n"
+"Huomaa kuitenkin, että asennettu repo-tiedosto tarvitsee todennäköisesti "
+"manuaalisen muokkauksen."
 
 #: plugins/copr.py:505
 #, python-brace-format
@@ -454,10 +460,9 @@ msgid "Project {0} does not exist."
 msgstr "Projektia {0} ei ole olemassa."
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Copr-ohjelmistolähteen {0}/{1}/{2} poisto epäonnistui"
+msgstr "Yhteyden muodostaminen kohteeseen {0} epäonnistui: {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -1166,16 +1171,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Ohita joko --vanhat tai --uudet, älä molempia!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Ohita joko --vanhat tai --uudet, älä molempia!"
+msgstr "Ohita joko --oldonly tai --new, älä molempia!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Ohita joko --vanhat tai --uudet, älä molempia!"
+msgstr "Ohita joko --old tai --oldonly, älä molempia!"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1190,10 +1191,8 @@ msgid "Print the older packages"
 msgstr "Tulosta vanhemmat paketit"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Tulosta uusimmat paketit"
+msgstr "Tulosta vanhemmat paketit. Sulje pois uusimmat paketit."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
