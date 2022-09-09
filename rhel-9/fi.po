@@ -1,15 +1,15 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020, 2022.
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020, 2022.
-# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-31 13:39+0200\n"
-"PO-Revision-Date: 2022-09-08 20:19+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2022-09-10 16:19+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-9/fi/>\n"
 "Language: fi\n"
@@ -418,25 +418,24 @@ msgstr "Tämä komento pitää suorittaa käyttäjänä root."
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Pyyntö kohteeseen {0} epäonnistui: {1} - {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Tätä projektia ei voitu ottaa käyttöön.\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Tällaista ohjelmistolähdettä ei ole."
+msgstr "Ohjelmistolähdettä '{0}' ei ole projektissa '{1}'."
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Luettele käyttöönotetut Copr-tietovarastot"
+msgstr ""
+"\n"
+"Saattavilla olevat tietovarastot: "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -447,6 +446,13 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Jos haluat ottaa käyttöön muun kuin oletusarvoisen ohjelmistolähteen, käytä "
+"seuraavaa komentoa:\n"
+"   'dnf copr enable {0} <ohjelmistolähde>'\n"
+"Huomaa kuitenkin, että asennettu repo-tiedosto tarvitsee todennäköisesti "
+"manuaalisen muokkauksen."
 
 #: plugins/copr.py:505
 #, python-brace-format
@@ -454,10 +460,9 @@ msgid "Project {0} does not exist."
 msgstr "Projektia {0} ei ole olemassa."
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Copr-ohjelmistolähteen {0}/{1}/{2} poisto epäonnistui"
+msgstr "Yhteyden muodostaminen kohteeseen {0} epäonnistui: {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -855,67 +860,61 @@ msgstr "Siirretään historiatiedot..."
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr ""
+"Lataa paketteja moduuleista ja/tai luo ohjelmistolähde modulaarisilla "
+"tiedoilla"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODUULI"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "paketteja ladattavaksi"
+msgstr "moduuleja ladattavaksi"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Määritä tarkistettavat tietovarastot"
+msgstr "ota tietovarastot käyttöön lähdepakettien kanssa"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "ota käyttöön tietovarastot debug-info- ja debug-source-pakettien kanssa"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "lataa kaikki paketit etäasennuslähteestä"
+msgstr "lataa vain paketteja uusimmista moduuleista"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Ei vastaavaa argumentille: {}"
-msgstr[1] "Ei vastaavaa argumentille: {}"
+msgstr[1] "Ei vastaavaa argumenteille: {}"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Ohjelmistolähteen luominen epäonnistui palautuskoodilla {}. Kaikki ladattu "
+"sisältö säilytettiin järjestelmässä"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Ei vastaavuutta artefaktille \"{0}\" moduulista \"{1}\""
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "Ei vastaavuutta paketin nimellä '{0}' profiilissa {1} moduulista {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Ei vastaavaa argumentille: {}"
+msgstr "Ei vastaavuutta argumentille {}"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Ei voida täyttää vaatimusta {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -992,11 +991,10 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Näytä luettelo ohjelmistolähteiden ratkaisemattomista riippuvuuksista"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
-"Ohjelmistolähteen sulkeminen päättyi ratkaisemattomilla riippuvuuksilla."
+"Ohjelmistolähteen sulkeminen päättyi ratkaisemattomilla riippuvuuksilla ({}) "
+"{} paketeissa."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
