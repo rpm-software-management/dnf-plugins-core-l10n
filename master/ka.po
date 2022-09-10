@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-10 03:25+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-11 21:19+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -47,7 +49,7 @@ msgstr ""
 
 #: plugins/builddep.py:144
 msgid "RPM: {}"
-msgstr ""
+msgstr "RPM: {}"
 
 #: plugins/builddep.py:153
 msgid "Some packages could not be found."
@@ -82,7 +84,7 @@ msgstr ""
 #: plugins/builddep.py:234 plugins/repoclosure.py:124
 #, python-format
 msgid "no package matched: %s"
-msgstr ""
+msgstr "პაკეტი არ ემთხვევა: %s"
 
 #: plugins/changelog.py:37
 #, python-brace-format
@@ -111,12 +113,12 @@ msgstr ""
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
-msgstr ""
+msgstr "პაკეტი"
 
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:90
 #, python-format
 msgid "No match for argument: %s"
-msgstr ""
+msgstr "არგუმენტს არაფერი ემთხვევა: %s"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
@@ -138,7 +140,7 @@ msgstr ""
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
-msgstr ""
+msgstr "ცვლილების ჟურნალი ობიექტისთვის {}"
 
 #: plugins/config_manager.py:38
 #, python-brace-format
@@ -206,19 +208,19 @@ msgstr ""
 
 #: plugins/copr.py:70
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: plugins/copr.py:70
 msgid "yes"
-msgstr ""
+msgstr "დიახ"
 
 #: plugins/copr.py:71
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #: plugins/copr.py:71
 msgid "no"
-msgstr ""
+msgstr "არა"
 
 #: plugins/copr.py:92
 msgid "Interact with Copr repositories."
@@ -267,7 +269,7 @@ msgstr ""
 
 #: plugins/copr.py:164 plugins/copr.py:236 plugins/copr.py:263
 msgid "Error: "
-msgstr ""
+msgstr "შეცდომა: "
 
 #: plugins/copr.py:165
 msgid ""
@@ -285,7 +287,7 @@ msgstr ""
 
 #: plugins/copr.py:246
 msgid "Too many arguments."
-msgstr ""
+msgstr "მეტისმეტად ბევრი არგუმენტი."
 
 #: plugins/copr.py:249
 msgid ""
@@ -456,7 +458,7 @@ msgstr ""
 
 #: plugins/copr.py:667
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "გნებავთ, გააგრძელოთ?"
 
 #: plugins/copr.py:711
 msgid "Playground repositories successfully enabled."
@@ -559,7 +561,7 @@ msgstr ""
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
-msgstr ""
+msgstr "დამთხვევის გარეშე"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
@@ -625,7 +627,7 @@ msgstr ""
 #: plugins/download.py:296 plugins/download.py:309
 #, python-format
 msgid "No package %s available."
-msgstr ""
+msgstr "პაკეტი %s ხელმიუწვდომელია."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
@@ -669,7 +671,7 @@ msgstr ""
 
 #: plugins/groups_manager.py:101
 msgid "group name"
-msgstr ""
+msgstr "ჯგუფის სახელი"
 
 #: plugins/groups_manager.py:103
 msgid "group description"
@@ -713,7 +715,7 @@ msgstr ""
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr ""
+msgstr "პაკეტის სპეციფიკაცია"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
@@ -729,7 +731,7 @@ msgstr ""
 
 #: plugins/groups_manager.py:261
 msgid "No match for argument: {}"
-msgstr ""
+msgstr "არგუმენტს არაფერი ემთხვევა: %s"
 
 #: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
@@ -780,7 +782,7 @@ msgstr ""
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "მოდული"
 
 #: plugins/modulesync.py:45
 msgid "modules to download"
@@ -987,6 +989,8 @@ msgid ""
 "\n"
 "Downgraded packages"
 msgstr ""
+"\n"
+"პაკეტის ვერსიის ჩამოწევა"
 
 #: plugins/repodiff.py:207
 msgid ""
@@ -999,6 +1003,8 @@ msgid ""
 "\n"
 "Summary"
 msgstr ""
+"\n"
+"შეჯამება"
 
 #: plugins/repodiff.py:213
 msgid "Added packages: {}"
@@ -1075,7 +1081,7 @@ msgstr ""
 
 #: plugins/repomanage.py:107
 msgid "Could not open {}"
-msgstr ""
+msgstr "გახსნის შეცდომა: {}"
 
 #: plugins/repomanage.py:223
 msgid "Print the older packages"
