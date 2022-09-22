@@ -7,13 +7,14 @@
 # Hongqiao Chen <harrychen0314@gmail.com>, 2020.
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
 # Transtats <suanand@redhat.com>, 2022.
+# Yang Yulin <yylteam@icloud.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-19 03:37+0000\n"
-"PO-Revision-Date: 2022-09-07 14:19+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"PO-Revision-Date: 2022-09-23 09:19+0000\n"
+"Last-Translator: Yang Yulin <yylteam@icloud.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -79,7 +80,7 @@ msgstr "没有满足全部的依赖关系"
 #: plugins/builddep.py:208
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
-msgstr ""
+msgstr "警告：-D 或 --define 参数对源 rpm 包没有任何意义。"
 
 #: plugins/builddep.py:215
 #, python-format
