@@ -3,7 +3,7 @@
 # José Fournier <jaaf64@zoraldia.com>, 2017. #zanata
 # Jérôme Fenal <jfenal@gmail.com>, 2017. #zanata
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2018. #zanata, 2020.
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021, 2022.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2020.
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021.
 # Sundeep Anand <suanand@redhat.com>, 2021.
@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-31 13:39+0200\n"
-"PO-Revision-Date: 2022-03-09 12:39+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-9/fr/>\n"
+"PO-Revision-Date: 2022-10-06 08:19+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-9/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -430,25 +430,24 @@ msgstr "Cette commande requiert les privilèges du super utilisateur."
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "La demande à {0} a échoué : {1} - {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Il n'a pas été possible d'activer ce projet.\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Ce dépôt n’existe pas."
+msgstr "Le référentiel '{0}' n'existe pas dans le projet '{1}'."
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Lister les dépôts Copr activés"
+msgstr ""
+"\n"
+"Dépôts disponibles : "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -459,18 +458,23 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Si vous voulez activer un référentiel autre que celui par défaut, utilisez "
+"la commande suivante :\n"
+"  'dnf copr enable {0} <repository>'\n"
+"Mais notez que le fichier repo installé devra probablement être modifié "
+"manuellement."
 
 #: plugins/copr.py:505
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Ce dépôt n’existe pas."
+msgstr "Le projet {0} n'existe pas."
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Échec de la suppression du dépôt Copr {0}/{1}/{2}"
+msgstr "Échec de la connexion à {0} : {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -870,67 +874,63 @@ msgstr "Migration des données d’historique …"
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr ""
+"Télécharger les paquets des modules et/ou créer un référentiel avec les "
+"données des modules"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODULE"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "paquets à télécharger"
+msgstr "modules à télécharger"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Spécifie les dépôts à vérifier"
+msgstr "activer les dépôts avec les paquets sources"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "activer les dépôts avec les paquets debug-info et debug-source"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "télécharger tous les paquets depuis le dépôt distant"
+msgstr "télécharger uniquement les paquets des modules les plus récents"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Aucune correspondance pour l’argument : {}"
-msgstr[1] "Aucune correspondance pour l’argument : {}"
+msgstr[0] "Impossible de trouver une correspondance pour l'argument : '{}'"
+msgstr[1] "Impossible de trouver une correspondance pour les arguments : '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"La création du référentiel a échoué avec le code de retour {}. Tout le "
+"contenu téléchargé a été conservé sur le système"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Aucune correspondance pour l'artefact '{0}' du module '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
+"Aucune correspondance pour le nom de paquet '{0}' dans le profil {1} du "
+"module {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Aucune correspondance pour l’argument : {}"
+msgstr "Pas de correspondance pour l'argument '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Impossible de satisfaire le besoin {}"
 
 #: plugins/needs_restarting.py:66
 #, python-brace-format
@@ -1013,10 +1013,10 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Affiche une liste de dépendances non résolues pour les dépôts"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Repoclosure a terminé avec des dépendances non-résolues."
+msgstr ""
+"Repoclosure s'est terminé avec des dépendances non résolues ({}) sur {} "
+"paquets."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
