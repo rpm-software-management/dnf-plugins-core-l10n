@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 15:38+0200\n"
-"PO-Revision-Date: 2022-09-02 02:19+0000\n"
+"PO-Revision-Date: 2022-10-07 14:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ko/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1175,7 +1175,7 @@ msgstr "오래된 꾸러미를 출력합니다. 최신 꾸러미는 제외합니
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
-msgstr "최신 꾸러미(package) 인쇄"
+msgstr "최신 꾸러미 출력"
 
 #: plugins/repomanage.py:229
 msgid "Space separated output, not newline"
