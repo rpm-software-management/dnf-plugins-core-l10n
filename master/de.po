@@ -14,16 +14,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-10 03:25+0000\n"
-"PO-Revision-Date: 2022-04-14 20:17+0000\n"
-"Last-Translator: Joachim Philipp <joachim.philipp@gmail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/de/>\n"
+"PO-Revision-Date: 2022-10-15 08:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1299,11 +1299,11 @@ msgstr "Neue Leaf-Pakete:"
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:46
 msgid "the color of the sky"
-msgstr ""
+msgstr "die Farbe des Himmels"
 
 #: plugins/system_upgrade.py:58
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "Es wird eine höhere --releasever benötigt als die installierte Version."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:60
@@ -1312,6 +1312,10 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"Download abgeschlossen! Verwenden Sie 'dnf {command} reboot', um das Upgrade "
+"zu starten.\n"
+"Um zwischengespeicherte Metadaten und Transaktionen zu entfernen, verwenden "
+"Sie 'dnf {command} clean'"
 
 #: plugins/system_upgrade.py:63
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
@@ -1337,7 +1341,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:300
 msgid "-- no logs were found --"
-msgstr ""
+msgstr "-- Keine Logs gefunden --"
 
 #: plugins/system_upgrade.py:315
 msgid "Cannot find logs with this index."
@@ -1354,10 +1358,11 @@ msgstr ""
 #: plugins/system_upgrade.py:361
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
+"installierte Pakete beibehalten, wenn die Fassung der neuen Version älter ist"
 
 #: plugins/system_upgrade.py:365
 msgid "which logs to show"
-msgstr ""
+msgstr "welche Protokolle angezeigt werden sollen"
 
 #: plugins/system_upgrade.py:399
 #, python-brace-format
@@ -1383,10 +1388,13 @@ msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
 msgstr ""
+"Bevor Sie fortfahren, stelle Sie bitte sicher, das alle Aktualisierungen "
+"installiert sind. Dies kann durch den Aufruf von \"dnf --refresh upgrade\" "
+"erfolgen. Wollen Sie fortfahren?"
 
 #: plugins/system_upgrade.py:467
 msgid "Operation aborted."
-msgstr ""
+msgstr "Vorgang abgebrochen."
 
 #: plugins/system_upgrade.py:525
 msgid "system is not ready for upgrade"
@@ -1436,7 +1444,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:621
 msgid "Cleaning up downloaded data..."
-msgstr ""
+msgstr "Heruntergeladene Daten werden bereinigt ..."
 
 #: plugins/system_upgrade.py:651
 msgid ""
@@ -1451,11 +1459,11 @@ msgstr "Falscher Transaktionsstatus: %s"
 
 #: plugins/system_upgrade.py:663
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "Fehler beim Speichern der Transaktion: {}"
 
 #: plugins/system_upgrade.py:685
 msgid "Download finished."
-msgstr ""
+msgstr "Herunterladen abgeschlossen."
 
 #: plugins/system_upgrade.py:688 plugins/system_upgrade.py:689
 msgid "Upgrade complete! Cleaning up and rebooting..."
