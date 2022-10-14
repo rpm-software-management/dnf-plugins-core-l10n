@@ -12,16 +12,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-10 03:25+0000\n"
-"PO-Revision-Date: 2021-08-31 17:04+0000\n"
-"Last-Translator: Alessio <alciregi@posteo.net>\n"
-"Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/it/>\n"
+"PO-Revision-Date: 2022-10-15 08:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
-msgstr ""
+msgstr "PACCHETTO"
 
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:90
 #, python-format
@@ -1269,11 +1269,13 @@ msgstr "Nuovi pacchetti da cui nessun altro dipende:"
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:46
 msgid "the color of the sky"
-msgstr ""
+msgstr "il colore del cielo"
 
 #: plugins/system_upgrade.py:58
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
+"Richiesto un valore di --releasever maggiore della versione attuale del "
+"sistema."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:60
@@ -1285,7 +1287,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:63
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr ""
+msgstr "Bisogna usare l'opzione 'download --releasever' invece di '--network'"
 
 #: plugins/system_upgrade.py:72
 msgid "Reboot turned off, not rebooting."
@@ -1304,14 +1306,16 @@ msgstr ""
 #: plugins/system_upgrade.py:290
 msgid "The following boots appear to contain upgrade logs:"
 msgstr ""
+"I seguenti precedenti avvii del sistema sembrano contenere dei log di "
+"aggiornamenti:"
 
 #: plugins/system_upgrade.py:300
 msgid "-- no logs were found --"
-msgstr ""
+msgstr "-- nessun log è stato trovato --"
 
 #: plugins/system_upgrade.py:315
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Impossibile trovare log con questo indice."
 
 #: plugins/system_upgrade.py:324
 msgid "Unable to match systemd journal entry"
@@ -1319,15 +1323,17 @@ msgstr ""
 
 #: plugins/system_upgrade.py:345
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Prepara il sistema per l'aggiornamento ad una nuova versione"
 
 #: plugins/system_upgrade.py:361
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
+"mantiene i pacchetti installati se le versioni del nuovo rilascio sono più "
+"vecchie"
 
 #: plugins/system_upgrade.py:365
 msgid "which logs to show"
-msgstr ""
+msgstr "quali log mostrare"
 
 #: plugins/system_upgrade.py:399
 #, python-brace-format
@@ -1353,14 +1359,16 @@ msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
 msgstr ""
+"Prima di continuare assicurarsi che il sistema è completamente aggiornato "
+"con \"dnf --refresh upgrade\". Procedere"
 
 #: plugins/system_upgrade.py:467
 msgid "Operation aborted."
-msgstr ""
+msgstr "Operazione annullata."
 
 #: plugins/system_upgrade.py:525
 msgid "system is not ready for upgrade"
-msgstr ""
+msgstr "il sistema non è pronto per gli aggiornamenti"
 
 #: plugins/system_upgrade.py:528
 #, python-brace-format
@@ -1371,7 +1379,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:532
 msgid "upgrade is already scheduled"
-msgstr ""
+msgstr "l'aggiornamento è già pianificato"
 
 #: plugins/system_upgrade.py:538
 msgid "trigger file does not exist. exiting quietly."
@@ -1379,7 +1387,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:541
 msgid "another upgrade tool is running. exiting quietly."
-msgstr ""
+msgstr "un altro strumento di aggiornamento è in esecuzione, uscita silenziosa."
 
 #: plugins/system_upgrade.py:550
 #, python-brace-format
@@ -1388,7 +1396,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:568
 msgid "Rebooting to perform upgrade."
-msgstr ""
+msgstr "Riavvio per effettuare l'aggiornamento."
 
 #: plugins/system_upgrade.py:601
 msgid "Starting offline upgrade. This will take a while."
@@ -1400,11 +1408,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:605
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Avvio dell'aggiornamento del sistema. Ci vorrà un po'."
 
 #: plugins/system_upgrade.py:621
 msgid "Cleaning up downloaded data..."
-msgstr ""
+msgstr "Pulizia dei dati scaricati..."
 
 #: plugins/system_upgrade.py:651
 msgid ""
@@ -1421,11 +1429,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:685
 msgid "Download finished."
-msgstr ""
+msgstr "Scaricamento completato."
 
 #: plugins/system_upgrade.py:688 plugins/system_upgrade.py:689
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr ""
+msgstr "Aggiornamento completato! Pulizia e riavvio in corso..."
 
 #: plugins/system_upgrade.py:698
 msgid "Prepare offline upgrade of the system"
