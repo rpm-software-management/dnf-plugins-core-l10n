@@ -6,16 +6,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-10 03:25+0000\n"
-"PO-Revision-Date: 2022-04-18 16:17+0000\n"
-"Last-Translator: A S Alam <amanpreet.alam@gmail.com>\n"
-"Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/pa/>\n"
+"PO-Revision-Date: 2022-10-15 08:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/pa/>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -112,12 +112,12 @@ msgstr ""
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
-msgstr ""
+msgstr "ਪੈਕੇਜ"
 
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:90
 #, python-format
 msgid "No match for argument: %s"
-msgstr ""
+msgstr "%s: ਨਾਲ ਮਿਲਦਾ ਕੋਈ ਆਰਗੂਮੈਂਟ ਨਹੀਂ"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
@@ -138,7 +138,7 @@ msgstr ""
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
-msgstr ""
+msgstr "{} ਲਈ ਤਬਾਦਲਾ-ਜਾਣਕਾਰੀ"
 
 #: plugins/config_manager.py:38
 #, python-brace-format
@@ -284,7 +284,7 @@ msgstr ""
 
 #: plugins/copr.py:246
 msgid "Too many arguments."
-msgstr ""
+msgstr "ਬਹੁਤ ਵੱਧ ਆਰਗੂਮੈਂਟ।"
 
 #: plugins/copr.py:249
 msgid ""
@@ -369,7 +369,7 @@ msgstr ""
 
 #: plugins/copr.py:437
 msgid "This command has to be run under the root user."
-msgstr ""
+msgstr "ਇਹ ਕਮਾਂਡ ਨੂੰ ਰੂਟ (root) ਵਰਤੋਂਕਾਰ ਵਜੋਂ ਚਲਾਇਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 #: plugins/copr.py:487
 #, python-brace-format
@@ -558,7 +558,7 @@ msgstr ""
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
-msgstr ""
+msgstr "ਮੇਲ ਲੱਭਣ ਲਈ ਅਸਮਰੱਥ"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
@@ -1209,7 +1209,7 @@ msgstr "ਨਵੇਂ ਲੀਵਜ਼:"
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:46
 msgid "the color of the sky"
-msgstr ""
+msgstr "ਅਸਮਾਨ ਦਾ ਰੰਗ"
 
 #: plugins/system_upgrade.py:58
 msgid "Need a --releasever greater than the current system version."
@@ -1247,7 +1247,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:300
 msgid "-- no logs were found --"
-msgstr ""
+msgstr "-- ਕੋਈ ਲਾਗ ਨਹੀਂ ਲੱਭਿਆ --"
 
 #: plugins/system_upgrade.py:315
 msgid "Cannot find logs with this index."
@@ -1259,7 +1259,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:345
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "ਸਿਸਟਮ ਨੂੰ ਨਵੇਂ ਰੀਲਿਜ਼ ਵਾਸਤੇ ਅੱਪਗਰੇਡ ਲਈ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: plugins/system_upgrade.py:361
 msgid "keep installed packages if the new release's version is older"
@@ -1296,11 +1296,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:467
 msgid "Operation aborted."
-msgstr ""
+msgstr "ਕਾਰਵਾਈ ਅਧੂਰੀ ਛੱਡੀ ਗਈ।"
 
 #: plugins/system_upgrade.py:525
 msgid "system is not ready for upgrade"
-msgstr ""
+msgstr "ਸਿਸਟਮ ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਤਿਆਰ ਨਹੀਂ ਹੈ"
 
 #: plugins/system_upgrade.py:528
 #, python-brace-format
@@ -1311,7 +1311,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:532
 msgid "upgrade is already scheduled"
-msgstr ""
+msgstr "ਅੱਪਗਰੇਡ ਲਈ ਪਹਿਲਾਂ ਹੀ ਸਮਾਂ ਤਹਿ ਕੀਤਾ ਗਿਆ"
 
 #: plugins/system_upgrade.py:538
 msgid "trigger file does not exist. exiting quietly."
@@ -1319,7 +1319,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:541
 msgid "another upgrade tool is running. exiting quietly."
-msgstr ""
+msgstr "ਹੋਰ ਅੱਪਗਰੇਡ ਟੂਲ ਚੱਲ ਰਿਹਾ ਹੈ। ਬੰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
 
 #: plugins/system_upgrade.py:550
 #, python-brace-format
@@ -1328,7 +1328,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:568
 msgid "Rebooting to perform upgrade."
-msgstr ""
+msgstr "ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਮੁੜ-ਚਾਲੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
 
 #: plugins/system_upgrade.py:601
 msgid "Starting offline upgrade. This will take a while."
@@ -1340,11 +1340,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:605
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "ਸਿਸਟਮ ਨੂੰ ਅੱਪਗਰੇਡ ਕਰਨਾ ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ। ਇਸ ਨੂੰ ਕੁਝ ਸਮਾਂ ਲੱਗੇਗਾ।"
 
 #: plugins/system_upgrade.py:621
 msgid "Cleaning up downloaded data..."
-msgstr ""
+msgstr "...ਡਾਊਨਲੋਡ ਕੀਤੇ ਡਾਟੇ ਨੂੰ ਸਾਫ਼ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: plugins/system_upgrade.py:651
 msgid ""
@@ -1353,19 +1353,19 @@ msgstr ""
 
 #: plugins/system_upgrade.py:660
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "ਟਰਾਂਸੈਕਸ਼ਨ ਨੂੰ {} ਉੱਤੇ ਸੰਭਾਲਿਆ।"
 
 #: plugins/system_upgrade.py:663
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "ਟਰਾਂਸੈਕਸ਼ਨ ਸੰਭਾਲਣ ਦੌਰਾਨ ਗਲਤੀ: {}"
 
 #: plugins/system_upgrade.py:685
 msgid "Download finished."
-msgstr ""
+msgstr "ਡਾਊਨਲੋਡ ਕਰਨਾ ਪੂਰਾ ਹੋਇਆ।"
 
 #: plugins/system_upgrade.py:688 plugins/system_upgrade.py:689
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr ""
+msgstr "ਅੱਪਗਰੇਡ ਪੂਰਾ ਹੋਇਆ! ਸਾਫ਼ ਕਰਕੇ ਮੁੜ-ਚਾਲੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
 #: plugins/system_upgrade.py:698
 msgid "Prepare offline upgrade of the system"
