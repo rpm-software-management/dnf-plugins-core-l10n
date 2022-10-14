@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-10 03:25+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-10-15 08:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Slovak <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -208,19 +210,19 @@ msgstr ""
 
 #: plugins/copr.py:70
 msgid "y"
-msgstr ""
+msgstr "a"
 
 #: plugins/copr.py:70
 msgid "yes"
-msgstr ""
+msgstr "áno"
 
 #: plugins/copr.py:71
 msgid "n"
-msgstr ""
+msgstr "m"
 
 #: plugins/copr.py:71
 msgid "no"
-msgstr ""
+msgstr "nie"
 
 #: plugins/copr.py:92
 msgid "Interact with Copr repositories."
@@ -287,7 +289,7 @@ msgstr ""
 
 #: plugins/copr.py:246
 msgid "Too many arguments."
-msgstr ""
+msgstr "Príliš veľa parametrov."
 
 #: plugins/copr.py:249
 msgid ""
@@ -561,7 +563,7 @@ msgstr ""
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
-msgstr ""
+msgstr "Nepodarilo sa nájsť zhodu"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
@@ -1292,7 +1294,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:467
 msgid "Operation aborted."
-msgstr ""
+msgstr "Operácia prerušená."
 
 #: plugins/system_upgrade.py:525
 msgid "system is not ready for upgrade"
