@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-10 03:25+0000\n"
-"PO-Revision-Date: 2022-09-11 21:19+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"PO-Revision-Date: 2022-10-15 08:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ka/>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1295,7 +1295,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:467
 msgid "Operation aborted."
-msgstr ""
+msgstr "ოპერაცია შეწყდა."
 
 #: plugins/system_upgrade.py:525
 msgid "system is not ready for upgrade"
@@ -1352,11 +1352,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:660
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "ტრანზაქცია შენახულია {}-ში."
 
 #: plugins/system_upgrade.py:663
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "ტრანზაქციის შენახვის შეცდომა: {}"
 
 #: plugins/system_upgrade.py:685
 msgid "Download finished."
