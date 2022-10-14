@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-10 03:25+0000\n"
-"PO-Revision-Date: 2022-01-27 19:16+0000\n"
-"Last-Translator: Valentin Laskov <v_laskov@mail.bg>\n"
+"PO-Revision-Date: 2022-10-15 08:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bulgarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/bg/>\n"
 "Language: bg\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -119,7 +119,7 @@ msgstr ""
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
-msgstr ""
+msgstr "ПАКЕТ"
 
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:90
 #, python-format
@@ -214,11 +214,11 @@ msgstr ""
 
 #: plugins/copr.py:70
 msgid "y"
-msgstr ""
+msgstr "Д"
 
 #: plugins/copr.py:70
 msgid "yes"
-msgstr ""
+msgstr "да"
 
 #: plugins/copr.py:71
 msgid "n"
@@ -226,7 +226,7 @@ msgstr ""
 
 #: plugins/copr.py:71
 msgid "no"
-msgstr ""
+msgstr "не"
 
 #: plugins/copr.py:92
 msgid "Interact with Copr repositories."
@@ -567,7 +567,7 @@ msgstr ""
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
-msgstr ""
+msgstr "Не може да бъде намерен съвпадащ"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
@@ -633,7 +633,7 @@ msgstr ""
 #: plugins/download.py:296 plugins/download.py:309
 #, python-format
 msgid "No package %s available."
-msgstr ""
+msgstr "Няма наличен пакет %s ."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
@@ -1297,7 +1297,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:467
 msgid "Operation aborted."
-msgstr ""
+msgstr "Операцията е прекратена."
 
 #: plugins/system_upgrade.py:525
 msgid "system is not ready for upgrade"
