@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-10 03:25+0000\n"
+"POT-Creation-Date: 2022-10-15 03:28+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -1326,8 +1326,9 @@ msgstr "空の色"
 
 #: plugins/system_upgrade.py:58
 msgid "Need a --releasever greater than the current system version."
-msgstr "--releasever "
-"は、現在のシステムのバージョン番号よりも大きくなければなりません。"
+msgstr ""
+"--releasever は、現在のシステムのバージョン番号よりも大きくなければなりませ"
+"ん。"
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:60
@@ -1336,15 +1337,16 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
-"ダウンロード完了! アップグレード開始には 'dnf {command} reboot' "
-"を使ってください。\n"
-"キャッシュされた metadata と transaction の削除には 'dnf {command} clean' "
-"を使ってください"
+"ダウンロード完了! アップグレード開始には 'dnf {command} reboot' を使ってくだ"
+"さい。\n"
+"キャッシュされた metadata と transaction の削除には 'dnf {command} clean' を"
+"使ってください"
 
 #: plugins/system_upgrade.py:63
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr "すみませんが '--network' の代わりに 'download --releasever' "
-"を使う必要があります"
+msgstr ""
+"すみませんが '--network' の代わりに 'download --releasever' を使う必要があり"
+"ます"
 
 #: plugins/system_upgrade.py:72
 msgid "Reboot turned off, not rebooting."
@@ -1382,7 +1384,8 @@ msgstr "システムに新リリースにアップグレードするための準
 
 #: plugins/system_upgrade.py:361
 msgid "keep installed packages if the new release's version is older"
-msgstr "新しいリリースバージョンがインストール済パッケージより古い場合は維持する"
+msgstr ""
+"新しいリリースバージョンがインストール済パッケージより古い場合は維持する"
 
 #: plugins/system_upgrade.py:365
 msgid "which logs to show"
@@ -1391,12 +1394,14 @@ msgstr "どのログを表示"
 #: plugins/system_upgrade.py:399
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
-msgstr "データの非互換バージョン。 'dnf {command} download [OPTIONS]' "
-"を再実行してください"
+msgstr ""
+"データの非互換バージョン。 'dnf {command} download [OPTIONS]' を再実行してく"
+"ださい"
 
 #: plugins/system_upgrade.py:435
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
-msgstr "コマンド 'offline-distrosync' は --no-downgrade オプションと使用できません"
+msgstr ""
+"コマンド 'offline-distrosync' は --no-downgrade オプションと使用できません"
 
 #: plugins/system_upgrade.py:456
 msgid ""

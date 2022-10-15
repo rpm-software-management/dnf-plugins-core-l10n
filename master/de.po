@@ -13,11 +13,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-10 03:25+0000\n"
+"POT-Creation-Date: 2022-10-15 03:28+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/de/>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1303,7 +1303,8 @@ msgstr "die Farbe des Himmels"
 
 #: plugins/system_upgrade.py:58
 msgid "Need a --releasever greater than the current system version."
-msgstr "Es wird eine höhere --releasever benötigt als die installierte Version."
+msgstr ""
+"Es wird eine höhere --releasever benötigt als die installierte Version."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:60
