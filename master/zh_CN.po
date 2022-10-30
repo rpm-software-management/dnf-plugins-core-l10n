@@ -8,13 +8,14 @@
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
 # Transtats <suanand@redhat.com>, 2022.
 # Yang Yulin <yylteam@icloud.com>, 2022.
+# Jingge Chen <mariocanfly@hotmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-15 03:28+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-10-31 06:19+0000\n"
+"Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -1296,7 +1297,7 @@ msgstr "很抱歉，您需要使用 'download --releasever' 代替 '--network' �
 
 #: plugins/system_upgrade.py:72
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "重启功能已被关闭，无法重启。"
 
 #: plugins/system_upgrade.py:123
 #, python-format
@@ -1349,7 +1350,7 @@ msgstr "命令 'offline-distrosync' 不能与 --no-downgrade 选项同时使用"
 msgid ""
 "WARNING: this operation is not supported on the RHEL distribution. Proceed "
 "at your own risk."
-msgstr ""
+msgstr "警告：RHEL发行版不支持此操作。请自行承担风险。"
 
 #: plugins/system_upgrade.py:460
 msgid "Additional information for System Upgrade: {}"
@@ -1381,10 +1382,8 @@ msgstr ""
 "[OPTIONS]'"
 
 #: plugins/system_upgrade.py:532
-#, fuzzy
-#| msgid "Package {} is already excluded"
 msgid "upgrade is already scheduled"
-msgstr "软件包 {} 已被排除"
+msgstr "已计划更新。"
 
 #: plugins/system_upgrade.py:538
 msgid "trigger file does not exist. exiting quietly."
@@ -1422,13 +1421,11 @@ msgstr "正在清理已下载的数据…"
 #: plugins/system_upgrade.py:651
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "系统升级事务为空，您的系统已经是最新的。"
 
 #: plugins/system_upgrade.py:660
-#, fuzzy
-#| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
-msgstr "错误的事务状态： %s"
+msgstr "事务保存为 {}."
 
 #: plugins/system_upgrade.py:663
 msgid "Error storing transaction: {}"
