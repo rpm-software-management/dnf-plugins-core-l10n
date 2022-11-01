@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-31 03:09+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/sv/>\n"
+"PO-Revision-Date: 2022-11-02 16:19+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1390,6 +1390,8 @@ msgid ""
 "WARNING: this operation is not supported on the RHEL distribution. Proceed "
 "at your own risk."
 msgstr ""
+"VARNING: denna operation stöds inte på RHEL-distributionen. Fortsätt på egen "
+"risk."
 
 #: plugins/system_upgrade.py:460
 msgid "Additional information for System Upgrade: {}"
@@ -1421,10 +1423,8 @@ msgstr ""
 "download [FLAGGOR]”"
 
 #: plugins/system_upgrade.py:532
-#, fuzzy
-#| msgid "Package {} is already excluded"
 msgid "upgrade is already scheduled"
-msgstr "Paketet {} är redan uteslutet"
+msgstr "uppgraderingen är redan schemalagd"
 
 #: plugins/system_upgrade.py:538
 msgid "trigger file does not exist. exiting quietly."
@@ -1463,12 +1463,11 @@ msgstr "Rensar upp hämtade data …"
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
+"Systemuppgraderingstransaktionen är tom, ditt system är redan uppdaterat."
 
 #: plugins/system_upgrade.py:660
-#, fuzzy
-#| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
-msgstr "Felaktigt transaktionstillstånd: %s"
+msgstr "Transaktion sparad till {}."
 
 #: plugins/system_upgrade.py:663
 msgid "Error storing transaction: {}"
