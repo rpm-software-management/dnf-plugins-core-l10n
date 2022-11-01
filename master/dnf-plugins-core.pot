@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-31 03:09+0000\n"
+"POT-Creation-Date: 2022-11-01 03:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1293,80 +1293,80 @@ msgstr ""
 msgid "Operation aborted."
 msgstr ""
 
-#: plugins/system_upgrade.py:525
+#: plugins/system_upgrade.py:528
 msgid "system is not ready for upgrade"
 msgstr ""
 
-#: plugins/system_upgrade.py:528
+#: plugins/system_upgrade.py:531
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
 
-#: plugins/system_upgrade.py:532
+#: plugins/system_upgrade.py:535
 msgid "upgrade is already scheduled"
 msgstr ""
 
-#: plugins/system_upgrade.py:538
+#: plugins/system_upgrade.py:541
 msgid "trigger file does not exist. exiting quietly."
 msgstr ""
 
-#: plugins/system_upgrade.py:541
+#: plugins/system_upgrade.py:544
 msgid "another upgrade tool is running. exiting quietly."
 msgstr ""
 
-#: plugins/system_upgrade.py:550
+#: plugins/system_upgrade.py:553
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr ""
 
-#: plugins/system_upgrade.py:568
+#: plugins/system_upgrade.py:571
 msgid "Rebooting to perform upgrade."
 msgstr ""
 
-#: plugins/system_upgrade.py:601
+#: plugins/system_upgrade.py:604
 msgid "Starting offline upgrade. This will take a while."
 msgstr ""
 
-#: plugins/system_upgrade.py:603
+#: plugins/system_upgrade.py:606
 msgid "Starting offline distrosync. This will take a while."
 msgstr ""
 
-#: plugins/system_upgrade.py:605
+#: plugins/system_upgrade.py:608
 msgid "Starting system upgrade. This will take a while."
 msgstr ""
 
-#: plugins/system_upgrade.py:621
+#: plugins/system_upgrade.py:624
 msgid "Cleaning up downloaded data..."
 msgstr ""
 
-#: plugins/system_upgrade.py:651
+#: plugins/system_upgrade.py:654
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
 
-#: plugins/system_upgrade.py:660
+#: plugins/system_upgrade.py:663
 msgid "Transaction saved to {}."
 msgstr ""
 
-#: plugins/system_upgrade.py:663
+#: plugins/system_upgrade.py:666
 msgid "Error storing transaction: {}"
 msgstr ""
 
-#: plugins/system_upgrade.py:685
+#: plugins/system_upgrade.py:688
 msgid "Download finished."
 msgstr ""
 
-#: plugins/system_upgrade.py:688 plugins/system_upgrade.py:689
+#: plugins/system_upgrade.py:691 plugins/system_upgrade.py:692
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr ""
 
-#: plugins/system_upgrade.py:698
+#: plugins/system_upgrade.py:701
 msgid "Prepare offline upgrade of the system"
 msgstr ""
 
-#: plugins/system_upgrade.py:703
+#: plugins/system_upgrade.py:706
 msgid "Prepare offline distrosync of the system"
 msgstr ""
 
