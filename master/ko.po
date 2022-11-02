@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-31 03:09+0000\n"
+"POT-Creation-Date: 2022-11-02 03:11+0000\n"
 "PO-Revision-Date: 2022-10-07 14:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1396,11 +1396,11 @@ msgstr ""
 msgid "Operation aborted."
 msgstr "작업이 중지됩니다."
 
-#: plugins/system_upgrade.py:525
+#: plugins/system_upgrade.py:528
 msgid "system is not ready for upgrade"
 msgstr "시스템이 향상을 위해 준비되지 않았습니다"
 
-#: plugins/system_upgrade.py:528
+#: plugins/system_upgrade.py:531
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -1409,69 +1409,69 @@ msgstr ""
 "연결이 '{command}'을 위해 준비되지 않았습니다. 'dnf {command} download "
 "[OPTIONS]'을 되돌립니다"
 
-#: plugins/system_upgrade.py:532
+#: plugins/system_upgrade.py:535
 msgid "upgrade is already scheduled"
 msgstr "향상이 이미 계획되어 있습니다"
 
-#: plugins/system_upgrade.py:538
+#: plugins/system_upgrade.py:541
 msgid "trigger file does not exist. exiting quietly."
 msgstr "트리거 파일이 존재하지 않습니다. 바로 종료하기."
 
-#: plugins/system_upgrade.py:541
+#: plugins/system_upgrade.py:544
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "다른 향상 도구가 동작 중입니다. 바로 종료하기."
 
-#: plugins/system_upgrade.py:550
+#: plugins/system_upgrade.py:553
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "'dnf {command} reboot' 사용하여 향상을 시작합니다"
 
-#: plugins/system_upgrade.py:568
+#: plugins/system_upgrade.py:571
 msgid "Rebooting to perform upgrade."
 msgstr "향상을 수행하기 위해서 재시작 중."
 
-#: plugins/system_upgrade.py:601
+#: plugins/system_upgrade.py:604
 msgid "Starting offline upgrade. This will take a while."
 msgstr "오프라인 향상 시작하기. 이는 시간이 좀 걸립니다."
 
-#: plugins/system_upgrade.py:603
+#: plugins/system_upgrade.py:606
 msgid "Starting offline distrosync. This will take a while."
 msgstr "오프라인 distrosync 시작 중. 이는 시간이 좀 걸립니다."
 
-#: plugins/system_upgrade.py:605
+#: plugins/system_upgrade.py:608
 msgid "Starting system upgrade. This will take a while."
 msgstr "시스템 향상이 시작 중. 이는 시간이 좀 걸립니다."
 
-#: plugins/system_upgrade.py:621
+#: plugins/system_upgrade.py:624
 msgid "Cleaning up downloaded data..."
 msgstr "내려받기된 자료를 정리 중..."
 
-#: plugins/system_upgrade.py:651
+#: plugins/system_upgrade.py:654
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr "시스템-향상 연결이 비워 있으며, 시스템은 이미 최신화 되었습니다."
 
-#: plugins/system_upgrade.py:660
+#: plugins/system_upgrade.py:663
 msgid "Transaction saved to {}."
 msgstr "연결이 {}에 저장되었습니다."
 
-#: plugins/system_upgrade.py:663
+#: plugins/system_upgrade.py:666
 msgid "Error storing transaction: {}"
 msgstr "저장 중 연결 오류: {}"
 
-#: plugins/system_upgrade.py:685
+#: plugins/system_upgrade.py:688
 msgid "Download finished."
 msgstr "내려받기 완료됨."
 
-#: plugins/system_upgrade.py:688 plugins/system_upgrade.py:689
+#: plugins/system_upgrade.py:691 plugins/system_upgrade.py:692
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "향상 성공! 정리하고 재시작..."
 
-#: plugins/system_upgrade.py:698
+#: plugins/system_upgrade.py:701
 msgid "Prepare offline upgrade of the system"
 msgstr "시스템의 오프라인 향상을 준비합니다"
 
-#: plugins/system_upgrade.py:703
+#: plugins/system_upgrade.py:706
 msgid "Prepare offline distrosync of the system"
 msgstr "시스템의 오프라인 distrosync를 준비합니다"
 
