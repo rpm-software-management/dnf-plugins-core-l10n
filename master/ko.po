@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-07 02:49+0000\n"
-"PO-Revision-Date: 2022-10-07 14:19+0000\n"
+"PO-Revision-Date: 2022-11-17 03:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -719,7 +719,7 @@ msgstr ""
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
-msgstr "그룹 메타데이타 파일 생성하고 수정합니다"
+msgstr "그룹 메타자료 파일을 생성하고 수정합니다"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
@@ -735,7 +735,7 @@ msgstr "그룹 메타파일을 파일에 적재하고 저장합니다"
 
 #: plugins/groups_manager.py:97
 msgid "print the result metadata to stdout"
-msgstr "결과 메타데이타를 표준출력으로 출력한다"
+msgstr "결과 메타자료를 표준출력에 출력합니다"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
@@ -1210,7 +1210,7 @@ msgstr "저장소에 더 이상 존재하지 않는 로컬 꾸러미(package) �
 
 #: plugins/reposync.py:68
 msgid "download all the metadata."
-msgstr "모든 메타데이타 내려받기."
+msgstr "모든 메타자료 내려받기."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
@@ -1224,9 +1224,8 @@ msgstr "또한 comps.xml 내려받기와 압축 풀기"
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
-msgstr ""
-"내려받은 저장소 메타데이타를 저장하기 위한 장소. --download-path의 값으로 기"
-"본 지정합니다."
+msgstr "내려받은 저장소 메타자료를 저장하기 위한 장소. --download-path의 값으로 기본 "
+"지정합니다."
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
@@ -1259,7 +1258,7 @@ msgstr "다중 저장소와 함께 --norepath를 사용 할 수 없습니다"
 #: plugins/reposync.py:132
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr "메타데이타에 대한 연결주소 얻기를 실패하였습니다:%s"
+msgstr "메타자료에 대한 연결주소 얻기를 실패하였습니다:%s"
 
 #: plugins/reposync.py:149
 msgid "Failed to get mirror for the group file."
