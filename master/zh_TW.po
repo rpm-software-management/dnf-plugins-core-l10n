@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-17 02:33+0000\n"
+"POT-Creation-Date: 2022-12-02 02:11+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -900,47 +900,47 @@ msgstr "引數不符：%s"
 msgid "Unable to satisfy require {}"
 msgstr ""
 
-#: plugins/needs_restarting.py:66
+#: plugins/needs_restarting.py:67
 #, fuzzy, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr "未安裝 \"{file}\" 需要重新啟動檔案中指定的 \"{pkg}\" 軟體包。"
 
-#: plugins/needs_restarting.py:220
+#: plugins/needs_restarting.py:242
 msgid "determine updated binaries that need restarting"
 msgstr "決定需要重新啟動的已更新二進位檔"
 
-#: plugins/needs_restarting.py:225
+#: plugins/needs_restarting.py:247
 msgid "only consider this user's processes"
 msgstr "只考慮此位使用者的處理程序"
 
-#: plugins/needs_restarting.py:227
+#: plugins/needs_restarting.py:249
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr "只回報是（錯誤碼 1）否（錯誤碼 0）需要重新啟動"
 
-#: plugins/needs_restarting.py:230
+#: plugins/needs_restarting.py:252
 msgid "only report affected systemd services"
 msgstr ""
 
-#: plugins/needs_restarting.py:253
+#: plugins/needs_restarting.py:275
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "開機後更新過的核心函式庫或服務："
 
-#: plugins/needs_restarting.py:258
+#: plugins/needs_restarting.py:280
 msgid "Reboot is required to fully utilize these updates."
 msgstr "需要重新啟動，才可以完全套用這些更新。"
 
-#: plugins/needs_restarting.py:259
+#: plugins/needs_restarting.py:281
 msgid "More information:"
 msgstr "更多資訊："
 
-#: plugins/needs_restarting.py:263
+#: plugins/needs_restarting.py:285
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "開機後沒有更新過的核心函式庫或服務。"
 
-#: plugins/needs_restarting.py:265
+#: plugins/needs_restarting.py:287
 msgid "Reboot should not be necessary."
 msgstr "應不需要重新啟動。"
 
@@ -1316,64 +1316,68 @@ msgstr "抱歉，您需要使用「download --releasever」取代「network」"
 msgid "Reboot turned off, not rebooting."
 msgstr ""
 
-#: plugins/system_upgrade.py:123
+#: plugins/system_upgrade.py:126
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr "無法停用螢幕轉黑：%s"
 
-#: plugins/system_upgrade.py:143
+#: plugins/system_upgrade.py:146
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr "無法載入狀態檔案：%s，以空白狀態繼續。"
 
-#: plugins/system_upgrade.py:290
+#: plugins/system_upgrade.py:294
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "以下的開機引導包含了升級記錄："
 
-#: plugins/system_upgrade.py:300
+#: plugins/system_upgrade.py:304
 msgid "-- no logs were found --"
 msgstr "-- 找不到記錄檔案 --"
 
-#: plugins/system_upgrade.py:315
+#: plugins/system_upgrade.py:319
 msgid "Cannot find logs with this index."
 msgstr "無法透過這個索引找到記錄檔案"
 
-#: plugins/system_upgrade.py:324
+#: plugins/system_upgrade.py:328
 msgid "Unable to match systemd journal entry"
 msgstr "無法符合 systemd 的記錄檔項目"
 
-#: plugins/system_upgrade.py:345
+#: plugins/system_upgrade.py:349
 msgid "Prepare system for upgrade to a new release"
 msgstr "準備系統以升級至新的發行版本"
 
-#: plugins/system_upgrade.py:361
+#: plugins/system_upgrade.py:365
 msgid "keep installed packages if the new release's version is older"
 msgstr "假如新的釋出版本比較舊，保留已安裝的軟體包。"
 
-#: plugins/system_upgrade.py:365
+#: plugins/system_upgrade.py:369
+msgid "power off system after the operation is completed"
+msgstr ""
+
+#: plugins/system_upgrade.py:373
 msgid "which logs to show"
 msgstr "要顯示哪個記錄檔"
 
-#: plugins/system_upgrade.py:399
+#: plugins/system_upgrade.py:407
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr "資料版本不相容。請重新執行「dnf {command} download [OPTIONS]」"
 
-#: plugins/system_upgrade.py:435
+#: plugins/system_upgrade.py:443
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr "「offline-distrosync」命令不可與 --no-downgrade 選項配合使用"
 
-#: plugins/system_upgrade.py:456
+#: plugins/system_upgrade.py:464
 msgid ""
 "WARNING: this operation is not supported on the RHEL distribution. Proceed "
 "at your own risk."
 msgstr ""
 
-#: plugins/system_upgrade.py:460
+#: plugins/system_upgrade.py:468
 msgid "Additional information for System Upgrade: {}"
 msgstr "系統升級的額外資訊：{}"
 
-#: plugins/system_upgrade.py:463
+#: plugins/system_upgrade.py:471
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -1381,15 +1385,15 @@ msgstr ""
 "在您繼續前，請確保您的系統已經透過執行「dnf --refresh upgrade」完全升級。想要"
 "繼續嗎？"
 
-#: plugins/system_upgrade.py:467
+#: plugins/system_upgrade.py:475
 msgid "Operation aborted."
 msgstr "取消作業。"
 
-#: plugins/system_upgrade.py:528
+#: plugins/system_upgrade.py:536
 msgid "system is not ready for upgrade"
 msgstr "系統尚未準備好升級"
 
-#: plugins/system_upgrade.py:531
+#: plugins/system_upgrade.py:539
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -1398,73 +1402,75 @@ msgstr ""
 "未準備好「{command}」的處理事項。請重新執行「dnf {command} download "
 "[OPTIONS]」"
 
-#: plugins/system_upgrade.py:535
+#: plugins/system_upgrade.py:543
 #, fuzzy
 #| msgid "Package {} is already excluded"
 msgid "upgrade is already scheduled"
 msgstr "已排除 {} 軟體包"
 
-#: plugins/system_upgrade.py:541
+#: plugins/system_upgrade.py:549
 msgid "trigger file does not exist. exiting quietly."
 msgstr "觸發檔案不存在。安靜離開。"
 
-#: plugins/system_upgrade.py:544
+#: plugins/system_upgrade.py:552
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "另外一個升級工具正在執行中。安靜離開。"
 
-#: plugins/system_upgrade.py:553
+#: plugins/system_upgrade.py:561
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "請使用「dnf {command} reboot」開始升級"
 
-#: plugins/system_upgrade.py:571
+#: plugins/system_upgrade.py:581
 msgid "Rebooting to perform upgrade."
 msgstr "重新開機以執行升級。"
 
-#: plugins/system_upgrade.py:604
+#: plugins/system_upgrade.py:617
 msgid "Starting offline upgrade. This will take a while."
 msgstr "開始系統升級。這需要一段時間。"
 
-#: plugins/system_upgrade.py:606
+#: plugins/system_upgrade.py:619
 msgid "Starting offline distrosync. This will take a while."
 msgstr "開始離線 distrosync。這需要一段時間。"
 
-#: plugins/system_upgrade.py:608
+#: plugins/system_upgrade.py:621
 msgid "Starting system upgrade. This will take a while."
 msgstr "開始系統升級。這需要一段時間。"
 
-#: plugins/system_upgrade.py:624
+#: plugins/system_upgrade.py:637
 msgid "Cleaning up downloaded data..."
 msgstr "正在清理已下載的資料…"
 
-#: plugins/system_upgrade.py:654
+#: plugins/system_upgrade.py:667
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
 
-#: plugins/system_upgrade.py:663
+#: plugins/system_upgrade.py:676
 #, fuzzy
 #| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
 msgstr "無效的處理事項狀態：%s"
 
-#: plugins/system_upgrade.py:666
+#: plugins/system_upgrade.py:679
 msgid "Error storing transaction: {}"
 msgstr ""
 
-#: plugins/system_upgrade.py:688
+#: plugins/system_upgrade.py:701
 msgid "Download finished."
 msgstr "下載完成。"
 
-#: plugins/system_upgrade.py:691 plugins/system_upgrade.py:692
-msgid "Upgrade complete! Cleaning up and rebooting..."
+#: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
+#, fuzzy
+#| msgid "Upgrade complete! Cleaning up and rebooting..."
+msgid "Upgrade complete! Cleaning up and "
 msgstr "升級完成！正在清理並重新啟動…"
 
-#: plugins/system_upgrade.py:701
+#: plugins/system_upgrade.py:717
 msgid "Prepare offline upgrade of the system"
 msgstr "準備系統的離線更新"
 
-#: plugins/system_upgrade.py:706
+#: plugins/system_upgrade.py:722
 msgid "Prepare offline distrosync of the system"
 msgstr "準備系統的離線 distrosync"
 
