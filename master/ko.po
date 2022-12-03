@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-02 02:11+0000\n"
-"PO-Revision-Date: 2022-11-17 03:19+0000\n"
+"PO-Revision-Date: 2022-12-05 14:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1360,7 +1360,7 @@ msgstr "만약 신규 출시의 버전이 오래되었으면 설치된 꾸러미
 
 #: plugins/system_upgrade.py:369
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "동작이 완료된 후에 시스템 전원 종료"
 
 #: plugins/system_upgrade.py:373
 msgid "which logs to show"
@@ -1468,10 +1468,8 @@ msgid "Download finished."
 msgstr "내려받기 완료됨."
 
 #: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and "
-msgstr "향상 성공! 정리하고 재시작..."
+msgstr "향상 성공! 정리하고 "
 
 #: plugins/system_upgrade.py:717
 msgid "Prepare offline upgrade of the system"
