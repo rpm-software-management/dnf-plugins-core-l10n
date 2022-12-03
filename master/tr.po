@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-02 02:11+0000\n"
-"PO-Revision-Date: 2022-10-07 14:19+0000\n"
+"PO-Revision-Date: 2022-12-05 14:19+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1388,7 +1388,7 @@ msgstr "yükseltilen sistemdeki sürüm eskiyse mevcut kurulu paketleri tut"
 
 #: plugins/system_upgrade.py:369
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "işlem tamamlandıktan sonra sistemi kapat"
 
 #: plugins/system_upgrade.py:373
 msgid "which logs to show"
@@ -1499,10 +1499,8 @@ msgid "Download finished."
 msgstr "İndirme tamamlandı."
 
 #: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and "
-msgstr "Yükseltme tamamlandı! Temizlik yapılıyor ve yeniden başlatılıyor..."
+msgstr "Yükseltme tamamlandı! Temizlik yapılıyor ve "
 
 #: plugins/system_upgrade.py:717
 msgid "Prepare offline upgrade of the system"
