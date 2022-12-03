@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-02 02:11+0000\n"
-"PO-Revision-Date: 2022-10-07 14:19+0000\n"
+"PO-Revision-Date: 2022-12-05 14:19+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1398,7 +1398,7 @@ msgstr "зберігати встановлені пакунки, якщо ве�
 
 #: plugins/system_upgrade.py:369
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "вимкнути систему після завершення виконання дії"
 
 #: plugins/system_upgrade.py:373
 msgid "which logs to show"
@@ -1515,10 +1515,8 @@ msgid "Download finished."
 msgstr "Отримання даних завершено."
 
 #: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and "
-msgstr "Оновлення завершено! Вилучаємо зайві дані і перезавантажуємо системи…"
+msgstr "Оновлення завершено! Вилучаємо зайві дані і "
 
 #: plugins/system_upgrade.py:717
 msgid "Prepare offline upgrade of the system"
