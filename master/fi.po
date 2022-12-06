@@ -1,6 +1,6 @@
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020, 2022.
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020, 2022.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022.
 msgid ""
@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-05 02:08+0000\n"
-"PO-Revision-Date: 2022-10-10 17:19+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fi/>\n"
+"PO-Revision-Date: 2022-12-07 16:19+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1390,7 +1390,7 @@ msgstr "säilytä asennetut paketit, jos uuden version versio on vanhempi"
 
 #: plugins/system_upgrade.py:369
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "sammuta järjestelmä kun toimenpide valmistuu"
 
 #: plugins/system_upgrade.py:373
 msgid "which logs to show"
@@ -1501,10 +1501,8 @@ msgid "Download finished."
 msgstr "Lataus valmistui."
 
 #: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and "
-msgstr "Järjestelmäpäivitys valmistui! Siivotaan ja käynnistetään uudelleen..."
+msgstr "Järjestelmäpäivitys valmistui! Siivotaan ja "
 
 #: plugins/system_upgrade.py:717
 msgid "Prepare offline upgrade of the system"
