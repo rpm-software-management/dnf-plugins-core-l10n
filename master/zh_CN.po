@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-12 02:11+0000\n"
-"PO-Revision-Date: 2022-12-12 03:19+0000\n"
+"PO-Revision-Date: 2022-12-19 02:20+0000\n"
 "Last-Translator: Yang Yulin <yylteam@icloud.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_CN/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1387,7 +1387,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:543
 msgid "upgrade is already scheduled"
-msgstr "已计划更新。"
+msgstr "已计划升级"
 
 #: plugins/system_upgrade.py:549
 msgid "trigger file does not exist. exiting quietly."
