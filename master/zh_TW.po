@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 02:11+0000\n"
+"POT-Creation-Date: 2022-12-19 01:59+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -1460,17 +1460,23 @@ msgstr ""
 msgid "Download finished."
 msgstr "下載完成。"
 
-#: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
+#: plugins/system_upgrade.py:705
 #, fuzzy
 #| msgid "Upgrade complete! Cleaning up and rebooting..."
-msgid "Upgrade complete! Cleaning up and "
+msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr "升級完成！正在清理並重新啟動…"
 
-#: plugins/system_upgrade.py:717
+#: plugins/system_upgrade.py:707
+#, fuzzy
+#| msgid "Upgrade complete! Cleaning up and rebooting..."
+msgid "Upgrade complete! Cleaning up and rebooting..."
+msgstr "升級完成！正在清理並重新啟動…"
+
+#: plugins/system_upgrade.py:719
 msgid "Prepare offline upgrade of the system"
 msgstr "準備系統的離線更新"
 
-#: plugins/system_upgrade.py:722
+#: plugins/system_upgrade.py:724
 msgid "Prepare offline distrosync of the system"
 msgstr "準備系統的離線 distrosync"
 

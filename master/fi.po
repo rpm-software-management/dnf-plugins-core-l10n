@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 02:11+0000\n"
+"POT-Creation-Date: 2022-12-19 01:59+0000\n"
 "PO-Revision-Date: 2022-12-07 16:19+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1500,15 +1500,23 @@ msgstr "Transaktion tallennuksessa tapahtui virhe: {}"
 msgid "Download finished."
 msgstr "Lataus valmistui."
 
-#: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
-msgid "Upgrade complete! Cleaning up and "
+#: plugins/system_upgrade.py:705
+#, fuzzy
+#| msgid "Upgrade complete! Cleaning up and "
+msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr "Järjestelmäpäivitys valmistui! Siivotaan ja "
 
-#: plugins/system_upgrade.py:717
+#: plugins/system_upgrade.py:707
+#, fuzzy
+#| msgid "Upgrade complete! Cleaning up and "
+msgid "Upgrade complete! Cleaning up and rebooting..."
+msgstr "Järjestelmäpäivitys valmistui! Siivotaan ja "
+
+#: plugins/system_upgrade.py:719
 msgid "Prepare offline upgrade of the system"
 msgstr "Valmista järjestelmän offline-verkkopäivitys"
 
-#: plugins/system_upgrade.py:722
+#: plugins/system_upgrade.py:724
 msgid "Prepare offline distrosync of the system"
 msgstr "Valmista järjestelmän offline-jakelusynkronointi"
 

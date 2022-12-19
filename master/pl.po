@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 02:11+0000\n"
+"POT-Creation-Date: 2022-12-19 01:59+0000\n"
 "PO-Revision-Date: 2022-12-05 14:19+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1516,15 +1516,23 @@ msgstr "Błąd podczas przechowywania transakcji: {}"
 msgid "Download finished."
 msgstr "Ukończono pobieranie."
 
-#: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
-msgid "Upgrade complete! Cleaning up and "
+#: plugins/system_upgrade.py:705
+#, fuzzy
+#| msgid "Upgrade complete! Cleaning up and "
+msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr "Ukończono aktualizację systemu. Czyszczenie i "
 
-#: plugins/system_upgrade.py:717
+#: plugins/system_upgrade.py:707
+#, fuzzy
+#| msgid "Upgrade complete! Cleaning up and "
+msgid "Upgrade complete! Cleaning up and rebooting..."
+msgstr "Ukończono aktualizację systemu. Czyszczenie i "
+
+#: plugins/system_upgrade.py:719
 msgid "Prepare offline upgrade of the system"
 msgstr "Przygotowuje aktualizację systemu w trybie offline"
 
-#: plugins/system_upgrade.py:722
+#: plugins/system_upgrade.py:724
 msgid "Prepare offline distrosync of the system"
 msgstr "Przygotowuje synchronizację dystrybucji w trybie offline"
 

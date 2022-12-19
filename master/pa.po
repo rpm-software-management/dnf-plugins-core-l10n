@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 02:11+0000\n"
+"POT-Creation-Date: 2022-12-19 01:59+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1367,17 +1367,23 @@ msgstr "ਟਰਾਂਸੈਕਸ਼ਨ ਸੰਭਾਲਣ ਦੌਰਾਨ ਗਲ
 msgid "Download finished."
 msgstr "ਡਾਊਨਲੋਡ ਕਰਨਾ ਪੂਰਾ ਹੋਇਆ।"
 
-#: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
+#: plugins/system_upgrade.py:705
 #, fuzzy
 #| msgid "Upgrade complete! Cleaning up and rebooting..."
-msgid "Upgrade complete! Cleaning up and "
+msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr "ਅੱਪਗਰੇਡ ਪੂਰਾ ਹੋਇਆ! ਸਾਫ਼ ਕਰਕੇ ਮੁੜ-ਚਾਲੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
-#: plugins/system_upgrade.py:717
+#: plugins/system_upgrade.py:707
+#, fuzzy
+#| msgid "Upgrade complete! Cleaning up and rebooting..."
+msgid "Upgrade complete! Cleaning up and rebooting..."
+msgstr "ਅੱਪਗਰੇਡ ਪੂਰਾ ਹੋਇਆ! ਸਾਫ਼ ਕਰਕੇ ਮੁੜ-ਚਾਲੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
+
+#: plugins/system_upgrade.py:719
 msgid "Prepare offline upgrade of the system"
 msgstr ""
 
-#: plugins/system_upgrade.py:722
+#: plugins/system_upgrade.py:724
 msgid "Prepare offline distrosync of the system"
 msgstr ""
 

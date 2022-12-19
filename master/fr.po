@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 02:11+0000\n"
+"POT-Creation-Date: 2022-12-19 01:59+0000\n"
 "PO-Revision-Date: 2022-11-07 08:19+0000\n"
 "Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1531,17 +1531,23 @@ msgstr "Erreur lors du stockage de la transaction : {}"
 msgid "Download finished."
 msgstr "Téléchargement terminé."
 
-#: plugins/system_upgrade.py:706 plugins/system_upgrade.py:707
+#: plugins/system_upgrade.py:705
 #, fuzzy
 #| msgid "Upgrade complete! Cleaning up and rebooting..."
-msgid "Upgrade complete! Cleaning up and "
+msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr "Mise à niveau effectuée ! Nettoyage et redémarrage en cours …"
 
-#: plugins/system_upgrade.py:717
+#: plugins/system_upgrade.py:707
+#, fuzzy
+#| msgid "Upgrade complete! Cleaning up and rebooting..."
+msgid "Upgrade complete! Cleaning up and rebooting..."
+msgstr "Mise à niveau effectuée ! Nettoyage et redémarrage en cours …"
+
+#: plugins/system_upgrade.py:719
 msgid "Prepare offline upgrade of the system"
 msgstr "Préparation de la mise à jour hors ligne du système"
 
-#: plugins/system_upgrade.py:722
+#: plugins/system_upgrade.py:724
 msgid "Prepare offline distrosync of the system"
 msgstr "Préparation du distrosync du système hors ligne"
 
