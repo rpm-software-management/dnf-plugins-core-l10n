@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-19 01:59+0000\n"
-"PO-Revision-Date: 2022-12-07 16:19+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fi/>\n"
+"PO-Revision-Date: 2022-12-23 04:19+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1501,16 +1501,12 @@ msgid "Download finished."
 msgstr "Lataus valmistui."
 
 #: plugins/system_upgrade.py:705
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and "
 msgid "Upgrade complete! Cleaning up and powering off..."
-msgstr "Järjestelmäpäivitys valmistui! Siivotaan ja "
+msgstr "Järjestelmäpäivitys valmistui! Siivotaan ja sammutetaan järjestelmää..."
 
 #: plugins/system_upgrade.py:707
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and "
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr "Järjestelmäpäivitys valmistui! Siivotaan ja "
+msgstr "Järjestelmäpäivitys valmistui! Siivotaan ja käynnistetään uudelleen..."
 
 #: plugins/system_upgrade.py:719
 msgid "Prepare offline upgrade of the system"
