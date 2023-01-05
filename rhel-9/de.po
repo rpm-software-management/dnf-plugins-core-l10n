@@ -6,7 +6,7 @@
 # Thomas Eichhorn <tomislav@posteo.de>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Christian Kujau <fedora@nerdbynature.de>, 2020.
-# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022, 2023.
 # Joachim Philipp <joachim.philipp@gmail.com>, 2022.
 # Marius Kamp <msk@posteo.org>, 2022.
 msgid ""
@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-31 13:39+0200\n"
-"PO-Revision-Date: 2022-12-26 17:19+0000\n"
-"Last-Translator: Marius Kamp <msk@posteo.org>\n"
+"PO-Revision-Date: 2023-01-06 13:20+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-9/de/>\n"
 "Language: de\n"
@@ -1258,17 +1258,17 @@ msgstr ""
 #: plugins/reposync.py:211
 #, python-format
 msgid "[DELETED] %s"
-msgstr "[DELETED] %s"
+msgstr "[GELÖSCHT] %s"
 
 #: plugins/reposync.py:213
 #, python-format
 msgid "failed to delete file %s"
-msgstr "Datei konnte nicht gelöscht werden %s"
+msgstr "Datei %s konnte nicht gelöscht werden"
 
 #: plugins/reposync.py:222
 #, python-format
 msgid "comps.xml for repository %s saved"
-msgstr "comps.xml für das Repository %s Gerettet"
+msgstr "comps.xml für das Repository %s gerettet"
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
