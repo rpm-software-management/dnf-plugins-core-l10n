@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-01 02:19+0000\n"
+"POT-Creation-Date: 2023-01-06 02:10+0000\n"
 "PO-Revision-Date: 2022-12-23 04:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1298,16 +1298,16 @@ msgid "New leaves:"
 msgstr "독립 꾸러미:"
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:46
+#: plugins/system_upgrade.py:45
 msgid "the color of the sky"
 msgstr "하늘색"
 
-#: plugins/system_upgrade.py:58
+#: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
 msgstr "현재 시스템 버전 보다 큰 --releasever가 필요합니다."
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:60
+#: plugins/system_upgrade.py:59
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
@@ -1316,80 +1316,72 @@ msgstr ""
 "내려받기 완료! 향상을 시작하려면 dnf {command} reboot'를 사용하세요. \n"
 "캐쉬된 메타자료와 연결을 제거하려면 'dnf {command} clean'을 사용하세요"
 
-#: plugins/system_upgrade.py:63
+#: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "죄송합니다, '--network' 대신에 'download --releasever'를 사용해야 합니다"
 
-#: plugins/system_upgrade.py:72
+#: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
 msgstr "다시 기동하지 않고, 재시작이 꺼졌습니다."
 
-#: plugins/system_upgrade.py:126
+#: plugins/system_upgrade.py:125
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr "화면 비우기를 비활성화 할 수 없습니다: %s"
 
-#: plugins/system_upgrade.py:146
+#: plugins/system_upgrade.py:145
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr "상태 파일: %s를 적재 중 실패함, 공백 상태로 유지됨."
 
-#: plugins/system_upgrade.py:294
+#: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "다음 기동은 향상된 기록을 포함하여 나타납니다:"
 
-#: plugins/system_upgrade.py:304
+#: plugins/system_upgrade.py:303
 msgid "-- no logs were found --"
 msgstr "-- 어떤 기록도 찾을 수 없음 --"
 
-#: plugins/system_upgrade.py:319
+#: plugins/system_upgrade.py:318
 msgid "Cannot find logs with this index."
 msgstr "이 표시가 있는 기록을 찾을 수 없습니다."
 
-#: plugins/system_upgrade.py:328
+#: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
 msgstr "systemd journal 항목과 일치 할 수 없음"
 
-#: plugins/system_upgrade.py:349
+#: plugins/system_upgrade.py:348
 msgid "Prepare system for upgrade to a new release"
 msgstr "새로운 출시로 향상하기 위해 시스템을 준비합니다"
 
-#: plugins/system_upgrade.py:365
+#: plugins/system_upgrade.py:364
 msgid "keep installed packages if the new release's version is older"
 msgstr "만약 신규 출시의 버전이 오래되었으면 설치된 꾸러미를 유지합니다"
 
-#: plugins/system_upgrade.py:369
+#: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
 msgstr "동작이 완료된 후에 시스템 전원 종료"
 
-#: plugins/system_upgrade.py:373
+#: plugins/system_upgrade.py:372
 msgid "which logs to show"
 msgstr "표시 할 어떤 기록"
 
-#: plugins/system_upgrade.py:407
+#: plugins/system_upgrade.py:406
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr "호환되지 않는 자료 버전. 'dnf {command} download [OPTIONS]' 되돌리기"
 
-#: plugins/system_upgrade.py:443
+#: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 "명령 'offline-distrosync'은 --no-downgrade 옵션과 함께 사용 될 수 없습니다"
 
 #: plugins/system_upgrade.py:464
-msgid ""
-"WARNING: this operation is not supported on the RHEL distribution. Proceed "
-"at your own risk."
-msgstr ""
-"경고: 이 동작은 REHEL 배포판에서 지원되지 않습니다. 위험을 감수하고 진행하세"
-"요."
-
-#: plugins/system_upgrade.py:468
 msgid "Additional information for System Upgrade: {}"
 msgstr "시스템 향상을 위한 추가 정보: {}"
 
-#: plugins/system_upgrade.py:471
+#: plugins/system_upgrade.py:467
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -1397,15 +1389,15 @@ msgstr ""
 "계속하기 전에 dnf --refresh upgrade\" 실행하여 시스템을 완전히 향상 되도록 해"
 "주세요. 계속 하길 원하세요"
 
-#: plugins/system_upgrade.py:475
+#: plugins/system_upgrade.py:471
 msgid "Operation aborted."
 msgstr "작업이 중지됩니다."
 
-#: plugins/system_upgrade.py:536
+#: plugins/system_upgrade.py:532
 msgid "system is not ready for upgrade"
 msgstr "시스템이 향상을 위해 준비되지 않았습니다"
 
-#: plugins/system_upgrade.py:539
+#: plugins/system_upgrade.py:535
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -1414,73 +1406,73 @@ msgstr ""
 "연결이 '{command}'을 위해 준비되지 않았습니다. 'dnf {command} download "
 "[OPTIONS]'을 되돌립니다"
 
-#: plugins/system_upgrade.py:543
+#: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
 msgstr "향상이 이미 계획되어 있습니다"
 
-#: plugins/system_upgrade.py:549
+#: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
 msgstr "트리거 파일이 존재하지 않습니다. 바로 종료하기."
 
-#: plugins/system_upgrade.py:552
+#: plugins/system_upgrade.py:548
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "다른 향상 도구가 동작 중입니다. 바로 종료하기."
 
-#: plugins/system_upgrade.py:561
+#: plugins/system_upgrade.py:557
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "'dnf {command} reboot' 사용하여 향상을 시작합니다"
 
-#: plugins/system_upgrade.py:581
+#: plugins/system_upgrade.py:577
 msgid "Rebooting to perform upgrade."
 msgstr "향상을 수행하기 위해서 재시작 중."
 
-#: plugins/system_upgrade.py:617
+#: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
 msgstr "오프라인 향상 시작하기. 이는 시간이 좀 걸립니다."
 
-#: plugins/system_upgrade.py:619
+#: plugins/system_upgrade.py:615
 msgid "Starting offline distrosync. This will take a while."
 msgstr "오프라인 distrosync 시작 중. 이는 시간이 좀 걸립니다."
 
-#: plugins/system_upgrade.py:621
+#: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
 msgstr "시스템 향상이 시작 중. 이는 시간이 좀 걸립니다."
 
-#: plugins/system_upgrade.py:637
+#: plugins/system_upgrade.py:633
 msgid "Cleaning up downloaded data..."
 msgstr "내려받기된 자료를 정리 중..."
 
-#: plugins/system_upgrade.py:667
+#: plugins/system_upgrade.py:663
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr "시스템-향상 연결이 비워 있으며, 시스템은 이미 최신화 되었습니다."
 
-#: plugins/system_upgrade.py:676
+#: plugins/system_upgrade.py:672
 msgid "Transaction saved to {}."
 msgstr "연결이 {}에 저장되었습니다."
 
-#: plugins/system_upgrade.py:679
+#: plugins/system_upgrade.py:675
 msgid "Error storing transaction: {}"
 msgstr "저장 중 연결 오류: {}"
 
-#: plugins/system_upgrade.py:701
+#: plugins/system_upgrade.py:697
 msgid "Download finished."
 msgstr "내려받기 완료됨."
 
-#: plugins/system_upgrade.py:705
+#: plugins/system_upgrade.py:701
 msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr "향상 성공! 정리하고 전원종료하기..."
 
-#: plugins/system_upgrade.py:707
+#: plugins/system_upgrade.py:703
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "향상 성공! 정리하고 재시작하기..."
 
-#: plugins/system_upgrade.py:719
+#: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
 msgstr "시스템의 오프라인 향상을 준비합니다"
 
-#: plugins/system_upgrade.py:724
+#: plugins/system_upgrade.py:720
 msgid "Prepare offline distrosync of the system"
 msgstr "시스템의 오프라인 distrosync를 준비합니다"
 
@@ -1551,6 +1543,13 @@ msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "하위명령 '{}'는 더 이상 사용하지 않습니다. 대신에 하위명령 'exclude'를 사용합"
 "니다."
+
+#~ msgid ""
+#~ "WARNING: this operation is not supported on the RHEL distribution. "
+#~ "Proceed at your own risk."
+#~ msgstr ""
+#~ "경고: 이 동작은 REHEL 배포판에서 지원되지 않습니다. 위험을 감수하고 진행하"
+#~ "세요."
 
 #~ msgid ""
 #~ "This repository does not have any builds yet so you cannot enable it now."

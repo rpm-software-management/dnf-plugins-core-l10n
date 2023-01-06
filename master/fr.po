@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-01 02:19+0000\n"
+"POT-Creation-Date: 2023-01-06 02:10+0000\n"
 "PO-Revision-Date: 2022-11-07 08:19+0000\n"
 "Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1348,16 +1348,16 @@ msgid "New leaves:"
 msgstr "Nouvelles feuilles :"
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:46
+#: plugins/system_upgrade.py:45
 msgid "the color of the sky"
 msgstr "la couleur du ciel"
 
-#: plugins/system_upgrade.py:58
+#: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
 msgstr "--releasever doit être supérieure à la version courante du système."
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:60
+#: plugins/system_upgrade.py:59
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
@@ -1368,87 +1368,79 @@ msgstr ""
 "Pour supprimer les métadonnées et les transactions en cache, utilisez 'dnf "
 "{command} clean'"
 
-#: plugins/system_upgrade.py:63
+#: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "Désolé, vous devez utiliser « download --releasever » au lieu de « --network "
 "»"
 
-#: plugins/system_upgrade.py:72
+#: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
 msgstr "Redémarrage désactivé, ne redémarre pas."
 
-#: plugins/system_upgrade.py:126
+#: plugins/system_upgrade.py:125
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr "L’extinction de l’affichage ne peut pas être désactivé : %s"
 
-#: plugins/system_upgrade.py:146
+#: plugins/system_upgrade.py:145
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr ""
 "Échec du chargement du fichier d’état : %s, poursuite avec un état vide."
 
-#: plugins/system_upgrade.py:294
+#: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "Les démarrages suivants contiennent des journaux de mises à niveau :"
 
-#: plugins/system_upgrade.py:304
+#: plugins/system_upgrade.py:303
 msgid "-- no logs were found --"
 msgstr "-- aucun journal n’a été trouvé --"
 
-#: plugins/system_upgrade.py:319
+#: plugins/system_upgrade.py:318
 msgid "Cannot find logs with this index."
 msgstr "Journaux introuvables avec cet index."
 
-#: plugins/system_upgrade.py:328
+#: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
 msgstr "Impossible de faire correspondre l’entrée de journal systemd"
 
-#: plugins/system_upgrade.py:349
+#: plugins/system_upgrade.py:348
 msgid "Prepare system for upgrade to a new release"
 msgstr "Préparer le système pour une mise à niveau vers une nouvelle version"
 
-#: plugins/system_upgrade.py:365
+#: plugins/system_upgrade.py:364
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
 "garde les paquets installés si la version provenant du système à niveau est "
 "plus ancienne"
 
-#: plugins/system_upgrade.py:369
+#: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
 msgstr ""
 
-#: plugins/system_upgrade.py:373
+#: plugins/system_upgrade.py:372
 msgid "which logs to show"
 msgstr "les journaux à afficher"
 
-#: plugins/system_upgrade.py:407
+#: plugins/system_upgrade.py:406
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
 "Version des données incompatibles. Veuillez exécuter à nouveau 'dnf "
 "{command} download [OPTIONS]'"
 
-#: plugins/system_upgrade.py:443
+#: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 "La commande « offline-distrosync » ne peut pas être utilisée avec --no-"
 "downgrade option"
 
 #: plugins/system_upgrade.py:464
-msgid ""
-"WARNING: this operation is not supported on the RHEL distribution. Proceed "
-"at your own risk."
-msgstr ""
-"ATTENTION : cette opération n'est pas prise en charge sur la distribution "
-"RHEL. Procédez à vos risques et périls."
-
-#: plugins/system_upgrade.py:468
 msgid "Additional information for System Upgrade: {}"
 msgstr "Informations complémentaires pour les mises à jour système : {}"
 
-#: plugins/system_upgrade.py:471
+#: plugins/system_upgrade.py:467
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -1456,15 +1448,15 @@ msgstr ""
 "Avant de continuer, assurez-vous que votre système est complètement à jour "
 "en lançant \"dnf --refresh upgrade\". Voulez-vous continuer ?"
 
-#: plugins/system_upgrade.py:475
+#: plugins/system_upgrade.py:471
 msgid "Operation aborted."
 msgstr "Opération avortée."
 
-#: plugins/system_upgrade.py:536
+#: plugins/system_upgrade.py:532
 msgid "system is not ready for upgrade"
 msgstr "le système n’est pas prêt pour la mise à niveau"
 
-#: plugins/system_upgrade.py:539
+#: plugins/system_upgrade.py:535
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -1473,81 +1465,81 @@ msgstr ""
 "la transaction n’était pas préparée pour « {command} ». Veuillez exécuter "
 "« dnf {command} download [OPTIONS] » à nouveau"
 
-#: plugins/system_upgrade.py:543
+#: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
 msgstr "la mise à niveau est déjà programmée"
 
-#: plugins/system_upgrade.py:549
+#: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
 msgstr "le fichier déclencheur n’existe pas. Fermeture silencieuse."
 
-#: plugins/system_upgrade.py:552
+#: plugins/system_upgrade.py:548
 msgid "another upgrade tool is running. exiting quietly."
 msgstr ""
 "un autre outil de mise à niveau est en fonctionnement. Fermeture silencieuse."
 
-#: plugins/system_upgrade.py:561
+#: plugins/system_upgrade.py:557
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "utilisez « dnf {command} reboot » pour démarrer la mise à jour"
 
-#: plugins/system_upgrade.py:581
+#: plugins/system_upgrade.py:577
 msgid "Rebooting to perform upgrade."
 msgstr "Redémarrage pour réaliser la mise à niveau."
 
-#: plugins/system_upgrade.py:617
+#: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
 msgstr "Démarrage de la mise à jour hors ligne. Cela prendra un certain temps."
 
-#: plugins/system_upgrade.py:619
+#: plugins/system_upgrade.py:615
 msgid "Starting offline distrosync. This will take a while."
 msgstr "Démarrage du distrosync hors ligne. Cela prendra un certain temps."
 
-#: plugins/system_upgrade.py:621
+#: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
 msgstr ""
 "Démarrage du processus de mise à niveau. Cela peut prendre un certain temps."
 
-#: plugins/system_upgrade.py:637
+#: plugins/system_upgrade.py:633
 msgid "Cleaning up downloaded data..."
 msgstr "Nettoyage des données téléchargées …"
 
-#: plugins/system_upgrade.py:667
+#: plugins/system_upgrade.py:663
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
 "La transaction de mise à niveau du système est vide, votre système est déjà "
 "à jour."
 
-#: plugins/system_upgrade.py:676
+#: plugins/system_upgrade.py:672
 msgid "Transaction saved to {}."
 msgstr "Transaction enregistrée vers {}."
 
-#: plugins/system_upgrade.py:679
+#: plugins/system_upgrade.py:675
 msgid "Error storing transaction: {}"
 msgstr "Erreur lors du stockage de la transaction : {}"
 
-#: plugins/system_upgrade.py:701
+#: plugins/system_upgrade.py:697
 msgid "Download finished."
 msgstr "Téléchargement terminé."
 
-#: plugins/system_upgrade.py:705
+#: plugins/system_upgrade.py:701
 #, fuzzy
 #| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr "Mise à niveau effectuée ! Nettoyage et redémarrage en cours …"
 
-#: plugins/system_upgrade.py:707
+#: plugins/system_upgrade.py:703
 #, fuzzy
 #| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Mise à niveau effectuée ! Nettoyage et redémarrage en cours …"
 
-#: plugins/system_upgrade.py:719
+#: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
 msgstr "Préparation de la mise à jour hors ligne du système"
 
-#: plugins/system_upgrade.py:724
+#: plugins/system_upgrade.py:720
 msgid "Prepare offline distrosync of the system"
 msgstr "Préparation du distrosync du système hors ligne"
 
@@ -1624,6 +1616,13 @@ msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "La sous-commande '{}' est obsolète. Utilisez plutôt la sous-commande "
 "'exclude'."
+
+#~ msgid ""
+#~ "WARNING: this operation is not supported on the RHEL distribution. "
+#~ "Proceed at your own risk."
+#~ msgstr ""
+#~ "ATTENTION : cette opération n'est pas prise en charge sur la distribution "
+#~ "RHEL. Procédez à vos risques et périls."
 
 #~ msgid ""
 #~ "This repository does not have any builds yet so you cannot enable it now."

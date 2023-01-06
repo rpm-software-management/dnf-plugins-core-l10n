@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-01 02:19+0000\n"
+"POT-Creation-Date: 2023-01-06 02:10+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Basque <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1197,179 +1197,173 @@ msgid "New leaves:"
 msgstr ""
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:46
+#: plugins/system_upgrade.py:45
 msgid "the color of the sky"
 msgstr ""
 
-#: plugins/system_upgrade.py:58
+#: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:60
+#: plugins/system_upgrade.py:59
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
 
-#: plugins/system_upgrade.py:63
+#: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 
-#: plugins/system_upgrade.py:72
+#: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
 msgstr ""
 
-#: plugins/system_upgrade.py:126
+#: plugins/system_upgrade.py:125
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr ""
 
-#: plugins/system_upgrade.py:146
+#: plugins/system_upgrade.py:145
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr ""
 
-#: plugins/system_upgrade.py:294
+#: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
 msgstr ""
 
-#: plugins/system_upgrade.py:304
+#: plugins/system_upgrade.py:303
 msgid "-- no logs were found --"
 msgstr ""
 
-#: plugins/system_upgrade.py:319
+#: plugins/system_upgrade.py:318
 msgid "Cannot find logs with this index."
 msgstr ""
 
-#: plugins/system_upgrade.py:328
+#: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
 msgstr ""
 
-#: plugins/system_upgrade.py:349
+#: plugins/system_upgrade.py:348
 msgid "Prepare system for upgrade to a new release"
 msgstr ""
 
-#: plugins/system_upgrade.py:365
+#: plugins/system_upgrade.py:364
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
 
-#: plugins/system_upgrade.py:369
+#: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
 msgstr ""
 
-#: plugins/system_upgrade.py:373
+#: plugins/system_upgrade.py:372
 msgid "which logs to show"
 msgstr ""
 
-#: plugins/system_upgrade.py:407
+#: plugins/system_upgrade.py:406
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
 
-#: plugins/system_upgrade.py:443
+#: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 
 #: plugins/system_upgrade.py:464
-msgid ""
-"WARNING: this operation is not supported on the RHEL distribution. Proceed "
-"at your own risk."
-msgstr ""
-
-#: plugins/system_upgrade.py:468
 msgid "Additional information for System Upgrade: {}"
 msgstr ""
 
-#: plugins/system_upgrade.py:471
+#: plugins/system_upgrade.py:467
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
 msgstr ""
 
-#: plugins/system_upgrade.py:475
+#: plugins/system_upgrade.py:471
 msgid "Operation aborted."
 msgstr "Eragiketa abortatu da."
 
-#: plugins/system_upgrade.py:536
+#: plugins/system_upgrade.py:532
 msgid "system is not ready for upgrade"
 msgstr ""
 
-#: plugins/system_upgrade.py:539
+#: plugins/system_upgrade.py:535
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
 
-#: plugins/system_upgrade.py:543
+#: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
 msgstr ""
 
-#: plugins/system_upgrade.py:549
+#: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
 msgstr ""
 
-#: plugins/system_upgrade.py:552
+#: plugins/system_upgrade.py:548
 msgid "another upgrade tool is running. exiting quietly."
 msgstr ""
 
-#: plugins/system_upgrade.py:561
+#: plugins/system_upgrade.py:557
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr ""
 
-#: plugins/system_upgrade.py:581
+#: plugins/system_upgrade.py:577
 msgid "Rebooting to perform upgrade."
 msgstr ""
 
-#: plugins/system_upgrade.py:617
+#: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
 msgstr ""
 
-#: plugins/system_upgrade.py:619
+#: plugins/system_upgrade.py:615
 msgid "Starting offline distrosync. This will take a while."
 msgstr ""
 
-#: plugins/system_upgrade.py:621
+#: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
 msgstr ""
 
-#: plugins/system_upgrade.py:637
+#: plugins/system_upgrade.py:633
 msgid "Cleaning up downloaded data..."
 msgstr ""
 
-#: plugins/system_upgrade.py:667
+#: plugins/system_upgrade.py:663
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
 
-#: plugins/system_upgrade.py:676
+#: plugins/system_upgrade.py:672
 msgid "Transaction saved to {}."
 msgstr ""
 
-#: plugins/system_upgrade.py:679
+#: plugins/system_upgrade.py:675
 msgid "Error storing transaction: {}"
 msgstr ""
 
-#: plugins/system_upgrade.py:701
+#: plugins/system_upgrade.py:697
 msgid "Download finished."
 msgstr ""
 
-#: plugins/system_upgrade.py:705
+#: plugins/system_upgrade.py:701
 msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr ""
 
-#: plugins/system_upgrade.py:707
+#: plugins/system_upgrade.py:703
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr ""
 
-#: plugins/system_upgrade.py:719
+#: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
 msgstr ""
 
-#: plugins/system_upgrade.py:724
+#: plugins/system_upgrade.py:720
 msgid "Prepare offline distrosync of the system"
 msgstr ""
 
