@@ -3,14 +3,14 @@
 # Zoltan Hoppar <zoltanh721@fedoraproject.org>, 2017. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2018. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022, 2023.
 # Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 15:38+0200\n"
-"PO-Revision-Date: 2022-08-08 14:19+0000\n"
+"PO-Revision-Date: 2023-01-17 09:20+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/hu/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.15\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -423,25 +423,24 @@ msgstr "Ezt a parancsot root felhasználóként kell futtatni."
 #: plugins/copr.py:487
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "A(z) {0} számára küldött kérés sikertelen: {1} – {2}"
 
 #: plugins/copr.py:489
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "A projekt engedélyezése nem volt lehetséges.\n"
 
 #: plugins/copr.py:494
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Nem létezik ilyen tároló."
+msgstr "A(z) „{0}” tároló nem létezik a(z) „{1}” projektben."
 
 #: plugins/copr.py:497
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Engedélyezett Copr tárolók"
+msgstr ""
+"\n"
+"Elérhető tárolók: "
 
 #: plugins/copr.py:499
 #, python-brace-format
@@ -452,18 +451,23 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Ha egy nem alapértelmezett tárolót akar engedélyezni, használja a következő "
+"parancsot:\n"
+"  „dnf copr enable {0} <tároló>”\n"
+"De vegye figyelembe, hogy a telepített tárolónál jó eséllyel kézi módosítás "
+"lesz szükséges."
 
 #: plugins/copr.py:505
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Nem létezik ilyen tároló."
+msgstr "A(z) {0} projekt nem létezik."
 
 #: plugins/copr.py:508
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "Nem sikerült a(z) {0}/{1}/{2} copr tároló eltávolítása"
+msgstr "Nem sikerült kapcsolódni a következőhöz: {0}: {1}"
 
 #: plugins/copr.py:555
 #, python-brace-format
@@ -886,8 +890,8 @@ msgstr "csomagok letöltése csak a legújabb modulokból"
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Nincs találat a(z) „{}” argumentumhoz"
-msgstr[1] "Nincs találat a(z) „{}” argumentumokhoz"
+msgstr[0] "Nem található egyezés a következő argumentumra: {}"
+msgstr[1] "Nem található egyezés a következő argumentumokra: {}"
 
 #: plugins/modulesync.py:107
 msgid ""
@@ -911,7 +915,7 @@ msgstr ""
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
-msgstr "Nem található egyezés a(z) „{}” argumentumhoz"
+msgstr "Nincs találat a következő argumentumra: „{}”"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
@@ -1173,16 +1177,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Csak az --old, vagy a --new kapcsolót használja, de ne mindkettőt!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Csak az --old, vagy a --new kapcsolót használja, de ne mindkettőt!"
+msgstr "Csak az --old, vagy a --new kapcsolót használja, ne mindkettőt."
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Csak az --old, vagy a --new kapcsolót használja, de ne mindkettőt!"
+msgstr "Csak az --old, vagy az --oldonly kapcsolót használja, ne mindkettőt."
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1197,10 +1197,8 @@ msgid "Print the older packages"
 msgstr "Régebbi csomagok kiírása"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Legújabb csomagok kiírása"
+msgstr "A régebbi csomagok kiírása. A legújabb csomagok kihagyása."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
