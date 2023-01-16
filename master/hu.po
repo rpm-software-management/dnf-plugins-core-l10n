@@ -3,15 +3,15 @@
 # Zoltan Hoppar <zoltanh721@fedoraproject.org>, 2017. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2018. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022, 2023.
 # Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-06 02:10+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-01-17 09:20+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/hu/>\n"
 "Language: hu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -78,6 +78,8 @@ msgstr "Nincs minden függőség kielégítve"
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
+"Figyelmeztetés: a -D vagy a --define argumentumoknak nincs jelentésük a "
+"forrás rpm csomagoknál."
 
 #: plugins/builddep.py:215
 #, python-format
@@ -895,8 +897,8 @@ msgstr "csomagok letöltése csak a legújabb modulokból"
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Nincs találat a(z) „{}” argumentumhoz"
-msgstr[1] "Nincs találat a(z) „{}” argumentumokhoz"
+msgstr[0] "Nem található egyezés a következő argumentumra: {}"
+msgstr[1] "Nem található egyezés a következő argumentumokra: {}"
 
 #: plugins/modulesync.py:107
 msgid ""
@@ -920,7 +922,7 @@ msgstr ""
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
-msgstr "Nem található egyezés a(z) „{}” argumentumhoz"
+msgstr "Nincs találat a következő argumentumra: „{}”"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
@@ -1187,7 +1189,7 @@ msgstr "Csak az --old, vagy a --new kapcsolót használja, ne mindkettőt."
 
 #: plugins/repomanage.py:63
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Csak az --old, vagy a --new kapcsolót használja, ne mindkettőt."
+msgstr "Csak az --old, vagy az --oldonly kapcsolót használja, ne mindkettőt."
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1392,7 +1394,7 @@ msgstr "megtartja a telepített csomagokat, ha az új kiadás verziója régebbi
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "a rendszer kikapcsolása a művelet végeztével"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
@@ -1440,10 +1442,8 @@ msgstr ""
 "{command} download [KAPCSOLÓK]”"
 
 #: plugins/system_upgrade.py:539
-#, fuzzy
-#| msgid "Package {} is already excluded"
 msgid "upgrade is already scheduled"
-msgstr "A(z) {} csomag már kizárt"
+msgstr "a frissítés már ütemezve van"
 
 #: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
@@ -1484,10 +1484,8 @@ msgid ""
 msgstr "A rendszerfrissítés tranzakció üres, a rendszere már naprakész."
 
 #: plugins/system_upgrade.py:672
-#, fuzzy
-#| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
-msgstr "Hibás tranzakciós állapot: %s"
+msgstr "Tranzakció mentve ide: {}."
 
 #: plugins/system_upgrade.py:675
 msgid "Error storing transaction: {}"
@@ -1498,14 +1496,10 @@ msgid "Download finished."
 msgstr "Letöltés befejezve."
 
 #: plugins/system_upgrade.py:701
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr "Frissítés kész! Tisztítás és újraindítás…"
 
 #: plugins/system_upgrade.py:703
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Frissítés kész! Tisztítás és újraindítás…"
 
