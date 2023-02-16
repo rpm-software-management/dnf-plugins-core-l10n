@@ -1,14 +1,14 @@
 # Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020, 2021, 2022.
 # Geert Warrink <geert.warrink@onsnet.nu>, 2020. #zanata, 2021, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
-# Richard E. van der Luit <fedoraproject@veneax.nl>, 2020.
+# Richard E. van der Luit <fedoraproject@veneax.nl>, 2020, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 15:38+0200\n"
-"PO-Revision-Date: 2022-09-02 02:19+0000\n"
-"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"PO-Revision-Date: 2023-02-17 16:20+0000\n"
+"Last-Translator: Richard E. van der Luit <fedoraproject@veneax.nl>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/nl/>\n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -912,7 +912,7 @@ msgstr "Geen overeenkomst voor pakketnaam '{0}' in profiel {1} van module {2}"
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
-msgstr "Geen overeenkomst voor argument '{}'"
+msgstr "Geen match voor argument: {}"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
@@ -985,7 +985,7 @@ msgstr "Slechte transactie status: %s"
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr "post-transaction-actions: %s"
+msgstr "post-transactie-acties: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
