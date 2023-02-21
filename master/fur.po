@@ -1,11 +1,11 @@
-# Fabio Tomat <f.t.public@gmail.com>, 2019. #zanata, 2021, 2022.
+# Fabio Tomat <f.t.public@gmail.com>, 2019. #zanata, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-17 02:16+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-02-22 21:20+0000\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/fur/>\n"
 "Language: fur\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -72,6 +72,8 @@ msgstr "No son sodisfatis dutis lis dipendencis."
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
+"Atenzion: i argoments -D o --define no àn significât pai pachets rpm dai "
+"sorzints."
 
 #: plugins/builddep.py:215
 #, python-format
@@ -1388,7 +1390,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "distude il sisteme ae fin de operazion"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
@@ -1437,10 +1439,8 @@ msgstr ""
 "{command} download [OPZIONS]'"
 
 #: plugins/system_upgrade.py:539
-#, fuzzy
-#| msgid "Package {} is already excluded"
 msgid "upgrade is already scheduled"
-msgstr "Il pachet {} al è za escludût"
+msgstr "l'inzornament al è za planificât"
 
 #: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
@@ -1482,10 +1482,8 @@ msgstr ""
 "La transazion di system-upgrade e je vueide, il to sisteme al è za inzornât."
 
 #: plugins/system_upgrade.py:672
-#, fuzzy
-#| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
-msgstr "Stât de transazion sbaliât: %s"
+msgstr "Transazion salvade su {}."
 
 #: plugins/system_upgrade.py:675
 msgid "Error storing transaction: {}"
@@ -1496,14 +1494,10 @@ msgid "Download finished."
 msgstr "Discjariament finît."
 
 #: plugins/system_upgrade.py:701
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and powering off..."
-msgstr "Inzornament completât! Daûr a netâ e a tornâ a inviâ..."
+msgstr "Inzornament completât! Daûr a netâ e a distudâ..."
 
 #: plugins/system_upgrade.py:703
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Inzornament completât! Daûr a netâ e a tornâ a inviâ..."
 
