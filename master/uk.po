@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 02:16+0000\n"
+"POT-Creation-Date: 2023-02-22 02:13+0000\n"
 "PO-Revision-Date: 2022-12-19 16:56+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -160,8 +160,8 @@ msgid "manage {prog} configuration options and repositories"
 msgstr "керування налаштуваннями та записами сховищ {prog}"
 
 #: plugins/config_manager.py:45
-msgid "repo to modify"
-msgstr "сховище для внесення змін"
+msgid "configuration sections to manage, \"main\" or repoid"
+msgstr ""
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -201,24 +201,24 @@ msgstr ""
 "керуванням за допомогою файла налаштувань. Скористайтеся замість них --set-"
 "enabled/--set-disabled."
 
-#: plugins/config_manager.py:132
+#: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Немає відповідного сховища для внесення змін: %s."
 
-#: plugins/config_manager.py:183
+#: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Додаємо сховище з %s"
 
-#: plugins/config_manager.py:207
+#: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Помилка під час налаштовування сховища"
 msgstr[1] "Помилка під час налаштовування сховищ"
 msgstr[2] "Помилка під час налаштовування сховищ"
 
-#: plugins/config_manager.py:217
+#: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Не вдалося зберегти дані сховища до файла сховищ %s: %s"
@@ -1595,6 +1595,9 @@ msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Підкоманда «{}» вважається застарілою. Скористайтеся замість неї підкомандою "
 "«exclude»."
+
+#~ msgid "repo to modify"
+#~ msgstr "сховище для внесення змін"
 
 #~ msgid ""
 #~ "WARNING: this operation is not supported on the RHEL distribution. "

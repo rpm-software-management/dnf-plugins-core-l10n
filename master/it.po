@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 02:16+0000\n"
+"POT-Creation-Date: 2023-02-22 02:13+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -152,8 +152,8 @@ msgid "manage {prog} configuration options and repositories"
 msgstr ""
 
 #: plugins/config_manager.py:45
-msgid "repo to modify"
-msgstr "repository da modificare"
+msgid "configuration sections to manage, \"main\" or repoid"
+msgstr ""
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -189,23 +189,23 @@ msgid ""
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
 
-#: plugins/config_manager.py:132
+#: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Nessun repository corrispondente da modificare: %s."
 
-#: plugins/config_manager.py:183
+#: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Aggiunta di repository da %s"
 
-#: plugins/config_manager.py:207
+#: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Configurazione del repository fallito"
 msgstr[1] "Configurazione dei repository fallito"
 
-#: plugins/config_manager.py:217
+#: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Impossibile salvare il repository nel file di repository %s: %s"
@@ -1515,6 +1515,9 @@ msgstr ""
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+
+#~ msgid "repo to modify"
+#~ msgstr "repository da modificare"
 
 #~ msgid ""
 #~ "This repository does not have any builds yet so you cannot enable it now."

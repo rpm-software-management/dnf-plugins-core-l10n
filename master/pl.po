@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 02:16+0000\n"
+"POT-Creation-Date: 2023-02-22 02:13+0000\n"
 "PO-Revision-Date: 2022-12-19 16:56+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -166,8 +166,8 @@ msgid "manage {prog} configuration options and repositories"
 msgstr "zarządza opcjami konfiguracji i repozytoriami programu {prog}"
 
 #: plugins/config_manager.py:45
-msgid "repo to modify"
-msgstr "modyfikowane repozytorium"
+msgid "configuration sections to manage, \"main\" or repoid"
+msgstr ""
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -205,24 +205,24 @@ msgstr ""
 "Ostrzeżenie: parametry --enablerepo/--disablerepo nie działają z menedżerem "
 "konfiguracji. Należy użyć --set-enabled/--set-disabled zamiast tego."
 
-#: plugins/config_manager.py:132
+#: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Brak pasującego repozytorium do modyfikacji: %s."
 
-#: plugins/config_manager.py:183
+#: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Dodawanie repozytorium z: %s"
 
-#: plugins/config_manager.py:207
+#: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Utworzenie repozytorium się nie powiodło"
 msgstr[1] "Utworzenie repozytoriów się nie powiodło"
 msgstr[2] "Utworzenie repozytoriów się nie powiodło"
 
-#: plugins/config_manager.py:217
+#: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Nie można zapisać repozytorium do pliku %s: %s"
@@ -1595,6 +1595,9 @@ msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Podpolecenie „{}” jest przestarzałe. Zamiast niego należy używać "
 "podpolecenia „exclude”."
+
+#~ msgid "repo to modify"
+#~ msgstr "modyfikowane repozytorium"
 
 #~ msgid ""
 #~ "WARNING: this operation is not supported on the RHEL distribution. "

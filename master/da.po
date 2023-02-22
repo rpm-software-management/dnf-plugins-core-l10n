@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 02:16+0000\n"
+"POT-Creation-Date: 2023-02-22 02:13+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -154,8 +154,8 @@ msgid "manage {prog} configuration options and repositories"
 msgstr "Håndter konfigurationstilvalg og softwarearkiver for {prog}"
 
 #: plugins/config_manager.py:45
-msgid "repo to modify"
-msgstr "softwarearkiv som skal ændres"
+msgid "configuration sections to manage, \"main\" or repoid"
+msgstr ""
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -193,23 +193,23 @@ msgstr ""
 "Advarsel: argumenterne --enablerepo/--disablerepo har ingen betydning med "
 "konfigurationshåndtering. Brug i stedet --set-enabled/--set-disabled."
 
-#: plugins/config_manager.py:132
+#: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Intet matchende softwarearkiv at ændre: %s."
 
-#: plugins/config_manager.py:183
+#: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Tilføjer softwarearkiv fra: %s"
 
-#: plugins/config_manager.py:207
+#: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Konfiguration af softwarearkiv mislykkedes"
 msgstr[1] "Konfiguration af softwarearkiver mislykkedes"
 
-#: plugins/config_manager.py:217
+#: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Kunne ikke gemme softwarearkiv til softwarearkivfilen %s: %s"
@@ -1586,6 +1586,9 @@ msgstr "Brug pakkespecifikationer som de er uden at fortolke dem"
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+
+#~ msgid "repo to modify"
+#~ msgstr "softwarearkiv som skal ændres"
 
 #~ msgid ""
 #~ "This repository does not have any builds yet so you cannot enable it now."

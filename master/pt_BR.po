@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 02:16+0000\n"
+"POT-Creation-Date: 2023-02-22 02:13+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -162,8 +162,8 @@ msgid "manage {prog} configuration options and repositories"
 msgstr "gerencie {prog} opções de configuração e repositórios"
 
 #: plugins/config_manager.py:45
-msgid "repo to modify"
-msgstr "repositório para modificação"
+msgid "configuration sections to manage, \"main\" or repoid"
+msgstr ""
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -201,23 +201,23 @@ msgstr ""
 "Aviso: os argumentos --enablerepo/--disablerepo não têm significado com o "
 "gerenciador de configuração. Use --set-enabled /--set-disabled ao invés."
 
-#: plugins/config_manager.py:132
+#: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Nenhum repositório correspondente para modificar: %s."
 
-#: plugins/config_manager.py:183
+#: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Adicionando repositório de: %s"
 
-#: plugins/config_manager.py:207
+#: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "A configuração do repo falhou"
 msgstr[1] "A configuração dos repos falhou"
 
-#: plugins/config_manager.py:217
+#: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Não pode salvar o repositório para o repofile %s: %s"
@@ -1601,6 +1601,9 @@ msgstr "Use as especificações do pacote como são, não tente analisá-las"
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "O subcomando '{}' está obsoleto. Em vez disso, use o subcomando 'exclude'."
+
+#~ msgid "repo to modify"
+#~ msgstr "repositório para modificação"
 
 #~ msgid ""
 #~ "This repository does not have any builds yet so you cannot enable it now."

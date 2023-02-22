@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 02:16+0000\n"
+"POT-Creation-Date: 2023-02-22 02:13+0000\n"
 "PO-Revision-Date: 2022-12-23 04:19+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -156,8 +156,8 @@ msgid "manage {prog} configuration options and repositories"
 msgstr "käsittele {prog} -asetuksia ja ohjelmistolähteitä"
 
 #: plugins/config_manager.py:45
-msgid "repo to modify"
-msgstr "muokattava okjelmistolähde"
+msgid "configuration sections to manage, \"main\" or repoid"
+msgstr ""
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -196,23 +196,23 @@ msgstr ""
 "Varoitus: argumenteilla '--enablerepo'/'--disablerepo' ei ole merkitystä "
 "config managerin kanssa. Käytä sen sijaan '--set-enabled'/'--set-disabled'."
 
-#: plugins/config_manager.py:132
+#: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Ei vastaavaa ohjelmistolähdettä muokattavaksi: %s."
 
-#: plugins/config_manager.py:183
+#: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Lisätään ohjelmistolähde: %s:sta"
 
-#: plugins/config_manager.py:207
+#: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Ohjelmistolähteen määritys epäonnistui"
 msgstr[1] "Ohjelmistolähteiden määritys epäonnistui"
 
-#: plugins/config_manager.py:217
+#: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Ohjelmistolähdettä ei voitu tallentaa ohjelmistolähdetiedostoon %s: %s"
@@ -1581,6 +1581,9 @@ msgstr ""
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Alikomento \"{}\" on vanhentunut. Käytä sen sijaan 'exclude' alikomentoa."
+
+#~ msgid "repo to modify"
+#~ msgstr "muokattava okjelmistolähde"
 
 #~ msgid ""
 #~ "WARNING: this operation is not supported on the RHEL distribution. "

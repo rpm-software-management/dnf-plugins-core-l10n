@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 02:16+0000\n"
+"POT-Creation-Date: 2023-02-22 02:13+0000\n"
 "PO-Revision-Date: 2023-01-01 11:20+0000\n"
 "Last-Translator: Yang Yulin <yylteam@icloud.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -155,8 +155,8 @@ msgid "manage {prog} configuration options and repositories"
 msgstr "管理 {prog} 配置选项和软件仓库"
 
 #: plugins/config_manager.py:45
-msgid "repo to modify"
-msgstr "要修改的仓库"
+msgid "configuration sections to manage, \"main\" or repoid"
+msgstr ""
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -194,22 +194,22 @@ msgstr ""
 "警告：--enablerepo/--disablerepo 参数对于 config manager 没有作用。请使用 --"
 "set-enabled/--set-disabled。"
 
-#: plugins/config_manager.py:132
+#: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "没有匹配的仓库可以修改：%s 。"
 
-#: plugins/config_manager.py:183
+#: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "添加仓库自：%s"
 
-#: plugins/config_manager.py:207
+#: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "配置仓库失败"
 
-#: plugins/config_manager.py:217
+#: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "无法保存仓库至仓库文件 %s：%s"
@@ -1514,6 +1514,9 @@ msgstr "按原样使用程序包规格，请勿尝试解析它们"
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr "子命令 '{}' 已被弃用。改为使用 'exclude' 子命令。"
+
+#~ msgid "repo to modify"
+#~ msgstr "要修改的仓库"
 
 #~ msgid ""
 #~ "WARNING: this operation is not supported on the RHEL distribution. "

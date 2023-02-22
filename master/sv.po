@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 02:16+0000\n"
+"POT-Creation-Date: 2023-02-22 02:13+0000\n"
 "PO-Revision-Date: 2023-01-17 09:20+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -157,8 +157,8 @@ msgid "manage {prog} configuration options and repositories"
 msgstr "hantera {prog}-konfigurationsalternativ och -förråd"
 
 #: plugins/config_manager.py:45
-msgid "repo to modify"
-msgstr "förråd att ändra"
+msgid "configuration sections to manage, \"main\" or repoid"
+msgstr ""
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -196,23 +196,23 @@ msgstr ""
 "Varning: argumenten --enablerepo/--disablerepo har ingen mening med "
 "konfigurationshanteraren. Använd --set-enabled/--set-disabled istället."
 
-#: plugins/config_manager.py:132
+#: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Inget matchande förråd att ändra: %s."
 
-#: plugins/config_manager.py:183
+#: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Lägger till förråd från: %s"
 
-#: plugins/config_manager.py:207
+#: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "Konfiguration av förråd misslyckades"
 msgstr[1] "Konfiguration av förråd misslyckades"
 
-#: plugins/config_manager.py:217
+#: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Kunde inte spara förrådet till förrådsfilen %s: %s"
@@ -1559,6 +1559,9 @@ msgstr "Använd paketspecifikationer som de är, försök inte att tolka dem"
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Underkommandot ”{}” bör undvikas. Använd underkommandot ”exclude” istället."
+
+#~ msgid "repo to modify"
+#~ msgstr "förråd att ändra"
 
 #~ msgid ""
 #~ "WARNING: this operation is not supported on the RHEL distribution. "

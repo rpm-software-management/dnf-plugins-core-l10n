@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 02:16+0000\n"
+"POT-Creation-Date: 2023-02-22 02:13+0000\n"
 "PO-Revision-Date: 2023-01-17 09:20+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -160,8 +160,8 @@ msgid "manage {prog} configuration options and repositories"
 msgstr "a(z) {prog} konfigurációs beállítások és tárolók kezelése"
 
 #: plugins/config_manager.py:45
-msgid "repo to modify"
-msgstr "a módosítandó tároló"
+msgid "configuration sections to manage, \"main\" or repoid"
+msgstr ""
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -200,23 +200,23 @@ msgstr ""
 "konfigurációkezelővel. Használja inkább a --set-enabled/--set-disabled "
 "kapcsolókat."
 
-#: plugins/config_manager.py:132
+#: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
 msgstr "Nincs egyező módosítandó tároló: %s."
 
-#: plugins/config_manager.py:183
+#: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
 msgstr "Tároló hozzáadása innen: %s"
 
-#: plugins/config_manager.py:207
+#: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
 msgstr[0] "A tároló beállítása meghiúsult"
 msgstr[1] "A tárolók beállítása meghiúsult"
 
-#: plugins/config_manager.py:217
+#: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
 msgstr "A tároló nem menthető a(z) %s tárolófájlba: %s"
@@ -1582,6 +1582,9 @@ msgstr ""
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "A(z) „{}” alparancs elavult. Helyette használja a(z) „exclude” alparancsot."
+
+#~ msgid "repo to modify"
+#~ msgstr "a módosítandó tároló"
 
 #~ msgid ""
 #~ "This repository does not have any builds yet so you cannot enable it now."
