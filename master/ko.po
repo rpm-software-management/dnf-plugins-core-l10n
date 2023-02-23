@@ -2,23 +2,23 @@
 # Marek Blaha <mblaha@redhat.com>, 2020.
 # simmon <simmon@nplob.com>, 2021, 2022.
 # Kim InSoo <simmon@nplob.com>, 2022.
-# 김인수 <simmon@nplob.com>, 2022.
+# 김인수 <simmon@nplob.com>, 2022, 2023.
 # seo hojin <jinswhat@naver.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-22 02:13+0000\n"
-"PO-Revision-Date: 2022-12-23 04:20+0000\n"
+"PO-Revision-Date: 2023-02-23 16:14+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -154,7 +154,7 @@ msgstr "{prog} 환경 선택과 저장소 관리"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "관리하려는 구성 부분, \"main\" 또는 repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
