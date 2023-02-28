@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-31 13:39+0200\n"
+"POT-Creation-Date: 2023-02-28 12:26+0100\n"
 "PO-Revision-Date: 2022-09-07 14:19+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -69,16 +69,21 @@ msgid "Failed to open: '%s', not a valid source rpm file."
 msgstr ""
 "開くことに失敗しました: '%s'、有効なソース rpm ファイルではありません。"
 
-#: plugins/builddep.py:204 plugins/builddep.py:220 plugins/builddep.py:237
+#: plugins/builddep.py:204 plugins/builddep.py:224 plugins/builddep.py:241
 msgid "Not all dependencies satisfied"
 msgstr "すべての依存関係が満たされているわけではない"
 
-#: plugins/builddep.py:211
+#: plugins/builddep.py:208
+msgid ""
+"Warning: -D or --define arguments have no meaning for source rpm packages."
+msgstr ""
+
+#: plugins/builddep.py:215
 #, python-format
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "開くことに失敗しました: '%s'、有効なスペックファイルではありません: %s"
 
-#: plugins/builddep.py:230 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:124
 #, python-format
 msgid "no package matched: %s"
 msgstr "一致するパッケージはありません: %s"
@@ -861,7 +866,8 @@ msgstr "履歴データを移行中..."
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr "モジュールからパッケージをダウンロードしたり、モジュラーデータでリポジトリー"
+msgstr ""
+"モジュールからパッケージをダウンロードしたり、モジュラーデータでリポジトリー"
 "を作成したりします"
 
 #: plugins/modulesync.py:44
@@ -878,8 +884,9 @@ msgstr "ソースパッケージを含むリポジトリーを有効にします
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr "debug-info パッケージおよび debug-source "
-"パッケージでリポジトリーを有効にします"
+msgstr ""
+"debug-info パッケージおよび debug-source パッケージでリポジトリーを有効にしま"
+"す"
 
 #: plugins/modulesync.py:53
 msgid "download only packages from newest modules"
@@ -894,8 +901,9 @@ msgstr[0] "引数に一致するものが見つかりませんでした: '{}'"
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
-msgstr "リポジトリーの作成は戻りコード {} "
-"で失敗しました。ダウンロードされたコンテンツはすべてシステムに保持されました"
+msgstr ""
+"リポジトリーの作成は戻りコード {} で失敗しました。ダウンロードされたコンテン"
+"ツはすべてシステムに保持されました"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
@@ -905,8 +913,9 @@ msgstr "モジュール '{1}' のアーティファクト '{0}' に一致する�
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr "モジュール {2} からのプロファイル {1} のパッケージ名 '{0}' "
-"に一致するものはありません"
+msgstr ""
+"モジュール {2} からのプロファイル {1} のパッケージ名 '{0}' に一致するものはあ"
+"りません"
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
@@ -971,18 +980,18 @@ msgid "Bad Action Line \"%s\": %s"
 msgstr "不正なアクション行 \"%s\": %s"
 
 #. unsupported state, skip it
-#: plugins/post-transaction-actions.py:130
+#: plugins/post-transaction-actions.py:133
 #, python-format
 msgid "Bad Transaction State: %s"
 msgstr "不正なトランザクション状態: %s"
 
-#: plugins/post-transaction-actions.py:157
-#: plugins/post-transaction-actions.py:159
+#: plugins/post-transaction-actions.py:160
+#: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
 msgstr "post-transaction-actions: %s"
 
-#: plugins/post-transaction-actions.py:161
+#: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
 msgstr "post-transaction-actions: 不正なコマンド \"%s\": %s"
@@ -993,7 +1002,8 @@ msgstr "リポジトリーの未解決の依存関係の一覧を表示します
 
 #: plugins/repoclosure.py:69
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Repoclosure は、{} パッケージで依存関係 ({}) が解決されずに終了します。"
+msgstr ""
+"Repoclosure は、{} パッケージで依存関係 ({}) が解決されずに終了します。"
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1167,31 +1177,49 @@ msgstr "rpm パッケージのディレクトリーを管理します"
 msgid "Pass either --old or --new, not both!"
 msgstr "--old または --new のいずれかを渡します、両方ではありません!"
 
-#: plugins/repomanage.py:89
+#: plugins/repomanage.py:61
+#, fuzzy
+#| msgid "Pass either --old or --new, not both!"
+msgid "Pass either --oldonly or --new, not both!"
+msgstr "--old または --new のいずれかを渡します、両方ではありません!"
+
+#: plugins/repomanage.py:63
+#, fuzzy
+#| msgid "Pass either --old or --new, not both!"
+msgid "Pass either --old or --oldonly, not both!"
+msgstr "--old または --new のいずれかを渡します、両方ではありません!"
+
+#: plugins/repomanage.py:100
 msgid "No files to process"
 msgstr "処理するファイルはありません"
 
-#: plugins/repomanage.py:96
+#: plugins/repomanage.py:107
 msgid "Could not open {}"
 msgstr "{} を開くことができません"
 
-#: plugins/repomanage.py:180
+#: plugins/repomanage.py:223
 msgid "Print the older packages"
 msgstr "古いパッケージを印刷します"
 
-#: plugins/repomanage.py:182
+#: plugins/repomanage.py:225
+#, fuzzy
+#| msgid "Print the newest packages"
+msgid "Print the older packages. Exclude the newest packages."
+msgstr "最新のパッケージを印刷します"
+
+#: plugins/repomanage.py:227
 msgid "Print the newest packages"
 msgstr "最新のパッケージを印刷します"
 
-#: plugins/repomanage.py:184
+#: plugins/repomanage.py:229
 msgid "Space separated output, not newline"
 msgstr "スペースで区切られた出力で、改行ではありません"
 
-#: plugins/repomanage.py:186
+#: plugins/repomanage.py:231
 msgid "Newest N packages to keep - defaults to 1"
 msgstr "維持する最新の N パッケージ - デフォルトは 1 に設定されます"
 
-#: plugins/repomanage.py:189
+#: plugins/repomanage.py:234
 msgid "Path to directory"
 msgstr "ディレクトリーへのパス"
 
@@ -1297,6 +1325,179 @@ msgstr "リポジトリー %s の comps.xml が保存されました"
 msgid "New leaves:"
 msgstr ""
 "新規のリーフパッケージ (他のパッケージから依存されていないパッケージ) :"
+
+#. Translators: This string is only used in unit tests.
+#: plugins/system_upgrade.py:45
+msgid "the color of the sky"
+msgstr ""
+
+#: plugins/system_upgrade.py:57
+msgid "Need a --releasever greater than the current system version."
+msgstr ""
+
+#. Translators: do not change "reboot" here
+#: plugins/system_upgrade.py:59
+#, python-brace-format
+msgid ""
+"Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
+"To remove cached metadata and transaction use 'dnf {command} clean'"
+msgstr ""
+
+#: plugins/system_upgrade.py:62
+msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
+msgstr ""
+
+#: plugins/system_upgrade.py:71
+msgid "Reboot turned off, not rebooting."
+msgstr ""
+
+#: plugins/system_upgrade.py:122
+#, python-format
+msgid "Screen blanking can't be disabled: %s"
+msgstr ""
+
+#: plugins/system_upgrade.py:142
+#, python-format
+msgid "Failed loading state file: %s, continuing with empty state."
+msgstr ""
+
+#: plugins/system_upgrade.py:289
+msgid "The following boots appear to contain upgrade logs:"
+msgstr ""
+
+#: plugins/system_upgrade.py:299
+msgid "-- no logs were found --"
+msgstr ""
+
+#: plugins/system_upgrade.py:314
+msgid "Cannot find logs with this index."
+msgstr ""
+
+#: plugins/system_upgrade.py:323
+msgid "Unable to match systemd journal entry"
+msgstr ""
+
+#: plugins/system_upgrade.py:344
+msgid "Prepare system for upgrade to a new release"
+msgstr ""
+
+#: plugins/system_upgrade.py:360
+msgid "keep installed packages if the new release's version is older"
+msgstr ""
+
+#: plugins/system_upgrade.py:364
+msgid "which logs to show"
+msgstr ""
+
+#: plugins/system_upgrade.py:398
+#, python-brace-format
+msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
+msgstr ""
+
+#: plugins/system_upgrade.py:434
+msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
+msgstr ""
+
+#: plugins/system_upgrade.py:454
+msgid ""
+"WARNING: this operation is not supported on the RHEL distribution. Proceed "
+"at your own risk."
+msgstr ""
+
+#: plugins/system_upgrade.py:458
+msgid "Additional information for System Upgrade: {}"
+msgstr ""
+
+#: plugins/system_upgrade.py:461
+msgid ""
+"Before you continue ensure that your system is fully upgraded by running "
+"\"dnf --refresh upgrade\". Do you want to continue"
+msgstr ""
+
+#: plugins/system_upgrade.py:465
+msgid "Operation aborted."
+msgstr ""
+
+#: plugins/system_upgrade.py:526
+msgid "system is not ready for upgrade"
+msgstr ""
+
+#: plugins/system_upgrade.py:529
+#, python-brace-format
+msgid ""
+"the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
+"download [OPTIONS]'"
+msgstr ""
+
+#: plugins/system_upgrade.py:533
+#, fuzzy
+#| msgid "Package {} is already excluded"
+msgid "upgrade is already scheduled"
+msgstr "パッケージ{}はすでに除外されています"
+
+#: plugins/system_upgrade.py:539
+msgid "trigger file does not exist. exiting quietly."
+msgstr ""
+
+#: plugins/system_upgrade.py:542
+msgid "another upgrade tool is running. exiting quietly."
+msgstr ""
+
+#: plugins/system_upgrade.py:551
+#, python-brace-format
+msgid "use 'dnf {command} reboot' to begin the upgrade"
+msgstr ""
+
+#: plugins/system_upgrade.py:569
+msgid "Rebooting to perform upgrade."
+msgstr ""
+
+#: plugins/system_upgrade.py:602
+msgid "Starting offline upgrade. This will take a while."
+msgstr ""
+
+#: plugins/system_upgrade.py:604
+msgid "Starting offline distrosync. This will take a while."
+msgstr ""
+
+#: plugins/system_upgrade.py:606
+msgid "Starting system upgrade. This will take a while."
+msgstr ""
+
+#: plugins/system_upgrade.py:622
+msgid "Cleaning up downloaded data..."
+msgstr ""
+
+#: plugins/system_upgrade.py:652
+msgid ""
+"The system-upgrade transaction is empty, your system is already up-to-date."
+msgstr ""
+
+#: plugins/system_upgrade.py:661
+#, fuzzy
+#| msgid "Bad Transaction State: %s"
+msgid "Transaction saved to {}."
+msgstr "不正なトランザクション状態: %s"
+
+#: plugins/system_upgrade.py:664
+msgid "Error storing transaction: {}"
+msgstr ""
+
+#: plugins/system_upgrade.py:686
+msgid "Download finished."
+msgstr ""
+
+#: plugins/system_upgrade.py:689 plugins/system_upgrade.py:690
+msgid "Upgrade complete! Cleaning up and rebooting..."
+msgstr ""
+
+#: plugins/system_upgrade.py:699
+msgid "Prepare offline upgrade of the system"
+msgstr ""
+
+#: plugins/system_upgrade.py:704
+msgid "Prepare offline distrosync of the system"
+msgstr ""
 
 #: plugins/versionlock.py:33
 #, python-format
