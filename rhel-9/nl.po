@@ -1,5 +1,5 @@
-# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020, 2021, 2022.
-# Geert Warrink <geert.warrink@onsnet.nu>, 2020. #zanata, 2021, 2022.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020, 2021, 2022, 2023.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2020. #zanata, 2021, 2022, 2023.
 # Anonymous <noreply@weblate.org>, 2020.
 # Richard E. van der Luit <fedoraproject@veneax.nl>, 2020, 2023.
 msgid ""
@@ -7,10 +7,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-28 12:26+0100\n"
-"PO-Revision-Date: 2023-02-17 16:20+0000\n"
-"Last-Translator: Richard E. van der Luit <fedoraproject@veneax.nl>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-rhel-9/nl/>\n"
+"PO-Revision-Date: 2023-03-03 04:20+0000\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-rhel-9/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,6 +76,8 @@ msgstr "Er is niet aan alle afhankelijkheden voldaan"
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
+"Waarschuwing: -D of --define argumenten hebben geen betekenis voor bron rpm-"
+"pakketten."
 
 #: plugins/builddep.py:215
 #, python-format
@@ -1184,16 +1186,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Geef --old of --new door, niet beide!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Geef --old of --new door, niet beide!"
+msgstr "Geef --oldonly of --new door, niet beide!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Geef --old of --new door, niet beide!"
+msgstr "Geef --old of --oldonly door, niet beide!"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1208,10 +1206,8 @@ msgid "Print the older packages"
 msgstr "Print de oudere pakketten"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Print de nieuwste pakketten"
+msgstr "Print de oudere pakketten. Sluit de nieuwste pakketten uit."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
@@ -1337,11 +1333,11 @@ msgstr "Nieuwe leaves:"
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:45
 msgid "the color of the sky"
-msgstr ""
+msgstr "de kleur van de lucht"
 
 #: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "Er is een grotere --releasever nodig dan de huidige systeemversie."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:59
@@ -1350,85 +1346,98 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"Download compleet! Gebruik 'dnf {command} reboot' om de upgrade te starten.\n"
+"Gebruik 'dnf {command} clean' om metadata in de cache en transactie te "
+"verwijderen"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
+"Sorry, je moet 'download --releasever' gebruiken in plaats van '--network'"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "Opnieuw opstarten is uitgeschakeld, niet opnieuw opstarten."
 
 #: plugins/system_upgrade.py:122
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
-msgstr ""
+msgstr "Schermonderdrukking kan niet worden uitgeschakeld: %s"
 
 #: plugins/system_upgrade.py:142
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
-msgstr ""
+msgstr "Laden van statusbestand mislukt: %s, doorgaan met lege status."
 
 #: plugins/system_upgrade.py:289
 msgid "The following boots appear to contain upgrade logs:"
-msgstr ""
+msgstr "De volgende boots lijken upgrade-logboeken te bevatten:"
 
 #: plugins/system_upgrade.py:299
 msgid "-- no logs were found --"
-msgstr ""
+msgstr "-- geen logs gevonden --"
 
 #: plugins/system_upgrade.py:314
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Kan geen logs vinden met deze index."
 
 #: plugins/system_upgrade.py:323
 msgid "Unable to match systemd journal entry"
-msgstr ""
+msgstr "Kan systemd journaalingang niet matchen"
 
 #: plugins/system_upgrade.py:344
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Prepareer systeem voor upgrade naar een nieuwe release"
 
 #: plugins/system_upgrade.py:360
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
+"behoud geïnstalleerde pakketten als de versie van de nieuwe release ouder is"
 
 #: plugins/system_upgrade.py:364
 msgid "which logs to show"
-msgstr ""
+msgstr "welke logboeken worden getoond"
 
 #: plugins/system_upgrade.py:398
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
+"Incompatibele versie van data. Voer 'dnf {command} download [OPTIONS]' "
+"opnieuw uit"
 
 #: plugins/system_upgrade.py:434
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
+"Commando 'offline-distrosync' kan niet worden gebruikt met de --no-downgrade "
+"optie"
 
 #: plugins/system_upgrade.py:454
 msgid ""
 "WARNING: this operation is not supported on the RHEL distribution. Proceed "
 "at your own risk."
 msgstr ""
+"WAARSCHUWING: deze bewerking wordt niet ondersteund op de RHEL-distributie. "
+"Ga verder op eigen risico."
 
 #: plugins/system_upgrade.py:458
 msgid "Additional information for System Upgrade: {}"
-msgstr ""
+msgstr "Extra informatie voor Systeem Upgrade: {}"
 
 #: plugins/system_upgrade.py:461
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
 msgstr ""
+"Controleer voordat je doorgaat of jouw systeem volledig is geüpgraded door "
+"\"dnf --refresh upgrade\" uit te voeren. Wil je doorgaan"
 
 #: plugins/system_upgrade.py:465
 msgid "Operation aborted."
-msgstr ""
+msgstr "Uitvoering afgebroken."
 
 #: plugins/system_upgrade.py:526
 msgid "system is not ready for upgrade"
-msgstr ""
+msgstr "systeem is niet klaar voor upgrade"
 
 #: plugins/system_upgrade.py:529
 #, python-brace-format
@@ -1436,76 +1445,74 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
+"de transactie was niet voorbereid op '{command}'. Voer 'dnf {command} "
+"download [OPTIES]' opnieuw uit"
 
 #: plugins/system_upgrade.py:533
-#, fuzzy
-#| msgid "Package {} is already excluded"
 msgid "upgrade is already scheduled"
-msgstr "Pakket {} is al uitgesloten"
+msgstr "upgrade is al gepland"
 
 #: plugins/system_upgrade.py:539
 msgid "trigger file does not exist. exiting quietly."
-msgstr ""
+msgstr "trigger-bestand bestaat niet. rustig afsluiten."
 
 #: plugins/system_upgrade.py:542
 msgid "another upgrade tool is running. exiting quietly."
-msgstr ""
+msgstr "er is een ander upgrade-tool actief. rustig afsluiten."
 
 #: plugins/system_upgrade.py:551
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "gebruik 'dnf {command} reboot' om te beginnen met de upgrade"
 
 #: plugins/system_upgrade.py:569
 msgid "Rebooting to perform upgrade."
-msgstr ""
+msgstr "Opnieuw opstarten om upgrade uit te voeren."
 
 #: plugins/system_upgrade.py:602
 msgid "Starting offline upgrade. This will take a while."
-msgstr ""
+msgstr "Offline upgrade starten. Dit gaat even duren."
 
 #: plugins/system_upgrade.py:604
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
+msgstr "Offline distrosync starten. Dit gaat even duren."
 
 #: plugins/system_upgrade.py:606
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Systeem upgrade starten. Dit gaat even duren."
 
 #: plugins/system_upgrade.py:622
 msgid "Cleaning up downloaded data..."
-msgstr ""
+msgstr "Gedownloade data opschonen ..."
 
 #: plugins/system_upgrade.py:652
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "De systeem-upgrade transactie is leeg, jouw systeem is al up-to-date."
 
 #: plugins/system_upgrade.py:661
-#, fuzzy
-#| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
-msgstr "Slechte transactie status: %s"
+msgstr "Transactie opgeslagen naar {}."
 
 #: plugins/system_upgrade.py:664
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "Fout tijdens het opslaan van transactie: {}"
 
 #: plugins/system_upgrade.py:686
 msgid "Download finished."
-msgstr ""
+msgstr "Download voltooid."
 
 #: plugins/system_upgrade.py:689 plugins/system_upgrade.py:690
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr ""
+msgstr "Upgrade voltooid! Opschonen en opnieuw opstarten..."
 
 #: plugins/system_upgrade.py:699
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "Offline upgrade van het systeem voorbereiden"
 
 #: plugins/system_upgrade.py:704
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "Offline distrosync van het systeem voorbereiden"
 
 #: plugins/versionlock.py:33
 #, python-format
