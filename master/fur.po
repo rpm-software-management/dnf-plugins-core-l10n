@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-28 02:13+0000\n"
-"PO-Revision-Date: 2023-02-22 21:20+0000\n"
+"PO-Revision-Date: 2023-03-03 04:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/fur/>\n"
@@ -155,7 +155,7 @@ msgstr "gjestìs lis opzions di configurazion di {prog} e i dipuesits"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "sezions di configurazion di gjestî, \"main\" o repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
