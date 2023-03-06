@@ -13,11 +13,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-03 03:49+0000\n"
+"POT-Creation-Date: 2023-03-06 02:16+0000\n"
 "PO-Revision-Date: 2023-03-06 13:48+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1433,8 +1433,8 @@ msgstr ""
 #: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
-"La commande 'offline-distrosync' ne peut pas être utilisée avec l'option "
-"--no-downgrade"
+"La commande 'offline-distrosync' ne peut pas être utilisée avec l'option --"
+"no-downgrade"
 
 #: plugins/system_upgrade.py:464
 msgid "Additional information for System Upgrade: {}"
@@ -1462,8 +1462,8 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
-"La transaction n'a pas été préparée pour '{command}'. Relancez 'dnf {command}"
-" download [OPTIONS]'"
+"La transaction n'a pas été préparée pour '{command}'. Relancez 'dnf "
+"{command} download [OPTIONS]'"
 
 #: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
@@ -1471,7 +1471,8 @@ msgstr "la mise à niveau est déjà prévue"
 
 #: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
-msgstr "Le fichier de déclenchement n'existe pas. Il se termine tranquillement."
+msgstr ""
+"Le fichier de déclenchement n'existe pas. Il se termine tranquillement."
 
 #: plugins/system_upgrade.py:548
 msgid "another upgrade tool is running. exiting quietly."

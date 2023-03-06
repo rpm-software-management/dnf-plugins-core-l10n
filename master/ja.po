@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-03 03:49+0000\n"
+"POT-Creation-Date: 2023-03-06 02:16+0000\n"
 "PO-Revision-Date: 2023-03-06 13:48+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -75,8 +75,9 @@ msgstr "すべての依存関係が満たされているわけではない"
 #: plugins/builddep.py:208
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
-msgstr "警告: -D または --define 引数には、ソース rpm "
-"パッケージに対する意味はありません。"
+msgstr ""
+"警告: -D または --define 引数には、ソース rpm パッケージに対する意味はありま"
+"せん。"
 
 #: plugins/builddep.py:215
 #, python-format
@@ -1336,15 +1337,16 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
-"ダウンロードが完了しました! 'dnf {command} reboot' "
-"を使用して､アップグレードを開始します｡\n"
+"ダウンロードが完了しました! 'dnf {command} reboot' を使用して､アップグレード"
+"を開始します｡\n"
 "キャッシュしたメタデータやトランザクションを削除するには､'dnf {command} "
 "clean' を使用します』"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr "申し訳ございません｡'--network' の代わりに 'download --releasever' "
-"を使用する必要があります』"
+msgstr ""
+"申し訳ございません｡'--network' の代わりに 'download --releasever' を使用する"
+"必要があります』"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
@@ -1382,7 +1384,8 @@ msgstr "新しいリリースへのアップグレードに向けたシステム
 
 #: plugins/system_upgrade.py:364
 msgid "keep installed packages if the new release's version is older"
-msgstr "新しいリリースのバージョンが古い場合は、インストール済みパッケージを維持しま"
+msgstr ""
+"新しいリリースのバージョンが古い場合は、インストール済みパッケージを維持しま"
 "す"
 
 #: plugins/system_upgrade.py:368
@@ -1396,12 +1399,14 @@ msgstr "表示するログ"
 #: plugins/system_upgrade.py:406
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
-msgstr "互換性のないバージョンのデータ。'dnf {command} download [OPTIONS]' "
-"を再実行します』"
+msgstr ""
+"互換性のないバージョンのデータ。'dnf {command} download [OPTIONS]' を再実行し"
+"ます』"
 
 #: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
-msgstr "コマンド 'offline-distrosync' は --no-downgrade オプションと併用できません"
+msgstr ""
+"コマンド 'offline-distrosync' は --no-downgrade オプションと併用できません"
 
 #: plugins/system_upgrade.py:464
 msgid "Additional information for System Upgrade: {}"
@@ -1411,7 +1416,8 @@ msgstr "システムアップグレードの追加情報: {}"
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
-msgstr "続行する前に、dnf --refresh upgrade を実行して、システムが完全にアップグレー"
+msgstr ""
+"続行する前に、dnf --refresh upgrade を実行して、システムが完全にアップグレー"
 "ドされていることを確認します。続行しますか"
 
 #: plugins/system_upgrade.py:471
@@ -1471,7 +1477,8 @@ msgstr "ダウンロードしたデータのクリーンアップ中..."
 #: plugins/system_upgrade.py:663
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr "システムアップグレードトランザクションは空で、システムはすでに最新です。"
+msgstr ""
+"システムアップグレードトランザクションは空で、システムはすでに最新です。"
 
 #: plugins/system_upgrade.py:672
 msgid "Transaction saved to {}."
