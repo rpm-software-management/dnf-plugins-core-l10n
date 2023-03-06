@@ -2,13 +2,13 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Casey Jones <nahareport@yahoo.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
-# Transtats <suanand@redhat.com>, 2022.
+# Transtats <suanand@redhat.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-28 12:21+0100\n"
-"PO-Revision-Date: 2022-09-07 14:19+0000\n"
+"PO-Revision-Date: 2023-03-06 13:48+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-rhel-8/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -76,7 +76,8 @@ msgstr "すべての依存関係が満たされているわけではない"
 #: plugins/builddep.py:208
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
-msgstr ""
+msgstr "警告: -D または --define 引数には、ソース rpm "
+"パッケージに対する意味はありません。"
 
 #: plugins/builddep.py:215
 #, python-format
@@ -1322,11 +1323,11 @@ msgstr ""
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:45
 msgid "the color of the sky"
-msgstr ""
+msgstr "Sky の色"
 
 #: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "現在のシステムバージョンよりも大きい --releasever が必要です。"
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:59
@@ -1335,85 +1336,94 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"ダウンロードが完了しました! 'dnf {command} reboot' "
+"を使用して､アップグレードを開始します｡\n"
+"キャッシュしたメタデータやトランザクションを削除するには､'dnf {command} "
+"clean' を使用します』"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr ""
+msgstr "申し訳ございません｡'--network' の代わりに 'download --releasever' "
+"を使用する必要があります』"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "再起動ではなく、再起動をオフにしました。"
 
 #: plugins/system_upgrade.py:122
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
-msgstr ""
+msgstr "空白の画面は無効にできません: %s"
 
 #: plugins/system_upgrade.py:142
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
-msgstr ""
+msgstr "状態ファイルの読み込みに失敗: %s､空の状態で続行｡"
 
 #: plugins/system_upgrade.py:289
 msgid "The following boots appear to contain upgrade logs:"
-msgstr ""
+msgstr "以下のブートには、アップグレードログが含まれているように見えます:"
 
 #: plugins/system_upgrade.py:299
 msgid "-- no logs were found --"
-msgstr ""
+msgstr "-- ログが見つかりませんでした --"
 
 #: plugins/system_upgrade.py:314
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "このインデックスのログが見つかりません。"
 
 #: plugins/system_upgrade.py:323
 msgid "Unable to match systemd journal entry"
-msgstr ""
+msgstr "systemd ジャーナルエントリーにマッチできない"
 
 #: plugins/system_upgrade.py:344
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "新しいリリースへのアップグレードに向けたシステムの準備"
 
 #: plugins/system_upgrade.py:360
 msgid "keep installed packages if the new release's version is older"
-msgstr ""
+msgstr "新しいリリースのバージョンが古い場合は、インストール済みパッケージを維持しま"
+"す"
 
 #: plugins/system_upgrade.py:364
 msgid "which logs to show"
-msgstr ""
+msgstr "表示するログ"
 
 #: plugins/system_upgrade.py:398
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
-msgstr ""
+msgstr "互換性のないバージョンのデータ。'dnf {command} download [OPTIONS]' "
+"を再実行します』"
 
 #: plugins/system_upgrade.py:434
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
-msgstr ""
+msgstr "コマンド 'offline-distrosync' は --no-downgrade オプションと併用できません"
 
 #: plugins/system_upgrade.py:454
 msgid ""
 "WARNING: this operation is not supported on the RHEL distribution. Proceed "
 "at your own risk."
-msgstr ""
+msgstr "警告: この操作は RHEL ディストリビューションではサポートされていません。自己"
+"責任で続行してください。"
 
 #: plugins/system_upgrade.py:458
 msgid "Additional information for System Upgrade: {}"
-msgstr ""
+msgstr "システムアップグレードの追加情報: {}"
 
 #: plugins/system_upgrade.py:461
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
-msgstr ""
+msgstr "続行する前に、dnf --refresh upgrade を実行して、システムが完全にアップグレー"
+"ドされていることを確認します。続行しますか"
 
 #: plugins/system_upgrade.py:465
 msgid "Operation aborted."
-msgstr ""
+msgstr "操作が中断されました。"
 
 #: plugins/system_upgrade.py:526
 msgid "system is not ready for upgrade"
-msgstr ""
+msgstr "システムがアップグレードの準備ができていません"
 
 #: plugins/system_upgrade.py:529
 #, python-brace-format
@@ -1421,76 +1431,74 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
+"トランザクションは '{command}' に対して準備されていません。'dnf {command} "
+"download [OPTIONS]' を再実行します』"
 
 #: plugins/system_upgrade.py:533
-#, fuzzy
-#| msgid "Package {} is already excluded"
 msgid "upgrade is already scheduled"
-msgstr "パッケージ{}はすでに除外されています"
+msgstr "アップグレードはすでにスケジュールされています"
 
 #: plugins/system_upgrade.py:539
 msgid "trigger file does not exist. exiting quietly."
-msgstr ""
+msgstr "トリガーファイルは存在しません。間もなく終了します。"
 
 #: plugins/system_upgrade.py:542
 msgid "another upgrade tool is running. exiting quietly."
-msgstr ""
+msgstr "別のアップグレードツールが実行中で、警告なしで終了します。"
 
 #: plugins/system_upgrade.py:551
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "'dnf {command} reboot' を使用してアップグレードを開始します"
 
 #: plugins/system_upgrade.py:569
 msgid "Rebooting to perform upgrade."
-msgstr ""
+msgstr "再起動してアップグレードを実行します。"
 
 #: plugins/system_upgrade.py:602
 msgid "Starting offline upgrade. This will take a while."
-msgstr ""
+msgstr "オフラインアップグレードの開始。これには時間がかかります。"
 
 #: plugins/system_upgrade.py:604
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
+msgstr "オフラインの distrosync の開始。これには時間がかかります。"
 
 #: plugins/system_upgrade.py:606
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "システムのアップグレードを開始します。これには時間がかかります。"
 
 #: plugins/system_upgrade.py:622
 msgid "Cleaning up downloaded data..."
-msgstr ""
+msgstr "ダウンロードしたデータのクリーンアップ中..."
 
 #: plugins/system_upgrade.py:652
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "システムアップグレードトランザクションは空で、システムはすでに最新です。"
 
 #: plugins/system_upgrade.py:661
-#, fuzzy
-#| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
-msgstr "不正なトランザクション状態: %s"
+msgstr "{} に保存されているトランザクション。"
 
 #: plugins/system_upgrade.py:664
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "トランザクションの保存エラー： {}"
 
 #: plugins/system_upgrade.py:686
 msgid "Download finished."
-msgstr ""
+msgstr "ダウンロードが完了しました。"
 
 #: plugins/system_upgrade.py:689 plugins/system_upgrade.py:690
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr ""
+msgstr "アップグレードの完了! クリーンアップおよび再起動を行っています..."
 
 #: plugins/system_upgrade.py:699
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "システムのオフラインアップグレードの準備"
 
 #: plugins/system_upgrade.py:704
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "システムのオフラインの distrosync を準備します"
 
 #: plugins/versionlock.py:33
 #, python-format
