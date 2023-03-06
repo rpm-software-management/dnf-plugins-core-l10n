@@ -7,13 +7,13 @@
 # Hongqiao Chen <harrychen0314@gmail.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
-# Transtats <suanand@redhat.com>, 2022.
+# Transtats <suanand@redhat.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-28 12:26+0100\n"
-"PO-Revision-Date: 2022-09-07 14:19+0000\n"
+"PO-Revision-Date: 2023-03-06 13:48+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-rhel-9/zh_CN/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -80,7 +80,7 @@ msgstr "没有满足全部的依赖关系"
 #: plugins/builddep.py:208
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
-msgstr ""
+msgstr "警告：-D 或 --define 参数对源 rpm 软件包没有意义。"
 
 #: plugins/builddep.py:215
 #, python-format
@@ -834,7 +834,7 @@ msgstr "迁移 yum 的历史、分组以及 yumdb 数据至 dnf"
 
 #: plugins/migrate.py:54
 msgid "Migrating history data..."
-msgstr "正在迁移历史数据…"
+msgstr "正在迁移历史数据..."
 
 #: plugins/modulesync.py:37
 msgid ""
@@ -875,12 +875,12 @@ msgstr "创建存储库会失败，并显示返回码 {}。所有下载的内容
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr "没有与模块 '{1}' 的工件 '{0}' 相匹配的项"
+msgstr "没有与来自模块 '{1}' 的工件 '{0}' 相匹配的项"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr "没有与模块 {2} 中配置文件 {1} 的软件包名称 '{0}' 相匹配的项"
+msgstr "没有与来自模块 {2} 中配置集 {1} 的软件包名称 '{0}' 相匹配的项"
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
@@ -1134,16 +1134,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "传递 --old 或者 --new，而不是两者都传递！"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "传递 --old 或者 --new，而不是两者都传递！"
+msgstr "传递 --oldonly 或 --new，而不是两者都传递！"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "传递 --old 或者 --new，而不是两者都传递！"
+msgstr "传递 --old 或 --oldonly，而不是两者都传递！"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1158,10 +1154,8 @@ msgid "Print the older packages"
 msgstr "打印较旧的软件包"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "打印最新的软件包"
+msgstr "打印旧的软件包。排除最新的软件包。"
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
@@ -1280,11 +1274,11 @@ msgstr "新增保留项："
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:45
 msgid "the color of the sky"
-msgstr ""
+msgstr "sky 的颜色"
 
 #: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "需要大于当前系统版本的 --releasever。"
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:59
@@ -1293,162 +1287,161 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"下载完成！使用 'dnf {command} reboot' 启动升级。 \n"
+" 要删除缓存的元数据和事务，请使用 'dnf {command} clean'"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr ""
+msgstr "您需要使用 'download --releasever' 而不是 '-network'"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "重启被关闭，没有重新启动。"
 
 #: plugins/system_upgrade.py:122
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
-msgstr ""
+msgstr "无法禁用屏幕空白：%s"
 
 #: plugins/system_upgrade.py:142
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
-msgstr ""
+msgstr "加载状态文件失败：%s，继续为空状态。"
 
 #: plugins/system_upgrade.py:289
 msgid "The following boots appear to contain upgrade logs:"
-msgstr ""
+msgstr "以下引导会包含升级日志："
 
 #: plugins/system_upgrade.py:299
 msgid "-- no logs were found --"
-msgstr ""
+msgstr "-- 没有找到日志 --"
 
 #: plugins/system_upgrade.py:314
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "无法找到使用此索引的日志。"
 
 #: plugins/system_upgrade.py:323
 msgid "Unable to match systemd journal entry"
-msgstr ""
+msgstr "无法与 systemd 日志条目匹配"
 
 #: plugins/system_upgrade.py:344
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "准备系统以升级到新版本"
 
 #: plugins/system_upgrade.py:360
 msgid "keep installed packages if the new release's version is older"
-msgstr ""
+msgstr "如果新版本中的版本更旧，保留安装的软件包"
 
 #: plugins/system_upgrade.py:364
 msgid "which logs to show"
-msgstr ""
+msgstr "要显示的日志"
 
 #: plugins/system_upgrade.py:398
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
-msgstr ""
+msgstr "不兼容的数据版本。重新运行 'dnf {command} download [OPTIONS]'"
 
 #: plugins/system_upgrade.py:434
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
-msgstr ""
+msgstr "命令 'offline-distrosync' 无法与 --no-downgrade 选项一起使用"
 
 #: plugins/system_upgrade.py:454
 msgid ""
 "WARNING: this operation is not supported on the RHEL distribution. Proceed "
 "at your own risk."
-msgstr ""
+msgstr "警告：在 RHEL 发行版上不支持此操作。您需要自性承担相关的风险。"
 
 #: plugins/system_upgrade.py:458
 msgid "Additional information for System Upgrade: {}"
-msgstr ""
+msgstr "系统升级的额外信息：{}"
 
 #: plugins/system_upgrade.py:461
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
-msgstr ""
+msgstr "在继续请，确定您的系统已通过运行 \"dnf --refresh upgrade\" "
+"完全升级。您要继续操作"
 
 #: plugins/system_upgrade.py:465
 msgid "Operation aborted."
-msgstr ""
+msgstr "操作中止。"
 
 #: plugins/system_upgrade.py:526
 msgid "system is not ready for upgrade"
-msgstr ""
+msgstr "系统还未就绪进行升级"
 
 #: plugins/system_upgrade.py:529
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
-msgstr ""
+msgstr "事务没有为 '{command}' 准备。重新运行 'dnf {command} download [OPTIONS]'"
 
 #: plugins/system_upgrade.py:533
-#, fuzzy
-#| msgid "Package {} is already excluded"
 msgid "upgrade is already scheduled"
-msgstr "软件包 {} 已被排除"
+msgstr "升级已被调度"
 
 #: plugins/system_upgrade.py:539
 msgid "trigger file does not exist. exiting quietly."
-msgstr ""
+msgstr "触发器文件不存在。静默退出。"
 
 #: plugins/system_upgrade.py:542
 msgid "another upgrade tool is running. exiting quietly."
-msgstr ""
+msgstr "另一个升级工具正在运行。静默退出。"
 
 #: plugins/system_upgrade.py:551
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "使用 'dnf {command} reboot' 开始升级"
 
 #: plugins/system_upgrade.py:569
 msgid "Rebooting to perform upgrade."
-msgstr ""
+msgstr "重启以执行升级。"
 
 #: plugins/system_upgrade.py:602
 msgid "Starting offline upgrade. This will take a while."
-msgstr ""
+msgstr "启动离线升级。这将需要一段时间。"
 
 #: plugins/system_upgrade.py:604
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
+msgstr "启动离线 distrosync。这将需要一段时间。"
 
 #: plugins/system_upgrade.py:606
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "启动系统升级。这需要一段时间。"
 
 #: plugins/system_upgrade.py:622
 msgid "Cleaning up downloaded data..."
-msgstr ""
+msgstr "清理下载的数据..."
 
 #: plugins/system_upgrade.py:652
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "system-upgrade 事务为空，您的系统已经为最新版本。"
 
 #: plugins/system_upgrade.py:661
-#, fuzzy
-#| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
-msgstr "错误的事务状态： %s"
+msgstr "事务已保存到 {}。"
 
 #: plugins/system_upgrade.py:664
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "存储事务时出现错误：{}"
 
 #: plugins/system_upgrade.py:686
 msgid "Download finished."
-msgstr ""
+msgstr "下载已完成。"
 
 #: plugins/system_upgrade.py:689 plugins/system_upgrade.py:690
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr ""
+msgstr "升级完成！清理并重启..."
 
 #: plugins/system_upgrade.py:699
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "准备系统的离线升级"
 
 #: plugins/system_upgrade.py:704
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "准备系统的离线 distrosync"
 
 #: plugins/versionlock.py:33
 #, python-format
