@@ -5,21 +5,22 @@
 # Daniel Rusek <mail@asciiwolf.com>, 2019. #zanata
 # Daniel Rusek <mail@asciiwolf.com>, 2020. #zanata
 # Jan Kolarik <jkolarik@redhat.com>, 2022.
+# Pavel Borecki <pavel.borecki@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-16 02:05+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Jan Kolarik <jkolarik@redhat.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/cs/>\n"
+"PO-Revision-Date: 2023-03-30 19:20+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -41,6 +42,7 @@ msgstr "Definovat makro pro parsování souboru spec"
 #: plugins/builddep.py:95
 msgid "skip build dependencies not available in repositories"
 msgstr ""
+"přeskočit sestavování závislostí, které nejsou v repozitářích k dispozici"
 
 #: plugins/builddep.py:98
 msgid "treat commandline arguments as spec files"
@@ -78,6 +80,8 @@ msgstr "Ne všechny závislosti jsou uspokojeny"
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
+"Varování: argumenty -D nebo --define nemají v případě zdrojových rpm balíčků "
+"význam."
 
 #: plugins/builddep.py:215
 #, python-format
@@ -142,7 +146,7 @@ msgstr ""
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
-msgstr ""
+msgstr "Seznamy změn pro {}"
 
 #: plugins/config_manager.py:38
 #, python-brace-format
