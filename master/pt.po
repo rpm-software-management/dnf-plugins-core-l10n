@@ -1,13 +1,14 @@
 # Manuela Silva <mmsrs@sky.com>, 2019. #zanata
 # Pedro Flores <pedro_flores_16@hotmail.com>, 2021.
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2021.
+# Felipe Nogueira <contato.fnog@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 02:04+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-04-04 19:20+0000\n"
+"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/pt/>\n"
 "Language: pt\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -68,7 +69,7 @@ msgstr ""
 
 #: plugins/builddep.py:204 plugins/builddep.py:224 plugins/builddep.py:241
 msgid "Not all dependencies satisfied"
-msgstr ""
+msgstr "Nem todas as dependências satisfeitas"
 
 #: plugins/builddep.py:208
 msgid ""
@@ -121,7 +122,7 @@ msgstr "Nenhuma correspondência para o argumento: %s"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
-msgstr ""
+msgstr "Listar log de alterações desde {}"
 
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
