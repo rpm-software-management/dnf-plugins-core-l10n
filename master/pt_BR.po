@@ -11,13 +11,14 @@
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
 # Daimar Stein <daimarstein@pm.me>, 2022.
+# Felipe Nogueira <contato.fnog@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 02:04+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-04-04 19:20+0000\n"
+"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -25,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -882,10 +883,8 @@ msgid "MODULE"
 msgstr "MÓDULO"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "pacotes para baixar"
+msgstr "módulos para baixar"
 
 #: plugins/modulesync.py:47
 #, fuzzy
@@ -1198,16 +1197,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Passe --old ou --new, não ambos!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Passe --old ou --new, não ambos!"
+msgstr "Passe --oldonly ou --new, não ambos!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Passe --old ou --new, não ambos!"
+msgstr "Passe --old ou --oldonly, não ambos!"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1222,8 +1217,6 @@ msgid "Print the older packages"
 msgstr "Imprimir os pacotes mais antigos"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
 msgstr "Imprimir os pacotes mais antigos. Exclui os pacotes mais novos."
 
@@ -1522,8 +1515,6 @@ msgid "Upgrade complete! Cleaning up and powering off..."
 msgstr "Atualização completa! Limpando e reiniciando..."
 
 #: plugins/system_upgrade.py:703
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Atualização completa! Limpando e reiniciando..."
 
