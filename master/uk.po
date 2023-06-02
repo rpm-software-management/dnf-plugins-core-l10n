@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-02 02:15+0000\n"
-"PO-Revision-Date: 2023-03-03 04:20+0000\n"
+"PO-Revision-Date: 2023-06-04 13:12+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1289,16 +1289,17 @@ msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Шлях у файловій системі, який вважається безпечним для запису. Типовим є "
+"шлях для отримання даних."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "Не можна використовувати --norepopath, якщо вказано декілька сховищ"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "Не можна використовувати --norepopath, якщо вказано декілька сховищ"
+msgstr ""
+"Не можна використовувати --safe-write-path, якщо вказано декілька сховищ"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1318,14 +1319,13 @@ msgid "GPG signature check failed."
 msgstr "Не пройдено перевірку підпису GPG."
 
 #: plugins/reposync.py:208
-#, fuzzy, python-brace-format
-#| msgid "Download target '{}' is outside of download path '{}'."
+#, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
 msgstr ""
-"Ціль отримання даних «{}» перебуває поза межами шляху для отримання даних "
-"«{}»."
+"Ціль отримання даних «{0}» для місця «{1}» пакунка «{2}» перебуває поза "
+"безпечним для запису шляхом «{3}»."
 
 #: plugins/reposync.py:224
 #, python-format
