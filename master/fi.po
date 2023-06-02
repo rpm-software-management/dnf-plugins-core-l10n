@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-04 01:59+0000\n"
+"POT-Creation-Date: 2023-06-02 02:15+0000\n"
 "PO-Revision-Date: 2023-03-03 04:20+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -295,11 +295,11 @@ msgstr "Luettele saatavilla olevat Copr-tietovarastot käyttäjän NIMEN mukaan"
 msgid "Specify an instance of Copr to work with"
 msgstr "Määritä Copr-ilmentymä, jota haluat käyttää"
 
-#: plugins/copr.py:162 plugins/copr.py:253 plugins/copr.py:280
+#: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
 msgid "Error: "
 msgstr "Virhe: "
 
-#: plugins/copr.py:163
+#: plugins/copr.py:164
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -307,36 +307,36 @@ msgstr ""
 "määritä Copr hub käyttäen `--hub` tai `copr_hub/copr_username/"
 "copr_projectname` muotoa"
 
-#: plugins/copr.py:166
+#: plugins/copr.py:167
 msgid "multiple hubs specified"
 msgstr "useita keskittimiä määritetty"
 
-#: plugins/copr.py:254 plugins/copr.py:258
+#: plugins/copr.py:255 plugins/copr.py:259
 msgid "exactly two additional parameters to copr command are required"
 msgstr "tasan kaksi lisäparametria copr-komentoon vaaditaan"
 
-#: plugins/copr.py:263
+#: plugins/copr.py:264
 msgid "Too many arguments."
 msgstr "Liian monta argumenttia."
 
-#: plugins/copr.py:266
+#: plugins/copr.py:267
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
 "Väärä valinnaisen chrootin muoto. Muoto on jakelu-versio-arkkitehtuuri."
 
-#: plugins/copr.py:281
+#: plugins/copr.py:282
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "käytä muotoa `copr_käyttäjänimi/copr_projektinimi` viitataksesi hankkeeseen "
 "copr"
 
-#: plugins/copr.py:283
+#: plugins/copr.py:284
 msgid "bad copr project format"
 msgstr "väärä copr-projektimuoto"
 
-#: plugins/copr.py:297
+#: plugins/copr.py:298
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -364,23 +364,23 @@ msgstr ""
 "Bugzillaan. Jos paketeissa on ongelmia, ota yhteyttä tietovaraston "
 "omistajaan.\n"
 
-#: plugins/copr.py:314
+#: plugins/copr.py:315
 msgid "Repository successfully enabled."
 msgstr "Ohjelmistolähteen käyttöönotto onnistui."
 
-#: plugins/copr.py:319
+#: plugins/copr.py:320
 msgid "Repository successfully disabled."
 msgstr "Ohjelmistolähteen käytöstä poisto onnistui."
 
-#: plugins/copr.py:323
+#: plugins/copr.py:324
 msgid "Repository successfully removed."
 msgstr "Ohjelmistolähteen poisto onnistui."
 
-#: plugins/copr.py:327 plugins/copr.py:738
+#: plugins/copr.py:328 plugins/copr.py:739
 msgid "Unknown subcommand {}."
 msgstr "Tuntematon alikomento {}."
 
-#: plugins/copr.py:384
+#: plugins/copr.py:385
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -390,53 +390,53 @@ msgstr ""
 "sisällä tietoja Copr-keskittimestä - käytetään oletuksia. Ota projekti "
 "uudelleen käyttöön muuttaaksesi tätä oletusta."
 
-#: plugins/copr.py:397
+#: plugins/copr.py:398
 msgid "Can't parse repositories for username '{}'."
 msgstr "Käyttäjänimelle ”{}” ohjelmistolähteitä ei voi jäsentää."
 
-#: plugins/copr.py:400
+#: plugins/copr.py:401
 msgid "List of {} coprs"
 msgstr "Luettelo {} copr:eista"
 
-#: plugins/copr.py:405
+#: plugins/copr.py:406
 msgid "No description given"
 msgstr "Kuvausta ei annettu"
 
-#: plugins/copr.py:417
+#: plugins/copr.py:418
 msgid "Can't parse search for '{}'."
 msgstr "Hakua ”{}”:lle ei voi jäsentää."
 
-#: plugins/copr.py:420
+#: plugins/copr.py:421
 msgid "Matched: {}"
 msgstr "Vastaavuus: {}"
 
-#: plugins/copr.py:425
+#: plugins/copr.py:426
 msgid "No description given."
 msgstr "Kuvausta ei annettu."
 
-#: plugins/copr.py:447
+#: plugins/copr.py:448
 msgid "Safe and good answer. Exiting."
 msgstr "Turvallinen ja hyvä vastaus. Jännittävää."
 
-#: plugins/copr.py:454
+#: plugins/copr.py:455
 msgid "This command has to be run under the root user."
 msgstr "Tämä komento pitää suorittaa käyttäjänä root."
 
-#: plugins/copr.py:504
+#: plugins/copr.py:505
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Pyyntö kohteeseen {0} epäonnistui: {1} - {2}"
 
-#: plugins/copr.py:506
+#: plugins/copr.py:507
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Tätä projektia ei voitu ottaa käyttöön.\n"
 
-#: plugins/copr.py:511
+#: plugins/copr.py:512
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "Ohjelmistolähdettä '{0}' ei ole projektissa '{1}'."
 
-#: plugins/copr.py:514
+#: plugins/copr.py:515
 msgid ""
 "\n"
 "Available repositories: "
@@ -444,7 +444,7 @@ msgstr ""
 "\n"
 "Saattavilla olevat tietovarastot: "
 
-#: plugins/copr.py:516
+#: plugins/copr.py:517
 #, python-brace-format
 msgid ""
 "\n"
@@ -461,17 +461,17 @@ msgstr ""
 "Huomaa kuitenkin, että asennettu repo-tiedosto tarvitsee todennäköisesti "
 "manuaalisen muokkauksen."
 
-#: plugins/copr.py:522
+#: plugins/copr.py:523
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Projektia {0} ei ole olemassa."
 
-#: plugins/copr.py:525
+#: plugins/copr.py:526
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Yhteyden muodostaminen kohteeseen {0} epäonnistui: {1}"
 
-#: plugins/copr.py:572
+#: plugins/copr.py:573
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -499,44 +499,44 @@ msgstr ""
 "\n"
 "Nämä tietovarastot on otettu käyttöön automaattisesti."
 
-#: plugins/copr.py:593
+#: plugins/copr.py:594
 msgid "Do you want to keep them enabled?"
 msgstr "Haluatko pitää ne käytössä?"
 
-#: plugins/copr.py:626
+#: plugins/copr.py:627
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Copr-ohjelmistolähteen {0}/{1}/{2} poisto epäonnistui"
 
-#: plugins/copr.py:637
+#: plugins/copr.py:638
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Copr-ohjelmistolähteen {}/{} käytöstä poisto epäonnistui"
 
-#: plugins/copr.py:655 plugins/copr.py:692
+#: plugins/copr.py:656 plugins/copr.py:693
 msgid "Unknown response from server."
 msgstr "Tuntematon vastaus palvelimelta."
 
-#: plugins/copr.py:677
+#: plugins/copr.py:678
 msgid "Interact with Playground repository."
 msgstr "Vuorovaikuta Playground-ohjelmistolähteen kanssa."
 
-#: plugins/copr.py:683
+#: plugins/copr.py:684
 msgid "Enabling a Playground repository."
 msgstr "Otetaan käyttöön Playground-ohjelmistolähde."
 
-#: plugins/copr.py:684
+#: plugins/copr.py:685
 msgid "Do you want to continue?"
 msgstr "Haluatko jatkaa?"
 
-#: plugins/copr.py:728
+#: plugins/copr.py:729
 msgid "Playground repositories successfully enabled."
 msgstr "Playground-ohjelmistolähde otettu käyttöön."
 
-#: plugins/copr.py:731
+#: plugins/copr.py:732
 msgid "Playground repositories successfully disabled."
 msgstr "Playground-ohjelmistolähde poistettu käytöstä."
 
-#: plugins/copr.py:735
+#: plugins/copr.py:736
 msgid "Playground repositories successfully updated."
 msgstr "Playground-ohjelmistolähde päivitetty ."
 
@@ -690,7 +690,7 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "käytettäessa parametria '--url', rajoita tiettyihin protokolliin"
 
-#: plugins/download.py:121 plugins/reposync.py:314
+#: plugins/download.py:121 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Peiliä paketille %s ei saatu"
@@ -933,42 +933,42 @@ msgstr ""
 "Asennettua pakettia ei löytynyt tarvitsee-uudelleenkäynnistyksen tiedostossa "
 "\"{file}\" määritetylle paketin nimelle \"{pkg}\"."
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:255
 msgid "determine updated binaries that need restarting"
 msgstr "selvitä päivitetyt binäärit, jotka tarvitsevat uudelleen käynnistyksen"
 
-#: plugins/needs_restarting.py:247
+#: plugins/needs_restarting.py:260
 msgid "only consider this user's processes"
 msgstr "ota huomioon vain tämän käyttäjän prosessit"
 
-#: plugins/needs_restarting.py:249
+#: plugins/needs_restarting.py:262
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "ilmoita vain, tarvitaanko uudelleenkäynnistys (poistumiskoodi 1) vaiko ei "
 "(poistumiskoodi 0)"
 
-#: plugins/needs_restarting.py:252
+#: plugins/needs_restarting.py:265
 msgid "only report affected systemd services"
 msgstr "ilmoita vain vaikutusalaan kuuluvat systemd-palvelut"
 
-#: plugins/needs_restarting.py:275
+#: plugins/needs_restarting.py:288
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Ydinkirjastot tai -palvelut on päivitetty käynnistyksen jälkeen:"
 
-#: plugins/needs_restarting.py:280
+#: plugins/needs_restarting.py:293
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Uudelleenkäynnistys vaaditaan näiden päivitysten hyödyntämiseksi."
 
-#: plugins/needs_restarting.py:281
+#: plugins/needs_restarting.py:294
 msgid "More information:"
 msgstr "Lisätietoja:"
 
-#: plugins/needs_restarting.py:285
+#: plugins/needs_restarting.py:298
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "Ydinkirjastoja tai -palveluja ei ole päivitetty käynnistyksen jälkeen."
 
-#: plugins/needs_restarting.py:287
+#: plugins/needs_restarting.py:300
 msgid "Reboot should not be necessary."
 msgstr "Uudelleenkäynnistyksen ei pitäisi olla tarpeen."
 
@@ -1278,42 +1278,58 @@ msgstr "lataa vain lähdekoodipaketteja"
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr "Listaa vain URL-osoitteet ladattavista, älä lataa"
 
-#: plugins/reposync.py:113
+#: plugins/reposync.py:92
+msgid ""
+"Filesystem path that is considered safe for writing. Defaults to download "
+"path."
+msgstr ""
+
+#: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "Ei voi käyttää --norepopathia kun on käytössä useita asennuslähteitä"
 
-#: plugins/reposync.py:132
+#: plugins/reposync.py:122
+#, fuzzy
+#| msgid "Can't use --norepopath with multiple repositories"
+msgid "Can't use --safe-write-path with multiple repositories"
+msgstr "Ei voi käyttää --norepopathia kun on käytössä useita asennuslähteitä"
+
+#: plugins/reposync.py:141
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr "Metatietojen peilin saaminen epäonnistui: %s"
 
-#: plugins/reposync.py:149
+#: plugins/reposync.py:158
 msgid "Failed to get mirror for the group file."
 msgstr "Ryhmätiedoston peilin saaminen epäonnistui."
 
-#: plugins/reposync.py:168
+#: plugins/reposync.py:177
 msgid "Removing {}: {}"
 msgstr "Poistetaan {}: {}"
 
-#: plugins/reposync.py:175
+#: plugins/reposync.py:184
 msgid "GPG signature check failed."
 msgstr "GPG-allekirjoituksen tarkistus epäonnistui."
 
-#: plugins/reposync.py:196
-msgid "Download target '{}' is outside of download path '{}'."
+#: plugins/reposync.py:208
+#, fuzzy, python-brace-format
+#| msgid "Download target '{}' is outside of download path '{}'."
+msgid ""
+"Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
+"write path '{3}'."
 msgstr "Latauskohde ”{}” on latauspolun ”{}” ulkopuolella."
 
-#: plugins/reposync.py:211
+#: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[POISTETTU] %s"
 
-#: plugins/reposync.py:213
+#: plugins/reposync.py:226
 #, python-format
 msgid "failed to delete file %s"
 msgstr "tiedoston %s poistaminen epäonnistui"
 
-#: plugins/reposync.py:222
+#: plugins/reposync.py:235
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "comps.xml asennuslähteelle %s tallennettu"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-04 01:59+0000\n"
+"POT-Creation-Date: 2023-06-02 02:15+0000\n"
 "PO-Revision-Date: 2023-03-03 04:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -292,11 +292,11 @@ msgstr "Liste i dipuesits Copr disponibii par NON utent"
 msgid "Specify an instance of Copr to work with"
 msgstr "Specifiche une istance di Copr che cun chê si à di lavorâ"
 
-#: plugins/copr.py:162 plugins/copr.py:253 plugins/copr.py:280
+#: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
 msgid "Error: "
 msgstr "Erôr: "
 
-#: plugins/copr.py:163
+#: plugins/copr.py:164
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -304,19 +304,19 @@ msgstr ""
 "specifiche l'hub Copr o cun `--hub`o doprant il formât `copr_hub/"
 "copr_username/copr_projectname`"
 
-#: plugins/copr.py:166
+#: plugins/copr.py:167
 msgid "multiple hubs specified"
 msgstr "a son stâts specificâts plui hubs"
 
-#: plugins/copr.py:254 plugins/copr.py:258
+#: plugins/copr.py:255 plugins/copr.py:259
 msgid "exactly two additional parameters to copr command are required"
 msgstr "a son necessaris juste doi parametris adizionâi al comant copr"
 
-#: plugins/copr.py:263
+#: plugins/copr.py:264
 msgid "Too many arguments."
 msgstr "Masse argoments."
 
-#: plugins/copr.py:266
+#: plugins/copr.py:267
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
@@ -324,16 +324,16 @@ msgstr ""
 "Formât sbaliât di chroot opzionâl. Il formât al è distribuzion-version-"
 "architeture."
 
-#: plugins/copr.py:281
+#: plugins/copr.py:282
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "dopre il formât `nonutent_copr/progjet_copr` par riferîsi al progjet copr"
 
-#: plugins/copr.py:283
+#: plugins/copr.py:284
 msgid "bad copr project format"
 msgstr "formât dal progjet copr sbaliât"
 
-#: plugins/copr.py:297
+#: plugins/copr.py:298
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -363,23 +363,23 @@ msgstr ""
 "\n"
 "Abilitâ pardabon {0}?\n"
 
-#: plugins/copr.py:314
+#: plugins/copr.py:315
 msgid "Repository successfully enabled."
 msgstr "Dipuesit abilitât cun sucès."
 
-#: plugins/copr.py:319
+#: plugins/copr.py:320
 msgid "Repository successfully disabled."
 msgstr "Dipuesit disabilitât cun sucès."
 
-#: plugins/copr.py:323
+#: plugins/copr.py:324
 msgid "Repository successfully removed."
 msgstr "Dipuesit gjavât cun sucès."
 
-#: plugins/copr.py:327 plugins/copr.py:738
+#: plugins/copr.py:328 plugins/copr.py:739
 msgid "Unknown subcommand {}."
 msgstr "Sot-comant {} no cognossût."
 
-#: plugins/copr.py:384
+#: plugins/copr.py:385
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -389,53 +389,53 @@ msgstr ""
 "infomazions sul hub Copr - si à considerât chel predefinît. Tornâ a abilitâ "
 "il progjet par comedâ chest probleme."
 
-#: plugins/copr.py:397
+#: plugins/copr.py:398
 msgid "Can't parse repositories for username '{}'."
 msgstr "Impussibil analizâ i dipuesits pal non utent '{}'."
 
-#: plugins/copr.py:400
+#: plugins/copr.py:401
 msgid "List of {} coprs"
 msgstr "Liste di {} copr"
 
-#: plugins/copr.py:405
+#: plugins/copr.py:406
 msgid "No description given"
 msgstr "Nissune descrizione furnide"
 
-#: plugins/copr.py:417
+#: plugins/copr.py:418
 msgid "Can't parse search for '{}'."
 msgstr "Impussibil analizâ la ricercje par '{}'."
 
-#: plugins/copr.py:420
+#: plugins/copr.py:421
 msgid "Matched: {}"
 msgstr "Corispondencis: {}"
 
-#: plugins/copr.py:425
+#: plugins/copr.py:426
 msgid "No description given."
 msgstr "Nissune descrizion furnide."
 
-#: plugins/copr.py:447
+#: plugins/copr.py:448
 msgid "Safe and good answer. Exiting."
 msgstr "Rispueste buine e sigure. Si jes."
 
-#: plugins/copr.py:454
+#: plugins/copr.py:455
 msgid "This command has to be run under the root user."
 msgstr "Si à di eseguî chest comant come utent root."
 
-#: plugins/copr.py:504
+#: plugins/copr.py:505
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Richieste a {0} falide: {1} - {2}"
 
-#: plugins/copr.py:506
+#: plugins/copr.py:507
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Nol è stât pussibil abilitâ chest progjet.\n"
 
-#: plugins/copr.py:511
+#: plugins/copr.py:512
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "Il dipuesit '{0}' nol esist tal progjet '{1}'."
 
-#: plugins/copr.py:514
+#: plugins/copr.py:515
 msgid ""
 "\n"
 "Available repositories: "
@@ -443,7 +443,7 @@ msgstr ""
 "\n"
 "Dipuesits disponibii: "
 
-#: plugins/copr.py:516
+#: plugins/copr.py:517
 #, python-brace-format
 msgid ""
 "\n"
@@ -460,17 +460,17 @@ msgstr ""
 "Ma viôt che al è facil che il file di dipuesit instalât al varà bisugne di "
 "une modifiche manuâl."
 
-#: plugins/copr.py:522
+#: plugins/copr.py:523
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Il progjet {0} nol esist."
 
-#: plugins/copr.py:525
+#: plugins/copr.py:526
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Impussibil conetisi a {0}: {1}"
 
-#: plugins/copr.py:572
+#: plugins/copr.py:573
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -499,44 +499,44 @@ msgstr ""
 "\n"
 "Chescj dipuesits a son stâts abilitâts in automatic."
 
-#: plugins/copr.py:593
+#: plugins/copr.py:594
 msgid "Do you want to keep them enabled?"
 msgstr "Desideristu tignîju abilitâts?"
 
-#: plugins/copr.py:626
+#: plugins/copr.py:627
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Impussibil gjavâ il dipuesit copr {0}/{1}/{2}"
 
-#: plugins/copr.py:637
+#: plugins/copr.py:638
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Impussibil disabilitâ il dipuesit copr {}/{}"
 
-#: plugins/copr.py:655 plugins/copr.py:692
+#: plugins/copr.py:656 plugins/copr.py:693
 msgid "Unknown response from server."
 msgstr "Rispueste no cognossude dal servidôr."
 
-#: plugins/copr.py:677
+#: plugins/copr.py:678
 msgid "Interact with Playground repository."
 msgstr "Interagjìs cul dipuesits Playground."
 
-#: plugins/copr.py:683
+#: plugins/copr.py:684
 msgid "Enabling a Playground repository."
 msgstr "Daûr a abilitâ un dipuesit Playground."
 
-#: plugins/copr.py:684
+#: plugins/copr.py:685
 msgid "Do you want to continue?"
 msgstr "Desideristu continuâ?"
 
-#: plugins/copr.py:728
+#: plugins/copr.py:729
 msgid "Playground repositories successfully enabled."
 msgstr "Dipuesits Playground abilitâts cun sucès."
 
-#: plugins/copr.py:731
+#: plugins/copr.py:732
 msgid "Playground repositories successfully disabled."
 msgstr "Dipuesits Playground disabilitâts cun sucès."
 
-#: plugins/copr.py:735
+#: plugins/copr.py:736
 msgid "Playground repositories successfully updated."
 msgstr "Dipuesits Playground inzornâts cun sucès."
 
@@ -685,7 +685,7 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "cuant che si eseguìs cun --url, limite ai protocoi specificâts"
 
-#: plugins/download.py:121 plugins/reposync.py:314
+#: plugins/download.py:121 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "No si è rivâts a otignî il spieli (mirror) pal pachet: %s"
@@ -928,46 +928,46 @@ msgstr ""
 "Nissun pachet instalât cjatât pal non di pachet \"{pkg}\" specificât tal "
 "file di needs-restarting \"{file}\"."
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:255
 msgid "determine updated binaries that need restarting"
 msgstr "determine i binaris inzornâts che a àn bisugne di tornâ a inviâsi"
 
-#: plugins/needs_restarting.py:247
+#: plugins/needs_restarting.py:260
 msgid "only consider this user's processes"
 msgstr "considere dome i procès di chest utent"
 
-#: plugins/needs_restarting.py:249
+#: plugins/needs_restarting.py:262
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "segnale dome se al covente tornâ a inviâ (codiç di jessude 1) o mancul "
 "(codiç di jessude 0)"
 
-#: plugins/needs_restarting.py:252
+#: plugins/needs_restarting.py:265
 msgid "only report affected systemd services"
 msgstr "segnale dome i servizis di systemd interessâts"
 
-#: plugins/needs_restarting.py:275
+#: plugins/needs_restarting.py:288
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 "Dal inviament dal sisteme, lis librariis cûr o i servizis a son stâts "
 "inzornâts:"
 
-#: plugins/needs_restarting.py:280
+#: plugins/needs_restarting.py:293
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Al covente tornâ a inviâ il sisteme par utilizâ dal dut chescj inzornaments."
 
-#: plugins/needs_restarting.py:281
+#: plugins/needs_restarting.py:294
 msgid "More information:"
 msgstr "Plui informazions:"
 
-#: plugins/needs_restarting.py:285
+#: plugins/needs_restarting.py:298
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Dal inviament dal sisteme nissune librarie cûr o servizi al è stât inzornât."
 
-#: plugins/needs_restarting.py:287
+#: plugins/needs_restarting.py:300
 msgid "Reboot should not be necessary."
 msgstr "Nol varès di coventâ tornâ a inviâ il sisteme."
 
@@ -1274,44 +1274,60 @@ msgstr "discjame dome i pachets sorzint"
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr "Liste juste i urls di ce che al vignarà discjariât, no sta discjamâ"
 
-#: plugins/reposync.py:113
+#: plugins/reposync.py:92
+msgid ""
+"Filesystem path that is considered safe for writing. Defaults to download "
+"path."
+msgstr ""
+
+#: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "Impussibil doprâ --norepopath cun plui dipuesits"
 
-#: plugins/reposync.py:132
+#: plugins/reposync.py:122
+#, fuzzy
+#| msgid "Can't use --norepopath with multiple repositories"
+msgid "Can't use --safe-write-path with multiple repositories"
+msgstr "Impussibil doprâ --norepopath cun plui dipuesits"
+
+#: plugins/reposync.py:141
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr "Nol è stât pussibil otignî il spieli (mirror) pai metadâts: %s"
 
-#: plugins/reposync.py:149
+#: plugins/reposync.py:158
 msgid "Failed to get mirror for the group file."
 msgstr "Nol è stât pussibil otignî il spieli (mirror) pal file dal grup."
 
-#: plugins/reposync.py:168
+#: plugins/reposync.py:177
 msgid "Removing {}: {}"
 msgstr "Rimozion di {}: {}"
 
-#: plugins/reposync.py:175
+#: plugins/reposync.py:184
 msgid "GPG signature check failed."
 msgstr "Control de firme GPG falît."
 
-#: plugins/reposync.py:196
-msgid "Download target '{}' is outside of download path '{}'."
+#: plugins/reposync.py:208
+#, fuzzy, python-brace-format
+#| msgid "Download target '{}' is outside of download path '{}'."
+msgid ""
+"Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
+"write path '{3}'."
 msgstr ""
 "La destinazion di discjariament '{}' e je fûr dal percors di discjariament "
 "'{}'"
 
-#: plugins/reposync.py:211
+#: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[ELIMINÂT] %s"
 
-#: plugins/reposync.py:213
+#: plugins/reposync.py:226
 #, python-format
 msgid "failed to delete file %s"
 msgstr "no si è rivâts a eliminâ il file %s"
 
-#: plugins/reposync.py:222
+#: plugins/reposync.py:235
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "salvât comps.xml pal dipuesit %s"

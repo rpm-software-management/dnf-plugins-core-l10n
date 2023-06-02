@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-04 01:59+0000\n"
+"POT-Creation-Date: 2023-06-02 02:15+0000\n"
 "PO-Revision-Date: 2023-03-03 04:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -292,11 +292,11 @@ msgstr "사용자가 사용할 수있는 Copr 저장소를 나열합니다. NAME
 msgid "Specify an instance of Copr to work with"
 msgstr "일하는 Copr의 예를 지정합니다"
 
-#: plugins/copr.py:162 plugins/copr.py:253 plugins/copr.py:280
+#: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
 msgid "Error: "
 msgstr "오류: "
 
-#: plugins/copr.py:163
+#: plugins/copr.py:164
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -304,35 +304,35 @@ msgstr ""
 "Corp hub를 `--hub` 또는 사용하기 `copr_hub/copr_username/copr_projectname`형"
 "식으로 지정합니다"
 
-#: plugins/copr.py:166
+#: plugins/copr.py:167
 msgid "multiple hubs specified"
 msgstr "지정된 여러 허브"
 
-#: plugins/copr.py:254 plugins/copr.py:258
+#: plugins/copr.py:255 plugins/copr.py:259
 msgid "exactly two additional parameters to copr command are required"
 msgstr "copr 명령에 정확히 두 개의 추가 매개 변수가 필요합니다"
 
-#: plugins/copr.py:263
+#: plugins/copr.py:264
 msgid "Too many arguments."
 msgstr "너무 많은 인수."
 
-#: plugins/copr.py:266
+#: plugins/copr.py:267
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr "선택적인 chroot의 나쁜 형식. 형식은 배포-버전-구조입니다."
 
-#: plugins/copr.py:281
+#: plugins/copr.py:282
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "copr 프로젝트를 참조하기 위해`copr_username / copr_projectname` 형식을 사용하"
 "십시오"
 
-#: plugins/copr.py:283
+#: plugins/copr.py:284
 msgid "bad copr project format"
 msgstr "나쁜 copr 프로젝트 형식"
 
-#: plugins/copr.py:297
+#: plugins/copr.py:298
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -362,23 +362,23 @@ msgstr ""
 "페도라 버그질라에 이들 꾸러미에 대한 파일 결점 보고를 제출하지 마세요.\n"
 "이들 문제는, 이들 저장소 소유자와 접촉하세요.\n"
 
-#: plugins/copr.py:314
+#: plugins/copr.py:315
 msgid "Repository successfully enabled."
 msgstr "저장소가 사용 설정되었습니다."
 
-#: plugins/copr.py:319
+#: plugins/copr.py:320
 msgid "Repository successfully disabled."
 msgstr "저장소가 사용 중지되었습니다."
 
-#: plugins/copr.py:323
+#: plugins/copr.py:324
 msgid "Repository successfully removed."
 msgstr "저장소가 제거되었습니다."
 
-#: plugins/copr.py:327 plugins/copr.py:738
+#: plugins/copr.py:328 plugins/copr.py:739
 msgid "Unknown subcommand {}."
 msgstr "알 수없는 부속 명령 {}."
 
-#: plugins/copr.py:384
+#: plugins/copr.py:385
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -387,53 +387,53 @@ msgstr ""
 "* 이들 coprs은 Copr hub에 대하여 어떤 정보도 포함하지 않는 오래된 형태의 저장"
 "소 파일을 갖고 있습니다. 이 문제를 수정하기 위하여 프로젝트를 재활성화하세요."
 
-#: plugins/copr.py:397
+#: plugins/copr.py:398
 msgid "Can't parse repositories for username '{}'."
 msgstr "사용자 이름 '{}'에 대한 리포지토리를 구문 분석 할 수 없습니다."
 
-#: plugins/copr.py:400
+#: plugins/copr.py:401
 msgid "List of {} coprs"
 msgstr "{} 명의 경찰 목록"
 
-#: plugins/copr.py:405
+#: plugins/copr.py:406
 msgid "No description given"
 msgstr "설명이 없습니다"
 
-#: plugins/copr.py:417
+#: plugins/copr.py:418
 msgid "Can't parse search for '{}'."
 msgstr "'{}'에 대한 검색을 구문 분석 할 수 없습니다."
 
-#: plugins/copr.py:420
+#: plugins/copr.py:421
 msgid "Matched: {}"
 msgstr "일치하는 항목 : {}"
 
-#: plugins/copr.py:425
+#: plugins/copr.py:426
 msgid "No description given."
 msgstr "설명이 없습니다."
 
-#: plugins/copr.py:447
+#: plugins/copr.py:448
 msgid "Safe and good answer. Exiting."
 msgstr "안전하고 좋은 대답. 나가기."
 
-#: plugins/copr.py:454
+#: plugins/copr.py:455
 msgid "This command has to be run under the root user."
 msgstr "이 명령은 루트 사용자로 실행해야합니다."
 
-#: plugins/copr.py:504
+#: plugins/copr.py:505
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "{0}에 대한 요청이 실패함: {1} - {2}"
 
-#: plugins/copr.py:506
+#: plugins/copr.py:507
 msgid "It wasn't possible to enable this project.\n"
 msgstr "이와 같은 프로젝트를 활성화 할 수 없습니다.\n"
 
-#: plugins/copr.py:511
+#: plugins/copr.py:512
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "저장소 '{0}'는 프로젝트 '{1}'에 존재하지 않습니다."
 
-#: plugins/copr.py:514
+#: plugins/copr.py:515
 msgid ""
 "\n"
 "Available repositories: "
@@ -441,7 +441,7 @@ msgstr ""
 "\n"
 "사용 가능한 저장소: "
 
-#: plugins/copr.py:516
+#: plugins/copr.py:517
 #, python-brace-format
 msgid ""
 "\n"
@@ -458,17 +458,17 @@ msgstr ""
 "하지만 설치된 저장소 파일은 수동으로 수정해야 할 필요가 있다는 점을 참고하세"
 "요."
 
-#: plugins/copr.py:522
+#: plugins/copr.py:523
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "프로젝트 {0}가 존재하지 않습니다."
 
-#: plugins/copr.py:525
+#: plugins/copr.py:526
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "연결 하는데 실패함 {0}: {1}"
 
-#: plugins/copr.py:572
+#: plugins/copr.py:573
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -497,44 +497,44 @@ msgstr ""
 "\n"
 "이들 저장소는 자동으로 활성화 됩니다."
 
-#: plugins/copr.py:593
+#: plugins/copr.py:594
 msgid "Do you want to keep them enabled?"
 msgstr "계속 사용하길 원하시나요?"
 
-#: plugins/copr.py:626
+#: plugins/copr.py:627
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "copr repo {0}/{1}/{2} 제거를 실패하였습니다"
 
-#: plugins/copr.py:637
+#: plugins/copr.py:638
 msgid "Failed to disable copr repo {}/{}"
 msgstr "copr repo {} / {}를 사용 중지를 실패하였습니다"
 
-#: plugins/copr.py:655 plugins/copr.py:692
+#: plugins/copr.py:656 plugins/copr.py:693
 msgid "Unknown response from server."
 msgstr "서버에서 알 수없는 응답."
 
-#: plugins/copr.py:677
+#: plugins/copr.py:678
 msgid "Interact with Playground repository."
 msgstr "놀이터 저장소와 상호 작용하십시오."
 
-#: plugins/copr.py:683
+#: plugins/copr.py:684
 msgid "Enabling a Playground repository."
 msgstr "동작 저장소와 활용하기."
 
-#: plugins/copr.py:684
+#: plugins/copr.py:685
 msgid "Do you want to continue?"
 msgstr "계속하기를 원하십니까?"
 
-#: plugins/copr.py:728
+#: plugins/copr.py:729
 msgid "Playground repositories successfully enabled."
 msgstr "놀이터 저장소를 사용하도록 설정했습니다."
 
-#: plugins/copr.py:731
+#: plugins/copr.py:732
 msgid "Playground repositories successfully disabled."
 msgstr "놀이터 저장소가 사용 중지되었습니다."
 
-#: plugins/copr.py:735
+#: plugins/copr.py:736
 msgid "Playground repositories successfully updated."
 msgstr "놀이터 저장소가 성공적으로 업데이트되었습니다."
 
@@ -679,7 +679,7 @@ msgstr "내려받기 대신 rpms를 내려받기 할 수 있는 URL 목록 인�
 msgid "when running with --url, limit to specific protocols"
 msgstr "--url을 사용하여 실행하면 특정 통신규약이 제한됩니다"
 
-#: plugins/download.py:121 plugins/reposync.py:314
+#: plugins/download.py:121 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "꾸러미 연결주소 얻기에 실패했습니다: %s"
@@ -920,41 +920,41 @@ msgstr ""
 "재시작이 필요한 파일 \"{file}\" 에 지정한 꾸러미 이름 \"{pkg}\"을 위하여 설치"
 "된 꾸러미를 찾을 수 없습니다."
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:255
 msgid "determine updated binaries that need restarting"
 msgstr "다시 시작해야하는 업데이트 된 바이너리 결정"
 
-#: plugins/needs_restarting.py:247
+#: plugins/needs_restarting.py:260
 msgid "only consider this user's processes"
 msgstr "이 사용자의 프로세스만 고려하세요"
 
-#: plugins/needs_restarting.py:249
+#: plugins/needs_restarting.py:262
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "재시작이 요구되는 (exit code 1) 또는 아닌(exit code0) 경우에만 보고합니다"
 
-#: plugins/needs_restarting.py:252
+#: plugins/needs_restarting.py:265
 msgid "only report affected systemd services"
 msgstr "systemd 서비스에 영향을 미치는 것만 보고합니다"
 
-#: plugins/needs_restarting.py:275
+#: plugins/needs_restarting.py:288
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Core 라이브러리와 서비스는 재시작 이 후에 최신화 됩니다:"
 
-#: plugins/needs_restarting.py:280
+#: plugins/needs_restarting.py:293
 msgid "Reboot is required to fully utilize these updates."
 msgstr "재시작은 이들 최신화를 완전히 사용하려면 필요합니다."
 
-#: plugins/needs_restarting.py:281
+#: plugins/needs_restarting.py:294
 msgid "More information:"
 msgstr "자세한 정보:"
 
-#: plugins/needs_restarting.py:285
+#: plugins/needs_restarting.py:298
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "핵심 라이브러리와 서비스는 재시작 이 후에 최신화 되지 않습니다."
 
-#: plugins/needs_restarting.py:287
+#: plugins/needs_restarting.py:300
 msgid "Reboot should not be necessary."
 msgstr "재시작은 필요하지 않을 수 있습니다."
 
@@ -1255,42 +1255,58 @@ msgstr "원천 꾸러미만 내려받기"
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr "내려 받을 수 있는 url만 목록화하며, 내려 받지 않습니다"
 
-#: plugins/reposync.py:113
+#: plugins/reposync.py:92
+msgid ""
+"Filesystem path that is considered safe for writing. Defaults to download "
+"path."
+msgstr ""
+
+#: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "다중 저장소와 함께 --norepath를 사용 할 수 없습니다"
 
-#: plugins/reposync.py:132
+#: plugins/reposync.py:122
+#, fuzzy
+#| msgid "Can't use --norepopath with multiple repositories"
+msgid "Can't use --safe-write-path with multiple repositories"
+msgstr "다중 저장소와 함께 --norepath를 사용 할 수 없습니다"
+
+#: plugins/reposync.py:141
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr "메타자료에 대한 연결주소 얻기를 실패하였습니다:%s"
 
-#: plugins/reposync.py:149
+#: plugins/reposync.py:158
 msgid "Failed to get mirror for the group file."
 msgstr "그룹 파일을 위하여 연결주소 얻기에 실패하였습니다."
 
-#: plugins/reposync.py:168
+#: plugins/reposync.py:177
 msgid "Removing {}: {}"
 msgstr "제거하기{}: {}"
 
-#: plugins/reposync.py:175
+#: plugins/reposync.py:184
 msgid "GPG signature check failed."
 msgstr "GPG 서명 점검이 실패하였습니다."
 
-#: plugins/reposync.py:196
-msgid "Download target '{}' is outside of download path '{}'."
+#: plugins/reposync.py:208
+#, fuzzy, python-brace-format
+#| msgid "Download target '{}' is outside of download path '{}'."
+msgid ""
+"Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
+"write path '{3}'."
 msgstr "내려받기 대상 '{}'는 내려받기 경로'{}'의 밖에 있습니다."
 
-#: plugins/reposync.py:211
+#: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[DELETED] %s"
 
-#: plugins/reposync.py:213
+#: plugins/reposync.py:226
 #, python-format
 msgid "failed to delete file %s"
 msgstr "파일을 삭제하지 못했습니다. %s"
 
-#: plugins/reposync.py:222
+#: plugins/reposync.py:235
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "저장소에 대한 comps.xml %s 저장된"

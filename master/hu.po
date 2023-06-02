@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-04 01:59+0000\n"
+"POT-Creation-Date: 2023-06-02 02:15+0000\n"
 "PO-Revision-Date: 2023-01-17 09:20+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -299,11 +299,11 @@ msgstr "A NÉV felhasználó számára elérhető Copr tárolók"
 msgid "Specify an instance of Copr to work with"
 msgstr "Adja meg a Copr példányt, amivel dolgozni akar"
 
-#: plugins/copr.py:162 plugins/copr.py:253 plugins/copr.py:280
+#: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
 msgid "Error: "
 msgstr "Hiba: "
 
-#: plugins/copr.py:163
+#: plugins/copr.py:164
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -311,19 +311,19 @@ msgstr ""
 "adja meg a Copr kiszolgálót a „--hub” kapcsolóval vagy a „copr_hub/"
 "copr_username/copr_projectname” formátummal"
 
-#: plugins/copr.py:166
+#: plugins/copr.py:167
 msgid "multiple hubs specified"
 msgstr "több kiszolgáló lett megadva"
 
-#: plugins/copr.py:254 plugins/copr.py:258
+#: plugins/copr.py:255 plugins/copr.py:259
 msgid "exactly two additional parameters to copr command are required"
 msgstr "pontosan két további paraméter szükséges a copr parancshoz"
 
-#: plugins/copr.py:263
+#: plugins/copr.py:264
 msgid "Too many arguments."
 msgstr "Túl sok argumentum."
 
-#: plugins/copr.py:266
+#: plugins/copr.py:267
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
@@ -331,17 +331,17 @@ msgstr ""
 "Hibás formátum a nem kötelező chrootnál. A formátum disztribúció-verzió-"
 "architektúra."
 
-#: plugins/copr.py:281
+#: plugins/copr.py:282
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "használja a `copr_felhasználónév/copr_projektnév` formátumot a copr "
 "projektre való hivatkozáshoz"
 
-#: plugins/copr.py:283
+#: plugins/copr.py:284
 msgid "bad copr project format"
 msgstr "hibás copr projektformátum"
 
-#: plugins/copr.py:297
+#: plugins/copr.py:298
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -369,23 +369,23 @@ msgstr ""
 "Ne jelentsen be hibákat a Fedora Bugzillába. Problémák esetén keresse\n"
 "a tároló tulajdonosát.\n"
 
-#: plugins/copr.py:314
+#: plugins/copr.py:315
 msgid "Repository successfully enabled."
 msgstr "Tároló sikeresen engedélyezve."
 
-#: plugins/copr.py:319
+#: plugins/copr.py:320
 msgid "Repository successfully disabled."
 msgstr "Tároló sikeresen letiltva."
 
-#: plugins/copr.py:323
+#: plugins/copr.py:324
 msgid "Repository successfully removed."
 msgstr "Tároló sikeresen eltávolítva."
 
-#: plugins/copr.py:327 plugins/copr.py:738
+#: plugins/copr.py:328 plugins/copr.py:739
 msgid "Unknown subcommand {}."
 msgstr "Ismeretlen alparancs: {}."
 
-#: plugins/copr.py:384
+#: plugins/copr.py:385
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -395,53 +395,53 @@ msgstr ""
 "amelyekben nincs információ a Copr kiszolgálóról – az alapértelmezett lett "
 "feltételezve. Engedélyezze újra a projektet a kijavításhoz."
 
-#: plugins/copr.py:397
+#: plugins/copr.py:398
 msgid "Can't parse repositories for username '{}'."
 msgstr "A tárolók nem értelmezhetőek a(z) „{}” felhasználónévhez."
 
-#: plugins/copr.py:400
+#: plugins/copr.py:401
 msgid "List of {} coprs"
 msgstr "{} copr tárolók listája"
 
-#: plugins/copr.py:405
+#: plugins/copr.py:406
 msgid "No description given"
 msgstr "Nincs leírás adva"
 
-#: plugins/copr.py:417
+#: plugins/copr.py:418
 msgid "Can't parse search for '{}'."
 msgstr "Nem értelmezhető a keresés erre: „{}”."
 
-#: plugins/copr.py:420
+#: plugins/copr.py:421
 msgid "Matched: {}"
 msgstr "Találat: {}"
 
-#: plugins/copr.py:425
+#: plugins/copr.py:426
 msgid "No description given."
 msgstr "Nincs leírás adva."
 
-#: plugins/copr.py:447
+#: plugins/copr.py:448
 msgid "Safe and good answer. Exiting."
 msgstr "Biztonságos és jó válasz. Kilépés."
 
-#: plugins/copr.py:454
+#: plugins/copr.py:455
 msgid "This command has to be run under the root user."
 msgstr "Ezt a parancsot root felhasználóként kell futtatni."
 
-#: plugins/copr.py:504
+#: plugins/copr.py:505
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "A(z) {0} számára küldött kérés sikertelen: {1} – {2}"
 
-#: plugins/copr.py:506
+#: plugins/copr.py:507
 msgid "It wasn't possible to enable this project.\n"
 msgstr "A projekt engedélyezése nem volt lehetséges.\n"
 
-#: plugins/copr.py:511
+#: plugins/copr.py:512
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "A(z) „{0}” tároló nem létezik a(z) „{1}” projektben."
 
-#: plugins/copr.py:514
+#: plugins/copr.py:515
 msgid ""
 "\n"
 "Available repositories: "
@@ -449,7 +449,7 @@ msgstr ""
 "\n"
 "Elérhető tárolók: "
 
-#: plugins/copr.py:516
+#: plugins/copr.py:517
 #, python-brace-format
 msgid ""
 "\n"
@@ -466,17 +466,17 @@ msgstr ""
 "De vegye figyelembe, hogy a telepített tárolónál jó eséllyel kézi módosítás "
 "lesz szükséges."
 
-#: plugins/copr.py:522
+#: plugins/copr.py:523
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "A(z) {0} projekt nem létezik."
 
-#: plugins/copr.py:525
+#: plugins/copr.py:526
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Nem sikerült kapcsolódni a következőhöz: {0}: {1}"
 
-#: plugins/copr.py:572
+#: plugins/copr.py:573
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -505,44 +505,44 @@ msgstr ""
 "\n"
 "Ezek a tárolók automatikusan engedélyezve lettek."
 
-#: plugins/copr.py:593
+#: plugins/copr.py:594
 msgid "Do you want to keep them enabled?"
 msgstr "Továbbra is engedélyezve hagyja őket?"
 
-#: plugins/copr.py:626
+#: plugins/copr.py:627
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Nem sikerült a(z) {0}/{1}/{2} copr tároló eltávolítása"
 
-#: plugins/copr.py:637
+#: plugins/copr.py:638
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Nem sikerült a(z) {}/{} copr tároló letiltása"
 
-#: plugins/copr.py:655 plugins/copr.py:692
+#: plugins/copr.py:656 plugins/copr.py:693
 msgid "Unknown response from server."
 msgstr "Ismeretlen válasz a kiszolgálótól."
 
-#: plugins/copr.py:677
+#: plugins/copr.py:678
 msgid "Interact with Playground repository."
 msgstr "Együttműködés a Playground tárolóval."
 
-#: plugins/copr.py:683
+#: plugins/copr.py:684
 msgid "Enabling a Playground repository."
 msgstr "A Playground tároló engedélyezése."
 
-#: plugins/copr.py:684
+#: plugins/copr.py:685
 msgid "Do you want to continue?"
 msgstr "Folytatja?"
 
-#: plugins/copr.py:728
+#: plugins/copr.py:729
 msgid "Playground repositories successfully enabled."
 msgstr "Playground tárolók sikeresen engedélyezve."
 
-#: plugins/copr.py:731
+#: plugins/copr.py:732
 msgid "Playground repositories successfully disabled."
 msgstr "Playground tárolók sikeresen letiltva."
 
-#: plugins/copr.py:735
+#: plugins/copr.py:736
 msgid "Playground repositories successfully updated."
 msgstr "Playground tárolók sikeresen frissítve."
 
@@ -689,7 +689,7 @@ msgid "when running with --url, limit to specific protocols"
 msgstr ""
 "amikor az --url kapcsolóval fut, akkor korlátozza bizonyos protokollokra"
 
-#: plugins/download.py:121 plugins/reposync.py:314
+#: plugins/download.py:121 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Nem található tükör a csomaghoz: %s"
@@ -938,46 +938,46 @@ msgstr ""
 "Nem található a(z) „{pkg}” telepített csomag, amely szerepel az újraindítást "
 "igénylő csomagokat tartalmazó „{file}” fájlban."
 
-#: plugins/needs_restarting.py:242
+#: plugins/needs_restarting.py:255
 msgid "determine updated binaries that need restarting"
 msgstr "határozza meg az újraindítást igénylő frissített binárisokat"
 
-#: plugins/needs_restarting.py:247
+#: plugins/needs_restarting.py:260
 msgid "only consider this user's processes"
 msgstr "csak ezen felhasználó folyamatait vegye figyelembe"
 
-#: plugins/needs_restarting.py:249
+#: plugins/needs_restarting.py:262
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "csak arról jelentsen, hogy szükséges-e újraindítás (kilépési kód: 1) vagy "
 "sem (kilépési kód: 0)"
 
-#: plugins/needs_restarting.py:252
+#: plugins/needs_restarting.py:265
 msgid "only report affected systemd services"
 msgstr "csak az érintett systemd szolgáltatások jelentése"
 
-#: plugins/needs_restarting.py:275
+#: plugins/needs_restarting.py:288
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 "Rendszerszintű programkönyvtárak és szolgáltatások lettek frissítve a "
 "rendszerindítás óta:"
 
-#: plugins/needs_restarting.py:280
+#: plugins/needs_restarting.py:293
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Újraindítás szükséges ezen frissítések életbe lépéséhez."
 
-#: plugins/needs_restarting.py:281
+#: plugins/needs_restarting.py:294
 msgid "More information:"
 msgstr "További információk:"
 
-#: plugins/needs_restarting.py:285
+#: plugins/needs_restarting.py:298
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Egyetlen rendszerszintű programkönyvtár és szolgáltatás sem lett frissítve a "
 "rendszerindítás óta."
 
-#: plugins/needs_restarting.py:287
+#: plugins/needs_restarting.py:300
 msgid "Reboot should not be necessary."
 msgstr "Újraindítás nem szükséges."
 
@@ -1282,42 +1282,58 @@ msgstr "csak forráscsomagok letöltése"
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr "Csak a letöltendő URL-ek felsorolása, ne töltse le azokat"
 
-#: plugins/reposync.py:113
+#: plugins/reposync.py:92
+msgid ""
+"Filesystem path that is considered safe for writing. Defaults to download "
+"path."
+msgstr ""
+
+#: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "A --norepopath nem használható több tárolóval"
 
-#: plugins/reposync.py:132
+#: plugins/reposync.py:122
+#, fuzzy
+#| msgid "Can't use --norepopath with multiple repositories"
+msgid "Can't use --safe-write-path with multiple repositories"
+msgstr "A --norepopath nem használható több tárolóval"
+
+#: plugins/reposync.py:141
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr "Nem található tükör a metaadatokhoz: %s"
 
-#: plugins/reposync.py:149
+#: plugins/reposync.py:158
 msgid "Failed to get mirror for the group file."
 msgstr "Nem található tükör a csoportfájlhoz."
 
-#: plugins/reposync.py:168
+#: plugins/reposync.py:177
 msgid "Removing {}: {}"
 msgstr "A(z) {} eltávolítása: {}"
 
-#: plugins/reposync.py:175
+#: plugins/reposync.py:184
 msgid "GPG signature check failed."
 msgstr "A GPG aláírás-ellenőrzés sikertelen."
 
-#: plugins/reposync.py:196
-msgid "Download target '{}' is outside of download path '{}'."
+#: plugins/reposync.py:208
+#, fuzzy, python-brace-format
+#| msgid "Download target '{}' is outside of download path '{}'."
+msgid ""
+"Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
+"write path '{3}'."
 msgstr "A(z) „{}” letöltési cél a(z) „{}” letöltési útvonalon kívül esik."
 
-#: plugins/reposync.py:211
+#: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[TÖRÖLVE] %s"
 
-#: plugins/reposync.py:213
+#: plugins/reposync.py:226
 #, python-format
 msgid "failed to delete file %s"
 msgstr "nem sikerült törölni a(z) %s fájlt"
 
-#: plugins/reposync.py:222
+#: plugins/reposync.py:235
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "a(z) %s tárolóhoz tartozó comps.xml mentve"
