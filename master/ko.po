@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-02 02:15+0000\n"
-"PO-Revision-Date: 2023-03-03 04:20+0000\n"
+"PO-Revision-Date: 2023-06-04 13:12+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1259,17 +1259,16 @@ msgstr "내려 받을 수 있는 url만 목록화하며, 내려 받지 않습니
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
-msgstr ""
+msgstr "쓰기를 위해 안전하도록 고려되는 것과 같은 파일시스템 경로. 내려받기 경로로 "
+"기본값."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "다중 저장소와 함께 --norepath를 사용 할 수 없습니다"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "다중 저장소와 함께 --norepath를 사용 할 수 없습니다"
+msgstr "다중 저장소와 함께 --safe-write-path를 사용 할 수 없습니다"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1289,12 +1288,12 @@ msgid "GPG signature check failed."
 msgstr "GPG 서명 점검이 실패하였습니다."
 
 #: plugins/reposync.py:208
-#, fuzzy, python-brace-format
-#| msgid "Download target '{}' is outside of download path '{}'."
+#, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
-msgstr "내려받기 대상 '{}'는 내려받기 경로'{}'의 밖에 있습니다."
+msgstr "'{2}' 꾸러미의 위치 '{1}'을 위한 대상 '{0}' 내려받기는 안전 쓰기 경로 '{3}"
+"'의 밖에 있습니다."
 
 #: plugins/reposync.py:224
 #, python-format
