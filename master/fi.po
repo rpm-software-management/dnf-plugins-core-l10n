@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-02 02:15+0000\n"
-"PO-Revision-Date: 2023-03-03 04:20+0000\n"
+"PO-Revision-Date: 2023-06-04 13:12+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1180,7 +1180,7 @@ msgstr "Ohita joko --vanhat tai --uudet, älä molempia!"
 
 #: plugins/repomanage.py:61
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Ohita joko --oldonly tai --new, älä molempia!"
+msgstr "Anna joko --oldonly tai --new, älä molempia!"
 
 #: plugins/repomanage.py:63
 msgid "Pass either --old or --oldonly, not both!"
@@ -1283,16 +1283,17 @@ msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Tiedostojärjestelmän polku, jota pidetään turvallisena kirjoittamista "
+"varten. Latauspolun oletusarvo."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "Ei voi käyttää --norepopathia kun on käytössä useita asennuslähteitä"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "Ei voi käyttää --norepopathia kun on käytössä useita asennuslähteitä"
+msgstr ""
+"Ei voi käyttää --safe-write-path:ia kun on käytössä useita asennuslähteitä"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1312,12 +1313,13 @@ msgid "GPG signature check failed."
 msgstr "GPG-allekirjoituksen tarkistus epäonnistui."
 
 #: plugins/reposync.py:208
-#, fuzzy, python-brace-format
-#| msgid "Download target '{}' is outside of download path '{}'."
+#, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
-msgstr "Latauskohde ”{}” on latauspolun ”{}” ulkopuolella."
+msgstr ""
+"Latauskohde '{0}' paikalle '{1}' '{2}':sta on turvallisen kirjoituspolun '{3}"
+"' ulkopuolella."
 
 #: plugins/reposync.py:224
 #, python-format
