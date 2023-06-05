@@ -1,7 +1,7 @@
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021, 2022.
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2022.
-# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020, 2021, 2022.
-# Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata, 2021, 2022.
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021, 2022, 2023.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2022, 2023.
+# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020, 2021, 2022, 2023.
+# Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata, 2021, 2022, 2023.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Luna Jernberg <bittin@reimu.nl>, 2021, 2022, 2023.
 msgid ""
@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-04 02:32+0000\n"
-"PO-Revision-Date: 2023-03-03 04:20+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/sv/>\n"
+"PO-Revision-Date: 2023-06-06 11:20+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1264,16 +1264,16 @@ msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Filsystemssökväg som anses säker att skriva till. Som standard sökvägen att "
+"hämta till."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "Det går inte att använda --norepopath med multipla förråd"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "Det går inte att använda --norepopath med multipla förråd"
+msgstr "Det går inte att använda --safe-write-path med multipla förråd"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1293,12 +1293,13 @@ msgid "GPG signature check failed."
 msgstr "GPG-signaturkontrollen misslyckades."
 
 #: plugins/reposync.py:208
-#, fuzzy, python-brace-format
-#| msgid "Download target '{}' is outside of download path '{}'."
+#, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
-msgstr "Hämtningsmålet ”{}” är utanför hämtningssökvägen ”{}”."
+msgstr ""
+"Hämtningsmålet ”{0}” för platsen ”{1}” för paketet ”{2}” är utanför den "
+"skrivsäkra sökvägen ”{3}”."
 
 #: plugins/reposync.py:224
 #, python-format
