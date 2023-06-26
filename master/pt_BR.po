@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-20 02:02+0000\n"
-"PO-Revision-Date: 2023-06-02 18:20+0000\n"
+"PO-Revision-Date: 2023-06-27 23:20+0000\n"
 "Last-Translator: Ian Meyer <ianscuba1465@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -673,9 +673,8 @@ msgid "download the -debuginfo package instead"
 msgstr "baixe com o pacote -debuginfo como alternativa"
 
 #: plugins/download.py:57
-#, fuzzy
 msgid "download the -debugsource package instead"
-msgstr "baixe com o pacote -debuginfo como alternativa"
+msgstr "baixe o pacote -debugsource como alternativa"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
@@ -879,7 +878,7 @@ msgstr "Migrando dados de histórico..."
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "Baixe pacotes de módulos e/ou crie um repositório com dados modulares"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
@@ -890,10 +889,8 @@ msgid "modules to download"
 msgstr "módulos para baixar"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Especificar repositórios para checagem"
+msgstr "ativar repositórios com pacotes raíz"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
