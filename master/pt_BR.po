@@ -10,7 +10,7 @@
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020, 2021.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
-# Daimar Stein <daimarstein@pm.me>, 2022.
+# Daimar Stein <daimarstein@pm.me>, 2022, 2023.
 # Felipe Nogueira <contato.fnog@gmail.com>, 2023.
 # Ian Meyer <ianscuba1465@gmail.com>, 2023.
 msgid ""
@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-11 01:35+0000\n"
-"PO-Revision-Date: 2023-06-27 23:20+0000\n"
-"Last-Translator: Ian Meyer <ianscuba1465@gmail.com>\n"
+"PO-Revision-Date: 2023-08-12 19:21+0000\n"
+"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -897,10 +897,8 @@ msgid "enable repositories with debug-info and debug-source packages"
 msgstr ""
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "baixa todos os pacotes do repositório remoto"
+msgstr "baixa apenas pacotes dos módulos mais recentes"
 
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
@@ -928,10 +926,8 @@ msgstr ""
 "Sem correspondência para o nome do pacote '{0}' no perfil {1} do módulo {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: {}"
 msgid "No mach for argument '{}'"
-msgstr "Sem correspondência para o argumento: {}"
+msgstr "Sem correspondência para o argumento '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
