@@ -1,9 +1,9 @@
 # 張仁傑 <s9727453@gmail.com>, 2015. #zanata
-# Cheng-Chia Tseng <pswo10680@gmail.com>, 2016. #zanata
-# Cheng-Chia Tseng <pswo10680@gmail.com>, 2018. #zanata
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2016. #zanata, 2023.
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2018. #zanata, 2023.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Peter Pan <pan93412@gmail.com>, 2018. #zanata
-# Cheng-Chia Tseng <pswo10680@gmail.com>, 2019. #zanata
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2019. #zanata, 2023.
 # Yi-Jyun Pan <pan93412@gmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-12 01:34+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-08-14 13:21+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1457,14 +1457,12 @@ msgid ""
 msgstr ""
 
 #: plugins/system_upgrade.py:672
-#, fuzzy
-#| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
-msgstr "無效的處理事項狀態：%s"
+msgstr "處理事項儲存至 {}。"
 
 #: plugins/system_upgrade.py:675
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "儲存處理事項時遭遇錯誤：{}"
 
 #: plugins/system_upgrade.py:697
 msgid "Download finished."
