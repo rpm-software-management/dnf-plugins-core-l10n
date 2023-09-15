@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 01:37+0000\n"
+"POT-Creation-Date: 2023-09-15 01:40+0000\n"
 "PO-Revision-Date: 2023-07-28 18:21+0000\n"
 "Last-Translator: Ville-Pekka Vainio <vpvainio@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -926,7 +926,7 @@ msgstr "Ei vastaavuutta argumentille {}"
 msgid "Unable to satisfy require {}"
 msgstr "Ei voida täyttää vaatimusta {}"
 
-#: plugins/needs_restarting.py:67
+#: plugins/needs_restarting.py:68
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
@@ -935,42 +935,42 @@ msgstr ""
 "Asennettua pakettia ei löytynyt tarvitsee-uudelleenkäynnistyksen tiedostossa "
 "\"{file}\" määritetylle paketin nimelle \"{pkg}\"."
 
-#: plugins/needs_restarting.py:255
+#: plugins/needs_restarting.py:256
 msgid "determine updated binaries that need restarting"
 msgstr "selvitä päivitetyt binäärit, jotka tarvitsevat uudelleen käynnistyksen"
 
-#: plugins/needs_restarting.py:260
+#: plugins/needs_restarting.py:261
 msgid "only consider this user's processes"
 msgstr "ota huomioon vain tämän käyttäjän prosessit"
 
-#: plugins/needs_restarting.py:262
+#: plugins/needs_restarting.py:263
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "ilmoita vain, tarvitaanko uudelleenkäynnistys (poistumiskoodi 1) vaiko ei "
 "(poistumiskoodi 0)"
 
-#: plugins/needs_restarting.py:265
+#: plugins/needs_restarting.py:266
 msgid "only report affected systemd services"
 msgstr "ilmoita vain systemd-palvelut, joihin toimilla on vaikutusta"
 
-#: plugins/needs_restarting.py:288
+#: plugins/needs_restarting.py:289
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Ydinkirjastot tai -palvelut on päivitetty käynnistyksen jälkeen:"
 
-#: plugins/needs_restarting.py:293
+#: plugins/needs_restarting.py:294
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Uudelleenkäynnistys vaaditaan näiden päivitysten hyödyntämiseksi."
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "More information:"
 msgstr "Lisätietoja:"
 
-#: plugins/needs_restarting.py:298
+#: plugins/needs_restarting.py:299
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "Ydinkirjastoja tai -palveluja ei ole päivitetty käynnistyksen jälkeen."
 
-#: plugins/needs_restarting.py:300
+#: plugins/needs_restarting.py:301
 msgid "Reboot should not be necessary."
 msgstr "Uudelleenkäynnistyksen ei pitäisi olla tarpeen."
 

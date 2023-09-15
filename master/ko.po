@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 01:37+0000\n"
+"POT-Creation-Date: 2023-09-15 01:40+0000\n"
 "PO-Revision-Date: 2023-08-06 02:42+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -911,7 +911,7 @@ msgstr "인수 '{}'와 일치하는 항목이 없습니다"
 msgid "Unable to satisfy require {}"
 msgstr "필요사항 {}를 만족 할 수 없음"
 
-#: plugins/needs_restarting.py:67
+#: plugins/needs_restarting.py:68
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
@@ -920,41 +920,41 @@ msgstr ""
 "재시작이 필요한 파일 \"{file}\" 에 지정한 꾸러미 이름 \"{pkg}\"을 위하여 설치"
 "된 꾸러미를 찾을 수 없습니다."
 
-#: plugins/needs_restarting.py:255
+#: plugins/needs_restarting.py:256
 msgid "determine updated binaries that need restarting"
 msgstr "다시 시작 해야 하는 최신화 된 바이너리 결정"
 
-#: plugins/needs_restarting.py:260
+#: plugins/needs_restarting.py:261
 msgid "only consider this user's processes"
 msgstr "이 사용자의 프로세스만 고려하세요"
 
-#: plugins/needs_restarting.py:262
+#: plugins/needs_restarting.py:263
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "재시작이 요구되는 (exit code 1) 또는 아닌(exit code0) 경우에만 보고합니다"
 
-#: plugins/needs_restarting.py:265
+#: plugins/needs_restarting.py:266
 msgid "only report affected systemd services"
 msgstr "systemd 서비스에 영향을 미치는 것만 보고합니다"
 
-#: plugins/needs_restarting.py:288
+#: plugins/needs_restarting.py:289
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Core 라이브러리와 서비스는 재시작 이 후에 최신화 됩니다:"
 
-#: plugins/needs_restarting.py:293
+#: plugins/needs_restarting.py:294
 msgid "Reboot is required to fully utilize these updates."
 msgstr "재시작은 이들 최신화를 완전히 사용하려면 필요합니다."
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "More information:"
 msgstr "자세한 정보:"
 
-#: plugins/needs_restarting.py:298
+#: plugins/needs_restarting.py:299
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "핵심 라이브러리와 서비스는 재시작 이 후에 최신화 되지 않습니다."
 
-#: plugins/needs_restarting.py:300
+#: plugins/needs_restarting.py:301
 msgid "Reboot should not be necessary."
 msgstr "재시작은 필요하지 않을 수 있습니다."
 

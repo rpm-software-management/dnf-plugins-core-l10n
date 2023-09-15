@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 01:37+0000\n"
+"POT-Creation-Date: 2023-09-15 01:40+0000\n"
 "PO-Revision-Date: 2023-04-04 19:20+0000\n"
 "Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/dnf/"
@@ -850,47 +850,47 @@ msgstr "Nenhuma correspondência para o argumento: %s"
 msgid "Unable to satisfy require {}"
 msgstr ""
 
-#: plugins/needs_restarting.py:67
+#: plugins/needs_restarting.py:68
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:255
+#: plugins/needs_restarting.py:256
 msgid "determine updated binaries that need restarting"
 msgstr ""
 
-#: plugins/needs_restarting.py:260
+#: plugins/needs_restarting.py:261
 msgid "only consider this user's processes"
 msgstr ""
 
-#: plugins/needs_restarting.py:262
+#: plugins/needs_restarting.py:263
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 
-#: plugins/needs_restarting.py:265
+#: plugins/needs_restarting.py:266
 msgid "only report affected systemd services"
 msgstr ""
 
-#: plugins/needs_restarting.py:288
+#: plugins/needs_restarting.py:289
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:293
+#: plugins/needs_restarting.py:294
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "More information:"
 msgstr ""
 
-#: plugins/needs_restarting.py:298
+#: plugins/needs_restarting.py:299
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:300
+#: plugins/needs_restarting.py:301
 msgid "Reboot should not be necessary."
 msgstr ""
 
