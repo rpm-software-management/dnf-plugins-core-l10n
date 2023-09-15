@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 01:40+0000\n"
-"PO-Revision-Date: 2023-08-12 19:21+0000\n"
-"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
+"PO-Revision-Date: 2023-09-16 14:35+0000\n"
+"Last-Translator: Ian Meyer <ianscuba1465@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -894,7 +894,7 @@ msgstr "ativar repositórios com pacotes raíz"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "habilite repositórios com pacotes debug-info e debug-source"
 
 #: plugins/modulesync.py:53
 msgid "download only packages from newest modules"
