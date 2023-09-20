@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 01:35+0000\n"
-"PO-Revision-Date: 2023-06-20 05:20+0000\n"
+"PO-Revision-Date: 2023-09-20 17:50+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ka/>\n"
@@ -16,11 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
-msgstr ""
+msgstr "[PACKAGE|PACKAGE.spec]"
 
 #: plugins/builddep.py:85
 #, python-format
@@ -136,7 +136,7 @@ msgstr ""
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
-msgstr ""
+msgstr "ყველა ცვლილების ჩამონათვალი"
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
@@ -279,7 +279,7 @@ msgstr ""
 
 #: plugins/copr.py:167
 msgid "multiple hubs specified"
-msgstr ""
+msgstr "მითითებულია ერთზე მეტი კვანძი"
 
 #: plugins/copr.py:255 plugins/copr.py:259
 msgid "exactly two additional parameters to copr command are required"
@@ -321,19 +321,19 @@ msgstr ""
 
 #: plugins/copr.py:315
 msgid "Repository successfully enabled."
-msgstr ""
+msgstr "რეპოზიტორია წარმატებით ჩაირთო."
 
 #: plugins/copr.py:320
 msgid "Repository successfully disabled."
-msgstr ""
+msgstr "რეპოზიტორია წარმატებით გაითიშა."
 
 #: plugins/copr.py:324
 msgid "Repository successfully removed."
-msgstr ""
+msgstr "რეპოზიტორია წარმატებით წაიშალა."
 
 #: plugins/copr.py:328 plugins/copr.py:739
 msgid "Unknown subcommand {}."
-msgstr ""
+msgstr "უცნობი ქვებრძანება {}."
 
 #: plugins/copr.py:385
 msgid ""
@@ -352,7 +352,7 @@ msgstr ""
 
 #: plugins/copr.py:406
 msgid "No description given"
-msgstr ""
+msgstr "აღწერა მითითებული არაა"
 
 #: plugins/copr.py:418
 msgid "Can't parse search for '{}'."
@@ -364,7 +364,7 @@ msgstr ""
 
 #: plugins/copr.py:426
 msgid "No description given."
-msgstr ""
+msgstr "აღწერა მითითებული არაა."
 
 #: plugins/copr.py:448
 msgid "Safe and good answer. Exiting."
@@ -393,6 +393,8 @@ msgid ""
 "\n"
 "Available repositories: "
 msgstr ""
+"\n"
+"ხელმისაწვდომი რეპოზიტორიები: "
 
 #: plugins/copr.py:517
 #, python-brace-format
@@ -667,7 +669,7 @@ msgstr ""
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr ""
+msgstr "ჯგუფის id"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
@@ -675,7 +677,7 @@ msgstr "ჯგუფის სახელი"
 
 #: plugins/groups_manager.py:103
 msgid "group description"
-msgstr ""
+msgstr "ჯგუფის აღწერა"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
@@ -865,7 +867,7 @@ msgstr ""
 
 #: plugins/needs_restarting.py:295
 msgid "More information:"
-msgstr ""
+msgstr "მეტი ინფორმაცია:"
 
 #: plugins/needs_restarting.py:299
 msgid "No core libraries or services have been updated since boot-up."
@@ -890,7 +892,7 @@ msgstr ""
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr ""
+msgstr "ტრანზაქციის-შემდეგი-ქმედებები: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
@@ -999,6 +1001,8 @@ msgid ""
 "\n"
 "Modified packages"
 msgstr ""
+"\n"
+"შეცვლილი პაკეტები"
 
 #: plugins/repodiff.py:212
 msgid ""
@@ -1204,7 +1208,7 @@ msgstr ""
 #: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
-msgstr ""
+msgstr "[წაიშალა] %s"
 
 #: plugins/reposync.py:226
 #, python-format
@@ -1218,7 +1222,7 @@ msgstr ""
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
-msgstr ""
+msgstr "ახალი ფოთლები:"
 
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:45
@@ -1373,7 +1377,7 @@ msgstr "ტრანზაქციის შენახვის შეცდ�
 
 #: plugins/system_upgrade.py:697
 msgid "Download finished."
-msgstr ""
+msgstr "გადმოწერა დასრულდა."
 
 #: plugins/system_upgrade.py:701
 msgid "Upgrade complete! Cleaning up and powering off..."
