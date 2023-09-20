@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-20 01:38+0000\n"
-"PO-Revision-Date: 2023-09-20 17:50+0000\n"
+"PO-Revision-Date: 2023-09-21 18:35+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ka/>\n"
@@ -444,11 +444,11 @@ msgstr ""
 
 #: plugins/copr.py:638
 msgid "Failed to disable copr repo {}/{}"
-msgstr ""
+msgstr "ჩავარდა მცდელობა copr რეპოზიტორიის {}/{} გათიშვისას"
 
 #: plugins/copr.py:656 plugins/copr.py:693
 msgid "Unknown response from server."
-msgstr ""
+msgstr "უცნობი პასუხი სერვერიდან."
 
 #: plugins/copr.py:678
 msgid "Interact with Playground repository."
@@ -476,20 +476,20 @@ msgstr ""
 
 #: plugins/debug.py:53
 msgid "dump information about installed rpm packages to file"
-msgstr ""
+msgstr "დაყენებული rpm პაკეტების ინფორმაციის ფაილში ჩაწერა"
 
 #: plugins/debug.py:67
 msgid "do not attempt to dump the repository contents."
-msgstr ""
+msgstr "რეპოზიტორიის შემცველობის დამპი არ მოხდება."
 
 #: plugins/debug.py:70
 msgid "optional name of dump file"
-msgstr ""
+msgstr "დამპის ფაილის არასავალდებულო სახელი"
 
 #: plugins/debug.py:95
 #, python-format
 msgid "Output written to: %s"
-msgstr ""
+msgstr "გამოტანილი ინფორმაცია ჩაწერილია ფაილში: %s"
 
 #: plugins/debug.py:172
 msgid "restore packages recorded in debug-dump file"
@@ -501,7 +501,7 @@ msgstr ""
 
 #: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
-msgstr ""
+msgstr "ჩაწერილი პაკეტების უახლესი ვერსიის დაყენება."
 
 #: plugins/debug.py:191
 msgid ""
@@ -511,7 +511,7 @@ msgstr ""
 
 #: plugins/debug.py:196
 msgid "limit to specified type"
-msgstr ""
+msgstr "მითითებულ ტიპზე შეზღუდვა"
 
 #: plugins/debug.py:199
 msgid ""
@@ -521,21 +521,21 @@ msgstr ""
 
 #: plugins/debug.py:202
 msgid "name of dump file"
-msgstr ""
+msgstr "დამპის ფაილის სახელი"
 
 #: plugins/debug.py:273
 #, python-format
 msgid "Package %s is not available"
-msgstr ""
+msgstr "პაკეტი %s ხელმისაწვდომი არაა"
 
 #: plugins/debug.py:283
 #, python-format
 msgid "Bad dnf debug file: %s"
-msgstr ""
+msgstr "არასწორი dnf-ის გამართვის ფაილი: %s"
 
 #: plugins/debuginfo-install.py:56
 msgid "install debuginfo packages"
-msgstr ""
+msgstr "debuginfo პაკეტების დაყენება"
 
 #: plugins/debuginfo-install.py:180
 #, python-format
@@ -567,23 +567,23 @@ msgstr "დამთხვევის გარეშე"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
-msgstr ""
+msgstr "პაკეტების მიმდინარე საქაღალდეში გადმოწერა"
 
 #: plugins/download.py:51
 msgid "packages to download"
-msgstr ""
+msgstr "გადმოსაწერი პაკეტები"
 
 #: plugins/download.py:53
 msgid "download the src.rpm instead"
-msgstr ""
+msgstr "src.rpm-ის გადმოწერა"
 
 #: plugins/download.py:55
 msgid "download the -debuginfo package instead"
-msgstr ""
+msgstr "-debuginfo პაკეტის გადმოწერა"
 
 #: plugins/download.py:57
 msgid "download the -debugsource package instead"
-msgstr ""
+msgstr "-debugsource პაკეტის გადმოწერა"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
@@ -633,7 +633,7 @@ msgstr "პაკეტი %s ხელმიუწვდომელია."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "არასწორი ჯგუფის id"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
@@ -681,11 +681,11 @@ msgstr "ჯგუფის აღწერა"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr ""
+msgstr "ჯგუფის ჩვენების მიმდევრობა"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
-msgstr ""
+msgstr "ნათარგმნი სახელი ჯგუფისთვის"
 
 #: plugins/groups_manager.py:111
 msgid "translated description for the group"
@@ -788,7 +788,7 @@ msgstr "მოდული"
 
 #: plugins/modulesync.py:45
 msgid "modules to download"
-msgstr ""
+msgstr "გადმოსაწერი მოდულები"
 
 #: plugins/modulesync.py:47
 msgid "enable repositories with source packages"
@@ -970,15 +970,15 @@ msgstr ""
 
 #: plugins/repodiff.py:184
 msgid "Added package  : {}"
-msgstr ""
+msgstr "დაემატა პაკეტი  : {}"
 
 #: plugins/repodiff.py:187
 msgid "Removed package: {}"
-msgstr ""
+msgstr "წაიშალა პაკეტი: {}"
 
 #: plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
-msgstr ""
+msgstr "მოძველებულია პაკეტით   : {}"
 
 #: plugins/repodiff.py:195
 msgid ""
@@ -1014,31 +1014,31 @@ msgstr ""
 
 #: plugins/repodiff.py:213
 msgid "Added packages: {}"
-msgstr ""
+msgstr "დამატებულია პაკეტები: {}"
 
 #: plugins/repodiff.py:214
 msgid "Removed packages: {}"
-msgstr ""
+msgstr "წაშლილია პაკეტები: {}"
 
 #: plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
-msgstr ""
+msgstr "განახლდა პაკეტები: {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr ""
+msgstr "ვერსიაჩამოწეულია პაკეტები: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
-msgstr ""
+msgstr "შეცვლილია პაკეტი: {}"
 
 #: plugins/repodiff.py:222
 msgid "Size of added packages: {}"
-msgstr ""
+msgstr "დამატებული პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:223
 msgid "Size of removed packages: {}"
-msgstr ""
+msgstr "წაშლილი პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:225
 msgid "Size of modified packages: {}"
