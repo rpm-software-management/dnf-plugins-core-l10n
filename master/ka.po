@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-21 01:37+0000\n"
-"PO-Revision-Date: 2023-09-21 18:35+0000\n"
+"PO-Revision-Date: 2023-09-24 02:35+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ka/>\n"
@@ -25,7 +25,7 @@ msgstr "[PACKAGE|PACKAGE.spec]"
 #: plugins/builddep.py:85
 #, python-format
 msgid "'%s' is not of the format 'MACRO EXPR'"
-msgstr ""
+msgstr "'%s'-ის ფორმატი 'MACRO EXPR' არაა"
 
 #: plugins/builddep.py:90
 msgid "packages with builddeps to install"
@@ -53,7 +53,7 @@ msgstr "RPM: {}"
 
 #: plugins/builddep.py:153
 msgid "Some packages could not be found."
-msgstr ""
+msgstr "ზოგი პაკეტი ვერ ვიპოვე."
 
 #. No provides, no files
 #. Richdeps can have no matches but it could be correct (solver must decide later)
@@ -360,7 +360,7 @@ msgstr ""
 
 #: plugins/copr.py:421
 msgid "Matched: {}"
-msgstr ""
+msgstr "ემთხვევა: {}"
 
 #: plugins/copr.py:426
 msgid "No description given."
@@ -767,7 +767,7 @@ msgstr ""
 
 #: plugins/local.py:156
 msgid "Rebuilding local repo"
-msgstr ""
+msgstr "ლოკალური რეპოს თავიდან აგება"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
@@ -775,7 +775,7 @@ msgstr ""
 
 #: plugins/migrate.py:54
 msgid "Migrating history data..."
-msgstr ""
+msgstr "ისტორიის მონაცემების მიგრაცია..."
 
 #: plugins/modulesync.py:37
 msgid ""
@@ -1054,7 +1054,7 @@ msgstr ""
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
-msgstr ""
+msgstr "ზომის ცვლილება: {}"
 
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
@@ -1063,7 +1063,7 @@ msgstr ""
 #: plugins/repograph.py:110
 #, python-format
 msgid "Nothing provides: '%s'"
-msgstr ""
+msgstr "არაფერი წარმოადგენს პაკეტს: '%s'"
 
 #: plugins/repomanage.py:45
 msgid "Manage a directory of rpm packages"
@@ -1192,7 +1192,7 @@ msgstr ""
 
 #: plugins/reposync.py:177
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "{}-ის წაშლა: {}"
 
 #: plugins/reposync.py:184
 msgid "GPG signature check failed."
@@ -1402,7 +1402,7 @@ msgstr ""
 
 #: plugins/versionlock.py:34
 msgid "Locklist not set"
-msgstr ""
+msgstr "ბლოკის სია დაყენებული არაა"
 
 #: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
@@ -1410,7 +1410,7 @@ msgstr ""
 
 #: plugins/versionlock.py:36
 msgid "Adding exclude on:"
-msgstr ""
+msgstr "გამორიცხის დამატება:"
 
 #: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
