@@ -5,13 +5,14 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
 # Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022, 2023.
 # Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2021.
+# Hoppár Zoltán <hopparz@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-24 01:41+0000\n"
-"PO-Revision-Date: 2023-01-17 09:20+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"PO-Revision-Date: 2023-10-03 01:35+0000\n"
+"Last-Translator: Hoppár Zoltán <hopparz@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/hu/>\n"
 "Language: hu\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -161,7 +162,7 @@ msgstr "a(z) {prog} konfigurációs beállítások és tárolók kezelése"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "konfigurációs szekciók kezelése, 'fő' vagy repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -1287,16 +1288,16 @@ msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Az íráshoz biztonságosnak tekinthető fájlrendszer elérési útja. "
+"Alapértelmezés szerint a letöltési útvonal."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "A --norepopath nem használható több tárolóval"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "A --norepopath nem használható több tárolóval"
+msgstr "A --safe-write-path nem használható több adattárral"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1316,12 +1317,13 @@ msgid "GPG signature check failed."
 msgstr "A GPG aláírás-ellenőrzés sikertelen."
 
 #: plugins/reposync.py:208
-#, fuzzy, python-brace-format
-#| msgid "Download target '{}' is outside of download path '{}'."
+#, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
-msgstr "A(z) „{}” letöltési cél a(z) „{}” letöltési útvonalon kívül esik."
+msgstr ""
+"A(z) „{2}” csomag „{1}” helyéhez tartozó „{0}” letöltési cél kívül esik a "
+"„{3}” biztonságos írási útvonalon."
 
 #: plugins/reposync.py:224
 #, python-format
