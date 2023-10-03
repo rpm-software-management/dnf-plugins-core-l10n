@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-02 01:40+0000\n"
-"PO-Revision-Date: 2023-09-24 02:35+0000\n"
+"PO-Revision-Date: 2023-10-04 15:35+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ka/>\n"
@@ -1042,15 +1042,15 @@ msgstr "წაშლილი პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:225
 msgid "Size of modified packages: {}"
-msgstr ""
+msgstr "შეცვლილი პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:228
 msgid "Size of upgraded packages: {}"
-msgstr ""
+msgstr "გაუმჯობესებული პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:230
 msgid "Size of downgraded packages: {}"
-msgstr ""
+msgstr "გაუარესებული პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
