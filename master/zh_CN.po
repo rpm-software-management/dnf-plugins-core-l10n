@@ -9,13 +9,14 @@
 # Transtats <suanand@redhat.com>, 2022, 2023.
 # Yang Yulin <yylteam@icloud.com>, 2022, 2023.
 # Jingge Chen <mariocanfly@hotmail.com>, 2022.
+# Zephyr Lykos <fedora@mochaa.ws>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-14 01:36+0000\n"
-"PO-Revision-Date: 2023-03-06 13:48+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"PO-Revision-Date: 2023-10-19 03:35+0000\n"
+"Last-Translator: Zephyr Lykos <fedora@mochaa.ws>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -32,7 +33,7 @@ msgstr "[软件包名|软件包名.spec]"
 #: plugins/builddep.py:85
 #, python-format
 msgid "'%s' is not of the format 'MACRO EXPR'"
-msgstr "'%s' 不是 'MACRO EXPR' 的类型"
+msgstr "'%s' 的格式与 'MACRO EXPR' 不符"
 
 #: plugins/builddep.py:90
 msgid "packages with builddeps to install"
@@ -156,7 +157,7 @@ msgstr "管理 {prog} 配置选项和软件仓库"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "需要更改的设置部分（“main” 或 软件仓库编号）"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -1232,17 +1233,15 @@ msgstr "只列出要下载内容的 url，不实际下载"
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
-msgstr ""
+msgstr "要视作可安全写入的文件系统路径。默认为下载路径。"
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "不能将 --norepopath 与多个仓库一起使用"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "不能将 --norepopath 与多个仓库一起使用"
+msgstr "不能将 --safe-write-path 与多个软件仓库一起使用"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1262,17 +1261,16 @@ msgid "GPG signature check failed."
 msgstr "GPG 签名检查失败。"
 
 #: plugins/reposync.py:208
-#, fuzzy, python-brace-format
-#| msgid "Download target '{}' is outside of download path '{}'."
+#, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
-msgstr "下载的目标 '{}' 在下载路径 '{}' 以外。"
+msgstr "软件包 ‘{2} 中路径 ’‘{1}’ 的下载目标 ‘{0}’ 在可写入路径 ‘{3}’ 以外。"
 
 #: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
-msgstr "[DELETED] %s"
+msgstr "[已删除] %s"
 
 #: plugins/reposync.py:226
 #, python-format
@@ -1291,7 +1289,7 @@ msgstr "新增保留项："
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:45
 msgid "the color of the sky"
-msgstr "sky 的颜色"
+msgstr "天空的颜色"
 
 #: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
@@ -1304,12 +1302,12 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
-"下载完成！使用 'dnf {command} reboot' 启动升级。 \n"
-" 要删除缓存的元数据和事务，请使用 'dnf {command} clean'"
+"下载完成！使用 ‘dnf {command} reboot’ 启动升级。\n"
+"要删除缓存的元数据和事务，请使用 ‘dnf {command} clean’"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr "您需要使用 'download --releasever' 而不是 '-network'"
+msgstr "您需要使用 ‘download --releasever’ 而不是 ‘-network’"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
@@ -1323,11 +1321,11 @@ msgstr "无法禁用屏幕空白：%s"
 #: plugins/system_upgrade.py:145
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
-msgstr "加载状态文件失败：%s，继续为空状态。"
+msgstr "加载状态文件失败：%s，将以空状态继续。"
 
 #: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
-msgstr "以下引导会包含升级日志："
+msgstr "下列的启动似乎包含升级日志："
 
 #: plugins/system_upgrade.py:303
 msgid "-- no logs were found --"
@@ -1360,7 +1358,7 @@ msgstr "要显示的日志"
 #: plugins/system_upgrade.py:406
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
-msgstr "不兼容的数据版本。重新运行 'dnf {command} download [OPTIONS]'"
+msgstr "不兼容的数据版本。请重新运行 'dnf {command} download [选项]'"
 
 #: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
@@ -1374,9 +1372,7 @@ msgstr "系统升级的额外信息：{}"
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
-msgstr ""
-"在继续请，确定您的系统已通过运行 \"dnf --refresh upgrade\" 完全升级。您要继续"
-"操作"
+msgstr "在继续前，请确保您的系统已通过运行 “dnf --refresh upgrade” 完全升级。是否继续"
 
 #: plugins/system_upgrade.py:471
 msgid "Operation aborted."
@@ -1384,15 +1380,14 @@ msgstr "操作中止。"
 
 #: plugins/system_upgrade.py:532
 msgid "system is not ready for upgrade"
-msgstr "系统还未就绪进行升级"
+msgstr "系统升级还未就绪"
 
 #: plugins/system_upgrade.py:535
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
-msgstr ""
-"事务没有为 '{command}' 准备。重新运行 'dnf {command} download [OPTIONS]'"
+msgstr "未准备好 '{command}' 的事务。请重新运行 'dnf {command} download [选项]'"
 
 #: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
@@ -1417,19 +1412,19 @@ msgstr "重启以执行升级。"
 
 #: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
-msgstr "启动离线升级。这将需要一段时间。"
+msgstr "正在开始离线升级。这将需要一段时间。"
 
 #: plugins/system_upgrade.py:615
 msgid "Starting offline distrosync. This will take a while."
-msgstr "启动离线 distrosync。这将需要一段时间。"
+msgstr "正在开始离线 distrosync 同步。这将需要一段时间。"
 
 #: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
-msgstr "启动系统升级。这需要一段时间。"
+msgstr "正在开始系统升级。这需要一段时间。"
 
 #: plugins/system_upgrade.py:633
 msgid "Cleaning up downloaded data..."
-msgstr "清理下载的数据..."
+msgstr "清理已下载的数据..."
 
 #: plugins/system_upgrade.py:663
 msgid ""
@@ -1438,7 +1433,7 @@ msgstr "system-upgrade 事务为空，您的系统已经为最新版本。"
 
 #: plugins/system_upgrade.py:672
 msgid "Transaction saved to {}."
-msgstr "事务已保存到 {}。"
+msgstr "事务已保存至 {}。"
 
 #: plugins/system_upgrade.py:675
 msgid "Error storing transaction: {}"
@@ -1458,11 +1453,11 @@ msgstr "升级完成！清理并重启..."
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
-msgstr "准备系统的离线升级"
+msgstr "准备离线系统升级"
 
 #: plugins/system_upgrade.py:720
 msgid "Prepare offline distrosync of the system"
-msgstr "准备系统的离线 distrosync"
+msgstr "准备离线 distrosync 同步"
 
 #: plugins/versionlock.py:33
 #, python-format
