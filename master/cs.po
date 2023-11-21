@@ -13,10 +13,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-21 01:47+0000\n"
-"PO-Revision-Date: 2023-11-21 13:01+0000\n"
+"PO-Revision-Date: 2023-11-22 00:22+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1343,19 +1343,19 @@ msgstr "Nepodařilo se načíst stavový soubor: %s, pokračuje prázdným stave
 
 #: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
-msgstr "Následující boot obsahuje záznamy aktualizace systému:"
+msgstr "Zdá se, že následující zavaděče systému obsahují logy povýšení systému:"
 
 #: plugins/system_upgrade.py:303
 msgid "-- no logs were found --"
-msgstr "-- nenalezeny žádné záznamy --"
+msgstr "-- nebyly nalezeny žádné logy --"
 
 #: plugins/system_upgrade.py:318
 msgid "Cannot find logs with this index."
-msgstr "Nenalezeny žádné záznamy s tímto indexem."
+msgstr "Nebyly nalezeny žádné logy s tímto indexem."
 
 #: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
-msgstr "Nepodařilo se získat požadovaný záznam systemd žurnálu"
+msgstr "Nelze získat požadovaný záznam žurnálu systemd"
 
 #: plugins/system_upgrade.py:348
 msgid "Prepare system for upgrade to a new release"
@@ -1372,7 +1372,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
-msgstr "které záznamy zobrazit"
+msgstr "které logy zobrazit"
 
 #: plugins/system_upgrade.py:406
 #, python-brace-format
@@ -1401,7 +1401,7 @@ msgstr "Operace přerušena."
 
 #: plugins/system_upgrade.py:532
 msgid "system is not ready for upgrade"
-msgstr "systém není na aktualizaci připraven"
+msgstr "systém není připraven na povýšení"
 
 #: plugins/system_upgrade.py:535
 #, python-brace-format
@@ -1412,7 +1412,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
-msgstr "aktualizace je už naplánována"
+msgstr "povýšení je už naplánováné"
 
 #: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
@@ -1420,7 +1420,7 @@ msgstr "Spouštěcí soubor neexistuje. Tiché ukončení."
 
 #: plugins/system_upgrade.py:548
 msgid "another upgrade tool is running. exiting quietly."
-msgstr "už běží jiný aktualizační nástroj, končím."
+msgstr "už běží jiný nástroj povýšení, tiše končím."
 
 #: plugins/system_upgrade.py:557
 #, python-brace-format
@@ -1429,7 +1429,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:577
 msgid "Rebooting to perform upgrade."
-msgstr "Restartuji, aby se provedla aktualizace."
+msgstr "Restartování, aby se provedlo povýšení."
 
 #: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
@@ -1441,7 +1441,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
-msgstr "Spouští se aktualizace systému. To může nějakou dobu trvat."
+msgstr "Spuštění povýšení systému. To může nějakou dobu trvat."
 
 #: plugins/system_upgrade.py:633
 msgid "Cleaning up downloaded data..."
