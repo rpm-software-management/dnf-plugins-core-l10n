@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 01:43+0000\n"
-"PO-Revision-Date: 2023-11-13 12:13+0000\n"
+"PO-Revision-Date: 2023-11-21 13:01+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -513,7 +513,7 @@ msgstr "Chcete je ponechat povolené?"
 #: plugins/copr.py:627
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
-msgstr ""
+msgstr "Odstranění copr repozitory {0}/{1}/{2} se nezdařilo"
 
 #: plugins/copr.py:638
 msgid "Failed to disable copr repo {}/{}"
@@ -533,7 +533,7 @@ msgstr "Povolení úložiště Playground."
 
 #: plugins/copr.py:685
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Chcete pokračovat?"
 
 #: plugins/copr.py:729
 msgid "Playground repositories successfully enabled."
@@ -593,6 +593,8 @@ msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
 msgstr ""
+"Povolit odstranění balíčků pouze pro instalaci. Použití této možnosti může "
+"vést k pokusu o odstranění běžícího jádra."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -616,25 +618,26 @@ msgstr "nainstalovat balíčky debuginfo"
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
-msgstr ""
+msgstr "Nelze najít balíček debuginfo pro následující dostupné balíčky: %s"
 
 #: plugins/debuginfo-install.py:185
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
-msgstr ""
+msgstr "Nelze najít balíček debugsource pro následující dostupné balíčky: %s"
 
 #: plugins/debuginfo-install.py:190
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
-msgstr ""
+msgstr "Nelze najít balíček debuginfo pro následující nainstalované balíčky: %s"
 
 #: plugins/debuginfo-install.py:195
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
 msgstr ""
+"Nelze najít balíček debugsource pro následující nainstalované balíčky: %s"
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
@@ -673,6 +676,8 @@ msgid ""
 "when running with --resolve, download all dependencies (do not exclude "
 "already installed ones)"
 msgstr ""
+"při spuštění s --resolve stáhne všechny závislosti (včetně již "
+"nainstalovaných)"
 
 #: plugins/download.py:67
 msgid ""
@@ -709,35 +714,35 @@ msgstr "Není dostupný žádný balíček %s."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "Neplatné ID skupiny"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr ""
+msgstr "Neplatný formát přeložených dat, měl by být 'lang:text'"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
-msgstr ""
+msgstr "Neplatný/prázdný jazyk pro přeložená data"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
-msgstr ""
+msgstr "Nelze vygenerovat ID skupiny z '{}'. Zadejte ID skupiny pomocí --id."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
-msgstr ""
+msgstr "vytvářet a upravovat soubor metadat skupin"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
-msgstr ""
+msgstr "načíst metadata skupin ze souboru"
 
 #: plugins/groups_manager.py:93
 msgid "save groups metadata to file"
-msgstr ""
+msgstr "uložit metadata skupin do souboru"
 
 #: plugins/groups_manager.py:95
 msgid "load and save groups metadata to file"
-msgstr ""
+msgstr "načíst a uložit metadata skupin do souboru"
 
 #: plugins/groups_manager.py:97
 msgid "print the result metadata to stdout"
@@ -745,7 +750,7 @@ msgstr "vypsat metadata výsledku na stdout"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr ""
+msgstr "ID skupiny"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
@@ -757,15 +762,15 @@ msgstr "popis skupiny"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr ""
+msgstr "pořadí zobrazení skupiny"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
-msgstr ""
+msgstr "přeložený název skupiny"
 
 #: plugins/groups_manager.py:111
 msgid "translated description for the group"
-msgstr ""
+msgstr "přeložený popis skupiny"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
