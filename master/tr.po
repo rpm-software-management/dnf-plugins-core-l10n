@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-21 01:47+0000\n"
-"PO-Revision-Date: 2023-02-23 16:14+0000\n"
+"PO-Revision-Date: 2023-12-11 14:43+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1283,16 +1283,16 @@ msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Yazma için güvenli kabul edilen dosya sistemi yolu. Öntanımlı değer indirme "
+"yoludur."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "--norepopath, birden fazla depoyla birlikte kullanılamaz"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "--norepopath, birden fazla depoyla birlikte kullanılamaz"
+msgstr "--safe-write-path, birden fazla depoyla birlikte kullanılamaz"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1312,12 +1312,13 @@ msgid "GPG signature check failed."
 msgstr "GPG imza denetimi başarısız oldu."
 
 #: plugins/reposync.py:208
-#, fuzzy, python-brace-format
-#| msgid "Download target '{}' is outside of download path '{}'."
+#, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
-msgstr "'{}' indirme hedefi, '{}' indirme yolunun dışında."
+msgstr ""
+"'{2}' paketinin '{1}' konumu için '{0}' indirme hedefi '{3}' güvenli yazma "
+"yolunun dışında."
 
 #: plugins/reposync.py:224
 #, python-format
