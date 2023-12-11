@@ -12,11 +12,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 01:47+0000\n"
+"POT-Creation-Date: 2023-12-11 01:45+0000\n"
 "PO-Revision-Date: 2023-11-22 00:22+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1343,7 +1343,8 @@ msgstr "Nepodařilo se načíst stavový soubor: %s, pokračuje prázdným stave
 
 #: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
-msgstr "Zdá se, že následující zavaděče systému obsahují logy povýšení systému:"
+msgstr ""
+"Zdá se, že následující zavaděče systému obsahují logy povýšení systému:"
 
 #: plugins/system_upgrade.py:303
 msgid "-- no logs were found --"
