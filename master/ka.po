@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-17 01:47+0000\n"
-"PO-Revision-Date: 2023-12-17 22:39+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"PO-Revision-Date: 2023-12-18 23:36+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ka/>\n"
 "Language: ka\n"
@@ -928,11 +929,13 @@ msgstr ""
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
-msgstr ""
+msgstr "რეპოზიტორიების ამოუხსნელი დამოკიდებულებების სიის გამოტანა"
 
 #: plugins/repoclosure.py:69
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
+"შეცდომა: Repoclosure დასრულდა ამოუხსნელი დამოკიდებულებებით ({}) {} "
+"პაკეტისთვის."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
