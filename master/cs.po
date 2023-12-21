@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-18 01:44+0000\n"
-"PO-Revision-Date: 2023-11-22 00:22+0000\n"
+"PO-Revision-Date: 2023-12-22 14:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.3\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -775,23 +775,23 @@ msgstr "přeložený popis skupiny"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
-msgstr ""
+msgstr "zviditelnit uživatele skupiny (výchozí)"
 
 #: plugins/groups_manager.py:118
 msgid "make the group user invisible"
-msgstr ""
+msgstr "zneviditelnit uživatele skupiny"
 
 #: plugins/groups_manager.py:123
 msgid "add packages to the mandatory section"
-msgstr ""
+msgstr "přidat balíčky do povinné sekce"
 
 #: plugins/groups_manager.py:125
 msgid "add packages to the optional section"
-msgstr ""
+msgstr "přidat balíčky do volitelné sekce"
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
-msgstr ""
+msgstr "odebírat balíčky ze skupiny místo jejich přidání"
 
 #: plugins/groups_manager.py:129
 msgid "include also direct dependencies for packages"
@@ -804,6 +804,8 @@ msgstr "specifikace balíčku"
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
+"Nelze upravit skupinu, aniž byste ji specifikovali (použijte --id nebo "
+"--name)"
 
 #: plugins/groups_manager.py:190
 msgid "Can't load file \"{}\": {}"
@@ -819,13 +821,15 @@ msgstr "Žádná shoda pro argument: {}"
 
 #: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
-msgstr ""
+msgstr "Nelze odebrat balíčky z neexistující skupiny"
 
 #: plugins/groups_manager.py:307
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
+"ID skupiny '{}' vygenerované z '{}' je duplicitní. Zadejte ID skupiny pomocí "
+"--id."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -863,10 +867,11 @@ msgstr "Převádějí se data historie…"
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
 msgstr ""
+"Stáhněte si balíčky z modulů a/nebo vytvořte repozitář s modulárními daty"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODUL"
 
 #: plugins/modulesync.py:45
 msgid "modules to download"
@@ -878,7 +883,7 @@ msgstr "povolit úložiště se zdrojovými balíčky"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "povolit repozitáře s balíčky debug-info a debug-source"
 
 #: plugins/modulesync.py:53
 msgid "download only packages from newest modules"
@@ -896,16 +901,18 @@ msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Vytvoření repozitáře se nezdařilo s návratovým kódem {}. Veškerý stažený "
+"obsah zůstal v systému"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Žádná shoda pro artefakt '{0}' z modulu '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "Žádná shoda pro název balíčku '{0}' v profilu {1} z modulu {2}"
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
@@ -914,7 +921,7 @@ msgstr "Žádná schoda pro argument '{}'"
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Nelze splnit požadavek {}"
 
 #: plugins/needs_restarting.py:68
 #, python-brace-format
@@ -922,6 +929,8 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
+"Nebyl nalezen žádný nainstalovaný balíček pro název balíčku \"{pkg}\" "
+"uvedený v souboru pro restartování \"{file}\"."
 
 #: plugins/needs_restarting.py:256
 msgid "determine updated binaries that need restarting"
@@ -935,18 +944,20 @@ msgstr "Brát v úvahu pouze procesy tohoto uživatele"
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
+"pouze hlásit, zda je vyžadován restart (kód ukončení 1) nebo ne (kód "
+"ukončení 0)"
 
 #: plugins/needs_restarting.py:266
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "hlásit pouze ovlivněné systémové služby"
 
 #: plugins/needs_restarting.py:289
 msgid "Core libraries or services have been updated since boot-up:"
-msgstr ""
+msgstr "Základní knihovny nebo služby byly od spuštění aktualizovány:"
 
 #: plugins/needs_restarting.py:294
 msgid "Reboot is required to fully utilize these updates."
-msgstr ""
+msgstr "Pro plné využití těchto aktualizací je vyžadován restart."
 
 #: plugins/needs_restarting.py:295
 msgid "More information:"
@@ -954,33 +965,33 @@ msgstr "Více informací:"
 
 #: plugins/needs_restarting.py:299
 msgid "No core libraries or services have been updated since boot-up."
-msgstr ""
+msgstr "Od spuštění nebyly aktualizovány žádné základní knihovny ani služby."
 
 #: plugins/needs_restarting.py:301
 msgid "Reboot should not be necessary."
-msgstr ""
+msgstr "Restart by neměl být nutný."
 
 #: plugins/post-transaction-actions.py:71
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
-msgstr ""
+msgstr "Špatný řádek \"%s\" akce: %s"
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
 #, python-format
 msgid "Bad Transaction State: %s"
-msgstr ""
+msgstr "Chybný stav transakce: %s"
 
 #: plugins/post-transaction-actions.py:160
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr ""
+msgstr "po-transakční akce: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "po-transakční akce: Chybný příkaz \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
@@ -1009,60 +1020,65 @@ msgstr "Zkontrolovat uzavření pouze pro tento balíček"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
-msgstr ""
+msgstr "Seznam rozdílů mezi dvěma sadami repozitářů"
 
 #: plugins/repodiff.py:58
 msgid "Specify old repository, can be used multiple times"
-msgstr ""
+msgstr "Zadejte starý repozitář, lze použít vícekrát"
 
 #: plugins/repodiff.py:60
 msgid "Specify new repository, can be used multiple times"
-msgstr ""
+msgstr "Zadejte nový repozitář, lze použít vícekrát"
 
 #: plugins/repodiff.py:63
 msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
 msgstr ""
+"Zadejte architektury k porovnání, lze je použít vícekrát. Ve výchozím "
+"nastavení se porovnávají pouze zdrojové repozitáře."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
-msgstr ""
+msgstr "Výstup dalších údajů o velikosti změn."
 
 #: plugins/repodiff.py:69
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
+"Porovnává také balíčky podle architektury. Ve výchozím nastavení jsou "
+"balíčky porovnávány pouze podle názvu."
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
-msgstr ""
+msgstr "Výstup jednoduché jednořádkové zprávy pro upravené balíčky."
 
 #: plugins/repodiff.py:74
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
 msgstr ""
+"Rozdělí data pro upravované balíčky mezi upgradované a downgradované balíčky."
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
-msgstr ""
+msgstr "Musí být nastaveny staré i nové repozitáře."
 
 #: plugins/repodiff.py:178
 msgid "Size change: {} bytes"
-msgstr ""
+msgstr "Změna velikosti: {} bajtů"
 
 #: plugins/repodiff.py:184
 msgid "Added package  : {}"
-msgstr ""
+msgstr "Přidaný balíček: {}"
 
 #: plugins/repodiff.py:187
 msgid "Removed package: {}"
-msgstr ""
+msgstr "Odebraný balíček: {}"
 
 #: plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
-msgstr ""
+msgstr "Zastaralé : {}"
 
 #: plugins/repodiff.py:195
 msgid ""
@@ -1085,6 +1101,8 @@ msgid ""
 "\n"
 "Modified packages"
 msgstr ""
+"\n"
+"Upravené balíčky"
 
 #: plugins/repodiff.py:212
 msgid ""
@@ -1096,47 +1114,47 @@ msgstr ""
 
 #: plugins/repodiff.py:213
 msgid "Added packages: {}"
-msgstr ""
+msgstr "Přidané balíčky: {}"
 
 #: plugins/repodiff.py:214
 msgid "Removed packages: {}"
-msgstr ""
+msgstr "Odebrané balíčky: {}"
 
 #: plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
-msgstr ""
+msgstr "Upgradované balíčky: {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr ""
+msgstr "Downgradované balíčky: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
-msgstr ""
+msgstr "Upravené balíčky: {}"
 
 #: plugins/repodiff.py:222
 msgid "Size of added packages: {}"
-msgstr ""
+msgstr "Velikost přidaných balíčků: {}"
 
 #: plugins/repodiff.py:223
 msgid "Size of removed packages: {}"
-msgstr ""
+msgstr "Velikost odebraných balíčků: {}"
 
 #: plugins/repodiff.py:225
 msgid "Size of modified packages: {}"
-msgstr ""
+msgstr "Velikost upravených balíčků: {}"
 
 #: plugins/repodiff.py:228
 msgid "Size of upgraded packages: {}"
-msgstr ""
+msgstr "Velikost upgradovaných balíčků: {}"
 
 #: plugins/repodiff.py:230
 msgid "Size of downgraded packages: {}"
-msgstr ""
+msgstr "Velikost downgradovaných balíčků: {}"
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
-msgstr ""
+msgstr "Velikost změny: {}"
 
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
@@ -1201,37 +1219,38 @@ msgstr "Stáhnout všechny balíčky ze vzdáleného repozitáře"
 
 #: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
-msgstr ""
+msgstr "stáhnout balíčky pouze pro tuto architekturu"
 
 #: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
-msgstr ""
+msgstr "odstranit lokální balíčky, které již nejsou přítomny v repozitáři"
 
 #: plugins/reposync.py:68
 msgid "download all the metadata."
-msgstr ""
+msgstr "stáhnout všechna metadata."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
-msgstr ""
+msgstr "Odebrat balíčky, které po stažení neprošly kontrolou podpisu GPG"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
-msgstr ""
+msgstr "také stáhnout a rozbalit comps.xml"
 
 #: plugins/reposync.py:75
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
+"kam ukládat stažená metadata repozitáře. Výchozí hodnota je --download-path."
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
-msgstr ""
+msgstr "stánout pouze nejnovější balíčky za repozitář"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "Nepřidávat reponame do cesty ke stažení."
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
@@ -1240,24 +1259,28 @@ msgstr "Místo pro ukládání stažených repozitářů"
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
+"zkusit nastavit lokální časová razítka lokálních souborů podle nich na "
+"serveru"
 
 #: plugins/reposync.py:87
 msgid "download only source packages"
-msgstr ""
+msgstr "stáhnout pouze zdrojové balíčky"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr ""
+msgstr "Uveďte pouze adresy URL toho, co by se stáhlo, nestáhlo"
 
 #: plugins/reposync.py:92
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Cesta souborového systému je považována za bezpečnou pro zápis. Výchozí "
+"cesta ke stažení."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "Nelze použít --norepopath s více repozitáři"
 
 #: plugins/reposync.py:122
 msgid "Can't use --safe-write-path with multiple repositories"
@@ -1270,15 +1293,15 @@ msgstr "Nepovedlo se získat zrcadlo pro balíček: %s"
 
 #: plugins/reposync.py:158
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "Nepodařilo se získat zrcadlo pro soubor skupiny."
 
 #: plugins/reposync.py:177
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "Odebírání {}: {}"
 
 #: plugins/reposync.py:184
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "Kontrola podpisu GPG se nezdařila."
 
 #: plugins/reposync.py:208
 #, python-brace-format
@@ -1286,11 +1309,13 @@ msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
 msgstr ""
+"Cíl stahování '{0}' pro umístění '{1}' balíčku '{2}' je mimo bezpečnou cestu "
+"zápisu '{3}'."
 
 #: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
-msgstr ""
+msgstr "[SMAZÁNO] %s"
 
 #: plugins/reposync.py:226
 #, python-format
@@ -1300,7 +1325,7 @@ msgstr "nezdařilo se smazat soubor %s"
 #: plugins/reposync.py:235
 #, python-format
 msgid "comps.xml for repository %s saved"
-msgstr ""
+msgstr "comps.xml pro repozitář %s uloženo"
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
@@ -1322,6 +1347,9 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"Stahování dokončeno! Ke spuštění upgradu použijte 'dnf {command} reboot'.\n"
+"Chcete-li odstranit metadata a transakce z mezipaměti, použijte 'dnf "
+"{command} clean'"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
@@ -1329,7 +1357,7 @@ msgstr "Promiňte, místo '--network' musíte použít 'download --releasever'"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "Restart je vypnutý, nerestartuje se."
 
 #: plugins/system_upgrade.py:125
 #, python-format
@@ -1369,7 +1397,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "po dokončení operace vypněte systém"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
@@ -1379,14 +1407,15 @@ msgstr "které logy zobrazit"
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
+"Nekompatibilní verze dat. Znovu spusťte 'dnf {command} download [OPTIONS]'"
 
 #: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
-msgstr ""
+msgstr "Příkaz 'offline-distrosync' nelze použít s volbou --no-downgrade"
 
 #: plugins/system_upgrade.py:464
 msgid "Additional information for System Upgrade: {}"
-msgstr ""
+msgstr "Další informace pro upgrade systému: {}"
 
 #: plugins/system_upgrade.py:467
 msgid ""
@@ -1410,6 +1439,8 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
+"transakce nebyla připravena pro '{command}'. Znovu spusťte 'dnf {command} "
+"download [OPTIONS]'"
 
 #: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
@@ -1426,7 +1457,7 @@ msgstr "už běží jiný nástroj povýšení, tiše končím."
 #: plugins/system_upgrade.py:557
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "pro zahájení upgradu použijte 'dnf {command} reboot'"
 
 #: plugins/system_upgrade.py:577
 msgid "Rebooting to perform upgrade."
@@ -1438,7 +1469,7 @@ msgstr "Spouští se offline aktualizace. To může nějakou dobu trvat."
 
 #: plugins/system_upgrade.py:615
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
+msgstr "Spouští se offline distrosync. To může nějakou dobu trvat."
 
 #: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
@@ -1451,7 +1482,7 @@ msgstr "Mazání stažených dat…"
 #: plugins/system_upgrade.py:663
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "Transakce upgradu systému je prázdná, váš systém je již aktuální."
 
 #: plugins/system_upgrade.py:672
 msgid "Transaction saved to {}."
@@ -1475,11 +1506,11 @@ msgstr "Aktualizace dokončena! Čištění a restart systému…"
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "Připravuje se offline upgrade systému"
 
 #: plugins/system_upgrade.py:720
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "Připravuje se offline distrosync systému"
 
 #: plugins/versionlock.py:33
 #, python-format
@@ -1500,15 +1531,15 @@ msgstr "Přidání vyloučení na:"
 
 #: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "Balíček již zamčený v ekvivalentní podobě:"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "Balíček {} je již uzamčen"
 
 #: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "Balíček {} je již vyloučen"
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
@@ -1525,15 +1556,19 @@ msgstr "Vyjímky z pluginu zamčení verzí nebyly aplikované"
 #: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
+"Plugin versionlock: počet použitých pravidel zámku ze souboru \"{}\" použito:"
+" {}"
 
 #: plugins/versionlock.py:44
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
+"Plugin versionlock: počet použitých pravidel vyloučení ze souboru \"{}\" "
+"použito: {}"
 
 #: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
-msgstr ""
+msgstr "Plugin versionlock: nelze parsovat vzor:"
 
 #: plugins/versionlock.py:138
 msgid "control package version locks"
@@ -1541,11 +1576,12 @@ msgstr "ovládat zamčení verzí balíčku"
 
 #: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
-msgstr ""
+msgstr "Použijte specifikace balíků tak, jak jsou, nesnažte se je parsovat"
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+"Dílčí příkaz '{}' je zastaralý. Místo toho použijte dílčí příkaz 'exclude'."
 
 #~ msgid "repo to modify"
 #~ msgstr "repozitář k úpravě"
