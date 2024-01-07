@@ -9,21 +9,22 @@
 # Arnaud T. <listes.00@gmail.com>, 2021.
 # Transtats <suanand@redhat.com>, 2022, 2023.
 # blutch112 <vincent.lefebvre59@gmail.com>, 2022.
+# Antoine BACK <antoine.back@hotmail.fr>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-22 01:41+0000\n"
-"PO-Revision-Date: 2023-03-06 13:48+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fr/>\n"
+"PO-Revision-Date: 2024-01-11 11:36+0000\n"
+"Last-Translator: Antoine BACK <antoine.back@hotmail.fr>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -166,7 +167,7 @@ msgstr "gestion de la configuration et des dépôts {prog}"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "sections de configuration pour gérer \"main\" ou repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -1309,13 +1310,11 @@ msgstr ""
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
-msgstr "Impossible d’utiliser --norepopath avec de multiples dépôts"
+msgstr "Impossible d’utiliser --norepopath avec plusieurs dépôts"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "Impossible d’utiliser --norepopath avec de multiples dépôts"
+msgstr "Impossible d’utiliser --safe-write-path avec plusieurs dépôts"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1433,7 +1432,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "éteindre le système une fois l'opération terminée"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
@@ -1542,10 +1541,8 @@ msgid "Download finished."
 msgstr "Téléchargement terminé."
 
 #: plugins/system_upgrade.py:701
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and powering off..."
-msgstr "Mise à niveau effectuée ! Nettoyage et redémarrage en cours …"
+msgstr "Mise à niveau effectuée ! Nettoyage et extinction…"
 
 #: plugins/system_upgrade.py:703
 msgid "Upgrade complete! Cleaning up and rebooting..."
