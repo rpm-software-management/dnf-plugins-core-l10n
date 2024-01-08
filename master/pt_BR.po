@@ -10,7 +10,7 @@
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020, 2021.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
-# Daimar Stein <daimarstein@pm.me>, 2022, 2023.
+# Daimar Stein <daimarstein@pm.me>, 2022, 2023, 2024.
 # Felipe Nogueira <contato.fnog@gmail.com>, 2023.
 # Ian Meyer <ianscuba1465@gmail.com>, 2023.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-22 01:41+0000\n"
 "PO-Revision-Date: 2024-01-11 11:36+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -168,7 +168,7 @@ msgstr "gerencie {prog} opções de configuração e repositórios"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "seções de configuração para gerenciar, \"main\" ou repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -933,7 +933,7 @@ msgstr "Sem correspondência para o argumento '{}'"
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Não foi possível satisfazer requisição {}"
 
 #: plugins/needs_restarting.py:68
 #, python-brace-format
@@ -996,7 +996,7 @@ msgstr "Linha de ação incorreta \"%s\": %s"
 #: plugins/post-transaction-actions.py:133
 #, python-format
 msgid "Bad Transaction State: %s"
-msgstr ""
+msgstr "Estado de Transação Ruim: %s"
 
 #: plugins/post-transaction-actions.py:160
 #: plugins/post-transaction-actions.py:162
