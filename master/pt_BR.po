@@ -13,13 +13,14 @@
 # Daimar Stein <daimarstein@pm.me>, 2022, 2023.
 # Felipe Nogueira <contato.fnog@gmail.com>, 2023.
 # Ian Meyer <ianscuba1465@gmail.com>, 2023.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-22 01:41+0000\n"
-"PO-Revision-Date: 2023-09-16 14:35+0000\n"
-"Last-Translator: Ian Meyer <ianscuba1465@gmail.com>\n"
+"PO-Revision-Date: 2024-01-11 11:36+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1001,22 +1002,20 @@ msgstr ""
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr ""
+msgstr "post-transaction-actions: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "post-transaction-actions: Comando inválido \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "exibe uma lista de dependências não resolvidas para repositórios"
 
 #: plugins/repoclosure.py:69
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "O reparo terminou com dependências não resolvidas."
+msgstr "O reparo terminou com dependências não resolvidas. ({}) por {} pacotes"
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1271,7 +1270,7 @@ msgstr "baixe apenas os pacotes mais novos por repo"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "Não adiciona o nome do repositório ao caminho do download."
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
