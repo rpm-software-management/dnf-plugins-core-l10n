@@ -10,13 +10,14 @@
 # Transtats <suanand@redhat.com>, 2022, 2023.
 # blutch112 <vincent.lefebvre59@gmail.com>, 2022.
 # Antoine BACK <antoine.back@hotmail.fr>, 2024.
+# Damien Pou <dampato+linux@ik.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-22 01:41+0000\n"
 "PO-Revision-Date: 2024-01-11 11:36+0000\n"
-"Last-Translator: Antoine BACK <antoine.back@hotmail.fr>\n"
+"Last-Translator: Damien Pou <dampato+linux@ik.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/fr/>\n"
 "Language: fr\n"
@@ -1307,6 +1308,8 @@ msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Le chemin du système de fichiers est considéré comme sécurisé pour écriture. "
+"Il s'agit du chemin par défaut pour les téléchargements."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
@@ -1334,14 +1337,13 @@ msgid "GPG signature check failed."
 msgstr "La vérification de la signature GPG a échoué."
 
 #: plugins/reposync.py:208
-#, fuzzy, python-brace-format
-#| msgid "Download target '{}' is outside of download path '{}'."
+#, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
 msgstr ""
-"La cible de téléchargement « {} » est en dehors du chemin de téléchargement "
-"« {} »."
+"La cible de téléchargement « {0} » pour l'emplacement '{1}' de '{2}' paquet "
+"est en dehors du chemin d'écriture sécurisé « {3} »."
 
 #: plugins/reposync.py:224
 #, python-format
