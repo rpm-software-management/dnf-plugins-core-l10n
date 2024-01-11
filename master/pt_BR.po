@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 01:45+0000\n"
-"PO-Revision-Date: 2024-01-11 14:22+0000\n"
+"PO-Revision-Date: 2024-01-11 14:26+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
@@ -1467,10 +1467,8 @@ msgstr ""
 "{command} download [OPÇÕES]'"
 
 #: plugins/system_upgrade.py:539
-#, fuzzy
-#| msgid "Package {} is already excluded"
 msgid "upgrade is already scheduled"
-msgstr "O pacote {} já foi excluído"
+msgstr "a atualização já está agendada"
 
 #: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
@@ -1561,7 +1559,7 @@ msgstr "Adicionando exclusão em:"
 
 #: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
-msgstr "Pacote já trancado em forma equivalente:"
+msgstr "Pacote já bloqueado em forma equivalente:"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already locked"
@@ -1586,15 +1584,19 @@ msgstr "A exclusão de plugins de bloqueio de versão não foram aplicadas"
 #: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
+"Plugin versionlock: número de regras de bloqueio do arquivo \"{}\" aplicadas:"
+" {}"
 
 #: plugins/versionlock.py:44
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
+"Plugin versionlock: número de regras de exclusões do arquivo \"{}\" "
+"aplicadas: {}"
 
 #: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
-msgstr ""
+msgstr "Plugin versionlock: não foi possível analisar o padrão:"
 
 #: plugins/versionlock.py:138
 msgid "control package version locks"
