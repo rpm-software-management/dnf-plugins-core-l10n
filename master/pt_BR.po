@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 01:45+0000\n"
 "PO-Revision-Date: 2024-01-11 14:26+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -1015,7 +1015,8 @@ msgstr "exibe uma lista de dependências não resolvidas para repositórios"
 
 #: plugins/repoclosure.py:69
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "O reparo terminou com dependências não resolvidas. ({}) por {} pacotes"
+msgstr ""
+"O reparo terminou com dependências não resolvidas ({}) através de {} pacotes."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1303,10 +1304,8 @@ msgid "Can't use --norepopath with multiple repositories"
 msgstr "Não é possível usar --norepopath com vários repositórios"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "Não é possível usar --norepopath com vários repositórios"
+msgstr "Não é possível usar --safe-write-path com vários repositórios"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1523,10 +1522,8 @@ msgid "Download finished."
 msgstr "Download concluído."
 
 #: plugins/system_upgrade.py:701
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and powering off..."
-msgstr "Atualização completa! Limpando e reiniciando..."
+msgstr "Atualização completa! Limpando e desligando..."
 
 #: plugins/system_upgrade.py:703
 msgid "Upgrade complete! Cleaning up and rebooting..."
