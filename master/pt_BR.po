@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 01:45+0000\n"
 "PO-Revision-Date: 2024-01-11 14:18+0000\n"
-"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -1279,6 +1279,8 @@ msgstr "onde armazenar os repositórios baixados"
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
+"tenta definir o carimbo de data e hora local de arquivos locais por aqueles "
+"do servidor"
 
 #: plugins/reposync.py:87
 msgid "download only source packages"
