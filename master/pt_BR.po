@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 01:45+0000\n"
-"PO-Revision-Date: 2024-01-11 14:26+0000\n"
-"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
+"PO-Revision-Date: 2024-01-11 17:37+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -45,19 +45,19 @@ msgstr "pacotes com dependências para instalar"
 
 #: plugins/builddep.py:93
 msgid "define a macro for spec file parsing"
-msgstr "define uma macro para especificações por file parsing"
+msgstr "define uma macro para análise do arquivo spec"
 
 #: plugins/builddep.py:95
 msgid "skip build dependencies not available in repositories"
-msgstr "pular dependências de compilação não disponíveis em repositórios"
+msgstr "pula dependências de compilação não disponíveis nos repositórios"
 
 #: plugins/builddep.py:98
 msgid "treat commandline arguments as spec files"
-msgstr "tratar argumentos de linha de comando como especificação de arquivos"
+msgstr "trata argumentos de linha de comando como arquivos spec"
 
 #: plugins/builddep.py:100
 msgid "treat commandline arguments as source rpm"
-msgstr "tratar argumentos de linha de comando como origem rpm"
+msgstr "trata argumentos de linha de comando como rpm fonte"
 
 #: plugins/builddep.py:144
 msgid "RPM: {}"
@@ -107,26 +107,26 @@ msgstr "Não é uma data válida: \"{0}\"."
 
 #: plugins/changelog.py:43
 msgid "Show changelog data of packages"
-msgstr "mostra o registro de alterações dos pacotes"
+msgstr "Mostra o registro de alterações dos pacotes"
 
 #: plugins/changelog.py:51
 msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
 msgstr ""
-"exibe os registros de alterações desde DATA. Para evitar ambiguidade, o "
+"mostra os registros de alterações desde DATE. Para evitar ambiguidade, o "
 "formato AAAA-MM-DD é recomendado."
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
-msgstr "exibe um determinado número de registros de alterações por pacote"
+msgstr "mostra um determinado número de registros de alterações por pacote"
 
 #: plugins/changelog.py:58
 msgid ""
 "show only new changelog entries for packages, that provide an upgrade for "
 "some of already installed packages."
 msgstr ""
-"exibe apenas novos registros de alterações para pacotes que fornecem uma "
+"mostra apenas novos registros de alterações para pacotes que fornecem uma "
 "atualização para alguns dos pacotes já instalados."
 
 #: plugins/changelog.py:60
@@ -140,7 +140,7 @@ msgstr "Nenhuma correspondência para o argumento: %s"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
-msgstr "Listar log de alterações desde {}"
+msgstr "Listando registros de alterações desde {}"
 
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
@@ -164,7 +164,7 @@ msgstr "Registros de alterações para {}"
 #: plugins/config_manager.py:38
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
-msgstr "gerencie {prog} opções de configuração e repositórios"
+msgstr "Gerencia opções de configuração e repositórios do {prog}"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
@@ -180,19 +180,19 @@ msgstr "adiciona (e habilita) o repositório especificado por arquivo ou url"
 
 #: plugins/config_manager.py:54
 msgid "print current configuration values to stdout"
-msgstr "exibe a configuração para o stdout"
+msgstr "exibe atuais valores de configuração para a saída padrão"
 
 #: plugins/config_manager.py:57
 msgid "print variable values to stdout"
-msgstr "imprime valores das variáveis para a saída padrão"
+msgstr "exibe valores das variáveis para a saída padrão"
 
 #: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
-msgstr "habilitar repos (salva automaticamente)"
+msgstr "habilita repositórios (salva automaticamente)"
 
 #: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
-msgstr "desabilitar repos (salva automaticamente)"
+msgstr "desabilita repositórios (salva automaticamente)"
 
 #: plugins/config_manager.py:78
 msgid "one of the following arguments is required: {}"
@@ -225,7 +225,7 @@ msgstr[1] "A configuração dos repos falhou"
 #: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
-msgstr "Não pode salvar o repositório para o repofile %s: %s"
+msgstr "Não é possível salvar o repositório para o repofile %s: %s"
 
 #: plugins/copr.py:70
 msgid "y"
@@ -303,7 +303,7 @@ msgstr "Lista os repositórios Copr disponíveis pelo usuário NAME"
 
 #: plugins/copr.py:128
 msgid "Specify an instance of Copr to work with"
-msgstr "Especificar uma instância do Copr para trabalhar"
+msgstr "Especifica uma instância do Copr para trabalhar"
 
 #: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
 msgid "Error: "
@@ -314,7 +314,7 @@ msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
-"especifique o hub Copr com `--hub` ou usando o formato` copr_hub/"
+"especifique o hub Copr com `--hub` ou usando o formato `copr_hub/"
 "copr_nomedousuario/copr_nomedoprojeto`"
 
 #: plugins/copr.py:167
@@ -378,11 +378,11 @@ msgstr ""
 
 #: plugins/copr.py:315
 msgid "Repository successfully enabled."
-msgstr "Repositório ativado com êxito."
+msgstr "Repositório habilitado com sucesso."
 
 #: plugins/copr.py:320
 msgid "Repository successfully disabled."
-msgstr "Repositório desativado com êxito."
+msgstr "Repositório desabilitado com sucesso."
 
 #: plugins/copr.py:324
 msgid "Repository successfully removed."
@@ -399,8 +399,8 @@ msgid ""
 "this."
 msgstr ""
 "* Esses coprs possuem um arquivo repo com um formato antigo que não contém "
-"informações sobre o hub Copr - o padrão foi assumido. Reative o projeto para "
-"corrigir isso."
+"informações sobre o hub Copr - o padrão foi assumido. Habilite novamente o "
+"projeto para corrigir isso."
 
 #: plugins/copr.py:398
 msgid "Can't parse repositories for username '{}'."
@@ -560,7 +560,7 @@ msgstr "descarrega informações sobre os pacotes rpm instalados para o arquivo"
 
 #: plugins/debug.py:67
 msgid "do not attempt to dump the repository contents."
-msgstr "não tentar descarregar o conteúdo dos repositórios."
+msgstr "não tenta descarregar o conteúdo dos repositórios."
 
 #: plugins/debug.py:70
 msgid "optional name of dump file"
@@ -577,23 +577,23 @@ msgstr "restaura pacotes gravados no arquivo debug-dump"
 
 #: plugins/debug.py:185
 msgid "output commands that would be run to stdout."
-msgstr "imprimir comandos que deveriam ser executados para a saída padrão."
+msgstr "imprime comandos que deveriam ser executados para a saída padrão."
 
 #: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
-msgstr "Instalar as versão mais recente dos pacotes gravados."
+msgstr "Instala as versão mais recentes dos pacotes gravados."
 
 #: plugins/debug.py:191
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
 msgstr ""
-"Ignore a arquitetura e instale os pacotes ausentes coincidindo com o nome, "
+"Ignora a arquitetura e instala os pacotes ausentes coincidindo com o nome, "
 "período, versão e lançamento."
 
 #: plugins/debug.py:196
 msgid "limit to specified type"
-msgstr "limitar para o tipo especificado"
+msgstr "limita para o tipo especificado"
 
 #: plugins/debug.py:199
 msgid ""
@@ -1015,8 +1015,7 @@ msgstr "exibe uma lista de dependências não resolvidas para repositórios"
 
 #: plugins/repoclosure.py:69
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr ""
-"O reparo terminou com dependências não resolvidas ({}) através de {} pacotes."
+msgstr "O reparo terminou com dependências não resolvidas ({}) por {} pacotes."
 
 #: plugins/repoclosure.py:159
 msgid "check packages of the given archs, can be specified multiple times"
