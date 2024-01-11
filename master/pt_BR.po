@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 01:45+0000\n"
-"PO-Revision-Date: 2024-01-11 14:18+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2024-01-11 14:21+0000\n"
+"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -1331,6 +1331,8 @@ msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
 msgstr ""
+"Alvo de download '{0}' para o local '{1}' do pacote '{2}' está fora do "
+"caminho de escrita seguro '{3}'."
 
 #: plugins/reposync.py:224
 #, python-format
@@ -1417,7 +1419,7 @@ msgstr "manter os pacotes instalados se os da nova versão forem mais antigos"
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "desligar o sistema depois de completar a operação"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
