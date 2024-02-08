@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-08 01:35+0000\n"
-"PO-Revision-Date: 2023-12-18 23:36+0000\n"
+"PO-Revision-Date: 2024-02-09 19:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ka/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -70,7 +70,7 @@ msgstr ""
 
 #: plugins/builddep.py:204 plugins/builddep.py:224 plugins/builddep.py:241
 msgid "Not all dependencies satisfied"
-msgstr ""
+msgstr "ყველა დამოკიდებულება შესრულებული არაა"
 
 #: plugins/builddep.py:208
 msgid ""
@@ -123,7 +123,7 @@ msgstr "არგუმენტს არაფერი ემთხვევ�
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
-msgstr ""
+msgstr "ცვლილებების ჟურნალის ჩვენება დროიდან {}"
 
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
@@ -194,7 +194,7 @@ msgstr ""
 #: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
-msgstr ""
+msgstr "რეპოს დამატება ბმულიდან: %s"
 
 #: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
@@ -918,7 +918,7 @@ msgstr ""
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr "ტრანზაქციის-შემდეგი-ქმედებები: %s"
+msgstr "post-transaction-actions:%s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
@@ -1434,7 +1434,7 @@ msgstr "ბლოკის სია დაყენებული არაა
 
 #: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
-msgstr ""
+msgstr "'versionlock'-ის დამატება პაკეტზე:"
 
 #: plugins/versionlock.py:36
 msgid "Adding exclude on:"
@@ -1454,7 +1454,7 @@ msgstr ""
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
-msgstr ""
+msgstr "'versionlock'-ის წაშლა პაკეტიდან:"
 
 #: plugins/versionlock.py:41
 msgid "No package found for:"
