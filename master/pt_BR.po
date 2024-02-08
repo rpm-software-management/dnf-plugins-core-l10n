@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-08 01:35+0000\n"
-"PO-Revision-Date: 2024-02-08 17:11+0000\n"
+"PO-Revision-Date: 2024-02-09 19:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/pt_BR/>\n"
@@ -544,15 +544,15 @@ msgstr "Você deseja continuar?"
 
 #: plugins/copr.py:729
 msgid "Playground repositories successfully enabled."
-msgstr "Repositórios playground habilitados com sucesso."
+msgstr "Repositórios Playground habilitados com sucesso."
 
 #: plugins/copr.py:732
 msgid "Playground repositories successfully disabled."
-msgstr "Repositórios playground desabilitados com sucesso."
+msgstr "Repositórios Playground desabilitados com sucesso."
 
 #: plugins/copr.py:736
 msgid "Playground repositories successfully updated."
-msgstr "Repositórios playground atualizados com sucesso."
+msgstr "Repositórios Playground atualizados com sucesso."
 
 #: plugins/debug.py:53
 msgid "dump information about installed rpm packages to file"
@@ -719,7 +719,7 @@ msgstr "Erro na resolução de pacotes:"
 #: plugins/download.py:279
 #, python-format
 msgid "No source rpm defined for %s"
-msgstr "Nenhuma origem definida para %s"
+msgstr "Nenhum rpm fonte definido para %s"
 
 #: plugins/download.py:296 plugins/download.py:309
 #, python-format
@@ -891,7 +891,7 @@ msgstr "módulos para baixar"
 
 #: plugins/modulesync.py:47
 msgid "enable repositories with source packages"
-msgstr "ativar repositórios com pacotes raíz"
+msgstr "ativar repositórios com pacotes raiz"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
@@ -1144,7 +1144,7 @@ msgstr "Pacotes atualizados: {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr "Pacotes obsoletos: {}"
+msgstr "Pacotes com versão retroagida: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
