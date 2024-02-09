@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-07-28 18:21+0000\n"
 "Last-Translator: Ville-Pekka Vainio <vpvainio@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -86,7 +86,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "Avaaminen epäonnistui: '%s', ei kelvollinen spec-tiedosto: %s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "Vastaavaa pakettia ei löytynyt: %s"
@@ -692,25 +692,25 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "käytettäessa parametria '--url', rajoita tiettyihin protokolliin"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Peiliä paketille %s ei saatu"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "Poistutaan tiukkojen asetusten takia."
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "Virhe pakettien ratkaisemisessa:"
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "Lähde-rpm:ää ei ole määritelty %s:lle"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "Pakettia %s ei ole saatavilla."
@@ -954,23 +954,23 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "ilmoita vain systemd-palvelut, joihin toimilla on vaikutusta"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Ydinkirjastot tai -palvelut on päivitetty käynnistyksen jälkeen:"
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Uudelleenkäynnistys vaaditaan näiden päivitysten hyödyntämiseksi."
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "Lisätietoja:"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "Ydinkirjastoja tai -palveluja ei ole päivitetty käynnistyksen jälkeen."
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "Uudelleenkäynnistyksen ei pitäisi olla tarpeen."
 
@@ -1000,26 +1000,26 @@ msgstr "transaktion jälkeiset toiminnot: Virheellinen komento ”%s”: %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Näytä luettelo ohjelmistolähteiden ratkaisemattomista riippuvuuksista"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure päättyi ratkaisemattomilla riippuvuuksilla ({}) {} paketeissa."
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 "tarkista paketit annetuille arkkitehtuureille, voidaan määrittää useita "
 "kertoja"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "Määritä tarkistettavat ohjelmistolähteet"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "Tarkista vain ohjelmistolähteen uusimmat paketit"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "Tarkista sulkeuma vain tälle paketille"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-06-04 13:12+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -86,7 +86,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "Не вдалося відкрити «%s» — файл не є коректним файлом spec: %s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "немає відповідного пакунка: %s"
@@ -693,25 +693,25 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "якщо запущено з --url, обмежитися вказаними протоколами"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Не вдалося отримати дзеркало для пакунка: %s"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "Завершуємо роботу через строгі обмеження."
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "Помилка під час спроби розв'язати залежності таких пакунків:"
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "Не визначено rpm із початковим кодом для %s"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "Немає доступного пакунка %s."
@@ -956,25 +956,25 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "повідомляти лише про служби systemd, яких це стосується"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Основні бібліотеки та служби було оновлено з часу завантаження:"
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Щоб повністю скористатися цими оновленнями, слід перезавантажити систему."
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "Докладніші відомості:"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "З часу завантаження не виконувалося оновлення основних бібліотек або служб."
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "У перезавантаженні немає потреби."
 
@@ -1004,26 +1004,26 @@ msgstr "post-transaction-actions: помилкова команда «%s»: %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Показати список нерозв’язаних залежностей для сховищ"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Виконання repoclosure завершилося із нерозв’язаними залежностями ({}) між {} "
 "пакунками."
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 "перевірити пакунки вказаної архітектури, можна використовувати декілька разів"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "Вказати сховища для перевірки"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "Перевірити лише найновіші пакунки у сховищах"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "Перевірити замкненість лише для цього пакунка"
 

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-06-04 13:12+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "Otwarcie się nie powiodło: „%s”, nieprawidłowy plik spec: %s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "żaden pakiet nie pasuje: %s"
@@ -702,25 +702,25 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "podczas działania z opcją --url, ogranicza do podanych protokołów"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Uzyskanie serwera lustrzanego dla pakietu się nie powiodło: %s"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "Kończenie działania z powodu ścisłego ustawienia."
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "Błąd podczas rozwiązywania pakietów:"
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "Nie określono źródłowego pakietu RPM dla %s"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "Pakiet %s jest niedostępny."
@@ -967,24 +967,24 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "zgłasza tylko usługi systemd, których to dotyczy"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Od uruchomienia zaktualizowano główne biblioteki lub usługi:"
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Wymagane jest ponowne uruchomienie, aby w pełni je wykorzystać."
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "Więcej informacji:"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Od uruchomienia nie zaktualizowano żadnych głównych bibliotek ani usługi."
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "Ponowne uruchomienie nie powinno być konieczne."
 
@@ -1014,26 +1014,26 @@ msgstr "Działania po transakcji: błędne polecenie „%s”: %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Wyświetla listę nierozwiązanych zależności dla repozytoriów"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Zamknięcie repozytorium zakończyło się z nierozwiązanymi zależnościami ({}) "
 "w {} pakietach."
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 "sprawdza pakiety o podanych architekturach, może być podawane wielokrotnie"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "Podaje repozytoria do sprawdzenia"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "Sprawdza tylko najnowsze pakiety w repozytoriach"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "Sprawdza domknięcie tylko tego pakietu"
 

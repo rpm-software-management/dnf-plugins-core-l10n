@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-03-06 13:48+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -84,7 +84,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "開くことに失敗しました: '%s'、有効なスペックファイルではありません: %s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "一致するパッケージはありません: %s"
@@ -689,25 +689,25 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "--url で実行中の際は、特定のプロトコルに限定します"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "パッケージのミラー取得に失敗しました: %s"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "厳密な設定により終了中です。"
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "パッケージの解決でエラー:"
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "%s に対して定義されているソース rpm はありません"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "利用可能なパッケージ %s はありません。"
@@ -954,24 +954,24 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "影響を受ける systemd サービスのみを報告"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "起動以降にコアライブラリーまたはサービスがアップデートされました:"
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr "これらのアップデートを完全に活用するには、再起動が必要です。"
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "詳細情報:"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "起動以降にアップデートされたコアライブラリーまたはサービスはありません。"
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "再起動な必要ありません。"
 
@@ -1001,24 +1001,24 @@ msgstr "post-transaction-actions: 不正なコマンド \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "リポジトリーの未解決の依存関係の一覧を表示します"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure は、{} パッケージで依存関係 ({}) が解決されずに終了します。"
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr "特定の arch のパッケージを確認します。複数回指定することができます"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "確認するリポジトリーを指定します"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "repo の最新パッケージのみを確認します"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "このパッケージのみのクロージャーを確認します"
 

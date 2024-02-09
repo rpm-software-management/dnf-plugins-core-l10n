@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-03-03 04:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "No si è rivâts a vierzi: '%s', nol è un file spec valit: %s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "nissun pachet corispondent: %s"
@@ -685,25 +685,25 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "cuant che si eseguìs cun --url, limite ai protocoi specificâts"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "No si è rivâts a otignî il spieli (mirror) pal pachet: %s"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "Si jes par vie des impostazions fiscâls."
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "Erôr tal risolvi i pachets:"
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "Nissun rpm sorzint definît par %s"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "Nissun pachet %s disponibil."
@@ -947,27 +947,27 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "segnale dome i servizis di systemd interessâts"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 "Dal inviament dal sisteme, lis librariis cûr o i servizis a son stâts "
 "inzornâts:"
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Al covente tornâ a inviâ il sisteme par utilizâ dal dut chescj inzornaments."
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "Plui informazions:"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Dal inviament dal sisteme nissune librarie cûr o servizi al è stât inzornât."
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "Nol varès di coventâ tornâ a inviâ il sisteme."
 
@@ -997,25 +997,25 @@ msgstr "azions sucessivis ae transazion: comant sbaliât \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Mostre une liste des dipendencis no risolvudis pai dipuesits"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure al à finît cun dipendencis no risoltis {(}) par {} pachets."
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 "controle pachets de architeture indicade, si pues specificâ plui voltis"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "Specifiche i dipuesits di controlâ"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "Controle dome i gnûfs pachets tai dipuesits"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "Controle il sierâ dome par chest pachet"
 

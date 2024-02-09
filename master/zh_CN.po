@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-10-19 03:35+0000\n"
 "Last-Translator: Zephyr Lykos <fedora@mochaa.ws>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -89,7 +89,7 @@ msgstr "警告：-D 或 --define 参数对源 rpm 软件包没有意义。"
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "打开失败： '%s'， 不是有效的 spec 文件： %s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "无匹配软件包： %s"
@@ -669,25 +669,25 @@ msgstr "打印 rpm 可被下载的 url 列表而不是直接下载"
 msgid "when running with --url, limit to specific protocols"
 msgstr "当执行时带有 --url 参数，则限制使用指定协议"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "获取针对以下软件包的镜像失败：%s"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "退出由于严格设置。"
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "resolve 软件包失败："
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "未找到所定义 %s 的源代码软件包 SRPM"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "没有可用的软件包 %s。"
@@ -919,23 +919,23 @@ msgstr "只报告需要重新引导 (退出代码为 1) 或不需要重新引导
 msgid "only report affected systemd services"
 msgstr "只报告受影响的 systemd 服务"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "在引导后 Core 库或服务已被更新 ："
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr "需要重新启动后才可以使这些更新完全生效。"
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "更多信息 :"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "在引导后没有 core 库或服务被更新。"
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "不需要重新启动。"
 
@@ -965,23 +965,23 @@ msgstr "事物后的操作 : 无效的命令 \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "显示仓库中未被解决的依赖关系的列表"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "Repoclosure 退出时还有未解决的依赖项（{}），针对 {} 软件包。"
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr "检查给定架构的软件包，可以被指定多次"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "指定要检查的软件仓库"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "只检查仓库中最新的软件包"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "仅为该软件包检查依赖闭合性"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-12-11 14:43+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "Açılamadı: '%s', geçerli bir spec dosyası değil: %s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "eşleşen paket yok: %s"
@@ -684,25 +684,25 @@ msgstr "indirmek yerine rpm'lerin indirilebileceği url'lerin listesini yazdır"
 msgid "when running with --url, limit to specific protocols"
 msgstr "--url seçeneğiyle çalışırken belirli protokolllerle sınırlı kal"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "%s paketi için yansı alınamadı"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "Katı ayar nedeniyle çıkılıyor."
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "Paketler çözümlenirken hata oluştu:"
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "%s için tanımlanan kaynak rpm yok"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "%s paketi kullanılabilir değil."
@@ -944,28 +944,28 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "yalnızca etkilenen systemd hizmetlerini bildir"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 "Sistem başlangıcından bu yana güncellenen çekirdek kütüphaneler veya "
 "hizmetler:"
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Bu güncellemeleri tam olarak kullanmak için yeniden başlatma gereklidir."
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "Daha fazla bilgi için:"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Sistem başlangıcından bu yana hiçbir çekirdek kütüphane veya hizmet "
 "güncellenmedi."
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "Yeniden başlatmaya gerek yok."
 
@@ -995,25 +995,25 @@ msgstr "post-transaction-actions: Hatalı Komut \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Depolar için çözümlenmemiş bağımlılıkların bir listesini görüntüle"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure, {} çözümlenmemiş bağımlılıkla ({} paket boyunca) sona erdi."
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 "verilen mimarilere sahip paketleri denetle, birden çok kez belirtilebilir"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "Belirtilen depoları denetle"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "Yalnızca depolardaki en yeni paketleri denetle"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "Yalnızca bu paket için çözümlenmemiş bağımlılıkları denetle"
 

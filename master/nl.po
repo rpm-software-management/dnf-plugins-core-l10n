@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-06-04 13:12+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -84,7 +84,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "Openen is mislukt: '%s', geen geldig spec-bestand: %s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "geen pakket gevonden: %s"
@@ -694,25 +694,25 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "bij gebruik van --url, beperken tot specifieke protocollen"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Kan spiegel voor pakket niet ophalen: %s"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "Afsluiten vanwege strikte instelling."
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "Fout bij het oplossen van pakketten:"
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "Geen bron-rpm gedefinieerd voor %s"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "Pakket %s niet beschikbaar."
@@ -954,26 +954,26 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "rapporteer alleen getroffen systemd-services"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Kernbibliotheken of services die sinds het opstarten zijn bijgewerkt:"
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Opnieuw opstarten is vereist om deze vernieuwingen volledig te kunnen "
 "gebruiken."
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "Meer informatie:"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Sinds het opstarten zijn er geen kernbibliotheken of services bijgewerkt."
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "Opnieuw opstarten zou niet nodig moeten zijn."
 
@@ -1003,27 +1003,27 @@ msgstr "post-transaction-actions: Slecht commando \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Toon een lijst met onopgeloste afhankelijkheden voor repositories"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure beëindigd met onopgeloste afhankelijkheden ({}) over {} "
 "pakketten."
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
 "Controleer pakketten van de gegeven archs, kunnen meerdere keren worden "
 "opgegeven"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "Geef de te controleren repositories op"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "Controleer alleen de nieuwste pakketten in de repo's"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "Controleer alleen de afsluiting voor dit pakket"
 

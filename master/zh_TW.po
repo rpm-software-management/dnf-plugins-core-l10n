@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-08-14 13:21+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -85,7 +85,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "無法開啟：「%s」，非有效 spec 檔案：%s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "沒有符合的軟體包：%s"
@@ -652,25 +652,25 @@ msgstr "輸出可以下載 RPM 的 URL 清單而不下載"
 msgid "when running with --url, limit to specific protocols"
 msgstr "使用 --url 執行時，限縮至指定的通訊協定"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "無法取得軟體庫的鏡像站：%s"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "因為嚴格設定而結束。"
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "解析軟體包時發生錯誤："
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "未指定 %s 的來源 RPM"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "沒有 %s 軟體包可用。"
@@ -924,23 +924,23 @@ msgstr "只回報是（錯誤碼 1）否（錯誤碼 0）需要重新啟動"
 msgid "only report affected systemd services"
 msgstr ""
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "開機後更新過的核心函式庫或服務："
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr "需要重新啟動，才可以完全套用這些更新。"
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "更多資訊："
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "開機後沒有更新過的核心函式庫或服務。"
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "應不需要重新啟動。"
 
@@ -970,25 +970,25 @@ msgstr "post-transaction-actions：「%s」命令無效：%s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "顯示軟體庫中未回應的依賴關係列表"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 #, fuzzy
 #| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "因為未回應的依賴關係列表，Repoclosure 退出。"
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr "檢查給予的架構的軟體包，可指定多個。"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "指定欲檢查的軟體庫"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "只檢查軟體庫內最新的軟體包"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "只檢查這個軟體庫的 closure"
 

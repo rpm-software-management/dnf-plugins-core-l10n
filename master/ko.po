@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-08-06 02:42+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -85,7 +85,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "여는데 실패하였습니다 '%s', 지정한 파일: %s가 유효하지 않습니다"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "일치하는 꾸러미 없음: %s"
@@ -679,25 +679,25 @@ msgstr "내려받기 대신 rpms를 내려받기 할 수 있는 URL 목록 인�
 msgid "when running with --url, limit to specific protocols"
 msgstr "--url을 사용하여 실행하면 특정 통신규약이 제한됩니다"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "꾸러미 연결주소 얻기에 실패했습니다: %s"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "엄격한 설정으로 인해 종료됩니다."
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "꾸러미 해결 오류 :"
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "%s를 위한 원천 rpm이 정의되지 않음"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "가용한 꾸러미 %s가 없습니다."
@@ -938,23 +938,23 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "systemd 서비스에 영향을 미치는 것만 보고합니다"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Core 라이브러리와 서비스는 재시작 이 후에 최신화 됩니다:"
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr "재시작은 이들 최신화를 완전히 사용하려면 필요합니다."
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "자세한 정보:"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "핵심 라이브러리와 서비스는 재시작 이 후에 최신화 되지 않습니다."
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "재시작은 필요하지 않을 수 있습니다."
 
@@ -984,24 +984,24 @@ msgstr "연결 후 동작: 잘못된 명령 \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "저장소에 대한 확인되지 않은 종속성 목록 표시"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure는 {} 꾸러미를 통해 해결되지 않은 의존성 ({})으로 종료되었습니다."
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr "지정된 아치의 꾸러미를 검사하고 여러 번 지정할 수 있습니다"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "점검 할 저장소를 지정하세요"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "저장소 최신 꾸러미만 확인하세요"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "이 꾸러미의 폐쇄만 확인하세요"
 

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 01:35+0000\n"
+"POT-Creation-Date: 2024-02-09 01:35+0000\n"
 "PO-Revision-Date: 2023-12-22 14:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -90,7 +90,7 @@ msgstr ""
 msgid "Failed to open: '%s', not a valid spec file: %s"
 msgstr "Nepovedlo se otevřít „%s“, není platný soubor spec: %s"
 
-#: plugins/builddep.py:234 plugins/repoclosure.py:124
+#: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
 msgstr "žádný balíček neodpovídá: %s"
@@ -690,25 +690,25 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "Při spuštění s --url omezit na konkrétní protokoly"
 
-#: plugins/download.py:121 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Nepovedlo se získat zrcadlo pro balíček: %s"
 
-#: plugins/download.py:243
+#: plugins/download.py:246
 msgid "Exiting due to strict setting."
 msgstr "Probíhá ukončení kvůli přísnému nastavení."
 
-#: plugins/download.py:261
+#: plugins/download.py:264
 msgid "Error in resolve of packages:"
 msgstr "Chyba v řešení závislostí balíčků:"
 
-#: plugins/download.py:279
+#: plugins/download.py:282
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "Není definováno žádné zdrojové rpm pro %s"
 
-#: plugins/download.py:296 plugins/download.py:309
+#: plugins/download.py:299 plugins/download.py:312
 #, python-format
 msgid "No package %s available."
 msgstr "Není dostupný žádný balíček %s."
@@ -951,23 +951,23 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "hlásit pouze ovlivněné systémové služby"
 
-#: plugins/needs_restarting.py:289
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Základní knihovny nebo služby byly od spuštění aktualizovány:"
 
-#: plugins/needs_restarting.py:294
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Pro plné využití těchto aktualizací je vyžadován restart."
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "Více informací:"
 
-#: plugins/needs_restarting.py:299
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "Od spuštění nebyly aktualizovány žádné základní knihovny ani služby."
 
-#: plugins/needs_restarting.py:301
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "Restart by neměl být nutný."
 
@@ -997,24 +997,24 @@ msgstr "po-transakční akce: Chybný příkaz \"%s\": %s"
 msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Zobrazit seznam nevyřešených závislostí pro repozitáře"
 
-#: plugins/repoclosure.py:69
+#: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Opětovné uzavření skončilo s nevyřešenými závislostmi ({}) napříč balíčky {}."
 
-#: plugins/repoclosure.py:159
+#: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr "zkontrolovat balíčky daných architektur, mohou být zadány vícekrát"
 
-#: plugins/repoclosure.py:162
+#: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
 msgstr "Určit, které repozitáře zkontrolovat"
 
-#: plugins/repoclosure.py:164
+#: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
 msgstr "Zkontrolovat jen nejnovější balíčky v repozitářích"
 
-#: plugins/repoclosure.py:167
+#: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
 msgstr "Zkontrolovat uzavření pouze pro tento balíček"
 
