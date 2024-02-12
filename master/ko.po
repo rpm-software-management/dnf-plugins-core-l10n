@@ -2,23 +2,23 @@
 # Marek Blaha <mblaha@redhat.com>, 2020.
 # simmon <simmon@nplob.com>, 2021, 2022.
 # Kim InSoo <simmon@nplob.com>, 2022.
-# 김인수 <simmon@nplob.com>, 2022, 2023.
+# 김인수 <simmon@nplob.com>, 2022, 2023, 2024.
 # seo hojin <jinswhat@naver.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 01:35+0000\n"
-"PO-Revision-Date: 2023-08-06 02:42+0000\n"
+"PO-Revision-Date: 2024-02-13 06:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -160,7 +160,7 @@ msgstr "관리하려는 구성 부분, \"main\" 또는 repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
-msgstr "현재 옵션 저장 (--setopt와 함께 유용함)"
+msgstr "현재 옵션 저장 (--setopt 와 함께 유용함)"
 
 #: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
@@ -191,8 +191,8 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
-"경고: -- --enablerepo/--disablerepo 인수는 설정 관리자와 함께 의미를 갖고 있"
-"지 않습니다. 대신에 --set-enabled/--set-disabled를 사용하세요."
+"경고: -- --enablerepo/--disablerepo 인수는 설정 관리자와 함께 의미를 갖고 "
+"있지 않습니다. 대신에 --set-enabled/--set-disabled 를 사용하세요."
 
 #: plugins/config_manager.py:134
 #, python-format
@@ -301,8 +301,8 @@ msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
-"Corp hub를 `--hub` 또는 사용하기 `copr_hub/copr_username/copr_projectname`형"
-"식으로 지정합니다"
+"Copr hub를 `--hub` 또는 `copr_hub/copr_username/copr_projectname`형식 "
+"사용하기로 지정합니다"
 
 #: plugins/copr.py:167
 msgid "multiple hubs specified"
@@ -348,18 +348,17 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Core 저정소를 활성화합니다. 이 저장소는 주요 배포판 부분이 아님을 알고 있기 "
+"Copr 저장소를 활성화합니다. 이 저장소는 주요 배포판 부분이 아님을 알고 있기 "
 "바라고,\n"
 "품질이 다를 수 있습니다.\n"
 "\n"
 "페도라 프로젝트는\n"
 "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
 "in-copr>에\n"
-"Core FAQ에 있는 설명된 규칙을 넘는 저장소 내용 이상의 권한을 시험하지 않으"
-"며,\n"
-"그리고 꾸러미(package)는 어떤 품질이나 보안 수준을 유지하지 않습니다.\n"
+"Copr FAQ에 있는 설명된 규칙을 넘는 저장소 내용 이상의 권한을 시험하지 않고,\n"
+"꾸러미는 어떤 품질이나 보안 수준을 유지하지 않습니다.\n"
 "\n"
-"페도라 버그질라에 이들 꾸러미에 대한 파일 결점 보고를 제출하지 마세요.\n"
+"페도라 버그질라에서 이들 꾸러미에 대한 파일 결점 보고를 제출하지 마세요.\n"
 "이들 문제는, 이들 저장소 소유자와 접촉하세요.\n"
 
 #: plugins/copr.py:315
@@ -393,7 +392,7 @@ msgstr "사용자 이름 '{}'에 대한 리포지토리를 구문 분석 할 수
 
 #: plugins/copr.py:401
 msgid "List of {} coprs"
-msgstr "{} 명의 경찰 목록"
+msgstr "{} coprs의 목록"
 
 #: plugins/copr.py:406
 msgid "No description given"
@@ -484,9 +483,9 @@ msgid ""
 "\n"
 "These repositories have been enabled automatically."
 msgstr ""
-"활성화된 Core 저장소의 유지는 다른 저장소에 이를 독립적으로\n"
+"활성화된 Copr 저장소의 유지는 다른 저장소에 이를 독립적으로\n"
 "만드는 것으로 결정하였습니다.\n"
-"그런 저장소는 주요 Corp 저장소에서 성공적인 RPM 설치를\n"
+"그런 저장소는 주요 Copr 저장소에서 성공적인 RPM 설치를\n"
 "위하여 일반적으로 필요합니다(이들은 실행 의존성을 제공합니다).\n"
 "\n"
 "위도 여기에 적용되며 품질과 결점-보고에 대한 참고 사항을 알아야 하고,\n"
@@ -516,11 +515,11 @@ msgstr "서버에서 알 수없는 응답."
 
 #: plugins/copr.py:678
 msgid "Interact with Playground repository."
-msgstr "놀이터 저장소와 상호 작용하십시오."
+msgstr "Playground 저장소와 상호 작용합니다."
 
 #: plugins/copr.py:684
 msgid "Enabling a Playground repository."
-msgstr "동작 저장소와 활용하기."
+msgstr "Playground 저장소 활용하기."
 
 #: plugins/copr.py:685
 msgid "Do you want to continue?"
@@ -528,15 +527,15 @@ msgstr "계속하기를 원하십니까?"
 
 #: plugins/copr.py:729
 msgid "Playground repositories successfully enabled."
-msgstr "놀이터 저장소를 사용하도록 설정했습니다."
+msgstr "Playground 저장소를 성공적으로 활성화 했습니다."
 
 #: plugins/copr.py:732
 msgid "Playground repositories successfully disabled."
-msgstr "놀이터 저장소가 사용 중지되었습니다."
+msgstr "Playground 저장소가 성공적으로 비활성화 되었습니다."
 
 #: plugins/copr.py:736
 msgid "Playground repositories successfully updated."
-msgstr "놀이터 저장소가 성공적으로 최신화되었습니다."
+msgstr "Playground 저장소가 성공적으로 최신화되었습니다."
 
 #: plugins/debug.py:53
 msgid "dump information about installed rpm packages to file"
@@ -603,32 +602,31 @@ msgstr "잘못된 dnf 디버그 파일 : %s"
 
 #: plugins/debuginfo-install.py:56
 msgid "install debuginfo packages"
-msgstr "디버그정보 꾸러미 설치"
+msgstr "debuginfo 꾸러미 설치"
 
 #: plugins/debuginfo-install.py:180
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
-msgstr ""
-"다음 사용가능한 꾸러미를 위하여 디버그정보 꾸러미를 찾을 수 없습니다: %s"
+msgstr "다음 사용 가능한 꾸러미를 debuginfo 꾸러미에서 찾을 수 없습니다: %s"
 
 #: plugins/debuginfo-install.py:185
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
-msgstr "다음 가용한 꾸러미: %s 를 위하여 디버그자원 꾸러미를 찾을 수 없습니다"
+msgstr "다음 가용한 꾸러미를 debugsource 꾸러미에서 찾을 수 없습니다: %s"
 
 #: plugins/debuginfo-install.py:190
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
-msgstr "다음 설치된 꾸러미를 위한 디버그정보 꾸러미를 찾을 수 없습니다: %s"
+msgstr "다음 설치된 꾸러미를 debuginfo 꾸러미에서 찾을 수 없습니다: %s"
 
 #: plugins/debuginfo-install.py:195
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
-msgstr "다음 설치된 꾸러미: %s 를 위하여 디버그자원 꾸러미를 찾을 수 없습니다"
+msgstr "다음 설치된 꾸러미를 debugsource 꾸러미에서 찾을 수 없습니다: %s"
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
@@ -652,7 +650,7 @@ msgstr "대신 -debuginfo 꾸러미를 내려받아요"
 
 #: plugins/download.py:57
 msgid "download the -debugsource package instead"
-msgstr "대신 -debuginfo 꾸러미를 내려받으세요"
+msgstr "대신에 -debugsource 꾸러미를 내려받으세요"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
@@ -677,7 +675,7 @@ msgstr "내려받기 대신 rpms를 내려받기 할 수 있는 URL 목록 인�
 
 #: plugins/download.py:72
 msgid "when running with --url, limit to specific protocols"
-msgstr "--url을 사용하여 실행하면 특정 통신규약이 제한됩니다"
+msgstr "--url 을 사용하여 실행하면, 특정 통신규약이 제한됩니다"
 
 #: plugins/download.py:124 plugins/reposync.py:327
 #, python-format
@@ -716,9 +714,8 @@ msgstr "번역된 자료가 유효하지 않음/비워짐"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
-msgstr ""
-"'{}' 에서 그룹 id를 발생 할 수 없습니다. --id를 사용하여 그룹 id를 지정해 주"
-"세요."
+msgstr "'{}' 에서 그룹 id를 발생 할 수 없습니다. --id 를 사용하여 그룹 id를 지정해 "
+"주세요."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
@@ -816,9 +813,8 @@ msgstr "존재하지 않는 그룹에서 꾸러미를 제거 할 수 없습니�
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
-msgstr ""
-"'{}'에서 발생한 그룹 id '{}'는 중복되었습니다. --id를 사용하여 그룹 id를 지정"
-"하기 바랍니다."
+msgstr "'{}'에서 발생한 그룹 id '{}'는 중복되었습니다. --id 를 사용하여 그룹 id를 "
+"지정하기 바랍니다."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -973,12 +969,12 @@ msgstr "잘못된 연결 상태: %s"
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr "연결 후 동작: %s"
+msgstr "post-transaction-actions: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr "연결 후 동작: 잘못된 명령 \"%s\": %s"
+msgstr "post-transaction-actions: 불량한 명령 \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
@@ -1227,9 +1223,8 @@ msgstr "또한 comps.xml 내려받기와 압축 풀기"
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
-msgstr ""
-"내려받은 저장소 메타자료를 저장하기 위한 장소. --download-path의 값으로 기본 "
-"지정합니다."
+msgstr "내려받은 저장소 메타자료를 저장하기 위한 장소. --download-path 의 값으로 "
+"기본 지정합니다."
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
@@ -1265,7 +1260,7 @@ msgstr ""
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
-msgstr "다중 저장소와 함께 --norepath를 사용 할 수 없습니다"
+msgstr "다중 저장소와 함께 --norepopath 를 사용 할 수 없습니다"
 
 #: plugins/reposync.py:122
 msgid "Can't use --safe-write-path with multiple repositories"
@@ -1323,7 +1318,7 @@ msgstr "하늘의 색"
 
 #: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
-msgstr "현재 시스템 버전 보다 큰 --releasever가 필요합니다."
+msgstr "현재 시스템 버전 보다 큰 --releasever 가 필요합니다."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:59
@@ -1404,9 +1399,8 @@ msgstr "시스템 향상을 위한 추가 정보: {}"
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
-msgstr ""
-"계속하기 전에 dnf --refresh upgrade\" 실행하여 시스템을 완전히 향상 되도록 해"
-"주세요. 계속 하길 원하세요"
+msgstr "계속하기 전에 dnf --refresh upgrade\" 실행하여 시스템을 완전히 향상 되도록 "
+"해주세요. 계속하길 원하세요"
 
 #: plugins/system_upgrade.py:471
 msgid "Operation aborted."
@@ -1506,7 +1500,7 @@ msgstr "잠금 목록 설정되지 않음"
 
 #: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
-msgstr "버전잠금 설정 추가하기:"
+msgstr "versionlock 추가하기:"
 
 #: plugins/versionlock.py:36
 msgid "Adding exclude on:"
@@ -1526,7 +1520,7 @@ msgstr "꾸러미(package) {} 는 이미 제외되었습니다"
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
-msgstr "버전 잠금을 제거하기:"
+msgstr "versionlock 제거하기:"
 
 #: plugins/versionlock.py:41
 msgid "No package found for:"
@@ -1534,7 +1528,7 @@ msgstr "찾고자 하는 꾸러미(package)가 없습니다:"
 
 #: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
-msgstr "버전 잠금 플러그인에서 제외는 적용되지 않습니다"
+msgstr "versionlock 플러그인에서 제외는 적용되지 않습니다"
 
 #: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
