@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 01:38+0000\n"
+"POT-Creation-Date: 2024-02-27 01:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -875,13 +875,14 @@ msgstr ""
 msgid "Reboot should not be necessary."
 msgstr ""
 
-#: plugins/post-transaction-actions.py:71
+#: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
 msgstr ""
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
+#: plugins/pre-transaction-actions.py:118
 #, python-format
 msgid "Bad Transaction State: %s"
 msgstr ""
@@ -895,6 +896,17 @@ msgstr ""
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
+msgstr ""
+
+#: plugins/pre-transaction-actions.py:145
+#: plugins/pre-transaction-actions.py:147
+#, python-format
+msgid "pre-transaction-actions: %s"
+msgstr ""
+
+#: plugins/pre-transaction-actions.py:149
+#, python-format
+msgid "pre-transaction-actions: Bad Command \"%s\": %s"
 msgstr ""
 
 #: plugins/repoclosure.py:42
