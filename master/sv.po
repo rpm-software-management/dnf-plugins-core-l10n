@@ -3,22 +3,22 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020, 2021, 2022, 2023.
 # Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata, 2021, 2022, 2023.
 # Mikael Granberg <mikael@famgra.se>, 2020.
-# Luna Jernberg <bittin@reimu.nl>, 2021, 2022, 2023.
+# Luna Jernberg <bittin@reimu.nl>, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-03 01:38+0000\n"
-"PO-Revision-Date: 2023-06-06 11:20+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/sv/>\n"
+"PO-Revision-Date: 2024-03-04 03:35+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -986,16 +986,14 @@ msgstr "post-transaktionsåtgärder: Felaktigt kommando ”%s”: %s"
 
 #: plugins/pre-transaction-actions.py:145
 #: plugins/pre-transaction-actions.py:147
-#, fuzzy, python-format
-#| msgid "post-transaction-actions: %s"
+#, python-format
 msgid "pre-transaction-actions: %s"
-msgstr "post-transaktionsåtgärder: %s"
+msgstr "före-transaktions åtgärder: %s"
 
 #: plugins/pre-transaction-actions.py:149
-#, fuzzy, python-format
-#| msgid "post-transaction-actions: Bad Command \"%s\": %s"
+#, python-format
 msgid "pre-transaction-actions: Bad Command \"%s\": %s"
-msgstr "post-transaktionsåtgärder: Felaktigt kommando ”%s”: %s"
+msgstr "före-transaktions åtgärder: Felaktigt kommando ”%s”: %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
