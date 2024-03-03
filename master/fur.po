@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 01:40+0000\n"
+"POT-Creation-Date: 2024-03-03 01:38+0000\n"
 "PO-Revision-Date: 2023-03-03 04:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -971,13 +971,14 @@ msgstr ""
 msgid "Reboot should not be necessary."
 msgstr "Nol varès di coventâ tornâ a inviâ il sisteme."
 
-#: plugins/post-transaction-actions.py:71
+#: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
 msgstr "Linie di azion \"%s\" sbaliade: %s"
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
+#: plugins/pre-transaction-actions.py:118
 #, python-format
 msgid "Bad Transaction State: %s"
 msgstr "Stât de transazion sbaliât: %s"
@@ -991,6 +992,19 @@ msgstr "azions sucessivis ae transazion: %s"
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
+msgstr "azions sucessivis ae transazion: comant sbaliât \"%s\": %s"
+
+#: plugins/pre-transaction-actions.py:145
+#: plugins/pre-transaction-actions.py:147
+#, fuzzy, python-format
+#| msgid "post-transaction-actions: %s"
+msgid "pre-transaction-actions: %s"
+msgstr "azions sucessivis ae transazion: %s"
+
+#: plugins/pre-transaction-actions.py:149
+#, fuzzy, python-format
+#| msgid "post-transaction-actions: Bad Command \"%s\": %s"
+msgid "pre-transaction-actions: Bad Command \"%s\": %s"
 msgstr "azions sucessivis ae transazion: comant sbaliât \"%s\": %s"
 
 #: plugins/repoclosure.py:42

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 01:40+0000\n"
+"POT-Creation-Date: 2024-03-03 01:38+0000\n"
 "PO-Revision-Date: 2024-02-09 19:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
@@ -903,13 +903,14 @@ msgstr ""
 msgid "Reboot should not be necessary."
 msgstr ""
 
-#: plugins/post-transaction-actions.py:71
+#: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
 msgstr ""
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
+#: plugins/pre-transaction-actions.py:118
 #, python-format
 msgid "Bad Transaction State: %s"
 msgstr ""
@@ -924,6 +925,19 @@ msgstr "post-transaction-actions:%s"
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
 msgstr ""
+
+#: plugins/pre-transaction-actions.py:145
+#: plugins/pre-transaction-actions.py:147
+#, fuzzy, python-format
+#| msgid "post-transaction-actions: %s"
+msgid "pre-transaction-actions: %s"
+msgstr "post-transaction-actions:%s"
+
+#: plugins/pre-transaction-actions.py:149
+#, fuzzy, python-format
+#| msgid "post-transaction-actions: %s"
+msgid "pre-transaction-actions: Bad Command \"%s\": %s"
+msgstr "post-transaction-actions:%s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"

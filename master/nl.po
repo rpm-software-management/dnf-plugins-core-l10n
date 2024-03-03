@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 01:40+0000\n"
+"POT-Creation-Date: 2024-03-03 01:38+0000\n"
 "PO-Revision-Date: 2023-06-04 13:12+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -977,13 +977,14 @@ msgstr ""
 msgid "Reboot should not be necessary."
 msgstr "Opnieuw opstarten zou niet nodig moeten zijn."
 
-#: plugins/post-transaction-actions.py:71
+#: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
 msgstr "Slechte actie regel \"%s\": %s"
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
+#: plugins/pre-transaction-actions.py:118
 #, python-format
 msgid "Bad Transaction State: %s"
 msgstr "Slechte transactie status: %s"
@@ -997,6 +998,19 @@ msgstr "post-transactie-acties: %s"
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
+msgstr "post-transaction-actions: Slecht commando \"%s\": %s"
+
+#: plugins/pre-transaction-actions.py:145
+#: plugins/pre-transaction-actions.py:147
+#, fuzzy, python-format
+#| msgid "post-transaction-actions: %s"
+msgid "pre-transaction-actions: %s"
+msgstr "post-transactie-acties: %s"
+
+#: plugins/pre-transaction-actions.py:149
+#, fuzzy, python-format
+#| msgid "post-transaction-actions: Bad Command \"%s\": %s"
+msgid "pre-transaction-actions: Bad Command \"%s\": %s"
 msgstr "post-transaction-actions: Slecht commando \"%s\": %s"
 
 #: plugins/repoclosure.py:42
