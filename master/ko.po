@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-03 01:38+0000\n"
-"PO-Revision-Date: 2024-03-03 02:36+0000\n"
+"PO-Revision-Date: 2024-03-04 03:35+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -982,16 +982,14 @@ msgstr "post-transaction-actions: 불량한 명령 \"%s\": %s"
 
 #: plugins/pre-transaction-actions.py:145
 #: plugins/pre-transaction-actions.py:147
-#, fuzzy, python-format
-#| msgid "post-transaction-actions: %s"
+#, python-format
 msgid "pre-transaction-actions: %s"
-msgstr "post-transaction-actions: %s"
+msgstr "연결-전 작업: %s"
 
 #: plugins/pre-transaction-actions.py:149
-#, fuzzy, python-format
-#| msgid "post-transaction-actions: Bad Command \"%s\": %s"
+#, python-format
 msgid "pre-transaction-actions: Bad Command \"%s\": %s"
-msgstr "post-transaction-actions: 불량한 명령 \"%s\": %s"
+msgstr "연결-전 작업: 불량한 명령 \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
