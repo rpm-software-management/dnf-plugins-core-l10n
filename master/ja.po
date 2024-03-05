@@ -2,13 +2,15 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021, 2023.
 # Casey Jones <nahareport@yahoo.com>, 2020.
 # Transtats <suanand@redhat.com>, 2022, 2023.
+# middlingphys <middlingphys@users.noreply.translate.fedoraproject.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 01:42+0000\n"
-"PO-Revision-Date: 2023-03-06 13:48+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2024-03-05 13:52+0000\n"
+"Last-Translator: middlingphys <middlingphys@users.noreply.translate."
+"fedoraproject.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ja/>\n"
 "Language: ja\n"
@@ -16,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -157,7 +159,7 @@ msgstr "{prog} 設定オプションおよびリポジトリーを管理しま�
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "管理する設定セクション、\"main\"またはrepoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -192,8 +194,9 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
-"警告: --enablerepo/--disablerepo の引数は config manager では意味がありませ"
-"ん。代わりに -set-enabled/--set-disabled を使用してください。"
+"警告: --enablerepo/--disablerepo の引数は config manager "
+"では意味がありません。代わりに --set-enabled/--set-disabled "
+"を使用してください。"
 
 #: plugins/config_manager.py:134
 #, python-format
@@ -827,9 +830,8 @@ msgstr "存在しないグループからパッケージを削除できません
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
-msgstr ""
-"'{}' から生成されたグループ ID '{}' は重複しています。--id を使用してグルー"
-"プ ID を指定してください。"
+msgstr "'{1}' から生成されたグループ ID '{0}' は重複しています。--id "
+"を使用してグループ ID を指定してください。"
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -838,7 +840,7 @@ msgstr ""
 
 #: plugins/local.py:122
 msgid "Unable to create a directory '{}' due to '{}'"
-msgstr "'{}' のため、ディレクトリー '{}' を作成できませんでした"
+msgstr "'{1}' のため、ディレクトリー '{0}' を作成できませんでした"
 
 #: plugins/local.py:126
 msgid "'{}' is not a directory"
@@ -973,7 +975,7 @@ msgstr ""
 
 #: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
-msgstr "再起動な必要ありません。"
+msgstr "再起動は必要ありません。"
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
@@ -1000,16 +1002,14 @@ msgstr "post-transaction-actions: 不正なコマンド \"%s\": %s"
 
 #: plugins/pre-transaction-actions.py:145
 #: plugins/pre-transaction-actions.py:147
-#, fuzzy, python-format
-#| msgid "post-transaction-actions: %s"
+#, python-format
 msgid "pre-transaction-actions: %s"
-msgstr "post-transaction-actions: %s"
+msgstr "pre-transaction-actions: %s"
 
 #: plugins/pre-transaction-actions.py:149
-#, fuzzy, python-format
-#| msgid "post-transaction-actions: Bad Command \"%s\": %s"
+#, python-format
 msgid "pre-transaction-actions: Bad Command \"%s\": %s"
-msgstr "post-transaction-actions: 不正なコマンド \"%s\": %s"
+msgstr "pre-transaction-actions: 不正なコマンド \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
@@ -1017,8 +1017,7 @@ msgstr "リポジトリーの未解決の依存関係の一覧を表示します
 
 #: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr ""
-"Repoclosure は、{} パッケージで依存関係 ({}) が解決されずに終了します。"
+msgstr "Repoclosure は、{1} パッケージで依存関係 ({0}) が解決されずに終了します。"
 
 #: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1294,17 +1293,16 @@ msgstr ""
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
-msgstr ""
+msgstr "書き込んでも安全と思われるファイルシステムパス。デフォルトはダウンロードパス"
+"です。"
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
-msgstr "複数のリポジトリーでは -norepopath は使えません"
+msgstr "複数のリポジトリーでは --norepopath は使えません"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Can't use --norepopath with multiple repositories"
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "複数のリポジトリーでは -norepopath は使えません"
+msgstr "複数のリポジトリーでは --safe-write-path は使えません"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1324,12 +1322,12 @@ msgid "GPG signature check failed."
 msgstr "GPG 署名の確認に失敗しました。"
 
 #: plugins/reposync.py:208
-#, fuzzy, python-brace-format
-#| msgid "Download target '{}' is outside of download path '{}'."
+#, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
-msgstr "ダウンロードターゲット '{}' は、ダウンロードパス '{}' の外にあります。"
+msgstr "'{2}' パッケージのダウンロードターゲット '{0}' の場所 '{1}' は、"
+"安全な書き込みパス '{3}' の外にあります。"
 
 #: plugins/reposync.py:224
 #, python-format
@@ -1420,7 +1418,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "操作の完了後にシステムの電源を切る"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
@@ -1456,7 +1454,7 @@ msgstr "操作が中断されました。"
 
 #: plugins/system_upgrade.py:532
 msgid "system is not ready for upgrade"
-msgstr "システムがアップグレードの準備ができていません"
+msgstr "システムのアップグレードの準備ができていません"
 
 #: plugins/system_upgrade.py:535
 #, python-brace-format
@@ -1473,11 +1471,11 @@ msgstr "アップグレードはすでにスケジュールされています"
 
 #: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
-msgstr "トリガーファイルは存在しません。間もなく終了します。"
+msgstr "トリガーファイルは存在しません。警告なしで終了します。"
 
 #: plugins/system_upgrade.py:548
 msgid "another upgrade tool is running. exiting quietly."
-msgstr "別のアップグレードツールが実行中で、警告なしで終了します。"
+msgstr "別のアップグレードツールが実行中です。警告なしで終了します。"
 
 #: plugins/system_upgrade.py:557
 #, python-brace-format
@@ -1523,14 +1521,12 @@ msgid "Download finished."
 msgstr "ダウンロードが完了しました。"
 
 #: plugins/system_upgrade.py:701
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and powering off..."
-msgstr "アップグレードは完了しました！ 掃除と再起動中..."
+msgstr "アップグレードは完了しました！ クリーンアップして電源を切っています..."
 
 #: plugins/system_upgrade.py:703
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr "アップグレードの完了! クリーンアップおよび再起動を行っています..."
+msgstr "アップグレードは完了しました！ クリーンアップおよび再起動を行っています..."
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
