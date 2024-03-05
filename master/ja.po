@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-04 01:42+0000\n"
+"POT-Creation-Date: 2024-03-05 01:36+0000\n"
 "PO-Revision-Date: 2024-03-05 13:52+0000\n"
 "Last-Translator: middlingphys <middlingphys@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -194,9 +194,8 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
-"警告: --enablerepo/--disablerepo の引数は config manager "
-"では意味がありません。代わりに --set-enabled/--set-disabled "
-"を使用してください。"
+"警告: --enablerepo/--disablerepo の引数は config manager では意味がありませ"
+"ん。代わりに --set-enabled/--set-disabled を使用してください。"
 
 #: plugins/config_manager.py:134
 #, python-format
@@ -830,8 +829,9 @@ msgstr "存在しないグループからパッケージを削除できません
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
-msgstr "'{1}' から生成されたグループ ID '{0}' は重複しています。--id "
-"を使用してグループ ID を指定してください。"
+msgstr ""
+"'{1}' から生成されたグループ ID '{0}' は重複しています。--id を使用してグルー"
+"プ ID を指定してください。"
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -1017,7 +1017,8 @@ msgstr "リポジトリーの未解決の依存関係の一覧を表示します
 
 #: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Repoclosure は、{1} パッケージで依存関係 ({0}) が解決されずに終了します。"
+msgstr ""
+"Repoclosure は、{1} パッケージで依存関係 ({0}) が解決されずに終了します。"
 
 #: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1293,7 +1294,8 @@ msgstr ""
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
-msgstr "書き込んでも安全と思われるファイルシステムパス。デフォルトはダウンロードパス"
+msgstr ""
+"書き込んでも安全と思われるファイルシステムパス。デフォルトはダウンロードパス"
 "です。"
 
 #: plugins/reposync.py:119
@@ -1326,8 +1328,9 @@ msgstr "GPG 署名の確認に失敗しました。"
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
-msgstr "'{2}' パッケージのダウンロードターゲット '{0}' の場所 '{1}' は、"
-"安全な書き込みパス '{3}' の外にあります。"
+msgstr ""
+"'{2}' パッケージのダウンロードターゲット '{0}' の場所 '{1}' は、安全な書き込"
+"みパス '{3}' の外にあります。"
 
 #: plugins/reposync.py:224
 #, python-format
@@ -1526,7 +1529,8 @@ msgstr "アップグレードは完了しました！ クリーンアップし�
 
 #: plugins/system_upgrade.py:703
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr "アップグレードは完了しました！ クリーンアップおよび再起動を行っています..."
+msgstr ""
+"アップグレードは完了しました！ クリーンアップおよび再起動を行っています..."
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
