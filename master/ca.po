@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-05 01:36+0000\n"
+"POT-Creation-Date: 2024-03-20 01:36+0000\n"
 "PO-Revision-Date: 2022-10-15 08:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -887,40 +887,40 @@ msgid ""
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:256
+#: plugins/needs_restarting.py:280
 msgid "determine updated binaries that need restarting"
 msgstr "determina els binaris que requereixen reinici"
 
-#: plugins/needs_restarting.py:261
+#: plugins/needs_restarting.py:285
 msgid "only consider this user's processes"
 msgstr "considera únicament els processos d'aquest usuari"
 
-#: plugins/needs_restarting.py:263
+#: plugins/needs_restarting.py:287
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 
-#: plugins/needs_restarting.py:266
+#: plugins/needs_restarting.py:290
 msgid "only report affected systemd services"
 msgstr ""
 
-#: plugins/needs_restarting.py:290
+#: plugins/needs_restarting.py:314
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:319
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 
-#: plugins/needs_restarting.py:296
+#: plugins/needs_restarting.py:320
 msgid "More information:"
 msgstr ""
 
-#: plugins/needs_restarting.py:300
+#: plugins/needs_restarting.py:324
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:302
+#: plugins/needs_restarting.py:326
 msgid "Reboot should not be necessary."
 msgstr ""
 

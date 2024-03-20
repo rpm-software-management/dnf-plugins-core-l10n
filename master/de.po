@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-05 01:36+0000\n"
+"POT-Creation-Date: 2024-03-20 01:36+0000\n"
 "PO-Revision-Date: 2023-10-14 23:35+0000\n"
 "Last-Translator: Christian Goeschel Ndjomouo <cndjomouo@icloud.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -928,45 +928,45 @@ msgid ""
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:256
+#: plugins/needs_restarting.py:280
 msgid "determine updated binaries that need restarting"
 msgstr "Aktualisierte Binärdateien ermitteln, die einen Neustart erfordern"
 
-#: plugins/needs_restarting.py:261
+#: plugins/needs_restarting.py:285
 msgid "only consider this user's processes"
 msgstr "Nur die Prozesse dieses Benutzers berücksichtigen"
 
-#: plugins/needs_restarting.py:263
+#: plugins/needs_restarting.py:287
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "nur melden, ob ein Neustart erforderlich ist (Beendungscode 1) oder nicht "
 "( Beendigungscode 0)"
 
-#: plugins/needs_restarting.py:266
+#: plugins/needs_restarting.py:290
 msgid "only report affected systemd services"
 msgstr "nur betroffene systemd-Dienste melden"
 
-#: plugins/needs_restarting.py:290
+#: plugins/needs_restarting.py:314
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Seit dem Hochfahren wurden Kernbibliotheken oder Dienste aktualisiert:"
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:319
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Ein Neustart ist erforderlich, um diese Aktualisierungen vollständig nutzen "
 "zu können."
 
-#: plugins/needs_restarting.py:296
+#: plugins/needs_restarting.py:320
 msgid "More information:"
 msgstr "Weitere Informationen:"
 
-#: plugins/needs_restarting.py:300
+#: plugins/needs_restarting.py:324
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Seit dem Hochfahren wurden keine Kernbibliotheken oder Dienste aktualisiert."
 
-#: plugins/needs_restarting.py:302
+#: plugins/needs_restarting.py:326
 msgid "Reboot should not be necessary."
 msgstr "Ein Neustart sollte nicht erforderlich sein."
 
