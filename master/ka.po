@@ -2,14 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023, 2024.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2023.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-20 01:36+0000\n"
-"PO-Revision-Date: 2024-03-04 03:35+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"PO-Revision-Date: 2024-03-22 02:36+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ka/>\n"
 "Language: ka\n"
@@ -1272,7 +1273,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "--releasever უფრო დიდი უნდა იყოს, ვიდრე მიმდინარე სისტემის ვერსია."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:59
@@ -1310,7 +1311,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:318
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "ამ ინდექსით ჟურნალი ვერ ვიპოვე."
 
 #: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
@@ -1318,7 +1319,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:348
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "სისტემის მომზადება ვერსიის ასაწევად ახალ რელიზამდე"
 
 #: plugins/system_upgrade.py:364
 msgid "keep installed packages if the new release's version is older"
