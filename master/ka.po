@@ -9,7 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-30 01:34+0000\n"
 "PO-Revision-Date: 2024-03-30 03:36+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ka/>\n"
 "Language: ka\n"
@@ -1463,7 +1464,7 @@ msgstr "პაკეტი \"{}\" უკვე დაბლოკილია"
 
 #: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "პაკეტი \"{}\" უკვე ამოღებულია."
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
