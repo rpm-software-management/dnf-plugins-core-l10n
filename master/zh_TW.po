@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 01:44+0000\n"
+"POT-Creation-Date: 2024-06-09 01:57+0000\n"
 "PO-Revision-Date: 2023-08-14 13:21+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -907,40 +907,40 @@ msgid ""
 "restarting file \"{file}\"."
 msgstr "未安裝 \"{file}\" 需要重新啟動檔案中指定的 \"{pkg}\" 軟體包。"
 
-#: plugins/needs_restarting.py:280
+#: plugins/needs_restarting.py:256
 msgid "determine updated binaries that need restarting"
 msgstr "決定需要重新啟動的已更新二進位檔"
 
-#: plugins/needs_restarting.py:285
+#: plugins/needs_restarting.py:261
 msgid "only consider this user's processes"
 msgstr "只考慮此位使用者的處理程序"
 
-#: plugins/needs_restarting.py:287
+#: plugins/needs_restarting.py:263
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr "只回報是（錯誤碼 1）否（錯誤碼 0）需要重新啟動"
 
-#: plugins/needs_restarting.py:290
+#: plugins/needs_restarting.py:266
 msgid "only report affected systemd services"
 msgstr ""
 
-#: plugins/needs_restarting.py:314
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "開機後更新過的核心函式庫或服務："
 
-#: plugins/needs_restarting.py:319
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr "需要重新啟動，才可以完全套用這些更新。"
 
-#: plugins/needs_restarting.py:320
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "更多資訊："
 
-#: plugins/needs_restarting.py:324
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "開機後沒有更新過的核心函式庫或服務。"
 
-#: plugins/needs_restarting.py:326
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "應不需要重新啟動。"
 

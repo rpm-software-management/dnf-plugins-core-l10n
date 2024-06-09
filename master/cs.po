@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 01:44+0000\n"
+"POT-Creation-Date: 2024-06-09 01:57+0000\n"
 "PO-Revision-Date: 2023-12-22 14:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -932,42 +932,42 @@ msgstr ""
 "Nebyl nalezen žádný nainstalovaný balíček pro název balíčku \"{pkg}\" "
 "uvedený v souboru pro restartování \"{file}\"."
 
-#: plugins/needs_restarting.py:280
+#: plugins/needs_restarting.py:256
 msgid "determine updated binaries that need restarting"
 msgstr "Určit aktualizované binárky, které je potřeba restartovat"
 
-#: plugins/needs_restarting.py:285
+#: plugins/needs_restarting.py:261
 msgid "only consider this user's processes"
 msgstr "Brát v úvahu pouze procesy tohoto uživatele"
 
-#: plugins/needs_restarting.py:287
+#: plugins/needs_restarting.py:263
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "pouze hlásit, zda je vyžadován restart (kód ukončení 1) nebo ne (kód "
 "ukončení 0)"
 
-#: plugins/needs_restarting.py:290
+#: plugins/needs_restarting.py:266
 msgid "only report affected systemd services"
 msgstr "hlásit pouze ovlivněné systémové služby"
 
-#: plugins/needs_restarting.py:314
+#: plugins/needs_restarting.py:290
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Základní knihovny nebo služby byly od spuštění aktualizovány:"
 
-#: plugins/needs_restarting.py:319
+#: plugins/needs_restarting.py:295
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Pro plné využití těchto aktualizací je vyžadován restart."
 
-#: plugins/needs_restarting.py:320
+#: plugins/needs_restarting.py:296
 msgid "More information:"
 msgstr "Více informací:"
 
-#: plugins/needs_restarting.py:324
+#: plugins/needs_restarting.py:300
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "Od spuštění nebyly aktualizovány žádné základní knihovny ani služby."
 
-#: plugins/needs_restarting.py:326
+#: plugins/needs_restarting.py:302
 msgid "Reboot should not be necessary."
 msgstr "Restart by neměl být nutný."
 
