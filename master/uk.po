@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-09 01:57+0000\n"
+"POT-Creation-Date: 2024-07-14 02:01+0000\n"
 "PO-Revision-Date: 2024-03-04 16:22+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -698,20 +698,20 @@ msgstr "якщо запущено з --url, обмежитися вказани�
 msgid "Failed to get mirror for package: %s"
 msgstr "Не вдалося отримати дзеркало для пакунка: %s"
 
-#: plugins/download.py:246
+#: plugins/download.py:252
 msgid "Exiting due to strict setting."
 msgstr "Завершуємо роботу через строгі обмеження."
 
-#: plugins/download.py:264
+#: plugins/download.py:270
 msgid "Error in resolve of packages:"
 msgstr "Помилка під час спроби розв'язати залежності таких пакунків:"
 
-#: plugins/download.py:282
+#: plugins/download.py:288
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "Не визначено rpm із початковим кодом для %s"
 
-#: plugins/download.py:299 plugins/download.py:312
+#: plugins/download.py:305 plugins/download.py:318
 #, python-format
 msgid "No package %s available."
 msgstr "Немає доступного пакунка %s."

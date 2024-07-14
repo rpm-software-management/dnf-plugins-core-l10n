@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-09 01:57+0000\n"
+"POT-Creation-Date: 2024-07-14 02:01+0000\n"
 "PO-Revision-Date: 2024-03-04 16:22+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -707,20 +707,20 @@ msgstr "podczas działania z opcją --url, ogranicza do podanych protokołów"
 msgid "Failed to get mirror for package: %s"
 msgstr "Uzyskanie serwera lustrzanego dla pakietu się nie powiodło: %s"
 
-#: plugins/download.py:246
+#: plugins/download.py:252
 msgid "Exiting due to strict setting."
 msgstr "Kończenie działania z powodu ścisłego ustawienia."
 
-#: plugins/download.py:264
+#: plugins/download.py:270
 msgid "Error in resolve of packages:"
 msgstr "Błąd podczas rozwiązywania pakietów:"
 
-#: plugins/download.py:282
+#: plugins/download.py:288
 #, python-format
 msgid "No source rpm defined for %s"
 msgstr "Nie określono źródłowego pakietu RPM dla %s"
 
-#: plugins/download.py:299 plugins/download.py:312
+#: plugins/download.py:305 plugins/download.py:318
 #, python-format
 msgid "No package %s available."
 msgstr "Pakiet %s jest niedostępny."
