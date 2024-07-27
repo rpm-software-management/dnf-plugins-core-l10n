@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 02:01+0000\n"
+"POT-Creation-Date: 2024-07-27 01:49+0000\n"
 "PO-Revision-Date: 2023-10-19 03:35+0000\n"
 "Last-Translator: Zephyr Lykos <fedora@mochaa.ws>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -691,6 +691,42 @@ msgstr "未找到所定义 %s 的源代码软件包 SRPM"
 #, python-format
 msgid "No package %s available."
 msgstr "没有可用的软件包 %s。"
+
+#: plugins/expired-pgp-keys.py:34
+#, python-brace-format
+msgid "The following PGP key has expired on {0}:"
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:36
+#, fuzzy
+#| msgid "More information:"
+msgid "For more information about the key:"
+msgstr "更多信息 :"
+
+#: plugins/expired-pgp-keys.py:39
+msgid ""
+"As a result, installing packages signed with this key will fail.\n"
+"It is recommended to remove the expired key to allow importing\n"
+"an updated key. This might leave already installed packages unverifiable."
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:43
+#, fuzzy
+#| msgid "Do you want to keep them enabled?"
+msgid "Do you want to remove the key?"
+msgstr "您需要保持它们被启用吗？"
+
+#: plugins/expired-pgp-keys.py:46
+#, fuzzy
+#| msgid "Repository successfully removed."
+msgid "Key successfully removed."
+msgstr "软件仓库已成功删除。"
+
+#: plugins/expired-pgp-keys.py:48
+#, fuzzy
+#| msgid "Failed to get mirror for the group file."
+msgid "Failed to remove the key."
+msgstr "获取组文件镜像失败。"
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"

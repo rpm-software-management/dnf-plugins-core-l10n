@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 02:01+0000\n"
+"POT-Creation-Date: 2024-07-27 01:49+0000\n"
 "PO-Revision-Date: 2023-10-23 10:36+0000\n"
 "Last-Translator: Alejandro Alcaide <alex@blueselene.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -682,6 +682,38 @@ msgstr "No hay fuente de rpm definido para %s"
 #, python-format
 msgid "No package %s available."
 msgstr "No hay ningún paquete %s disponible."
+
+#: plugins/expired-pgp-keys.py:34
+#, python-brace-format
+msgid "The following PGP key has expired on {0}:"
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:36
+msgid "For more information about the key:"
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:39
+msgid ""
+"As a result, installing packages signed with this key will fail.\n"
+"It is recommended to remove the expired key to allow importing\n"
+"an updated key. This might leave already installed packages unverifiable."
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:43
+msgid "Do you want to remove the key?"
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:46
+#, fuzzy
+#| msgid "Repository successfully removed."
+msgid "Key successfully removed."
+msgstr "Repositorio eliminado exitosamente."
+
+#: plugins/expired-pgp-keys.py:48
+#, fuzzy
+#| msgid "failed to delete file %s"
+msgid "Failed to remove the key."
+msgstr "no se pudo borrar %s"
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"

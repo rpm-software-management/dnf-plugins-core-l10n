@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 02:01+0000\n"
+"POT-Creation-Date: 2024-07-27 01:49+0000\n"
 "PO-Revision-Date: 2023-12-22 14:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -712,6 +712,42 @@ msgstr "Není definováno žádné zdrojové rpm pro %s"
 #, python-format
 msgid "No package %s available."
 msgstr "Není dostupný žádný balíček %s."
+
+#: plugins/expired-pgp-keys.py:34
+#, python-brace-format
+msgid "The following PGP key has expired on {0}:"
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:36
+#, fuzzy
+#| msgid "More information:"
+msgid "For more information about the key:"
+msgstr "Více informací:"
+
+#: plugins/expired-pgp-keys.py:39
+msgid ""
+"As a result, installing packages signed with this key will fail.\n"
+"It is recommended to remove the expired key to allow importing\n"
+"an updated key. This might leave already installed packages unverifiable."
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:43
+#, fuzzy
+#| msgid "Do you want to keep them enabled?"
+msgid "Do you want to remove the key?"
+msgstr "Chcete je ponechat povolené?"
+
+#: plugins/expired-pgp-keys.py:46
+#, fuzzy
+#| msgid "Repository successfully removed."
+msgid "Key successfully removed."
+msgstr "Repozitář úspěšně odebrán."
+
+#: plugins/expired-pgp-keys.py:48
+#, fuzzy
+#| msgid "Failed to get mirror for the group file."
+msgid "Failed to remove the key."
+msgstr "Nepodařilo se získat zrcadlo pro soubor skupiny."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"

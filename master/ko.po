@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 02:01+0000\n"
+"POT-Creation-Date: 2024-07-27 01:49+0000\n"
 "PO-Revision-Date: 2024-03-04 03:35+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -700,6 +700,42 @@ msgstr "%s를 위한 원천 rpm이 정의되지 않음"
 #, python-format
 msgid "No package %s available."
 msgstr "가용한 꾸러미 %s가 없습니다."
+
+#: plugins/expired-pgp-keys.py:34
+#, python-brace-format
+msgid "The following PGP key has expired on {0}:"
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:36
+#, fuzzy
+#| msgid "More information:"
+msgid "For more information about the key:"
+msgstr "자세한 정보:"
+
+#: plugins/expired-pgp-keys.py:39
+msgid ""
+"As a result, installing packages signed with this key will fail.\n"
+"It is recommended to remove the expired key to allow importing\n"
+"an updated key. This might leave already installed packages unverifiable."
+msgstr ""
+
+#: plugins/expired-pgp-keys.py:43
+#, fuzzy
+#| msgid "Do you want to keep them enabled?"
+msgid "Do you want to remove the key?"
+msgstr "계속 사용하길 원하시나요?"
+
+#: plugins/expired-pgp-keys.py:46
+#, fuzzy
+#| msgid "Repository successfully removed."
+msgid "Key successfully removed."
+msgstr "저장소가 제거되었습니다."
+
+#: plugins/expired-pgp-keys.py:48
+#, fuzzy
+#| msgid "Failed to get mirror for the group file."
+msgid "Failed to remove the key."
+msgstr "그룹 파일을 위하여 연결주소 얻기에 실패하였습니다."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
