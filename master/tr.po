@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-27 01:49+0000\n"
-"PO-Revision-Date: 2024-03-04 03:35+0000\n"
+"PO-Revision-Date: 2024-07-28 10:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -710,13 +710,11 @@ msgstr "%s paketi kullanılabilir değil."
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "Şu PGP anahtarının süresi {0} tarihinde sona erdi:"
 
 #: plugins/expired-pgp-keys.py:36
-#, fuzzy
-#| msgid "More information:"
 msgid "For more information about the key:"
-msgstr "Daha fazla bilgi için:"
+msgstr "Anahtar hakkında daha fazla bilgi için:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -724,24 +722,24 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"Sonuç olarak, bu anahtarla imzalanan paketlerin kurulması başarısız "
+"olacaktır.\n"
+"Güncel bir anahtarın içe aktarılmasına izin vermek için süresi sona eren "
+"anahtarın\n"
+"kaldırılması tavsiye edilir. Bu, zaten kurulu olan paketleri doğrulanamaz "
+"hale getirebilir."
 
 #: plugins/expired-pgp-keys.py:43
-#, fuzzy
-#| msgid "Do you want to keep them enabled?"
 msgid "Do you want to remove the key?"
-msgstr "Etkinleştirilmiş olarak kalmalarını istiyor musunuz?"
+msgstr "Anahtarı kaldırmak istiyor musunuz?"
 
 #: plugins/expired-pgp-keys.py:46
-#, fuzzy
-#| msgid "Repository successfully removed."
 msgid "Key successfully removed."
-msgstr "Depo başarıyla kaldırıldı."
+msgstr "Anahtar başarıyla kaldırıldı."
 
 #: plugins/expired-pgp-keys.py:48
-#, fuzzy
-#| msgid "Failed to get mirror for the group file."
 msgid "Failed to remove the key."
-msgstr "Grup dosyası için yansı alınamadı."
+msgstr "Anahtar kaldırılamadı."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
