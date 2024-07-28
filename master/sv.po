@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-27 01:49+0000\n"
-"PO-Revision-Date: 2024-03-20 04:35+0000\n"
+"PO-Revision-Date: 2024-07-28 10:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -708,13 +708,11 @@ msgstr "Inget paket %s tillgängligt."
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "Följande PGP-nyckel har upphört att gälla på {0}:"
 
 #: plugins/expired-pgp-keys.py:36
-#, fuzzy
-#| msgid "More information:"
 msgid "For more information about the key:"
-msgstr "Mer information:"
+msgstr "För mer information om den här nyckeln:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -722,24 +720,23 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"Som ett resultat kommer installationen av paket signerade med denna nyckel "
+"att misslyckas.\n"
+"Det rekommenderas att ta bort den utgångna nyckeln för att tillåta import\n"
+"av en uppdaterad nyckel. Detta kan göra att redan installerade paket inte "
+"går att verifiera."
 
 #: plugins/expired-pgp-keys.py:43
-#, fuzzy
-#| msgid "Do you want to keep them enabled?"
 msgid "Do you want to remove the key?"
-msgstr "Vill du behålla dem aktiverade?"
+msgstr "Vill du ta bort nyckeln?"
 
 #: plugins/expired-pgp-keys.py:46
-#, fuzzy
-#| msgid "Repository successfully removed."
 msgid "Key successfully removed."
-msgstr "Förrådet borttaget."
+msgstr "Nyckeln har tagits bort framgångsrikt."
 
 #: plugins/expired-pgp-keys.py:48
-#, fuzzy
-#| msgid "Failed to get mirror for the group file."
 msgid "Failed to remove the key."
-msgstr "Misslyckades att få tag i spegeln för gruppfilen."
+msgstr "Misslyckades med att ta bort nyckeln."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
