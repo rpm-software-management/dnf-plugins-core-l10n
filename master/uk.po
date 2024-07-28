@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-27 01:49+0000\n"
-"PO-Revision-Date: 2024-03-04 16:22+0000\n"
+"PO-Revision-Date: 2024-07-28 10:38+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -137,7 +137,7 @@ msgstr "Список журналу змін з {}"
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] "Список лише найсвіжішого журналу змін"
+msgstr[0] "Список лише {} найсвіжішого журналу змін"
 msgstr[1] "Список лише {} найсвіжіших журналів змін"
 msgstr[2] "Список лише {} найсвіжіших журналів змін"
 
@@ -371,7 +371,7 @@ msgstr ""
 "а пакунки не проходять жодних рівнів забезпечення якості чи захищеності.\n"
 "\n"
 "Будь ласка, не повідомляйте про виявлені у цих пакунках вади до\n"
-"системи стеження за вадами Fedora. Якщо виникнуть якісь проблеми,\n"
+"Bugzilla Fedora. Якщо виникнуть якісь проблеми,\n"
 "зв’яжіться із власником цього сховища пакунків.\n"
 
 #: plugins/copr.py:315
@@ -540,15 +540,15 @@ msgstr "Хочете продовжити виконання цієї дії?"
 
 #: plugins/copr.py:729
 msgid "Playground repositories successfully enabled."
-msgstr "Сховища playground успішно увімкнено."
+msgstr "Сховища Playground успішно увімкнено."
 
 #: plugins/copr.py:732
 msgid "Playground repositories successfully disabled."
-msgstr "Сховища playground успішно вимкнено."
+msgstr "Сховища Playground успішно вимкнено."
 
 #: plugins/copr.py:736
 msgid "Playground repositories successfully updated."
-msgstr "Сховища playground успішно оновлено."
+msgstr "Сховища Playground успішно оновлено."
 
 #: plugins/debug.py:53
 msgid "dump information about installed rpm packages to file"
@@ -719,13 +719,11 @@ msgstr "Немає доступного пакунка %s."
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "Строк дії цього ключа PGP вичерпано {0}:"
 
 #: plugins/expired-pgp-keys.py:36
-#, fuzzy
-#| msgid "More information:"
 msgid "For more information about the key:"
-msgstr "Докладніші відомості:"
+msgstr "Докладніші відомості щодо ключа:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -733,24 +731,22 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"У результаті не вдасться встановити пакунки, які підписано цим ключем.\n"
+"Рекомендуємо вилучити застарілий ключ, щоб уможливити імпортування\n"
+"оновленого ключа. Це може лишити вже встановлені пакунки непридатними для "
+"перевірки."
 
 #: plugins/expired-pgp-keys.py:43
-#, fuzzy
-#| msgid "Do you want to keep them enabled?"
 msgid "Do you want to remove the key?"
-msgstr "Хочете не вимикати їх?"
+msgstr "Хочете вилучити ключ?"
 
 #: plugins/expired-pgp-keys.py:46
-#, fuzzy
-#| msgid "Repository successfully removed."
 msgid "Key successfully removed."
-msgstr "Сховище успішно вилучено."
+msgstr "Ключ успішно вилучено."
 
 #: plugins/expired-pgp-keys.py:48
-#, fuzzy
-#| msgid "Failed to get mirror for the group file."
 msgid "Failed to remove the key."
-msgstr "Не вдалося отримати дзеркало для файла групи."
+msgstr "Не вдалося вилучити ключ."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
@@ -1598,7 +1594,7 @@ msgstr "Список блокування не встановлено"
 
 #: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
-msgstr "Додаємо блокування версії для:"
+msgstr "Додаємо versionlock для:"
 
 #: plugins/versionlock.py:36
 msgid "Adding exclude on:"
@@ -1618,7 +1614,7 @@ msgstr "Пакунок {} вже виключено"
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
-msgstr "Вилучаємо блокування версії для:"
+msgstr "Вилучаємо versionlock для:"
 
 #: plugins/versionlock.py:41
 msgid "No package found for:"
