@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-08 02:08+0000\n"
-"PO-Revision-Date: 2024-07-28 10:38+0000\n"
+"PO-Revision-Date: 2024-09-24 03:56+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -39,7 +39,7 @@ msgstr "특정한 파일 구문분석을 위해 매크로를 정의한다"
 
 #: plugins/builddep.py:95
 msgid "skip build dependencies not available in repositories"
-msgstr "저장소에서 사용 할 수 없는 구성 의존성을 건너 뛰기 한다"
+msgstr "저장소에서 사용 할 수 없는 구성 의존성을 건너뛰기 한다"
 
 #: plugins/builddep.py:98
 msgid "treat commandline arguments as spec files"
