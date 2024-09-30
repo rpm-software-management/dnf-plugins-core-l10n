@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 02:08+0000\n"
+"POT-Creation-Date: 2024-09-30 02:14+0000\n"
 "PO-Revision-Date: 2024-02-09 19:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -388,7 +388,7 @@ msgstr "Repositório desabilitado com sucesso."
 msgid "Repository successfully removed."
 msgstr "Repositório removido com sucesso."
 
-#: plugins/copr.py:328 plugins/copr.py:739
+#: plugins/copr.py:328 plugins/copr.py:741
 msgid "Unknown subcommand {}."
 msgstr "subcomando desconhecido {}."
 
@@ -434,21 +434,21 @@ msgstr "Resposta boa e segura. Saindo."
 msgid "This command has to be run under the root user."
 msgstr "Este comando deve ser executado sob o usuário root."
 
-#: plugins/copr.py:505
+#: plugins/copr.py:507
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Requisição para {0} falhou: {1} - {2}"
 
-#: plugins/copr.py:507
+#: plugins/copr.py:509
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Não foi possível habilitar este projeto.\n"
 
-#: plugins/copr.py:512
+#: plugins/copr.py:514
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "O repositório '{0}' não existe no projeto '{1}'."
 
-#: plugins/copr.py:515
+#: plugins/copr.py:517
 msgid ""
 "\n"
 "Available repositories: "
@@ -456,7 +456,7 @@ msgstr ""
 "\n"
 "Repositórios disponíveis: "
 
-#: plugins/copr.py:517
+#: plugins/copr.py:519
 #, python-brace-format
 msgid ""
 "\n"
@@ -473,17 +473,17 @@ msgstr ""
 "Mas note que o arquivo repo instalado provavelmente necessitará de "
 "modificação manual."
 
-#: plugins/copr.py:523
+#: plugins/copr.py:525
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Projeto {0} não existe."
 
-#: plugins/copr.py:526
+#: plugins/copr.py:528
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Falha ao conectar a {0}: {1}"
 
-#: plugins/copr.py:573
+#: plugins/copr.py:575
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -513,44 +513,44 @@ msgstr ""
 "\n"
 "Esses repositórios foram ativados automaticamente."
 
-#: plugins/copr.py:594
+#: plugins/copr.py:596
 msgid "Do you want to keep them enabled?"
 msgstr "Você deseja mantê-los habilitados?"
 
-#: plugins/copr.py:627
+#: plugins/copr.py:629
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Falha ao remover o repositório copr {0}/{1}/{2}"
 
-#: plugins/copr.py:638
+#: plugins/copr.py:640
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Falha ao desabilitar o repo copr {}/{}"
 
-#: plugins/copr.py:656 plugins/copr.py:693
+#: plugins/copr.py:658 plugins/copr.py:695
 msgid "Unknown response from server."
 msgstr "Resposta desconhecida do servidor."
 
-#: plugins/copr.py:678
+#: plugins/copr.py:680
 msgid "Interact with Playground repository."
 msgstr "Interage com o repositório Playground."
 
-#: plugins/copr.py:684
+#: plugins/copr.py:686
 msgid "Enabling a Playground repository."
 msgstr "Habilitando um repositório Playground."
 
-#: plugins/copr.py:685
+#: plugins/copr.py:687
 msgid "Do you want to continue?"
 msgstr "Você deseja continuar?"
 
-#: plugins/copr.py:729
+#: plugins/copr.py:731
 msgid "Playground repositories successfully enabled."
 msgstr "Repositórios Playground habilitados com sucesso."
 
-#: plugins/copr.py:732
+#: plugins/copr.py:734
 msgid "Playground repositories successfully disabled."
 msgstr "Repositórios Playground desabilitados com sucesso."
 
-#: plugins/copr.py:736
+#: plugins/copr.py:738
 msgid "Playground repositories successfully updated."
 msgstr "Repositórios Playground atualizados com sucesso."
 

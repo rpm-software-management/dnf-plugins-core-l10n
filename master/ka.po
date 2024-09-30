@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 02:08+0000\n"
+"POT-Creation-Date: 2024-09-30 02:14+0000\n"
 "PO-Revision-Date: 2024-06-09 09:35+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -346,7 +346,7 @@ msgstr "რეპოზიტორია წარმატებით გა�
 msgid "Repository successfully removed."
 msgstr "რეპოზიტორია წარმატებით წაიშალა."
 
-#: plugins/copr.py:328 plugins/copr.py:739
+#: plugins/copr.py:328 plugins/copr.py:741
 msgid "Unknown subcommand {}."
 msgstr "უცნობი ქვებრძანება {}."
 
@@ -389,21 +389,21 @@ msgstr ""
 msgid "This command has to be run under the root user."
 msgstr ""
 
-#: plugins/copr.py:505
+#: plugins/copr.py:507
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr ""
 
-#: plugins/copr.py:507
+#: plugins/copr.py:509
 msgid "It wasn't possible to enable this project.\n"
 msgstr ""
 
-#: plugins/copr.py:512
+#: plugins/copr.py:514
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr ""
 
-#: plugins/copr.py:515
+#: plugins/copr.py:517
 msgid ""
 "\n"
 "Available repositories: "
@@ -411,7 +411,7 @@ msgstr ""
 "\n"
 "ხელმისაწვდომი რეპოზიტორიები: "
 
-#: plugins/copr.py:517
+#: plugins/copr.py:519
 #, python-brace-format
 msgid ""
 "\n"
@@ -421,17 +421,17 @@ msgid ""
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
 
-#: plugins/copr.py:523
+#: plugins/copr.py:525
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr ""
 
-#: plugins/copr.py:526
+#: plugins/copr.py:528
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr ""
 
-#: plugins/copr.py:573
+#: plugins/copr.py:575
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -460,44 +460,44 @@ msgstr ""
 "\n"
 "ეს რეპოზიტორიები ჩაირთვება მთავარ რეპოზიტორიასთან ერთად."
 
-#: plugins/copr.py:594
+#: plugins/copr.py:596
 msgid "Do you want to keep them enabled?"
 msgstr ""
 
-#: plugins/copr.py:627
+#: plugins/copr.py:629
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr ""
 
-#: plugins/copr.py:638
+#: plugins/copr.py:640
 msgid "Failed to disable copr repo {}/{}"
 msgstr "ჩავარდა მცდელობა copr რეპოზიტორიის {}/{} გათიშვისას"
 
-#: plugins/copr.py:656 plugins/copr.py:693
+#: plugins/copr.py:658 plugins/copr.py:695
 msgid "Unknown response from server."
 msgstr "უცნობი პასუხი სერვერიდან."
 
-#: plugins/copr.py:678
+#: plugins/copr.py:680
 msgid "Interact with Playground repository."
 msgstr ""
 
-#: plugins/copr.py:684
+#: plugins/copr.py:686
 msgid "Enabling a Playground repository."
 msgstr ""
 
-#: plugins/copr.py:685
+#: plugins/copr.py:687
 msgid "Do you want to continue?"
 msgstr "გნებავთ, გააგრძელოთ?"
 
-#: plugins/copr.py:729
+#: plugins/copr.py:731
 msgid "Playground repositories successfully enabled."
 msgstr ""
 
-#: plugins/copr.py:732
+#: plugins/copr.py:734
 msgid "Playground repositories successfully disabled."
 msgstr ""
 
-#: plugins/copr.py:736
+#: plugins/copr.py:738
 msgid "Playground repositories successfully updated."
 msgstr ""
 

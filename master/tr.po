@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 02:08+0000\n"
+"POT-Creation-Date: 2024-09-30 02:14+0000\n"
 "PO-Revision-Date: 2024-08-14 13:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -379,7 +379,7 @@ msgstr "Depo başarıyla devre dışı bırakıldı."
 msgid "Repository successfully removed."
 msgstr "Depo başarıyla kaldırıldı."
 
-#: plugins/copr.py:328 plugins/copr.py:739
+#: plugins/copr.py:328 plugins/copr.py:741
 msgid "Unknown subcommand {}."
 msgstr "Bilinmeyen alt komut {}."
 
@@ -425,21 +425,21 @@ msgstr "Güvenli ve iyi cevap. Çıkış yapılıyor."
 msgid "This command has to be run under the root user."
 msgstr "Bu komut root kullanıcısı tarafından çalıştırılmalıdır."
 
-#: plugins/copr.py:505
+#: plugins/copr.py:507
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "{0} isteği başarısız oldu: {1} - {2}"
 
-#: plugins/copr.py:507
+#: plugins/copr.py:509
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Bu projeyi etkinleştirmek mümkün değildi.\n"
 
-#: plugins/copr.py:512
+#: plugins/copr.py:514
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "'{0}' deposu '{1}' projesinde yok."
 
-#: plugins/copr.py:515
+#: plugins/copr.py:517
 msgid ""
 "\n"
 "Available repositories: "
@@ -447,7 +447,7 @@ msgstr ""
 "\n"
 "Kullanılabilir depolar: "
 
-#: plugins/copr.py:517
+#: plugins/copr.py:519
 #, python-brace-format
 msgid ""
 "\n"
@@ -464,17 +464,17 @@ msgstr ""
 "Ancak, kurulu repo dosyasının büyük olasılıkla elle bir değişiklik "
 "gerektireceğini unutmayın."
 
-#: plugins/copr.py:523
+#: plugins/copr.py:525
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "{0} projesi yok."
 
-#: plugins/copr.py:526
+#: plugins/copr.py:528
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "{0} bağlantısı başarısız oldu: {1}"
 
-#: plugins/copr.py:573
+#: plugins/copr.py:575
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -503,44 +503,44 @@ msgstr ""
 "\n"
 "Bu depolar otomatik olarak etkinleştirildi."
 
-#: plugins/copr.py:594
+#: plugins/copr.py:596
 msgid "Do you want to keep them enabled?"
 msgstr "Etkinleştirilmiş olarak kalmalarını istiyor musunuz?"
 
-#: plugins/copr.py:627
+#: plugins/copr.py:629
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "{0}/{1}/{2} copr deposu kaldırılamadı"
 
-#: plugins/copr.py:638
+#: plugins/copr.py:640
 msgid "Failed to disable copr repo {}/{}"
 msgstr "{}/{} copr deposu devre dışı bırakılamadı"
 
-#: plugins/copr.py:656 plugins/copr.py:693
+#: plugins/copr.py:658 plugins/copr.py:695
 msgid "Unknown response from server."
 msgstr "Sunucudan bilinmeyen yanıt."
 
-#: plugins/copr.py:678
+#: plugins/copr.py:680
 msgid "Interact with Playground repository."
 msgstr "Playground deposu ile etkileşime geçin."
 
-#: plugins/copr.py:684
+#: plugins/copr.py:686
 msgid "Enabling a Playground repository."
 msgstr "Playground deposunu etkinleştirme."
 
-#: plugins/copr.py:685
+#: plugins/copr.py:687
 msgid "Do you want to continue?"
 msgstr "Devam etmek istiyor musun?"
 
-#: plugins/copr.py:729
+#: plugins/copr.py:731
 msgid "Playground repositories successfully enabled."
 msgstr "Playground depoları başarıyla etkinleştirildi."
 
-#: plugins/copr.py:732
+#: plugins/copr.py:734
 msgid "Playground repositories successfully disabled."
 msgstr "Playground depoları başarıyla devre dışı bırakıldı."
 
-#: plugins/copr.py:736
+#: plugins/copr.py:738
 msgid "Playground repositories successfully updated."
 msgstr "Playground depoları başarıyla güncellendi."
 
