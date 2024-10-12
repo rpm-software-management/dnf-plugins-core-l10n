@@ -2,21 +2,22 @@
 # scootergrisen, 2018.
 # scootergrisen <scootergrisen@gmail.com>, 2018. #zanata, 2020.
 # scootergrisen <scootergrisen@gmail.com>, 2019. #zanata, 2020.
+# DK Guy <peter@nozen.dk>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-30 02:14+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/da/>\n"
+"PO-Revision-Date: 2024-10-13 17:38+0000\n"
+"Last-Translator: DK Guy <peter@nozen.dk>\n"
+"Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -76,6 +77,8 @@ msgstr "Ikke alle afhængigheder er mødt"
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
+"Advarsel: -D eller --define argumenter har ingen betydning for kilde-rpm "
+"pakker."
 
 #: plugins/builddep.py:215
 #, python-format
