@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-13 02:13+0000\n"
-"PO-Revision-Date: 2024-08-14 13:40+0000\n"
+"PO-Revision-Date: 2024-10-14 15:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -980,7 +980,7 @@ msgstr "yalnızca etkilenen systemd hizmetlerini bildir"
 
 #: plugins/needs_restarting.py:268
 msgid "don't list stale processes that correspond to a systemd service"
-msgstr ""
+msgstr "bir systemd hizmetine karşılık gelen eski işlemleri listeleme"
 
 #: plugins/needs_restarting.py:292
 msgid "Core libraries or services have been updated since boot-up:"
