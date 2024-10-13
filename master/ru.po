@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 02:14+0000\n"
+"POT-Creation-Date: 2024-10-13 02:13+0000\n"
 "PO-Revision-Date: 2024-08-20 19:38+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -984,24 +984,28 @@ msgstr ""
 msgid "only report affected systemd services"
 msgstr "сообщать только о службах systemd, которых это касается"
 
-#: plugins/needs_restarting.py:290
+#: plugins/needs_restarting.py:268
+msgid "don't list stale processes that correspond to a systemd service"
+msgstr ""
+
+#: plugins/needs_restarting.py:292
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Основные библиотеки или службы были обновлены со времени загрузки:"
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:297
 msgid "Reboot is required to fully utilize these updates."
 msgstr "Требуется перезагрузка для полного использования этих обновлений."
 
-#: plugins/needs_restarting.py:296
+#: plugins/needs_restarting.py:298
 msgid "More information:"
 msgstr "Дополнительная информация:"
 
-#: plugins/needs_restarting.py:300
+#: plugins/needs_restarting.py:302
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Никакие основные библиотеки или службы не были обновлены со времени загрузки."
 
-#: plugins/needs_restarting.py:302
+#: plugins/needs_restarting.py:304
 msgid "Reboot should not be necessary."
 msgstr "Перезагрузка не должна потребоваться."
 

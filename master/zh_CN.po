@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 02:14+0000\n"
+"POT-Creation-Date: 2024-10-13 02:13+0000\n"
 "PO-Revision-Date: 2023-10-19 03:35+0000\n"
 "Last-Translator: Zephyr Lykos <fedora@mochaa.ws>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -955,23 +955,27 @@ msgstr "只报告需要重新引导 (退出代码为 1) 或不需要重新引导
 msgid "only report affected systemd services"
 msgstr "只报告受影响的 systemd 服务"
 
-#: plugins/needs_restarting.py:290
+#: plugins/needs_restarting.py:268
+msgid "don't list stale processes that correspond to a systemd service"
+msgstr ""
+
+#: plugins/needs_restarting.py:292
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "在引导后 Core 库或服务已被更新 ："
 
-#: plugins/needs_restarting.py:295
+#: plugins/needs_restarting.py:297
 msgid "Reboot is required to fully utilize these updates."
 msgstr "需要重新启动后才可以使这些更新完全生效。"
 
-#: plugins/needs_restarting.py:296
+#: plugins/needs_restarting.py:298
 msgid "More information:"
 msgstr "更多信息 :"
 
-#: plugins/needs_restarting.py:300
+#: plugins/needs_restarting.py:302
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "在引导后没有 core 库或服务被更新。"
 
-#: plugins/needs_restarting.py:302
+#: plugins/needs_restarting.py:304
 msgid "Reboot should not be necessary."
 msgstr "不需要重新启动。"
 
