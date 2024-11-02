@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-14 02:11+0000\n"
+"POT-Creation-Date: 2024-11-02 02:06+0000\n"
 "PO-Revision-Date: 2024-10-14 15:16+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -955,46 +955,46 @@ msgstr ""
 "Inget installerat paket finns för paketnamnet ”{pkg}” som angetts i filen "
 "”{file}” för behov av omstart."
 
-#: plugins/needs_restarting.py:256
+#: plugins/needs_restarting.py:309
 msgid "determine updated binaries that need restarting"
 msgstr "avgör vilka uppdaterade binärer som behöver startas om"
 
-#: plugins/needs_restarting.py:261
+#: plugins/needs_restarting.py:314
 msgid "only consider this user's processes"
 msgstr "betrakta endast denna användares processer"
 
-#: plugins/needs_restarting.py:263
+#: plugins/needs_restarting.py:316
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "rapportera endast huruvida en omstart behövs (slutkod 1) eller inte (slutkod "
 "0)"
 
-#: plugins/needs_restarting.py:266
+#: plugins/needs_restarting.py:319
 msgid "only report affected systemd services"
 msgstr "rapportera endast påverkade systemd-tjänster"
 
-#: plugins/needs_restarting.py:268
+#: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr "lista inte inaktuella processer som motsvarar en systemd-tjänst"
 
-#: plugins/needs_restarting.py:292
+#: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Kärnbibliotek och -tjänster har uppdaterats sedan uppstart:"
 
-#: plugins/needs_restarting.py:297
+#: plugins/needs_restarting.py:350
 msgid "Reboot is required to fully utilize these updates."
 msgstr "En omstart behövs för att helt utnyttja dessa uppdateringar."
 
-#: plugins/needs_restarting.py:298
+#: plugins/needs_restarting.py:351
 msgid "More information:"
 msgstr "Mer information:"
 
-#: plugins/needs_restarting.py:302
+#: plugins/needs_restarting.py:355
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "Inga kärnbibliotek eller -tjänster har uppdaterats sedan uppstart."
 
-#: plugins/needs_restarting.py:304
+#: plugins/needs_restarting.py:357
 msgid "Reboot should not be necessary."
 msgstr "En omstart skall inte behövas."
 

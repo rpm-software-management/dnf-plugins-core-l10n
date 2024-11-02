@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-14 02:11+0000\n"
+"POT-Creation-Date: 2024-11-02 02:06+0000\n"
 "PO-Revision-Date: 2024-07-14 21:38+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -871,44 +871,44 @@ msgid ""
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:256
+#: plugins/needs_restarting.py:309
 msgid "determine updated binaries that need restarting"
 msgstr ""
 
-#: plugins/needs_restarting.py:261
+#: plugins/needs_restarting.py:314
 msgid "only consider this user's processes"
 msgstr ""
 
-#: plugins/needs_restarting.py:263
+#: plugins/needs_restarting.py:316
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 
-#: plugins/needs_restarting.py:266
+#: plugins/needs_restarting.py:319
 msgid "only report affected systemd services"
 msgstr ""
 
-#: plugins/needs_restarting.py:268
+#: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr ""
 
-#: plugins/needs_restarting.py:292
+#: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:297
+#: plugins/needs_restarting.py:350
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 
-#: plugins/needs_restarting.py:298
+#: plugins/needs_restarting.py:351
 msgid "More information:"
 msgstr ""
 
-#: plugins/needs_restarting.py:302
+#: plugins/needs_restarting.py:355
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:304
+#: plugins/needs_restarting.py:357
 msgid "Reboot should not be necessary."
 msgstr ""
 
