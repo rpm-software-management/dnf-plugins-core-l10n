@@ -1,6 +1,6 @@
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020, 2022.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020, 2022, 2024.
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020, 2022.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020, 2022, 2024.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023, 2024.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2023.
@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-03 02:18+0000\n"
-"PO-Revision-Date: 2024-05-08 05:26+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fi/>\n"
+"PO-Revision-Date: 2024-12-13 07:38+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -718,13 +718,11 @@ msgstr "Pakettia %s ei ole saatavilla."
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "Seuraava PGP-avain vanheni {0}:"
 
 #: plugins/expired-pgp-keys.py:36
-#, fuzzy
-#| msgid "More information:"
 msgid "For more information about the key:"
-msgstr "Lisätietoja:"
+msgstr "Lisätietoja avaimesta:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -734,22 +732,16 @@ msgid ""
 msgstr ""
 
 #: plugins/expired-pgp-keys.py:43
-#, fuzzy
-#| msgid "Do you want to keep them enabled?"
 msgid "Do you want to remove the key?"
-msgstr "Haluatko pitää ne käytössä?"
+msgstr "Haluatko poistaa avaimen?"
 
 #: plugins/expired-pgp-keys.py:46
-#, fuzzy
-#| msgid "Repository successfully removed."
 msgid "Key successfully removed."
-msgstr "Ohjelmistolähteen poisto onnistui."
+msgstr "Avain poistettu."
 
 #: plugins/expired-pgp-keys.py:48
-#, fuzzy
-#| msgid "Failed to get mirror for the group file."
 msgid "Failed to remove the key."
-msgstr "Ryhmätiedoston peilin saaminen epäonnistui."
+msgstr "Avaimen poistaminen epäonnistui."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
