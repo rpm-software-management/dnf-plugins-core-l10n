@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-03 02:18+0000\n"
+"POT-Creation-Date: 2024-12-13 02:20+0000\n"
 "PO-Revision-Date: 2024-03-05 13:52+0000\n"
 "Last-Translator: middlingphys <middlingphys@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -691,7 +691,7 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "--url で実行中の際は、特定のプロトコルに限定します"
 
-#: plugins/download.py:124 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:335
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "パッケージのミラー取得に失敗しました: %s"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-03 02:18+0000\n"
+"POT-Creation-Date: 2024-12-13 02:20+0000\n"
 "PO-Revision-Date: 2024-08-22 19:38+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -690,7 +690,7 @@ msgid "when running with --url, limit to specific protocols"
 msgstr ""
 "amikor az --url kapcsolóval fut, akkor korlátozza bizonyos protokollokra"
 
-#: plugins/download.py:124 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:335
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Nem található tükör a csomaghoz: %s"

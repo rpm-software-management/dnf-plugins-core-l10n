@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-03 02:18+0000\n"
+"POT-Creation-Date: 2024-12-13 02:20+0000\n"
 "PO-Revision-Date: 2023-10-19 03:35+0000\n"
 "Last-Translator: Zephyr Lykos <fedora@mochaa.ws>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -669,7 +669,7 @@ msgstr "打印 rpm 可被下载的 url 列表而不是直接下载"
 msgid "when running with --url, limit to specific protocols"
 msgstr "当执行时带有 --url 参数，则限制使用指定协议"
 
-#: plugins/download.py:124 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:335
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "获取针对以下软件包的镜像失败：%s"

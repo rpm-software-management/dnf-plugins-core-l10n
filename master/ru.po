@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-03 02:18+0000\n"
+"POT-Creation-Date: 2024-12-13 02:20+0000\n"
 "PO-Revision-Date: 2024-08-20 19:38+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -690,7 +690,7 @@ msgstr "вместо загрузки вывести список URL, отку�
 msgid "when running with --url, limit to specific protocols"
 msgstr "ограничить указанными протоколами при работе с --url"
 
-#: plugins/download.py:124 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:335
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Не удалось получить зеркало для пакета: %s"

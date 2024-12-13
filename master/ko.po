@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-03 02:18+0000\n"
+"POT-Creation-Date: 2024-12-13 02:20+0000\n"
 "PO-Revision-Date: 2024-10-14 15:16+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -678,7 +678,7 @@ msgstr "내려받기 대신 rpms를 내려받기 할 수 있는 URL 목록 인�
 msgid "when running with --url, limit to specific protocols"
 msgstr "--url 와 함께 실행하면, 특정 통신규약으로 제한됩니다"
 
-#: plugins/download.py:124 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:335
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "꾸러미 연결주소 얻기에 실패했습니다: %s"

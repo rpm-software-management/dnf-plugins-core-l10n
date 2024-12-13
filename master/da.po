@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-03 02:18+0000\n"
+"POT-Creation-Date: 2024-12-13 02:20+0000\n"
 "PO-Revision-Date: 2024-10-13 17:38+0000\n"
 "Last-Translator: DK Guy <peter@nozen.dk>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -683,7 +683,7 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr "når der køres med --url, så begræns til angivne protokoller"
 
-#: plugins/download.py:124 plugins/reposync.py:327
+#: plugins/download.py:124 plugins/reposync.py:335
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Kunne ikke hente spejl til pakke: %s"
