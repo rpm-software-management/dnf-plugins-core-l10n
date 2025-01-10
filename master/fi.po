@@ -1,7 +1,7 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020, 2022, 2024.
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020, 2022, 2024.
-# Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022, 2025.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023, 2024.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2023.
 msgid ""
@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-13 02:20+0000\n"
-"PO-Revision-Date: 2024-12-13 07:38+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fi/>\n"
+"PO-Revision-Date: 2025-01-10 16:20+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -491,11 +491,12 @@ msgid ""
 msgstr ""
 "Käytössä olevan Copr-tietovaraston ylläpitäjä päätti tehdä\n"
 "se riippuvaisen muista tietovarastoista. Tällaiset tietovarastot ovat\n"
-"yleensä tarpeen RPM:ien onnistuneelle asennukselle pääasiallisesta Copr-\n"
-"tietovarastosta (ne tarjoavat ajonaikaisia riippuvuuksia).\n"
+"yleensä tarpeen RPM:ien onnistuneelle asennukselle pääasiallisesta\n"
+"Copr-tietovarastosta (ne tarjoavat ajonaikaisia riippuvuuksia).\n"
 "\n"
-"Huomaa, että laatua ja vikailmoituksia koskeva huomautus yläpuolella\n"
-"pätee myös tässä, Fedora Project ei hallitse sisältöä. Tarkista luettelo:\n"
+"Huomaa, että laatua ja vikailmoituksia koskeva huomautus\n"
+"yläpuolella pätee myös tässä, Fedora Project ei hallitse sisältöä.\n"
+"Tarkista luettelo:\n"
 "\n"
 "{0}\n"
 "\n"
@@ -508,11 +509,11 @@ msgstr "Haluatko pitää ne käytössä?"
 #: plugins/copr.py:629
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
-msgstr "Copr-ohjelmistolähteen {0}/{1}/{2} poisto epäonnistui"
+msgstr "copr-tietovaraston {0}/{1}/{2} poisto epäonnistui"
 
 #: plugins/copr.py:640
 msgid "Failed to disable copr repo {}/{}"
-msgstr "Copr-ohjelmistolähteen {}/{} käytöstä poisto epäonnistui"
+msgstr "copr-tietovaraston {}/{} käytöstä poisto epäonnistui"
 
 #: plugins/copr.py:658 plugins/copr.py:695
 msgid "Unknown response from server."
@@ -614,32 +615,26 @@ msgstr "asenna debuginfo-paketit"
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
 msgstr ""
-"Seuraavien käytettävissä olevien pakettien virheenkorjaustieto-pakettia ei "
-"löytynyt: %s"
+"Seuraavien saatavilla olevien pakettien debuginfo-pakettia ei löytynyt: %s"
 
 #: plugins/debuginfo-install.py:185
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr ""
-"Seuraavien käytettävissä olevien pakettien virheenkorjauslähde-pakettia ei "
-"löytynyt: %s"
+"Seuraavien saatavilla olevien pakettien debugsource-pakettia ei löytynyt: %s"
 
 #: plugins/debuginfo-install.py:190
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
-msgstr ""
-"Seuraavien asennettujen pakettien virheenkorjaustieto-pakettia ei löytynyt: "
-"%s"
+msgstr "Seuraavien asennettujen pakettien debuginfo-pakettia ei löytynyt: %s"
 
 #: plugins/debuginfo-install.py:195
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
-msgstr ""
-"Seuraavien asennettujen pakettien virheenkorjauslähde-pakettia ei löytynyt: "
-"%s"
+msgstr "Seuraavien asennettujen pakettien debugsource-pakettia ei löytynyt: %s"
 
 #: plugins/debuginfo-install.py:199
 msgid "Unable to find a match"
@@ -1022,12 +1017,12 @@ msgstr "Virheellinen transaktion tila: %s"
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr "transaktion jälkeiset toimet: %s"
+msgstr "post-transaction-actions: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr "transaktion jälkeiset toiminnot: Virheellinen komento ”%s”: %s"
+msgstr "post-transaction-actions: Virheellinen komento ”%s”: %s"
 
 #: plugins/pre-transaction-actions.py:145
 #: plugins/pre-transaction-actions.py:147
@@ -1585,7 +1580,7 @@ msgstr "Lukkolistaa ei ole asetettu"
 
 #: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
-msgstr "Lisätään versiolukko kohteelle:"
+msgstr "Lisätään versionlock kohteelle:"
 
 #: plugins/versionlock.py:36
 msgid "Adding exclude on:"
@@ -1605,7 +1600,7 @@ msgstr "Paketti {} on jo suljettu pois"
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
-msgstr "Poistetaan versiolukitus kohteelta:"
+msgstr "Poistetaan versionlock kohteelta:"
 
 #: plugins/versionlock.py:41
 msgid "No package found for:"
@@ -1613,7 +1608,7 @@ msgstr "Pakettia ei löytynyt kohteelle:"
 
 #: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
-msgstr "Versiolukitus-laajennuksen määrittämää poissulkemista ei sovellettu"
+msgstr "versionlock-liitännäisen määrittämää poissulkemista ei sovellettu"
 
 #: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
