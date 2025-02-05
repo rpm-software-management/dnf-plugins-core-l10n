@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-25 02:00+0000\n"
+"POT-Creation-Date: 2025-02-05 02:06+0000\n"
 "PO-Revision-Date: 2023-10-19 03:35+0000\n"
 "Last-Translator: Zephyr Lykos <fedora@mochaa.ws>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -124,7 +124,7 @@ msgstr "只显示软件包新的改变日志信息，为已安装的软件包提
 msgid "PACKAGE"
 msgstr "软件包"
 
-#: plugins/changelog.py:81 plugins/debuginfo-install.py:90
+#: plugins/changelog.py:81 plugins/debuginfo-install.py:91
 #, python-format
 msgid "No match for argument: %s"
 msgstr "未找到匹配的参数： %s"
@@ -215,27 +215,27 @@ msgstr[0] "配置仓库失败"
 msgid "Could not save repo to repofile %s: %s"
 msgstr "无法保存仓库至仓库文件 %s：%s"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "y"
 msgstr "y"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "yes"
 msgstr "是"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "n"
 msgstr "n"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "no"
 msgstr "否"
 
-#: plugins/copr.py:92
+#: plugins/copr.py:93
 msgid "Interact with Copr repositories."
 msgstr "与 Copr 仓库交互。"
 
-#: plugins/copr.py:94
+#: plugins/copr.py:95
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -273,31 +273,31 @@ msgstr ""
 "  copr search tests\n"
 "    "
 
-#: plugins/copr.py:120
+#: plugins/copr.py:121
 msgid "List all installed Copr repositories (default)"
 msgstr "列出所有安装的 Copr 仓库（默认）"
 
-#: plugins/copr.py:122
+#: plugins/copr.py:123
 msgid "List enabled Copr repositories"
 msgstr "列出启动的 Copr 仓库"
 
-#: plugins/copr.py:124
+#: plugins/copr.py:125
 msgid "List disabled Copr repositories"
 msgstr "列出禁用的 Copr 仓库"
 
-#: plugins/copr.py:126
+#: plugins/copr.py:127
 msgid "List available Copr repositories by user NAME"
 msgstr "按照用户 NAME 列出可用的 Copr 仓库"
 
-#: plugins/copr.py:128
+#: plugins/copr.py:129
 msgid "Specify an instance of Copr to work with"
 msgstr "指定需要使用的 Copr 实例"
 
-#: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
+#: plugins/copr.py:164 plugins/copr.py:255 plugins/copr.py:282
 msgid "Error: "
 msgstr "错误： "
 
-#: plugins/copr.py:164
+#: plugins/copr.py:165
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -305,33 +305,33 @@ msgstr ""
 "使用 `--hub` 或使用 `copr_hub/copr_username/copr_projectname` 格式指定 Copr "
 "hub"
 
-#: plugins/copr.py:167
+#: plugins/copr.py:168
 msgid "multiple hubs specified"
 msgstr "指定多个 hub"
 
-#: plugins/copr.py:255 plugins/copr.py:259
+#: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
 msgstr "Copr 命令要求有且仅有两个额外参数"
 
-#: plugins/copr.py:264
+#: plugins/copr.py:265
 msgid "Too many arguments."
 msgstr "参数过多。"
 
-#: plugins/copr.py:267
+#: plugins/copr.py:268
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr "可选 chroot 的错误格式。格式为 distribution-version-architecture。"
 
-#: plugins/copr.py:282
+#: plugins/copr.py:283
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr "使用格式 `copr_username/copr_projectname` 来引用 Copr 项目"
 
-#: plugins/copr.py:284
+#: plugins/copr.py:285
 msgid "bad copr project format"
 msgstr "错误的 Copr 项目格式"
 
-#: plugins/copr.py:298
+#: plugins/copr.py:299
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -359,23 +359,23 @@ msgstr ""
 "请不要在 Fedora Bugzilla 中报告这些软件包中出现的\n"
 "问题。当出现问题时，请联系仓库的所有者。\n"
 
-#: plugins/copr.py:315
+#: plugins/copr.py:316
 msgid "Repository successfully enabled."
 msgstr "启用软件仓库成功。"
 
-#: plugins/copr.py:320
+#: plugins/copr.py:321
 msgid "Repository successfully disabled."
 msgstr "禁用软件仓库成功。"
 
-#: plugins/copr.py:324
+#: plugins/copr.py:325
 msgid "Repository successfully removed."
 msgstr "软件仓库已成功删除。"
 
-#: plugins/copr.py:328 plugins/copr.py:741
+#: plugins/copr.py:329 plugins/copr.py:742
 msgid "Unknown subcommand {}."
 msgstr "未知的子命令 {}。"
 
-#: plugins/copr.py:385
+#: plugins/copr.py:386
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -384,53 +384,53 @@ msgstr ""
 "* 这些 coprs 有使用旧格式的 repo 文件，它们没有包括 Copr hub 的信息 - 假设使"
 "用默认值。重新启用项目来解决这个问题。"
 
-#: plugins/copr.py:398
+#: plugins/copr.py:399
 msgid "Can't parse repositories for username '{}'."
 msgstr "无法为用户名 username '{}' 解析仓库。"
 
-#: plugins/copr.py:401
+#: plugins/copr.py:402
 msgid "List of {} coprs"
 msgstr "{} Coprs 列表"
 
-#: plugins/copr.py:406
+#: plugins/copr.py:407
 msgid "No description given"
 msgstr "没有给出描述"
 
-#: plugins/copr.py:418
+#: plugins/copr.py:419
 msgid "Can't parse search for '{}'."
 msgstr "无法解析针对 '{}' 的搜索。"
 
-#: plugins/copr.py:421
+#: plugins/copr.py:422
 msgid "Matched: {}"
 msgstr "匹配：{}"
 
-#: plugins/copr.py:426
+#: plugins/copr.py:427
 msgid "No description given."
 msgstr "没有给出描述。"
 
-#: plugins/copr.py:448
+#: plugins/copr.py:449
 msgid "Safe and good answer. Exiting."
 msgstr "安全及明智的答案。退出。"
 
-#: plugins/copr.py:455
+#: plugins/copr.py:456
 msgid "This command has to be run under the root user."
 msgstr "该命令必须以 root 用户运行。"
 
-#: plugins/copr.py:507
+#: plugins/copr.py:508
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "请求 {0} 失败：{1} - {2}"
 
-#: plugins/copr.py:509
+#: plugins/copr.py:510
 msgid "It wasn't possible to enable this project.\n"
 msgstr "无法启用此项目。\n"
 
-#: plugins/copr.py:514
+#: plugins/copr.py:515
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "仓库 '{0}' 在项目 '{1}' 中不存在。"
 
-#: plugins/copr.py:517
+#: plugins/copr.py:518
 msgid ""
 "\n"
 "Available repositories: "
@@ -438,7 +438,7 @@ msgstr ""
 "\n"
 "可用软件仓库： "
 
-#: plugins/copr.py:519
+#: plugins/copr.py:520
 #, python-brace-format
 msgid ""
 "\n"
@@ -453,17 +453,17 @@ msgstr ""
 "  'dnf copr enable {0} <repository>'\n"
 "但请注意，安装的 repo 文件将来可能需要手动修改。"
 
-#: plugins/copr.py:525
+#: plugins/copr.py:526
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "项目 {0} 不存在。"
 
-#: plugins/copr.py:528
+#: plugins/copr.py:529
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "连接到 {0} 失败：{1}"
 
-#: plugins/copr.py:575
+#: plugins/copr.py:576
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -492,44 +492,44 @@ msgstr ""
 "\n"
 "这些仓库已被自动启用。"
 
-#: plugins/copr.py:596
+#: plugins/copr.py:597
 msgid "Do you want to keep them enabled?"
 msgstr "您需要保持它们被启用吗？"
 
-#: plugins/copr.py:629
+#: plugins/copr.py:630
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "无法删除 copr 存储库 {0}/{1}/{2}"
 
-#: plugins/copr.py:640
+#: plugins/copr.py:641
 msgid "Failed to disable copr repo {}/{}"
 msgstr "无法禁用 Copr 存储库 {}/{}"
 
-#: plugins/copr.py:658 plugins/copr.py:695
+#: plugins/copr.py:659 plugins/copr.py:696
 msgid "Unknown response from server."
 msgstr "来自服务器的未知响应。"
 
-#: plugins/copr.py:680
+#: plugins/copr.py:681
 msgid "Interact with Playground repository."
 msgstr "与 Playground 仓库交互。"
 
-#: plugins/copr.py:686
+#: plugins/copr.py:687
 msgid "Enabling a Playground repository."
 msgstr "启用 Playground 仓库。"
 
-#: plugins/copr.py:687
+#: plugins/copr.py:688
 msgid "Do you want to continue?"
 msgstr "您希望继续吗？"
 
-#: plugins/copr.py:731
+#: plugins/copr.py:732
 msgid "Playground repositories successfully enabled."
 msgstr "启用 Playground 仓库成功。"
 
-#: plugins/copr.py:734
+#: plugins/copr.py:735
 msgid "Playground repositories successfully disabled."
 msgstr "禁用 Playground 仓库成功。"
 
-#: plugins/copr.py:738
+#: plugins/copr.py:739
 msgid "Playground repositories successfully updated."
 msgstr "更新 Playground 仓库成功。"
 
@@ -594,35 +594,35 @@ msgstr "软件包 %s 不可用"
 msgid "Bad dnf debug file: %s"
 msgstr "损坏的 dnf 调试文件：%s"
 
-#: plugins/debuginfo-install.py:56
+#: plugins/debuginfo-install.py:57
 msgid "install debuginfo packages"
 msgstr "安装调试信息软件包"
 
-#: plugins/debuginfo-install.py:180
+#: plugins/debuginfo-install.py:181
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
 msgstr "无法为以下可用的软件包找到 debuginfo 软件包： %s"
 
-#: plugins/debuginfo-install.py:185
+#: plugins/debuginfo-install.py:186
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr "无法为以下可用的软件包找到 debugsource 软件包： %s"
 
-#: plugins/debuginfo-install.py:190
+#: plugins/debuginfo-install.py:191
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
 msgstr "无法为以下安装的软件包找到 debuginfo 软件包： %s"
 
-#: plugins/debuginfo-install.py:195
+#: plugins/debuginfo-install.py:196
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
 msgstr "无法为以下安装的软件包找到 debugsource 软件包： %s"
 
-#: plugins/debuginfo-install.py:199
+#: plugins/debuginfo-install.py:200
 msgid "Unable to find a match"
 msgstr "没有任何匹配"
 

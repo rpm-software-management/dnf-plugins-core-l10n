@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-25 02:00+0000\n"
+"POT-Creation-Date: 2025-02-05 02:06+0000\n"
 "PO-Revision-Date: 2024-10-14 15:16+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -125,7 +125,7 @@ msgstr ""
 msgid "PACKAGE"
 msgstr "ПАКУНОК"
 
-#: plugins/changelog.py:81 plugins/debuginfo-install.py:90
+#: plugins/changelog.py:81 plugins/debuginfo-install.py:91
 #, python-format
 msgid "No match for argument: %s"
 msgstr "Відповідника параметра не знайдено: %s"
@@ -223,27 +223,27 @@ msgstr[2] "Помилка під час налаштовування схови�
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Не вдалося зберегти дані сховища до файла сховищ %s: %s"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "y"
 msgstr "y"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "yes"
 msgstr "так"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "n"
 msgstr "n"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "no"
 msgstr "ні"
 
-#: plugins/copr.py:92
+#: plugins/copr.py:93
 msgid "Interact with Copr repositories."
 msgstr "Працювати зі сховищами Copr."
 
-#: plugins/copr.py:94
+#: plugins/copr.py:95
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -281,32 +281,32 @@ msgstr ""
 "  copr search tests\n"
 "    "
 
-#: plugins/copr.py:120
+#: plugins/copr.py:121
 msgid "List all installed Copr repositories (default)"
 msgstr "Список усіх встановлених сховищ Copr (типово)"
 
-#: plugins/copr.py:122
+#: plugins/copr.py:123
 msgid "List enabled Copr repositories"
 msgstr "Список увімкнених сховищ Copr"
 
-#: plugins/copr.py:124
+#: plugins/copr.py:125
 msgid "List disabled Copr repositories"
 msgstr "Список вимкнених сховищ Copr"
 
-#: plugins/copr.py:126
+#: plugins/copr.py:127
 msgid "List available Copr repositories by user NAME"
 msgstr ""
 "Список доступних сховищ Copr, які належать користувачу із вказаним ім'ям"
 
-#: plugins/copr.py:128
+#: plugins/copr.py:129
 msgid "Specify an instance of Copr to work with"
 msgstr "Вказати екземпляр Copr для роботи"
 
-#: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
+#: plugins/copr.py:164 plugins/copr.py:255 plugins/copr.py:282
 msgid "Error: "
 msgstr "Помилка: "
 
-#: plugins/copr.py:164
+#: plugins/copr.py:165
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -314,19 +314,19 @@ msgstr ""
 "вкажіть концентратор Copr за допомогою «--hub» або за допомогою формату "
 "«концентратор_copr/користувач_copr/назва_проєкту_copr»"
 
-#: plugins/copr.py:167
+#: plugins/copr.py:168
 msgid "multiple hubs specified"
 msgstr "вказано декілька концентраторів"
 
-#: plugins/copr.py:255 plugins/copr.py:259
+#: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
 msgstr "команді copr слід передавати точно два додаткові параметри"
 
-#: plugins/copr.py:264
+#: plugins/copr.py:265
 msgid "Too many arguments."
 msgstr "Забагато аргументів."
 
-#: plugins/copr.py:267
+#: plugins/copr.py:268
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
@@ -334,17 +334,17 @@ msgstr ""
 "Помилкове форматування необов'язкового chroot. Значення мало бути записано у "
 "форматі «дистрибутив-версія-архітектура»."
 
-#: plugins/copr.py:282
+#: plugins/copr.py:283
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "для використання проєкт copr скористайтеся форматом «copr_користувач/"
 "copr_назва_проєкту»"
 
-#: plugins/copr.py:284
+#: plugins/copr.py:285
 msgid "bad copr project format"
 msgstr "помилкове форматування проєкту copr"
 
-#: plugins/copr.py:298
+#: plugins/copr.py:299
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -374,23 +374,23 @@ msgstr ""
 "Bugzilla Fedora. Якщо виникнуть якісь проблеми,\n"
 "зв’яжіться із власником цього сховища пакунків.\n"
 
-#: plugins/copr.py:315
+#: plugins/copr.py:316
 msgid "Repository successfully enabled."
 msgstr "Сховище успішно увімкнено."
 
-#: plugins/copr.py:320
+#: plugins/copr.py:321
 msgid "Repository successfully disabled."
 msgstr "Сховище успішно вимкнено."
 
-#: plugins/copr.py:324
+#: plugins/copr.py:325
 msgid "Repository successfully removed."
 msgstr "Сховище успішно вилучено."
 
-#: plugins/copr.py:328 plugins/copr.py:741
+#: plugins/copr.py:329 plugins/copr.py:742
 msgid "Unknown subcommand {}."
 msgstr "Невідома підкоманда {}."
 
-#: plugins/copr.py:385
+#: plugins/copr.py:386
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -400,53 +400,53 @@ msgstr ""
 "даних щодо концентратора Copr — припускаємо типовий. Знову увімкніть проєкт "
 "для виправлення."
 
-#: plugins/copr.py:398
+#: plugins/copr.py:399
 msgid "Can't parse repositories for username '{}'."
 msgstr "Не вдалося обробити сховища для користувача '{}'."
 
-#: plugins/copr.py:401
+#: plugins/copr.py:402
 msgid "List of {} coprs"
 msgstr "Список copr {}"
 
-#: plugins/copr.py:406
+#: plugins/copr.py:407
 msgid "No description given"
 msgstr "Опис не надано"
 
-#: plugins/copr.py:418
+#: plugins/copr.py:419
 msgid "Can't parse search for '{}'."
 msgstr "Не вдалося обробити пошук для '{}'."
 
-#: plugins/copr.py:421
+#: plugins/copr.py:422
 msgid "Matched: {}"
 msgstr "Відповідник: {}"
 
-#: plugins/copr.py:426
+#: plugins/copr.py:427
 msgid "No description given."
 msgstr "Опис не надано."
 
-#: plugins/copr.py:448
+#: plugins/copr.py:449
 msgid "Safe and good answer. Exiting."
 msgstr "Безпечна і добра відповідь. Завершуємо роботу."
 
-#: plugins/copr.py:455
+#: plugins/copr.py:456
 msgid "This command has to be run under the root user."
 msgstr "Цю команду слід виконувати від імені користувача root."
 
-#: plugins/copr.py:507
+#: plugins/copr.py:508
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Не вдалося виконати запит до {0}: {1} - {2}"
 
-#: plugins/copr.py:509
+#: plugins/copr.py:510
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Увімкнути цей проєкт неможливо.\n"
 
-#: plugins/copr.py:514
+#: plugins/copr.py:515
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "У проєкті «{1}» немає сховища «{0}»."
 
-#: plugins/copr.py:517
+#: plugins/copr.py:518
 msgid ""
 "\n"
 "Available repositories: "
@@ -454,7 +454,7 @@ msgstr ""
 "\n"
 "Доступні сховища: "
 
-#: plugins/copr.py:519
+#: plugins/copr.py:520
 #, python-brace-format
 msgid ""
 "\n"
@@ -470,17 +470,17 @@ msgstr ""
 "Втім, зауважте, що, ймовірно, до встановленого файла сховища доведеться "
 "внести зміни вручну."
 
-#: plugins/copr.py:525
+#: plugins/copr.py:526
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Проєкта {0} не існує."
 
-#: plugins/copr.py:528
+#: plugins/copr.py:529
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Не вдалося з'єднатися із {0}: {1}"
 
-#: plugins/copr.py:575
+#: plugins/copr.py:576
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -509,44 +509,44 @@ msgstr ""
 "\n"
 "Ці сховища було увімкнено автоматично."
 
-#: plugins/copr.py:596
+#: plugins/copr.py:597
 msgid "Do you want to keep them enabled?"
 msgstr "Хочете не вимикати їх?"
 
-#: plugins/copr.py:629
+#: plugins/copr.py:630
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Не вдалося вилучити сховище copr {0}/{1}/{2}"
 
-#: plugins/copr.py:640
+#: plugins/copr.py:641
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Не вдалося вилучити сховище copr {}/{}"
 
-#: plugins/copr.py:658 plugins/copr.py:695
+#: plugins/copr.py:659 plugins/copr.py:696
 msgid "Unknown response from server."
 msgstr "Невідома відповідь від сервера."
 
-#: plugins/copr.py:680
+#: plugins/copr.py:681
 msgid "Interact with Playground repository."
 msgstr "Працювати зі сховищем Playground."
 
-#: plugins/copr.py:686
+#: plugins/copr.py:687
 msgid "Enabling a Playground repository."
 msgstr "Вмикання сховища Playground."
 
-#: plugins/copr.py:687
+#: plugins/copr.py:688
 msgid "Do you want to continue?"
 msgstr "Хочете продовжити виконання цієї дії?"
 
-#: plugins/copr.py:731
+#: plugins/copr.py:732
 msgid "Playground repositories successfully enabled."
 msgstr "Сховища Playground успішно увімкнено."
 
-#: plugins/copr.py:734
+#: plugins/copr.py:735
 msgid "Playground repositories successfully disabled."
 msgstr "Сховища Playground успішно вимкнено."
 
-#: plugins/copr.py:738
+#: plugins/copr.py:739
 msgid "Playground repositories successfully updated."
 msgstr "Сховища Playground успішно оновлено."
 
@@ -614,35 +614,35 @@ msgstr "Пакунок %s недоступний"
 msgid "Bad dnf debug file: %s"
 msgstr "Помилковий файл діагностики dnf: %s"
 
-#: plugins/debuginfo-install.py:56
+#: plugins/debuginfo-install.py:57
 msgid "install debuginfo packages"
 msgstr "встановити пакунки debuginfo"
 
-#: plugins/debuginfo-install.py:180
+#: plugins/debuginfo-install.py:181
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
 msgstr "Не вдалося знайти debuginfo для таких доступних пакунків: %s"
 
-#: plugins/debuginfo-install.py:185
+#: plugins/debuginfo-install.py:186
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr "Не вдалося знайти debugsource для таких доступних пакунків: %s"
 
-#: plugins/debuginfo-install.py:190
+#: plugins/debuginfo-install.py:191
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
 msgstr "Не вдалося знайти debuginfo для таких встановлених пакунків: %s"
 
-#: plugins/debuginfo-install.py:195
+#: plugins/debuginfo-install.py:196
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
 msgstr "Не вдалося знайти debugsource для таких встановлених пакунків: %s"
 
-#: plugins/debuginfo-install.py:199
+#: plugins/debuginfo-install.py:200
 msgid "Unable to find a match"
 msgstr "Не вдалося знайти відповідник"
 

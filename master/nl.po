@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-25 02:00+0000\n"
+"POT-Creation-Date: 2025-02-05 02:06+0000\n"
 "PO-Revision-Date: 2023-06-04 13:12+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -122,7 +122,7 @@ msgstr ""
 msgid "PACKAGE"
 msgstr "PAKKET"
 
-#: plugins/changelog.py:81 plugins/debuginfo-install.py:90
+#: plugins/changelog.py:81 plugins/debuginfo-install.py:91
 #, python-format
 msgid "No match for argument: %s"
 msgstr "Geen match voor argument: %s"
@@ -218,27 +218,27 @@ msgstr[1] "Configuratie van repo's mislukte"
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Kon repo niet opslaan naar repo-bestand %s: %s"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "y"
 msgstr "j"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "yes"
 msgstr "ja"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "n"
 msgstr "n"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "no"
 msgstr "nee"
 
-#: plugins/copr.py:92
+#: plugins/copr.py:93
 msgid "Interact with Copr repositories."
 msgstr "Interactie met Copr repositories."
 
-#: plugins/copr.py:94
+#: plugins/copr.py:95
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -276,31 +276,31 @@ msgstr ""
 "  copr search tests\n"
 "    "
 
-#: plugins/copr.py:120
+#: plugins/copr.py:121
 msgid "List all installed Copr repositories (default)"
 msgstr "Toon alle geïnstalleerde Copr-repositories (standaard)"
 
-#: plugins/copr.py:122
+#: plugins/copr.py:123
 msgid "List enabled Copr repositories"
 msgstr "Toon ingeschakelde Copr-repositories"
 
-#: plugins/copr.py:124
+#: plugins/copr.py:125
 msgid "List disabled Copr repositories"
 msgstr "Toon uitgeschakelde Copr-repositories"
 
-#: plugins/copr.py:126
+#: plugins/copr.py:127
 msgid "List available Copr repositories by user NAME"
 msgstr "Toon beschikbare Copr-repositories per gebruiker NAAM"
 
-#: plugins/copr.py:128
+#: plugins/copr.py:129
 msgid "Specify an instance of Copr to work with"
 msgstr "Geef een instanctie van Copr op om mee te werken"
 
-#: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
+#: plugins/copr.py:164 plugins/copr.py:255 plugins/copr.py:282
 msgid "Error: "
 msgstr "Fout: "
 
-#: plugins/copr.py:164
+#: plugins/copr.py:165
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -308,19 +308,19 @@ msgstr ""
 "specificeer Copr hub met `--hub` of gebruik het formaat `copr_hub/"
 "copr_username/copr_projectname`"
 
-#: plugins/copr.py:167
+#: plugins/copr.py:168
 msgid "multiple hubs specified"
 msgstr "meerdere hubs opgegeven"
 
-#: plugins/copr.py:255 plugins/copr.py:259
+#: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
 msgstr "er zijn precies twee extra parameters voor het copr commando vereist"
 
-#: plugins/copr.py:264
+#: plugins/copr.py:265
 msgid "Too many arguments."
 msgstr "Te veel argumenten."
 
-#: plugins/copr.py:267
+#: plugins/copr.py:268
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
@@ -328,17 +328,17 @@ msgstr ""
 "Onjuist formaat van optionele chroot. Het formaat is distributie-versie-"
 "architectuur."
 
-#: plugins/copr.py:282
+#: plugins/copr.py:283
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "gebruik formaat `copr_username/copr_projectname` voor het refereren naar "
 "copr project"
 
-#: plugins/copr.py:284
+#: plugins/copr.py:285
 msgid "bad copr project format"
 msgstr "slecht copr-projectformaat"
 
-#: plugins/copr.py:298
+#: plugins/copr.py:299
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -369,23 +369,23 @@ msgstr ""
 "Bugzilla. Neem in geval van problemen contact op met de eigenaar van deze "
 "repository.\n"
 
-#: plugins/copr.py:315
+#: plugins/copr.py:316
 msgid "Repository successfully enabled."
 msgstr "Repository succesvol ingeschakeld."
 
-#: plugins/copr.py:320
+#: plugins/copr.py:321
 msgid "Repository successfully disabled."
 msgstr "Repository succesvol uitgeschakeld."
 
-#: plugins/copr.py:324
+#: plugins/copr.py:325
 msgid "Repository successfully removed."
 msgstr "Repository succesvol verwijderd."
 
-#: plugins/copr.py:328 plugins/copr.py:741
+#: plugins/copr.py:329 plugins/copr.py:742
 msgid "Unknown subcommand {}."
 msgstr "Onbekend subcommando {}."
 
-#: plugins/copr.py:385
+#: plugins/copr.py:386
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -395,53 +395,53 @@ msgstr ""
 "bevat over Copr hub - de standaard werd verondersteld. Schakel het project "
 "opnieuw in om dit te verhelpen."
 
-#: plugins/copr.py:398
+#: plugins/copr.py:399
 msgid "Can't parse repositories for username '{}'."
 msgstr "Kan repositories voor gebruikersnaam '{}' niet ontleden."
 
-#: plugins/copr.py:401
+#: plugins/copr.py:402
 msgid "List of {} coprs"
 msgstr "Lijst met {} coprs"
 
-#: plugins/copr.py:406
+#: plugins/copr.py:407
 msgid "No description given"
 msgstr "Geen beschrijving gegeven"
 
-#: plugins/copr.py:418
+#: plugins/copr.py:419
 msgid "Can't parse search for '{}'."
 msgstr "Kan zoekopdracht voor '{}' niet ontleden."
 
-#: plugins/copr.py:421
+#: plugins/copr.py:422
 msgid "Matched: {}"
 msgstr "Op elkaar afgestemd: {}"
 
-#: plugins/copr.py:426
+#: plugins/copr.py:427
 msgid "No description given."
 msgstr "Geen beschrijving gegeven."
 
-#: plugins/copr.py:448
+#: plugins/copr.py:449
 msgid "Safe and good answer. Exiting."
 msgstr "Veilig en goed antwoord. Afsluiten."
 
-#: plugins/copr.py:455
+#: plugins/copr.py:456
 msgid "This command has to be run under the root user."
 msgstr "Dit commando moet als root uitgevoerd worden."
 
-#: plugins/copr.py:507
+#: plugins/copr.py:508
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Verzoek aan {0} mislukt: {1} - {2}"
 
-#: plugins/copr.py:509
+#: plugins/copr.py:510
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Het was niet mogelijk om dit project in te schakelen.\n"
 
-#: plugins/copr.py:514
+#: plugins/copr.py:515
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "Repository '{0}' bestaat niet in project '{1}'."
 
-#: plugins/copr.py:517
+#: plugins/copr.py:518
 msgid ""
 "\n"
 "Available repositories: "
@@ -449,7 +449,7 @@ msgstr ""
 "\n"
 "Beschikbare repositories: "
 
-#: plugins/copr.py:519
+#: plugins/copr.py:520
 #, python-brace-format
 msgid ""
 "\n"
@@ -466,17 +466,17 @@ msgstr ""
 "Houd er echter rekening mee dat het geïnstalleerde repo-bestand "
 "waarschijnlijk handmatig moet worden gewijzigd."
 
-#: plugins/copr.py:525
+#: plugins/copr.py:526
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Project {0} bestaat niet."
 
-#: plugins/copr.py:528
+#: plugins/copr.py:529
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Verbinden met {0} mislukte: {1}"
 
-#: plugins/copr.py:575
+#: plugins/copr.py:576
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -505,44 +505,44 @@ msgstr ""
 "\n"
 "Deze repositories zijn automatisch ingeschakeld."
 
-#: plugins/copr.py:596
+#: plugins/copr.py:597
 msgid "Do you want to keep them enabled?"
 msgstr "Wil je ze ingeschakeld houden?"
 
-#: plugins/copr.py:629
+#: plugins/copr.py:630
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Kan copr repo {0}/{1}/{2} niet verwijderen"
 
-#: plugins/copr.py:640
+#: plugins/copr.py:641
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Kon copr repo {}/{} niet uitschakelen"
 
-#: plugins/copr.py:658 plugins/copr.py:695
+#: plugins/copr.py:659 plugins/copr.py:696
 msgid "Unknown response from server."
 msgstr "Onbekend antwoord van server."
 
-#: plugins/copr.py:680
+#: plugins/copr.py:681
 msgid "Interact with Playground repository."
 msgstr "Interactie met Playground repository."
 
-#: plugins/copr.py:686
+#: plugins/copr.py:687
 msgid "Enabling a Playground repository."
 msgstr "Een Playground repositories inschakelen."
 
-#: plugins/copr.py:687
+#: plugins/copr.py:688
 msgid "Do you want to continue?"
 msgstr "Wil je verder gaan?"
 
-#: plugins/copr.py:731
+#: plugins/copr.py:732
 msgid "Playground repositories successfully enabled."
 msgstr "Playground repositories succesvol ingeschakeld."
 
-#: plugins/copr.py:734
+#: plugins/copr.py:735
 msgid "Playground repositories successfully disabled."
 msgstr "Playground repositories succesvol uitgeschakeld."
 
-#: plugins/copr.py:738
+#: plugins/copr.py:739
 msgid "Playground repositories successfully updated."
 msgstr "Playground repositories succesvol bijgewerkt."
 
@@ -609,25 +609,25 @@ msgstr "Pakket %s is niet beschikbaar"
 msgid "Bad dnf debug file: %s"
 msgstr "Ongeldig dnf-foutopsporingsbestand: %s"
 
-#: plugins/debuginfo-install.py:56
+#: plugins/debuginfo-install.py:57
 msgid "install debuginfo packages"
 msgstr "installeer debuginfo pakketten"
 
-#: plugins/debuginfo-install.py:180
+#: plugins/debuginfo-install.py:181
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
 msgstr ""
 "Kan geen debuginfo-pakket vinden voor de volgende beschikbare pakketten: %s"
 
-#: plugins/debuginfo-install.py:185
+#: plugins/debuginfo-install.py:186
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr ""
 "Kan geen debugbron-pakket vinden voor de volgende beschikbare pakketten: %s"
 
-#: plugins/debuginfo-install.py:190
+#: plugins/debuginfo-install.py:191
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
@@ -635,7 +635,7 @@ msgstr ""
 "Kan geen debuginfo-pakket vinden voor de volgende geïnstalleerde pakketten: "
 "%s"
 
-#: plugins/debuginfo-install.py:195
+#: plugins/debuginfo-install.py:196
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
@@ -643,7 +643,7 @@ msgstr ""
 "Kan geen debugbron-pakket vinden voor de volgende geïnstalleerde pakketten: "
 "%s"
 
-#: plugins/debuginfo-install.py:199
+#: plugins/debuginfo-install.py:200
 msgid "Unable to find a match"
 msgstr "Kan geen match vinden"
 

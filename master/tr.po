@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-25 02:00+0000\n"
+"POT-Creation-Date: 2025-02-05 02:06+0000\n"
 "PO-Revision-Date: 2024-10-14 15:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -121,7 +121,7 @@ msgstr ""
 msgid "PACKAGE"
 msgstr "PAKET"
 
-#: plugins/changelog.py:81 plugins/debuginfo-install.py:90
+#: plugins/changelog.py:81 plugins/debuginfo-install.py:91
 #, python-format
 msgid "No match for argument: %s"
 msgstr "Argüman için eşleşme yok: %s"
@@ -217,27 +217,27 @@ msgstr[1] "Depolar yapılandırılamadı"
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Depo, %s depo dosyasına kaydedilemedi: %s"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "y"
 msgstr "e"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "yes"
 msgstr "evet"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "n"
 msgstr "h"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "no"
 msgstr "hayır"
 
-#: plugins/copr.py:92
+#: plugins/copr.py:93
 msgid "Interact with Copr repositories."
 msgstr "Copr depoları ile etkileşime geçin."
 
-#: plugins/copr.py:94
+#: plugins/copr.py:95
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -275,31 +275,31 @@ msgstr ""
 "  copr search tests\n"
 "    "
 
-#: plugins/copr.py:120
+#: plugins/copr.py:121
 msgid "List all installed Copr repositories (default)"
 msgstr "Kurulu tüm Copr depolarını listele (öntanımlı)"
 
-#: plugins/copr.py:122
+#: plugins/copr.py:123
 msgid "List enabled Copr repositories"
 msgstr "Etkinleştirilmiş Copr depolarını listele"
 
-#: plugins/copr.py:124
+#: plugins/copr.py:125
 msgid "List disabled Copr repositories"
 msgstr "Devre dışı bırakılmış Copr depolarını listele"
 
-#: plugins/copr.py:126
+#: plugins/copr.py:127
 msgid "List available Copr repositories by user NAME"
 msgstr "AD kullanıcısına ait kullanılabilir Copr depolarını listele"
 
-#: plugins/copr.py:128
+#: plugins/copr.py:129
 msgid "Specify an instance of Copr to work with"
 msgstr "Belirtilen Copr örneği üzerinde çalış"
 
-#: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
+#: plugins/copr.py:164 plugins/copr.py:255 plugins/copr.py:282
 msgid "Error: "
 msgstr "Hata: "
 
-#: plugins/copr.py:164
+#: plugins/copr.py:165
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -307,19 +307,19 @@ msgstr ""
 "`--hub` seçeneğini ile ya da `copr_hub/copr_kullanıcı_adı/copr_proje_adı` "
 "biçimini kullanarak Copr hub belirtin"
 
-#: plugins/copr.py:167
+#: plugins/copr.py:168
 msgid "multiple hubs specified"
 msgstr "birden çok hub belirtildi"
 
-#: plugins/copr.py:255 plugins/copr.py:259
+#: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
 msgstr "copr komutu için tam olarak iki ek parametre gereklidir"
 
-#: plugins/copr.py:264
+#: plugins/copr.py:265
 msgid "Too many arguments."
 msgstr "Çok fazla argüman."
 
-#: plugins/copr.py:267
+#: plugins/copr.py:268
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
@@ -327,17 +327,17 @@ msgstr ""
 "İsteğe bağlı chroot için hatalı biçim. Biçim, dağıtım-sürüm-mimari "
 "şeklindedir."
 
-#: plugins/copr.py:282
+#: plugins/copr.py:283
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "copr projesi belirtmek için `copr_kullanıcı_adı/copr_proje_adı` biçimini "
 "kullanın"
 
-#: plugins/copr.py:284
+#: plugins/copr.py:285
 msgid "bad copr project format"
 msgstr "hatalı copr projesi biçimi"
 
-#: plugins/copr.py:298
+#: plugins/copr.py:299
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -367,23 +367,23 @@ msgstr ""
 "Lütfen bu paketlerle ilgili hataları Fedora Bugzilla'ya bildirmeyin.\n"
 "Sorun olması durumunda, bu deponun sahibiyle iletişime geçin.\n"
 
-#: plugins/copr.py:315
+#: plugins/copr.py:316
 msgid "Repository successfully enabled."
 msgstr "Depo başarıyla etkinleştirildi."
 
-#: plugins/copr.py:320
+#: plugins/copr.py:321
 msgid "Repository successfully disabled."
 msgstr "Depo başarıyla devre dışı bırakıldı."
 
-#: plugins/copr.py:324
+#: plugins/copr.py:325
 msgid "Repository successfully removed."
 msgstr "Depo başarıyla kaldırıldı."
 
-#: plugins/copr.py:328 plugins/copr.py:741
+#: plugins/copr.py:329 plugins/copr.py:742
 msgid "Unknown subcommand {}."
 msgstr "Bilinmeyen alt komut {}."
 
-#: plugins/copr.py:385
+#: plugins/copr.py:386
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -393,53 +393,53 @@ msgstr ""
 "depo dosyasına sahip - öntanımlı değer kabul edildi. Bunu düzeltmek için "
 "projeyi yeniden etkinleştirin."
 
-#: plugins/copr.py:398
+#: plugins/copr.py:399
 msgid "Can't parse repositories for username '{}'."
 msgstr "'{}' kullanıcı adı için depolar ayrıştırılamıyor."
 
-#: plugins/copr.py:401
+#: plugins/copr.py:402
 msgid "List of {} coprs"
 msgstr "{} kullanıcısına ait copr'ların listesi"
 
-#: plugins/copr.py:406
+#: plugins/copr.py:407
 msgid "No description given"
 msgstr "Açıklama verilmedi"
 
-#: plugins/copr.py:418
+#: plugins/copr.py:419
 msgid "Can't parse search for '{}'."
 msgstr "'{}' için arama ayrıştırılamıyor."
 
-#: plugins/copr.py:421
+#: plugins/copr.py:422
 msgid "Matched: {}"
 msgstr "Eşleşti: {}"
 
-#: plugins/copr.py:426
+#: plugins/copr.py:427
 msgid "No description given."
 msgstr "Açıklama verilmedi."
 
-#: plugins/copr.py:448
+#: plugins/copr.py:449
 msgid "Safe and good answer. Exiting."
 msgstr "Güvenli ve iyi cevap. Çıkış yapılıyor."
 
-#: plugins/copr.py:455
+#: plugins/copr.py:456
 msgid "This command has to be run under the root user."
 msgstr "Bu komut root kullanıcısı tarafından çalıştırılmalıdır."
 
-#: plugins/copr.py:507
+#: plugins/copr.py:508
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "{0} isteği başarısız oldu: {1} - {2}"
 
-#: plugins/copr.py:509
+#: plugins/copr.py:510
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Bu projeyi etkinleştirmek mümkün değildi.\n"
 
-#: plugins/copr.py:514
+#: plugins/copr.py:515
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "'{0}' deposu '{1}' projesinde yok."
 
-#: plugins/copr.py:517
+#: plugins/copr.py:518
 msgid ""
 "\n"
 "Available repositories: "
@@ -447,7 +447,7 @@ msgstr ""
 "\n"
 "Kullanılabilir depolar: "
 
-#: plugins/copr.py:519
+#: plugins/copr.py:520
 #, python-brace-format
 msgid ""
 "\n"
@@ -464,17 +464,17 @@ msgstr ""
 "Ancak, kurulu repo dosyasının büyük olasılıkla elle bir değişiklik "
 "gerektireceğini unutmayın."
 
-#: plugins/copr.py:525
+#: plugins/copr.py:526
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "{0} projesi yok."
 
-#: plugins/copr.py:528
+#: plugins/copr.py:529
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "{0} bağlantısı başarısız oldu: {1}"
 
-#: plugins/copr.py:575
+#: plugins/copr.py:576
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -503,44 +503,44 @@ msgstr ""
 "\n"
 "Bu depolar otomatik olarak etkinleştirildi."
 
-#: plugins/copr.py:596
+#: plugins/copr.py:597
 msgid "Do you want to keep them enabled?"
 msgstr "Etkinleştirilmiş olarak kalmalarını istiyor musunuz?"
 
-#: plugins/copr.py:629
+#: plugins/copr.py:630
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "{0}/{1}/{2} copr deposu kaldırılamadı"
 
-#: plugins/copr.py:640
+#: plugins/copr.py:641
 msgid "Failed to disable copr repo {}/{}"
 msgstr "{}/{} copr deposu devre dışı bırakılamadı"
 
-#: plugins/copr.py:658 plugins/copr.py:695
+#: plugins/copr.py:659 plugins/copr.py:696
 msgid "Unknown response from server."
 msgstr "Sunucudan bilinmeyen yanıt."
 
-#: plugins/copr.py:680
+#: plugins/copr.py:681
 msgid "Interact with Playground repository."
 msgstr "Playground deposu ile etkileşime geçin."
 
-#: plugins/copr.py:686
+#: plugins/copr.py:687
 msgid "Enabling a Playground repository."
 msgstr "Playground deposunu etkinleştirme."
 
-#: plugins/copr.py:687
+#: plugins/copr.py:688
 msgid "Do you want to continue?"
 msgstr "Devam etmek istiyor musun?"
 
-#: plugins/copr.py:731
+#: plugins/copr.py:732
 msgid "Playground repositories successfully enabled."
 msgstr "Playground depoları başarıyla etkinleştirildi."
 
-#: plugins/copr.py:734
+#: plugins/copr.py:735
 msgid "Playground repositories successfully disabled."
 msgstr "Playground depoları başarıyla devre dışı bırakıldı."
 
-#: plugins/copr.py:738
+#: plugins/copr.py:739
 msgid "Playground repositories successfully updated."
 msgstr "Playground depoları başarıyla güncellendi."
 
@@ -607,35 +607,35 @@ msgstr "%s paketi kullanılabilir değil"
 msgid "Bad dnf debug file: %s"
 msgstr "Hatalı dnf debug-dump dosyası: %s"
 
-#: plugins/debuginfo-install.py:56
+#: plugins/debuginfo-install.py:57
 msgid "install debuginfo packages"
 msgstr "debuginfo paketlerini kur"
 
-#: plugins/debuginfo-install.py:180
+#: plugins/debuginfo-install.py:181
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
 msgstr "Şu kullanılabilir paketler için debuginfo paketi bulunamadı: %s"
 
-#: plugins/debuginfo-install.py:185
+#: plugins/debuginfo-install.py:186
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr "Şu kullanılabilir paketler için debugsource paketi bulunamadı: %s"
 
-#: plugins/debuginfo-install.py:190
+#: plugins/debuginfo-install.py:191
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
 msgstr "Şu kurulu paketler için debuginfo paketi bulunamadı: %s"
 
-#: plugins/debuginfo-install.py:195
+#: plugins/debuginfo-install.py:196
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
 msgstr "Şu kurulu paketler için debugsource paketi bulunamadı: %s"
 
-#: plugins/debuginfo-install.py:199
+#: plugins/debuginfo-install.py:200
 msgid "Unable to find a match"
 msgstr "Bir eşleşme bulunamadı"
 

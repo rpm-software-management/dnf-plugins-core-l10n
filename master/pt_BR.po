@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-25 02:00+0000\n"
+"POT-Creation-Date: 2025-02-05 02:06+0000\n"
 "PO-Revision-Date: 2024-12-03 15:38+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -133,7 +133,7 @@ msgstr ""
 msgid "PACKAGE"
 msgstr "PACOTE"
 
-#: plugins/changelog.py:81 plugins/debuginfo-install.py:90
+#: plugins/changelog.py:81 plugins/debuginfo-install.py:91
 #, python-format
 msgid "No match for argument: %s"
 msgstr "Nenhuma correspondência para o argumento: %s"
@@ -227,27 +227,27 @@ msgstr[1] "A configuração dos repos falhou"
 msgid "Could not save repo to repofile %s: %s"
 msgstr "Não é possível salvar o repositório para o repofile %s: %s"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "y"
 msgstr "s"
 
-#: plugins/copr.py:70
+#: plugins/copr.py:71
 msgid "yes"
 msgstr "sim"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "n"
 msgstr "n"
 
-#: plugins/copr.py:71
+#: plugins/copr.py:72
 msgid "no"
 msgstr "não"
 
-#: plugins/copr.py:92
+#: plugins/copr.py:93
 msgid "Interact with Copr repositories."
 msgstr "Interage com repositórios Copr."
 
-#: plugins/copr.py:94
+#: plugins/copr.py:95
 msgid ""
 "\n"
 "  enable name/project [chroot]\n"
@@ -285,31 +285,31 @@ msgstr ""
 "  copr search tests\n"
 "    "
 
-#: plugins/copr.py:120
+#: plugins/copr.py:121
 msgid "List all installed Copr repositories (default)"
 msgstr "Lista todos os repositórios Copr instalados (padrão)"
 
-#: plugins/copr.py:122
+#: plugins/copr.py:123
 msgid "List enabled Copr repositories"
 msgstr "Lista repositórios Copr habilitados"
 
-#: plugins/copr.py:124
+#: plugins/copr.py:125
 msgid "List disabled Copr repositories"
 msgstr "Lista repositórios Copr desabilitados"
 
-#: plugins/copr.py:126
+#: plugins/copr.py:127
 msgid "List available Copr repositories by user NAME"
 msgstr "Lista os repositórios Copr disponíveis pelo usuário NAME"
 
-#: plugins/copr.py:128
+#: plugins/copr.py:129
 msgid "Specify an instance of Copr to work with"
 msgstr "Especifica uma instância do Copr para trabalhar"
 
-#: plugins/copr.py:163 plugins/copr.py:254 plugins/copr.py:281
+#: plugins/copr.py:164 plugins/copr.py:255 plugins/copr.py:282
 msgid "Error: "
 msgstr "Erro: "
 
-#: plugins/copr.py:164
+#: plugins/copr.py:165
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
@@ -317,37 +317,37 @@ msgstr ""
 "especifique o hub Copr com `--hub` ou usando o formato `copr_hub/"
 "copr_nomedousuario/copr_nomedoprojeto`"
 
-#: plugins/copr.py:167
+#: plugins/copr.py:168
 msgid "multiple hubs specified"
 msgstr "diversos hubs especificados"
 
-#: plugins/copr.py:255 plugins/copr.py:259
+#: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
 msgstr ""
 "são necessários exatamente dois parâmetros adicionais para o comando copr"
 
-#: plugins/copr.py:264
+#: plugins/copr.py:265
 msgid "Too many arguments."
 msgstr "Argumentos em excesso."
 
-#: plugins/copr.py:267
+#: plugins/copr.py:268
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
 "Formato ruim de chroot opcional. O formato é distribuição-versão-arquitetura."
 
-#: plugins/copr.py:282
+#: plugins/copr.py:283
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
 "use o formato `copr_nomeusuario/copr_nomeprojeto` para referenciar o projeto "
 "copr"
 
-#: plugins/copr.py:284
+#: plugins/copr.py:285
 msgid "bad copr project format"
 msgstr "formato inválido de projeto copr"
 
-#: plugins/copr.py:298
+#: plugins/copr.py:299
 msgid ""
 "\n"
 "Enabling a Copr repository. Please note that this repository is not part\n"
@@ -376,23 +376,23 @@ msgstr ""
 "Em caso de problemas, entre em contato com o proprietário deste "
 "repositório.\n"
 
-#: plugins/copr.py:315
+#: plugins/copr.py:316
 msgid "Repository successfully enabled."
 msgstr "Repositório habilitado com sucesso."
 
-#: plugins/copr.py:320
+#: plugins/copr.py:321
 msgid "Repository successfully disabled."
 msgstr "Repositório desabilitado com sucesso."
 
-#: plugins/copr.py:324
+#: plugins/copr.py:325
 msgid "Repository successfully removed."
 msgstr "Repositório removido com sucesso."
 
-#: plugins/copr.py:328 plugins/copr.py:741
+#: plugins/copr.py:329 plugins/copr.py:742
 msgid "Unknown subcommand {}."
 msgstr "subcomando desconhecido {}."
 
-#: plugins/copr.py:385
+#: plugins/copr.py:386
 msgid ""
 "* These coprs have repo file with an old format that contains no information "
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
@@ -402,53 +402,53 @@ msgstr ""
 "informações sobre o hub Copr - o padrão foi assumido. Habilite novamente o "
 "projeto para corrigir isso."
 
-#: plugins/copr.py:398
+#: plugins/copr.py:399
 msgid "Can't parse repositories for username '{}'."
 msgstr "Não é possível analisar repositórios para o username '{}'."
 
-#: plugins/copr.py:401
+#: plugins/copr.py:402
 msgid "List of {} coprs"
 msgstr "Lista de {} coprs"
 
-#: plugins/copr.py:406
+#: plugins/copr.py:407
 msgid "No description given"
 msgstr "Nenhuma descrição dada"
 
-#: plugins/copr.py:418
+#: plugins/copr.py:419
 msgid "Can't parse search for '{}'."
 msgstr "Impossível analisar pesquisa por '{}'."
 
-#: plugins/copr.py:421
+#: plugins/copr.py:422
 msgid "Matched: {}"
 msgstr "Encontrado: {}"
 
-#: plugins/copr.py:426
+#: plugins/copr.py:427
 msgid "No description given."
 msgstr "Nenhuma descrição dada."
 
-#: plugins/copr.py:448
+#: plugins/copr.py:449
 msgid "Safe and good answer. Exiting."
 msgstr "Resposta boa e segura. Saindo."
 
-#: plugins/copr.py:455
+#: plugins/copr.py:456
 msgid "This command has to be run under the root user."
 msgstr "Este comando deve ser executado sob o usuário root."
 
-#: plugins/copr.py:507
+#: plugins/copr.py:508
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Requisição para {0} falhou: {1} - {2}"
 
-#: plugins/copr.py:509
+#: plugins/copr.py:510
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Não foi possível habilitar este projeto.\n"
 
-#: plugins/copr.py:514
+#: plugins/copr.py:515
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "O repositório '{0}' não existe no projeto '{1}'."
 
-#: plugins/copr.py:517
+#: plugins/copr.py:518
 msgid ""
 "\n"
 "Available repositories: "
@@ -456,7 +456,7 @@ msgstr ""
 "\n"
 "Repositórios disponíveis: "
 
-#: plugins/copr.py:519
+#: plugins/copr.py:520
 #, python-brace-format
 msgid ""
 "\n"
@@ -473,17 +473,17 @@ msgstr ""
 "Mas note que o arquivo repo instalado provavelmente necessitará de "
 "modificação manual."
 
-#: plugins/copr.py:525
+#: plugins/copr.py:526
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Projeto {0} não existe."
 
-#: plugins/copr.py:528
+#: plugins/copr.py:529
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Falha ao conectar a {0}: {1}"
 
-#: plugins/copr.py:575
+#: plugins/copr.py:576
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -513,44 +513,44 @@ msgstr ""
 "\n"
 "Esses repositórios foram ativados automaticamente."
 
-#: plugins/copr.py:596
+#: plugins/copr.py:597
 msgid "Do you want to keep them enabled?"
 msgstr "Você deseja mantê-los habilitados?"
 
-#: plugins/copr.py:629
+#: plugins/copr.py:630
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Falha ao remover o repositório copr {0}/{1}/{2}"
 
-#: plugins/copr.py:640
+#: plugins/copr.py:641
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Falha ao desabilitar o repo copr {}/{}"
 
-#: plugins/copr.py:658 plugins/copr.py:695
+#: plugins/copr.py:659 plugins/copr.py:696
 msgid "Unknown response from server."
 msgstr "Resposta desconhecida do servidor."
 
-#: plugins/copr.py:680
+#: plugins/copr.py:681
 msgid "Interact with Playground repository."
 msgstr "Interage com o repositório Playground."
 
-#: plugins/copr.py:686
+#: plugins/copr.py:687
 msgid "Enabling a Playground repository."
 msgstr "Habilitando um repositório Playground."
 
-#: plugins/copr.py:687
+#: plugins/copr.py:688
 msgid "Do you want to continue?"
 msgstr "Você deseja continuar?"
 
-#: plugins/copr.py:731
+#: plugins/copr.py:732
 msgid "Playground repositories successfully enabled."
 msgstr "Repositórios Playground habilitados com sucesso."
 
-#: plugins/copr.py:734
+#: plugins/copr.py:735
 msgid "Playground repositories successfully disabled."
 msgstr "Repositórios Playground desabilitados com sucesso."
 
-#: plugins/copr.py:738
+#: plugins/copr.py:739
 msgid "Playground repositories successfully updated."
 msgstr "Repositórios Playground atualizados com sucesso."
 
@@ -617,11 +617,11 @@ msgstr "Pacote %s indisponível"
 msgid "Bad dnf debug file: %s"
 msgstr "Arquivo depuração do dnf inválido: %s"
 
-#: plugins/debuginfo-install.py:56
+#: plugins/debuginfo-install.py:57
 msgid "install debuginfo packages"
 msgstr "instala pacotes debuginfo"
 
-#: plugins/debuginfo-install.py:180
+#: plugins/debuginfo-install.py:181
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
@@ -629,7 +629,7 @@ msgstr ""
 "Não foi possível encontrar o pacote debuginfo para os seguintes pacotes "
 "disponíveis: %s"
 
-#: plugins/debuginfo-install.py:185
+#: plugins/debuginfo-install.py:186
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
@@ -637,7 +637,7 @@ msgstr ""
 "Não foi possível encontrar o pacote debugsource para os seguintes pacotes "
 "disponíveis: %s"
 
-#: plugins/debuginfo-install.py:190
+#: plugins/debuginfo-install.py:191
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
@@ -645,7 +645,7 @@ msgstr ""
 "Não foi possível encontrar o pacote debuginfo para os seguintes pacotes "
 "instalados: %s"
 
-#: plugins/debuginfo-install.py:195
+#: plugins/debuginfo-install.py:196
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
@@ -653,7 +653,7 @@ msgstr ""
 "Não foi possível encontrar o pacote debugsource para os seguintes pacotes "
 "instalados: %s"
 
-#: plugins/debuginfo-install.py:199
+#: plugins/debuginfo-install.py:200
 msgid "Unable to find a match"
 msgstr "Impossível de encontrar uma correspondência"
 
