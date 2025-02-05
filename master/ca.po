@@ -3,21 +3,22 @@
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017. #zanata
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018. #zanata
 # Adolfo Ketzer <reztek@gmail.com>, 2020.
+# David Medina <dmedinacpnl@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-25 02:00+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/ca/>\n"
+"PO-Revision-Date: 2025-02-05 21:47+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
+"Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1484,18 +1485,12 @@ msgid "Download finished."
 msgstr "S'ha finalitzat la baixada."
 
 #: plugins/system_upgrade.py:701
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and powering off..."
-msgstr ""
-"S'ha completat l'actualització de la versió. Es neteja i es reinicia..."
+msgstr "S'ha completat l'actualització de la versió. Es neteja i es reinicia..."
 
 #: plugins/system_upgrade.py:703
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr ""
-"S'ha completat l'actualització de la versió. Es neteja i es reinicia..."
+msgstr "S'ha completat l'actualització de la versió! Es neteja i es reinicia..."
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
