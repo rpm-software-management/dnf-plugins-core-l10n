@@ -8,21 +8,22 @@
 # Pavel Borecki <pavel.borecki@gmail.com>, 2023.
 # Jan Kalabza <jan.kalabza@gmail.com>, 2023.
 # Petr Ptacek <petr106@atlas.cz>, 2023.
+# Jonáš Loskot <fedoraproject.org@alius.cz>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-25 02:00+0000\n"
-"PO-Revision-Date: 2023-12-22 14:36+0000\n"
-"Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/cs/>\n"
+"PO-Revision-Date: 2025-02-05 21:47+0000\n"
+"Last-Translator: Jonáš Loskot <fedoraproject.org@alius.cz>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -140,9 +141,9 @@ msgstr "Výpis seznamů změn od {}"
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] "Výpis pouze nejnovějších seznamů změn"
+msgstr[0] "Výpis pouze nejnovějšího seznamu změn"
 msgstr[1] "Výpis {} nejnovějších seznamů změn"
-msgstr[2] "Výpis pouze nejnovějších seznamů změn"
+msgstr[2] "Výpis {} nejnovějších seznamů změn"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
@@ -335,12 +336,12 @@ msgstr ""
 #: plugins/copr.py:282
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
-"Pro odkaz na Copr projekt použijte formát \"copr_uživatelské_jméno/"
-"copr_název_projektu\""
+"Pro odkaz na copr projekt použijte formát "
+"\"copr_uživatelské_jméno/copr_název_projektu\""
 
 #: plugins/copr.py:284
 msgid "bad copr project format"
-msgstr "Špatný formát Copr projektu"
+msgstr "špatný formát copr projektu"
 
 #: plugins/copr.py:298
 msgid ""
@@ -716,13 +717,11 @@ msgstr "Není dostupný žádný balíček %s."
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "Následující PGP klíč vypršel {0}:"
 
 #: plugins/expired-pgp-keys.py:36
-#, fuzzy
-#| msgid "More information:"
 msgid "For more information about the key:"
-msgstr "Více informací:"
+msgstr "Pro více informací o klíči:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -730,24 +729,23 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"Instalace balíčků podepsaných tímto klíčem se proto nezdaří.\n"
+"Doporučuje se odstranit klíč, jehož platnost vypršela, aby bylo možné "
+"importovat\n"
+"aktualizovaný klíč. To může způsobit, že již nainstalované balíčky nebudou "
+"ověřitelné."
 
 #: plugins/expired-pgp-keys.py:43
-#, fuzzy
-#| msgid "Do you want to keep them enabled?"
 msgid "Do you want to remove the key?"
-msgstr "Chcete je ponechat povolené?"
+msgstr "Chcete odebrat klíč?"
 
 #: plugins/expired-pgp-keys.py:46
-#, fuzzy
-#| msgid "Repository successfully removed."
 msgid "Key successfully removed."
-msgstr "Repozitář úspěšně odebrán."
+msgstr "Klíč úspěšně odebrán."
 
 #: plugins/expired-pgp-keys.py:48
-#, fuzzy
-#| msgid "Failed to get mirror for the group file."
 msgid "Failed to remove the key."
-msgstr "Nepodařilo se získat zrcadlo pro soubor skupiny."
+msgstr "Nepodařilo se odebrat klíč."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
@@ -928,9 +926,9 @@ msgstr "stahovat pouze balíčky z nejnovějších modulů"
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Žádná shoda pro argument: %s"
-msgstr[1] "Žádná shoda pro argumenty: %s"
-msgstr[2] "Žádná shoda pro argumenty: %s"
+msgstr[0] "Žádná shoda pro argument: '{}'"
+msgstr[1] "Žádná shoda pro argumenty: '{}'"
+msgstr[2] "Žádná shoda pro argumenty: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
@@ -989,7 +987,7 @@ msgstr "hlásit pouze ovlivněné systémové služby"
 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
-msgstr ""
+msgstr "nevypisovat zastarelé procesy, které odpovídají službě systemd"
 
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
@@ -1036,16 +1034,14 @@ msgstr "po-transakční akce: Chybný příkaz \"%s\": %s"
 
 #: plugins/pre-transaction-actions.py:145
 #: plugins/pre-transaction-actions.py:147
-#, fuzzy, python-format
-#| msgid "post-transaction-actions: %s"
+#, python-format
 msgid "pre-transaction-actions: %s"
-msgstr "po-transakční akce: %s"
+msgstr "před-transakční akce: %s"
 
 #: plugins/pre-transaction-actions.py:149
-#, fuzzy, python-format
-#| msgid "post-transaction-actions: Bad Command \"%s\": %s"
+#, python-format
 msgid "pre-transaction-actions: Bad Command \"%s\": %s"
-msgstr "po-transakční akce: Chybný příkaz \"%s\": %s"
+msgstr "před-transakční akce: Chybný příkaz \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
