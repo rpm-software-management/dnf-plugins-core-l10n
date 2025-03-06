@@ -2,15 +2,15 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021, 2023.
 # Casey Jones <nahareport@yahoo.com>, 2020.
 # Transtats <suanand@redhat.com>, 2022, 2023.
-# middlingphys <middlingphys@users.noreply.translate.fedoraproject.org>, 2024.
+# middlingphys <middlingphys@users.noreply.translate.fedoraproject.org>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-28 02:11+0000\n"
-"PO-Revision-Date: 2024-03-05 13:52+0000\n"
-"Last-Translator: middlingphys <middlingphys@users.noreply.translate."
-"fedoraproject.org>\n"
+"PO-Revision-Date: 2025-03-06 11:04+0000\n"
+"Last-Translator: middlingphys "
+"<middlingphys@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ja/>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.10.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -717,13 +717,11 @@ msgstr "利用可能なパッケージ %s はありません。"
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "次のPGP鍵の期限が{0}に切れています:"
 
 #: plugins/expired-pgp-keys.py:36
-#, fuzzy
-#| msgid "More information:"
 msgid "For more information about the key:"
-msgstr "詳細情報:"
+msgstr "鍵についての詳細情報は:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -731,24 +729,22 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"これにより、この鍵で署名されたパッケージのインストールが失敗します。\n"
+"期限切れの鍵を削除して更新された鍵をインポートできるようにすることを推奨しま"
+"す。\n"
+"それによってインストール済みのパッケージが検証できなくなるかもしれません。"
 
 #: plugins/expired-pgp-keys.py:43
-#, fuzzy
-#| msgid "Do you want to keep them enabled?"
 msgid "Do you want to remove the key?"
-msgstr "有効にしておきますか？"
+msgstr "鍵を削除しますか？"
 
 #: plugins/expired-pgp-keys.py:46
-#, fuzzy
-#| msgid "Repository successfully removed."
 msgid "Key successfully removed."
-msgstr "リポジトリーが正常に削除されました。"
+msgstr "鍵が正常に削除されました。"
 
 #: plugins/expired-pgp-keys.py:48
-#, fuzzy
-#| msgid "Failed to get mirror for the group file."
 msgid "Failed to remove the key."
-msgstr "グループファイルのミラー取得に失敗しました。"
+msgstr "鍵の削除に失敗しました。"
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
@@ -994,7 +990,7 @@ msgstr "影響を受ける systemd サービスのみを報告"
 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
-msgstr ""
+msgstr "systemd サービスに対応する古いプロセスをリストアップしない"
 
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
