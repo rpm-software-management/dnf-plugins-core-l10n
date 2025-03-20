@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-13 02:14+0000\n"
-"PO-Revision-Date: 2025-01-10 16:20+0000\n"
+"PO-Revision-Date: 2025-03-20 13:44+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -311,7 +311,7 @@ msgstr ""
 
 #: plugins/copr.py:168
 msgid "multiple hubs specified"
-msgstr "useita hubeja määritetty"
+msgstr "useita keskittimiä määritetty"
 
 #: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
@@ -406,7 +406,7 @@ msgstr "Kuvausta ei annettu"
 
 #: plugins/copr.py:419
 msgid "Can't parse search for '{}'."
-msgstr "Hakua ”{}” ei voi jäsentää."
+msgstr "Hakua ei voi jäsentää '{}':lle."
 
 #: plugins/copr.py:422
 msgid "Matched: {}"
@@ -725,6 +725,11 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"Tämän seurauksena tällä avaimella allekirjoitettujen pakettien asentaminen "
+"epäonnistuu.\n"
+"On suositeltavaa poistaa vanhentunut avain, jotta päivitetyn avaimen tuonti "
+"voidaan sallia.\n"
+"Tämä saattaa jättää jo asennettuja paketteja vahvistamattomiksi."
 
 #: plugins/expired-pgp-keys.py:43
 msgid "Do you want to remove the key?"
@@ -979,7 +984,7 @@ msgstr "ilmoita vain systemd-palvelut, joihin toimilla on vaikutusta"
 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
-msgstr ""
+msgstr "älä luettele ummehtuneita prosesseja, jotka vastaavat systemd-palvelua"
 
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
@@ -1047,7 +1052,7 @@ msgstr ""
 #: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
-"tarkista paketit annetuille arkkitehtuureille, voidaan määrittää useita "
+"tarkista paketit annetuille arkkitehtuureille; voidaan määrittää useita "
 "kertoja"
 
 #: plugins/repoclosure.py:163
@@ -1465,7 +1470,7 @@ msgstr ""
 #: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
-"Komentoa 'offline-distrosync' ei voi käyttää --no-downgrade -vaihtoehdon "
+"Komentoa 'offline-distrosync' ei voi käyttää vaihtoehdon '--no-downgrade' "
 "kanssa"
 
 #: plugins/system_upgrade.py:464
@@ -1520,11 +1525,14 @@ msgstr "Käynnistetään uudelleen järjestelmäpäivityksen suorittamiseksi."
 
 #: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
-msgstr "Käynnistetään offline-versiopäivitystä. Tämä saattaa kestää hetken."
+msgstr ""
+"Käynnistetään ei-verkkotilassa olevaa versiopäivitystä. Tämä saattaa kestää "
+"hetken."
 
 #: plugins/system_upgrade.py:615
 msgid "Starting offline distrosync. This will take a while."
-msgstr "Aloitetaan offline-jakelusynkronointi. Tämä saattaa kestää hetken."
+msgstr ""
+"Käynnistetään ei-verkkotilassa olevaa distrosyncia. Tämä kestää jonkin aikaa."
 
 #: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
@@ -1563,11 +1571,11 @@ msgstr "Järjestelmäpäivitys valmistui! Siivotaan ja käynnistetään uudellee
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
-msgstr "Valmistele järjestelmän offline-päivitys"
+msgstr "Valmistele järjestelmän ei-verkkotilassa oleva versiopäivitys"
 
 #: plugins/system_upgrade.py:720
 msgid "Prepare offline distrosync of the system"
-msgstr "Valmistele järjestelmän offline-jakelusynkronointi"
+msgstr "Valmistele järjestelmän ei-verkkotilassa oleva distrosync"
 
 #: plugins/versionlock.py:33
 #, python-format
