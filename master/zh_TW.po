@@ -6,13 +6,14 @@
 # Cheng-Chia Tseng <pswo10680@gmail.com>, 2019. #zanata, 2023.
 # Yi-Jyun Pan <pan93412@gmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
+# hsu zangmen <chzang55@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-20 02:13+0000\n"
-"PO-Revision-Date: 2023-08-14 13:21+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"PO-Revision-Date: 2025-03-21 04:28+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -78,7 +79,7 @@ msgstr "不滿足所有依賴關係"
 #: plugins/builddep.py:208
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
-msgstr ""
+msgstr "警告：-D 或 --define 參數對原始 rpm 套件包無意義。"
 
 #: plugins/builddep.py:215
 #, python-format
