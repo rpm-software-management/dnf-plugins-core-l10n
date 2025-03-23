@@ -9,21 +9,22 @@
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2019. #zanata
 # Emilio Herrera <ehespinosa57@gmail.com>, 2020.
 # Alejandro Alcaide <alex@blueselene.com>, 2022, 2023.
+# Javier Francisco <fserrador@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-21 02:15+0000\n"
-"PO-Revision-Date: 2023-10-23 10:36+0000\n"
-"Last-Translator: Alejandro Alcaide <alex@blueselene.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/es/>\n"
+"PO-Revision-Date: 2025-03-23 22:56+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -82,11 +83,13 @@ msgstr "No se satisficieron todas las dependencias"
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
+"Advertencia: argumentos -D o --define no tienen significado para paquetes "
+"rpm de origen."
 
 #: plugins/builddep.py:215
 #, python-format
 msgid "Failed to open: '%s', not a valid spec file: %s"
-msgstr "Error al abrir '%s', no es un archivo spec válido: %s."
+msgstr "Incorrecto al abrir '%s', no es un archivo spec válido: %s"
 
 #: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
@@ -162,7 +165,7 @@ msgstr "secciones de configuración para administrar, \"principal\" o repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
-msgstr "guardar las opciones actuales (útil con --setopt)"
+msgstr "guarda las opciones actuales (útil con --setopt)"
 
 #: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
@@ -194,6 +197,8 @@ msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"Advertencia: los argumentos --enablerepo/--disablerepo no tienen significado "
+"con gestor de configuración. Emplee --set-enabled/--set-disabled en su lugar."
 
 #: plugins/config_manager.py:134
 #, python-format
@@ -295,17 +300,19 @@ msgstr "Instancia de Copr con la que trabajar"
 
 #: plugins/copr.py:164 plugins/copr.py:255 plugins/copr.py:282
 msgid "Error: "
-msgstr "Error:"
+msgstr "Error: "
 
 #: plugins/copr.py:165
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
+"especifique Copr hub o bien con formato `--hub` o bien utilizando `copr_hub/"
+"copr_username/copr_projectname`"
 
 #: plugins/copr.py:168
 msgid "multiple hubs specified"
-msgstr ""
+msgstr "especificaron múltiples hubs"
 
 #: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
@@ -313,22 +320,22 @@ msgstr ""
 "exactamente dos parámetros adicionales son requeridos para comandos copr "
 
 #: plugins/copr.py:265
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "No hay coincidencias para el argumento: %s"
+msgstr "Demasiados argumentos."
 
 #: plugins/copr.py:268
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
+"Formato malo de chroot opcional. El formato es distribución-versión-"
+"arquitectura."
 
 #: plugins/copr.py:283
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
-"use el formato \"nombreusuario_copr/proyecto_corp\" para referirse al "
-"proyecto copr"
+"use el formato `nombre-usuario_copr/nombre-proyecto_corp` para referenciar "
+"al proyecto copr"
 
 #: plugins/copr.py:285
 msgid "bad copr project format"
@@ -350,17 +357,17 @@ msgid ""
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
 "\n"
-"Habilitando un repositorio Copr. Tenga en cuenta que no es parte de la\n"
-"distribución, y que no hay garantías de calidad.\n"
+"Habilitando un repositorio Copr. Tenga en cuenta que no es parte de\n"
+"la distribución, y que no hay garantías de calidad.\n"
 "\n"
 "El Proyecto Fedora no ejerce ningún control sobre el contenido de este\n"
-"repositorio, más allá de las reglas publicadas en el P+F de Copr\n"
+"repositorio, más allá de las reglas publicadas en el P+F de Copr en\n"
 "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
 "in-copr>,\n"
 "y no se comprueba la calidad ni la seguridad de los paquetes.\n"
 "\n"
-"No envíe informes de errores sobre estos paquetes al Bugzilla de Fedora. Si\n"
-"observa problemas, contacte directamente con el propietario de este "
+"No envíe informes de errores sobre estos paquetes al Bugzilla de Fedora.\n"
+"Si observa problemas, contacte directamente con el propietario de este\n"
 "repositorio.\n"
 
 #: plugins/copr.py:316
@@ -385,10 +392,13 @@ msgid ""
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
+"* Estos coprs tienen archivo de repo con un formato antiguo que no contiene "
+"ninguna información sobre Copr hub; el predeterminado uno estuvo asumido. Re-"
+"habilite el proyecto para reparar esto."
 
 #: plugins/copr.py:399
 msgid "Can't parse repositories for username '{}'."
-msgstr "No se pueden procesar repositorios para el usuario '{}'."
+msgstr "No puede interpretar repositorios para el nombre de usuario '{}'."
 
 #: plugins/copr.py:402
 msgid "List of {} coprs"
@@ -421,25 +431,24 @@ msgstr "Este comando debe ejecutarse como usuario root."
 #: plugins/copr.py:508
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Petición a {0} incorrecta: {1} - {2}"
 
 #: plugins/copr.py:510
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "No fue posible activar este proyecto.\n"
 
 #: plugins/copr.py:515
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "Tal repositorio no existe."
+msgstr "El repositorio '{0}' no existe dentro del proyecto '{1}'."
 
 #: plugins/copr.py:518
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Mostrar los repositorios Copr activos"
+msgstr ""
+"\n"
+"Repositorios disponibles: "
 
 #: plugins/copr.py:520
 #, python-brace-format
@@ -450,18 +459,22 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Si  quieres habilitar un no-default repositorio, emplee la orden siguiente:\n"
+"  'dnf copr enable {0} <repositorio>'\n"
+"Pero note que el archivo del repo instalado probablemente necesitará una "
+"modificación manual."
 
 #: plugins/copr.py:526
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "Tal repositorio no existe."
+msgstr "El proyecto {0} no existe."
 
 #: plugins/copr.py:529
-#, fuzzy, python-brace-format
-#| msgid "Failed to remove copr repo {0}/{1}/{2}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "No se pudo eliminar el repositorio copr {0}/{1}/{2}"
+msgstr "No se pudo conectar a {0}: {1}"
 
 #: plugins/copr.py:576
 #, python-brace-format
@@ -507,7 +520,7 @@ msgstr "Habilitando un repositorio Playground."
 
 #: plugins/copr.py:688
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "¿Desea continuar?"
 
 #: plugins/copr.py:732
 msgid "Playground repositories successfully enabled."
@@ -523,7 +536,7 @@ msgstr "Repositorios Playground actualizados exitosamente."
 
 #: plugins/debug.py:53
 msgid "dump information about installed rpm packages to file"
-msgstr "vuelca en archivo información sobre los paquetes instalados"
+msgstr "vuelca información sobre los paquetes rpm instalados al archivo"
 
 #: plugins/debug.py:67
 msgid "do not attempt to dump the repository contents."
@@ -591,24 +604,32 @@ msgstr "instalar paquetes con información debug"
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
 msgstr ""
+"No pudo encontrar paquete debuginfo para los paquetes disponibles siguientes:"
+" %s"
 
 #: plugins/debuginfo-install.py:186
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr ""
+"No pudo encontrar paquete debugsource para los paquetes disponibles "
+"siguientes: %s"
 
 #: plugins/debuginfo-install.py:191
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
 msgstr ""
+"No pudo encontrar paquete debuginfo para los paquetes instalados siguientes: "
+"%s"
 
 #: plugins/debuginfo-install.py:196
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
 msgstr ""
+"No pudo encontrar paquete debugsource para los siguientes paquetes "
+"instalados: %s"
 
 #: plugins/debuginfo-install.py:200
 msgid "Unable to find a match"
@@ -632,11 +653,11 @@ msgstr "descargar el paquete -debuginfo"
 
 #: plugins/download.py:57
 msgid "download the -debugsource package instead"
-msgstr ""
+msgstr "descarga el paquete de -debugsource en su lugar"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
-msgstr "limitar la consulta a los paquetes de esas arquitecturas."
+msgstr "limitar  la  consulta a los paquetes de arquitecturas proporcionadas."
 
 #: plugins/download.py:62 plugins/modulesync.py:51
 msgid "resolve and download needed dependencies"
