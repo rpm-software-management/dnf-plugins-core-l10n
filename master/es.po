@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-23 02:21+0000\n"
-"PO-Revision-Date: 2025-03-23 23:21+0000\n"
-"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
+"PO-Revision-Date: 2025-03-24 05:04+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/es/>\n"
 "Language: es\n"
@@ -710,11 +710,11 @@ msgstr "No hay ningún paquete %s disponible."
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr "El siguiente PGP el tono ha expirado encima {0}:"
+msgstr "La siguiente clave PGP ha caducado el {0}:"
 
 #: plugins/expired-pgp-keys.py:36
 msgid "For more information about the key:"
-msgstr ""
+msgstr "Para más información sobre la clave:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -725,13 +725,11 @@ msgstr ""
 
 #: plugins/expired-pgp-keys.py:43
 msgid "Do you want to remove the key?"
-msgstr ""
+msgstr "¿Desea retirar la clave?"
 
 #: plugins/expired-pgp-keys.py:46
-#, fuzzy
-#| msgid "Repository successfully removed."
 msgid "Key successfully removed."
-msgstr "Repositorio eliminado exitosamente."
+msgstr "Clave retirada correctamente."
 
 #: plugins/expired-pgp-keys.py:48
 msgid "Failed to remove the key."
@@ -739,7 +737,7 @@ msgstr "Incorrecto al retirar la clave."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr "ID de grupo nulo"
+msgstr "ID de grupo no válido"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
@@ -929,7 +927,7 @@ msgstr "módulos a descargar"
 # master, DocId: dnf-plugins-extras
 #: plugins/modulesync.py:47
 msgid "enable repositories with source packages"
-msgstr "active repositorios con paquetes fuentes"
+msgstr "activar repositorios con paquetes fuentes"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
@@ -996,7 +994,7 @@ msgstr ""
 
 #: plugins/needs_restarting.py:319
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "solo informe afectado en servicios systemd"
 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
@@ -1005,27 +1003,32 @@ msgstr ""
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
+"Bibliotecas de núcleo o los servicios han sido actualizadas desde el "
+"arranque:"
 
 #: plugins/needs_restarting.py:350
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
+"Se requiere el reinicio para utilizar completamente estas actualizaciones."
 
 #: plugins/needs_restarting.py:351
 msgid "More information:"
-msgstr ""
+msgstr "Más información:"
 
 #: plugins/needs_restarting.py:355
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
+"Ninguna de las bibliotecas de núcleo o los servicios han sido actualizados "
+"desde el arranque."
 
 #: plugins/needs_restarting.py:357
 msgid "Reboot should not be necessary."
-msgstr ""
+msgstr "Reinicio no sería necesario."
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
-msgstr ""
+msgstr "Línea de acción incorrecta «%s»: %s"
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
@@ -1038,36 +1041,35 @@ msgstr "Estado Incorrecto de Transacción: %s"
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr ""
+msgstr "post-transaction-actions: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "post-transaction-actions: instrucción incorrecta\"%s\": %s"
 
 #: plugins/pre-transaction-actions.py:145
 #: plugins/pre-transaction-actions.py:147
 #, python-format
 msgid "pre-transaction-actions: %s"
-msgstr ""
+msgstr "pre-transaction-actions: %s"
 
 #: plugins/pre-transaction-actions.py:149
 #, python-format
 msgid "pre-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "pre-transaction-actions: instrucción incorrecta \"%s\": %s"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
-msgstr ""
-"Muestra una lista de las dependencias no resueltas para los repositorios"
+msgstr "Exhibe una lista de las dependencias no resueltas para los repositorios"
 
 #: plugins/repoclosure.py:70
-#, fuzzy
-#| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Repoclosure finalizó con dependencias sin resolver."
+msgstr ""
+"Repoclosure finalizó con dependencias sin resolver ({}) a través de {} "
+"paquetes."
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
@@ -1146,15 +1148,15 @@ msgstr "Variación de tamaño: {} bytes"
 
 #: plugins/repodiff.py:184
 msgid "Added package  : {}"
-msgstr "Paquete nuevo    : {}"
+msgstr "Paquete añadido  : {}"
 
 #: plugins/repodiff.py:187
 msgid "Removed package: {}"
-msgstr "Paquete eliminado: {}"
+msgstr "Paquete desinstalado: {}"
 
 #: plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
-msgstr "Reemplazado por  : {}"
+msgstr "Obsoleto por   : {}"
 
 #: plugins/repodiff.py:195
 msgid ""
@@ -1162,7 +1164,7 @@ msgid ""
 "Upgraded packages"
 msgstr ""
 "\n"
-"Paquetes actualizados"
+"Paquetes modernizados"
 
 #: plugins/repodiff.py:200
 msgid ""
@@ -1170,7 +1172,7 @@ msgid ""
 "Downgraded packages"
 msgstr ""
 "\n"
-"Paquetes revertidos"
+"Paquetes degradados"
 
 #: plugins/repodiff.py:207
 msgid ""
@@ -1190,19 +1192,19 @@ msgstr ""
 
 #: plugins/repodiff.py:213
 msgid "Added packages: {}"
-msgstr "Paquetes nuevos: {}"
+msgstr "Paquetes agregados: {}"
 
 #: plugins/repodiff.py:214
 msgid "Removed packages: {}"
-msgstr "Paquetes eliminados: {}"
+msgstr "Paquetes desinstalados: {}"
 
 #: plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
-msgstr "Paquetes actualizados: {}"
+msgstr "Paquetes modernizados: {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr "Paquetes revertidos: {}"
+msgstr "Paquetes degradados: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
@@ -1210,11 +1212,11 @@ msgstr "Paquetes modificados: {}"
 
 #: plugins/repodiff.py:222
 msgid "Size of added packages: {}"
-msgstr "Tamaño de los paquetes nuevos: {}"
+msgstr "Tamaño de paquetes añadidos: {}"
 
 #: plugins/repodiff.py:223
 msgid "Size of removed packages: {}"
-msgstr "Tamaño de los paquetes eliminados: {}"
+msgstr "Tamaño de los paquetes desinstalados: {}"
 
 #: plugins/repodiff.py:225
 msgid "Size of modified packages: {}"
@@ -1222,21 +1224,21 @@ msgstr "Tamaño de los paquetes modificados: {}"
 
 #: plugins/repodiff.py:228
 msgid "Size of upgraded packages: {}"
-msgstr "Tamaño de los paquetes actualizados: {}"
+msgstr "Tamaño de los paquetes modernizados: {}"
 
 #: plugins/repodiff.py:230
 msgid "Size of downgraded packages: {}"
-msgstr "Tamaño de los paquetes revertidos: {}"
+msgstr "Tamaño de los paquetes degradados: {}"
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
-msgstr "Variación de tamaño: {}"
+msgstr "Cambio de tamaño: {}"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
-msgstr "Genera una gráfica completa de las dependencias en formato dot"
+msgstr "Genera una gráfica completa de las dependencias en formato punto"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
@@ -1249,7 +1251,7 @@ msgstr "Nada proporciona: '%s'"
 # master, DocId: dnf-plugins-extras
 #: plugins/repomanage.py:45
 msgid "Manage a directory of rpm packages"
-msgstr "Administra un directorio de paquetes rpm."
+msgstr "Administra un directorio de paquetes rpm"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
@@ -1283,27 +1285,25 @@ msgstr "No hay archivos para procesar"
 # master, DocId: dnf-plugins-extras
 #: plugins/repomanage.py:107
 msgid "Could not open {}"
-msgstr "No se puede abrir {}"
+msgstr "No se pudo abrir {}"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
 #: plugins/repomanage.py:223
 msgid "Print the older packages"
-msgstr "Mostrar los paquetes antiguos"
+msgstr "Declarar los paquetes más antiguos"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Mostrar los paquetes más nuevos"
+msgstr "Declarar los paquetes más antiguos. Excluya los paquetes más nuevos."
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
-msgstr "Mostrar los paquetes más nuevos"
+msgstr "Declara los paquetes más nuevos"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
@@ -1321,11 +1321,11 @@ msgstr "Los N paquetes más recientes a conservar, 1 si no se indica"
 # master, DocId: dnf-plugins-extras
 #: plugins/repomanage.py:234
 msgid "Path to directory"
-msgstr "Ruta al directorio"
+msgstr "Ruta a carpeta"
 
 #: plugins/reposync.py:55
 msgid "download all packages from remote repo"
-msgstr "descargar todos los paquetes del repositorio remoto"
+msgstr "descargar todos los paquetes del repo remoto"
 
 #: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
@@ -1342,17 +1342,18 @@ msgstr "descargar todos los metadatos."
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
 msgstr ""
+"Desinstala paquetes que fallan la comprobación de firma GPG tras descargar"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
-msgstr ""
+msgstr "además descarga y descomprime comps.xml"
 
 #: plugins/reposync.py:75
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
-"dónde almacenar los metadatos descargados de los repositorios. El valor "
+"donde almacenar los metadatos descargados de los repositorios. El valor "
 "predeterminado es el de --download-path."
 
 #: plugins/reposync.py:78
@@ -1361,7 +1362,7 @@ msgstr "descargar sólo los paquetes más nuevos por repositorio"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "No añadir nombre de repo a la ruta de descarga."
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
@@ -1370,41 +1371,41 @@ msgstr "dónde almacenar los repositorios descargados"
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
+"intente establecer sello de hora local de archivos locales por el uno en el "
+"servidor"
 
 #: plugins/reposync.py:87
-#, fuzzy
-#| msgid "operate on source packages"
 msgid "download only source packages"
-msgstr "operar con los paquetes fuente"
+msgstr "descargar solo paquetes fuente"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr ""
+msgstr "Tan solo listar las URL de que serían descargadas, no descargar"
 
 #: plugins/reposync.py:92
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Ruta del sistema de archivos que es considerado seguro para escritura. Por "
+"defecto a ruta de descarga."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "No puede utilizar --norepopath con múltiples repositorios"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Interact with Copr repositories."
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "Interactuar con repositorios Copr."
+msgstr "No puede utilizar --safe-write-path con múltiples repositorios"
 
 #: plugins/reposync.py:141
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr ""
+msgstr "Incorrecto al obtener espejos para metadatos: %s"
 
 #: plugins/reposync.py:158
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "Incorrecto al obtener espejo para el archivo de grupo."
 
 #: plugins/reposync.py:177
 msgid "Removing {}: {}"
@@ -1412,7 +1413,7 @@ msgstr "Desinstalando {}: {}"
 
 #: plugins/reposync.py:184
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "Comprobación de firma GPG incorrecta."
 
 #: plugins/reposync.py:208
 #, python-brace-format
@@ -1420,6 +1421,8 @@ msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
 msgstr ""
+"Destino de descarga '{0}' para lugar '{1}' de paquete '{2}' es externo de "
+"ruta de escritura '{3}' segura."
 
 #: plugins/reposync.py:224
 #, python-format
@@ -1429,7 +1432,7 @@ msgstr "[BORRADO] %s"
 #: plugins/reposync.py:226
 #, python-format
 msgid "failed to delete file %s"
-msgstr "no se pudo borrar %s"
+msgstr "no se pudo borrar archivo %s"
 
 #: plugins/reposync.py:235
 #, python-format
@@ -1440,7 +1443,7 @@ msgstr "guardado comps.xml para el repositorio %s"
 # master, DocId: dnf-plugins-extras
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
-msgstr "Nuevos paquetes de los que no dependen otros:"
+msgstr "Nuevas hojas:"
 
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:45
@@ -1465,7 +1468,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr "Use 'download --releasever' en lugar de '--network'"
+msgstr "Necesita utilizar  'download --releasever' en lugar de '--network'"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
@@ -1474,13 +1477,13 @@ msgstr "Reinicio desactivado, no se reiniciará."
 #: plugins/system_upgrade.py:125
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
-msgstr "No se puede desactivar el borrado de pantalla: %s"
+msgstr "No se puede desactivar el poner en blanco la pantalla: %s"
 
 #: plugins/system_upgrade.py:145
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr ""
-"No se pudo carga el archivo de estado %s, se continúa con estado vacío."
+"No se pudo carga el archivo de estado: %s, se continúa con estado vacío."
 
 #: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
@@ -1497,11 +1500,11 @@ msgstr "No se encontraron registros con ese índice."
 
 #: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
-msgstr "No se pudo encontrar la entrada del diario systemd"
+msgstr "No se pudo encontrar el apunte del diario systemd"
 
 #: plugins/system_upgrade.py:348
 msgid "Prepare system for upgrade to a new release"
-msgstr "Preparar el sistema para una nueva versión"
+msgstr "Preparar el sistema para modernizar a una versión nueva"
 
 #: plugins/system_upgrade.py:364
 msgid "keep installed packages if the new release's version is older"
@@ -1543,11 +1546,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:471
 msgid "Operation aborted."
-msgstr "Operación abortada."
+msgstr "Operación cancelada."
 
 #: plugins/system_upgrade.py:532
 msgid "system is not ready for upgrade"
-msgstr "el sistema no está listo para la actualización"
+msgstr "el sistema no está listo para la modernización"
 
 #: plugins/system_upgrade.py:535
 #, python-brace-format
@@ -1556,7 +1559,7 @@ msgid ""
 "download [OPTIONS]'"
 msgstr ""
 "la transacción no estaba preparada para '{command}'. Vuelva a ejecutar 'dnf "
-"{command} download [OPTIONS]'"
+"{command} download [OPCIONES]'"
 
 #: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
@@ -1569,17 +1572,17 @@ msgstr "el archivo disparador no existe. Saliendo silenciosamente."
 #: plugins/system_upgrade.py:548
 msgid "another upgrade tool is running. exiting quietly."
 msgstr ""
-"otra herramienta de actualización se está ejecutando. saliendo de forma "
+"otra herramienta de actualización se está ejecutando. Saliendo de forma "
 "silenciosa."
 
 #: plugins/system_upgrade.py:557
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr "utilice 'dnf {command} reboot' para iniciar la actualización"
+msgstr "utilice 'dnf {command} reboot' para iniciar la modernización"
 
 #: plugins/system_upgrade.py:577
 msgid "Rebooting to perform upgrade."
-msgstr "Reiniciando para proceder a la actualización."
+msgstr "Reiniciando para proceder a la modernización."
 
 #: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
@@ -1597,7 +1600,7 @@ msgstr "Iniciando la actualización del sistema. Llevará un rato."
 
 #: plugins/system_upgrade.py:633
 msgid "Cleaning up downloaded data..."
-msgstr "Limpiando los datos descargados..."
+msgstr "Purgando datos descargados…"
 
 #: plugins/system_upgrade.py:663
 msgid ""
@@ -1616,19 +1619,15 @@ msgstr "Error al almacenar la transacción: {}"
 
 #: plugins/system_upgrade.py:697
 msgid "Download finished."
-msgstr "Terminó la descarga."
+msgstr "Descarga terminada."
 
 #: plugins/system_upgrade.py:701
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and powering off..."
-msgstr "¡Actualización completa! Limpiando y reiniciando..."
+msgstr "¡Modernización completa! Purgando y apagando…"
 
 #: plugins/system_upgrade.py:703
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr "¡Actualización completa! Limpiando y reiniciando..."
+msgstr "¡Modernización completa! Purgando y rearancando…"
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
@@ -1665,7 +1664,7 @@ msgstr "Agregando exclusión en:"
 
 #: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "Paquete ya bloqueado en formulario equivalente:"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already locked"
