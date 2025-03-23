@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-23 02:21+0000\n"
 "PO-Revision-Date: 2025-03-23 23:21+0000\n"
-"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
+"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/es/>\n"
 "Language: es\n"
@@ -710,7 +710,7 @@ msgstr "No hay ningún paquete %s disponible."
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "El siguiente PGP el tono ha expirado encima {0}:"
 
 #: plugins/expired-pgp-keys.py:36
 msgid "For more information about the key:"
