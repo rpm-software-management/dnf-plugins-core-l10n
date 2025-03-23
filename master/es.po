@@ -10,13 +10,14 @@
 # Emilio Herrera <ehespinosa57@gmail.com>, 2020.
 # Alejandro Alcaide <alex@blueselene.com>, 2022, 2023.
 # Javier Francisco <fserrador@gmail.com>, 2025.
+# Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-21 02:15+0000\n"
 "PO-Revision-Date: 2025-03-23 22:56+0000\n"
-"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
+"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/es/>\n"
 "Language: es\n"
@@ -731,10 +732,8 @@ msgid "Key successfully removed."
 msgstr "Repositorio eliminado exitosamente."
 
 #: plugins/expired-pgp-keys.py:48
-#, fuzzy
-#| msgid "failed to delete file %s"
 msgid "Failed to remove the key."
-msgstr "no se pudo borrar %s"
+msgstr "Fallado para sacar el tono."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
