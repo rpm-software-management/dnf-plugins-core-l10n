@@ -16,10 +16,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-29 02:14+0000\n"
-"PO-Revision-Date: 2025-03-29 22:53+0000\n"
+"PO-Revision-Date: 2025-04-02 05:28+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,7 +85,7 @@ msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
 "Advertencia: argumentos -D o --define no tienen significado para paquetes "
-"rpm de origen."
+"rpm de fuentes."
 
 #: plugins/builddep.py:215
 #, python-format
@@ -131,7 +131,7 @@ msgstr "PAQUETE"
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:91
 #, python-format
 msgid "No match for argument: %s"
-msgstr "No hay coincidencias para el argumento: %s"
+msgstr "Sin coincidencia para argumento: %s"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
@@ -329,7 +329,7 @@ msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
-"Formato malo de chroot opcional. El formato es distribución-versión-"
+"Formato incorrecto de chroot opcional. El formato es distribución-versión-"
 "arquitectura."
 
 #: plugins/copr.py:283
@@ -759,7 +759,7 @@ msgstr "ID de grupo no válido"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr "Dato traducido no válido, tendría que ser en forma 'lang:text'"
+msgstr "Dato traducido no válido, estaría en formulario 'lang:text'"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
@@ -805,7 +805,7 @@ msgstr "descripción de grupo"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr "orden de exhibir grupo"
+msgstr "ordenación a exhibir grupo"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
@@ -863,7 +863,7 @@ msgstr "No puede guardar archivo \"{}\": {}"
 
 #: plugins/groups_manager.py:261
 msgid "No match for argument: {}"
-msgstr "No hay coincidencias para el argumento: {}"
+msgstr "No coincide para argumento: {}"
 
 #: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
@@ -933,9 +933,8 @@ msgstr ""
 "Descargue paquetes desde módulos y/o cree un repositorio con datos modulares"
 
 #: plugins/modulesync.py:44
-#, fuzzy
 msgid "MODULE"
-msgstr "MODULE"
+msgstr "MÓDULO"
 
 #: plugins/modulesync.py:45
 msgid "modules to download"
@@ -958,8 +957,8 @@ msgstr "descargar solo paquetes desde módulos más nuevos"
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "No es posible encontrar una coincidencia para argumento: '{}'"
-msgstr[1] "No es posible encontrar una coincidencia para argumentos: '{}'"
+msgstr[0] "No es capaz de encontrar una coincidencia para argumento: '{}'"
+msgstr[1] "No es capaz de encontrar una coincidencia para argumentos: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
@@ -995,8 +994,8 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
-"No instalado paquete encontrado para nombre de paquete \"{pkg}\" "
-"especificado en archivo need-restarting \"{file}\"."
+"Paquete no instalado encontrado para nombre de paquete \"{pkg}\" "
+"especificado dentro es archivo needs-restarting \"{file}\"."
 
 #: plugins/needs_restarting.py:309
 msgid "determine updated binaries that need restarting"
@@ -1004,12 +1003,14 @@ msgstr "determinar binarios actualizados que se necesitan reiniciar"
 
 #: plugins/needs_restarting.py:314
 msgid "only consider this user's processes"
-msgstr "sólo considerar los procesos de este usuario"
+msgstr "solo considerar estos procesos del usuario"
 
 #: plugins/needs_restarting.py:316
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
+"solo informe si es requerido un reinicio (código de salida 1) o no (código "
+"de salida 0)"
 
 #: plugins/needs_restarting.py:319
 msgid "only report affected systemd services"
@@ -1017,7 +1018,7 @@ msgstr "solo informe afectado en servicios systemd"
 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
-msgstr ""
+msgstr "no enumere procesos obsoletos que correspondan a un servicio systemd"
 
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
@@ -1047,14 +1048,14 @@ msgstr "Reinicio no sería necesario."
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
-msgstr "Línea de acción incorrecta «%s»: %s"
+msgstr "Línea «%s» de acción incorrecta: %s"
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
 #: plugins/pre-transaction-actions.py:118
 #, python-format
 msgid "Bad Transaction State: %s"
-msgstr "Estado Incorrecto de Transacción: %s"
+msgstr "Estado de Transacción Incorrecto: %s"
 
 #: plugins/post-transaction-actions.py:160
 #: plugins/post-transaction-actions.py:162
@@ -1076,7 +1077,7 @@ msgstr "pre-transaction-actions: %s"
 #: plugins/pre-transaction-actions.py:149
 #, python-format
 msgid "pre-transaction-actions: Bad Command \"%s\": %s"
-msgstr "pre-transaction-actions: instrucción incorrecta \"%s\": %s"
+msgstr "pre-transaction-actions: Instrucción \"%s\" Incorrecta: %s"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
@@ -1119,11 +1120,11 @@ msgstr "Comprobar este paquete solamente"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
-msgstr "Mostrar diferencias entre dos conjuntos de repositorios"
+msgstr "Enumera diferencias entre dos conjuntos de repositorios"
 
 #: plugins/repodiff.py:58
 msgid "Specify old repository, can be used multiple times"
-msgstr "Repositorio viejo, se puede usar varias veces"
+msgstr "Especifique repositorio antiguo, puede usarse varias veces"
 
 #: plugins/repodiff.py:60
 msgid "Specify new repository, can be used multiple times"
@@ -1150,7 +1151,7 @@ msgstr ""
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
-msgstr "Mostrar una línea simple por cada paquete modificado."
+msgstr "Extrae una línea simple de mensaje por cada paquete modificado."
 
 #: plugins/repodiff.py:74
 msgid ""
@@ -1277,23 +1278,19 @@ msgstr "Administra un directorio de paquetes rpm"
 # master, DocId: dnf-plugins-extras
 #: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
-msgstr "Pase --old o --new, ¡no ambos!"
+msgstr "Pase ya sea --old o --new, ¡no ambos!"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Pase --old o --new, ¡no ambos!"
+msgstr "Pase ya sea --oldonly o ya sea --new, ¡no ambos!"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Pase --old o --new, ¡no ambos!"
+msgstr "Pase o bien --old o bien --oldonly, ¡no ambos!"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
@@ -1488,7 +1485,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr "Necesita utilizar  'download --releasever' en lugar de '--network'"
+msgstr "Necesita utilizar 'download --releasever' en lugar de '--network'"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
@@ -1533,7 +1530,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "apague el sistema tras la operación sea completada"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
@@ -1647,11 +1644,11 @@ msgstr "¡Modernización completa! Purgando y apagando…"
 
 #: plugins/system_upgrade.py:703
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr "¡Modernización completa! Purgando y rearancando…"
+msgstr "¡Modernización completa! Purgando y reiniciando…"
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
-msgstr "Preparar la actualización fuera de línea del sistema"
+msgstr "Preparar modernización sin conexión del sistema"
 
 #: plugins/system_upgrade.py:720
 msgid "Prepare offline distrosync of the system"
@@ -1688,11 +1685,11 @@ msgstr "Paquete ya bloqueado en formulario equivalente:"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "El paquete {} ya está bloqueado"
 
 #: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "El paquete {} ya está excluido"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
@@ -1736,11 +1733,12 @@ msgstr "controla bloqueos de la versión del paquete"
 
 #: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
-msgstr ""
+msgstr "Utilice especificaciones de paquete como son, no intente interpretarlos"
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+"Sub-comando '{}'  está obsoleto. Utilice sub-comando 'exclude' en su lugar."
 
 #~ msgid "repo to modify"
 #~ msgstr "repositorio a modificar"
