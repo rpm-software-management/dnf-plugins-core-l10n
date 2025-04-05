@@ -16,10 +16,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-05 02:14+0000\n"
-"PO-Revision-Date: 2025-04-05 14:12+0000\n"
+"PO-Revision-Date: 2025-04-05 17:02+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -153,7 +153,7 @@ msgstr "Mostrando todos los cambios"
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
-msgstr "Registros de cambios para {}"
+msgstr "Boletines para {}"
 
 #: plugins/config_manager.py:38
 #, python-brace-format
@@ -183,7 +183,7 @@ msgstr "imprimir valores de variables a la salida estándar"
 
 #: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
-msgstr "Habilita repos (guarda automaticamente)"
+msgstr "habilita repos (guarda automáticamente)"
 
 #: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
@@ -191,7 +191,7 @@ msgstr "desactivar repositorios (guarda automáticamente)"
 
 #: plugins/config_manager.py:78
 msgid "one of the following arguments is required: {}"
-msgstr "Uno de los argumentos siguientes son necesarios: {}"
+msgstr "uno de los argumentos siguientes son necesarios: {}"
 
 #: plugins/config_manager.py:87
 msgid ""
@@ -214,8 +214,8 @@ msgstr "Agregando repositorio de: %s"
 #: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
-msgstr[0] "Falló la configuración del repositorio"
-msgstr[1] "Falló la configuración de los repositorios"
+msgstr[0] "Ha fallado la configuración del repositorio"
+msgstr[1] "Ha fallado la configuración de los repositorios"
 
 #: plugins/config_manager.py:219
 #, python-format
@@ -228,7 +228,7 @@ msgstr "s"
 
 #: plugins/copr.py:71
 msgid "yes"
-msgstr "si"
+msgstr "sí"
 
 #: plugins/copr.py:72
 msgid "n"
