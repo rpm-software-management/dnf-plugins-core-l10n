@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-21 02:55+0000\n"
+"POT-Creation-Date: 2025-08-09 02:30+0000\n"
 "PO-Revision-Date: 2024-11-02 20:38+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -706,7 +706,8 @@ msgstr "Fehler bei der Auflösung von Paketen:"
 msgid "No source rpm defined for %s"
 msgstr "Kein Source-RPM für %s definiert"
 
-#: plugins/download.py:305 plugins/download.py:318
+#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
+#: plugins/manifest.py:359
 #, python-format
 msgid "No package %s available."
 msgstr "Kein Paket »%s« verfügbar."
@@ -885,6 +886,75 @@ msgstr "Datei »{}« kann nicht geschrieben werden "
 #: plugins/local.py:156
 msgid "Rebuilding local repo"
 msgstr "Lokale Paketquelle wird neu erstellt"
+
+#: plugins/manifest.py:28
+msgid "Operations for working with RPM package manifest files"
+msgstr ""
+
+#: plugins/manifest.py:51
+msgid "package specs to be processed"
+msgstr ""
+
+#: plugins/manifest.py:52
+msgid "input file path to use"
+msgstr ""
+
+#: plugins/manifest.py:53
+msgid "manifest file path to use"
+msgstr ""
+
+#: plugins/manifest.py:54
+#, fuzzy
+#| msgid "List installed packages not required by any other package"
+msgid "use installed packages for resolving dependencies"
+msgstr ""
+"Installierte Pakete auflisten, die nicht von einem anderen Paket benötigt "
+"werden"
+
+#: plugins/manifest.py:55
+#, fuzzy
+#| msgid "download only source packages"
+msgid "include also source packages"
+msgstr "nur Quellpakete herunterladen"
+
+#: plugins/manifest.py:56
+msgid "explicitly specify basearchs to use"
+msgstr ""
+
+#: plugins/manifest.py:57
+msgid "separate packages by basearch into individual manifest files"
+msgstr ""
+
+#: plugins/manifest.py:84
+#, python-format
+msgid "Input file '%s' does not exist"
+msgstr ""
+
+#: plugins/manifest.py:268
+#, fuzzy, python-format
+#| msgid "Project {0} does not exist."
+msgid "Manifest file '%s' does not exist"
+msgstr "Projekt {0} existiert nicht."
+
+#: plugins/manifest.py:273
+#, python-format
+msgid ""
+"Multiple manifest files detected in the directory. Either use filename with "
+"the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
+"the '--manifest' option."
+msgstr ""
+
+#: plugins/manifest.py:472
+#, fuzzy, python-format
+#| msgid "no package matched: %s"
+msgid "Unknown RPM package checksum type: %s"
+msgstr "Kein passendes Paket: %s"
+
+#: plugins/manifest.py:487
+#, fuzzy, python-format
+#| msgid "no package matched: %s"
+msgid "Unknown DNF package checksum type: %s"
+msgstr "Kein passendes Paket: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"

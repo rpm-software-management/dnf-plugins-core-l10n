@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-21 02:55+0000\n"
+"POT-Creation-Date: 2025-08-09 02:30+0000\n"
 "PO-Revision-Date: 2024-10-14 15:16+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -696,7 +696,8 @@ msgstr "꾸러미 해결 오류 :"
 msgid "No source rpm defined for %s"
 msgstr "%s를 위한 원천 rpm이 정의되지 않음"
 
-#: plugins/download.py:305 plugins/download.py:318
+#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
+#: plugins/manifest.py:359
 #, python-format
 msgid "No package %s available."
 msgstr "가용한 꾸러미 %s가 없습니다."
@@ -873,6 +874,73 @@ msgstr "'{}'파일을 쓸 수 없습니다"
 #: plugins/local.py:156
 msgid "Rebuilding local repo"
 msgstr "지역 레포 복구"
+
+#: plugins/manifest.py:28
+msgid "Operations for working with RPM package manifest files"
+msgstr ""
+
+#: plugins/manifest.py:51
+msgid "package specs to be processed"
+msgstr ""
+
+#: plugins/manifest.py:52
+msgid "input file path to use"
+msgstr ""
+
+#: plugins/manifest.py:53
+msgid "manifest file path to use"
+msgstr ""
+
+#: plugins/manifest.py:54
+#, fuzzy
+#| msgid "List installed packages not required by any other package"
+msgid "use installed packages for resolving dependencies"
+msgstr "다른 꾸러미에서 필요하지 않은 설치된 꾸러미 나열"
+
+#: plugins/manifest.py:55
+#, fuzzy
+#| msgid "download only source packages"
+msgid "include also source packages"
+msgstr "원천 꾸러미만 내려받기"
+
+#: plugins/manifest.py:56
+msgid "explicitly specify basearchs to use"
+msgstr ""
+
+#: plugins/manifest.py:57
+msgid "separate packages by basearch into individual manifest files"
+msgstr ""
+
+#: plugins/manifest.py:84
+#, python-format
+msgid "Input file '%s' does not exist"
+msgstr ""
+
+#: plugins/manifest.py:268
+#, fuzzy, python-format
+#| msgid "Project {0} does not exist."
+msgid "Manifest file '%s' does not exist"
+msgstr "프로젝트 {0}가 존재하지 않습니다."
+
+#: plugins/manifest.py:273
+#, python-format
+msgid ""
+"Multiple manifest files detected in the directory. Either use filename with "
+"the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
+"the '--manifest' option."
+msgstr ""
+
+#: plugins/manifest.py:472
+#, fuzzy, python-format
+#| msgid "no package matched: %s"
+msgid "Unknown RPM package checksum type: %s"
+msgstr "일치하는 꾸러미 없음: %s"
+
+#: plugins/manifest.py:487
+#, fuzzy, python-format
+#| msgid "no package matched: %s"
+msgid "Unknown DNF package checksum type: %s"
+msgstr "일치하는 꾸러미 없음: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
