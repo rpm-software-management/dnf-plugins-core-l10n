@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-10 02:56+0000\n"
 "PO-Revision-Date: 2025-08-11 00:04+0000\n"
-"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/it/>\n"
 "Language: it\n"
@@ -935,10 +935,9 @@ msgid "Input file '%s' does not exist"
 msgstr "Il file di input '%s' non esiste"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "Il progetto {0} non esiste."
+msgstr "Il file di manifest '%s' non esiste"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -947,18 +946,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"Sono stati rilevati più file di manifest nella directory. Usa il nome del "
+"file con il suffisso '%s.yaml', conserva un solo file oppure specifica un "
+"file esplicitamente usando l’opzione '--manifest'."
 
 #: plugins/manifest.py:472
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "nessun pacchetto corrispondente: %s"
+msgstr "Tipo di checksum del pacchetto RPM sconosciuto: %s"
 
 #: plugins/manifest.py:487
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "nessun pacchetto corrispondente: %s"
+msgstr "Tipo di checksum del pacchetto DNF sconosciuto: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
