@@ -14,10 +14,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-10 02:56+0000\n"
-"PO-Revision-Date: 2025-08-09 08:53+0000\n"
-"Last-Translator: Nathan <nathan95@live.it>\n"
-"Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/it/>\n"
+"PO-Revision-Date: 2025-08-11 00:04+0000\n"
+"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -899,46 +899,40 @@ msgstr "Ricostruzione del repository locale"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Operazioni per lavorare con i file manifest del pacchetto RPM"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "specifiche del pacchetto da elaborare"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "percorso del file di input da utilizzare"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "percorso del file manifest da usare"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr ""
-"Elenca i pacchetti installati che non sono richiesti da nessun altro "
-"pacchetto"
+msgstr "utilizzare i pacchetti installati per la risoluzione delle dipendenze"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "scarica solo pacchetti sorgente"
+msgstr "includere anche pacchetti di sorgente"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "specificare esplicitamente le basi da utilizzare"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
-msgstr ""
+msgstr "pacchetti separati per base in file manifest singoli"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "Il file di input '%s' non esiste"
 
 #: plugins/manifest.py:268
 #, fuzzy, python-format
