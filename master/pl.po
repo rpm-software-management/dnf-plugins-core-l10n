@@ -3,29 +3,29 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Piotr Drąg <piotrdrag@gmail.com>, 2015, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2016. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2019. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2020. #zanata, 2021, 2022, 2023, 2024.
+# Piotr Drąg <piotrdrag@gmail.com>, 2015, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2016. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2019. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2020. #zanata, 2021, 2022, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-09 02:30+0000\n"
-"PO-Revision-Date: 2024-10-14 15:16+0000\n"
+"PO-Revision-Date: 2025-08-10 10:07+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -906,52 +906,47 @@ msgstr "Ponowne budowanie lokalnego repozytorium"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Działania na plikach manifestów pakietów RPM"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "pliki spec pakietów do przetwarzania"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "ścieżka do używanego pliku wejściowego"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "ścieżka do używanego pliku manifestu"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr ""
-"wyświetla listę zainstalowanych pakietów, które nie są wymagane przez inne "
-"pakiety"
+msgstr "używa zainstalowanych pakietów do rozwiązywania zależności"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "pobiera tylko pakiety źródłowe"
+msgstr "zawiera także pakiety źródłowe"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "bezpośrednio podaje używane architektury podstawowe"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
 msgstr ""
+"oddziela pakiety według architektury podstawowej na poszczególne pliki "
+"manifestów"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "Plik wejściowy „%s” nie istnieje"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "Projekt {0} nie istnieje."
+msgstr "Plik manifestu „%s” nie istnieje"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -960,18 +955,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"W katalogu wykryto więcej niż jeden plik manifestu. Należy użyć nazwy pliku "
+"z przyrostkiem „%s.yaml”, zostawić tylko jeden plik, albo bezpośrednio podać "
+"plik za pomocą opcji „--manifest”."
 
 #: plugins/manifest.py:472
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "żaden pakiet nie pasuje: %s"
+msgstr "Nieznany typ sumy kontrolnej pakietu RPM: %s"
 
 #: plugins/manifest.py:487
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "żaden pakiet nie pasuje: %s"
+msgstr "Nieznany typ sumy kontrolnej pakietu DNF: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
