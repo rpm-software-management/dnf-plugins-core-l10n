@@ -12,22 +12,22 @@
 # Antoine BACK <antoine.back@hotmail.fr>, 2024.
 # Damien Pou <dampato+linux@ik.me>, 2024.
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
-# Léane GRASSER <leane.grasser@proton.me>, 2024.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-10 02:56+0000\n"
-"PO-Revision-Date: 2024-10-14 15:16+0000\n"
+"PO-Revision-Date: 2025-08-11 09:08+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -910,50 +910,47 @@ msgstr "Reconstruction du dépôt local"
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
 msgstr ""
+"Opérations permettant d'interagir avec les fichiers de manifeste des paquets "
+"RPM"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "specs de paquets à traiter"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "chemin d'accès au fichier à utiliser en entrée"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "chemin d'accès au fichier de manifeste à utiliser"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr ""
-"Lister les paquets installés qui ne sont pas requis par un autre paquet"
+msgstr "utiliser les paquets installés pour résoudre les dépendances"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "télécharger uniquement les paquets sources"
+msgstr "inclure aussi les paquets sources"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "spécifier explicitement les basearchs à utiliser"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
 msgstr ""
+"séparer les paquets par basearch dans des fichiers de manifeste individuels"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "Le fichier d'entrée \"%s\" n'existe pas"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "Le projet {0} n'existe pas."
+msgstr "Le fichier de manifeste \"%s\" n'existe pas"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -962,18 +959,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"Plusieurs fichiers de manifeste détectés dans le répertoire. Utilisez un nom "
+"de fichier avec le suffixe \"%s.yaml\", ne conservez qu'un fichier, ou "
+"spécifiez explicitement un fichiers à l'aide de l'option \"--manifest\"."
 
 #: plugins/manifest.py:472
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "aucun paquet ne correspond à : %s"
+msgstr "Type de somme de contrôle de paquet RPM inconnu : %s"
 
 #: plugins/manifest.py:487
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "aucun paquet ne correspond à : %s"
+msgstr "Type de somme de contrôle de paquet DNF inconnu : %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
