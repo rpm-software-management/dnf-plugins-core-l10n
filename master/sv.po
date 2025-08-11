@@ -4,21 +4,22 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata, 2021, 2022, 2023.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Luna Jernberg <bittin@reimu.nl>, 2021, 2022, 2023, 2024.
+# Luna Jernberg <droidbittin@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-10 02:56+0000\n"
-"PO-Revision-Date: 2024-10-14 15:16+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/sv/>\n"
+"PO-Revision-Date: 2025-08-11 09:08+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -882,50 +883,45 @@ msgstr "Bygger om lokalt förråd"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Operationer för att arbeta med RPM-paketets manifestfiler"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "paketspecifikationer som ska bearbetas"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "indatafilsökväg att använda"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "manifestfilsökväg att använda"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr "Lista installerade paket som inte behövs av något annat paket"
+msgstr "använd installerade paket för att lösa beroenden"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "hämta endast källkodspaket"
+msgstr "inkludera också källkodspaket"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "specificera uttryckligen bas arkitekturer att använda"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
-msgstr ""
+msgstr "separera paket med bas arkitekturer till individuella manifestfiler"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "Indata fil '%s' existerar inte"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "Projektet {0} finns inte."
+msgstr "Manifest fil '%s' existerar inte"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -934,18 +930,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"Flera manifestfiler upptäcktes i katalogen. Använd antingen filnamn med "
+"suffixet '%s.yaml', behåll endast en fil eller ange en fil explicit med "
+"hjälp av '--manifest' alternativet."
 
 #: plugins/manifest.py:472
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "inget paket matchade: %s"
+msgstr "Okänd RPM-paketkontrollsummatyp: %s"
 
 #: plugins/manifest.py:487
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "inget paket matchade: %s"
+msgstr "Okänd DNF-paketkontrollsummatyp: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
