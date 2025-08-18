@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 02:53+0000\n"
-"PO-Revision-Date: 2025-03-06 11:04+0000\n"
-"Last-Translator: middlingphys <middlingphys@users.noreply.translate."
-"fedoraproject.org>\n"
+"PO-Revision-Date: 2025-08-18 09:47+0000\n"
+"Last-Translator: middlingphys "
+"<middlingphys@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ja/>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.13\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -893,51 +893,45 @@ msgstr "ローカル repo を再ビルド中"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "RPMパッケージマニフェストファイルへの操作"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "処理するパッケージスペック"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "使用するインプットファイルパス"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "使用するマニフェストファイルパス"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr ""
-"他のパッケージから必要とされないインスール済みパッケージを一覧表示します"
+msgstr "インストール済みパッケージを依存性の解決のために使用します"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "ソースパッケージのみをダウンロード"
+msgstr "ソースパッケージも含めます"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "使用する basearch を明示的に指定します"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
-msgstr ""
+msgstr "basearch に従ってパッケージを個別のマニフェストファイルに分けます"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "インプットファイル '%s' は存在しません"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "プロジェクト {0} は存在しません。"
+msgstr "マニフェストファイル '%s' は存在しません"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -946,18 +940,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"ディレクトリに複数のマニフェストファイルが見つかりました。ファイル名に "
+"'%s.yaml' サフィックスを使うか、1つのファイルだけを残す、または '--manifest' "
+"オプションを使ってファイルを明示的に指定してください。"
 
 #: plugins/manifest.py:472
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "一致するパッケージはありません: %s"
+msgstr "不明なRPMパッケージチェックサムタイプ: %s"
 
 #: plugins/manifest.py:487
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "一致するパッケージはありません: %s"
+msgstr "不明なDNFパッケージチェックサムタイプ: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
