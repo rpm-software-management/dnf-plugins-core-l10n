@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 02:53+0000\n"
-"PO-Revision-Date: 2025-08-11 15:20+0000\n"
+"PO-Revision-Date: 2025-08-18 09:47+0000\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.13\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -902,16 +902,12 @@ msgid "manifest file path to use"
 msgstr "kullanılacak manifesto dosyası yolu"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr "Başka bir paketin gerektirmediği kurulu paketleri listele"
+msgstr "bağımlılıkları çözmek için kurulu paketleri kullan"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "yalnızca kaynak paketlerini indir"
+msgstr "ayrıca kaynak paketleri de içer"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
@@ -948,10 +944,9 @@ msgid "Unknown RPM package checksum type: %s"
 msgstr "Bilinmeyen RPM dosyası sağlama toplamı türü: %s"
 
 #: plugins/manifest.py:487
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "eşleşen paket yok: %s"
+msgstr "Bilinmeyen DNF paketi sağlama toplamı türü: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
@@ -1104,7 +1099,7 @@ msgstr "post-transaction-actions: Hatalı Komut \"%s\": %s"
 #: plugins/pre-transaction-actions.py:147
 #, python-format
 msgid "pre-transaction-actions: %s"
-msgstr "pre-transaction-actions: %s"
+msgstr "işlem öncesi eylemleri: %s"
 
 #: plugins/pre-transaction-actions.py:149
 #, python-format
