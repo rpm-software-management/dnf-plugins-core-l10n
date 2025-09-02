@@ -1,12 +1,14 @@
 # Andika Triwidada <andika@gmail.com>, 2018. #zanata, 2020, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-02 02:19+0000\n"
-"PO-Revision-Date: 2022-10-15 08:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-09-03 03:53+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/id/>\n"
 "Language: id\n"
@@ -14,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.13\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1330,7 +1332,7 @@ msgstr ""
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
-msgstr ""
+msgstr "Daun baru:"
 
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:45
