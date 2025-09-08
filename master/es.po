@@ -11,21 +11,22 @@
 # Alejandro Alcaide <alex@blueselene.com>, 2022, 2023.
 # Javier Francisco <fserrador@gmail.com>, 2025.
 # Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
+# "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-03 02:10+0000\n"
-"PO-Revision-Date: 2025-04-05 17:02+0000\n"
-"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/es/>\n"
+"PO-Revision-Date: 2025-09-09 12:53+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.13.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -761,7 +762,7 @@ msgstr "ID de grupo no válido"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr "Dato traducido no válido, estaría en formulario 'lang:text'"
+msgstr "Datos traducidos no válidos, estaría en formulario 'lang:text'"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
@@ -918,53 +919,48 @@ msgstr "Reconstruyendo repositorio local"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Operaciones para realizar con archivos de manifiesto de paquete RPM"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "especificaciones de paquete para ser procesadas"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "ruta a utilizar para archivo de entrada"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "ruta de archivo de manifiesto a utilizar"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr ""
-"Enumera paquetes instalados que no son requeridos por ningún otro paquete"
+msgstr "utilice paquetes instalados para resolver dependencias"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "descargar solo paquetes fuente"
+msgstr "incluye además paquetes del código fuente"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "especifica explícitamente arquitecturas base para utilizar"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
 msgstr ""
+"separa paquetes por búsqueda base en archivos de manifestación individual"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "Archivo «%s» de entrada no existe"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "El proyecto {0} no existe."
+msgstr "Archivo «%s» de manifiesto no existe"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -973,18 +969,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"Múltiples archivos de manifiesto detectado en el directorio. O bien utilice "
+"nombre de archivo con el sufijo '%s.yaml', conserve solo un archivo, o "
+"especifique un archivo explícitamente utilizando la opción '--manifest'."
 
 #: plugins/manifest.py:472
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "paquete no encontrado: %s"
+msgstr "Tipo de comprobante sumatorio del paquete RPM desconocido: %s"
 
 #: plugins/manifest.py:487
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "paquete no encontrado: %s"
+msgstr "Tipo de comprobante sumatorio del paquete DNF desconocido: %s"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
@@ -1576,16 +1573,15 @@ msgstr ""
 
 #: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
-msgstr ""
-"Estos arranques parecen contener registros de actualizaciones de sistema:"
+msgstr "Los siguientes arranques parecen contener bitácoras de modernización:"
 
 #: plugins/system_upgrade.py:303
 msgid "-- no logs were found --"
-msgstr "-- no se encontró ningún registro de actualizaciones --"
+msgstr "-- ningunas bitácoras fueron encontradas --"
 
 #: plugins/system_upgrade.py:318
 msgid "Cannot find logs with this index."
-msgstr "No se encontraron registros con ese índice."
+msgstr "No se encontraron bitácoras con ese índice."
 
 #: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
@@ -1598,7 +1594,8 @@ msgstr "Preparar el sistema para modernizar a una versión nueva"
 #: plugins/system_upgrade.py:364
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
-"mantener los paquetes instalados si la versión del nuevo sistema es anterior"
+"mantener los paquetes instalados si la versión del sistema nuevo es más "
+"antiguo"
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
@@ -1606,7 +1603,7 @@ msgstr "apague el sistema tras la operación sea completada"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
-msgstr "qué registros mostrar"
+msgstr "cuáles bitácoras a mostrar"
 
 #: plugins/system_upgrade.py:406
 #, python-brace-format
@@ -1623,7 +1620,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:464
 msgid "Additional information for System Upgrade: {}"
-msgstr "Información adicional para la actualización del sistema: {}"
+msgstr "Información adicional para la Modernización del Sistema: {}"
 
 #: plugins/system_upgrade.py:467
 msgid ""
@@ -1652,7 +1649,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
-msgstr "la actualización ya está planificada"
+msgstr "la modernización ya está planificada"
 
 #: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
@@ -1695,8 +1692,8 @@ msgstr "Purgando datos descargados…"
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
-"La transacción de actualización del sistema está vacía, su sistema ya está "
-"actualizado."
+"La transacción de modernización del sistema está vacía, su sistema ya está "
+"al día."
 
 #: plugins/system_upgrade.py:672
 msgid "Transaction saved to {}."
@@ -1704,7 +1701,7 @@ msgstr "Transacción guardada en {}."
 
 #: plugins/system_upgrade.py:675
 msgid "Error storing transaction: {}"
-msgstr "Error al almacenar la transacción: {}"
+msgstr "Error al almacenar transacción: {}"
 
 #: plugins/system_upgrade.py:697
 msgid "Download finished."
@@ -1767,13 +1764,13 @@ msgstr "El paquete {} ya está excluido"
 # master, DocId: dnf-plugins-extras
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
-msgstr "Eliminando bloqueo de versión para:"
+msgstr "Borrando versión de bloqueo para:"
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
 # master, DocId: dnf-plugins-extras
 #: plugins/versionlock.py:41
 msgid "No package found for:"
-msgstr "No se encontró paquete para:"
+msgstr "Ningún paquete encontrado para:"
 
 #: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
@@ -1811,7 +1808,7 @@ msgstr ""
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
-"Sub-comando '{}'  está obsoleto. Utilice sub-comando 'exclude' en su lugar."
+"Sub-comando '{}' está obsoleto. Utilice sub-comando 'exclude' en su lugar."
 
 #~ msgid "repo to modify"
 #~ msgstr "repositorio a modificar"
