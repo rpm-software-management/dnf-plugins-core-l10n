@@ -9,21 +9,22 @@
 # Jan Kalabza <jan.kalabza@gmail.com>, 2023.
 # Petr Ptacek <petr106@atlas.cz>, 2023.
 # Jonáš Loskot <fedoraproject.org@alius.cz>, 2025.
+# Tomas Longin Hoffmann <ask@tomek.wtf>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-09 02:15+0000\n"
-"PO-Revision-Date: 2025-02-05 21:47+0000\n"
-"Last-Translator: Jonáš Loskot <fedoraproject.org@alius.cz>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-core-l10n-master/cs/>\n"
+"PO-Revision-Date: 2025-10-07 18:15+0000\n"
+"Last-Translator: Tomas Longin Hoffmann <ask@tomek.wtf>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-core-l10n-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -892,50 +893,47 @@ msgstr "Znovu se sestavuje místní repozitář"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Operace pro práci se soubory manifestů balíčků RPM"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "specifikace balíčků ke zpracování"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "vstupní cesta k souboru k použití"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "cesta k souboru manifestu k použití"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr "Vypsat nainstalované balíčky nevyžadované žádnými jinými balíčky"
+msgstr "použít nainstalované balíčky pro řešení závislostí"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "stáhnout pouze zdrojové balíčky"
+msgstr "zahrnout také zdrojové balíčky"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "explicitně zadat základní architektury k použití"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
 msgstr ""
+"rozdělit balíčky podle základní architektury do jednotlivých souborů "
+"manifestů"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "Vstupní soubor '%s' neexistuje"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "Projekt {0} neexistuje."
+msgstr "Soubor manifestu '%s' neexistuje"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -944,18 +942,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"V adresáři bylo nalezeno více souborů manifestů. Buď použijte název souboru "
+"s příponou '%s.yaml', ponechte pouze jeden soubor, nebo specifikujte soubor "
+"explicitně pomocí volby '--manifest'."
 
 #: plugins/manifest.py:472
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "žádný balíček neodpovídá: %s"
+msgstr "Neznámý typ kontrolního součtu balíčku RPM: %s"
 
 #: plugins/manifest.py:487
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "žádný balíček neodpovídá: %s"
+msgstr "Neznámý typ kontrolního součtu balíčku DNF: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
