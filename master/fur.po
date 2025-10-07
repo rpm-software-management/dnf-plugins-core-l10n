@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 02:15+0000\n"
+"POT-Creation-Date: 2025-10-07 02:12+0000\n"
 "PO-Revision-Date: 2023-03-03 04:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -375,7 +375,7 @@ msgstr "Dipuesit disabilitât cun sucès."
 msgid "Repository successfully removed."
 msgstr "Dipuesit gjavât cun sucès."
 
-#: plugins/copr.py:329 plugins/copr.py:742
+#: plugins/copr.py:329 plugins/copr.py:744
 msgid "Unknown subcommand {}."
 msgstr "Sot-comant {} no cognossût."
 
@@ -421,21 +421,21 @@ msgstr "Rispueste buine e sigure. Si jes."
 msgid "This command has to be run under the root user."
 msgstr "Si à di eseguî chest comant come utent root."
 
-#: plugins/copr.py:508
+#: plugins/copr.py:510
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Richieste a {0} falide: {1} - {2}"
 
-#: plugins/copr.py:510
+#: plugins/copr.py:512
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Nol è stât pussibil abilitâ chest progjet.\n"
 
-#: plugins/copr.py:515
+#: plugins/copr.py:517
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "Il dipuesit '{0}' nol esist tal progjet '{1}'."
 
-#: plugins/copr.py:518
+#: plugins/copr.py:520
 msgid ""
 "\n"
 "Available repositories: "
@@ -443,7 +443,7 @@ msgstr ""
 "\n"
 "Dipuesits disponibii: "
 
-#: plugins/copr.py:520
+#: plugins/copr.py:522
 #, python-brace-format
 msgid ""
 "\n"
@@ -460,17 +460,17 @@ msgstr ""
 "Ma viôt che al è facil che il file di dipuesit instalât al varà bisugne di "
 "une modifiche manuâl."
 
-#: plugins/copr.py:526
+#: plugins/copr.py:528
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Il progjet {0} nol esist."
 
-#: plugins/copr.py:529
+#: plugins/copr.py:531
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Impussibil conetisi a {0}: {1}"
 
-#: plugins/copr.py:576
+#: plugins/copr.py:578
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -499,44 +499,44 @@ msgstr ""
 "\n"
 "Chescj dipuesits a son stâts abilitâts in automatic."
 
-#: plugins/copr.py:597
+#: plugins/copr.py:599
 msgid "Do you want to keep them enabled?"
 msgstr "Desideristu tignîju abilitâts?"
 
-#: plugins/copr.py:630
+#: plugins/copr.py:632
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Impussibil gjavâ il dipuesit copr {0}/{1}/{2}"
 
-#: plugins/copr.py:641
+#: plugins/copr.py:643
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Impussibil disabilitâ il dipuesit copr {}/{}"
 
-#: plugins/copr.py:659 plugins/copr.py:696
+#: plugins/copr.py:661 plugins/copr.py:698
 msgid "Unknown response from server."
 msgstr "Rispueste no cognossude dal servidôr."
 
-#: plugins/copr.py:681
+#: plugins/copr.py:683
 msgid "Interact with Playground repository."
 msgstr "Interagjìs cul dipuesits Playground."
 
-#: plugins/copr.py:687
+#: plugins/copr.py:689
 msgid "Enabling a Playground repository."
 msgstr "Daûr a abilitâ un dipuesit Playground."
 
-#: plugins/copr.py:688
+#: plugins/copr.py:690
 msgid "Do you want to continue?"
 msgstr "Desideristu continuâ?"
 
-#: plugins/copr.py:732
+#: plugins/copr.py:734
 msgid "Playground repositories successfully enabled."
 msgstr "Dipuesits Playground abilitâts cun sucès."
 
-#: plugins/copr.py:735
+#: plugins/copr.py:737
 msgid "Playground repositories successfully disabled."
 msgstr "Dipuesits Playground disabilitâts cun sucès."
 
-#: plugins/copr.py:739
+#: plugins/copr.py:741
 msgid "Playground repositories successfully updated."
 msgstr "Dipuesits Playground inzornâts cun sucès."
 
@@ -942,13 +942,13 @@ msgid ""
 "the '--manifest' option."
 msgstr ""
 
-#: plugins/manifest.py:472
+#: plugins/manifest.py:477
 #, fuzzy, python-format
 #| msgid "no package matched: %s"
 msgid "Unknown RPM package checksum type: %s"
 msgstr "nissun pachet corispondent: %s"
 
-#: plugins/manifest.py:487
+#: plugins/manifest.py:492
 #, fuzzy, python-format
 #| msgid "no package matched: %s"
 msgid "Unknown DNF package checksum type: %s"

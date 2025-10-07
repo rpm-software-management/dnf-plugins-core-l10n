@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 02:15+0000\n"
+"POT-Creation-Date: 2025-10-07 02:12+0000\n"
 "PO-Revision-Date: 2025-10-07 18:15+0000\n"
 "Last-Translator: Tomas Longin Hoffmann <ask@tomek.wtf>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
-"dnf-plugins-core-l10n-master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -384,7 +384,7 @@ msgstr "Repozitář úspěšně vypnut."
 msgid "Repository successfully removed."
 msgstr "Repozitář úspěšně odebrán."
 
-#: plugins/copr.py:329 plugins/copr.py:742
+#: plugins/copr.py:329 plugins/copr.py:744
 msgid "Unknown subcommand {}."
 msgstr "Neznámý podpříkaz {}."
 
@@ -430,21 +430,21 @@ msgstr "Bezpečná a dobrá odpověď. Ukončení."
 msgid "This command has to be run under the root user."
 msgstr "Tento příkaz musí být spuštěn pod uživatelem root."
 
-#: plugins/copr.py:508
+#: plugins/copr.py:510
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "Požadavek na {0} selhal: {1} – {2}"
 
-#: plugins/copr.py:510
+#: plugins/copr.py:512
 msgid "It wasn't possible to enable this project.\n"
 msgstr "Tento projekt nebylo možné povolit.\n"
 
-#: plugins/copr.py:515
+#: plugins/copr.py:517
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "Úložiště '{0}' v projektu '{1}' neexistuje."
 
-#: plugins/copr.py:518
+#: plugins/copr.py:520
 msgid ""
 "\n"
 "Available repositories: "
@@ -452,7 +452,7 @@ msgstr ""
 "\n"
 "Dostupná úložiště: "
 
-#: plugins/copr.py:520
+#: plugins/copr.py:522
 #, python-brace-format
 msgid ""
 "\n"
@@ -469,17 +469,17 @@ msgstr ""
 "Pamatujte však, že nainstalovaný repo soubor bude pravděpodobně vyžadovat "
 "ruční úpravu."
 
-#: plugins/copr.py:526
+#: plugins/copr.py:528
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "Projekt {0} neexistuje."
 
-#: plugins/copr.py:529
+#: plugins/copr.py:531
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "Nepodařilo se připojit k {0}: {1}"
 
-#: plugins/copr.py:576
+#: plugins/copr.py:578
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -508,44 +508,44 @@ msgstr ""
 "\n"
 "Tyto repozitáře byly povoleny automaticky."
 
-#: plugins/copr.py:597
+#: plugins/copr.py:599
 msgid "Do you want to keep them enabled?"
 msgstr "Chcete je ponechat povolené?"
 
-#: plugins/copr.py:630
+#: plugins/copr.py:632
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Odstranění copr repozitory {0}/{1}/{2} se nezdařilo"
 
-#: plugins/copr.py:641
+#: plugins/copr.py:643
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Selhalo vypnutí copr repozitáře {}/{}"
 
-#: plugins/copr.py:659 plugins/copr.py:696
+#: plugins/copr.py:661 plugins/copr.py:698
 msgid "Unknown response from server."
 msgstr "Neznámá odpověď ze serveru."
 
-#: plugins/copr.py:681
+#: plugins/copr.py:683
 msgid "Interact with Playground repository."
 msgstr "Interakce s úložištěm Playground."
 
-#: plugins/copr.py:687
+#: plugins/copr.py:689
 msgid "Enabling a Playground repository."
 msgstr "Povolení úložiště Playground."
 
-#: plugins/copr.py:688
+#: plugins/copr.py:690
 msgid "Do you want to continue?"
 msgstr "Chcete pokračovat?"
 
-#: plugins/copr.py:732
+#: plugins/copr.py:734
 msgid "Playground repositories successfully enabled."
 msgstr "Playground repozitář úspěšně povolen."
 
-#: plugins/copr.py:735
+#: plugins/copr.py:737
 msgid "Playground repositories successfully disabled."
 msgstr "Playground repozitář úspěšně vypnut."
 
-#: plugins/copr.py:739
+#: plugins/copr.py:741
 msgid "Playground repositories successfully updated."
 msgstr "Playground repozitář úspěšně aktualizován."
 
@@ -946,12 +946,12 @@ msgstr ""
 "s příponou '%s.yaml', ponechte pouze jeden soubor, nebo specifikujte soubor "
 "explicitně pomocí volby '--manifest'."
 
-#: plugins/manifest.py:472
+#: plugins/manifest.py:477
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "Neznámý typ kontrolního součtu balíčku RPM: %s"
 
-#: plugins/manifest.py:487
+#: plugins/manifest.py:492
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "Neznámý typ kontrolního součtu balíčku DNF: %s"

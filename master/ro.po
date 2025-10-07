@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 02:15+0000\n"
+"POT-Creation-Date: 2025-10-07 02:12+0000\n"
 "PO-Revision-Date: 2025-03-14 00:02+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -334,7 +334,7 @@ msgstr ""
 msgid "Repository successfully removed."
 msgstr ""
 
-#: plugins/copr.py:329 plugins/copr.py:742
+#: plugins/copr.py:329 plugins/copr.py:744
 msgid "Unknown subcommand {}."
 msgstr ""
 
@@ -377,27 +377,27 @@ msgstr ""
 msgid "This command has to be run under the root user."
 msgstr ""
 
-#: plugins/copr.py:508
+#: plugins/copr.py:510
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr ""
 
-#: plugins/copr.py:510
+#: plugins/copr.py:512
 msgid "It wasn't possible to enable this project.\n"
 msgstr ""
 
-#: plugins/copr.py:515
+#: plugins/copr.py:517
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr ""
 
-#: plugins/copr.py:518
+#: plugins/copr.py:520
 msgid ""
 "\n"
 "Available repositories: "
 msgstr ""
 
-#: plugins/copr.py:520
+#: plugins/copr.py:522
 #, python-brace-format
 msgid ""
 "\n"
@@ -407,17 +407,17 @@ msgid ""
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
 
-#: plugins/copr.py:526
+#: plugins/copr.py:528
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr ""
 
-#: plugins/copr.py:529
+#: plugins/copr.py:531
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr ""
 
-#: plugins/copr.py:576
+#: plugins/copr.py:578
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -434,44 +434,44 @@ msgid ""
 "These repositories have been enabled automatically."
 msgstr ""
 
-#: plugins/copr.py:597
+#: plugins/copr.py:599
 msgid "Do you want to keep them enabled?"
 msgstr ""
 
-#: plugins/copr.py:630
+#: plugins/copr.py:632
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr ""
 
-#: plugins/copr.py:641
+#: plugins/copr.py:643
 msgid "Failed to disable copr repo {}/{}"
 msgstr ""
 
-#: plugins/copr.py:659 plugins/copr.py:696
+#: plugins/copr.py:661 plugins/copr.py:698
 msgid "Unknown response from server."
 msgstr ""
 
-#: plugins/copr.py:681
+#: plugins/copr.py:683
 msgid "Interact with Playground repository."
 msgstr ""
 
-#: plugins/copr.py:687
+#: plugins/copr.py:689
 msgid "Enabling a Playground repository."
 msgstr ""
 
-#: plugins/copr.py:688
+#: plugins/copr.py:690
 msgid "Do you want to continue?"
 msgstr ""
 
-#: plugins/copr.py:732
+#: plugins/copr.py:734
 msgid "Playground repositories successfully enabled."
 msgstr ""
 
-#: plugins/copr.py:735
+#: plugins/copr.py:737
 msgid "Playground repositories successfully disabled."
 msgstr ""
 
-#: plugins/copr.py:739
+#: plugins/copr.py:741
 msgid "Playground repositories successfully updated."
 msgstr ""
 
@@ -849,12 +849,12 @@ msgid ""
 "the '--manifest' option."
 msgstr ""
 
-#: plugins/manifest.py:472
+#: plugins/manifest.py:477
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr ""
 
-#: plugins/manifest.py:487
+#: plugins/manifest.py:492
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr ""

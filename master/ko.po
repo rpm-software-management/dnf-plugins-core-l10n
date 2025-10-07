@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 02:15+0000\n"
+"POT-Creation-Date: 2025-10-07 02:12+0000\n"
 "PO-Revision-Date: 2025-08-10 10:07+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -374,7 +374,7 @@ msgstr "저장소가 사용 중지되었습니다."
 msgid "Repository successfully removed."
 msgstr "저장소가 제거되었습니다."
 
-#: plugins/copr.py:329 plugins/copr.py:742
+#: plugins/copr.py:329 plugins/copr.py:744
 msgid "Unknown subcommand {}."
 msgstr "알 수없는 부속 명령 {}."
 
@@ -419,21 +419,21 @@ msgstr "안전하고 좋은 대답. 나가기."
 msgid "This command has to be run under the root user."
 msgstr "이 명령은 루트 사용자로 실행해야합니다."
 
-#: plugins/copr.py:508
+#: plugins/copr.py:510
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "{0}에 대한 요청이 실패함: {1} - {2}"
 
-#: plugins/copr.py:510
+#: plugins/copr.py:512
 msgid "It wasn't possible to enable this project.\n"
 msgstr "이와 같은 프로젝트를 활성화 할 수 없습니다.\n"
 
-#: plugins/copr.py:515
+#: plugins/copr.py:517
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "저장소 '{0}'는 프로젝트 '{1}'에 존재하지 않습니다."
 
-#: plugins/copr.py:518
+#: plugins/copr.py:520
 msgid ""
 "\n"
 "Available repositories: "
@@ -441,7 +441,7 @@ msgstr ""
 "\n"
 "사용 가능한 저장소: "
 
-#: plugins/copr.py:520
+#: plugins/copr.py:522
 #, python-brace-format
 msgid ""
 "\n"
@@ -458,17 +458,17 @@ msgstr ""
 "하지만 설치된 저장소 파일은 수동으로 수정해야 할 필요가 있다는 점을 참고하세"
 "요."
 
-#: plugins/copr.py:526
+#: plugins/copr.py:528
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "프로젝트 {0}가 존재하지 않습니다."
 
-#: plugins/copr.py:529
+#: plugins/copr.py:531
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "연결 하는데 실패함 {0}: {1}"
 
-#: plugins/copr.py:576
+#: plugins/copr.py:578
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -497,44 +497,44 @@ msgstr ""
 "\n"
 "이들 저장소는 자동으로 활성화 됩니다."
 
-#: plugins/copr.py:597
+#: plugins/copr.py:599
 msgid "Do you want to keep them enabled?"
 msgstr "계속 사용하길 원하시나요?"
 
-#: plugins/copr.py:630
+#: plugins/copr.py:632
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "copr repo {0}/{1}/{2} 제거를 실패하였습니다"
 
-#: plugins/copr.py:641
+#: plugins/copr.py:643
 msgid "Failed to disable copr repo {}/{}"
 msgstr "copr repo {} / {}를 사용 중지를 실패하였습니다"
 
-#: plugins/copr.py:659 plugins/copr.py:696
+#: plugins/copr.py:661 plugins/copr.py:698
 msgid "Unknown response from server."
 msgstr "서버에서 알 수없는 응답."
 
-#: plugins/copr.py:681
+#: plugins/copr.py:683
 msgid "Interact with Playground repository."
 msgstr "Playground 저장소와 상호 작용합니다."
 
-#: plugins/copr.py:687
+#: plugins/copr.py:689
 msgid "Enabling a Playground repository."
 msgstr "Playground 저장소 활용하기."
 
-#: plugins/copr.py:688
+#: plugins/copr.py:690
 msgid "Do you want to continue?"
 msgstr "계속하기를 원하십니까?"
 
-#: plugins/copr.py:732
+#: plugins/copr.py:734
 msgid "Playground repositories successfully enabled."
 msgstr "Playground 저장소를 성공적으로 활성화 했습니다."
 
-#: plugins/copr.py:735
+#: plugins/copr.py:737
 msgid "Playground repositories successfully disabled."
 msgstr "Playground 저장소가 성공적으로 비활성화 되었습니다."
 
-#: plugins/copr.py:739
+#: plugins/copr.py:741
 msgid "Playground repositories successfully updated."
 msgstr "Playground 저장소가 성공적으로 최신화되었습니다."
 
@@ -928,12 +928,12 @@ msgstr ""
 "filename을 사용하거나, 파일 하나만 유지하거나, '--manifest' 옵션을 사용하여 "
 "파일을 명시적으로 지정하세요."
 
-#: plugins/manifest.py:472
+#: plugins/manifest.py:477
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "알 수 없는 RPM 꾸러미 체크썸 유형: %s"
 
-#: plugins/manifest.py:487
+#: plugins/manifest.py:492
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "알 수 없는 DNF 꾸러미 체크썸 유형: %s"

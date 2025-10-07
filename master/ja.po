@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 02:15+0000\n"
+"POT-Creation-Date: 2025-10-07 02:12+0000\n"
 "PO-Revision-Date: 2025-08-18 09:47+0000\n"
 "Last-Translator: middlingphys <middlingphys@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -379,7 +379,7 @@ msgstr "リポジトリが正常に無効化されました。"
 msgid "Repository successfully removed."
 msgstr "リポジトリーが正常に削除されました。"
 
-#: plugins/copr.py:329 plugins/copr.py:742
+#: plugins/copr.py:329 plugins/copr.py:744
 msgid "Unknown subcommand {}."
 msgstr "不明なサブコマンド {}。"
 
@@ -425,21 +425,21 @@ msgstr "安全で優れた回答。終了中。"
 msgid "This command has to be run under the root user."
 msgstr "このコマンドは root ユーザーの下で実行する必要があります。"
 
-#: plugins/copr.py:508
+#: plugins/copr.py:510
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
 msgstr "{0} へのリクエストに失敗しました: {1} - {2}"
 
-#: plugins/copr.py:510
+#: plugins/copr.py:512
 msgid "It wasn't possible to enable this project.\n"
 msgstr "このプロジェクトを有効にすることができませんでした。\n"
 
-#: plugins/copr.py:515
+#: plugins/copr.py:517
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
 msgstr "'{0}' リポジトリーはプロジェクト '{1}' に存在しません。"
 
-#: plugins/copr.py:518
+#: plugins/copr.py:520
 msgid ""
 "\n"
 "Available repositories: "
@@ -447,7 +447,7 @@ msgstr ""
 "\n"
 "利用可能なリポジトリー: "
 
-#: plugins/copr.py:520
+#: plugins/copr.py:522
 #, python-brace-format
 msgid ""
 "\n"
@@ -463,17 +463,17 @@ msgstr ""
 "ただし、インストールされているリポジトリーファイルを手動で変更する必要がある"
 "可能性があることに注意してください。"
 
-#: plugins/copr.py:526
+#: plugins/copr.py:528
 #, python-brace-format
 msgid "Project {0} does not exist."
 msgstr "プロジェクト {0} は存在しません。"
 
-#: plugins/copr.py:529
+#: plugins/copr.py:531
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
 msgstr "{0} への接続に失敗しました: {1}"
 
-#: plugins/copr.py:576
+#: plugins/copr.py:578
 #, python-brace-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
@@ -503,44 +503,44 @@ msgstr ""
 "\n"
 "これらのリポジトリーは自動的に有効になっています。"
 
-#: plugins/copr.py:597
+#: plugins/copr.py:599
 msgid "Do you want to keep them enabled?"
 msgstr "有効にしておきますか？"
 
-#: plugins/copr.py:630
+#: plugins/copr.py:632
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "copr repo {0}/{1}/{2} の削除に失敗しました"
 
-#: plugins/copr.py:641
+#: plugins/copr.py:643
 msgid "Failed to disable copr repo {}/{}"
 msgstr "copr repo {}/{} の無効化に失敗しました"
 
-#: plugins/copr.py:659 plugins/copr.py:696
+#: plugins/copr.py:661 plugins/copr.py:698
 msgid "Unknown response from server."
 msgstr "サーバーからの不明な応答です。"
 
-#: plugins/copr.py:681
+#: plugins/copr.py:683
 msgid "Interact with Playground repository."
 msgstr "Playground リポジトリーとの対話。"
 
-#: plugins/copr.py:687
+#: plugins/copr.py:689
 msgid "Enabling a Playground repository."
 msgstr "Playgroundのリポジトリーの有効化。"
 
-#: plugins/copr.py:688
+#: plugins/copr.py:690
 msgid "Do you want to continue?"
 msgstr "続行しますか？"
 
-#: plugins/copr.py:732
+#: plugins/copr.py:734
 msgid "Playground repositories successfully enabled."
 msgstr "Playground リポジトリーが正常に有効化されました。"
 
-#: plugins/copr.py:735
+#: plugins/copr.py:737
 msgid "Playground repositories successfully disabled."
 msgstr "Playground リポジトリーが正常に無効化されました。"
 
-#: plugins/copr.py:739
+#: plugins/copr.py:741
 msgid "Playground repositories successfully updated."
 msgstr "Playground リポジトリーが正常に更新されました。"
 
@@ -944,12 +944,12 @@ msgstr ""
 "yaml' サフィックスを使うか、1つのファイルだけを残す、または '--manifest' オプ"
 "ションを使ってファイルを明示的に指定してください。"
 
-#: plugins/manifest.py:472
+#: plugins/manifest.py:477
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "不明なRPMパッケージチェックサムタイプ: %s"
 
-#: plugins/manifest.py:487
+#: plugins/manifest.py:492
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "不明なDNFパッケージチェックサムタイプ: %s"
