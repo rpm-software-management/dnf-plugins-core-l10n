@@ -1,14 +1,14 @@
 # Andika Triwidada <andika@gmail.com>, 2018. #zanata, 2020, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# Arif Budiman <arifpedia@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-11 02:09+0000\n"
-"PO-Revision-Date: 2025-09-03 03:53+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-10-13 17:54+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/id/>\n"
 "Language: id\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -37,7 +37,7 @@ msgstr "mendefinisikan sebuah makro untuk penguraian berkas spec"
 
 #: plugins/builddep.py:95
 msgid "skip build dependencies not available in repositories"
-msgstr ""
+msgstr "lewati dependensi build yang tidak tersedia di repositori"
 
 #: plugins/builddep.py:98
 msgid "treat commandline arguments as spec files"
@@ -75,6 +75,8 @@ msgstr "Tidak semua kebergantungan terpenuhi"
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
+"Peringatan: Argumen -D atau --define tidak memiliki arti untuk paket rpm "
+"sumber."
 
 #: plugins/builddep.py:215
 #, python-format
@@ -89,27 +91,31 @@ msgstr "tidak ada paket yang cocok: %s"
 #: plugins/changelog.py:37
 #, python-brace-format
 msgid "Not a valid date: \"{0}\"."
-msgstr ""
+msgstr "Bukan tanggal yang valid: “{0}”."
 
 #: plugins/changelog.py:43
 msgid "Show changelog data of packages"
-msgstr ""
+msgstr "Menampilkan data log perubahan paket"
 
 #: plugins/changelog.py:51
 msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
 msgstr ""
+"menampilkan entri log perubahan sejak TANGGAL. Untuk menghindari ambiguitas, "
+"format YYYY-MM-DD direkomendasikan."
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
-msgstr ""
+msgstr "menunjukkan jumlah entri log perubahan yang diberikan per paket"
 
 #: plugins/changelog.py:58
 msgid ""
 "show only new changelog entries for packages, that provide an upgrade for "
 "some of already installed packages."
 msgstr ""
+"hanya menampilkan entri catatan perubahan baru untuk paket, yang menyediakan "
+"peningkatan untuk beberapa paket yang sudah terinstal."
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
@@ -122,20 +128,20 @@ msgstr "Tidak ada yang cocok untuk argumen: %s"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
-msgstr ""
+msgstr "Mencantumkan log perubahan sejak {}"
 
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] ""
+msgstr[0] "Hanya mencantumkan log perubahan terbaru"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
-msgstr ""
+msgstr "Hanya mencantumkan log perubahan baru sejak versi paket yang diinstal"
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
-msgstr ""
+msgstr "Membuat daftar semua log perubahan"
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
@@ -144,11 +150,11 @@ msgstr "Changelog bagi {}"
 #: plugins/config_manager.py:38
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
-msgstr ""
+msgstr "mengelola opsi konfigurasi {prog} dan repositori"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "bagian konfigurasi untuk mengelola, “utama” atau repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -168,21 +174,23 @@ msgstr "cetak nilai-nilai variabel ke stdout"
 
 #: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "mengaktifkan repo (menyimpan secara otomatis)"
 
 #: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "menonaktifkan repo (menyimpan secara otomatis)"
 
 #: plugins/config_manager.py:78
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "salah satu dari argumen berikut diperlukan: {}"
 
 #: plugins/config_manager.py:87
 msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"Peringatan: argumen --enablerepo/--disablerepo tidak memiliki arti pada "
+"config manager. Gunakan --set-enabled/--set-disabled sebagai gantinya."
 
 #: plugins/config_manager.py:134
 #, python-format
@@ -202,7 +210,7 @@ msgstr[0] "Konfigurasi repo gagal"
 #: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
-msgstr ""
+msgstr "Tidak dapat menyimpan repo ke repofile %s: %s"
 
 #: plugins/copr.py:71
 msgid "y"
@@ -222,7 +230,7 @@ msgstr "tidak"
 
 #: plugins/copr.py:93
 msgid "Interact with Copr repositories."
-msgstr ""
+msgstr "Berinteraksi dengan repositori Copr."
 
 #: plugins/copr.py:95
 msgid ""
@@ -244,26 +252,43 @@ msgid ""
 "  copr search tests\n"
 "    "
 msgstr ""
+"\n"
+"  enable name/project [chroot]\n"
+"  disable name/project\n"
+"  remove name/project\n"
+"  list --installed/enabled/disabled\n"
+"  list --available-by-user=NAME\n"
+"  search project\n"
+"\n"
+"  Contoh:\n"
+"  copr enable rhscl/perl516 epel-6-x86_64\n"
+"  copr enable ignatenkobrain/ocltoys\n"
+"  copr disable rhscl/perl516\n"
+"  copr remove rhscl/perl516\n"
+"  copr list --enabled\n"
+"  copr list --available-by-user=ignatenkobrain\n"
+"  copr search tests\n"
+"    "
 
 #: plugins/copr.py:121
 msgid "List all installed Copr repositories (default)"
-msgstr ""
+msgstr "Daftar semua repositori Copr yang terinstal (default)"
 
 #: plugins/copr.py:123
 msgid "List enabled Copr repositories"
-msgstr ""
+msgstr "Daftar repositori Copr yang diaktifkan"
 
 #: plugins/copr.py:125
 msgid "List disabled Copr repositories"
-msgstr ""
+msgstr "Daftar repositori Copr yang dinonaktifkan"
 
 #: plugins/copr.py:127
 msgid "List available Copr repositories by user NAME"
-msgstr ""
+msgstr "Daftar repositori Copr yang tersedia menurut pengguna NAMA"
 
 #: plugins/copr.py:129
 msgid "Specify an instance of Copr to work with"
-msgstr ""
+msgstr "Menentukan sebuah contoh Copr untuk digunakan"
 
 #: plugins/copr.py:164 plugins/copr.py:255 plugins/copr.py:282
 msgid "Error: "
@@ -274,34 +299,38 @@ msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
+"tentukan hub Copr dengan `--hub` atau menggunakan format `copr_hub/"
+"copr_username/copr_projectname`"
 
 #: plugins/copr.py:168
 msgid "multiple hubs specified"
-msgstr ""
+msgstr "beberapa hub yang ditentukan"
 
 #: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
-msgstr ""
+msgstr "diperlukan dua parameter tambahan untuk perintah copr"
 
 #: plugins/copr.py:265
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Too many arguments."
-msgstr "Tidak ada yang cocok untuk argumen: %s"
+msgstr "Terlalu banyak argumen."
 
 #: plugins/copr.py:268
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
+"Format yang buruk dari chroot opsional. Formatnya adalah distribusi-versi-"
+"arsitektur."
 
 #: plugins/copr.py:283
 msgid "use format `copr_username/copr_projectname` to reference copr project"
 msgstr ""
+"gunakan format `copr_username/copr_projectname` untuk mereferensikan proyek "
+"copr"
 
 #: plugins/copr.py:285
 msgid "bad copr project format"
-msgstr ""
+msgstr "format proyek copr yang buruk"
 
 #: plugins/copr.py:299
 msgid ""
@@ -318,6 +347,19 @@ msgid ""
 "Please do not file bug reports about these packages in Fedora\n"
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
+"\n"
+"Mengaktifkan repositori Copr. Harap dicatat bahwa repositori ini bukan "
+"bagian\n"
+"dari distribusi utama, dan kualitasnya dapat bervariasi.\n"
+"\n"
+"Proyek Fedora tidak memiliki kuasa apapun atas konten\n"
+"repositori ini di luar aturan yang diuraikan dalam FAQ Copr di\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
+"dan paket tidak memiliki kualitas atau tingkat keamanan tertentu.\n"
+"\n"
+"Harap jangan mengajukan laporan bug tentang paket-paket ini di Fedora\n"
+"Bugzilla. Jika ada masalah, hubungi pemilik repositori ini.\n"
 
 #: plugins/copr.py:316
 msgid "Repository successfully enabled."
@@ -341,6 +383,9 @@ msgid ""
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
+"* Coprs ini memiliki berkas repo dengan format lama yang tidak berisi "
+"informasi tentang hub Copr - yang diasumsikan sebagai format default. "
+"Aktifkan kembali proyek untuk memperbaikinya."
 
 #: plugins/copr.py:399
 msgid "Can't parse repositories for username '{}'."
@@ -348,7 +393,7 @@ msgstr "Tak bisa mengurai repositori untuk nama pengguna '{}'."
 
 #: plugins/copr.py:402
 msgid "List of {} coprs"
-msgstr ""
+msgstr "Daftar {} coprs"
 
 #: plugins/copr.py:407
 msgid "No description given"
@@ -377,22 +422,24 @@ msgstr "Perintah ini mesti dijalankan di bawah pengguna root."
 #: plugins/copr.py:510
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "Permintaan ke {0} gagal: {1} - {2}"
 
 #: plugins/copr.py:512
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "Proyek ini tidak mungkin dilakukan.\n"
 
 #: plugins/copr.py:517
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr ""
+msgstr "Repositori ‘{0}’ tidak ada di proyek ‘{1}’."
 
 #: plugins/copr.py:520
 msgid ""
 "\n"
 "Available repositories: "
 msgstr ""
+"\n"
+"Repositori yang tersedia: "
 
 #: plugins/copr.py:522
 #, python-brace-format
@@ -403,16 +450,23 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Jika Anda ingin mengaktifkan repositori non-default, gunakan perintah "
+"berikut:\n"
+"  'dnf copr enable {0} <repositori>'\n"
+"Namun, perlu diperhatikan bahwa berkas repo yang terinstal kemungkinan besar "
+"memerlukan modifikasi manual."
 
 #: plugins/copr.py:528
 #, python-brace-format
 msgid "Project {0} does not exist."
-msgstr ""
+msgstr "Proyek {0} tidak ada."
 
 #: plugins/copr.py:531
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr ""
+msgstr "Gagal tersambung ke {0}: {1}"
 
 #: plugins/copr.py:578
 #, python-brace-format
@@ -430,134 +484,156 @@ msgid ""
 "\n"
 "These repositories have been enabled automatically."
 msgstr ""
+"Pengelola repositori Copr yang diaktifkan memutuskan untuk membuat\n"
+"membuatnya bergantung pada repositori lain. Repositori tersebut adalah\n"
+"biasanya diperlukan untuk instalasi RPM yang berhasil dari\n"
+"repositori Copr utama (mereka menyediakan ketergantungan runtime).\n"
+"\n"
+"Perlu diketahui bahwa catatan tentang kualitas dan pelaporan bug\n"
+"di atas juga berlaku di sini, Proyek Fedora tidak mengontrol\n"
+"konten. Silakan tinjau daftarnya:\n"
+"\n"
+"{0}\n"
+"\n"
+"Repositori ini telah diaktifkan secara otomatis."
 
 #: plugins/copr.py:599
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "Apakah Anda ingin tetap mengaktifkannya?"
 
 #: plugins/copr.py:632
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
-msgstr ""
+msgstr "Gagal menghapus copr repo {0}/{1}/{2}"
 
 #: plugins/copr.py:643
 msgid "Failed to disable copr repo {}/{}"
-msgstr ""
+msgstr "Gagal menonaktifkan copr repo {}/{}"
 
 #: plugins/copr.py:661 plugins/copr.py:698
 msgid "Unknown response from server."
-msgstr ""
+msgstr "Respons tidak diketahui dari server."
 
 #: plugins/copr.py:683
 msgid "Interact with Playground repository."
-msgstr ""
+msgstr "Berinteraksi dengan repositori Playground."
 
 #: plugins/copr.py:689
 msgid "Enabling a Playground repository."
-msgstr ""
+msgstr "Mengaktifkan repositori Taman Bermain."
 
 #: plugins/copr.py:690
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Apakah Anda ingin melanjutkan?"
 
 #: plugins/copr.py:734
 msgid "Playground repositories successfully enabled."
-msgstr ""
+msgstr "Repositori taman bermain berhasil diaktifkan."
 
 #: plugins/copr.py:737
 msgid "Playground repositories successfully disabled."
-msgstr ""
+msgstr "Repositori taman bermain berhasil dinonaktifkan."
 
 #: plugins/copr.py:741
 msgid "Playground repositories successfully updated."
-msgstr ""
+msgstr "Repositori taman bermain berhasil diperbarui."
 
 #: plugins/debug.py:53
 msgid "dump information about installed rpm packages to file"
-msgstr ""
+msgstr "membuang informasi tentang paket rpm yang diinstal ke berkas"
 
 #: plugins/debug.py:67
 msgid "do not attempt to dump the repository contents."
-msgstr ""
+msgstr "jangan mencoba membuang konten repositori."
 
 #: plugins/debug.py:70
 msgid "optional name of dump file"
-msgstr ""
+msgstr "nama opsional dari berkas dump"
 
 #: plugins/debug.py:95
 #, python-format
 msgid "Output written to: %s"
-msgstr ""
+msgstr "Keluaran ditulis ke: %s"
 
 #: plugins/debug.py:172
 msgid "restore packages recorded in debug-dump file"
-msgstr ""
+msgstr "mengembalikan paket yang direkam dalam berkas debug-dump"
 
 #: plugins/debug.py:185
 msgid "output commands that would be run to stdout."
-msgstr ""
+msgstr "perintah keluaran yang akan dijalankan ke stdout."
 
 #: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
-msgstr ""
+msgstr "Instal versi terbaru dari paket rekaman."
 
 #: plugins/debug.py:191
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
 msgstr ""
+"Abaikan arsitektur dan instal paket yang tidak sesuai dengan nama, zaman, "
+"versi, dan rilis."
 
 #: plugins/debug.py:196
 msgid "limit to specified type"
-msgstr ""
+msgstr "membatasi pada jenis yang ditentukan"
 
 #: plugins/debug.py:199
 msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
 msgstr ""
+"Izinkan penghapusan paket install-only. Menggunakan pilihan ini dapat "
+"mengakibatkan upaya untuk menghapus kernel yang sedang berjalan."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
-msgstr ""
+msgstr "nama berkas dump"
 
 #: plugins/debug.py:273
 #, python-format
 msgid "Package %s is not available"
-msgstr ""
+msgstr "Paket %s tidak tersedia"
 
 #: plugins/debug.py:283
 #, python-format
 msgid "Bad dnf debug file: %s"
-msgstr ""
+msgstr "Berkas debug dnf yang buruk: %s"
 
 #: plugins/debuginfo-install.py:57
 msgid "install debuginfo packages"
-msgstr ""
+msgstr "instal paket debuginfo"
 
 #: plugins/debuginfo-install.py:181
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
 msgstr ""
+"Tidak dapat menemukan paket debuginfo untuk paket-paket yang tersedia "
+"berikut ini: %s"
 
 #: plugins/debuginfo-install.py:186
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr ""
+"Tidak dapat menemukan paket debugsource untuk paket-paket yang tersedia "
+"berikut ini: %s"
 
 #: plugins/debuginfo-install.py:191
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
 msgstr ""
+"Tidak dapat menemukan paket debuginfo untuk paket terinstal berikut ini: %s"
 
 #: plugins/debuginfo-install.py:196
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
 msgstr ""
+"Tidak dapat menemukan paket debugsource untuk paket terinstal berikut ini: %s"
 
 #: plugins/debuginfo-install.py:200
 msgid "Unable to find a match"
@@ -565,37 +641,39 @@ msgstr "Tidak berhasil menemukan yang cocok"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
-msgstr ""
+msgstr "Unduh paket ke direktori saat ini"
 
 #: plugins/download.py:51
 msgid "packages to download"
-msgstr ""
+msgstr "paket untuk diunduh"
 
 #: plugins/download.py:53
 msgid "download the src.rpm instead"
-msgstr ""
+msgstr "unduh src.rpm sebagai gantinya"
 
 #: plugins/download.py:55
 msgid "download the -debuginfo package instead"
-msgstr ""
+msgstr "unduh paket -debuginfo sebagai gantinya"
 
 #: plugins/download.py:57
 msgid "download the -debugsource package instead"
-msgstr ""
+msgstr "unduh paket -debugsource sebagai gantinya"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
-msgstr ""
+msgstr "membatasi kueri pada paket-paket dari arsitektur yang diberikan."
 
 #: plugins/download.py:62 plugins/modulesync.py:51
 msgid "resolve and download needed dependencies"
-msgstr ""
+msgstr "menyelesaikan dan mengunduh dependensi yang diperlukan"
 
 #: plugins/download.py:64
 msgid ""
 "when running with --resolve, download all dependencies (do not exclude "
 "already installed ones)"
 msgstr ""
+"saat menjalankan dengan --resolve, unduh semua dependensi "
+"(jangan mengecualikan yang sudah terinstal)"
 
 #: plugins/download.py:67
 msgid ""
@@ -617,7 +695,7 @@ msgstr "Keluar karena pengaturan ketat."
 
 #: plugins/download.py:270
 msgid "Error in resolve of packages:"
-msgstr ""
+msgstr "Kesalahan dalam penyelesaian paket:"
 
 #: plugins/download.py:288
 #, python-format
@@ -633,11 +711,11 @@ msgstr "Tidak ada paket %s yang tersedia."
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "Kunci PGP berikut ini telah kedaluwarsa pada {0}:"
 
 #: plugins/expired-pgp-keys.py:36
 msgid "For more information about the key:"
-msgstr ""
+msgstr "Untuk informasi lebih lanjut tentang kunci:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -645,206 +723,210 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"Akibatnya, penginstalan paket yang ditandatangani dengan kunci ini akan "
+"gagal.\n"
+"Direkomendasikan untuk menghapus kunci yang sudah kedaluwarsa agar dapat "
+"mengimpor\n"
+"mengimpor kunci yang telah diperbarui. Hal ini dapat menyebabkan paket yang "
+"sudah terinstal tidak dapat diverifikasi."
 
 #: plugins/expired-pgp-keys.py:43
 msgid "Do you want to remove the key?"
-msgstr ""
+msgstr "Apakah Anda ingin menghapus kunci?"
 
 #: plugins/expired-pgp-keys.py:46
-#, fuzzy
-#| msgid "Repository successfully removed."
 msgid "Key successfully removed."
-msgstr "Repositori sukses dibuang."
+msgstr "Kunci berhasil dihapus."
 
 #: plugins/expired-pgp-keys.py:48
 msgid "Failed to remove the key."
-msgstr ""
+msgstr "Gagal melepas kunci."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "Id grup tidak valid"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr ""
+msgstr "Data yang diterjemahkan tidak valid, harus dalam bentuk 'lang:text'"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
-msgstr ""
+msgstr "Bahasa yang tidak valid/kosong untuk data yang diterjemahkan"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
+"Tidak dapat membuat id grup dari ‘{}’. Harap tentukan id grup menggunakan "
+"--id."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
-msgstr ""
+msgstr "membuat dan mengedit berkas metadata grup"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
-msgstr ""
+msgstr "memuat kelompok metadata dari berkas"
 
 #: plugins/groups_manager.py:93
 msgid "save groups metadata to file"
-msgstr ""
+msgstr "menyimpan metadata grup ke berkas"
 
 #: plugins/groups_manager.py:95
 msgid "load and save groups metadata to file"
-msgstr ""
+msgstr "memuat dan menyimpan metadata grup ke berkas"
 
 #: plugins/groups_manager.py:97
-#, fuzzy
-#| msgid "print variable values to stdout"
 msgid "print the result metadata to stdout"
-msgstr "cetak nilai-nilai variabel ke stdout"
+msgstr "mencetak metadata hasil ke stdout"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr ""
+msgstr "id grup"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
-msgstr ""
+msgstr "nama kelompok"
 
 #: plugins/groups_manager.py:103
-#, fuzzy
-#| msgid "No description given"
 msgid "group description"
-msgstr "Tidak ada deskripsi yang diberikan"
+msgstr "deskripsi kelompok"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr ""
+msgstr "urutan tampilan grup"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
-msgstr ""
+msgstr "nama yang diterjemahkan untuk grup"
 
 #: plugins/groups_manager.py:111
 msgid "translated description for the group"
-msgstr ""
+msgstr "deskripsi yang diterjemahkan untuk grup"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
-msgstr ""
+msgstr "membuat pengguna grup terlihat (default)"
 
 #: plugins/groups_manager.py:118
 msgid "make the group user invisible"
-msgstr ""
+msgstr "membuat pengguna grup tidak terlihat"
 
 #: plugins/groups_manager.py:123
 msgid "add packages to the mandatory section"
-msgstr ""
+msgstr "menambahkan paket ke bagian wajib"
 
 #: plugins/groups_manager.py:125
 msgid "add packages to the optional section"
-msgstr ""
+msgstr "menambahkan paket ke bagian opsional"
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
-msgstr ""
+msgstr "menghapus paket dari grup alih-alih menambahkannya"
 
 #: plugins/groups_manager.py:129
 msgid "include also direct dependencies for packages"
-msgstr ""
+msgstr "termasuk juga ketergantungan langsung untuk paket"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr ""
+msgstr "spesifikasi paket"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
+"Tidak dapat mengedit grup tanpa menentukannya (gunakan --id atau --name)"
 
 #: plugins/groups_manager.py:190
 msgid "Can't load file \"{}\": {}"
-msgstr ""
+msgstr "Tidak dapat memuat berkas “{}”: {}"
 
 #: plugins/groups_manager.py:206
 msgid "Can't save file \"{}\": {}"
-msgstr ""
+msgstr "Tidak dapat menyimpan berkas “{}”: {}"
 
 #: plugins/groups_manager.py:261
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
-msgstr "Tidak ada yang cocok untuk argumen: %s"
+msgstr "Tidak ada kecocokan untuk argumen: {}"
 
 #: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
-msgstr ""
+msgstr "Tidak dapat menghapus paket dari grup yang tidak ada"
 
 #: plugins/groups_manager.py:307
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
+"Id grup ‘{}’ yang dihasilkan dari ‘{}’ adalah rangkap dua. Harap tentukan id "
+"grup menggunakan --id."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
-msgstr ""
+msgstr "Buat daftar paket terinstal yang tidak diperlukan oleh paket lain"
 
 #: plugins/local.py:122
 msgid "Unable to create a directory '{}' due to '{}'"
-msgstr ""
+msgstr "Tidak dapat membuat direktori ‘{}’ karena '{}'"
 
 #: plugins/local.py:126
 msgid "'{}' is not a directory"
-msgstr ""
+msgstr "'{}' bukan sebuah direktori"
 
 #: plugins/local.py:135
 msgid "Copying '{}' to local repo"
-msgstr ""
+msgstr "Menyalin ‘{}’ ke repo lokal"
 
 #: plugins/local.py:141
 msgid "Can't write file '{}'"
-msgstr ""
+msgstr "Tidak dapat menulis berkas '{}'"
 
 #: plugins/local.py:156
 msgid "Rebuilding local repo"
-msgstr ""
+msgstr "Membangun kembali repo lokal"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Operasi untuk bekerja dengan berkas manifes paket RPM"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "spesifikasi paket yang akan diproses"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "masukan jalur berkas yang akan digunakan"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "jalur berkas manifes untuk digunakan"
 
 #: plugins/manifest.py:54
 msgid "use installed packages for resolving dependencies"
-msgstr ""
+msgstr "menggunakan paket terinstal untuk menyelesaikan ketergantungan"
 
 #: plugins/manifest.py:55
 msgid "include also source packages"
-msgstr ""
+msgstr "termasuk juga paket sumber"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "secara eksplisit menentukan penelitian dasar yang akan digunakan"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
 msgstr ""
+"paket terpisah dengan melakukan pencarian ke dalam berkas manifes individual"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "Berkas input ‘%s’ tidak ada"
 
 #: plugins/manifest.py:268
 #, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr ""
+msgstr "Berkas manifes ‘%s’ tidak ada"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -853,85 +935,84 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"Beberapa berkas manifes terdeteksi dalam direktori. Gunakan nama berkas "
+"dengan akhiran ‘%s.yaml’, simpan hanya satu berkas, atau tentukan berkas "
+"secara eksplisit menggunakan opsi ‘--manifest’."
 
 #: plugins/manifest.py:477
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "tidak ada paket yang cocok: %s"
+msgstr "Jenis checksum paket RPM yang tidak diketahui: %s"
 
 #: plugins/manifest.py:492
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "tidak ada paket yang cocok: %s"
+msgstr "Jenis checksum paket DNF yang tidak diketahui: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
-msgstr ""
+msgstr "memigrasikan riwayat, grup, dan data yum ke dnf"
 
 #: plugins/migrate.py:54
 msgid "Migrating history data..."
-msgstr ""
+msgstr "Memigrasi data riwayat..."
 
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "Unduh paket dari modul dan/atau buat repositori dengan data modular"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MODUL"
 
 #: plugins/modulesync.py:45
 msgid "modules to download"
-msgstr ""
+msgstr "modul untuk diunduh"
 
 #: plugins/modulesync.py:47
 msgid "enable repositories with source packages"
-msgstr ""
+msgstr "mengaktifkan repositori dengan paket sumber"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "mengaktifkan repositori dengan paket debug-info dan debug-source"
 
 #: plugins/modulesync.py:53
 msgid "download only packages from newest modules"
-msgstr ""
+msgstr "unduh hanya paket dari modul terbaru"
 
 #: plugins/modulesync.py:85
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] "Tidak ada yang cocok untuk argumen: %s"
+msgstr[0] "Tidak dapat menemukan kecocokan untuk argumen: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"Pembuatan repositori gagal dengan kode pengembalian {}. Semua konten yang "
+"diunduh disimpan di sistem"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "Tidak ada kecocokan untuk artefak ‘{0}’ dari modul '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "Tidak ada kecocokan untuk nama paket ‘{0}’ di profil {1} dari modul {2}"
 
 #: plugins/modulesync.py:166
-#, fuzzy
-#| msgid "No match for argument: %s"
 msgid "No mach for argument '{}'"
-msgstr "Tidak ada yang cocok untuk argumen: %s"
+msgstr "Tidak ada mach untuk argumen '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "Tidak dapat memenuhi kebutuhan {}"
 
 #: plugins/needs_restarting.py:68
 #, python-brace-format
@@ -939,180 +1020,200 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
+"Tidak ditemukan paket terinstal untuk nama paket “{pkg}” yang ditentukan "
+"dalam berkas yang perlu dimulai ulang \"{file}\"."
 
 #: plugins/needs_restarting.py:309
 msgid "determine updated binaries that need restarting"
-msgstr ""
+msgstr "menentukan binari yang diperbarui yang perlu dimulai ulang"
 
 #: plugins/needs_restarting.py:314
 msgid "only consider this user's processes"
-msgstr ""
+msgstr "hanya mempertimbangkan proses pengguna ini"
 
 #: plugins/needs_restarting.py:316
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
+"hanya melaporkan apakah reboot diperlukan (kode keluar 1) atau tidak "
+"(kode keluar 0)"
 
 #: plugins/needs_restarting.py:319
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "hanya melaporkan layanan sistemd yang terkena dampak"
 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
-msgstr ""
+msgstr "jangan mencantumkan proses basi yang berhubungan dengan layanan sistemd"
 
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
-msgstr ""
+msgstr "Pustaka atau layanan inti telah diperbarui sejak boot-up:"
 
 #: plugins/needs_restarting.py:350
 msgid "Reboot is required to fully utilize these updates."
-msgstr ""
+msgstr "Reboot diperlukan untuk memanfaatkan pembaruan ini sepenuhnya."
 
 #: plugins/needs_restarting.py:351
 msgid "More information:"
-msgstr ""
+msgstr "Informasi lebih lanjut:"
 
 #: plugins/needs_restarting.py:355
 msgid "No core libraries or services have been updated since boot-up."
-msgstr ""
+msgstr "Tidak ada pustaka atau layanan inti yang diperbarui sejak boot-up."
 
 #: plugins/needs_restarting.py:357
 msgid "Reboot should not be necessary."
-msgstr ""
+msgstr "Reboot seharusnya tidak diperlukan."
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
-msgstr ""
+msgstr "Baris Tindakan Buruk “%s”: %s"
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
 #: plugins/pre-transaction-actions.py:118
 #, python-format
 msgid "Bad Transaction State: %s"
-msgstr ""
+msgstr "Status Transaksi Buruk: %s"
 
 #: plugins/post-transaction-actions.py:160
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr ""
+msgstr "tindakan-pasca-transaksi: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "tindakan-pasca-transaksi: Perintah Buruk “%s”: %s"
 
 #: plugins/pre-transaction-actions.py:145
 #: plugins/pre-transaction-actions.py:147
 #, python-format
 msgid "pre-transaction-actions: %s"
-msgstr ""
+msgstr "tindakan pra-transaksi: %s"
 
 #: plugins/pre-transaction-actions.py:149
 #, python-format
 msgid "pre-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "tindakan pra-transaksi: Perintah Buruk “%s”: %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
-msgstr ""
+msgstr "Menampilkan daftar dependensi yang belum terselesaikan untuk repositori"
 
 #: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
+"Penutupan kembali diakhiri dengan ketergantungan yang belum terselesaikan "
+"({}) di seluruh paket {}."
 
 #: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
 msgstr ""
+"memeriksa paket dari lengkungan yang diberikan, dapat ditentukan beberapa "
+"kali"
 
 #: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
-msgstr ""
+msgstr "Menentukan repositori yang akan diperiksa"
 
 #: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
-msgstr ""
+msgstr "Periksa hanya paket-paket terbaru di repositori"
 
 #: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
-msgstr ""
+msgstr "Cek penutupan hanya untuk paket ini"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
-msgstr ""
+msgstr "Sebutkan perbedaan antara dua set repositori"
 
 #: plugins/repodiff.py:58
 msgid "Specify old repository, can be used multiple times"
-msgstr ""
+msgstr "Tentukan repositori lama, dapat digunakan beberapa kali"
 
 #: plugins/repodiff.py:60
 msgid "Specify new repository, can be used multiple times"
-msgstr ""
+msgstr "Tentukan repositori baru, dapat digunakan beberapa kali"
 
 #: plugins/repodiff.py:63
 msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
 msgstr ""
+"Menentukan arsitektur yang akan dibandingkan, dapat digunakan beberapa kali. "
+"Secara default, hanya rpms sumber yang dibandingkan."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
-msgstr ""
+msgstr "Keluarkan data tambahan tentang ukuran perubahan."
 
 #: plugins/repodiff.py:69
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
+"Membandingkan paket juga berdasarkan lengkungan. Secara default, paket-paket "
+"dibandingkan hanya berdasarkan nama."
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
-msgstr ""
+msgstr "Keluarkan pesan satu baris sederhana untuk paket yang dimodifikasi."
 
 #: plugins/repodiff.py:74
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
 msgstr ""
+"Membagi data untuk paket yang dimodifikasi antara paket yang diupgrade dan "
+"paket yang diturunkan."
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
-msgstr ""
+msgstr "Baik repositori lama maupun baru harus ditetapkan."
 
 #: plugins/repodiff.py:178
 msgid "Size change: {} bytes"
-msgstr ""
+msgstr "Perubahan ukuran: {} byte"
 
 #: plugins/repodiff.py:184
 msgid "Added package  : {}"
-msgstr ""
+msgstr "Paket yang ditambahkan: {}"
 
 #: plugins/repodiff.py:187
 msgid "Removed package: {}"
-msgstr ""
+msgstr "Paket yang dihapus: {}"
 
 #: plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
-msgstr ""
+msgstr "Dihapus oleh : {}"
 
 #: plugins/repodiff.py:195
 msgid ""
 "\n"
 "Upgraded packages"
 msgstr ""
+"\n"
+"Paket yang ditingkatkan"
 
 #: plugins/repodiff.py:200
 msgid ""
 "\n"
 "Downgraded packages"
 msgstr ""
+"\n"
+"Paket yang diturunkan"
 
 #: plugins/repodiff.py:207
 msgid ""
 "\n"
 "Modified packages"
 msgstr ""
+"\n"
+"Paket yang dimodifikasi"
 
 #: plugins/repodiff.py:212
 msgid ""
@@ -1124,172 +1225,177 @@ msgstr ""
 
 #: plugins/repodiff.py:213
 msgid "Added packages: {}"
-msgstr ""
+msgstr "Paket yang ditambahkan: {}"
 
 #: plugins/repodiff.py:214
 msgid "Removed packages: {}"
-msgstr ""
+msgstr "Paket yang dihapus: {}"
 
 #: plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
-msgstr ""
+msgstr "Paket yang ditingkatkan: {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr ""
+msgstr "Paket yang diturunkan: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
-msgstr ""
+msgstr "Paket yang dimodifikasi: {}"
 
 #: plugins/repodiff.py:222
 msgid "Size of added packages: {}"
-msgstr ""
+msgstr "Ukuran paket yang ditambahkan: {}"
 
 #: plugins/repodiff.py:223
 msgid "Size of removed packages: {}"
-msgstr ""
+msgstr "Ukuran paket yang dihapus: {}"
 
 #: plugins/repodiff.py:225
 msgid "Size of modified packages: {}"
-msgstr ""
+msgstr "Ukuran paket yang dimodifikasi: {}"
 
 #: plugins/repodiff.py:228
 msgid "Size of upgraded packages: {}"
-msgstr ""
+msgstr "Ukuran paket yang ditingkatkan: {}"
 
 #: plugins/repodiff.py:230
 msgid "Size of downgraded packages: {}"
-msgstr ""
+msgstr "Ukuran paket yang diturunkan: {}"
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
-msgstr ""
+msgstr "Perubahan ukuran: {}"
 
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
-msgstr ""
+msgstr "Keluarkan grafik ketergantungan paket lengkap dalam format titik"
 
 #: plugins/repograph.py:110
 #, python-format
 msgid "Nothing provides: '%s'"
-msgstr ""
+msgstr "Tidak ada yang menyediakan: '%s'"
 
 #: plugins/repomanage.py:45
 msgid "Manage a directory of rpm packages"
-msgstr ""
+msgstr "Mengelola direktori paket rpm"
 
 #: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
-msgstr ""
+msgstr "Lulus salah satu --old atau --new, jangan keduanya!"
 
 #: plugins/repomanage.py:61
 msgid "Pass either --oldonly or --new, not both!"
-msgstr ""
+msgstr "Lulus salah satu --oldonly atau --new, jangan keduanya!"
 
 #: plugins/repomanage.py:63
 msgid "Pass either --old or --oldonly, not both!"
-msgstr ""
+msgstr "Lulus salah satu dari --old atau --oldonly, jangan keduanya!"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
-msgstr ""
+msgstr "Tidak ada berkas untuk diproses"
 
 #: plugins/repomanage.py:107
 msgid "Could not open {}"
-msgstr ""
+msgstr "Tidak dapat membuka {}"
 
 #: plugins/repomanage.py:223
 msgid "Print the older packages"
-msgstr ""
+msgstr "Mencetak paket yang lebih lama"
 
 #: plugins/repomanage.py:225
 msgid "Print the older packages. Exclude the newest packages."
-msgstr ""
+msgstr "Cetak paket yang lebih lama. Kecualikan paket-paket terbaru."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
-msgstr ""
+msgstr "Cetak paket terbaru"
 
 #: plugins/repomanage.py:229
 msgid "Space separated output, not newline"
-msgstr ""
+msgstr "Output yang dipisahkan spasi, bukan baris baru"
 
 #: plugins/repomanage.py:231
 msgid "Newest N packages to keep - defaults to 1"
-msgstr ""
+msgstr "Paket N terbaru yang harus disimpan - setelan default ke 1"
 
 #: plugins/repomanage.py:234
 msgid "Path to directory"
-msgstr ""
+msgstr "Jalur ke direktori"
 
 #: plugins/reposync.py:55
 msgid "download all packages from remote repo"
-msgstr ""
+msgstr "unduh semua paket dari repo jarak jauh"
 
 #: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
-msgstr ""
+msgstr "unduh hanya paket untuk ARCH ini"
 
 #: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
-msgstr ""
+msgstr "menghapus paket lokal yang tidak lagi ada di repositori"
 
 #: plugins/reposync.py:68
 msgid "download all the metadata."
-msgstr ""
+msgstr "unduh semua metadata."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
 msgstr ""
+"Hapus paket yang gagal dalam pemeriksaan tanda tangan GPG setelah mengunduh"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
-msgstr ""
+msgstr "juga unduh dan buka kompresi comps.xml"
 
 #: plugins/reposync.py:75
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
+"tempat menyimpan metadata repositori yang diunduh. Defaultnya adalah nilai "
+"dari --download-path."
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
-msgstr ""
+msgstr "unduh hanya paket terbaru per-repo"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "Jangan menambahkan nama ulang ke jalur unduhan."
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
-msgstr ""
+msgstr "tempat menyimpan repositori yang diunduh"
 
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
-msgstr ""
+msgstr "coba atur stempel waktu lokal berkas lokal dengan yang ada di server"
 
 #: plugins/reposync.py:87
 msgid "download only source packages"
-msgstr ""
+msgstr "hanya mengunduh paket sumber"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr ""
+msgstr "Cukup cantumkan url dari apa yang akan diunduh, jangan unduh"
 
 #: plugins/reposync.py:92
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Jalur sistem berkas yang dianggap aman untuk menulis. Setelan default untuk "
+"jalur download."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "Tidak dapat menggunakan --norepopath dengan beberapa repositori"
 
 #: plugins/reposync.py:122
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr ""
+msgstr "Tidak dapat menggunakan --safe-write-path dengan beberapa repositori"
 
 #: plugins/reposync.py:141
 #, python-format
@@ -1298,15 +1404,15 @@ msgstr "Gagal mendapat cermin untuk metadata: %s"
 
 #: plugins/reposync.py:158
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "Gagal mendapatkan mirror untuk berkas grup."
 
 #: plugins/reposync.py:177
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "Menghapus {}: {}"
 
 #: plugins/reposync.py:184
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "Pemeriksaan tanda tangan GPG gagal."
 
 #: plugins/reposync.py:208
 #, python-brace-format
@@ -1314,21 +1420,23 @@ msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
 msgstr ""
+"Target unduhan ‘{0}’ untuk lokasi ‘{1}’ dari paket ‘{2}’ berada di luar "
+"jalur penulisan yang aman ‘{3}’."
 
 #: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
-msgstr ""
+msgstr "[DIHAPUS] %s"
 
 #: plugins/reposync.py:226
 #, python-format
 msgid "failed to delete file %s"
-msgstr ""
+msgstr "gagal menghapus berkas %s"
 
 #: plugins/reposync.py:235
 #, python-format
 msgid "comps.xml for repository %s saved"
-msgstr ""
+msgstr "comps.xml untuk repositori %s disimpan"
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
@@ -1350,8 +1458,8 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
-"Download selesai! Gunakan 'dnf {command} reboot' untuk memulai upgrade.\n"
-"Untuk menghapus metadata dan transaksi yang di-cache gunakan 'dnf {command} "
+"Unduh selesai! Gunakan ‘dnf {command} reboot’ untuk memulai peningkatan.\n"
+"Untuk menghapus metadata dan transaksi yang di-cache, gunakan 'dnf {command} "
 "clean'"
 
 #: plugins/system_upgrade.py:62
@@ -1362,7 +1470,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "Reboot dimatikan, tidak melakukan reboot."
 
 #: plugins/system_upgrade.py:125
 #, python-format
@@ -1402,7 +1510,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "matikan sistem setelah operasi selesai"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
@@ -1430,13 +1538,13 @@ msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
 msgstr ""
-"Sebelum Anda melanjutkan pastikan bahwa sistem Anda telah ditingkatkan "
-"secara penuh dengan menjalankan \"dnf --refresh upgrade\". Apakah Anda "
-"hendak melanjutkan"
+"Sebelum melanjutkan, pastikan bahwa sistem Anda telah ditingkatkan "
+"sepenuhnya dengan menjalankan “dnf --refresh upgrade”. Apakah Anda ingin "
+"melanjutkan"
 
 #: plugins/system_upgrade.py:471
 msgid "Operation aborted."
-msgstr "Operasi digugrkan."
+msgstr "Operasi dibatalkan."
 
 #: plugins/system_upgrade.py:532
 msgid "system is not ready for upgrade"
@@ -1492,7 +1600,7 @@ msgstr "Membersihkan data yang diunduh..."
 #: plugins/system_upgrade.py:663
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "Transaksi peningkatan sistem kosong, sistem Anda sudah diperbarui."
 
 #: plugins/system_upgrade.py:672
 msgid "Transaction saved to {}."
@@ -1507,16 +1615,12 @@ msgid "Download finished."
 msgstr "Pengunduhan selesai."
 
 #: plugins/system_upgrade.py:701
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and powering off..."
-msgstr "Peningkatan selesai! Membersihkan dan reboot..."
+msgstr "Upgrade selesai! Membersihkan dan mematikan..."
 
 #: plugins/system_upgrade.py:703
-#, fuzzy
-#| msgid "Upgrade complete! Cleaning up and rebooting..."
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr "Peningkatan selesai! Membersihkan dan reboot..."
+msgstr "Upgrade selesai! Membersihkan dan menyalakan ulang..."
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
@@ -1529,68 +1633,74 @@ msgstr "Mempersiapkan distrosync sistem secara offline"
 #: plugins/versionlock.py:33
 #, python-format
 msgid "Unable to read version lock configuration: %s"
-msgstr ""
+msgstr "Tidak dapat membaca konfigurasi kunci versi: %s"
 
 #: plugins/versionlock.py:34
 msgid "Locklist not set"
-msgstr ""
+msgstr "Daftar kunci tidak ditetapkan"
 
 #: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
-msgstr ""
+msgstr "Menambahkan penguncian versi:"
 
 #: plugins/versionlock.py:36
 msgid "Adding exclude on:"
-msgstr ""
+msgstr "Menambahkan pengecualian pada:"
 
 #: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "Paket sudah terkunci dalam bentuk yang setara:"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "Paket {} sudah terkunci"
 
 #: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "Paket {} sudah dikecualikan"
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
-msgstr ""
+msgstr "Menghapus kunci versi untuk:"
 
 #: plugins/versionlock.py:41
 msgid "No package found for:"
-msgstr ""
+msgstr "Tidak ditemukan paket untuk:"
 
 #: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
-msgstr ""
+msgstr "Pengecualian dari plugin versionlock tidak diterapkan"
 
 #: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
+"Plugin versionlock: jumlah aturan kunci dari berkas “{}” yang diterapkan: {}"
 
 #: plugins/versionlock.py:44
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
+"Plugin versionlock: jumlah aturan pengecualian dari berkas “{}” yang "
+"diterapkan: {}"
 
 #: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
-msgstr ""
+msgstr "Plugin Versionlock: tidak dapat mengurai pola:"
 
 #: plugins/versionlock.py:138
 msgid "control package version locks"
-msgstr ""
+msgstr "kunci versi paket kontrol"
 
 #: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
+"Gunakan spesifikasi paket sebagaimana adanya, jangan coba-coba menguraikannya"
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+"Subperintah ‘{}’ sudah tidak digunakan lagi. Gunakan subperintah 'exclude' "
+"sebagai gantinya."
 
 #~ msgid "repo to modify"
 #~ msgstr "repo yang akan diubah"
