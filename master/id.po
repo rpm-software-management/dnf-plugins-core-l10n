@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-11 02:09+0000\n"
+"POT-Creation-Date: 2025-10-13 02:21+0000\n"
 "PO-Revision-Date: 2025-10-13 17:54+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
@@ -672,8 +672,8 @@ msgid ""
 "when running with --resolve, download all dependencies (do not exclude "
 "already installed ones)"
 msgstr ""
-"saat menjalankan dengan --resolve, unduh semua dependensi "
-"(jangan mengecualikan yang sudah terinstal)"
+"saat menjalankan dengan --resolve, unduh semua dependensi (jangan "
+"mengecualikan yang sudah terinstal)"
 
 #: plugins/download.py:67
 msgid ""
@@ -757,8 +757,8 @@ msgstr "Bahasa yang tidak valid/kosong untuk data yang diterjemahkan"
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
-"Tidak dapat membuat id grup dari ‘{}’. Harap tentukan id grup menggunakan "
-"--id."
+"Tidak dapat membuat id grup dari ‘{}’. Harap tentukan id grup menggunakan --"
+"id."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
@@ -1003,7 +1003,8 @@ msgstr "Tidak ada kecocokan untuk artefak ‘{0}’ dari modul '{1}'"
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr "Tidak ada kecocokan untuk nama paket ‘{0}’ di profil {1} dari modul {2}"
+msgstr ""
+"Tidak ada kecocokan untuk nama paket ‘{0}’ di profil {1} dari modul {2}"
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
@@ -1035,8 +1036,8 @@ msgstr "hanya mempertimbangkan proses pengguna ini"
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
-"hanya melaporkan apakah reboot diperlukan (kode keluar 1) atau tidak "
-"(kode keluar 0)"
+"hanya melaporkan apakah reboot diperlukan (kode keluar 1) atau tidak (kode "
+"keluar 0)"
 
 #: plugins/needs_restarting.py:319
 msgid "only report affected systemd services"
@@ -1044,7 +1045,8 @@ msgstr "hanya melaporkan layanan sistemd yang terkena dampak"
 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
-msgstr "jangan mencantumkan proses basi yang berhubungan dengan layanan sistemd"
+msgstr ""
+"jangan mencantumkan proses basi yang berhubungan dengan layanan sistemd"
 
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
@@ -1102,7 +1104,8 @@ msgstr "tindakan pra-transaksi: Perintah Buruk “%s”: %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
-msgstr "Menampilkan daftar dependensi yang belum terselesaikan untuk repositori"
+msgstr ""
+"Menampilkan daftar dependensi yang belum terselesaikan untuk repositori"
 
 #: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
