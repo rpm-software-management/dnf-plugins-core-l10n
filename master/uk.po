@@ -4,13 +4,14 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024.
 # Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021, 2022, 2023, 2024.
 # Yuri Chornoivan <yurchor@ukr.net>, 2020. #zanata, 2021, 2022, 2023, 2024.
+# Matthew Sholok <matthew.sholok@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-13 02:21+0000\n"
-"PO-Revision-Date: 2024-10-14 15:16+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2025-10-16 15:53+0000\n"
+"Last-Translator: Matthew Sholok <matthew.sholok@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
 "Language: uk\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -900,7 +901,7 @@ msgstr ""
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "Специфікації пакета, що підлягають обробці"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
@@ -911,17 +912,12 @@ msgid "manifest file path to use"
 msgstr ""
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr ""
-"Вивести список пакунків, які не потрібні для роботи будь-яких інших пакунків"
+msgstr "Використання інстальованих пакунків для вирішення залежностей"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "отримати лише пакунки початкових кодів"
+msgstr "Також включити пакунки з вихідним кодом"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
@@ -937,10 +933,9 @@ msgid "Input file '%s' does not exist"
 msgstr ""
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "Проєкта {0} не існує."
+msgstr "Файл маніфесту '%s' не уснує"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -951,16 +946,14 @@ msgid ""
 msgstr ""
 
 #: plugins/manifest.py:477
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "немає відповідного пакунка: %s"
+msgstr "Невідомий тип контрольної суми RPM пакунку: %s"
 
 #: plugins/manifest.py:492
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "немає відповідного пакунка: %s"
+msgstr "Невідомий тип контрольної суми DNF пакунку: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
