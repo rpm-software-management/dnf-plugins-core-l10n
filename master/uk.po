@@ -1,9 +1,9 @@
-# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Yuri Chornoivan <yurchor@ukr.net>, 2020. #zanata, 2021, 2022, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020. #zanata, 2021, 2022, 2023, 2024, 2025.
 # Matthew Sholok <matthew.sholok@gmail.com>, 2025.
 msgid ""
 msgstr ""
@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-13 02:21+0000\n"
 "PO-Revision-Date: 2025-10-16 15:53+0000\n"
-"Last-Translator: Matthew Sholok <matthew.sholok@gmail.com>\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
 "Language: uk\n"
@@ -897,45 +897,46 @@ msgstr "Перезбираємо локальне сховище"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Дії для роботи з файлами маніфестів пакунків RPM"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr "Специфікації пакета, що підлягають обробці"
+msgstr "cпецифікації пакунків, які буде оброблено"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "файл вхідних даних, яким слід скористатися"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "шлях до файла маніфеста, яким слід скористатися"
 
 #: plugins/manifest.py:54
 msgid "use installed packages for resolving dependencies"
-msgstr "Використання інстальованих пакунків для вирішення залежностей"
+msgstr "скористатися встановленими пакунками для розв'язання залежностей"
 
 #: plugins/manifest.py:55
 msgid "include also source packages"
-msgstr "Також включити пакунки з вихідним кодом"
+msgstr "також включити пакунки з початковим кодом"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "явно вказати базові архітектури, якими слід скористатися"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
 msgstr ""
+"розділити пакунки за базовою архітектурою між окремими файлами маніфестів"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "файла вхідних даних «%s» не існує"
 
 #: plugins/manifest.py:268
 #, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "Файл маніфесту '%s' не уснує"
+msgstr "Файл маніфеста «%s» не існує"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -944,16 +945,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"У каталозі виявлено декілька файлів маніфестів. Або скористайтеся назвою "
+"файла з суфіксом «%s.yaml», зберігши лише один файл, або вкажіть файл явно "
+"за допомогою параметра «--manifest»."
 
 #: plugins/manifest.py:477
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "Невідомий тип контрольної суми RPM пакунку: %s"
+msgstr "Невідомий тип контрольної суми пакунка RPM: %s"
 
 #: plugins/manifest.py:492
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "Невідомий тип контрольної суми DNF пакунку: %s"
+msgstr "Невідомий тип контрольної суми пакунка DNF: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
