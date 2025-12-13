@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 02:23+0000\n"
+"POT-Creation-Date: 2025-12-02 08:42+0000\n"
 "PO-Revision-Date: 2025-09-09 12:53+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1780,15 +1780,15 @@ msgstr ""
 #: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
-"Versionlock plugin: número de reglas de bloqueo aplicadas del archivo "
-"\"{}\": {}"
+"Versionlock plugin: número de reglas de bloqueo aplicadas del archivo \"{}"
+"\": {}"
 
 #: plugins/versionlock.py:44
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
-"Versionlock plugin: número de reglas de exclusión aplicadas del archivo "
-"\"{}\": {}"
+"Versionlock plugin: número de reglas de exclusión aplicadas del archivo \"{}"
+"\": {}"
 
 #: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
