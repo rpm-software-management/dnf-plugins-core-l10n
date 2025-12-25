@@ -5,13 +5,14 @@
 # Adolfo Ketzer <reztek@gmail.com>, 2020.
 # David Medina <dmedinacpnl@gmail.com>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# naly zzwd <xeanhort007@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-02 08:42+0000\n"
-"PO-Revision-Date: 2025-03-20 21:27+0000\n"
-"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
+"PO-Revision-Date: 2025-12-25 15:53+0000\n"
+"Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/ca/>\n"
 "Language: ca\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -40,7 +41,7 @@ msgstr "defineix una macro per a l'anàlisi sintàctica del fitxer spec"
 
 #: plugins/builddep.py:95
 msgid "skip build dependencies not available in repositories"
-msgstr ""
+msgstr "omet les dependències de construcció no disponibles als dipòsits"
 
 #: plugins/builddep.py:98
 msgid "treat commandline arguments as spec files"
@@ -78,6 +79,8 @@ msgstr "No s'han satisfet totes les dependències"
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
 msgstr ""
+"Avís: els arguments -D o --define no tenen significat per als paquets rpm "
+"font."
 
 #: plugins/builddep.py:215
 #, python-format
@@ -92,27 +95,31 @@ msgstr "cap paquet que coincideixi: %s"
 #: plugins/changelog.py:37
 #, python-brace-format
 msgid "Not a valid date: \"{0}\"."
-msgstr ""
+msgstr "Data no vàlida: \"{0}\"."
 
 #: plugins/changelog.py:43
 msgid "Show changelog data of packages"
-msgstr ""
+msgstr "Mostra les dades del registre de canvis dels paquets"
 
 #: plugins/changelog.py:51
 msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
 msgstr ""
+"mostra les entrades del registre de canvis des de la DATA. Per evitar "
+"ambigüitats, es recomana el format AAAA-MM-DD."
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
-msgstr ""
+msgstr "mostra el nombre donat d'entrades del registre de canvis per paquet"
 
 #: plugins/changelog.py:58
 msgid ""
 "show only new changelog entries for packages, that provide an upgrade for "
 "some of already installed packages."
 msgstr ""
+"mostra només les entrades noves del registre de canvis per als paquets, que "
+"proporcionen una actualització per a alguns dels paquets ja instal·lats."
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
@@ -125,20 +132,23 @@ msgstr "No hi ha cap coincidència per a l'argument: %s"
 
 #: plugins/changelog.py:109
 msgid "Listing changelogs since {}"
-msgstr ""
+msgstr "S'estan llistant els registres de canvis des de {}"
 
 #: plugins/changelog.py:111
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] ""
+msgstr[0] "S'està llistant només l'últim registre de canvis"
+msgstr[1] "S'estan llistant els {} últims registres de canvis"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
 msgstr ""
+"S'estan llistant només els nous registres de canvis des de la versió "
+"instal·lada del paquet"
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
-msgstr ""
+msgstr "S'estan llistant tots els registres de canvis"
 
 #: plugins/changelog.py:122
 msgid "Changelogs for {}"
@@ -147,11 +157,11 @@ msgstr "Registres de canvis per a {}"
 #: plugins/config_manager.py:38
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
-msgstr ""
+msgstr "gestiona les opcions de configuració i els dipòsits de {prog}"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "seccions de configuració a gestionar, \"main\" o repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -172,21 +182,24 @@ msgstr "imprimeix els valors de les variables per la sortida estàndard"
 
 #: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "habilita els dipòsits (es desa automàticament)"
 
 #: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "inhabilita els dipòsits (es desa automàticament)"
 
 #: plugins/config_manager.py:78
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "es requereix un dels següents arguments: {}"
 
 #: plugins/config_manager.py:87
 msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"Avís: els arguments --enablerepo/--disablerepo no tenen significat amb el "
+"gestor de configuració. Utilitzeu --set-enabled/--set-disabled en el seu "
+"lloc."
 
 #: plugins/config_manager.py:134
 #, python-format
@@ -269,23 +282,23 @@ msgstr ""
 
 #: plugins/copr.py:121
 msgid "List all installed Copr repositories (default)"
-msgstr "Llista tots els dipòsits COPR instal·lats (predeterminat)"
+msgstr "Llista tots els dipòsits Copr instal·lats (predeterminat)"
 
 #: plugins/copr.py:123
 msgid "List enabled Copr repositories"
-msgstr "Llista els dipòsits COPR habilitats"
+msgstr "Llista els dipòsits Copr habilitats"
 
 #: plugins/copr.py:125
 msgid "List disabled Copr repositories"
-msgstr "Llista els dipòsits COPR inhabilitats"
+msgstr "Llista els dipòsits Copr inhabilitats"
 
 #: plugins/copr.py:127
 msgid "List available Copr repositories by user NAME"
-msgstr "Llista els dipòsits COPR disponibles amb per al NOM d'usuari"
+msgstr "Llista els dipòsits Copr disponibles amb per al NOM d'usuari"
 
 #: plugins/copr.py:129
 msgid "Specify an instance of Copr to work with"
-msgstr ""
+msgstr "Especifiqueu una instància de Copr amb la qual treballar"
 
 #: plugins/copr.py:164 plugins/copr.py:255 plugins/copr.py:282
 msgid "Error: "
@@ -296,10 +309,12 @@ msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
+"especifiqueu el concentrador Copr amb `--hub` o utilitzant el format "
+"`concentrador_copr/usuari_copr/nom_projecte_copr`"
 
 #: plugins/copr.py:168
 msgid "multiple hubs specified"
-msgstr ""
+msgstr "múltiples concentradors especificats"
 
 #: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
@@ -314,6 +329,8 @@ msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
+"Format incorrecte del chroot opcional. El format és distribució-versió-"
+"arquitectura."
 
 #: plugins/copr.py:283
 msgid "use format `copr_username/copr_projectname` to reference copr project"
@@ -340,6 +357,20 @@ msgid ""
 "Please do not file bug reports about these packages in Fedora\n"
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
+"\n"
+"S'està habilitant un dipòsit Copr. Tingueu en compte que aquest dipòsit no "
+"forma part\n"
+"de la distribució principal, i la qualitat pot variar.\n"
+"\n"
+"El Projecte Fedora no exerceix cap poder sobre el contingut d'aquest\n"
+"dipòsit més enllà de les regles descrites a les PMF de Copr a\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
+"i els paquets no estan subjectes a cap nivell de qualitat o seguretat.\n"
+"\n"
+"Si us plau, no envieu informes d'errors sobre aquests paquets al Bugzilla\n"
+"de Fedora. En cas de problemes, contacteu amb el propietari d'aquest "
+"dipòsit.\n"
 
 #: plugins/copr.py:316
 msgid "Repository successfully enabled."
@@ -363,6 +394,9 @@ msgid ""
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
+"* Aquests coprs tenen un fitxer de dipòsit amb un format antic que no conté "
+"informació sobre el concentrador Copr - s'ha assumit el predeterminat. "
+"Torneu a habilitar el projecte per corregir-ho."
 
 #: plugins/copr.py:399
 msgid "Can't parse repositories for username '{}'."
@@ -399,25 +433,24 @@ msgstr "Aquesta ordre s'ha d'executar com a root."
 #: plugins/copr.py:510
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "La sol·licitud a {0} ha fallat: {1} - {2}"
 
 #: plugins/copr.py:512
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "No ha estat possible habilitar aquest projecte.\n"
 
 #: plugins/copr.py:517
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr "No existeix aquest dipòsit."
+msgstr "El dipòsit '{0}' no existeix al projecte '{1}'."
 
 #: plugins/copr.py:520
-#, fuzzy
-#| msgid "List enabled Copr repositories"
 msgid ""
 "\n"
 "Available repositories: "
-msgstr "Llista els dipòsits COPR habilitats"
+msgstr ""
+"\n"
+"Dipòsits disponibles: "
 
 #: plugins/copr.py:522
 #, python-brace-format
@@ -428,18 +461,22 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"Si voleu habilitar un dipòsit no predeterminat, utilitzeu la següent ordre:\n"
+"  'dnf copr enable {0} <dipòsit>'\n"
+"Però tingueu en compte que el fitxer de dipòsit instal·lat probablement "
+"necessitarà una modificació manual."
 
 #: plugins/copr.py:528
-#, fuzzy, python-brace-format
-#| msgid "Such repository does not exist."
+#, python-brace-format
 msgid "Project {0} does not exist."
-msgstr "No existeix aquest dipòsit."
+msgstr "El projecte {0} no existeix."
 
 #: plugins/copr.py:531
-#, fuzzy, python-brace-format
-#| msgid "Failed to disable copr repo {}/{}"
+#, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr "No s'ha pogut inhabilitar el dipòsit copr {}/{}"
+msgstr "S'ha fallat de connectar a {0}: {1}"
 
 #: plugins/copr.py:578
 #, python-brace-format
@@ -457,15 +494,27 @@ msgid ""
 "\n"
 "These repositories have been enabled automatically."
 msgstr ""
+"El mantenidor del dipòsit Copr habilitat ha decidit fer-lo\n"
+"dependent d'altres dipòsits. Aquests dipòsits són\n"
+"ungualment necessaris per a la instal·lació correcta de RPMs des del\n"
+"dipòsit Copr principal (proporcionen dependències d'execució).\n"
+"\n"
+"Tingueu en compte que la nota sobre qualitat i informes d'errors\n"
+"anterior també s'aplica aquí, el Projecte Fedora no controla el\n"
+"contingut. Si us plau, reviseu la llista:\n"
+"\n"
+"{0}\n"
+"\n"
+"Aquests dipòsits s'han habilitat automàticament."
 
 #: plugins/copr.py:599
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "Voleu mantenir-los habilitats?"
 
 #: plugins/copr.py:632
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
-msgstr ""
+msgstr "S'ha produït un error en eliminar el dipòsit copr {0}/{1}/{2}"
 
 #: plugins/copr.py:643
 msgid "Failed to disable copr repo {}/{}"
@@ -480,14 +529,12 @@ msgid "Interact with Playground repository."
 msgstr "Interactua amb el dipòsit Playground."
 
 #: plugins/copr.py:689
-#, fuzzy
-#| msgid "Interact with Playground repository."
 msgid "Enabling a Playground repository."
-msgstr "Interactua amb el dipòsit Playground."
+msgstr "S'està habilitant un dipòsit Playground."
 
 #: plugins/copr.py:690
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Voleu continuar?"
 
 #: plugins/copr.py:734
 msgid "Playground repositories successfully enabled."
@@ -547,6 +594,8 @@ msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
 msgstr ""
+"Permet l'eliminació de paquets d'instal·lació única. Utilitzar aquesta opció "
+"pot donar lloc a un intent d'eliminar el nucli en execució."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
@@ -571,24 +620,32 @@ msgstr "instal·la els paquets debuginfo"
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
 msgstr ""
+"No s'ha pogut trobar el paquet debuginfo per als següents paquets "
+"disponibles: %s"
 
 #: plugins/debuginfo-install.py:186
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
 msgstr ""
+"No s'ha pogut trobar el paquet debugsource per als següents paquets "
+"disponibles: %s"
 
 #: plugins/debuginfo-install.py:191
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
 msgstr ""
+"No s'ha pogut trobar el paquet debuginfo per als següents paquets "
+"instal·lats: %s"
 
 #: plugins/debuginfo-install.py:196
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
 msgstr ""
+"No s'ha pogut trobar el paquet debugsource per als següents paquets "
+"instal·lats: %s"
 
 #: plugins/debuginfo-install.py:200
 msgid "Unable to find a match"
@@ -612,7 +669,7 @@ msgstr "en lloc seu baixa el paquet -debuginfo"
 
 #: plugins/download.py:57
 msgid "download the -debugsource package instead"
-msgstr ""
+msgstr "baixa el paquet -debugsource en el seu lloc"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
@@ -628,6 +685,8 @@ msgid ""
 "when running with --resolve, download all dependencies (do not exclude "
 "already installed ones)"
 msgstr ""
+"quan s'executa amb --resolve, baixa totes les dependències (no excloguis les "
+"ja instal·lades)"
 
 #: plugins/download.py:67
 msgid ""
@@ -651,7 +710,7 @@ msgstr "Sortint a causa de l'ajust estricte."
 
 #: plugins/download.py:270
 msgid "Error in resolve of packages:"
-msgstr ""
+msgstr "Error en la resolució de paquets:"
 
 #: plugins/download.py:288
 #, python-format
@@ -667,11 +726,11 @@ msgstr "No hi ha cap paquet %s disponible."
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "La clau PGP següent ha caducat el {0}:"
 
 #: plugins/expired-pgp-keys.py:36
 msgid "For more information about the key:"
-msgstr ""
+msgstr "Per a més informació sobre la clau:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -679,144 +738,141 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"Com a resultat, la instal·lació de paquets signats amb aquesta clau "
+"fallarà.\n"
+"Es recomana eliminar la clau caducada per permetre la importació\n"
+"d'una clau actualitzada. Això podria deixar els paquets ja instal·lats com a "
+"no verificables."
 
 #: plugins/expired-pgp-keys.py:43
 msgid "Do you want to remove the key?"
-msgstr ""
+msgstr "Voleu eliminar la clau?"
 
 #: plugins/expired-pgp-keys.py:46
-#, fuzzy
-#| msgid "Repository successfully removed."
 msgid "Key successfully removed."
-msgstr "S'ha eliminat correctament el dipòsit."
+msgstr "S'ha eliminat la clau correctament."
 
 #: plugins/expired-pgp-keys.py:48
 msgid "Failed to remove the key."
-msgstr ""
+msgstr "S'ha fallat d'eliminar la clau."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "Id de grup no vàlid"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr ""
+msgstr "Dades traduïdes no vàlides, han de tenir el format 'idioma:text'"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
-msgstr ""
+msgstr "Idioma no vàlid/bui per a les dades traduïdes"
 
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
+"No es pot generar l'id del grup des de '{}'. Si us plau, especifiqueu l'id "
+"del grup utilitzant --id."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
-msgstr ""
+msgstr "crea i edita el fitxer de metadades dels grups"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
-msgstr ""
+msgstr "carrega les metadades dels grups des del fitxer"
 
 #: plugins/groups_manager.py:93
 msgid "save groups metadata to file"
-msgstr ""
+msgstr "desa les metadades dels grups al fitxer"
 
 #: plugins/groups_manager.py:95
 msgid "load and save groups metadata to file"
-msgstr ""
+msgstr "carrega i desa les metadades dels grups al fitxer"
 
 #: plugins/groups_manager.py:97
-#, fuzzy
-#| msgid "print variable values to stdout"
 msgid "print the result metadata to stdout"
-msgstr "imprimeix els valors de les variables per la sortida estàndard"
+msgstr "imprimeix les metadades resultants per la sortida estàndard"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr ""
+msgstr "id del grup"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
-msgstr ""
+msgstr "nom del grup"
 
 #: plugins/groups_manager.py:103
-#, fuzzy
-#| msgid "No description given"
 msgid "group description"
-msgstr "No s'ha proporcionat cap descripció"
+msgstr "descripció del grup"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr ""
+msgstr "ordre de visualització del grup"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
-msgstr ""
+msgstr "nom traduït per al grup"
 
 #: plugins/groups_manager.py:111
 msgid "translated description for the group"
-msgstr ""
+msgstr "descripció traduïda per al grup"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
-msgstr ""
+msgstr "fes el grup visible per a l'usuari (predeterminat)"
 
 #: plugins/groups_manager.py:118
 msgid "make the group user invisible"
-msgstr ""
+msgstr "fes el grup invisible per a l'usuari"
 
 #: plugins/groups_manager.py:123
 msgid "add packages to the mandatory section"
-msgstr ""
+msgstr "afegeix paquets a la secció obligatòria"
 
 #: plugins/groups_manager.py:125
 msgid "add packages to the optional section"
-msgstr ""
+msgstr "afegeix paquets a la secció opcional"
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
-msgstr ""
+msgstr "elimina paquets del grup en lloc d'afegir-los"
 
 #: plugins/groups_manager.py:129
-#, fuzzy
-#| msgid "Display a list of unresolved dependencies for repositories"
 msgid "include also direct dependencies for packages"
-msgstr "Mostra un llistat de les dependències sense resoldre per als dipòsits"
+msgstr "inclou també les dependències directes per als paquets"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr ""
+msgstr "especificació del paquet"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
-msgstr ""
+msgstr "No es pot editar el grup sense especificar-lo (utilitzeu --id o --name)"
 
 #: plugins/groups_manager.py:190
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't load file \"{}\": {}"
-msgstr "No es pot escriure el fitxer '{}'"
+msgstr "No es pot carregar el fitxer \"{}\": {}"
 
 #: plugins/groups_manager.py:206
-#, fuzzy
-#| msgid "Can't write file '{}'"
 msgid "Can't save file \"{}\": {}"
-msgstr "No es pot escriure el fitxer '{}'"
+msgstr "No es pot desar el fitxer \"{}\": {}"
 
 #: plugins/groups_manager.py:261
 msgid "No match for argument: {}"
-msgstr ""
+msgstr "No hi ha cap coincidència per a l'argument: {}"
 
 #: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
-msgstr ""
+msgstr "No es poden eliminar paquets d'un grup inexistent"
 
 #: plugins/groups_manager.py:307
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
+"L'id de grup '{}' generat des de '{}' està duplicat. Si us plau, "
+"especifiqueu l'id del grup utilitzant --id."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
@@ -845,51 +901,46 @@ msgstr "Es reconstrueix el dipòsit local"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Operacions per treballar amb fitxers de manifest de paquets RPM"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "especificacions de paquet per processar"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "camí del fitxer d'entrada a utilitzar"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "camí del fitxer de manifest a utilitzar"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr ""
-"Llista els paquets instal·lats que no es requereixin per cap altre paquet"
+msgstr "utilitza els paquets instal·lats per resoldre les dependències"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "Display a list of unresolved dependencies for repositories"
 msgid "include also source packages"
-msgstr "Mostra un llistat de les dependències sense resoldre per als dipòsits"
+msgstr "inclou també els paquets font"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "especifiqueu explícitament les arquitectures base a utilitzar"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
 msgstr ""
+"separa els paquets per arquitectura base en fitxers de manifest individuals"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "El fitxer d'entrada '%s' no existeix"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Such repository does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "No existeix aquest dipòsit."
+msgstr "El fitxer de manifest '%s' no existeix"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -898,18 +949,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"S'han detectat múltiples fitxers de manifest al directori. Utilitzeu el nom "
+"del fitxer amb el sufix '%s.yaml', mantingueu només un fitxer, o "
+"especifiqueu un fitxer explícitament utilitzant l'opció '--manifest'."
 
 #: plugins/manifest.py:477
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "cap paquet que coincideixi: %s"
+msgstr "Tipus de suma de comprovació del paquet RPM desconegut: %s"
 
 #: plugins/manifest.py:492
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "cap paquet que coincideixi: %s"
+msgstr "Tipus de suma de comprovació del paquet DNF desconegut: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
@@ -922,64 +974,62 @@ msgstr "Es migren les dades de l'històric..."
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "Baixa paquets dels mòduls i/o crea un dipòsit amb dades modulars"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "MÒDUL"
 
 #: plugins/modulesync.py:45
-#, fuzzy
-#| msgid "packages to download"
 msgid "modules to download"
-msgstr "paquets a baixar"
+msgstr "mòduls a baixar"
 
 #: plugins/modulesync.py:47
-#, fuzzy
-#| msgid "Specify repositories to check"
 msgid "enable repositories with source packages"
-msgstr "Especifica els dipòsits a comprovar"
+msgstr "habilita els dipòsits amb paquets font"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "habilita els dipòsits amb paquets debug-info i debug-source"
 
 #: plugins/modulesync.py:53
-#, fuzzy
-#| msgid "download all packages from remote repo"
 msgid "download only packages from newest modules"
-msgstr "baixa tots els paquets del dipòsit remot"
+msgstr "baixa només els paquets dels mòduls més nous"
 
 #: plugins/modulesync.py:85
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "No s'ha pogut trobar una coincidència per a l'argument: '{}'"
+msgstr[1] "No s'han pogut trobar coincidències per als arguments: '{}'"
 
 #: plugins/modulesync.py:107
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"La creació del dipòsit ha fallat amb el codi de retorn {}. Tot el contingut "
+"baixat s'ha mantingut al sistema"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "No hi ha cap coincidència per a l'artefacte '{0}' del mòdul '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
+"No hi ha cap coincidència per al nom del paquet '{0}' al perfil {1} del "
+"mòdul {2}"
 
 #: plugins/modulesync.py:166
 msgid "No mach for argument '{}'"
-msgstr ""
+msgstr "No hi ha cap coincidència per a l'argument '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "No s'ha pogut satisfer el requisit {}"
 
 #: plugins/needs_restarting.py:68
 #, python-brace-format
@@ -987,6 +1037,8 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
+"No s'ha trobat cap paquet instal·lat per al nom del paquet \"{pkg}\" "
+"especificat al fitxer needs-restarting \"{file}\"."
 
 #: plugins/needs_restarting.py:309
 msgid "determine updated binaries that need restarting"
@@ -1000,68 +1052,71 @@ msgstr "considera únicament els processos d'aquest usuari"
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
+"només informa si es requereix un reinici (codi de sortida 1) o no (codi de "
+"sortida 0)"
 
 #: plugins/needs_restarting.py:319
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "només informa dels serveis systemd afectats"
 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
-msgstr ""
+msgstr "no llistis els processos obsolets que corresponen a un servei systemd"
 
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
-msgstr ""
+msgstr "Les biblioteques o serveis bàsics s'han actualitzat des de l'inici:"
 
 #: plugins/needs_restarting.py:350
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
+"Es requereix reiniciar per utilitzar completament aquestes actualitzacions."
 
 #: plugins/needs_restarting.py:351
 msgid "More information:"
-msgstr ""
+msgstr "Més informació:"
 
 #: plugins/needs_restarting.py:355
 msgid "No core libraries or services have been updated since boot-up."
-msgstr ""
+msgstr "No s'han actualitzat biblioteques o serveis bàsics des de l'inici."
 
 #: plugins/needs_restarting.py:357
 msgid "Reboot should not be necessary."
-msgstr ""
+msgstr "Reiniciar no hauria de ser necessari."
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
-msgstr ""
+msgstr "Línia d'acció incorrecta \"%s\": %s"
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
 #: plugins/pre-transaction-actions.py:118
 #, python-format
 msgid "Bad Transaction State: %s"
-msgstr ""
+msgstr "Estat de transacció incorrecte: %s"
 
 #: plugins/post-transaction-actions.py:160
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr ""
+msgstr "post-transaction-actions: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "post-transaction-actions: Ordre Incorrecta \"%s\": %s"
 
 #: plugins/pre-transaction-actions.py:145
 #: plugins/pre-transaction-actions.py:147
 #, python-format
 msgid "pre-transaction-actions: %s"
-msgstr ""
+msgstr "accions prèvies a la transacció: %s"
 
 #: plugins/pre-transaction-actions.py:149
 #, python-format
 msgid "pre-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "accions prèvies a la transacció: ordre incorrecta \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
@@ -1070,6 +1125,7 @@ msgstr "Mostra un llistat de les dependències sense resoldre per als dipòsits"
 #: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
+"Repoclosure ha finalitzat amb dependències no resoltes ({}) en {} paquets."
 
 #: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1091,128 +1147,142 @@ msgstr "Comprova la conclusió per tan sols aquest paquet"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
-msgstr ""
+msgstr "Llista les diferències entre dos conjunts de dipòsits"
 
 #: plugins/repodiff.py:58
 msgid "Specify old repository, can be used multiple times"
-msgstr ""
+msgstr "Especifiqueu el dipòsit antic, es pot utilitzar múltiples vegades"
 
 #: plugins/repodiff.py:60
 msgid "Specify new repository, can be used multiple times"
-msgstr ""
+msgstr "Especifiqueu el dipòsit nou, es pot utilitzar múltiples vegades"
 
 #: plugins/repodiff.py:63
 msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
 msgstr ""
+"Especifiqueu les arquitectures a comparar, es pot utilitzar múltiples "
+"vegades. Per defecte, només es comparen els rpms font."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
-msgstr ""
+msgstr "Mostra dades addicionals sobre la mida dels canvis."
 
 #: plugins/repodiff.py:69
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
+"Compara paquets també per arquitectura. Per defecte els paquets es comparen "
+"només per nom."
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
-msgstr ""
+msgstr "Mostra un missatge senzill d'una línia per als paquets modificats."
 
 #: plugins/repodiff.py:74
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
 msgstr ""
+"Divideix les dades per als paquets modificats entre paquets actualitzats i "
+"degradats."
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
-msgstr ""
+msgstr "Tant els dipòsits antics com els nous han d'estar establerts."
 
 #: plugins/repodiff.py:178
 msgid "Size change: {} bytes"
-msgstr ""
+msgstr "Canvi de mida: {} bytes"
 
 #: plugins/repodiff.py:184
 msgid "Added package  : {}"
-msgstr ""
+msgstr "Paquet afegit  : {}"
 
 #: plugins/repodiff.py:187
 msgid "Removed package: {}"
-msgstr ""
+msgstr "Paquet eliminat: {}"
 
 #: plugins/repodiff.py:190
 msgid "Obsoleted by   : {}"
-msgstr ""
+msgstr "Fet obsolet per   : {}"
 
 #: plugins/repodiff.py:195
 msgid ""
 "\n"
 "Upgraded packages"
 msgstr ""
+"\n"
+"Paquets actualitzats"
 
 #: plugins/repodiff.py:200
 msgid ""
 "\n"
 "Downgraded packages"
 msgstr ""
+"\n"
+"Paquets degradats"
 
 #: plugins/repodiff.py:207
 msgid ""
 "\n"
 "Modified packages"
 msgstr ""
+"\n"
+"Paquets modificats"
 
 #: plugins/repodiff.py:212
 msgid ""
 "\n"
 "Summary"
 msgstr ""
+"\n"
+"Resum"
 
 #: plugins/repodiff.py:213
 msgid "Added packages: {}"
-msgstr ""
+msgstr "Paquets afegits: {}"
 
 #: plugins/repodiff.py:214
 msgid "Removed packages: {}"
-msgstr ""
+msgstr "Paquets eliminats: {}"
 
 #: plugins/repodiff.py:216
 msgid "Upgraded packages: {}"
-msgstr ""
+msgstr "Paquets actualitzats: {}"
 
 #: plugins/repodiff.py:217
 msgid "Downgraded packages: {}"
-msgstr ""
+msgstr "Paquets degradats: {}"
 
 #: plugins/repodiff.py:219
 msgid "Modified packages: {}"
-msgstr ""
+msgstr "Paquets modificats: {}"
 
 #: plugins/repodiff.py:222
 msgid "Size of added packages: {}"
-msgstr ""
+msgstr "Mida dels paquets afegits: {}"
 
 #: plugins/repodiff.py:223
 msgid "Size of removed packages: {}"
-msgstr ""
+msgstr "Mida dels paquets eliminats: {}"
 
 #: plugins/repodiff.py:225
 msgid "Size of modified packages: {}"
-msgstr ""
+msgstr "Mida dels paquets modificats: {}"
 
 #: plugins/repodiff.py:228
 msgid "Size of upgraded packages: {}"
-msgstr ""
+msgstr "Mida dels paquets actualitzats: {}"
 
 #: plugins/repodiff.py:230
 msgid "Size of downgraded packages: {}"
-msgstr ""
+msgstr "Mida dels paquets degradats: {}"
 
 #: plugins/repodiff.py:232
 msgid "Size change: {}"
-msgstr ""
+msgstr "Canvi de mida: {}"
 
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
@@ -1232,16 +1302,12 @@ msgid "Pass either --old or --new, not both!"
 msgstr "Passeu --old o --new, però no ambdós!"
 
 #: plugins/repomanage.py:61
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --oldonly or --new, not both!"
-msgstr "Passeu --old o --new, però no ambdós!"
+msgstr "Passeu o bé --oldonly o --new, no tots dos!"
 
 #: plugins/repomanage.py:63
-#, fuzzy
-#| msgid "Pass either --old or --new, not both!"
 msgid "Pass either --old or --oldonly, not both!"
-msgstr "Passeu --old o --new, però no ambdós!"
+msgstr "Passeu o bé --old o --oldonly, no tots dos!"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
@@ -1256,10 +1322,8 @@ msgid "Print the older packages"
 msgstr "Imprimeix els paquets més antics"
 
 #: plugins/repomanage.py:225
-#, fuzzy
-#| msgid "Print the newest packages"
 msgid "Print the older packages. Exclude the newest packages."
-msgstr "Imprimeix els paquets més nous"
+msgstr "Imprimeix els paquets més antics. Exclou els paquets més nous."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
@@ -1283,86 +1347,92 @@ msgstr "baixa tots els paquets del dipòsit remot"
 
 #: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
-msgstr ""
+msgstr "baixa només els paquets per a aquesta ARQUITECTURA"
 
 #: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
-msgstr ""
+msgstr "elimina els paquets locals que ja no estan presents al dipòsit"
 
 #: plugins/reposync.py:68
 msgid "download all the metadata."
-msgstr ""
+msgstr "baixa totes les metadades."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
 msgstr ""
+"Elimina els paquets que fallin la comprovació de signatura GPG després de "
+"baixar-los"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
-msgstr ""
+msgstr "també baixa i descomprimeix comps.xml"
 
 #: plugins/reposync.py:75
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
+"on desar les metadades del dipòsit baixat. Per defecte és el valor de --"
+"download-path."
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
-msgstr ""
+msgstr "baixa només els paquets més nous per dipòsit"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "No afegeixis el nom del dipòsit al camí de baixada."
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
-msgstr ""
+msgstr "on desar els dipòsits baixats"
 
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
+"intenta establir les marques de temps locals dels fitxers locals amb les del "
+"servidor"
 
 #: plugins/reposync.py:87
 msgid "download only source packages"
-msgstr ""
+msgstr "baixa només els paquets font"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr ""
+msgstr "Només llista les URL del que es baixaria, no baixis res"
 
 #: plugins/reposync.py:92
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"Camí del sistema de fitxers que es considera segur per escriure. Per defecte "
+"és el camí de baixada."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "No es pot utilitzar --norepopath amb múltiples dipòsits"
 
 #: plugins/reposync.py:122
-#, fuzzy
-#| msgid "Interact with Copr repositories."
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr "Interactua amb els dipòsits Copr."
+msgstr "No es pot utilitzar --safe-write-path amb múltiples dipòsits"
 
 #: plugins/reposync.py:141
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr ""
+msgstr "Ha fallat l'obtenció de la rèplica per a les metadades: %s"
 
 #: plugins/reposync.py:158
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "Ha fallat l'obtenció de la rèplica per al fitxer de grup."
 
 #: plugins/reposync.py:177
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "S'està eliminant {}: {}"
 
 #: plugins/reposync.py:184
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "La comprovació de la signatura GPG ha fallat."
 
 #: plugins/reposync.py:208
 #, python-brace-format
@@ -1370,21 +1440,23 @@ msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
 msgstr ""
+"L'objectiu de baixada '{0}' per a la ubicació '{1}' del paquet '{2}' està "
+"fora del camí d'escriptura segura '{3}'."
 
 #: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
-msgstr ""
+msgstr "[ELIMINAT] %s"
 
 #: plugins/reposync.py:226
 #, python-format
 msgid "failed to delete file %s"
-msgstr ""
+msgstr "ha fallat l'eliminació del fitxer %s"
 
 #: plugins/reposync.py:235
 #, python-format
 msgid "comps.xml for repository %s saved"
-msgstr ""
+msgstr "comps.xml per al dipòsit %s desat"
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
@@ -1406,6 +1478,10 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"Baixada completada! Utilitzeu 'dnf {command} reboot' per iniciar "
+"l'actualització.\n"
+"Per eliminar metadades i transaccions de la memòria cau utilitzeu 'dnf "
+"{command} clean'"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
@@ -1414,17 +1490,18 @@ msgstr ""
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "Reinici desactivat, no s'està reiniciant."
 
 #: plugins/system_upgrade.py:125
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
-msgstr ""
+msgstr "No es pot desactivar l'apagada de pantalla: %s"
 
 #: plugins/system_upgrade.py:145
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr ""
+"Ha fallat la càrrega del fitxer d'estat: %s, es continua amb l'estat buit."
 
 #: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
@@ -1442,7 +1519,7 @@ msgstr "No s'ha pogut trobar cap registre amb aquest índex."
 
 #: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
-msgstr ""
+msgstr "No s'ha pogut coincidir amb l'entrada del diari systemd"
 
 #: plugins/system_upgrade.py:348
 msgid "Prepare system for upgrade to a new release"
@@ -1456,7 +1533,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "apaga el sistema després que l'operació s'hagi completat"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
@@ -1466,14 +1543,17 @@ msgstr "quins registres s'han de mostrar"
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
+"Versió incompatible de dades. Torneu a executar 'dnf {command} download "
+"[OPCIONS]'"
 
 #: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
+"L'ordre 'offline-distrosync' no es pot utilitzar amb l'opció --no-downgrade"
 
 #: plugins/system_upgrade.py:464
 msgid "Additional information for System Upgrade: {}"
-msgstr ""
+msgstr "Informació addicional per a l'actualització del sistema: {}"
 
 #: plugins/system_upgrade.py:467
 msgid ""
@@ -1497,6 +1577,8 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
+"la transacció no estava preparada per a '{command}'. Torneu a executar 'dnf "
+"{command} download [OPCIONS]'"
 
 #: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
@@ -1504,7 +1586,7 @@ msgstr "l'actualització de versió ja està programada"
 
 #: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
-msgstr ""
+msgstr "el fitxer activador no existeix. se surt silenciosament."
 
 #: plugins/system_upgrade.py:548
 msgid "another upgrade tool is running. exiting quietly."
@@ -1515,7 +1597,7 @@ msgstr ""
 #: plugins/system_upgrade.py:557
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "utilitzeu 'dnf {command} reboot' per començar l'actualització"
 
 #: plugins/system_upgrade.py:577
 msgid "Rebooting to perform upgrade."
@@ -1523,11 +1605,13 @@ msgstr "Es reinicia per a realitzar l'actualització de versió."
 
 #: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
-msgstr ""
+msgstr "S'està iniciant l'actualització fora de línia. Això trigarà una estona."
 
 #: plugins/system_upgrade.py:615
 msgid "Starting offline distrosync. This will take a while."
 msgstr ""
+"S'està iniciant la sincronització de distribució fora de línia. Això trigarà "
+"una estona."
 
 #: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
@@ -1541,6 +1625,8 @@ msgstr "Neteja de les dades baixades..."
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
+"La transacció d'actualització del sistema és buida, el vostre sistema ja "
+"està actualitzat."
 
 #: plugins/system_upgrade.py:672
 msgid "Transaction saved to {}."
@@ -1566,11 +1652,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "Prepara l'actualització fora de línia del sistema"
 
 #: plugins/system_upgrade.py:720
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "Prepara la sincronització de distribució fora de línia del sistema"
 
 #: plugins/versionlock.py:33
 #, python-format
@@ -1583,7 +1669,7 @@ msgstr "Llista de bloqueig sense establir"
 
 #: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
-msgstr "S'afegeix el bloqueig de versió:"
+msgstr "Afegint versionlock a:"
 
 #: plugins/versionlock.py:36
 msgid "Adding exclude on:"
@@ -1591,19 +1677,19 @@ msgstr "S'afegeix l'exclusió:"
 
 #: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "El paquet ja està bloquejat en forma equivalent:"
 
 #: plugins/versionlock.py:38
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "El paquet {} ja està bloquejat"
 
 #: plugins/versionlock.py:39
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "El paquet {} ja està exclòs"
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
-msgstr "S'elimina el bloqueig de versió per:"
+msgstr "Eliminant versionlock per:"
 
 #: plugins/versionlock.py:41
 msgid "No package found for:"
@@ -1611,20 +1697,24 @@ msgstr "No s'ha trobat el paquet de:"
 
 #: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
-msgstr ""
+msgstr "Les exclusions del connector versionlock no s'han aplicat"
 
 #: plugins/versionlock.py:43
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
+"Connector versionlock: nombre de regles de bloqueig del fitxer \"{}\" "
+"aplicades: {}"
 
 #: plugins/versionlock.py:44
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
+"Connector versionlock: nombre de regles d'exclusió del fitxer \"{}\" "
+"aplicades: {}"
 
 #: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
-msgstr ""
+msgstr "Connector versionlock: no s'ha pogut analitzar el patró:"
 
 #: plugins/versionlock.py:138
 msgid "control package version locks"
@@ -1633,10 +1723,14 @@ msgstr "control del bloqueig de versió del paquet"
 #: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
+"Utilitza les especificacions del paquet tal com són, no intentis analitzar-"
+"les"
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
+"El subordre '{}' està obsolet. Utilitzeu el subordre 'exclude' en el seu "
+"lloc."
 
 #~ msgid "repo to modify"
 #~ msgstr "Dipòsit a modificar"
