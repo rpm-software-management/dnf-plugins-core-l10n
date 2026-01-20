@@ -11,14 +11,15 @@
 # Joachim Philipp <joachim.philipp@gmail.com>, 2022.
 # Marius Kamp <msk@posteo.org>, 2022.
 # Christian Goeschel Ndjomouo <cndjomouo@icloud.com>, 2023.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-02 08:42+0000\n"
-"PO-Revision-Date: 2024-11-02 20:38+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2026-01-21 17:55+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/de/>\n"
 "Language: de\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1594,7 +1595,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Startet System-Upgrade. Dies wird eine Weile brauchen."
 
 #: plugins/system_upgrade.py:633
 msgid "Cleaning up downloaded data..."
