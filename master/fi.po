@@ -4,13 +4,15 @@
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022, 2025.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023, 2024.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2023.
+# Jouko Tiilikainen <jti65@users.noreply.translate.fedoraproject.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-02 08:42+0000\n"
-"PO-Revision-Date: 2026-02-01 15:58+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2026-03-13 07:58+0000\n"
+"Last-Translator: Jouko Tiilikainen "
+"<jti65@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
@@ -18,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -889,19 +891,19 @@ msgstr "Uudelleenrakennetaan paikallinen ohjelmistolähde"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Toiminnot RPM-paketin luettelotiedostojen kanssa työskentelemiseen"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "käsiteltävät paketin tiedot"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "syöttötiedoston polku käytettäväksi"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "käytettävä manifestitiedostopolku"
 
 #: plugins/manifest.py:54
 #, fuzzy
@@ -915,16 +917,16 @@ msgstr "sisällytä myös lähdekoodipaketit"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "määritä käytettävät perusarkit"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
-msgstr ""
+msgstr "Erota paketit Basearchin avulla yksittäisiksi luettelotiedostoiksi"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "Syöttötiedostoa %s ei ole olemassa"
 
 #: plugins/manifest.py:268
 #, fuzzy, python-format
@@ -939,6 +941,9 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"Hakemistosta havaittu useita luettelotiedostoja. Käytä joko tiedostonimeä "
+"'%s.yaml'-liitteen kanssa, säilytä vain yksi tiedosto tai määritä tiedosto "
+"nimenomaisesti käyttämällä '--manifest'-vaihtoehtoa."
 
 #: plugins/manifest.py:477
 #, fuzzy, python-format
