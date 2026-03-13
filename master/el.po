@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 08:42+0000\n"
+"POT-Creation-Date: 2026-02-26 06:31+0000\n"
 "PO-Revision-Date: 2026-02-27 00:58+0000\n"
 "Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -289,8 +289,8 @@ msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
-"καθορίστε το Copr hub είτε με το «--hub» είτε χρησιμοποιώντας τη μορφή «"
-"copr_hub/copr_username/copr_projectname»"
+"καθορίστε το Copr hub είτε με το «--hub» είτε χρησιμοποιώντας τη μορφή "
+"«copr_hub/copr_username/copr_projectname»"
 
 #: plugins/copr.py:168
 msgid "multiple hubs specified"
@@ -824,8 +824,8 @@ msgstr "προδιαγραφή πακέτου"
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
-"Αδυναμία επεξεργασίας ομάδας χωρίς τον καθορισμό της (χρησιμοποιήστε --id "
-"ή --name)"
+"Αδυναμία επεξεργασίας ομάδας χωρίς τον καθορισμό της (χρησιμοποιήστε --id ή "
+"--name)"
 
 #: plugins/groups_manager.py:190
 msgid "Can't load file \"{}\": {}"
@@ -1053,7 +1053,8 @@ msgstr ""
 
 #: plugins/needs_restarting.py:350
 msgid "Reboot is required to fully utilize these updates."
-msgstr "Απαιτείται επανεκκίνηση για την πλήρη αξιοποίηση αυτών των ενημερώσεων."
+msgstr ""
+"Απαιτείται επανεκκίνηση για την πλήρη αξιοποίηση αυτών των ενημερώσεων."
 
 #: plugins/needs_restarting.py:351
 msgid "More information:"
@@ -1109,7 +1110,8 @@ msgstr "Εμφάνιση λίστας ανεπίλυτων εξαρτήσεων 
 
 #: plugins/repoclosure.py:70
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
-msgstr "Το repoclosure ολοκληρώθηκε με ανεπίλυτες εξαρτήσεις ({}) σε {} πακέτα."
+msgstr ""
+"Το repoclosure ολοκληρώθηκε με ανεπίλυτες εξαρτήσεις ({}) σε {} πακέτα."
 
 #: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
@@ -1697,7 +1699,8 @@ msgstr "έλεγχος κλειδωμάτων έκδοσης πακέτων"
 
 #: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
-msgstr "Χρήση των προδιαγραφών πακέτων ως έχουν, χωρίς προσπάθεια ανάλυσής τους"
+msgstr ""
+"Χρήση των προδιαγραφών πακέτων ως έχουν, χωρίς προσπάθεια ανάλυσής τους"
 
 #: plugins/versionlock.py:164
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."

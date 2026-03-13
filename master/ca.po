@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 08:42+0000\n"
+"POT-Creation-Date: 2026-02-26 06:31+0000\n"
 "PO-Revision-Date: 2025-12-25 15:53+0000\n"
 "Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -848,7 +848,8 @@ msgstr "especificació del paquet"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
-msgstr "No es pot editar el grup sense especificar-lo (utilitzeu --id o --name)"
+msgstr ""
+"No es pot editar el grup sense especificar-lo (utilitzeu --id o --name)"
 
 #: plugins/groups_manager.py:190
 msgid "Can't load file \"{}\": {}"
@@ -1605,7 +1606,8 @@ msgstr "Es reinicia per a realitzar l'actualització de versió."
 
 #: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
-msgstr "S'està iniciant l'actualització fora de línia. Això trigarà una estona."
+msgstr ""
+"S'està iniciant l'actualització fora de línia. Això trigarà una estona."
 
 #: plugins/system_upgrade.py:615
 msgid "Starting offline distrosync. This will take a while."
