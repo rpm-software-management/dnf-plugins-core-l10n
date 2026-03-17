@@ -2,14 +2,14 @@
 # Marek Blaha <mblaha@redhat.com>, 2020.
 # simmon <simmon@nplob.com>, 2021, 2022.
 # Kim InSoo <simmon@nplob.com>, 2022.
-# 김인수 <simmon@nplob.com>, 2022, 2023, 2024, 2025.
+# 김인수 <simmon@nplob.com>, 2022, 2023, 2024, 2025, 2026.
 # seo hojin <jinswhat@naver.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-26 06:31+0000\n"
-"PO-Revision-Date: 2025-08-10 10:07+0000\n"
+"PO-Revision-Date: 2026-03-18 08:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -164,7 +164,7 @@ msgstr "현재 옵션 저장 (--setopt 와 함께 유용함)"
 
 #: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
-msgstr "지정된 파일 또는 URL에서 repo를 추가 (및 활성화)"
+msgstr "지정된 파일 또는 url에서 repo를 추가 (및 활성화)"
 
 #: plugins/config_manager.py:54
 msgid "print current configuration values to stdout"
@@ -672,7 +672,7 @@ msgstr ""
 #: plugins/download.py:67
 msgid ""
 "print list of urls where the rpms can be downloaded instead of downloading"
-msgstr "내려받기 대신 rpms를 내려받기 할 수 있는 URL 목록 인쇄"
+msgstr "내려받기 대신 rpms를 내려받기 할 수 있는 urls 목록 출력"
 
 #: plugins/download.py:72
 msgid "when running with --url, limit to specific protocols"
