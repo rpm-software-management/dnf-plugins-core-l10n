@@ -11,13 +11,14 @@
 # Jingge Chen <mariocanfly@hotmail.com>, 2022.
 # Zephyr Lykos <fedora@mochaa.ws>, 2023.
 # z z <3397542367@qq.com>, 2025.
+# 耗子 <haozi@loli.email>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-26 06:31+0000\n"
-"PO-Revision-Date: 2025-04-03 00:14+0000\n"
-"Last-Translator: z z <3397542367@qq.com>\n"
+"PO-Revision-Date: 2026-04-02 23:00+0000\n"
+"Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-core-l10n-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -25,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -865,50 +866,45 @@ msgstr "正在重建本地仓库"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "用于处理 RPM 软件包清单文件的操作"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "要处理的软件包规格"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "要使用的输入文件路径"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "要使用的清单文件路径"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr "列出已安装但不被任何其他软件包所需要的软件包"
+msgstr "使用已安装的软件包来解析依赖关系"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "只下载源软件包"
+msgstr "同时包括源软件包"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "明确指定要使用的基础架构"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
-msgstr ""
+msgstr "按基础架构将软件包分隔到单独的清单文件中"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "输入文件 '%s' 不存在"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "项目 {0} 不存在。"
+msgstr "清单文件 '%s' 不存在"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -917,18 +913,18 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"在目录中检测到多个清单文件。请使用带 '%s.yaml' 后缀的文件名，只保留一个文件，"
+"或使用 '--manifest' 选项明确指定文件。"
 
 #: plugins/manifest.py:477
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "无匹配软件包： %s"
+msgstr "未知的 RPM 软件包校验和类型：%s"
 
 #: plugins/manifest.py:492
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "无匹配软件包： %s"
+msgstr "未知的 DNF 软件包校验和类型：%s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
