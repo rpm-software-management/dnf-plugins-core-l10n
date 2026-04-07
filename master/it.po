@@ -9,13 +9,14 @@
 # Alessio <alciregi@posteo.net>, 2021.
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
+# Ali Ciloqlu <ali.ciloqlu@murena.io>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-26 06:31+0000\n"
-"PO-Revision-Date: 2025-08-11 00:04+0000\n"
-"Last-Translator: Nathan <nathan95@live.it>\n"
+"PO-Revision-Date: 2026-04-08 06:58+0000\n"
+"Last-Translator: Ali Ciloqlu <ali.ciloqlu@murena.io>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/it/>\n"
 "Language: it\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -164,7 +165,7 @@ msgstr "gestisce le opzioni di configurazione e i repository di {prog}"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr "sezioni di configurazione da gestire, \"main\" o ID repository"
+msgstr "sezioni di configurazione da gestire, \"main\" o id repository"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
@@ -172,7 +173,7 @@ msgstr "salve le opzioni attuali (utile con --setopt)"
 
 #: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
-msgstr "aggiunge (e abilita) il repository dal file o URL specificati"
+msgstr "aggiunge (e abilita) il repository dal file o url specificati"
 
 #: plugins/config_manager.py:54
 msgid "print current configuration values to stdout"
@@ -688,7 +689,7 @@ msgstr ""
 msgid ""
 "print list of urls where the rpms can be downloaded instead of downloading"
 msgstr ""
-"stampa un elenco di URL da cui è possibile scaricare gli rpm invece di "
+"stampa un elenco di url da cui è possibile scaricare gli rpm invece di "
 "scaricarli"
 
 #: plugins/download.py:72
@@ -754,7 +755,7 @@ msgstr "Rimozione della chiave non riuscita."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr "ID gruppo non valido"
+msgstr "Id gruppo non valido"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
@@ -767,7 +768,7 @@ msgstr "Lingua non valida/vuota per i dati tradotti"
 #: plugins/groups_manager.py:71
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
-"Impossibile generare l'ID del gruppo da '{}'. Specificare l'ID del gruppo "
+"Impossibile generare l'id del gruppo da '{}'. specificare l'id del gruppo "
 "usando --id."
 
 #: plugins/groups_manager.py:79
@@ -792,7 +793,7 @@ msgstr "stampa i metadati risultanti su stdout"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr "ID gruppo"
+msgstr "Id gruppo"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
@@ -868,7 +869,7 @@ msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
-"L'ID gruppo '{}' generato da '{}' è duplicato. Specificare l'ID del gruppo "
+"L'id gruppo '{}' generato da '{}' è duplicato. Specificare l'id del gruppo "
 "usando --id."
 
 #: plugins/leaves.py:32
@@ -1394,7 +1395,7 @@ msgstr "scarica solo pacchetti sorgente"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr "Elenca solo gli URL di ciò che verrebbe scaricato, non scaricare"
+msgstr "Elenca solo gli url di ciò che verrebbe scaricato, non scaricare"
 
 #: plugins/reposync.py:92
 msgid ""
