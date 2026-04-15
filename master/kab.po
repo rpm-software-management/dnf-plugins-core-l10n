@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-08 04:52+0000\n"
-"PO-Revision-Date: 2026-01-21 17:55+0000\n"
+"PO-Revision-Date: 2026-04-16 18:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -210,7 +210,7 @@ msgstr ""
 
 #: plugins/copr.py:71
 msgid "y"
-msgstr ""
+msgstr "i"
 
 #: plugins/copr.py:71
 msgid "yes"
@@ -218,11 +218,11 @@ msgstr "ih"
 
 #: plugins/copr.py:72
 msgid "n"
-msgstr ""
+msgstr "u"
 
 #: plugins/copr.py:72
 msgid "no"
-msgstr ""
+msgstr "uhu"
 
 #: plugins/copr.py:93
 msgid "Interact with Copr repositories."
@@ -1328,7 +1328,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "--releasever issefk ad yili ugar n lqem amiran n unagraw."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:59
@@ -1366,7 +1366,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:318
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Ur izmir ara ad d-yaf iɣmisen s umatar-agi."
 
 #: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
@@ -1453,7 +1453,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Asenker n uleqqem n unagraw. Aya ad yeṭṭef kra n wakud."
 
 #: plugins/system_upgrade.py:633
 msgid "Cleaning up downloaded data..."
