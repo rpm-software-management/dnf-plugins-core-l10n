@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-08 04:52+0000\n"
-"PO-Revision-Date: 2026-01-21 17:55+0000\n"
+"PO-Revision-Date: 2026-04-16 18:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -211,7 +211,7 @@ msgstr ""
 
 #: plugins/copr.py:71
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: plugins/copr.py:71
 msgid "yes"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: plugins/copr.py:72
 msgid "no"
-msgstr ""
+msgstr "לא"
 
 #: plugins/copr.py:93
 msgid "Interact with Copr repositories."
@@ -1209,7 +1209,7 @@ msgstr ""
 
 #: plugins/repomanage.py:234
 msgid "Path to directory"
-msgstr ""
+msgstr "נתיב לתיקייה"
 
 #: plugins/reposync.py:55
 msgid "download all packages from remote repo"
