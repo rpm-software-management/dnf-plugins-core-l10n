@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-08 04:52+0000\n"
-"PO-Revision-Date: 2026-01-21 17:55+0000\n"
+"PO-Revision-Date: 2026-04-16 18:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.fedoraproject.org/"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -219,7 +219,7 @@ msgstr "da"
 
 #: plugins/copr.py:72
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #: plugins/copr.py:72
 msgid "no"
