@@ -1,6 +1,6 @@
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020, 2021, 2022, 2024.
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2018. #zanata, 2020, 2021, 2022, 2024.
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2019. #zanata, 2020, 2021, 2022, 2024.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020, 2021, 2022, 2024, 2026.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2018. #zanata, 2020, 2021, 2022, 2024, 2026.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2019. #zanata, 2020, 2021, 2022, 2024, 2026.
 # Alexey Rubtsov <rushills@gmail.com>, 2021, 2022.
 # V I <xasertop@gmail.com>, 2022.
 # Vi <xasertop@gmail.com>, 2023.
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-08 04:52+0000\n"
-"PO-Revision-Date: 2024-08-20 19:38+0000\n"
+"PO-Revision-Date: 2026-05-03 19:59+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/ru/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -892,51 +892,45 @@ msgstr "Пересборка локального репозитория"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "Операции для работы с файлами манифеста RPM-пакетов"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "спецификации пакетов, которые будут обрабатываться"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "путь к входному файлу для использования"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "путь к файлу манифеста для использования"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr ""
-"Показать список установленных пакетов, не требующихся для других пакетов"
+msgstr "использовать установленные пакеты для разрешения зависимостей"
 
 #: plugins/manifest.py:55
-#, fuzzy
-#| msgid "download only source packages"
 msgid "include also source packages"
-msgstr "загружать только исходные пакеты"
+msgstr "включать также пакеты с исходным кодом"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "явно указать используемые базовые архитектуры"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
-msgstr ""
+msgstr "разделять пакеты по базовой архитектуре на отдельные файлы манифеста"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "Входной файл «%s» не существует"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "Проект «{0}» не существует."
+msgstr "Файл манифеста «%s» не существует"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -945,18 +939,19 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"В каталоге обнаружено несколько файлов манифеста. Используйте имя файла с "
+"суффиксом «%s.yaml», оставьте только один файл или явно укажите файл с "
+"помощью параметра «--manifest»."
 
 #: plugins/manifest.py:477
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "нет подходящих пакетов: %s"
+msgstr "Неизвестный тип контрольной суммы RPM-пакета: %s"
 
 #: plugins/manifest.py:492
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "нет подходящих пакетов: %s"
+msgstr "Неизвестный тип контрольной суммы пакета DNF: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
@@ -1056,6 +1051,7 @@ msgstr "сообщать только о службах systemd, которых 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr ""
+"Не показывать в списке устаревшие процессы, соответствующие службе systemd"
 
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
