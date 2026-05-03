@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2026-02-27 00:58+0000\n"
 "Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -50,6 +50,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "χειρισμός των ορισμάτων γραμμής εντολών ως πηγαία rpm (source rpm)"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -129,10 +130,12 @@ msgid "No match for argument: %s"
 msgstr "Δεν βρέθηκε αντιστοιχία για την παράμετρο: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "Προβολή ιστορικού αλλαγών από {}"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "Προβολή μόνο του τελευταίου ιστορικού αλλαγών"
@@ -148,6 +151,7 @@ msgid "Listing all changelogs"
 msgstr "Προβολή όλων των ιστορικών αλλαγών"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "Αρχεία αλλαγών (Changelogs) για {}"
 
@@ -186,6 +190,7 @@ msgid "disable repos (automatically saves)"
 msgstr "απενεργοποίηση αποθετηρίων (αποθηκεύεται αυτόματα)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "απαιτείται ένα από τα ακόλουθα ορίσματα: {}"
 
@@ -365,6 +370,7 @@ msgid "Repository successfully removed."
 msgstr "Το αποθετήριο αφαιρέθηκε επιτυχώς."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "Άγνωστη υποεντολή {}."
 
@@ -379,10 +385,12 @@ msgstr ""
 "Επανενεργοποιήστε το έργο για να το διορθώσετε."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "Αδυναμία ανάλυσης αποθετηρίων για το όνομα χρήστη «{}»."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "Λίστα των {} coprs"
 
@@ -391,10 +399,12 @@ msgid "No description given"
 msgstr "Δεν δόθηκε περιγραφή"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "Αδυναμία ανάλυσης αναζήτησης για «{}»."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "Αντιστοιχία: {}"
 
@@ -492,6 +502,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Αποτυχία αφαίρεσης του copr repo {0}/{1}/{2}"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Αποτυχία απενεργοποίησης του copr repo {}/{}"
 
@@ -744,6 +755,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "Μη έγκυρη/κενή γλώσσα για τα μεταφρασμένα δεδομένα"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "Αδυναμία δημιουργίας id ομάδας από το '{}'. Παρακαλώ καθορίστε το id ομάδας "
@@ -828,14 +840,17 @@ msgstr ""
 "--name)"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "Αδυναμία φόρτωσης αρχείου \"{}\": {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "Αδυναμία αποθήκευσης αρχείου \"{}\": {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "Δεν βρέθηκε αντιστοιχία για το όρισμα: {}"
 
@@ -844,6 +859,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "Αδυναμία αφαίρεσης πακέτων από μη υπάρχουσα ομάδα"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -857,18 +873,22 @@ msgstr ""
 "Προβολή εγκατεστημένων πακέτων που δεν απαιτούνται από κανένα άλλο πακέτο"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "Αδυναμία δημιουργίας καταλόγου '{}' λόγω '{}'"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "το '{}' δεν είναι κατάλογος"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "Αντιγραφή του '{}' στο τοπικό αποθετήριο"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "Αδυναμία εγγραφής αρχείου '{}'"
 
@@ -976,12 +996,14 @@ msgid "download only packages from newest modules"
 msgstr "λήψη πακέτων μόνο από τα νεότερα αρθρώματα"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Αδυναμία εύρεσης αντιστοιχίας για το όρισμα: '{}'"
 msgstr[1] "Αδυναμία εύρεσης αντιστοιχίας για τα ορίσματα: '{}'"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -1003,11 +1025,13 @@ msgstr ""
 "{2}"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "Καμία αντιστοιχία για το όρισμα '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "Αδυναμία ικανοποίησης της απαίτησης {}"
 
@@ -1109,6 +1133,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Εμφάνιση λίστας ανεπίλυτων εξαρτήσεων για αποθετήρια"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Το repoclosure ολοκληρώθηκε με ανεπίλυτες εξαρτήσεις ({}) σε {} πακέτα."
@@ -1180,18 +1205,22 @@ msgid "Both old and new repositories must be set."
 msgstr "Πρέπει να έχουν οριστεί και το παλαιό και το νέο αποθετήριο."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "Μεταβολή μεγέθους: {} bytes"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr ""
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "Πακέτο που αφαιρέθηκε: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr ""
 
@@ -1228,46 +1257,57 @@ msgstr ""
 "Σύνοψη"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "Πακέτα που προστέθηκαν: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "Πακέτα που αφαιρέθηκαν: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "Αναβαθμισμένα πακέτα: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "Υποβαθμισμένα πακέτα: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "Τροποποιημένα πακέτα: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "Μέγεθος πακέτων που προστέθηκαν: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "Μέγεθος πακέτων που αφαιρέθηκαν: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "Μέγεθος τροποποιημένων πακέτων: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "Μέγεθος αναβαθμισμένων πακέτων: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "Μέγεθος υποβαθμισμένων πακέτων: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "Μεταβολή μεγέθους: {}"
 
@@ -1301,6 +1341,7 @@ msgid "No files to process"
 msgstr "Δεν υπάρχουν αρχεία προς επεξεργασία"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "Αδυναμία ανοίγματος του {}"
 
@@ -1411,6 +1452,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "Αποτυχία λήψης ειδώλου για το αρχείο ομάδων."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "Αφαίρεση {}: {}"
 
@@ -1536,6 +1578,7 @@ msgstr ""
 "no-downgrade"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "Πρόσθετες πληροφορίες για την αναβάθμιση συστήματος: {}"
 
@@ -1608,10 +1651,12 @@ msgstr ""
 "Η συναλλαγή αναβάθμισης είναι κενή, το σύστημά σας είναι ήδη ενημερωμένο."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "Η συναλλαγή αποθηκεύτηκε στο {}."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "Σφάλμα αποθήκευσης συναλλαγής: {}"
 
@@ -1657,10 +1702,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "Το πακέτο είναι ήδη κλειδωμένο σε αντίστοιχη μορφή:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "Το πακέτο {} είναι ήδη κλειδωμένο"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "Το πακέτο {} είναι ήδη εξαιρεμένο"
 
@@ -1677,12 +1724,14 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "Οι εξαιρέσεις από το πρόσθετο versionlock δεν εφαρμόστηκαν"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Πρόσθετο Versionlock: αριθμός κανόνων κλειδώματος από το αρχείο \"{}\" που "
 "εφαρμόστηκαν: {}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1703,6 +1752,7 @@ msgstr ""
 "Χρήση των προδιαγραφών πακέτων ως έχουν, χωρίς προσπάθεια ανάλυσής τους"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Η υποεντολή '{}' είναι παρωχημένη. Χρησιμοποιήστε την υποεντολή 'exclude' "

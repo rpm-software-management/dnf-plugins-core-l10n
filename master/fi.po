@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2026-03-13 07:58+0000\n"
 "Last-Translator: Jouko Tiilikainen "
 "<jti65@users.noreply.translate.fedoraproject.org>\n"
@@ -53,6 +53,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "käsittele komentoriviargumentteja lähde-rpm:na"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -132,10 +133,12 @@ msgid "No match for argument: %s"
 msgstr "Ei vastaavaa argumentille: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "Luettele muutoslokeja {}:sta lähtien"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "Luetellaan vain viimeisin muutosloki"
@@ -150,6 +153,7 @@ msgid "Listing all changelogs"
 msgstr "Luetellaan kaikki muutoslokit"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "Muutoslokit paketille {}"
 
@@ -188,6 +192,7 @@ msgid "disable repos (automatically saves)"
 msgstr "poista ohjelmistolähteet käytöstä (tallentaa automaattisesti)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "yksi seuraavista argumenteista vaaditaan: {}"
 
@@ -382,6 +387,7 @@ msgid "Repository successfully removed."
 msgstr "Ohjelmistolähteen poisto onnistui."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "Tuntematon alikomento {}."
 
@@ -396,10 +402,12 @@ msgstr ""
 "käyttöön muuttaaksesi tätä oletusta."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "Käyttäjätunnuksen ”{}” ohjelmistolähteitä ei voi jäsentää."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "Luettelo käyttäjän {} copr:eista"
 
@@ -408,10 +416,12 @@ msgid "No description given"
 msgstr "Kuvausta ei annettu"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "Hakua ei voi jäsentää '{}':lle."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "Löytyi: {}"
 
@@ -515,6 +525,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "copr-tietovaraston {0}/{1}/{2} poisto epäonnistui"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "copr-tietovaraston {}/{} käytöstä poisto epäonnistui"
 
@@ -760,6 +771,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "Ei kelvollinen/tyhjä kieli käännetyille tiedoille"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "Ryhmätunnusta ei voi luoda syötteestä ”{}”. Määritä ryhmän tunnus "
@@ -842,14 +854,17 @@ msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr "Ryhmää ei voi muokata määrittelemättä sitä (käytä '--id' tai' --name')"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "Tiedostoa ”{}” ei voi ladata: {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "Tiedostoa ”{}” ei voi tallentaa: {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "Ei vastaavaa argumentille: {}"
 
@@ -858,6 +873,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "Paketteja ei voi poistaa olemattomasta ryhmästä"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -870,18 +886,22 @@ msgid "List installed packages not required by any other package"
 msgstr "Luettele asennetut paketit, joita muut paketit eivät vaadi"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "Hakemistoa ”{}” ei voitu luoda, koska tapahtui virhe ”{}”"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "'{}' ei ole hakemisto"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "Kopioidaan ”{}” paikalliseen ohjelmistolähteeseen"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "Tiedostoa '{}' ei voi kirjoittaa"
 
@@ -994,12 +1014,14 @@ msgid "download only packages from newest modules"
 msgstr "lataa vain paketteja uusimmista moduuleista"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Ei vastaavaa argumentille: {}"
 msgstr[1] "Ei vastaavaa argumenteille: {}"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -1018,11 +1040,13 @@ msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr "Ei vastaavuutta paketin nimellä '{0}' profiilissa {1} moduulista {2}"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "Ei vastaavuutta argumentille {}"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "Ei voida täyttää vaatimusta {}"
 
@@ -1117,6 +1141,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Näytä luettelo ohjelmistolähteiden ratkaisemattomista riippuvuuksista"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure päättyi ratkaisemattomilla riippuvuuksilla ({}) {} paketeissa."
@@ -1187,18 +1212,22 @@ msgid "Both old and new repositories must be set."
 msgstr "Sekä vanhat että uudet asennuslähteet on määritettävä."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "Koon muutos: {} tavua"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "Lisättiin paketti  : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "Poistettiin paketti: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "{} vanhentama"
 
@@ -1235,46 +1264,57 @@ msgstr ""
 "Yhteenveto"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "Lisättiin paketit: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "Poistettiin paketit: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "Päivitetyt paketit: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "Vanhennetut paketit: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "Muokatut paketit: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "Lisättyjen pakettien koko: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "Poistettujen pakettien koko: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "Muokattujen pakettien koko: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "Päivitettyjen pakettien koko: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "Vanhennettujen pakettien koko: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "Koon muutos: {}"
 
@@ -1308,6 +1348,7 @@ msgid "No files to process"
 msgstr "Ei tiedostoja käsiteltäväksi"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "Ei voida avata {}"
 
@@ -1424,6 +1465,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "Ryhmätiedoston peilin saaminen epäonnistui."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "Poistetaan {}: {}"
 
@@ -1546,6 +1588,7 @@ msgstr ""
 "kanssa"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "Lisätietoja järjestelmän päivityksestä: {}"
 
@@ -1621,10 +1664,12 @@ msgstr ""
 "Järjestelmän päivitystapahtuma on tyhjä, järjestelmäsi on jo ajan tasalla."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "Transaktio tallennettu tiedostoon {}."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "Transaktion tallennuksessa tapahtui virhe: {}"
 
@@ -1671,10 +1716,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "Paketti on jo lukittu vastaavassa muodossa:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "Paketti {} on jo lukittu"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "Paketti {} on jo suljettu pois"
 
@@ -1691,12 +1738,14 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "versionlock-liitännäisen määrittämää poissulkemista ei sovellettu"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Versionlock-laajennus: lukittujen sääntöjen lukumäärä tiedostosta \"{}\" "
 "otettu käyttöön: {}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1717,6 +1766,7 @@ msgstr ""
 "Käytä pakettimäärityksiä sellaisina kuin ne ovat, älä yritä jäsentää niitä"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Alikomento ”{}” on vanhentunut. Käytä sen sijaan ”exclude”-alikomentoa."

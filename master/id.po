@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2025-10-13 17:54+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
@@ -48,6 +48,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "memperlakukan argumen baris perintah sebagai rpm sumber"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -127,10 +128,12 @@ msgid "No match for argument: %s"
 msgstr "Tidak ada yang cocok untuk argumen: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "Mencantumkan log perubahan sejak {}"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "Hanya mencantumkan log perubahan terbaru"
@@ -144,6 +147,7 @@ msgid "Listing all changelogs"
 msgstr "Membuat daftar semua log perubahan"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "Changelog bagi {}"
 
@@ -181,6 +185,7 @@ msgid "disable repos (automatically saves)"
 msgstr "menonaktifkan repo (menyimpan secara otomatis)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "salah satu dari argumen berikut diperlukan: {}"
 
@@ -374,6 +379,7 @@ msgid "Repository successfully removed."
 msgstr "Repositori sukses dibuang."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "Sub perintah tak dikenal {}."
 
@@ -388,10 +394,12 @@ msgstr ""
 "Aktifkan kembali proyek untuk memperbaikinya."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "Tak bisa mengurai repositori untuk nama pengguna '{}'."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "Daftar {} coprs"
 
@@ -400,10 +408,12 @@ msgid "No description given"
 msgstr "Tidak ada deskripsi yang diberikan"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "Tak bisa mengurai pencarian untuk '{}'."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "Cocok: {}"
 
@@ -507,6 +517,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Gagal menghapus copr repo {0}/{1}/{2}"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Gagal menonaktifkan copr repo {}/{}"
 
@@ -755,6 +766,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "Bahasa yang tidak valid/kosong untuk data yang diterjemahkan"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "Tidak dapat membuat id grup dari ‘{}’. Harap tentukan id grup menggunakan --"
@@ -838,14 +850,17 @@ msgstr ""
 "Tidak dapat mengedit grup tanpa menentukannya (gunakan --id atau --name)"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "Tidak dapat memuat berkas “{}”: {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "Tidak dapat menyimpan berkas “{}”: {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "Tidak ada kecocokan untuk argumen: {}"
 
@@ -854,6 +869,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "Tidak dapat menghapus paket dari grup yang tidak ada"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -866,18 +882,22 @@ msgid "List installed packages not required by any other package"
 msgstr "Buat daftar paket terinstal yang tidak diperlukan oleh paket lain"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "Tidak dapat membuat direktori ‘{}’ karena '{}'"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "'{}' bukan sebuah direktori"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "Menyalin ‘{}’ ke repo lokal"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "Tidak dapat menulis berkas '{}'"
 
@@ -983,11 +1003,13 @@ msgid "download only packages from newest modules"
 msgstr "unduh hanya paket dari modul terbaru"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Tidak dapat menemukan kecocokan untuk argumen: '{}'"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -1007,11 +1029,13 @@ msgstr ""
 "Tidak ada kecocokan untuk nama paket ‘{0}’ di profil {1} dari modul {2}"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "Tidak ada mach untuk argumen '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "Tidak dapat memenuhi kebutuhan {}"
 
@@ -1108,6 +1132,7 @@ msgstr ""
 "Menampilkan daftar dependensi yang belum terselesaikan untuk repositori"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Penutupan kembali diakhiri dengan ketergantungan yang belum terselesaikan "
@@ -1179,18 +1204,22 @@ msgid "Both old and new repositories must be set."
 msgstr "Baik repositori lama maupun baru harus ditetapkan."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "Perubahan ukuran: {} byte"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "Paket yang ditambahkan: {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "Paket yang dihapus: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "Dihapus oleh : {}"
 
@@ -1227,46 +1256,57 @@ msgstr ""
 "Ringkasan"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "Paket yang ditambahkan: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "Paket yang dihapus: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "Paket yang ditingkatkan: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "Paket yang diturunkan: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "Paket yang dimodifikasi: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "Ukuran paket yang ditambahkan: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "Ukuran paket yang dihapus: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "Ukuran paket yang dimodifikasi: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "Ukuran paket yang ditingkatkan: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "Ukuran paket yang diturunkan: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "Perubahan ukuran: {}"
 
@@ -1300,6 +1340,7 @@ msgid "No files to process"
 msgstr "Tidak ada berkas untuk diproses"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "Tidak dapat membuka {}"
 
@@ -1410,6 +1451,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "Gagal mendapatkan mirror untuk berkas grup."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "Menghapus {}: {}"
 
@@ -1533,6 +1575,7 @@ msgstr ""
 "downgrade"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "Informasi tambahan untuk System Upgrade: {}"
 
@@ -1606,10 +1649,12 @@ msgid ""
 msgstr "Transaksi peningkatan sistem kosong, sistem Anda sudah diperbarui."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "Transaksi tersimpan ke {}."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "Gagal menyimpan transaksi: {}"
 
@@ -1655,10 +1700,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "Paket sudah terkunci dalam bentuk yang setara:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "Paket {} sudah terkunci"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "Paket {} sudah dikecualikan"
 
@@ -1675,11 +1722,13 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "Pengecualian dari plugin versionlock tidak diterapkan"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Plugin versionlock: jumlah aturan kunci dari berkas “{}” yang diterapkan: {}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1700,6 +1749,7 @@ msgstr ""
 "Gunakan spesifikasi paket sebagaimana adanya, jangan coba-coba menguraikannya"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Subperintah ‘{}’ sudah tidak digunakan lagi. Gunakan subperintah 'exclude' "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2025-08-18 09:47+0000\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -49,6 +49,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "komut satırı argümanlarını kaynak rpm olarak değerlendir"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -128,10 +129,12 @@ msgid "No match for argument: %s"
 msgstr "Argüman için eşleşme yok: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "{} tarihinden itibaren değişiklik günlükleri listeleniyor"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "Yalnızca en son değişiklik günlüğü listeleniyor"
@@ -148,6 +151,7 @@ msgid "Listing all changelogs"
 msgstr "Tüm değişiklik günlükleri listeleniyor"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "{} için değişiklik günlükleri"
 
@@ -185,6 +189,7 @@ msgid "disable repos (automatically saves)"
 msgstr "depoları devre dışı bırak (otomatik olarak kaydeder)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "şu argümanlardan biri gereklidir: {}"
 
@@ -381,6 +386,7 @@ msgid "Repository successfully removed."
 msgstr "Depo başarıyla kaldırıldı."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "Bilinmeyen alt komut {}."
 
@@ -395,10 +401,12 @@ msgstr ""
 "projeyi yeniden etkinleştirin."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "'{}' kullanıcı adı için depolar ayrıştırılamıyor."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "{} kullanıcısına ait copr'ların listesi"
 
@@ -407,10 +415,12 @@ msgid "No description given"
 msgstr "Açıklama verilmedi"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "'{}' için arama ayrıştırılamıyor."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "Eşleşti: {}"
 
@@ -514,6 +524,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "{0}/{1}/{2} copr deposu kaldırılamadı"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "{}/{} copr deposu devre dışı bırakılamadı"
 
@@ -756,6 +767,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "Çevrilen veri için geçersiz/boş dil"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "'{}'den grup kimliği oluşturulamıyor. Lütfen --id kullanarak grup kimliğini "
@@ -838,14 +850,17 @@ msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr "Grup belirtilmediği için düzenlenemiyor (--id veya --name kullanın)"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "\"{}\" dosyası yüklenemiyor: {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "\"{}\" dosyası kaydedilemiyor: {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "Argüman için eşleşme yok: {}"
 
@@ -854,6 +869,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "Var olmayan gruptan paketler kaldırılamaz"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -866,18 +882,22 @@ msgid "List installed packages not required by any other package"
 msgstr "Başka bir paketin gerektirmediği kurulu paketleri listele"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "'{}' dizini oluşturulamadı: '{}'"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "'{}' bir dizin değil"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "'{}' yerel depoya kopyalanıyor"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "'{}' dosyası yazılamıyor"
 
@@ -983,12 +1003,14 @@ msgid "download only packages from newest modules"
 msgstr "yalnızca en yeni modüllerden paketleri indir"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Argüman için eşleşme bulunamadı: '{}'"
 msgstr[1] "Argümanlar için eşleşme bulunamadı: '{}'"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -1007,11 +1029,13 @@ msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr "{2} modülünden {1} profilindeki '{0}' paket adı için eşleşme yok"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "'{}' argümanı için eşleşme yok"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "{} gereksinimi karşılanamıyor"
 
@@ -1111,6 +1135,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Depolar için çözümlenmemiş bağımlılıkların bir listesini görüntüle"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure, {} çözümlenmemiş bağımlılıkla ({} paket boyunca) sona erdi."
@@ -1180,18 +1205,22 @@ msgid "Both old and new repositories must be set."
 msgstr "Hem eski hem de yeni depolar ayarlanmalıdır."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "Boyut değişimi: {} bayt"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "Eklenen paket  : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "Kaldırılan paket: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "Kullanım dışı bırakan: {}"
 
@@ -1228,46 +1257,57 @@ msgstr ""
 "Özet"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "Eklenen paketler: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "Kaldırılan paketler: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "Yükseltilen paketler: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "Sürümü düşürülen paketler: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "Değiştirilen paketler: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "Eklenen paketlerin boyutu: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "Kaldırılan paketlerin boyutu: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "Değiştirilen paketlerin boyutu: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "Yükseltilen paketlerin boyutu: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "Sürümü düşürülen paketlerin boyutu: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "Boyut değişikliği: {}"
 
@@ -1307,6 +1347,7 @@ msgid "No files to process"
 msgstr "İşlenecek dosya yok"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "{} açılamadı"
 
@@ -1419,6 +1460,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "Grup dosyası için yansı alınamadı."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "{} kaldırılıyor: {}"
 
@@ -1539,6 +1581,7 @@ msgstr ""
 "'offline-distrosync' komutu --no-downgrade seçeneği ile birlikte kullanılamaz"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "Sistem yükseltme için ek bilgiler: {}"
 
@@ -1610,10 +1653,12 @@ msgid ""
 msgstr "Sistem yükseltme (system-upgrade) işlemi boş, sisteminiz zaten güncel."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "İşlem {} dosyasına kaydedildi."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "İşlem kaydedilirken hata oluştu: {}"
 
@@ -1659,10 +1704,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "Paket zaten eşdeğer biçimde kilitlenmiş:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "{} paketi zaten kilitlendi"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "{} paketi zaten hariç tutuldu"
 
@@ -1679,12 +1726,14 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "versionlock eklentisinin hariç tutmaları uygulanmadı"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Versionlock eklentisi: \"{}\" dosyasından uygulanan kilit kuralları sayısı: "
 "{}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1704,6 +1753,7 @@ msgid "Use package specifications as they are, do not try to parse them"
 msgstr "Paket belirtimlerini oldukları gibi kullan, ayrıştırmaya çalışma"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "'{}' alt komutu kullanımdan kaldırıldı. Bunun yerine 'exclude' alt komutunu "

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2025-12-25 15:53+0000\n"
 "Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -52,6 +52,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "tracta els arguments de la línia d'ordres com a rpm de les fonts"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -131,10 +132,12 @@ msgid "No match for argument: %s"
 msgstr "No hi ha cap coincidència per a l'argument: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "S'estan llistant els registres de canvis des de {}"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "S'està llistant només l'últim registre de canvis"
@@ -151,6 +154,7 @@ msgid "Listing all changelogs"
 msgstr "S'estan llistant tots els registres de canvis"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "Registres de canvis per a {}"
 
@@ -189,6 +193,7 @@ msgid "disable repos (automatically saves)"
 msgstr "inhabilita els dipòsits (es desa automàticament)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "es requereix un dels següents arguments: {}"
 
@@ -385,6 +390,7 @@ msgid "Repository successfully removed."
 msgstr "S'ha eliminat correctament el dipòsit."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "Subordre desconeguda {}."
 
@@ -399,10 +405,12 @@ msgstr ""
 "Torneu a habilitar el projecte per corregir-ho."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "No es poden analitzar sintàcticament els dipòsits per a l'usuari '{}'."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "Llista dels copr {}"
 
@@ -411,10 +419,12 @@ msgid "No description given"
 msgstr "No s'ha proporcionat cap descripció"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "No es pot analitzar sintàcticament la cerca '{}'."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "Coincidència: {}"
 
@@ -517,6 +527,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "S'ha produït un error en eliminar el dipòsit copr {0}/{1}/{2}"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "No s'ha pogut inhabilitar el dipòsit copr {}/{}"
 
@@ -769,6 +780,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "Idioma no vàlid/bui per a les dades traduïdes"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "No es pot generar l'id del grup des de '{}'. Si us plau, especifiqueu l'id "
@@ -852,14 +864,17 @@ msgstr ""
 "No es pot editar el grup sense especificar-lo (utilitzeu --id o --name)"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "No es pot carregar el fitxer \"{}\": {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "No es pot desar el fitxer \"{}\": {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "No hi ha cap coincidència per a l'argument: {}"
 
@@ -868,6 +883,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "No es poden eliminar paquets d'un grup inexistent"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -881,18 +897,22 @@ msgstr ""
 "Llista els paquets instal·lats que no es requereixin per cap altre paquet"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "No es pot crear un directori '{}' a causa de '{}'"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "'{}' no és un directori"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "Es copia '{}' al dipòsit local"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "No es pot escriure el fitxer '{}'"
 
@@ -998,12 +1018,14 @@ msgid "download only packages from newest modules"
 msgstr "baixa només els paquets dels mòduls més nous"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "No s'ha pogut trobar una coincidència per a l'argument: '{}'"
 msgstr[1] "No s'han pogut trobar coincidències per als arguments: '{}'"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -1024,11 +1046,13 @@ msgstr ""
 "mòdul {2}"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "No hi ha cap coincidència per a l'argument '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "No s'ha pogut satisfer el requisit {}"
 
@@ -1124,6 +1148,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Mostra un llistat de les dependències sense resoldre per als dipòsits"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure ha finalitzat amb dependències no resoltes ({}) en {} paquets."
@@ -1194,18 +1219,22 @@ msgid "Both old and new repositories must be set."
 msgstr "Tant els dipòsits antics com els nous han d'estar establerts."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "Canvi de mida: {} bytes"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "Paquet afegit  : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "Paquet eliminat: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "Fet obsolet per   : {}"
 
@@ -1242,46 +1271,57 @@ msgstr ""
 "Resum"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "Paquets afegits: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "Paquets eliminats: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "Paquets actualitzats: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "Paquets degradats: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "Paquets modificats: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "Mida dels paquets afegits: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "Mida dels paquets eliminats: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "Mida dels paquets modificats: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "Mida dels paquets actualitzats: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "Mida dels paquets degradats: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "Canvi de mida: {}"
 
@@ -1315,6 +1355,7 @@ msgid "No files to process"
 msgstr "Sense fitxers per processar"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "No es pot obrir {}"
 
@@ -1428,6 +1469,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "Ha fallat l'obtenció de la rèplica per al fitxer de grup."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "S'està eliminant {}: {}"
 
@@ -1553,6 +1595,7 @@ msgstr ""
 "L'ordre 'offline-distrosync' no es pot utilitzar amb l'opció --no-downgrade"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "Informació addicional per a l'actualització del sistema: {}"
 
@@ -1631,10 +1674,12 @@ msgstr ""
 "està actualitzat."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "La transacció s'ha desat a {}."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "Error en desar la transacció: {}"
 
@@ -1682,10 +1727,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "El paquet ja està bloquejat en forma equivalent:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "El paquet {} ja està bloquejat"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "El paquet {} ja està exclòs"
 
@@ -1702,12 +1749,14 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "Les exclusions del connector versionlock no s'han aplicat"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Connector versionlock: nombre de regles de bloqueig del fitxer \"{}\" "
 "aplicades: {}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1729,6 +1778,7 @@ msgstr ""
 "les"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "El subordre '{}' està obsolet. Utilitzeu el subordre 'exclude' en el seu "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2026-03-18 08:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -50,6 +50,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "원천 rpm으로 명령줄 인수를 다룬다"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -129,10 +130,12 @@ msgid "No match for argument: %s"
 msgstr "인수가 일치하지 않습니다: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "{} 이 후의 변화기록 목록"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "최신화된 변화기록 목록 {}"
@@ -146,6 +149,7 @@ msgid "Listing all changelogs"
 msgstr "모든 변화기록 목록"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "{}의 변경 사항"
 
@@ -183,6 +187,7 @@ msgid "disable repos (automatically saves)"
 msgstr "저장소 비활성화 (자동으로 저장합니다)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "다음 인수 중 하나가 필요합니다: {}"
 
@@ -375,6 +380,7 @@ msgid "Repository successfully removed."
 msgstr "저장소가 제거되었습니다."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "알 수없는 부속 명령 {}."
 
@@ -388,10 +394,12 @@ msgstr ""
 "소 파일을 갖고 있습니다. 이 문제를 수정하기 위하여 프로젝트를 재활성화하세요."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "사용자 이름 '{}'에 대한 리포지토리를 구문 분석 할 수 없습니다."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "{} coprs의 목록"
 
@@ -400,10 +408,12 @@ msgid "No description given"
 msgstr "설명이 없습니다"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "'{}'에 대한 검색을 구문 분석 할 수 없습니다."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "일치하는 항목 : {}"
 
@@ -507,6 +517,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "copr repo {0}/{1}/{2} 제거를 실패하였습니다"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "copr repo {} / {}를 사용 중지를 실패하였습니다"
 
@@ -746,6 +757,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "번역된 자료가 유효하지 않음/비워짐"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "'{}' 에서 그룹 id를 발생 할 수 없습니다. --id 를 사용하여 그룹 id를 지정해 주"
@@ -828,14 +840,17 @@ msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr "이것(user --id 또느 --name)을 특정하지 않고 그룹을 수정 할 수 없습니다"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "파일 \"{}\": {} 를 적재 할 수 없습니다"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "파일 \"{}\": {}을 저장 할 수 없습니다"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "일치하는 인수가 없습니다 :{}"
 
@@ -844,6 +859,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "존재하지 않는 그룹에서 꾸러미를 제거 할 수 없습니다"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -856,18 +872,22 @@ msgid "List installed packages not required by any other package"
 msgstr "다른 꾸러미에서 필요하지 않은 설치된 꾸러미 나열"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "'{}'(으)로 인해 '{}'디렉토리를 만들 수 없습니다"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "'{}'는 디렉토리가 아닙니다"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "'{}'을 로컬 저장소로 복사 중입니다"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "'{}'파일을 쓸 수 없습니다"
 
@@ -973,11 +993,13 @@ msgid "download only packages from newest modules"
 msgstr "최신 모듈에서 꾸러미만 내려받기"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "인수와 일치 항목을 찾을 수 없음: '{}'"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -997,11 +1019,13 @@ msgstr ""
 "모듈 {2}에서 프로파일 {1}인 꾸러미 이름 '{0}'과 일치하는 부분이 없습니다"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "인수 '{}'와 일치하는 항목이 없습니다"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "필요사항 {}를 만족 할 수 없음"
 
@@ -1095,6 +1119,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "저장소에 대한 확인되지 않은 종속성 목록 표시"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure는 {} 꾸러미를 통해 해결되지 않은 의존성 ({})으로 종료되었습니다."
@@ -1161,18 +1186,22 @@ msgid "Both old and new repositories must be set."
 msgstr "오래된 것과 새로운 저장소 모두 구성되어야 합니다."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "크기 변화: {} bytes"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "추가된 꾸러미  : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "제거된 꾸러미: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "사용되지 않음  : {}"
 
@@ -1209,46 +1238,57 @@ msgstr ""
 "요약"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "추가된 꾸러미: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "제거된 꾸러미: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "향상된 꾸러미: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "하향 설치된 꾸러미: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "변형된 꾸러미: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "크기가 증가된 꾸러미: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "크기가 제거된 꾸러미: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "크기가 변형된 꾸러미: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "크기가 향상된 꾸러미: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "크기가 하향설치된 꾸러미: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "크기 변경: {}"
 
@@ -1282,6 +1322,7 @@ msgid "No files to process"
 msgstr "처리 할 파일 없음"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "{}을 열 수 없습니다"
 
@@ -1391,6 +1432,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "그룹 파일을 위하여 연결주소 얻기에 실패하였습니다."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "제거하기{}: {}"
 
@@ -1507,6 +1549,7 @@ msgstr ""
 "명령 'offline-distrosync'은 --no-downgrade 옵션과 함께 사용 될 수 없습니다"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "시스템 향상을 위한 추가 정보: {}"
 
@@ -1578,10 +1621,12 @@ msgid ""
 msgstr "시스템-향상 연결이 비워 있으며, 시스템은 이미 최신화 되었습니다."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "연결이 {}로 저장되었습니다."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "저장 중 연결 오류: {}"
 
@@ -1627,10 +1672,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "꾸러미(package)는 이미 동일한 형태로 잠겨졌습니다:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "꾸러미(package) {} 는 이미 잠겨졌습니다"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "꾸러미(package) {} 는 이미 제외되었습니다"
 
@@ -1647,10 +1694,12 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "versionlock 플러그인에서 제외는 적용되지 않습니다"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr "버전 잠금 플러그인: 적용된 파일 \"{} \"에서 잠금 규칙의 수: {}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr "버전 잠금 플러그인: 적용된 파일 \"{} \"에서 제외 규칙의 수: {}"
@@ -1668,6 +1717,7 @@ msgid "Use package specifications as they are, do not try to parse them"
 msgstr "꾸러미(package) 사양을 그대로 사용하며, 구문 분석을 시도하지 않습니다"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "하위명령 '{}'는 더 이상 사용하지 않습니다. 대신에 하위명령 'exclude'를 사용합"

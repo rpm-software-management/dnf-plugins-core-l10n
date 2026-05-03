@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2024-10-13 17:38+0000\n"
 "Last-Translator: DK Guy <peter@nozen.dk>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -50,6 +50,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "behandl kommandolinjeargumenter som kilde-rpm"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -129,10 +130,12 @@ msgid "No match for argument: %s"
 msgstr "Intet match for argument: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "Oplister ændringslogge siden {}"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "Vis kun seneste ændringslog"
@@ -148,6 +151,7 @@ msgid "Listing all changelogs"
 msgstr "Oplister alle ændringslogge"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "Ændringslogge for {}"
 
@@ -185,6 +189,7 @@ msgid "disable repos (automatically saves)"
 msgstr "deaktivér softwarearkiver (gemmer automatisk)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "en af følgende argumenter kræves: {}"
 
@@ -379,6 +384,7 @@ msgid "Repository successfully removed."
 msgstr "Softwarearkiv fjernet."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "Ukendt underkommando {}."
 
@@ -393,10 +399,12 @@ msgstr ""
 "projektet for at rette det."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "Kan ikke fortolke softwarearkiver for brugernavnet '{}'."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "Liste over {}-copr'er"
 
@@ -405,10 +413,12 @@ msgid "No description given"
 msgstr "Ingen beskrivelse givet"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "Kan ikke fortolke søgning til '{}'."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "Matchet: {}"
 
@@ -508,6 +518,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Kunne ikke fjerne copr-softwarearkiv {0}/{1}/{2}"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Kunne ikke deaktivere copr-softwarearkivet {}/{}"
 
@@ -756,6 +767,7 @@ msgid "Invalid/empty language for translated data"
 msgstr ""
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 
@@ -844,19 +856,19 @@ msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
 
 #: plugins/groups_manager.py:190
-#, fuzzy
+#, fuzzy, python-brace-format
 #| msgid "Can't write file '{}'"
 msgid "Can't load file \"{}\": {}"
 msgstr "Kan ikke skrive filen '{}'"
 
 #: plugins/groups_manager.py:206
-#, fuzzy
+#, fuzzy, python-brace-format
 #| msgid "Can't write file '{}'"
 msgid "Can't save file \"{}\": {}"
 msgstr "Kan ikke skrive filen '{}'"
 
 #: plugins/groups_manager.py:261
-#, fuzzy
+#, fuzzy, python-brace-format
 #| msgid "No match for argument: %s"
 msgid "No match for argument: {}"
 msgstr "Intet match for argument: %s"
@@ -866,6 +878,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr ""
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -876,18 +889,22 @@ msgid "List installed packages not required by any other package"
 msgstr "Oplist installerede pakker som ikke kræves af andre pakker"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "Kan ikke oprette en mappe '{}' pga. '{}'"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "'{}' er ikke en mappe"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "Kopierer '{}' til lokalt softwarearkiv"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "Kan ikke skrive filen '{}'"
 
@@ -1002,7 +1019,7 @@ msgid "download only packages from newest modules"
 msgstr "download alle pakker fra fjernsoftwarearkiv"
 
 #: plugins/modulesync.py:85
-#, fuzzy
+#, fuzzy, python-brace-format
 #| msgid "No match for argument: %s"
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
@@ -1010,6 +1027,7 @@ msgstr[0] "Intet match for argument: %s"
 msgstr[1] "Intet match for argument: %s"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -1026,13 +1044,14 @@ msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
 
 #: plugins/modulesync.py:166
-#, fuzzy
+#, fuzzy, python-brace-format
 #| msgid "No match for argument: %s"
 msgid "No mach for argument '{}'"
 msgstr "Intet match for argument: %s"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr ""
 
@@ -1131,7 +1150,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Vis en liste over uløste afhængigheder for softwarearkiver"
 
 #: plugins/repoclosure.py:70
-#, fuzzy
+#, fuzzy, python-brace-format
 #| msgid "Repoclosure ended with unresolved dependencies."
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "Softwarearkivlukning sluttede med uløste afhængigheder."
@@ -1199,18 +1218,22 @@ msgid "Both old and new repositories must be set."
 msgstr "Både gamle og nye softwararkiver skal indstilles."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "Ændring af størrelse: {} bytes"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "Tilføjet pakke  : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "Fjernet pakke: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "Forældet pakke   : {}"
 
@@ -1247,46 +1270,57 @@ msgstr ""
 "Opsummering"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "Tilføjet pakker: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "Fjernet pakker: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "Opgraderet pakker: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "Downloadet pakker: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "Ændret pakker: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "Størrelsen på tilføjet pakker: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "Størrelsen på fjernet pakker: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "Størrelsen på ændret pakker: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "Størrelsen på opgraderet pakker: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "Størrelsen på nedgraderet pakker: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "Ændring af størrelse: {}"
 
@@ -1324,6 +1358,7 @@ msgid "No files to process"
 msgstr "Ingen filer at behandle"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "Kunne ikke åbne {}"
 
@@ -1438,6 +1473,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "Kunne ikke hente spejl for gruppefilen."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr ""
 
@@ -1555,6 +1591,7 @@ msgstr ""
 "Kommandoen 'offline-distrosync' kan ikke bruges med tilvalget --no-downgrade"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "Yderligere information for systemopgradering: {}"
 
@@ -1628,12 +1665,13 @@ msgid ""
 msgstr ""
 
 #: plugins/system_upgrade.py:672
-#, fuzzy
+#, fuzzy, python-brace-format
 #| msgid "Bad Transaction State: %s"
 msgid "Transaction saved to {}."
 msgstr "Dårlig transaktionstilstand: %s"
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "Fejl ved gemning af transaktion: {}"
 
@@ -1683,10 +1721,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "Pakken er allerede låst i tilsvarende form:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "Pakken {} er allerede låst"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "Pakken {} er allerede ekskluderet"
 
@@ -1703,10 +1743,12 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "Udelukkelser fra versionlås-plugin blev ikke anvendt"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr "Versionslås-plugin: antal låseregler fra filen \"{}\" anvendt: {}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1725,6 +1767,7 @@ msgid "Use package specifications as they are, do not try to parse them"
 msgstr "Brug pakkespecifikationer som de er uden at fortolke dem"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2026-04-15 17:46+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -47,6 +47,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "сматрај аргументе линије наредби као изворни рпм"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "РПМ: {}"
 
@@ -125,10 +126,12 @@ msgid "No match for argument: %s"
 msgstr "Нема подударања за аргумент: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "Исписујем дневнике промена од {}"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "Исписујем само најновији дневник промена"
@@ -144,6 +147,7 @@ msgid "Listing all changelogs"
 msgstr "Исписујем све дневнике промена"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "Дневници промена за {}"
 
@@ -181,6 +185,7 @@ msgid "disable repos (automatically saves)"
 msgstr "онемогући ризнице (самостално чува)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "један од следећих аргумената је обавезан: {}"
 
@@ -374,6 +379,7 @@ msgid "Repository successfully removed."
 msgstr "Ризница је успешно уклоњена."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "Непозната поднаредба {}."
 
@@ -388,10 +394,12 @@ msgstr ""
 "пројекат да бисте ово поправили."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "Не могу да обрадим ризницу за корисничко име '{}'."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "Списак {} copr-а"
 
@@ -400,10 +408,12 @@ msgid "No description given"
 msgstr "Опис није дат"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "Не могу да обрадим претрагу за '{}'."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "Пронађено: {}"
 
@@ -506,6 +516,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Није успело уклањање copr ризнице {0}/{1}/{2}"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Није успело онемогућавање copr ризнице {}/{}"
 
@@ -746,6 +757,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "Неисправан/празан језик за преведене податке"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "Не могу да направим ид групе из „{}“. Наведите ид групе користећи --id."
@@ -827,14 +839,17 @@ msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr "Не могу да уредим групу без њеног навођења (користите --id или --name)"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "Не могу да учитам датотеку „{}“: {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "Не могу да сачувам датотеку „{}“: {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "Нема подударања за аргумент: {}"
 
@@ -843,6 +858,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "Не могу да уклоним пакете из непостојеће групе"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -854,18 +870,22 @@ msgid "List installed packages not required by any other package"
 msgstr "Испиши инсталиране пакете који нису потребни ниједном другом пакету"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "Не могу да направим директоријум „{}“ због „{}“"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "„{}“ није директоријум"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "Умножавам „{}“ у локалну ризницу"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "Не могу да упишем датотеку „{}“"
 
@@ -971,6 +991,7 @@ msgid "download only packages from newest modules"
 msgstr "преузми само пакете из најновијих модула"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Нисам могао да нађем поклапање за аргумент: „{}“"
@@ -978,6 +999,7 @@ msgstr[1] "Нисам могао да нађем поклапање за арг�
 msgstr[2] "Нисам могао да нађем поклапање за аргументе: „{}“"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -996,11 +1018,13 @@ msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr "Нема поклапања за назив пакета „{0}“ у профилу {1} из модула {2}"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "Нема поклапања за аргумент „{}“"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "Не могу да задовољим захтев {}"
 
@@ -1098,6 +1122,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Прикажи списак нерешених зависности за ризнице"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Завршено је затварање ризница са нерешеним зависностима ({}) кроз {} пакета."
@@ -1165,18 +1190,22 @@ msgid "Both old and new repositories must be set."
 msgstr "Обе ризнице, и стара и нова, морају бити постављене."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "Промена величине: {} бајтова"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "Додати пакет: {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "Уклоњени пакет: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "Застарео због: {}"
 
@@ -1213,46 +1242,57 @@ msgstr ""
 "Резиме"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "Додати пакети: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "Уклоњени пакети: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "Надограђени пакети: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "Уназађени пакети: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "Измењени пакети: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "Величина додатих пакета: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "Величина уклоњених пакета: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "Величина измењених пакета: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "Величина надограђених пакета: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "Величина уназађених пакета: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "Промена величине: {}"
 
@@ -1286,6 +1326,7 @@ msgid "No files to process"
 msgstr "Нема датотека за обраду"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "Не могу да отворим {}"
 
@@ -1397,6 +1438,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "Нисам успео да добавим одраз за датотеку групе."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "Уклањам {}: {}"
 
@@ -1518,6 +1560,7 @@ msgstr ""
 "Наредба „offline-distrosync“ се не може користити са опцијом --no-downgrade"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "Додатне информације за надоградњу система: {}"
 
@@ -1590,10 +1633,12 @@ msgid ""
 msgstr "Пренос надоградње система је празан, ваш систем је већ ажуран."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "Пренос сачуван у путањи {}."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "Грешка при смештању преноса: {}"
 
@@ -1639,10 +1684,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "Пакет је већ закључан у еквивалентном облику:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "Пакет {} је већ закључан"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "Пакет {} је већ изузет"
 
@@ -1659,12 +1706,14 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "Изузимања из прикључка за закључавање издања нису примењена"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Прикључак за закључавање издања: број правила закључавања из датотеке „{}“ "
 "је примењен: {}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1684,6 +1733,7 @@ msgid "Use package specifications as they are, do not try to parse them"
 msgstr "Користи одредбе пакета какве јесу, не покушавај да их обрадиш"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "Поднаредба „{}“ је застарела. Користите поднаредбу „exclude“ уместо ње."

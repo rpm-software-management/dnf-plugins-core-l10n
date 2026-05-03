@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2024-08-22 19:38+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -52,6 +52,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "a parancssori argumentumok forrás rpm-ként történő kezelése"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -132,10 +133,12 @@ msgid "No match for argument: %s"
 msgstr "Nem található egyezés a következő argumentumra: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "Változásnapló-bejegyzések megjelenítése {} óta"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "Csak a legfrissebb változásnapló-bejegyzés megjelenítése"
@@ -152,6 +155,7 @@ msgid "Listing all changelogs"
 msgstr "Összes változásnapló megjelenítése"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "Változásnaplók ehhez: {}"
 
@@ -189,6 +193,7 @@ msgid "disable repos (automatically saves)"
 msgstr "tárolók tiltása (automatikusan mentés)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "a következő argumentumok egyike szüksége: {}"
 
@@ -383,6 +388,7 @@ msgid "Repository successfully removed."
 msgstr "Tároló sikeresen eltávolítva."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "Ismeretlen alparancs: {}."
 
@@ -397,10 +403,12 @@ msgstr ""
 "feltételezve. Engedélyezze újra a projektet a kijavításhoz."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "A tárolók nem értelmezhetőek a(z) „{}” felhasználónévhez."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "{} copr tárolók listája"
 
@@ -409,10 +417,12 @@ msgid "No description given"
 msgstr "Nincs leírás adva"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "Nem értelmezhető a keresés erre: „{}”."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "Találat: {}"
 
@@ -516,6 +526,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Nem sikerült a(z) {0}/{1}/{2} copr tároló eltávolítása"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Nem sikerült a(z) {}/{} copr tároló letiltása"
 
@@ -761,6 +772,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "Érvénytelen/üres nyelv a lefordított adatoknál"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "A csoportazonosító ebből nem állítható elő: „{}”. Adja meg a "
@@ -845,14 +857,17 @@ msgstr ""
 "kapcsolókat)"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "A(z) „{}” fájl nem tölthető be: {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "A(z) „{}” fájl nem írható: {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "Nem található egyezés a következő argumentumra: {}"
 
@@ -861,6 +876,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "Nem távolítható el csomag egy nem létező csoportból"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -873,18 +889,22 @@ msgid "List installed packages not required by any other package"
 msgstr "A más csomagok által nem igényelt csomagok listázása"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "A(z) „{}” könyvtár nem hozható létre, mert: „{}”"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "A(z) „{}” nem könyvtár"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "A(z) „{}” másolása helyi tárolóba"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "A(z) „{}” fájl nem írható"
 
@@ -996,12 +1016,14 @@ msgid "download only packages from newest modules"
 msgstr "csomagok letöltése csak a legújabb modulokból"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Nem található egyezés a következő argumentumra: {}"
 msgstr[1] "Nem található egyezés a következő argumentumokra: {}"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -1022,11 +1044,13 @@ msgstr ""
 "modulból"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "Nincs találat a következő argumentumra: „{}”"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "A következő igénylés nem teljesíthető: {}"
 
@@ -1125,6 +1149,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "A tárolók kielégítetlen függőségeinek megjelenítése"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "A tárolózárás kielégítetlen függőségekkel ({}) ért véget {} csomagnál."
 
@@ -1192,18 +1217,22 @@ msgid "Both old and new repositories must be set."
 msgstr "A régi és az új tárolókat is meg kell adni."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "Méretváltozás: {} bájt"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "Csomag hozzáadva  : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "Csomag eltávolítva: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "Elavult emiatt    : {}"
 
@@ -1240,46 +1269,57 @@ msgstr ""
 "Összegzés"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "Hozzáadott csomagok: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "Eltávolított csomagok: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "Frissített csomagok: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "Visszafejlesztett csomagok: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "Módosított csomagok: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "Hozzáadott csomagok mérete: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "Eltávolított csomagok mérete: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "Módosított csomagok mérete: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "Frissített csomagok mérete: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "Visszafejlesztett csomagok mérete: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "Méretváltozás: {}"
 
@@ -1313,6 +1353,7 @@ msgid "No files to process"
 msgstr "Nincsenek feldolgozandó fájlok"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "A(z) {} nem nyitható meg"
 
@@ -1425,6 +1466,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "Nem található tükör a csoportfájlhoz."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "A(z) {} eltávolítása: {}"
 
@@ -1547,6 +1589,7 @@ msgstr ""
 "Az „offline-distrosync” parancs nem használható a --no-downgrade kapcsolóval"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "További információk a rendszerfrissítéshez: {}"
 
@@ -1618,10 +1661,12 @@ msgid ""
 msgstr "A rendszerfrissítés tranzakció üres, a rendszere már naprakész."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "Tranzakció mentve ide: {}."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "Hiba a tranzakció tárolásában: {}"
 
@@ -1667,10 +1712,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "A csomag már ekvivalens alakban zárolt:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "A(z) {} csomag már zárolt"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "A(z) {} csomag már kizárt"
 
@@ -1687,12 +1734,14 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "A verziózár bővítmény kizárásai nem lettek alkalmazva"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Verziózár bővítmény: a(z) „{}” fájlból alkalmazott zárolási szabályok száma: "
 "{}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1713,6 +1762,7 @@ msgstr ""
 "Az eredeti csomagspecifikációk használata, ne próbálja meg értelmezni azokat"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "A(z) „{}” alparancs elavult. Helyette használja a(z) „exclude” alparancsot."

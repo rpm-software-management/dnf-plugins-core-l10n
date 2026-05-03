@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2025-08-18 09:47+0000\n"
 "Last-Translator: middlingphys "
 "<middlingphys@users.noreply.translate.fedoraproject.org>\n"
@@ -50,6 +50,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "コマンドラインの引数をソース rpm として処理"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -130,10 +131,12 @@ msgid "No match for argument: %s"
 msgstr "一致した引数がありません: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "{} 以降の changelogs を一覧表示します"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "最新の changelog のみを一覧表示します"
@@ -149,6 +152,7 @@ msgid "Listing all changelogs"
 msgstr "すべての changelogs を一覧表示します"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "{} の Changelogs"
 
@@ -186,6 +190,7 @@ msgid "disable repos (automatically saves)"
 msgstr "レポを無効にする (自動保存)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "以下のいずれかの引数が必要です。{}"
 
@@ -381,6 +386,7 @@ msgid "Repository successfully removed."
 msgstr "リポジトリーが正常に削除されました。"
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "不明なサブコマンド {}。"
 
@@ -395,10 +401,12 @@ msgstr ""
 "再度有効化してください。"
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "ユーザー名 '{}' のリポジトリーを解析できません。"
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "{} coprs の一覧"
 
@@ -407,10 +415,12 @@ msgid "No description given"
 msgstr "説明がありません"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "'{}' の検索を解析できません。"
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "一致: {}"
 
@@ -514,6 +524,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "copr repo {0}/{1}/{2} の削除に失敗しました"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "copr repo {}/{} の無効化に失敗しました"
 
@@ -761,6 +772,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "翻訳されたデータの無効または空な言語"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "'{}' からグループ ID を生成できません。--id を使用してグループ ID を指定して"
@@ -844,14 +856,17 @@ msgstr ""
 "指定せずにはグループを編集できません (--id または --name を使用してください)"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "ファイル '{}' を書き込みできません: {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "ファイル '{}' を保存できません: {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "一致した引数がありません: {}"
 
@@ -860,6 +875,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "存在しないグループからパッケージを削除できません"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -873,18 +889,22 @@ msgstr ""
 "他のパッケージから必要とされないインスール済みパッケージを一覧表示します"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "'{1}' のため、ディレクトリー '{0}' を作成できませんでした"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "'{}' はディレクトリーではありません"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "ローカル repo に '{}' をコピー中"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "ファイル '{}' を書き込みできません"
 
@@ -993,11 +1013,13 @@ msgid "download only packages from newest modules"
 msgstr "最新のモジュールからパッケージのみをダウンロードします"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "引数に一致するものが見つかりませんでした: '{}'"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -1018,11 +1040,13 @@ msgstr ""
 "りません"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "引数 '{}' に一致するものはありません"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "要求 {} を満たすことができません"
 
@@ -1117,6 +1141,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "リポジトリーの未解決の依存関係の一覧を表示します"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure は、{1} パッケージで依存関係 ({0}) が解決されずに終了します。"
@@ -1185,18 +1210,22 @@ msgid "Both old and new repositories must be set."
 msgstr "新旧両方のリポジトリーを設定する必要があります。"
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "サイズの変更: {} バイト"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "追加されたパッケージ  : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "削除されたパッケージ: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "により廃止されました: {}"
 
@@ -1233,46 +1262,57 @@ msgstr ""
 "サマリー"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "追加されたパッケージ: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "削除されたパッケージ: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "アップグレードされたパッケージ: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "ダウングレードされたパッケージ: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "変更されたパッケージ: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "追加されたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "削除されたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "変更されたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "アップグレードされたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "ダウングレードされたパッケージのサイズ: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "サイズの変更: {}"
 
@@ -1306,6 +1346,7 @@ msgid "No files to process"
 msgstr "処理するファイルはありません"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "{} を開くことができません"
 
@@ -1417,6 +1458,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "グループファイルのミラー取得に失敗しました。"
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "{} の削除中: {}"
 
@@ -1541,6 +1583,7 @@ msgstr ""
 "コマンド 'offline-distrosync' は --no-downgrade オプションと併用できません"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "システムアップグレードの追加情報: {}"
 
@@ -1613,10 +1656,12 @@ msgstr ""
 "システムアップグレードトランザクションは空で、システムはすでに最新です。"
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "{} に保存されているトランザクション。"
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "トランザクションの保存エラー： {}"
 
@@ -1663,10 +1708,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "同等の形で既にロックされているパッケージ:"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "パッケージ {} は既にロックされています"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "パッケージ{}はすでに除外されています"
 
@@ -1683,10 +1730,12 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "versionlock プラグインからの除外は適用されませんでした"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr "versionlock プラグイン: ファイル \"{}\" のロックルールの数を適用: {}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr "versionlock プラグイン: ファイル \"{}\" の除外ルールの数を適用: {}"
@@ -1704,6 +1753,7 @@ msgid "Use package specifications as they are, do not try to parse them"
 msgstr "パッケージ仕様をそのまま使用し、解析を試みないでください"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "サブコマンド '{}' は非推奨になりました。代わりに 'exclude' サブコマンドを使用"

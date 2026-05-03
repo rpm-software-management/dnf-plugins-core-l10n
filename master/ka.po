@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2025-12-20 23:16+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
@@ -49,6 +49,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr ""
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -122,10 +123,12 @@ msgid "No match for argument: %s"
 msgstr "არგუმენტს არაფერი ემთხვევა: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "ცვლილებების ჟურნალის ჩვენება დროიდან {}"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "ჩამოთვლილია, მხოლოდ, უახლესი ცვლილების ჟურნალი"
@@ -140,6 +143,7 @@ msgid "Listing all changelogs"
 msgstr "ყველა ცვლილების ჩამონათვალი"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "ცვლილების ჟურნალი ობიექტისთვის {}"
 
@@ -177,6 +181,7 @@ msgid "disable repos (automatically saves)"
 msgstr ""
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr ""
 
@@ -346,6 +351,7 @@ msgid "Repository successfully removed."
 msgstr "რეპოზიტორია წარმატებით წაიშალა."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "უცნობი ქვებრძანება {}."
 
@@ -357,10 +363,12 @@ msgid ""
 msgstr ""
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr ""
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr ""
 
@@ -369,10 +377,12 @@ msgid "No description given"
 msgstr "აღწერა მითითებული არაა"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr ""
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "ემთხვევა: {}"
 
@@ -469,6 +479,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr ""
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "ჩავარდა მცდელობა copr რეპოზიტორიის {}/{} გათიშვისას"
 
@@ -699,6 +710,7 @@ msgid "Invalid/empty language for translated data"
 msgstr ""
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 
@@ -779,14 +791,17 @@ msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr ""
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr ""
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr ""
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "არგუმენტს არაფერი ემთხვევა: {}"
 
@@ -795,6 +810,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr ""
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -805,18 +821,22 @@ msgid "List installed packages not required by any other package"
 msgstr ""
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr ""
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr ""
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr ""
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr ""
 
@@ -918,12 +938,14 @@ msgid "download only packages from newest modules"
 msgstr ""
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "ვერ ვიპოვე დამთხვევა არგუმენტისთვის: '{}'"
 msgstr[1] "ვერ ვიპოვე დამთხვევა არგუმენტებისთვის: '{}'"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -940,11 +962,13 @@ msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr ""
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "არგუმენტს არაფერი ემთხვევა: '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr ""
 
@@ -1035,6 +1059,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "რეპოზიტორიების ამოუხსნელი დამოკიდებულებების სიის გამოტანა"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "შეცდომა: Repoclosure დასრულდა ამოუხსნელი დამოკიდებულებებით ({}) {} "
@@ -1098,18 +1123,22 @@ msgid "Both old and new repositories must be set."
 msgstr ""
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr ""
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "დაემატა პაკეტი  : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "წაიშალა პაკეტი: {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "მოძველებულია პაკეტით   : {}"
 
@@ -1146,46 +1175,57 @@ msgstr ""
 "შეჯამება"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "დამატებულია პაკეტები: {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "წაშლილია პაკეტები: {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "განახლდა პაკეტები: {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "ვერსიაჩამოწეულია პაკეტები: {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "შეცვლილია პაკეტი: {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "დამატებული პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "წაშლილი პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "შეცვლილი პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "გაუმჯობესებული პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "გაუარესებული პაკეტების ზომა: {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "ზომის ცვლილება: {}"
 
@@ -1219,6 +1259,7 @@ msgid "No files to process"
 msgstr ""
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "გახსნის შეცდომა: {}"
 
@@ -1324,6 +1365,7 @@ msgid "Failed to get mirror for the group file."
 msgstr ""
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "{}-ის წაშლა: {}"
 
@@ -1434,6 +1476,7 @@ msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr ""
 
@@ -1503,10 +1546,12 @@ msgstr ""
 "ვერსიითაა."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "ტრანზაქცია შენახულია {}-ში."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "ტრანზაქციის შენახვის შეცდომა: {}"
 
@@ -1552,10 +1597,12 @@ msgid "Package already locked in equivalent form:"
 msgstr ""
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "პაკეტი \"{}\" უკვე დაბლოკილია"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "პაკეტი \"{}\" უკვე ამოღებულია"
 
@@ -1572,10 +1619,12 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr ""
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1593,5 +1642,6 @@ msgid "Use package specifications as they are, do not try to parse them"
 msgstr ""
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""

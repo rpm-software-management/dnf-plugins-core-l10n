@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2025-08-11 09:08+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -59,6 +59,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "traite les arguments en ligne de commande comme des sources rpm"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM : {}"
 
@@ -140,10 +141,12 @@ msgid "No match for argument: %s"
 msgstr "Aucune correspondance pour l’argument : %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "Liste des journaux des changements depuis {}"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "Liste uniquement les derniers changements"
@@ -160,6 +163,7 @@ msgid "Listing all changelogs"
 msgstr "Liste tous les changements"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "Changements pour {}"
 
@@ -198,6 +202,7 @@ msgid "disable repos (automatically saves)"
 msgstr "désactiver les dépôts (enregistre automatiquement)"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "un des paramètres suivants est nécessaire : {}"
 
@@ -393,6 +398,7 @@ msgid "Repository successfully removed."
 msgstr "Suppression du dépôt réussie."
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "Sous-commande inconnue {}."
 
@@ -407,11 +413,13 @@ msgstr ""
 "Réactivez le projet pour résoudre le problème."
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr ""
 "Ne peut analyser les dépôts pour y chercher le nom d’utilisateur « {} »."
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "Liste de {} coprs"
 
@@ -420,10 +428,12 @@ msgid "No description given"
 msgstr "Aucune description fournie"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "Impossible d’analyser la recherche pour « {} »."
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "Correspondance : {}"
 
@@ -527,6 +537,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "Échec de la suppression du dépôt Copr {0}/{1}/{2}"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "Échec de la désactivation du dépôt copr {}/{}"
 
@@ -776,6 +787,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "Langue non valide / vide pour les données traduites"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr ""
 "Impossible de générer l'id du groupe à partir de «{}». Veuillez spécifier "
@@ -859,14 +871,17 @@ msgstr ""
 "Un groupe ne peut pas être édité sans le spécifier (utilisez --id ou --name)"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "Impossible de charger le fichier « {} » : {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "Impossible d’enregistrer le fichier « {} » : {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "Aucune correspondance pour l’argument : {}"
 
@@ -875,6 +890,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "Les paquets ne peuvent pas être retirés d'un groupe qui n'existe pas"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -888,18 +904,22 @@ msgstr ""
 "Lister les paquets installés qui ne sont pas requis par un autre paquet"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "Impossible de créer le répertoire « {} » du fait de « {} »"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "« {} » n’est pas un répertoire"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "Copie de « {} » vers le dépôt local en cours"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "Impossible d’écrire le fichier « {} »"
 
@@ -1009,12 +1029,14 @@ msgid "download only packages from newest modules"
 msgstr "télécharger uniquement les paquets des modules les plus récents"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "Impossible de trouver une correspondance pour l'argument : '{}'"
 msgstr[1] "Impossible de trouver une correspondance pour les arguments : '{}'"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -1035,11 +1057,13 @@ msgstr ""
 "module {2}"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "Aucune correspondance pour l'argument '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "Impossible de satisfaire le besoin {}"
 
@@ -1140,6 +1164,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "Affiche une liste de dépendances non résolues pour les dépôts"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
 "Repoclosure s'est terminé avec des dépendances non résolues ({}) sur {} "
@@ -1211,18 +1236,22 @@ msgid "Both old and new repositories must be set."
 msgstr "Le nouveau et l’ancien dépôt doivent être renseignés."
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "Taille des changements : {} bytes"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "Paquet ajouté : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "Paquet retiré : {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "Rendu obsolète par : {}"
 
@@ -1259,46 +1288,57 @@ msgstr ""
 "Résumé"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "Paquets ajoutés : {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "Paquets retirés : {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "Paquets mis à niveau : {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "Paquets rétrogradés : {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "Paquets modifiés : {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "Taille des paquets ajoutés : {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "Taille des paquets retirés : {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "Taille des paquets modifiés : {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "Taille des paquets mis à niveau : {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "Taille des paquets téléchargés : {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "Taille des changements : {}"
 
@@ -1332,6 +1372,7 @@ msgid "No files to process"
 msgstr "Aucun fichier à traiter"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "Ouverture de {} impossible"
 
@@ -1446,6 +1487,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "Échec de l’obtention du miroir pour le fichier de groupe."
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "Suppression de « {} » : {}"
 
@@ -1571,6 +1613,7 @@ msgstr ""
 "no-downgrade"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "Informations supplémentaires pour la mise à niveau du système : {}"
 
@@ -1648,10 +1691,12 @@ msgid ""
 msgstr "La transaction system-upgrade est vide, votre système est déjà à jour."
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "Transaction enregistrée vers {}."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "Erreur lors du stockage de la transaction : {}"
 
@@ -1697,10 +1742,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "Paquet déjà verrouillé sous une forme équivalente :"
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "Le paquet {} est déjà verrouillé"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "Le paquet {} est déjà exclu"
 
@@ -1717,12 +1764,14 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "Les exclusions du plugin versionlock n’ont pas été appliquées"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr ""
 "Plugin versionlock : nombre de règles de verrouillage du fichier \"{}\" "
 "appliquées : {}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr ""
@@ -1744,6 +1793,7 @@ msgstr ""
 "analyser"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr ""
 "La sous-commande '{}' est obsolète. Utilisez plutôt la sous-commande "

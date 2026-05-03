@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 04:52+0000\n"
+"POT-Creation-Date: 2026-04-23 10:34+0000\n"
 "PO-Revision-Date: 2026-04-02 22:59+0000\n"
 "Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -51,6 +51,7 @@ msgid "treat commandline arguments as source rpm"
 msgstr "将命令行参数作为源码 RPM 处理"
 
 #: plugins/builddep.py:144
+#, python-brace-format
 msgid "RPM: {}"
 msgstr "RPM: {}"
 
@@ -125,10 +126,12 @@ msgid "No match for argument: %s"
 msgstr "没能匹配参数: %s"
 
 #: plugins/changelog.py:109
+#, python-brace-format
 msgid "Listing changelogs since {}"
 msgstr "列出自 {} 后的改变日志信息"
 
 #: plugins/changelog.py:111
+#, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
 msgstr[0] "只列出最新 {} 项更改日志"
@@ -142,6 +145,7 @@ msgid "Listing all changelogs"
 msgstr "列出所有改变日志"
 
 #: plugins/changelog.py:122
+#, python-brace-format
 msgid "Changelogs for {}"
 msgstr "{}的变更记录"
 
@@ -179,6 +183,7 @@ msgid "disable repos (automatically saves)"
 msgstr "禁用仓库（自动保存）"
 
 #: plugins/config_manager.py:78
+#, python-brace-format
 msgid "one of the following arguments is required: {}"
 msgstr "需要以下参数之一：{}"
 
@@ -367,6 +372,7 @@ msgid "Repository successfully removed."
 msgstr "软件仓库已成功删除。"
 
 #: plugins/copr.py:329 plugins/copr.py:744
+#, python-brace-format
 msgid "Unknown subcommand {}."
 msgstr "未知的子命令 {}。"
 
@@ -380,10 +386,12 @@ msgstr ""
 "用默认值。重新启用项目来解决这个问题。"
 
 #: plugins/copr.py:399
+#, python-brace-format
 msgid "Can't parse repositories for username '{}'."
 msgstr "无法为用户名 username '{}' 解析仓库。"
 
 #: plugins/copr.py:402
+#, python-brace-format
 msgid "List of {} coprs"
 msgstr "{} Coprs 列表"
 
@@ -392,10 +400,12 @@ msgid "No description given"
 msgstr "没有给出描述"
 
 #: plugins/copr.py:419
+#, python-brace-format
 msgid "Can't parse search for '{}'."
 msgstr "无法解析针对 '{}' 的搜索。"
 
 #: plugins/copr.py:422
+#, python-brace-format
 msgid "Matched: {}"
 msgstr "匹配：{}"
 
@@ -497,6 +507,7 @@ msgid "Failed to remove copr repo {0}/{1}/{2}"
 msgstr "无法删除 copr 存储库 {0}/{1}/{2}"
 
 #: plugins/copr.py:643
+#, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
 msgstr "无法禁用 Copr 存储库 {}/{}"
 
@@ -732,6 +743,7 @@ msgid "Invalid/empty language for translated data"
 msgstr "翻译数据的无效/空语言"
 
 #: plugins/groups_manager.py:71
+#, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
 msgstr "无法从 '{}' 生成组 ID。请使用 --id 指定组 ID。"
 
@@ -812,14 +824,17 @@ msgid "Can't edit group without specifying it (use --id or --name)"
 msgstr "没有指定它（使用 --id 或 --name）就不能编辑组"
 
 #: plugins/groups_manager.py:190
+#, python-brace-format
 msgid "Can't load file \"{}\": {}"
 msgstr "无法加载文件 \"{}\": {}"
 
 #: plugins/groups_manager.py:206
+#, python-brace-format
 msgid "Can't save file \"{}\": {}"
 msgstr "无法保存文件 \"{}\": {}"
 
 #: plugins/groups_manager.py:261
+#, python-brace-format
 msgid "No match for argument: {}"
 msgstr "未找到匹配的参数： {}"
 
@@ -828,6 +843,7 @@ msgid "Can't remove packages from non-existent group"
 msgstr "无法从不存在的组中删除软件包"
 
 #: plugins/groups_manager.py:307
+#, python-brace-format
 msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
@@ -838,18 +854,22 @@ msgid "List installed packages not required by any other package"
 msgstr "列出已安装但不被任何其他软件包所需要的软件包"
 
 #: plugins/local.py:122
+#, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
 msgstr "无法创建目录 '{}' 由于 '{}'"
 
 #: plugins/local.py:126
+#, python-brace-format
 msgid "'{}' is not a directory"
 msgstr "'{}' 不是一个目录"
 
 #: plugins/local.py:135
+#, python-brace-format
 msgid "Copying '{}' to local repo"
 msgstr "正在复制 '{}' 至本地仓库"
 
 #: plugins/local.py:141
+#, python-brace-format
 msgid "Can't write file '{}'"
 msgstr "无法写入文件 '{}'"
 
@@ -953,11 +973,13 @@ msgid "download only packages from newest modules"
 msgstr "只从最新的模块中下载软件包"
 
 #: plugins/modulesync.py:85
+#, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
 msgstr[0] "找不到与参数匹配的项：'{}'"
 
 #: plugins/modulesync.py:107
+#, python-brace-format
 msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
@@ -974,11 +996,13 @@ msgid "No match for package name '{0}' in profile {1} from module {2}"
 msgstr "没有与来自模块 {2} 中配置集 {1} 的软件包名称 '{0}' 相匹配的项"
 
 #: plugins/modulesync.py:166
+#, python-brace-format
 msgid "No mach for argument '{}'"
 msgstr "没有与参数 '{}' 相匹配的项"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
+#, python-brace-format
 msgid "Unable to satisfy require {}"
 msgstr "无法满足要求 {}"
 
@@ -1071,6 +1095,7 @@ msgid "Display a list of unresolved dependencies for repositories"
 msgstr "显示仓库中未被解决的依赖关系的列表"
 
 #: plugins/repoclosure.py:70
+#, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr "Repoclosure 退出时还有未解决的依赖项（{}），针对 {} 软件包。"
 
@@ -1132,18 +1157,22 @@ msgid "Both old and new repositories must be set."
 msgstr "新仓库和旧仓库都需要被设置。"
 
 #: plugins/repodiff.py:178
+#, python-brace-format
 msgid "Size change: {} bytes"
 msgstr "大小的变化 : {} 字节"
 
 #: plugins/repodiff.py:184
+#, python-brace-format
 msgid "Added package  : {}"
 msgstr "添加的软件包  : {}"
 
 #: plugins/repodiff.py:187
+#, python-brace-format
 msgid "Removed package: {}"
 msgstr "删除的软件包 : {}"
 
 #: plugins/repodiff.py:190
+#, python-brace-format
 msgid "Obsoleted by   : {}"
 msgstr "被下述软件包弃用：{}"
 
@@ -1180,46 +1209,57 @@ msgstr ""
 "概述"
 
 #: plugins/repodiff.py:213
+#, python-brace-format
 msgid "Added packages: {}"
 msgstr "添加的软件包 : {}"
 
 #: plugins/repodiff.py:214
+#, python-brace-format
 msgid "Removed packages: {}"
 msgstr "删除的软件包 : {}"
 
 #: plugins/repodiff.py:216
+#, python-brace-format
 msgid "Upgraded packages: {}"
 msgstr "升级的软件包 : {}"
 
 #: plugins/repodiff.py:217
+#, python-brace-format
 msgid "Downgraded packages: {}"
 msgstr "降级的软件包 : {}"
 
 #: plugins/repodiff.py:219
+#, python-brace-format
 msgid "Modified packages: {}"
 msgstr "修改的软件包 : {}"
 
 #: plugins/repodiff.py:222
+#, python-brace-format
 msgid "Size of added packages: {}"
 msgstr "添加的软件包的大小 : {}"
 
 #: plugins/repodiff.py:223
+#, python-brace-format
 msgid "Size of removed packages: {}"
 msgstr "删除的软件包的大小 : {}"
 
 #: plugins/repodiff.py:225
+#, python-brace-format
 msgid "Size of modified packages: {}"
 msgstr "修改的软件包的大小 : {}"
 
 #: plugins/repodiff.py:228
+#, python-brace-format
 msgid "Size of upgraded packages: {}"
 msgstr "升级的软件包的大小 : {}"
 
 #: plugins/repodiff.py:230
+#, python-brace-format
 msgid "Size of downgraded packages: {}"
 msgstr "降级的软件包的大小 : {}"
 
 #: plugins/repodiff.py:232
+#, python-brace-format
 msgid "Size change: {}"
 msgstr "大小改变 : {}"
 
@@ -1253,6 +1293,7 @@ msgid "No files to process"
 msgstr "没有可处理的文件"
 
 #: plugins/repomanage.py:107
+#, python-brace-format
 msgid "Could not open {}"
 msgstr "无法打开 {}"
 
@@ -1358,6 +1399,7 @@ msgid "Failed to get mirror for the group file."
 msgstr "获取组文件镜像失败。"
 
 #: plugins/reposync.py:177
+#, python-brace-format
 msgid "Removing {}: {}"
 msgstr "正在删除 {}: {}"
 
@@ -1470,6 +1512,7 @@ msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr "命令 'offline-distrosync' 无法与 --no-downgrade 选项一起使用"
 
 #: plugins/system_upgrade.py:464
+#, python-brace-format
 msgid "Additional information for System Upgrade: {}"
 msgstr "系统升级的额外信息：{}"
 
@@ -1539,10 +1582,12 @@ msgid ""
 msgstr "system-upgrade 事务为空，您的系统已经为最新版本。"
 
 #: plugins/system_upgrade.py:672
+#, python-brace-format
 msgid "Transaction saved to {}."
 msgstr "事务保存为 {}."
 
 #: plugins/system_upgrade.py:675
+#, python-brace-format
 msgid "Error storing transaction: {}"
 msgstr "存储事务时出现错误：{}"
 
@@ -1588,10 +1633,12 @@ msgid "Package already locked in equivalent form:"
 msgstr "软件包已使用等同的格式锁定："
 
 #: plugins/versionlock.py:38
+#, python-brace-format
 msgid "Package {} is already locked"
 msgstr "软件包 {} 已被锁定"
 
 #: plugins/versionlock.py:39
+#, python-brace-format
 msgid "Package {} is already excluded"
 msgstr "软件包 {} 已被排除"
 
@@ -1608,10 +1655,12 @@ msgid "Excludes from versionlock plugin were not applied"
 msgstr "从 versionlock 插件中排除的没有被应用"
 
 #: plugins/versionlock.py:43
+#, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
 msgstr "Versionlock 插件: 文件 \"{}\" 中的锁定数量规则被应用：{}"
 
 #: plugins/versionlock.py:44
+#, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
 msgstr "Versionlock 插件: 文件 \"{}\" 中的排除规则数量被应用：{}"
@@ -1629,5 +1678,6 @@ msgid "Use package specifications as they are, do not try to parse them"
 msgstr "按原样使用程序包规格，请勿尝试解析它们"
 
 #: plugins/versionlock.py:164
+#, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
 msgstr "子命令 '{}' 已被弃用。改为使用 'exclude' 子命令。"
