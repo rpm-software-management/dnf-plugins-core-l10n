@@ -7,227 +7,232 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 10:34+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-06 19:59+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-core-l10n-master/lo/>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
-msgstr ""
+msgstr "[PACKAGE|PACKAGE.spec]"
 
 #: plugins/builddep.py:85
 #, python-format
 msgid "'%s' is not of the format 'MACRO EXPR'"
-msgstr ""
+msgstr "'%s' ບໍ່ຢູ່ໃນຮູບແບບ 'MACRO EXPR'"
 
 #: plugins/builddep.py:90
 msgid "packages with builddeps to install"
-msgstr ""
+msgstr "ແພັກເກດທີ່ມີ builddeps ທີ່ຈະຕິດຕັ້ງ"
 
 #: plugins/builddep.py:93
 msgid "define a macro for spec file parsing"
-msgstr ""
+msgstr "ກຳນົດມາໂຄຣສຳລັບການວິເຄາະໄຟລ໌ spec"
 
 #: plugins/builddep.py:95
 msgid "skip build dependencies not available in repositories"
-msgstr ""
+msgstr "ຂ້າມ build dependencies ທີ່ບໍ່ມີຢູ່ໃນຄັງເກັບ"
 
 #: plugins/builddep.py:98
 msgid "treat commandline arguments as spec files"
-msgstr ""
+msgstr "ປະມວນຜົນອາຄິວເມນໃນ commandline ເປັນໄຟລ໌ spec"
 
 #: plugins/builddep.py:100
 msgid "treat commandline arguments as source rpm"
-msgstr ""
+msgstr "ປະມວນຜົນອາຄິວເມນໃນ commandline ເປັນ source rpm"
 
 #: plugins/builddep.py:144
 #, python-brace-format
 msgid "RPM: {}"
-msgstr ""
+msgstr "RPM: {}"
 
 #: plugins/builddep.py:153
 msgid "Some packages could not be found."
-msgstr ""
+msgstr "ບໍ່ພົບແພັກເກດບາງອັນ."
 
 #. No provides, no files
 #. Richdeps can have no matches but it could be correct (solver must decide later)
 #: plugins/builddep.py:173
 #, python-format
 msgid "No matching package to install: '%s'"
-msgstr ""
+msgstr "ບໍ່ພົບແພັກເກດທີ່ກົງກັນເພື່ອຕິດຕັ້ງ: '%s'"
 
 #: plugins/builddep.py:191
 #, python-format
 msgid "Failed to open: '%s', not a valid source rpm file."
-msgstr ""
+msgstr "ເປີດ '%s' ບໍ່ສຳເລັດ, ບໍ່ແມ່ນໄຟລ໌ source rpm ທີ່ຖືກຕ້ອງ."
 
 #: plugins/builddep.py:204 plugins/builddep.py:224 plugins/builddep.py:241
 msgid "Not all dependencies satisfied"
-msgstr ""
+msgstr "ບໍ່ສາມາດຕອບສະໜອງຄວາມຕ້ອງການຂອງ dependencies ໄດ້ທັງໝົດ"
 
 #: plugins/builddep.py:208
 msgid ""
 "Warning: -D or --define arguments have no meaning for source rpm packages."
-msgstr ""
+msgstr "ຄຳເຕືອນ: ອາຄິວເມນ -D ຫຼື --define ບໍ່ມີຜົນຫຍັງຕໍ່ກັບແພັກເກດ source rpm."
 
 #: plugins/builddep.py:215
 #, python-format
 msgid "Failed to open: '%s', not a valid spec file: %s"
-msgstr ""
+msgstr "ເປີດ '%s' ບໍ່ສຳເລັດ, ບໍ່ແມ່ນໄຟລ໌ spec ທີ່ຖືກຕ້ອງ: %s"
 
 #: plugins/builddep.py:234 plugins/repoclosure.py:125
 #, python-format
 msgid "no package matched: %s"
-msgstr ""
+msgstr "ບໍ່ມີແພັກເກດທີ່ກົງກັນ: %s"
 
 #: plugins/changelog.py:37
 #, python-brace-format
 msgid "Not a valid date: \"{0}\"."
-msgstr ""
+msgstr "ວັນທີບໍ່ຖືກຕ້ອງ: \"{0}\"."
 
 #: plugins/changelog.py:43
 msgid "Show changelog data of packages"
-msgstr ""
+msgstr "ສະແດງຂໍ້ມູນ changelog ຂອງແພັກເກດ"
 
 #: plugins/changelog.py:51
 msgid ""
 "show changelog entries since DATE. To avoid ambiguosity, YYYY-MM-DD format "
 "is recommended."
 msgstr ""
+"ສະແດງ changelog ຕັ້ງແຕ່ວັນທີ (DATE). ເພື່ອຫຼີກເວັ້ນການເຂົ້າໃຈຜິດ, ແນະນຳໃຫ້ໃຊ້ຮູບແບບ YYYY-MM-"
+"DD."
 
 #: plugins/changelog.py:55
 msgid "show given number of changelog entries per package"
-msgstr ""
+msgstr "ສະແດງຈຳນວນລາຍການ changelog ຕາມທີ່ກຳນົດຕໍ່ແພັກເກດ"
 
 #: plugins/changelog.py:58
 msgid ""
 "show only new changelog entries for packages, that provide an upgrade for "
 "some of already installed packages."
 msgstr ""
+"ສະແດງສະເພາະ changelog ໃໝ່ສຳລັບແພັກເກດທີ່ມີການອັບເກຣດແທນແພັກເກດທີ່ຕິດຕັ້ງໄວ້ແລ້ວ."
 
 #: plugins/changelog.py:60
 msgid "PACKAGE"
-msgstr ""
+msgstr "ແພັກເກດ"
 
 #: plugins/changelog.py:81 plugins/debuginfo-install.py:91
 #, python-format
 msgid "No match for argument: %s"
-msgstr ""
+msgstr "ບໍ່ມີຂໍ້ມູນທີ່ກົງກັບອາຄິວເມນ: %s"
 
 #: plugins/changelog.py:109
 #, python-brace-format
 msgid "Listing changelogs since {}"
-msgstr ""
+msgstr "ກຳລັງສະແດງ changelogs ຕັ້ງແຕ່ {}"
 
 #: plugins/changelog.py:111
 #, python-brace-format
 msgid "Listing only latest changelog"
 msgid_plural "Listing {} latest changelogs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ກຳລັງສະແດງ changelog {} ອັນຫຼ້າສຸດ"
 
 #: plugins/changelog.py:116
 msgid "Listing only new changelogs since installed version of the package"
-msgstr ""
+msgstr "ກຳລັງສະແດງສະເພາະ changelogs ໃໝ່ຕັ້ງແຕ່ເວີຊັນທີ່ຕິດຕັ້ງຂອງແພັກເກດ"
 
 #: plugins/changelog.py:118
 msgid "Listing all changelogs"
-msgstr ""
+msgstr "ກຳລັງສະແດງ changelogs ທັງໝົດ"
 
 #: plugins/changelog.py:122
 #, python-brace-format
 msgid "Changelogs for {}"
-msgstr ""
+msgstr "ບັນທຶກການປ່ຽນແປງ (Changelogs) ສຳລັບ {}"
 
 #: plugins/config_manager.py:38
 #, python-brace-format
 msgid "manage {prog} configuration options and repositories"
-msgstr ""
+msgstr "ຈັດການຕົວເລືອກການຕັ້ງຄ່າ ແລະ ຄັງເກັບຂອງ {prog}"
 
 #: plugins/config_manager.py:45
 msgid "configuration sections to manage, \"main\" or repoid"
-msgstr ""
+msgstr "ສ່ວນການຕັ້ງຄ່າທີ່ຈະຈັດການ, \"main\" ຫຼື repoid"
 
 #: plugins/config_manager.py:48
 msgid "save the current options (useful with --setopt)"
-msgstr ""
+msgstr "ບັນທຶກຕົວເລືອກປັດຈຸບັນ (ມີປະໂຫຍດເມື່ອໃຊ້ຮ່ວມກັບ --setopt)"
 
 #: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
-msgstr ""
+msgstr "ເພີ່ມ (ແລະ ເປີດໃຊ້) ຄັງເກັບຈາກໄຟລ໌ ຫຼື url ທີ່ກຳນົດ"
 
 #: plugins/config_manager.py:54
 msgid "print current configuration values to stdout"
-msgstr ""
+msgstr "ພິມຄ່າການຕັ້ງຄ່າປັດຈຸບັນອອກທາງ stdout"
 
 #: plugins/config_manager.py:57
 msgid "print variable values to stdout"
-msgstr ""
+msgstr "ພິມຄ່າຕົວແປອອກທາງ stdout"
 
 #: plugins/config_manager.py:61
 msgid "enable repos (automatically saves)"
-msgstr ""
+msgstr "ເປີດໃຊ້ຄັງເກັບ (ບັນທຶກໂດຍອັດຕະໂນມັດ)"
 
 #: plugins/config_manager.py:64
 msgid "disable repos (automatically saves)"
-msgstr ""
+msgstr "ປິດໃຊ້ຄັງເກັບ (ບັນທຶກໂດຍອັດຕະໂນມັດ)"
 
 #: plugins/config_manager.py:78
 #, python-brace-format
 msgid "one of the following arguments is required: {}"
-msgstr ""
+msgstr "ຈຳເປັນຕ້ອງມີອາຄິວເມນອັນໃດອັນໜຶ່ງຕໍ່ໄປນີ້: {}"
 
 #: plugins/config_manager.py:87
 msgid ""
 "Warning: --enablerepo/--disablerepo arguments have no meaningwith config "
 "manager. Use --set-enabled/--set-disabled instead."
 msgstr ""
+"ຄຳເຕືອນ: ອາຄິວເມນ --enablerepo/--disablerepo ບໍ່ມີຜົນຫຍັງກັບ config manager. ໃຫ້ໃຊ້ --"
+"set-enabled/--set-disabled ແທນ."
 
 #: plugins/config_manager.py:134
 #, python-format
 msgid "No matching repo to modify: %s."
-msgstr ""
+msgstr "ບໍ່ພົບຄັງເກັບທີ່ກົງກັນເພື່ອແກ້ໄຂ: %s."
 
 #: plugins/config_manager.py:185
 #, python-format
 msgid "Adding repo from: %s"
-msgstr ""
+msgstr "ກຳລັງເພີ່ມຄັງເກັບຈາກ: %s"
 
 #: plugins/config_manager.py:209
 msgid "Configuration of repo failed"
 msgid_plural "Configuration of repos failed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ການຕັ້ງຄ່າຄັງເກັບລົ້ມເຫຼວ"
 
 #: plugins/config_manager.py:219
 #, python-format
 msgid "Could not save repo to repofile %s: %s"
-msgstr ""
+msgstr "ບໍ່ສາມາດບັນທຶກຄັງເກັບລົງໃນ repofile %s: %s"
 
 #: plugins/copr.py:71
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: plugins/copr.py:71
 msgid "yes"
-msgstr ""
+msgstr "ຕົກລົງ"
 
 #: plugins/copr.py:72
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #: plugins/copr.py:72
 msgid "no"
-msgstr ""
+msgstr "ບໍ່"
 
 #: plugins/copr.py:93
 msgid "Interact with Copr repositories."
-msgstr ""
+msgstr "ໂຕ້ຕອບກັບຄັງເກັບຂອງ Copr."
 
 #: plugins/copr.py:95
 msgid ""
@@ -249,62 +254,81 @@ msgid ""
 "  copr search tests\n"
 "    "
 msgstr ""
+"\n"
+"  enable name/project [chroot]\n"
+"  disable name/project\n"
+"  remove name/project\n"
+"  list --installed/enabled/disabled\n"
+"  list --available-by-user=NAME\n"
+"  search project\n"
+"\n"
+"  ຕົວຢ່າງ:\n"
+"  copr enable rhscl/perl516 epel-6-x86_64\n"
+"  copr enable ignatenkobrain/ocltoys\n"
+"  copr disable rhscl/perl516\n"
+"  copr remove rhscl/perl516\n"
+"  copr list --enabled\n"
+"  copr list --available-by-user=ignatenkobrain\n"
+"  copr search tests\n"
+"    "
 
 #: plugins/copr.py:121
 msgid "List all installed Copr repositories (default)"
-msgstr ""
+msgstr "ລາຍຊື່ຄັງເກັບຂອງ Copr ທັງໝົດທີ່ຕິດຕັ້ງໄວ້ (ຄ່າເລີ່ມຕົ້ນ)"
 
 #: plugins/copr.py:123
 msgid "List enabled Copr repositories"
-msgstr ""
+msgstr "ລາຍຊື່ຄັງເກັບຂອງ Copr ທີ່ເປີດໃຊ້ຢູ່"
 
 #: plugins/copr.py:125
 msgid "List disabled Copr repositories"
-msgstr ""
+msgstr "ລາຍຊື່ຄັງເກັບຂອງ Copr ທີ່ປິດໃຊ້ຢູ່"
 
 #: plugins/copr.py:127
 msgid "List available Copr repositories by user NAME"
-msgstr ""
+msgstr "ລາຍຊື່ຄັງເກັບຂອງ Copr ທີ່ມີໃຫ້ໃຊ້ໂດຍຊື່ຜູ້ໃຊ້ (NAME)"
 
 #: plugins/copr.py:129
 msgid "Specify an instance of Copr to work with"
-msgstr ""
+msgstr "ກຳນົດ instance ຂອງ Copr ທີ່ຈະເຮັດວຽກນຳ"
 
 #: plugins/copr.py:164 plugins/copr.py:255 plugins/copr.py:282
 msgid "Error: "
-msgstr ""
+msgstr "ຂໍ້ຜິດພາດ: "
 
 #: plugins/copr.py:165
 msgid ""
 "specify Copr hub either with `--hub` or using `copr_hub/copr_username/"
 "copr_projectname` format"
 msgstr ""
+"ກຳນົດ Copr hub ດ້ວຍ `--hub` ຫຼື ໃຊ້ຮູບແບບ `copr_hub/copr_username/copr_projectname`"
 
 #: plugins/copr.py:168
 msgid "multiple hubs specified"
-msgstr ""
+msgstr "ມີການກຳນົດ hub ຫຼາຍອັນ"
 
 #: plugins/copr.py:256 plugins/copr.py:260
 msgid "exactly two additional parameters to copr command are required"
-msgstr ""
+msgstr "ຕ້ອງການພາຣາມິເຕີເພີ່ມເຕີມສອງອັນສຳລັບຄຳສັ່ງ copr"
 
 #: plugins/copr.py:265
 msgid "Too many arguments."
-msgstr ""
+msgstr "ອາຄິວເມນຫຼາຍເກີນໄປ."
 
 #: plugins/copr.py:268
 msgid ""
 "Bad format of optional chroot. The format is distribution-version-"
 "architecture."
 msgstr ""
+"ຮູບແບບຂອງ chroot ເສີມບໍ່ຖືກຕ້ອງ. ຮູບແບບແມ່ນ distribution-version-architecture."
 
 #: plugins/copr.py:283
 msgid "use format `copr_username/copr_projectname` to reference copr project"
-msgstr ""
+msgstr "ໃຊ້ຮູບແບບ `copr_username/copr_projectname` ເພື່ອອ້າງອີງເຖິງໂປຣເຈັກ copr"
 
 #: plugins/copr.py:285
 msgid "bad copr project format"
-msgstr ""
+msgstr "ຮູບແບບໂປຣເຈັກ copr ບໍ່ຖືກຕ້ອງ"
 
 #: plugins/copr.py:299
 msgid ""
@@ -321,23 +345,35 @@ msgid ""
 "Please do not file bug reports about these packages in Fedora\n"
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
+"\n"
+"ກຳລັງເປີດໃຊ້ຄັງເກັບຂອງ Copr. ກະລຸນາຮັບຊາບວ່າຄັງເກັບນີ້ບໍ່ໄດ້ເປັນສ່ວນໜຶ່ງ\n"
+"ຂອງຊຸດຕິດຕັ້ງຫຼັກ, ແລະ ຄຸນນະພາບອາດຈະແຕກຕ່າງກັນໄປ.\n"
+"\n"
+"ໂຄງການ Fedora ບໍ່ໄດ້ມີອຳນາດຄວບຄຸມເນື້ອໃນຂອງຄັງເກັບນີ້\n"
+"ນອກເໜືອຈາກກົດລະບຽບທີ່ລະບຸໄວ້ໃນ Copr FAQ ທີ່\n"
+"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
+"in-copr>,\n"
+"ແລະ ແພັກເກດຕ່າງໆບໍ່ໄດ້ຖືກຮັບປະກັນຄຸນນະພາບ ຫຼື ລະດັບຄວາມປອດໄພ.\n"
+"\n"
+"ກະລຸນາຢ່າສົ່ງລາຍງານຂໍ້ຜິດພາດກ່ຽວກັບແພັກເກດເຫຼົ່ານີ້ໃນ Fedora Bugzilla.\n"
+"ໃນກໍລະນີທີ່ມີບັນຫາ, ໃຫ້ຕິດຕໍ່ເຈົ້າຂອງຄັງເກັບນີ້ໂດຍກົງ.\n"
 
 #: plugins/copr.py:316
 msgid "Repository successfully enabled."
-msgstr ""
+msgstr "ເປີດໃຊ້ຄັງເກັບສຳເລັດແລ້ວ."
 
 #: plugins/copr.py:321
 msgid "Repository successfully disabled."
-msgstr ""
+msgstr "ປິດໃຊ້ຄັງເກັບສຳເລັດແລ້ວ."
 
 #: plugins/copr.py:325
 msgid "Repository successfully removed."
-msgstr ""
+msgstr "ລຶບຄັງເກັບສຳເລັດແລ້ວ."
 
 #: plugins/copr.py:329 plugins/copr.py:744
 #, python-brace-format
 msgid "Unknown subcommand {}."
-msgstr ""
+msgstr "ບໍ່ຮູ້ຈັກຄຳສັ່ງຍ່ອຍ {}."
 
 #: plugins/copr.py:386
 msgid ""
@@ -345,62 +381,66 @@ msgid ""
 "about Copr hub - the default one was assumed. Re-enable the project to fix "
 "this."
 msgstr ""
+"* ຄັງເກັບ copr ເຫຼົ່ານີ້ໃຊ້ຮູບແບບໄຟລ໌ repo ເກົ່າເຊິ່ງບໍ່ມີຂໍ້ມູນກ່ຽວກັບ Copr hub - ລະບົບຈຶ່ງສົມມຸດໃຊ້ຄ່າເລີ່"
+"ມຕົ້ນ. ໃຫ້ເປີດໃຊ້ໂປຣເຈັກໃໝ່ເພື່ອແກ້ໄຂບັນຫານີ້."
 
 #: plugins/copr.py:399
 #, python-brace-format
 msgid "Can't parse repositories for username '{}'."
-msgstr ""
+msgstr "ບໍ່ສາມາດວິເຄາະຄັງເກັບສຳລັບຊື່ຜູ້ໃຊ້ '{}'."
 
 #: plugins/copr.py:402
 #, python-brace-format
 msgid "List of {} coprs"
-msgstr ""
+msgstr "ລາຍຊື່ຂອງ {} coprs"
 
 #: plugins/copr.py:407
 msgid "No description given"
-msgstr ""
+msgstr "ບໍ່ມີຄຳອະທິບາຍ"
 
 #: plugins/copr.py:419
 #, python-brace-format
 msgid "Can't parse search for '{}'."
-msgstr ""
+msgstr "ບໍ່ສາມາດວິເຄາະການຄົ້ນຫາສຳລັບ '{}'."
 
 #: plugins/copr.py:422
 #, python-brace-format
 msgid "Matched: {}"
-msgstr ""
+msgstr "ທີ່ກົງກັນ: {}"
 
 #: plugins/copr.py:427
 msgid "No description given."
-msgstr ""
+msgstr "ບໍ່ມີຄຳອະທິບາຍ."
 
 #: plugins/copr.py:449
 msgid "Safe and good answer. Exiting."
-msgstr ""
+msgstr "ເປັນຄຳຕອບທີ່ດີ ແລະ ປອດໄພ. ກຳລັງອອກ."
 
 #: plugins/copr.py:456
 msgid "This command has to be run under the root user."
-msgstr ""
+msgstr "ຄຳສັ່ງນີ້ຕ້ອງໄດ້ຮັບການລັນໂດຍຜູ້ໃຊ້ root."
 
 #: plugins/copr.py:510
 #, python-brace-format
 msgid "Request to {0} failed: {1} - {2}"
-msgstr ""
+msgstr "ການຮ້ອງຂໍໄປຫາ {0} ລົ້ມເຫຼວ: {1} - {2}"
 
 #: plugins/copr.py:512
 msgid "It wasn't possible to enable this project.\n"
-msgstr ""
+msgstr "ບໍ່ສາມາດເປີດໃຊ້ໂປຣເຈັກນີ້ໄດ້.\n"
 
 #: plugins/copr.py:517
 #, python-brace-format
 msgid "Repository '{0}' does not exist in project '{1}'."
-msgstr ""
+msgstr "ບໍ່ມີຄັງເກັບ '{0}' ໃນໂປຣເຈັກ '{1}'."
 
 #: plugins/copr.py:520
 msgid ""
 "\n"
 "Available repositories: "
 msgstr ""
+"\n"
+"ຄັງເກັບທີ່ມີໃຫ້ໃຊ້: "
 
 #: plugins/copr.py:522
 #, python-brace-format
@@ -411,16 +451,21 @@ msgid ""
 "  'dnf copr enable {0} <repository>'\n"
 "But note that the installed repo file will likely need a manual modification."
 msgstr ""
+"\n"
+"\n"
+"ຫາກເຈົ້າຕ້ອງການເປີດໃຊ້ຄັງເກັບທີ່ບໍ່ແມ່ນຄ່າເລີ່ມຕົ້ນ, ໃຫ້ໃຊ້ຄຳສັ່ງຕໍ່ໄປນີ້:\n"
+"  'dnf copr enable {0} <repository>'\n"
+"ແຕ່ໃຫ້ຮັບຊາບວ່າ ໄຟລ໌ repo ທີ່ຕິດຕັ້ງແລ້ວອາດຈະຈຳເປັນຕ້ອງໄດ້ແກ້ໄຂດ້ວຍຕົນເອງ."
 
 #: plugins/copr.py:528
 #, python-brace-format
 msgid "Project {0} does not exist."
-msgstr ""
+msgstr "ບໍ່ມີໂປຣເຈັກ {0}."
 
 #: plugins/copr.py:531
 #, python-brace-format
 msgid "Failed to connect to {0}: {1}"
-msgstr ""
+msgstr "ເຊື່ອມຕໍ່ຫາ {0} ບໍ່ສຳເລັດ: {1}"
 
 #: plugins/copr.py:578
 #, python-brace-format
@@ -438,215 +483,231 @@ msgid ""
 "\n"
 "These repositories have been enabled automatically."
 msgstr ""
+"ຜູ້ດູແລຄັງເກັບ Copr ທີ່ເປີດໃຊ້ໄດ້ກຳນົດໃຫ້ມັນຂຶ້ນກັບຄັງເກັບອື່ນ.\n"
+"ເຊິ່ງຄັງເກັບເຫຼົ່ານັ້ນໂດຍປົກກະຕິແລ້ວແມ່ນຈຳເປັນສຳລັບການຕິດຕັ້ງ RPMs\n"
+"ຈາກຄັງເກັບ Copr ຫຼັກໃຫ້ສຳເລັດ (ພວກມັນໃຫ້ runtime dependencies).\n"
+"\n"
+"ກະລຸນາຮັບຊາບວ່າ ຄຳເຕືອນກ່ຽວກັບຄຸນນະພາບ ແລະ ການລາຍງານຂໍ້ຜິດພາດ\n"
+"ຂ້າງເທິງນັ້ນກໍນຳໃຊ້ກັບສ່ວນນີ້ເຊັ່ນກັນ, ໂຄງການ Fedora ບໍ່ໄດ້ຄວບຄຸມ\n"
+"ເນື້ອໃນເຫຼົ່ານີ້. ກະລຸນາກວດສອບລາຍຊື່:\n"
+"\n"
+"{0}\n"
+"\n"
+"ຄັງເກັບເຫຼົ່ານີ້ໄດ້ຖືກເປີດໃຊ້ໂດຍອັດຕະໂນມັດແລ້ວ."
 
 #: plugins/copr.py:599
 msgid "Do you want to keep them enabled?"
-msgstr ""
+msgstr "ເຈົ້າຕ້ອງການເປີດໃຊ້ພວກມັນໄວ້ຕໍ່ໄປບໍ່?"
 
 #: plugins/copr.py:632
 #, python-brace-format
 msgid "Failed to remove copr repo {0}/{1}/{2}"
-msgstr ""
+msgstr "ລຶບຄັງເກັບ copr {0}/{1}/{2} ບໍ່ສຳເລັດ"
 
 #: plugins/copr.py:643
 #, python-brace-format
 msgid "Failed to disable copr repo {}/{}"
-msgstr ""
+msgstr "ປິດໃຊ້ຄັງເກັບ copr {}/{} ບໍ່ສຳເລັດ"
 
 #: plugins/copr.py:661 plugins/copr.py:698
 msgid "Unknown response from server."
-msgstr ""
+msgstr "ໄດ້ຮັບການຕອບກັບທີ່ບໍ່ຮູ້ຈັກຈາກເຊີເວີ."
 
 #: plugins/copr.py:683
 msgid "Interact with Playground repository."
-msgstr ""
+msgstr "ໂຕ້ຕອບກັບຄັງເກັບ Playground."
 
 #: plugins/copr.py:689
 msgid "Enabling a Playground repository."
-msgstr ""
+msgstr "ກຳລັງເປີດໃຊ້ຄັງເກັບ Playground."
 
 #: plugins/copr.py:690
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "ເຈົ້າຕ້ອງການດຳເນີນການຕໍ່ບໍ່?"
 
 #: plugins/copr.py:734
 msgid "Playground repositories successfully enabled."
-msgstr ""
+msgstr "ເປີດໃຊ້ຄັງເກັບ Playground ສຳເລັດແລ້ວ."
 
 #: plugins/copr.py:737
 msgid "Playground repositories successfully disabled."
-msgstr ""
+msgstr "ປິດໃຊ້ຄັງເກັບ Playground ສຳເລັດແລ້ວ."
 
 #: plugins/copr.py:741
 msgid "Playground repositories successfully updated."
-msgstr ""
+msgstr "ອັບເດດຄັງເກັບ Playground ສຳເລັດແລ້ວ."
 
 #: plugins/debug.py:53
 msgid "dump information about installed rpm packages to file"
-msgstr ""
+msgstr "ດຶງຂໍ້ມູນກ່ຽວກັບແພັກເກດ rpm ທີ່ຕິດຕັ້ງໄວ້ລົງໃນໄຟລ໌"
 
 #: plugins/debug.py:67
 msgid "do not attempt to dump the repository contents."
-msgstr ""
+msgstr "ບໍ່ຕ້ອງພະຍາຍາມດຶງຂໍ້ມູນເນື້ອໃນຂອງຄັງເກັບ."
 
 #: plugins/debug.py:70
 msgid "optional name of dump file"
-msgstr ""
+msgstr "ຊື່ໄຟລ໌ dump (ບໍ່ບັງຄັບ)"
 
 #: plugins/debug.py:95
 #, python-format
 msgid "Output written to: %s"
-msgstr ""
+msgstr "ຂຽນຜົນໄດ້ຮັບລົງທີ່: %s"
 
 #: plugins/debug.py:172
 msgid "restore packages recorded in debug-dump file"
-msgstr ""
+msgstr "ກູ້ຄືນແພັກເກດທີ່ບັນທຶກໄວ້ໃນໄຟລ໌ debug-dump"
 
 #: plugins/debug.py:185
 msgid "output commands that would be run to stdout."
-msgstr ""
+msgstr "ສະແດງຄຳສັ່ງທີ່ຈະຖືກລັນອອກທາງ stdout."
 
 #: plugins/debug.py:188
 msgid "Install the latest version of recorded packages."
-msgstr ""
+msgstr "ຕິດຕັ້ງເວີຊັນຫຼ້າສຸດຂອງແພັກເກດທີ່ບັນທຶກໄວ້."
 
 #: plugins/debug.py:191
 msgid ""
 "Ignore architecture and install missing packages matching the name, epoch, "
 "version and release."
 msgstr ""
+"ບໍ່ສົນໃຈສະຖາປັດຕະຍະກຳ (architecture) ແລະ ຕິດຕັ້ງແພັກເກດທີ່ຂາດຫາຍໄປທີ່ກົງກັບຊື່, epoch, ເວີຊັນ ແ"
+"ລະ release."
 
 #: plugins/debug.py:196
 msgid "limit to specified type"
-msgstr ""
+msgstr "ຈຳກັດສະເພາະປະເພດທີ່ກຳນົດ"
 
 #: plugins/debug.py:199
 msgid ""
 "Allow removing of install-only packages. Using this option may result in an "
 "attempt to remove the running kernel."
 msgstr ""
+"ອະນຸຍາດໃຫ້ລຶບແພັກເກດປະເພດ install-only. ການໃຊ້ຕົວເລືອກນີ້ອາດຈະສົ່ງຜົນໃຫ້ມີການພະຍາຍາມລຶບ "
+"kernel ທີ່ກຳລັງເຮັດວຽກຢູ່."
 
 #: plugins/debug.py:202
 msgid "name of dump file"
-msgstr ""
+msgstr "ຊື່ຂອງໄຟລ໌ dump"
 
 #: plugins/debug.py:273
 #, python-format
 msgid "Package %s is not available"
-msgstr ""
+msgstr "ບໍ່ມີແພັກເກດ %s ໃຫ້ໃຊ້"
 
 #: plugins/debug.py:283
 #, python-format
 msgid "Bad dnf debug file: %s"
-msgstr ""
+msgstr "ໄຟລ໌ dnf debug ບໍ່ຖືກຕ້ອງ: %s"
 
 #: plugins/debuginfo-install.py:57
 msgid "install debuginfo packages"
-msgstr ""
+msgstr "ຕິດຕັ້ງແພັກເກດ debuginfo"
 
 #: plugins/debuginfo-install.py:181
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following available packages: %s"
-msgstr ""
+msgstr "ບໍ່ພົບແພັກເກດ debuginfo ສຳລັບແພັກເກດທີ່ມີໃຫ້ໃຊ້ຕໍ່ໄປນີ້: %s"
 
 #: plugins/debuginfo-install.py:186
 #, python-format
 msgid ""
 "Could not find debugsource package for the following available packages: %s"
-msgstr ""
+msgstr "ບໍ່ພົບແພັກເກດ debugsource ສຳລັບແພັກເກດທີ່ມີໃຫ້ໃຊ້ຕໍ່ໄປນີ້: %s"
 
 #: plugins/debuginfo-install.py:191
 #, python-format
 msgid ""
 "Could not find debuginfo package for the following installed packages: %s"
-msgstr ""
+msgstr "ບໍ່ພົບແພັກເກດ debuginfo ສຳລັບແພັກເກດທີ່ຕິດຕັ້ງໄວ້ຕໍ່ໄປນີ້: %s"
 
 #: plugins/debuginfo-install.py:196
 #, python-format
 msgid ""
 "Could not find debugsource package for the following installed packages: %s"
-msgstr ""
+msgstr "ບໍ່ພົບແພັກເກດ debugsource ສຳລັບແພັກເກດທີ່ຕິດຕັ້ງໄວ້ຕໍ່ໄປນີ້: %s"
 
 #: plugins/debuginfo-install.py:200
 msgid "Unable to find a match"
-msgstr ""
+msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັນ"
 
 #: plugins/download.py:41
 msgid "Download package to current directory"
-msgstr ""
+msgstr "ດາວໂຫຼດແພັກເກດລົງໃນໂຟນເດີປັດຈຸບັນ"
 
 #: plugins/download.py:51
 msgid "packages to download"
-msgstr ""
+msgstr "ແພັກເກດທີ່ຈະດາວໂຫຼດ"
 
 #: plugins/download.py:53
 msgid "download the src.rpm instead"
-msgstr ""
+msgstr "ດາວໂຫຼດ src.rpm ແທນ"
 
 #: plugins/download.py:55
 msgid "download the -debuginfo package instead"
-msgstr ""
+msgstr "ດາວໂຫຼດແພັກເກດ -debuginfo ແທນ"
 
 #: plugins/download.py:57
 msgid "download the -debugsource package instead"
-msgstr ""
+msgstr "ດາວໂຫຼດແພັກເກດ -debugsource ແທນ"
 
 #: plugins/download.py:60
 msgid "limit  the  query to packages of given architectures."
-msgstr ""
+msgstr "ຈຳກັດການສອບຖາມສະເພາະແພັກເກດຂອງສະຖາປັດຕະຍະກຳທີ່ກຳນົດ."
 
 #: plugins/download.py:62 plugins/modulesync.py:51
 msgid "resolve and download needed dependencies"
-msgstr ""
+msgstr "ວິເຄາະ ແລະ ດາວໂຫຼດ dependencies ທີ່ຈຳເປັນ"
 
 #: plugins/download.py:64
 msgid ""
 "when running with --resolve, download all dependencies (do not exclude "
 "already installed ones)"
 msgstr ""
+"ເມື່ອລັນດ້ວຍ --resolve, ໃຫ້ດາວໂຫຼດ dependencies ທັງໝົດ (ບໍ່ຕ້ອງຍົກເວັ້ນອັນທີ່ຕິດຕັ້ງໄວ້ແລ້ວ)"
 
 #: plugins/download.py:67
 msgid ""
 "print list of urls where the rpms can be downloaded instead of downloading"
-msgstr ""
+msgstr "ພິມລາຍຊື່ url ບ່ອນທີ່ສາມາດດາວໂຫຼດ rpm ໄດ້ ແທນທີ່ຈະດາວໂຫຼດເລີຍ"
 
 #: plugins/download.py:72
 msgid "when running with --url, limit to specific protocols"
-msgstr ""
+msgstr "ເມື່ອລັນດ້ວຍ --url, ໃຫ້ຈຳກັດສະເພາະໂປຣໂຕຄໍທີ່ກຳນົດ"
 
 #: plugins/download.py:124 plugins/reposync.py:335
 #, python-format
 msgid "Failed to get mirror for package: %s"
-msgstr ""
+msgstr "ດຶງຂໍ້ມູນ mirror ສຳລັບແພັກເກດບໍ່ສຳເລັດ: %s"
 
 #: plugins/download.py:252
 msgid "Exiting due to strict setting."
-msgstr ""
+msgstr "ກຳລັງອອກເນື່ອງຈາກການຕັ້ງຄ່າທີ່ເຂັ້ມງວດ."
 
 #: plugins/download.py:270
 msgid "Error in resolve of packages:"
-msgstr ""
+msgstr "ຂໍ້ຜິດພາດໃນການວິເຄາະແພັກເກດ:"
 
 #: plugins/download.py:288
 #, python-format
 msgid "No source rpm defined for %s"
-msgstr ""
+msgstr "ບໍ່ມີການກຳນົດ source rpm ສຳລັບ %s"
 
 #: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
 #: plugins/manifest.py:359
 #, python-format
 msgid "No package %s available."
-msgstr ""
+msgstr "ບໍ່ມີແພັກເກດ %s ໃຫ້ໃຊ້."
 
 #: plugins/expired-pgp-keys.py:34
 #, python-brace-format
 msgid "The following PGP key has expired on {0}:"
-msgstr ""
+msgstr "ຄີ (key) PGP ຕໍ່ໄປນີ້ໝົດອາຍຸເມື່ອ {0}:"
 
 #: plugins/expired-pgp-keys.py:36
 msgid "For more information about the key:"
-msgstr ""
+msgstr "ສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບຄີ:"
 
 #: plugins/expired-pgp-keys.py:39
 msgid ""
@@ -654,130 +715,133 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"ສົ່ງຜົນໃຫ້ການຕິດຕັ້ງແພັກເກດທີ່ເຊັນດ້ວຍຄີນີ້ລົ້ມເຫຼວ.\n"
+"ແນະນຳໃຫ້ລຶບຄີທີ່ໝົດອາຍຸອອກເພື່ອໃຫ້ສາມາດນຳເຂົ້າຄີໃໝ່ໄດ້.\n"
+"ການເຮັດແບບນີ້ອາດຈະເຮັດໃຫ້ແພັກເກດທີ່ຕິດຕັ້ງໄວ້ແລ້ວບໍ່ສາມາດກວດສອບຄວາມຖືກຕ້ອງໄດ້."
 
 #: plugins/expired-pgp-keys.py:43
 msgid "Do you want to remove the key?"
-msgstr ""
+msgstr "ເຈົ້າຕ້ອງການລຶບຄີນີ້ບໍ່?"
 
 #: plugins/expired-pgp-keys.py:46
 msgid "Key successfully removed."
-msgstr ""
+msgstr "ລຶບຄີສຳເລັດແລ້ວ."
 
 #: plugins/expired-pgp-keys.py:48
 msgid "Failed to remove the key."
-msgstr ""
+msgstr "ລຶບຄີບໍ່ສຳເລັດ."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr ""
+msgstr "ໄອດີກຸ່ມບໍ່ຖືກຕ້ອງ"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
-msgstr ""
+msgstr "ຂໍ້ມູນການແປບໍ່ຖືກຕ້ອງ, ຄວນຢູ່ໃນຮູບແບບ 'lang:text'"
 
 #: plugins/groups_manager.py:61
 msgid "Invalid/empty language for translated data"
-msgstr ""
+msgstr "ພາສາສຳລັບຂໍ້ມູນການແປບໍ່ຖືກຕ້ອງ ຫຼື ວ່າງເປົ່າ"
 
 #: plugins/groups_manager.py:71
 #, python-brace-format
 msgid "Can't generate group id from '{}'. Please specify group id using --id."
-msgstr ""
+msgstr "ບໍ່ສາມາດສ້າງໄອດີກຸ່ມຈາກ '{}'. ກະລຸນາກຳນົດໄອດີກຸ່ມໂດຍໃຊ້ --id."
 
 #: plugins/groups_manager.py:79
 msgid "create and edit groups metadata file"
-msgstr ""
+msgstr "ສ້າງ ແລະ ແກ້ໄຂໄຟລ໌ເມຕາເດຕາຂອງກຸ່ມ"
 
 #: plugins/groups_manager.py:90
 msgid "load groups metadata from file"
-msgstr ""
+msgstr "ໂຫຼດເມຕາເດຕາຂອງກຸ່ມຈາກໄຟລ໌"
 
 #: plugins/groups_manager.py:93
 msgid "save groups metadata to file"
-msgstr ""
+msgstr "ບັນທຶກເມຕາເດຕາຂອງກຸ່ມລົງໃນໄຟລ໌"
 
 #: plugins/groups_manager.py:95
 msgid "load and save groups metadata to file"
-msgstr ""
+msgstr "ໂຫຼດ ແລະ ບັນທຶກເມຕາເດຕາຂອງກຸ່ມລົງໃນໄຟລ໌"
 
 #: plugins/groups_manager.py:97
 msgid "print the result metadata to stdout"
-msgstr ""
+msgstr "ພິມເມຕາເດຕາຜົນໄດ້ຮັບອອກທາງ stdout"
 
 #: plugins/groups_manager.py:100
 msgid "group id"
-msgstr ""
+msgstr "ໄອດີກຸ່ມ"
 
 #: plugins/groups_manager.py:101
 msgid "group name"
-msgstr ""
+msgstr "ຊື່ກຸ່ມ"
 
 #: plugins/groups_manager.py:103
 msgid "group description"
-msgstr ""
+msgstr "ຄຳອະທິບາຍກຸ່ມ"
 
 #: plugins/groups_manager.py:105
 msgid "group display order"
-msgstr ""
+msgstr "ລຳດັບການສະແດງຜົນຂອງກຸ່ມ"
 
 #: plugins/groups_manager.py:108
 msgid "translated name for the group"
-msgstr ""
+msgstr "ຊື່ທີ່ແປແລ້ວສຳລັບກຸ່ມ"
 
 #: plugins/groups_manager.py:111
 msgid "translated description for the group"
-msgstr ""
+msgstr "ຄຳອະທິບາຍທີ່ແປແລ້ວສຳລັບກຸ່ມ"
 
 #: plugins/groups_manager.py:115
 msgid "make the group user visible (default)"
-msgstr ""
+msgstr "ເຮັດໃຫ້ຜູ້ໃຊ້ເບິ່ງເຫັນກຸ່ມໄດ້ (ຄ່າເລີ່ມຕົ້ນ)"
 
 #: plugins/groups_manager.py:118
 msgid "make the group user invisible"
-msgstr ""
+msgstr "ເຮັດໃຫ້ຜູ້ໃຊ້ເບິ່ງບໍ່ເຫັນກຸ່ມ"
 
 #: plugins/groups_manager.py:123
 msgid "add packages to the mandatory section"
-msgstr ""
+msgstr "ເພີ່ມແພັກເກດເຂົ້າໃນສ່ວນທີ່ບັງຄັບ (mandatory)"
 
 #: plugins/groups_manager.py:125
 msgid "add packages to the optional section"
-msgstr ""
+msgstr "ເພີ່ມແພັກເກດເຂົ້າໃນສ່ວນທີ່ເລືອກໄດ້ (optional)"
 
 #: plugins/groups_manager.py:127
 msgid "remove packages from the group instead of adding them"
-msgstr ""
+msgstr "ລຶບແພັກເກດອອກຈາກກຸ່ມແທນທີ່ຈະເພີ່ມພວກມັນເຂົ້າ"
 
 #: plugins/groups_manager.py:129
 msgid "include also direct dependencies for packages"
-msgstr ""
+msgstr "ລວມເອົາ dependencies ໂດຍກົງຂອງແພັກເກດນຳ"
 
 #: plugins/groups_manager.py:132
 msgid "package specification"
-msgstr ""
+msgstr "ຂໍ້ກຳນົດສະເພາະຂອງແພັກເກດ"
 
 #: plugins/groups_manager.py:156
 msgid "Can't edit group without specifying it (use --id or --name)"
-msgstr ""
+msgstr "ບໍ່ສາມາດແກ້ໄຂກຸ່ມໄດ້ໂດຍບໍ່ໄດ້ກຳນົດມັນ (ໃຫ້ໃຊ້ --id ຫຼື --name)"
 
 #: plugins/groups_manager.py:190
 #, python-brace-format
 msgid "Can't load file \"{}\": {}"
-msgstr ""
+msgstr "ບໍ່ສາມາດໂຫຼດໄຟລ໌ \"{}\": {}"
 
 #: plugins/groups_manager.py:206
 #, python-brace-format
 msgid "Can't save file \"{}\": {}"
-msgstr ""
+msgstr "ບໍ່ສາມາດບັນທຶກໄຟລ໌ \"{}\": {}"
 
 #: plugins/groups_manager.py:261
 #, python-brace-format
 msgid "No match for argument: {}"
-msgstr ""
+msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັບອາຄິວເມນ: {}"
 
 #: plugins/groups_manager.py:298
 msgid "Can't remove packages from non-existent group"
-msgstr ""
+msgstr "ບໍ່ສາມາດລຶບແພັກເກດອອກຈາກກຸ່ມທີ່ບໍ່ມີຢູ່"
 
 #: plugins/groups_manager.py:307
 #, python-brace-format
@@ -785,76 +849,77 @@ msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
+"ໄອດີກຸ່ມ '{}' ທີ່ສ້າງຈາກ '{}' ແມ່ນຊ້ຳກັນ. ກະລຸນາກຳນົດໄອດີກຸ່ມໂດຍໃຊ້ --id."
 
 #: plugins/leaves.py:32
 msgid "List installed packages not required by any other package"
-msgstr ""
+msgstr "ລາຍຊື່ແພັກເກດທີ່ຕິດຕັ້ງໄວ້ເຊິ່ງບໍ່ໄດ້ຖືກຕ້ອງການໂດຍແພັກເກດອື່ນເລີຍ"
 
 #: plugins/local.py:122
 #, python-brace-format
 msgid "Unable to create a directory '{}' due to '{}'"
-msgstr ""
+msgstr "ບໍ່ສາມາດສ້າງໂຟນເດີ '{}' ຍ້ອນ '{}'"
 
 #: plugins/local.py:126
 #, python-brace-format
 msgid "'{}' is not a directory"
-msgstr ""
+msgstr "'{}' ບໍ່ແມ່ນໂຟນເດີ"
 
 #: plugins/local.py:135
 #, python-brace-format
 msgid "Copying '{}' to local repo"
-msgstr ""
+msgstr "ກຳລັງຄັດລອກ '{}' ໄປຍັງຄັງເກັບທ້ອງຖິ່ນ"
 
 #: plugins/local.py:141
 #, python-brace-format
 msgid "Can't write file '{}'"
-msgstr ""
+msgstr "ບໍ່ສາມາດຂຽນໄຟລ໌ '{}'"
 
 #: plugins/local.py:156
 msgid "Rebuilding local repo"
-msgstr ""
+msgstr "ກຳລັງສ້າງຄັງເກັບທ້ອງຖິ່ນຄືນໃໝ່"
 
 #: plugins/manifest.py:28
 msgid "Operations for working with RPM package manifest files"
-msgstr ""
+msgstr "ການດຳເນີນງານສຳລັບການເຮັດວຽກກັບໄຟລ໌ manifest ຂອງແພັກເກດ RPM"
 
 #: plugins/manifest.py:51
 msgid "package specs to be processed"
-msgstr ""
+msgstr "specs ຂອງແພັກເກດທີ່ຈະຖືກປະມວນຜົນ"
 
 #: plugins/manifest.py:52
 msgid "input file path to use"
-msgstr ""
+msgstr "ເສັ້ນທາງ (path) ຂອງໄຟລ໌ຂາເຂົ້າທີ່ຈະໃຊ້"
 
 #: plugins/manifest.py:53
 msgid "manifest file path to use"
-msgstr ""
+msgstr "ເສັ້ນທາງ (path) ຂອງໄຟລ໌ manifest ທີ່ຈະໃຊ້"
 
 #: plugins/manifest.py:54
 msgid "use installed packages for resolving dependencies"
-msgstr ""
+msgstr "ໃຊ້ແພັກເກດທີ່ຕິດຕັ້ງໄວ້ເພື່ອວິເຄາະ dependencies"
 
 #: plugins/manifest.py:55
 msgid "include also source packages"
-msgstr ""
+msgstr "ລວມເອົາແພັກເກດ source ນຳ"
 
 #: plugins/manifest.py:56
 msgid "explicitly specify basearchs to use"
-msgstr ""
+msgstr "ກຳນົດ basearchs ທີ່ຈະໃຊ້ຢ່າງຊັດເຈນ"
 
 #: plugins/manifest.py:57
 msgid "separate packages by basearch into individual manifest files"
-msgstr ""
+msgstr "ແຍກແພັກເກດຕາມ basearch ລົງໃນໄຟລ໌ manifest ແຍກກັນ"
 
 #: plugins/manifest.py:84
 #, python-format
 msgid "Input file '%s' does not exist"
-msgstr ""
+msgstr "ບໍ່ມີໄຟລ໌ຂາເຂົ້າ '%s'"
 
 #: plugins/manifest.py:268
 #, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr ""
+msgstr "ບໍ່ມີໄຟລ໌ manifest '%s'"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -863,56 +928,57 @@ msgid ""
 "the '%s.yaml' suffix, keep only one file, or specify a file explicitly using "
 "the '--manifest' option."
 msgstr ""
+"ກວດພົບໄຟລ໌ manifest ຫຼາຍອັນໃນໂຟນເດີ. ກະລຸນາເລືອກໃຊ້ຊື່ໄຟລ໌ທີ່ມີນາມສະກຸນ '%s.yaml', ເກັບໄວ້ພຽງໄ"
+"ຟລ໌ດຽວ, ຫຼື ກຳນົດໄຟລ໌ໃຫ້ຊັດເຈນໂດຍໃຊ້ຕົວເລືອກ '--manifest'."
 
 #: plugins/manifest.py:477
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr ""
+msgstr "ບໍ່ຮູ້ຈັກປະເພດ checksum ຂອງແພັກເກດ RPM: %s"
 
 #: plugins/manifest.py:492
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr ""
+msgstr "ບໍ່ຮູ້ຈັກປະເພດ checksum ຂອງແພັກເກດ DNF: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
-msgstr ""
+msgstr "ຍ້າຍຂໍ້ມູນປະຫວັດ (history), ກຸ່ມ ແລະ yumdb ຂອງ yum ໄປຫາ dnf"
 
 #: plugins/migrate.py:54
 msgid "Migrating history data..."
-msgstr ""
+msgstr "ກຳລັງຍ້າຍຂໍ້ມູນປະຫວັດ..."
 
 #: plugins/modulesync.py:37
 msgid ""
 "Download packages from modules and/or create a repository with modular data"
-msgstr ""
+msgstr "ດາວໂຫຼດແພັກເກດຈາກໂມດູນ ແລະ/ຫຼື ສ້າງຄັງເກັບທີ່ມີຂໍ້ມູນແບບ modular"
 
 #: plugins/modulesync.py:44
 msgid "MODULE"
-msgstr ""
+msgstr "ໂມດູນ"
 
 #: plugins/modulesync.py:45
 msgid "modules to download"
-msgstr ""
+msgstr "ໂມດູນທີ່ຈະດາວໂຫຼດ"
 
 #: plugins/modulesync.py:47
 msgid "enable repositories with source packages"
-msgstr ""
+msgstr "ເປີດໃຊ້ຄັງເກັບທີ່ມີແພັກເກດ source"
 
 #: plugins/modulesync.py:49
 msgid "enable repositories with debug-info and debug-source packages"
-msgstr ""
+msgstr "ເປີດໃຊ້ຄັງເກັບທີ່ມີແພັກເກດ debug-info ແລະ debug-source"
 
 #: plugins/modulesync.py:53
 msgid "download only packages from newest modules"
-msgstr ""
+msgstr "ດາວໂຫຼດສະເພາະແພັກເກດຈາກໂມດູນໃໝ່ສຸດ"
 
 #: plugins/modulesync.py:85
 #, python-brace-format
 msgid "Unable to find a match for argument: '{}'"
 msgid_plural "Unable to find a match for arguments: '{}'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ບໍ່ສາມາດຊອກຫາຂໍ້ມູນທີ່ກົງກັບອາຄິວເມນ: '{}'"
 
 #: plugins/modulesync.py:107
 #, python-brace-format
@@ -920,27 +986,28 @@ msgid ""
 "Creation of repository failed with return code {}. All downloaded content "
 "was kept on the system"
 msgstr ""
+"ສ້າງຄັງເກັບບໍ່ສຳເລັດດ້ວຍລະຫັດຂໍ້ຜິດພາດ {}. ເນື້ອໃນທັງໝົດທີ່ດາວໂຫຼດມາໄດ້ຖືກເກັບໄວ້ໃນລະບົບແລ້ວ"
 
 #: plugins/modulesync.py:144
 #, python-brace-format
 msgid "No match for artifact '{0}' from module '{1}'"
-msgstr ""
+msgstr "ບໍ່ມີຂໍ້ມູນກົງກັບ artifact '{0}' ຈາກໂມດູນ '{1}'"
 
 #: plugins/modulesync.py:162
 #, python-brace-format
 msgid "No match for package name '{0}' in profile {1} from module {2}"
-msgstr ""
+msgstr "ບໍ່ມີຂໍ້ມູນກົງກັບຊື່ແພັກເກດ '{0}' ໃນ profile {1} ຈາກໂມດູນ {2}"
 
 #: plugins/modulesync.py:166
 #, python-brace-format
 msgid "No mach for argument '{}'"
-msgstr ""
+msgstr "ບໍ່ມີຂໍ້ມູນກົງກັບອາຄິວເມນ '{}'"
 
 #. TODO(jmracek) Shell we end with an error or with RC 1?
 #: plugins/modulesync.py:198
 #, python-brace-format
 msgid "Unable to satisfy require {}"
-msgstr ""
+msgstr "ບໍ່ສາມາດຕອບສະໜອງຄວາມຕ້ອງການ {}"
 
 #: plugins/needs_restarting.py:68
 #, python-brace-format
@@ -948,390 +1015,406 @@ msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
+"ບໍ່ພົບແພັກເກດທີ່ຕິດຕັ້ງໄວ້ສຳລັບຊື່ແພັກເກດ \"{pkg}\" ທີ່ລະບຸໃນໄຟລ໌ needs-restarting \"{file}\"."
 
 #: plugins/needs_restarting.py:309
 msgid "determine updated binaries that need restarting"
 msgstr ""
+"ກຳນົດໄຟລ໌ binary ທີ່ອັບເດດແລ້ວເຊິ່ງຈຳເປັນຕ້ອງມີການເລີ່ມຕົ້ນໃໝ່ (restarting)"
 
 #: plugins/needs_restarting.py:314
 msgid "only consider this user's processes"
-msgstr ""
+msgstr "ພິຈາລະນາສະເພາະໂປຣເຊສ (process) ຂອງຜູ້ໃຊ້ນີ້ເທົ່ານັ້ນ"
 
 #: plugins/needs_restarting.py:316
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
-msgstr ""
+msgstr "ລາຍງານສະເພາະວ່າຈຳເປັນຕ້ອງ reboot (exit code 1) ຫຼື ບໍ່ (exit code 0)"
 
 #: plugins/needs_restarting.py:319
 msgid "only report affected systemd services"
-msgstr ""
+msgstr "ລາຍງານສະເພາະການບໍລິການ systemd ທີ່ໄດ້ຮັບຜົນກະທົບ"
 
 #: plugins/needs_restarting.py:321
 msgid "don't list stale processes that correspond to a systemd service"
-msgstr ""
+msgstr "ບໍ່ຕ້ອງສະແດງລາຍຊື່ໂປຣເຊສທີ່ຄ້າງຢູ່ເຊິ່ງກ່ຽວຂ້ອງກັບການບໍລິການ systemd"
 
 #: plugins/needs_restarting.py:345
 msgid "Core libraries or services have been updated since boot-up:"
-msgstr ""
+msgstr "ໄລບຣາຣີຫຼັກ ຫຼື ການບໍລິການຕ່າງໆໄດ້ຖືກອັບເດດແລ້ວຕັ້ງແຕ່ເລີ່ມລະບົບ:"
 
 #: plugins/needs_restarting.py:350
 msgid "Reboot is required to fully utilize these updates."
-msgstr ""
+msgstr "ຈຳເປັນຕ້ອງ Reboot ເພື່ອໃຫ້ການອັບເດດເຫຼົ່ານີ້ມີຜົນເຕັມທີ່."
 
 #: plugins/needs_restarting.py:351
 msgid "More information:"
-msgstr ""
+msgstr "ຂໍ້ມູນເພີ່ມເຕີມ:"
 
 #: plugins/needs_restarting.py:355
 msgid "No core libraries or services have been updated since boot-up."
-msgstr ""
+msgstr "ບໍ່ມີໄລບຣາຣີຫຼັກ ຫຼື ການບໍລິການໃດໆຖືກອັບເດດຕັ້ງແຕ່ເລີ່ມລະບົບ."
 
 #: plugins/needs_restarting.py:357
 msgid "Reboot should not be necessary."
-msgstr ""
+msgstr "ບໍ່ຈຳເປັນຕ້ອງ Reboot."
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
 msgid "Bad Action Line \"%s\": %s"
-msgstr ""
+msgstr "ບັນທັດການດຳເນີນການ (Action Line) ບໍ່ຖືກຕ້ອງ \"%s\": %s"
 
 #. unsupported state, skip it
 #: plugins/post-transaction-actions.py:133
 #: plugins/pre-transaction-actions.py:118
 #, python-format
 msgid "Bad Transaction State: %s"
-msgstr ""
+msgstr "ສະຖານະທຸລະກຳບໍ່ຖືກຕ້ອງ: %s"
 
 #: plugins/post-transaction-actions.py:160
 #: plugins/post-transaction-actions.py:162
 #, python-format
 msgid "post-transaction-actions: %s"
-msgstr ""
+msgstr "post-transaction-actions: %s"
 
 #: plugins/post-transaction-actions.py:164
 #, python-format
 msgid "post-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "post-transaction-actions: ຄຳສັ່ງບໍ່ຖືກຕ້ອງ \"%s\": %s"
 
 #: plugins/pre-transaction-actions.py:145
 #: plugins/pre-transaction-actions.py:147
 #, python-format
 msgid "pre-transaction-actions: %s"
-msgstr ""
+msgstr "pre-transaction-actions: %s"
 
 #: plugins/pre-transaction-actions.py:149
 #, python-format
 msgid "pre-transaction-actions: Bad Command \"%s\": %s"
-msgstr ""
+msgstr "pre-transaction-actions: ຄຳສັ່ງບໍ່ຖືກຕ້ອງ \"%s\": %s"
 
 #: plugins/repoclosure.py:42
 msgid "Display a list of unresolved dependencies for repositories"
-msgstr ""
+msgstr "ສະແດງລາຍຊື່ dependencies ທີ່ຍັງບໍ່ໄດ້ຮັບການແກ້ໄຂສຳລັບຄັງເກັບ"
 
 #: plugins/repoclosure.py:70
 #, python-brace-format
 msgid "Repoclosure ended with unresolved dependencies ({}) across {} packages."
 msgstr ""
+"Repoclosure ສິ້ນສຸດລົງດ້ວຍ dependencies ທີ່ຍັງບໍ່ໄດ້ຮັບການແກ້ໄຂ ({}) ໃນ {} ແພັກເກດ."
 
 #: plugins/repoclosure.py:160
 msgid "check packages of the given archs, can be specified multiple times"
-msgstr ""
+msgstr "ກວດສອບແພັກເກດຂອງ archs ທີ່ກຳນົດ, ສາມາດກຳນົດໄດ້ຫຼາຍຄັ້ງ"
 
 #: plugins/repoclosure.py:163
 msgid "Specify repositories to check"
-msgstr ""
+msgstr "ກຳນົດຄັງເກັບທີ່ຈະກວດສອບ"
 
 #: plugins/repoclosure.py:165
 msgid "Check only the newest packages in the repos"
-msgstr ""
+msgstr "ກວດສອບສະເພາະແພັກເກດໃໝ່ສຸດໃນຄັງເກັບ"
 
 #: plugins/repoclosure.py:168
 msgid "Check closure for this package only"
-msgstr ""
+msgstr "ກວດສອບ closure ສຳລັບແພັກເກດນີ້ເທົ່ານັ້ນ"
 
 #: plugins/repodiff.py:45
 msgid "List differences between two sets of repositories"
-msgstr ""
+msgstr "ລາຍຊື່ຂໍ້ແຕກຕ່າງລະຫວ່າງຄັງເກັບສອງຊຸດ"
 
 #: plugins/repodiff.py:58
 msgid "Specify old repository, can be used multiple times"
-msgstr ""
+msgstr "ກຳນົດຄັງເກັບເກົ່າ, ສາມາດໃຊ້ໄດ້ຫຼາຍຄັ້ງ"
 
 #: plugins/repodiff.py:60
 msgid "Specify new repository, can be used multiple times"
-msgstr ""
+msgstr "ກຳນົດຄັງເກັບໃໝ່, ສາມາດໃຊ້ໄດ້ຫຼາຍຄັ້ງ"
 
 #: plugins/repodiff.py:63
 msgid ""
 "Specify architectures to compare, can be used multiple times. By default, "
 "only source rpms are compared."
 msgstr ""
+"ກຳນົດສະຖາປັດຕະຍະກຳທີ່ຈະປຽບທຽບ, ສາມາດໃຊ້ໄດ້ຫຼາຍຄັ້ງ. ໂດຍຄ່າເລີ່ມຕົ້ນ ແພັກເກດ source rpm ເທົ່ານັ້ນ"
+"ທີ່ຈະຖືກປຽບທຽບ."
 
 #: plugins/repodiff.py:67
 msgid "Output additional data about the size of the changes."
-msgstr ""
+msgstr "ສະແດງຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບຂະໜາດຂອງການປ່ຽນແປງ."
 
 #: plugins/repodiff.py:69
 msgid ""
 "Compare packages also by arch. By default packages are compared just by name."
 msgstr ""
+"ປຽບທຽບແພັກເກດຕາມ arch ນຳ. ໂດຍຄ່າເລີ່ມຕົ້ນ ແພັກເກດຈະຖືກປຽບທຽບແຕ່ຊື່ເທົ່ານັ້ນ."
 
 #: plugins/repodiff.py:72
 msgid "Output a simple one line message for modified packages."
-msgstr ""
+msgstr "ສະແດງຂໍ້ຄວາມສັ້ນໆແຖວດຽວສຳລັບແພັກເກດທີ່ຖືກແກ້ໄຂ."
 
 #: plugins/repodiff.py:74
 msgid ""
 "Split the data for modified packages between upgraded and downgraded "
 "packages."
-msgstr ""
+msgstr "ແຍກຂໍ້ມູນສຳລັບແພັກເກດທີ່ຖືກແກ້ໄຂ ລະຫວ່າງແພັກເກດທີ່ອັບເກຣດ ແລະ ດາວເກຣດ."
 
 #: plugins/repodiff.py:86
 msgid "Both old and new repositories must be set."
-msgstr ""
+msgstr "ຕ້ອງກຳນົດທັງຄັງເກັບເກົ່າ ແລະ ໃໝ່."
 
 #: plugins/repodiff.py:178
 #, python-brace-format
 msgid "Size change: {} bytes"
-msgstr ""
+msgstr "ການປ່ຽນແປງຂະໜາດ: {} ໄບຕ໌"
 
 #: plugins/repodiff.py:184
 #, python-brace-format
 msgid "Added package  : {}"
-msgstr ""
+msgstr "ແພັກເກດທີ່ເພີ່ມເຂົ້າ : {}"
 
 #: plugins/repodiff.py:187
 #, python-brace-format
 msgid "Removed package: {}"
-msgstr ""
+msgstr "ແພັກເກດທີ່ລຶບອອກ: {}"
 
 #: plugins/repodiff.py:190
 #, python-brace-format
 msgid "Obsoleted by   : {}"
-msgstr ""
+msgstr "ຖືກປ່ຽນແທນໂດຍ (Obsoleted by) : {}"
 
 #: plugins/repodiff.py:195
 msgid ""
 "\n"
 "Upgraded packages"
 msgstr ""
+"\n"
+"ແພັກເກດທີ່ອັບເກຣດ"
 
 #: plugins/repodiff.py:200
 msgid ""
 "\n"
 "Downgraded packages"
 msgstr ""
+"\n"
+"ແພັກເກດທີ່ດາວເກຣດ"
 
 #: plugins/repodiff.py:207
 msgid ""
 "\n"
 "Modified packages"
 msgstr ""
+"\n"
+"ແພັກເກດທີ່ຖືກແກ້ໄຂ"
 
 #: plugins/repodiff.py:212
 msgid ""
 "\n"
 "Summary"
 msgstr ""
+"\n"
+"ບົດສະຫຼຸບ"
 
 #: plugins/repodiff.py:213
 #, python-brace-format
 msgid "Added packages: {}"
-msgstr ""
+msgstr "ແພັກເກດທີ່ເພີ່ມເຂົ້າ: {}"
 
 #: plugins/repodiff.py:214
 #, python-brace-format
 msgid "Removed packages: {}"
-msgstr ""
+msgstr "ແພັກເກດທີ່ລຶບອອກ: {}"
 
 #: plugins/repodiff.py:216
 #, python-brace-format
 msgid "Upgraded packages: {}"
-msgstr ""
+msgstr "ແພັກເກດທີ່ອັບເກຣດ: {}"
 
 #: plugins/repodiff.py:217
 #, python-brace-format
 msgid "Downgraded packages: {}"
-msgstr ""
+msgstr "ແພັກເກດທີ່ດາວເກຣດ: {}"
 
 #: plugins/repodiff.py:219
 #, python-brace-format
 msgid "Modified packages: {}"
-msgstr ""
+msgstr "ແພັກເກດທີ່ຖືກແກ້ໄຂ: {}"
 
 #: plugins/repodiff.py:222
 #, python-brace-format
 msgid "Size of added packages: {}"
-msgstr ""
+msgstr "ຂະໜາດຂອງແພັກເກດທີ່ເພີ່ມເຂົ້າ: {}"
 
 #: plugins/repodiff.py:223
 #, python-brace-format
 msgid "Size of removed packages: {}"
-msgstr ""
+msgstr "ຂະໜາດຂອງແພັກເກດທີ່ລຶບອອກ: {}"
 
 #: plugins/repodiff.py:225
 #, python-brace-format
 msgid "Size of modified packages: {}"
-msgstr ""
+msgstr "ຂະໜາດຂອງແພັກເກດທີ່ຖືກແກ້ໄຂ: {}"
 
 #: plugins/repodiff.py:228
 #, python-brace-format
 msgid "Size of upgraded packages: {}"
-msgstr ""
+msgstr "ຂະໜາດຂອງແພັກເກດທີ່ອັບເກຣດ: {}"
 
 #: plugins/repodiff.py:230
 #, python-brace-format
 msgid "Size of downgraded packages: {}"
-msgstr ""
+msgstr "ຂະໜາດຂອງແພັກເກດທີ່ດາວເກຣດ: {}"
 
 #: plugins/repodiff.py:232
 #, python-brace-format
 msgid "Size change: {}"
-msgstr ""
+msgstr "ການປ່ຽນແປງຂະໜາດ: {}"
 
 #: plugins/repograph.py:50
 msgid "Output a full package dependency graph in dot format"
-msgstr ""
+msgstr "ສະແດງກຣາຟຄວາມກ່ຽວພັນຂອງແພັກເກດທັງໝົດໃນຮູບແບບ dot"
 
 #: plugins/repograph.py:110
 #, python-format
 msgid "Nothing provides: '%s'"
-msgstr ""
+msgstr "ບໍ່ມີສິ່ງໃດຕອບສະໜອງ: '%s'"
 
 #: plugins/repomanage.py:45
 msgid "Manage a directory of rpm packages"
-msgstr ""
+msgstr "ຈັດການໂຟນເດີຂອງແພັກເກດ rpm"
 
 #: plugins/repomanage.py:59
 msgid "Pass either --old or --new, not both!"
-msgstr ""
+msgstr "ໃຫ້ເລືອກໃຊ້ລະຫວ່າງ --old ຫຼື --new, ຫ້າມໃຊ້ທັງສອງ!"
 
 #: plugins/repomanage.py:61
 msgid "Pass either --oldonly or --new, not both!"
-msgstr ""
+msgstr "ໃຫ້ເລືອກໃຊ້ລະຫວ່າງ --oldonly ຫຼື --new, ຫ້າມໃຊ້ທັງສອງ!"
 
 #: plugins/repomanage.py:63
 msgid "Pass either --old or --oldonly, not both!"
-msgstr ""
+msgstr "ໃຫ້ເລືອກໃຊ້ລະຫວ່າງ --old ຫຼື --oldonly, ຫ້າມໃຊ້ທັງສອງ!"
 
 #: plugins/repomanage.py:100
 msgid "No files to process"
-msgstr ""
+msgstr "ບໍ່ມີໄຟລ໌ທີ່ຈະປະມວນຜົນ"
 
 #: plugins/repomanage.py:107
 #, python-brace-format
 msgid "Could not open {}"
-msgstr ""
+msgstr "ບໍ່ສາມາດເປີດ {}"
 
 #: plugins/repomanage.py:223
 msgid "Print the older packages"
-msgstr ""
+msgstr "ພິມລາຍຊື່ແພັກເກດທີ່ເກົ່າກວ່າ"
 
 #: plugins/repomanage.py:225
 msgid "Print the older packages. Exclude the newest packages."
-msgstr ""
+msgstr "ພິມລາຍຊື່ແພັກເກດທີ່ເກົ່າກວ່າ ໂດຍຍົກເວັ້ນແພັກເກດໃໝ່ສຸດ."
 
 #: plugins/repomanage.py:227
 msgid "Print the newest packages"
-msgstr ""
+msgstr "ພິມລາຍຊື່ແພັກເກດທີ່ໃໝ່ສຸດ"
 
 #: plugins/repomanage.py:229
 msgid "Space separated output, not newline"
-msgstr ""
+msgstr "ສະແດງຜົນໂດຍແຍກດ້ວຍຍະຫວ່າງ ແທນການຂຶ້ນບັນທັດໃໝ່"
 
 #: plugins/repomanage.py:231
 msgid "Newest N packages to keep - defaults to 1"
-msgstr ""
+msgstr "ຈຳນວນແພັກເກດໃໝ່ສຸດ N ອັນທີ່ຈະເກັບໄວ້ - ຄ່າເລີ່ມຕົ້ນແມ່ນ 1"
 
 #: plugins/repomanage.py:234
 msgid "Path to directory"
-msgstr ""
+msgstr "ເສັ້ນທາງ (path) ໄປຍັງໂຟນເດີ"
 
 #: plugins/reposync.py:55
 msgid "download all packages from remote repo"
-msgstr ""
+msgstr "ດາວໂຫຼດແພັກເກດທັງໝົດຈາກຄັງເກັບທາງໄກ"
 
 #: plugins/reposync.py:64
 msgid "download only packages for this ARCH"
-msgstr ""
+msgstr "ດາວໂຫຼດສະເພາະແພັກເກດສຳລັບ ARCH ນີ້"
 
 #: plugins/reposync.py:66
 msgid "delete local packages no longer present in repository"
-msgstr ""
+msgstr "ລຶບແພັກເກດໃນເຄື່ອງທີ່ບໍ່ມີຢູ່ໃນຄັງເກັບແລ້ວ"
 
 #: plugins/reposync.py:68
 msgid "download all the metadata."
-msgstr ""
+msgstr "ດາວໂຫຼດເມຕາເດຕາທັງໝົດ."
 
 #: plugins/reposync.py:70
 msgid "Remove packages that fail GPG signature checking after downloading"
-msgstr ""
+msgstr "ລຶບແພັກເກດທີ່ບໍ່ຜ່ານການກວດສອບລາຍເຊັນ GPG ຫຼັງຈາກດາວໂຫຼດ"
 
 #: plugins/reposync.py:73
 msgid "also download and uncompress comps.xml"
-msgstr ""
+msgstr "ດາວໂຫຼດ ແລະ ແຕກໄຟລ໌ comps.xml ນຳ"
 
 #: plugins/reposync.py:75
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
+"ບ່ອນທີ່ຈະເກັບເມຕາເດຕາຂອງຄັງເກັບທີ່ດາວໂຫຼດມາ. ຄ່າເລີ່ມຕົ້ນແມ່ນຄ່າດຽວກັບ --download-path."
 
 #: plugins/reposync.py:78
 msgid "download only newest packages per-repo"
-msgstr ""
+msgstr "ດາວໂຫຼດສະເພາະແພັກເກດໃໝ່ສຸດແຍກຕາມຄັງເກັບ"
 
 #: plugins/reposync.py:80
 msgid "Don't add the reponame to the download path."
-msgstr ""
+msgstr "ບໍ່ຕ້ອງເພີ່ມຊື່ຄັງເກັບ (reponame) ລົງໃນເສັ້ນທາງການດາວໂຫຼດ."
 
 #: plugins/reposync.py:82
 msgid "where to store downloaded repositories"
-msgstr ""
+msgstr "ບ່ອນທີ່ຈະເກັບຄັງເກັບທີ່ດາວໂຫຼດມາ"
 
 #: plugins/reposync.py:84
 msgid "try to set local timestamps of local files by the one on the server"
-msgstr ""
+msgstr "ພະຍາຍາມຕັ້ງເວລາ (timestamp) ຂອງໄຟລ໌ໃນເຄື່ອງໃຫ້ກົງກັບທີ່ຢູ່ເທິງເຊີເວີ"
 
 #: plugins/reposync.py:87
 msgid "download only source packages"
-msgstr ""
+msgstr "ດາວໂຫຼດສະເພາະແພັກເກດ source"
 
 #: plugins/reposync.py:89
 msgid "Just list urls of what would be downloaded, don't download"
-msgstr ""
+msgstr "ສະແດງແຕ່ລາຍຊື່ url ຂອງສິ່ງທີ່ຈະຖືກດາວໂຫຼດ, ບໍ່ຕ້ອງດາວໂຫຼດແທ້"
 
 #: plugins/reposync.py:92
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
+"ເສັ້ນທາງລະບົບໄຟລ໌ທີ່ຖືວ່າປອດໄພສຳລັບການຂຽນ. ຄ່າເລີ່ມຕົ້ນແມ່ນເສັ້ນທາງດາວໂຫຼດ."
 
 #: plugins/reposync.py:119
 msgid "Can't use --norepopath with multiple repositories"
-msgstr ""
+msgstr "ບໍ່ສາມາດໃຊ້ --norepopath ກັບຫຼາຍຄັງເກັບໄດ້"
 
 #: plugins/reposync.py:122
 msgid "Can't use --safe-write-path with multiple repositories"
-msgstr ""
+msgstr "ບໍ່ສາມາດໃຊ້ --safe-write-path ກັບຫຼາຍຄັງເກັບໄດ້"
 
 #: plugins/reposync.py:141
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
-msgstr ""
+msgstr "ດຶງຂໍ້ມູນ mirror ສຳລັບເມຕາເດຕາບໍ່ສຳເລັດ: %s"
 
 #: plugins/reposync.py:158
 msgid "Failed to get mirror for the group file."
-msgstr ""
+msgstr "ດຶງຂໍ້ມູນ mirror ສຳລັບໄຟລ໌ກຸ່ມບໍ່ສຳເລັດ."
 
 #: plugins/reposync.py:177
 #, python-brace-format
 msgid "Removing {}: {}"
-msgstr ""
+msgstr "ກຳລັງລຶບ {}: {}"
 
 #: plugins/reposync.py:184
 msgid "GPG signature check failed."
-msgstr ""
+msgstr "ການກວດສອບລາຍເຊັນ GPG ລົ້ມເຫຼວ."
 
 #: plugins/reposync.py:208
 #, python-brace-format
@@ -1339,34 +1422,36 @@ msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
 msgstr ""
+"ເປົ້າໝາຍການດາວໂຫຼດ '{0}' ສຳລັບ '{1}' ຂອງແພັກເກດ '{2}' ແມ່ນຢູ່ນອກເສັ້ນທາງການຂຽນທີ່ປອດໄພ '"
+"{3}'."
 
 #: plugins/reposync.py:224
 #, python-format
 msgid "[DELETED] %s"
-msgstr ""
+msgstr "[ລຶບແລ້ວ] %s"
 
 #: plugins/reposync.py:226
 #, python-format
 msgid "failed to delete file %s"
-msgstr ""
+msgstr "ລຶບໄຟລ໌ %s ບໍ່ສຳເລັດ"
 
 #: plugins/reposync.py:235
 #, python-format
 msgid "comps.xml for repository %s saved"
-msgstr ""
+msgstr "ບັນທຶກ comps.xml ສຳລັບຄັງເກັບ %s ແລ້ວ"
 
 #: plugins/show_leaves.py:54
 msgid "New leaves:"
-msgstr ""
+msgstr "ແພັກເກດປາຍທາງ (leaves) ໃໝ່:"
 
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:45
 msgid "the color of the sky"
-msgstr ""
+msgstr "ສີຂອງທ້ອງຟ້າ"
 
 #: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "ຕ້ອງການ --releasever ທີ່ສູງກວ່າເວີຊັນລະບົບປັດຈຸບັນ."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:59
@@ -1375,84 +1460,91 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"ດາວໂຫຼດສຳເລັດແລ້ວ! ໃຊ້ 'dnf {command} reboot' ເພື່ອເລີ່ມການອັບເກຣດ.\n"
+"ຫາກຕ້ອງການລຶບເມຕາເດຕາ ແລະ ທຸລະກຳທີ່ເກັບໄວ້ ໃຫ້ໃຊ້ 'dnf {command} clean'"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr ""
+msgstr "ຂໍອະໄພ, ເຈົ້າຈຳເປັນຕ້ອງໃຊ້ 'download --releasever' ແທນ '--network'"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "ປິດການ Reboot ໄວ້, ຈະບໍ່ມີການ Reboot."
 
 #: plugins/system_upgrade.py:125
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
-msgstr ""
+msgstr "ບໍ່ສາມາດປິດການພັກໜ້າຈໍ (screen blanking) ໄດ້: %s"
 
 #: plugins/system_upgrade.py:145
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr ""
+"ໂຫຼດໄຟລ໌ສະຖານະ (state file) ບໍ່ສຳເລັດ: %s, ກຳລັງດຳເນີນການຕໍ່ດ້ວຍສະຖານະວ່າງເປົ່າ."
 
 #: plugins/system_upgrade.py:293
 msgid "The following boots appear to contain upgrade logs:"
-msgstr ""
+msgstr "ການບູດ (boot) ຕໍ່ໄປນີ້ເບິ່ງຄືວ່າມີບັນທຶກ (log) ການອັບເກຣດ:"
 
 #: plugins/system_upgrade.py:303
 msgid "-- no logs were found --"
-msgstr ""
+msgstr "-- ບໍ່ພົບບັນທຶກໃດໆ --"
 
 #: plugins/system_upgrade.py:318
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "ບໍ່ພົບບັນທຶກທີ່ມີອິນເດັກ (index) ນີ້."
 
 #: plugins/system_upgrade.py:327
 msgid "Unable to match systemd journal entry"
-msgstr ""
+msgstr "ບໍ່ສາມາດຈັບຄູ່ກັບລາຍການ systemd journal ໄດ້"
 
 #: plugins/system_upgrade.py:348
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "ກຽມລະບົບສຳລັບການອັບເກຣດເປັນ release ໃໝ່"
 
 #: plugins/system_upgrade.py:364
 msgid "keep installed packages if the new release's version is older"
-msgstr ""
+msgstr "ເກັບແພັກເກດທີ່ຕິດຕັ້ງໄວ້ຫາກເວີຊັນຂອງ release ໃໝ່ນັ້ນເກົ່າກວ່າ"
 
 #: plugins/system_upgrade.py:368
 msgid "power off system after the operation is completed"
-msgstr ""
+msgstr "ປິດເຄື່ອງຫຼັງຈາກການເຮັດວຽກສຳເລັດ"
 
 #: plugins/system_upgrade.py:372
 msgid "which logs to show"
-msgstr ""
+msgstr "ບັນທຶກ (log) ໃດທີ່ຈະໃຫ້ສະແດງ"
 
 #: plugins/system_upgrade.py:406
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
+"ເວີຊັນຂອງຂໍ້ມູນບໍ່ເຂົ້າກັນ. ກະລຸນາລັນ 'dnf {command} download [OPTIONS]' ຄືນໃໝ່"
 
 #: plugins/system_upgrade.py:442
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
+"ຄຳສັ່ງ 'offline-distrosync' ບໍ່ສາມາດໃຊ້ຮ່ວມກັບຕົວເລືອກ --no-downgrade ໄດ້"
 
 #: plugins/system_upgrade.py:464
 #, python-brace-format
 msgid "Additional information for System Upgrade: {}"
-msgstr ""
+msgstr "ຂໍ້ມູນເພີ່ມເຕີມສຳລັບການອັບເກຣດລະບົບ: {}"
 
 #: plugins/system_upgrade.py:467
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
 msgstr ""
+"ກ່ອນທີ່ຈະດຳເນີນການຕໍ່ ກະລຸນາໝັ້ນໃຈວ່າລະບົບຂອງເຈົ້າໄດ້ຖືກອັບເກຣດທັງໝົດແລ້ວໂດຍການລັນ \"dnf --"
+"refresh upgrade\". ເຈົ້າຕ້ອງການດຳເນີນການຕໍ່ບໍ່"
 
 #: plugins/system_upgrade.py:471
 msgid "Operation aborted."
-msgstr ""
+msgstr "ຍົກເລີກການເຮັດວຽກ."
 
 #: plugins/system_upgrade.py:532
 msgid "system is not ready for upgrade"
-msgstr ""
+msgstr "ລະບົບຍັງບໍ່ພ້ອມສຳລັບການອັບເກຣດ"
 
 #: plugins/system_upgrade.py:535
 #, python-brace-format
@@ -1460,146 +1552,148 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
+"ທຸລະກຳຍັງບໍ່ໄດ້ຖືກກຽມໄວ້ສຳລັບ '{command}'. ໃຫ້ລັນ 'dnf {command} download [OPTIONS]' ຄືນ"
+"ໃໝ່"
 
 #: plugins/system_upgrade.py:539
 msgid "upgrade is already scheduled"
-msgstr ""
+msgstr "ການອັບເກຣດຖືກກຳນົດເວລາໄວ້ແລ້ວ"
 
 #: plugins/system_upgrade.py:545
 msgid "trigger file does not exist. exiting quietly."
-msgstr ""
+msgstr "ບໍ່ມີໄຟລ໌ trigger. ກຳລັງອອກໂດຍບໍ່ແຈ້ງເຕືອນ."
 
 #: plugins/system_upgrade.py:548
 msgid "another upgrade tool is running. exiting quietly."
-msgstr ""
+msgstr "ມີເຄື່ອງມືອັບເກຣດອື່ນກຳລັງເຮັດວຽກຢູ່. ກຳລັງອອກໂດຍບໍ່ແຈ້ງເຕືອນ."
 
 #: plugins/system_upgrade.py:557
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "ໃຊ້ 'dnf {command} reboot' ເພື່ອເລີ່ມຕົ້ນການອັບເກຣດ"
 
 #: plugins/system_upgrade.py:577
 msgid "Rebooting to perform upgrade."
-msgstr ""
+msgstr "ກຳລັງ Reboot ເພື່ອດຳເນີນການອັບເກຣດ."
 
 #: plugins/system_upgrade.py:613
 msgid "Starting offline upgrade. This will take a while."
-msgstr ""
+msgstr "ກຳລັງເລີ່ມການອັບເກຣດແບບອອບໄລນ໌. ອາດຈະໃຊ້ເວລາໄລຍະໜຶ່ງ."
 
 #: plugins/system_upgrade.py:615
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
+msgstr "ກຳລັງເລີ່ມ distrosync ແບບອອບໄລນ໌. ອາດຈະໃຊ້ເວລາໄລຍະໜຶ່ງ."
 
 #: plugins/system_upgrade.py:617
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "ກຳລັງເລີ່ມການອັບເກຣດລະບົບ. ອາດຈະໃຊ້ເວລາໄລຍະໜຶ່ງ."
 
 #: plugins/system_upgrade.py:633
 msgid "Cleaning up downloaded data..."
-msgstr ""
+msgstr "ກຳລັງລຶບຂໍ້ມູນທີ່ດາວໂຫຼດມາ..."
 
 #: plugins/system_upgrade.py:663
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "ທຸລະກຳ system-upgrade ວ່າງເປົ່າ, ລະບົບຂອງເຈົ້າເປັນເວີຊັນໃໝ່ຫຼ້າສຸດແລ້ວ."
 
 #: plugins/system_upgrade.py:672
 #, python-brace-format
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "ບັນທຶກທຸລະກຳໄວ້ທີ່ {} ແລ້ວ."
 
 #: plugins/system_upgrade.py:675
 #, python-brace-format
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "ຂໍ້ຜິດພາດໃນການບັນທຶກທຸລະກຳ: {}"
 
 #: plugins/system_upgrade.py:697
 msgid "Download finished."
-msgstr ""
+msgstr "ດາວໂຫຼດສຳເລັດແລ້ວ."
 
 #: plugins/system_upgrade.py:701
 msgid "Upgrade complete! Cleaning up and powering off..."
-msgstr ""
+msgstr "ອັບເກຣດສຳເລັດແລ້ວ! ກຳລັງລຶບຂໍ້ມູນ ແລະ ປິດເຄື່ອງ..."
 
 #: plugins/system_upgrade.py:703
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr ""
+msgstr "ອັບເກຣດສຳເລັດແລ້ວ! ກຳລັງລຶບຂໍ້ມູນ ແລະ Reboot..."
 
 #: plugins/system_upgrade.py:715
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "ກຽມການອັບເກຣດລະບົບແບບອອບໄລນ໌"
 
 #: plugins/system_upgrade.py:720
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "ກຽມການ distrosync ລະບົບແບບອອບໄລນ໌"
 
 #: plugins/versionlock.py:33
 #, python-format
 msgid "Unable to read version lock configuration: %s"
-msgstr ""
+msgstr "ບໍ່ສາມາດອ່ານການຕັ້ງຄ່າ version lock: %s"
 
 #: plugins/versionlock.py:34
 msgid "Locklist not set"
-msgstr ""
+msgstr "ຍັງບໍ່ໄດ້ກຳນົດ Locklist"
 
 #: plugins/versionlock.py:35
 msgid "Adding versionlock on:"
-msgstr ""
+msgstr "ກຳລັງເພີ່ມ versionlock ໃຫ້ກັບ:"
 
 #: plugins/versionlock.py:36
 msgid "Adding exclude on:"
-msgstr ""
+msgstr "ກຳລັງເພີ່ມການຍົກເວັ້ນ (exclude) ໃຫ້ກັບ:"
 
 #: plugins/versionlock.py:37
 msgid "Package already locked in equivalent form:"
-msgstr ""
+msgstr "ແພັກເກດຖືກລັອກໄວ້ແລ້ວໃນຮູບແບບທີ່ຄືກັນ:"
 
 #: plugins/versionlock.py:38
 #, python-brace-format
 msgid "Package {} is already locked"
-msgstr ""
+msgstr "ແພັກເກດ {} ຖືກລັອກໄວ້ແລ້ວ"
 
 #: plugins/versionlock.py:39
 #, python-brace-format
 msgid "Package {} is already excluded"
-msgstr ""
+msgstr "ແພັກເກດ {} ຖືກຍົກເວັ້ນໄວ້ແລ້ວ"
 
 #: plugins/versionlock.py:40
 msgid "Deleting versionlock for:"
-msgstr ""
+msgstr "ກຳລັງລຶບ versionlock ສຳລັບ:"
 
 #: plugins/versionlock.py:41
 msgid "No package found for:"
-msgstr ""
+msgstr "ບໍ່ພົບແພັກເກດສຳລັບ:"
 
 #: plugins/versionlock.py:42
 msgid "Excludes from versionlock plugin were not applied"
-msgstr ""
+msgstr "ການຍົກເວັ້ນຈາກປລັກອິນ versionlock ບໍ່ຖືກນຳໃຊ້"
 
 #: plugins/versionlock.py:43
 #, python-brace-format
 msgid "Versionlock plugin: number of lock rules from file \"{}\" applied: {}"
-msgstr ""
+msgstr "ປລັກອິນ Versionlock: ຈຳນວນກົດການລັອກຈາກໄຟລ໌ \"{}\" ທີ່ຖືກນຳໃຊ້: {}"
 
 #: plugins/versionlock.py:44
 #, python-brace-format
 msgid ""
 "Versionlock plugin: number of exclude rules from file \"{}\" applied: {}"
-msgstr ""
+msgstr "ປລັກອິນ Versionlock: ຈຳນວນກົດການຍົກເວັ້ນຈາກໄຟລ໌ \"{}\" ທີ່ຖືກນຳໃຊ້: {}"
 
 #: plugins/versionlock.py:45
 msgid "Versionlock plugin: could not parse pattern:"
-msgstr ""
+msgstr "ປລັກອິນ Versionlock: ບໍ່ສາມາດວິເຄາະຮູບແບບ (pattern):"
 
 #: plugins/versionlock.py:138
 msgid "control package version locks"
-msgstr ""
+msgstr "ຄວບຄຸມການລັອກເວີຊັນຂອງແພັກເກດ"
 
 #: plugins/versionlock.py:144
 msgid "Use package specifications as they are, do not try to parse them"
-msgstr ""
+msgstr "ໃຊ້ຂໍ້ກຳນົດສະເພາະຂອງແພັກເກດຕາມທີ່ເປັນຢູ່, ບໍ່ຕ້ອງພະຍາຍາມວິເຄາະພວກມັນ"
 
 #: plugins/versionlock.py:164
 #, python-brace-format
 msgid "Subcommand '{}' is deprecated. Use 'exclude' subcommand instead."
-msgstr ""
+msgstr "ຄຳສັ່ງຍ່ອຍ '{}' ແມ່ນເຊົາໃຊ້ແລ້ວ. ກະລຸນາໃຊ້ຄຳສັ່ງຍ່ອຍ 'exclude' ແທນ."
