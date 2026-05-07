@@ -1,7 +1,7 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020, 2022, 2024, 2026.
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020, 2022, 2024, 2026.
-# Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022, 2025.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022, 2025, 2026.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023, 2024.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2023.
 # Jouko Tiilikainen <jti65@users.noreply.translate.fedoraproject.org>, 2026.
@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 10:34+0000\n"
-"PO-Revision-Date: 2026-03-13 07:58+0000\n"
-"Last-Translator: Jouko Tiilikainen "
-"<jti65@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-05-08 14:59+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -172,8 +171,7 @@ msgstr "tallenna nykyiset asetukset (hyödyllinen käytettäessä '--setopt':ta)
 
 #: plugins/config_manager.py:51
 msgid "add (and enable) the repo from the specified file or url"
-msgstr ""
-"lisää ja ota käyttöön ohjelmistolähde määritetystä tiedostosta tai URL:sta"
+msgstr "lisää ja ota käyttöön tietovarasto määritetystä tiedostosta tai URL:sta"
 
 #: plugins/config_manager.py:54
 msgid "print current configuration values to stdout"
@@ -926,10 +924,8 @@ msgid "manifest file path to use"
 msgstr "käytettävä manifestitiedostopolku"
 
 #: plugins/manifest.py:54
-#, fuzzy
-#| msgid "List installed packages not required by any other package"
 msgid "use installed packages for resolving dependencies"
-msgstr "Luettele asennetut paketit, joita muut paketit eivät vaadi"
+msgstr "käytä asennettuja paketteja riippuvuuksien ratkaisemiseen"
 
 #: plugins/manifest.py:55
 msgid "include also source packages"
@@ -949,10 +945,9 @@ msgid "Input file '%s' does not exist"
 msgstr "Syöttötiedostoa %s ei ole olemassa"
 
 #: plugins/manifest.py:268
-#, fuzzy, python-format
-#| msgid "Project {0} does not exist."
+#, python-format
 msgid "Manifest file '%s' does not exist"
-msgstr "Projektia {0} ei ole olemassa."
+msgstr "Manifest-tiedostoa '%s' ei ole olemassa"
 
 #: plugins/manifest.py:273
 #, python-format
@@ -966,16 +961,14 @@ msgstr ""
 "nimenomaisesti käyttämällä '--manifest'-vaihtoehtoa."
 
 #: plugins/manifest.py:477
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown RPM package checksum type: %s"
-msgstr "Vastaavaa pakettia ei löytynyt: %s"
+msgstr "Tuntematon RPM-paketin tarkistussummatyyppi: %s"
 
 #: plugins/manifest.py:492
-#, fuzzy, python-format
-#| msgid "no package matched: %s"
+#, python-format
 msgid "Unknown DNF package checksum type: %s"
-msgstr "Vastaavaa pakettia ei löytynyt: %s"
+msgstr "Tuntematon DNF-paketin tarkistussummatyyppi: %s"
 
 #: plugins/migrate.py:45
 msgid "migrate yum's history, group and yumdb data to dnf"
