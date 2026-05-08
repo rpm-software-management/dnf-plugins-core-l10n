@@ -11,13 +11,13 @@
 # Alejandro Alcaide <alex@blueselene.com>, 2022, 2023.
 # Javier Francisco <fserrador@gmail.com>, 2025.
 # Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
-# "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2025.
+# "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-07 13:21+0000\n"
-"PO-Revision-Date: 2025-09-09 12:53+0000\n"
+"PO-Revision-Date: 2026-05-09 16:59+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/es/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.2\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1518,10 +1518,9 @@ msgstr ""
 "defecto a ruta de descarga."
 
 #: plugins/reposync.py:102
-#, fuzzy
-#| msgid "download only packages from newest modules"
 msgid "download only packages with buildtime newer than YYYY-MM-DD"
-msgstr "descargar solo paquetes desde módulos más nuevos"
+msgstr ""
+"descargar solo paquetes con hora de compilación más nuevas que AAAA-MM-DD"
 
 #: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
