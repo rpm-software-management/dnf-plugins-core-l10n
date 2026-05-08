@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 10:34+0000\n"
+"POT-Creation-Date: 2026-05-07 13:21+0000\n"
 "PO-Revision-Date: 2026-04-16 18:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -621,7 +621,7 @@ msgstr ""
 msgid "when running with --url, limit to specific protocols"
 msgstr ""
 
-#: plugins/download.py:124 plugins/reposync.py:335
+#: plugins/download.py:124 plugins/reposync.py:349
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr ""
@@ -1253,110 +1253,114 @@ msgstr ""
 msgid "Path to directory"
 msgstr ""
 
-#: plugins/reposync.py:55
+#: plugins/reposync.py:63
 msgid "download all packages from remote repo"
 msgstr ""
 
-#: plugins/reposync.py:64
+#: plugins/reposync.py:72
 msgid "download only packages for this ARCH"
 msgstr ""
 
-#: plugins/reposync.py:66
+#: plugins/reposync.py:74
 msgid "delete local packages no longer present in repository"
 msgstr ""
 
-#: plugins/reposync.py:68
+#: plugins/reposync.py:76
 msgid "download all the metadata."
 msgstr ""
 
-#: plugins/reposync.py:70
+#: plugins/reposync.py:78
 msgid "Remove packages that fail GPG signature checking after downloading"
 msgstr ""
 
-#: plugins/reposync.py:73
+#: plugins/reposync.py:81
 msgid "also download and uncompress comps.xml"
 msgstr ""
 
-#: plugins/reposync.py:75
+#: plugins/reposync.py:83
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
 msgstr ""
 
-#: plugins/reposync.py:78
+#: plugins/reposync.py:86
 msgid "download only newest packages per-repo"
 msgstr ""
 
-#: plugins/reposync.py:80
+#: plugins/reposync.py:88
 msgid "Don't add the reponame to the download path."
 msgstr ""
 
-#: plugins/reposync.py:82
+#: plugins/reposync.py:90
 msgid "where to store downloaded repositories"
 msgstr ""
 
-#: plugins/reposync.py:84
+#: plugins/reposync.py:92
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
 
-#: plugins/reposync.py:87
+#: plugins/reposync.py:95
 msgid "download only source packages"
 msgstr ""
 
-#: plugins/reposync.py:89
+#: plugins/reposync.py:97
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr ""
 
-#: plugins/reposync.py:92
+#: plugins/reposync.py:100
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
 msgstr ""
 
-#: plugins/reposync.py:119
+#: plugins/reposync.py:102
+msgid "download only packages with buildtime newer than YYYY-MM-DD"
+msgstr ""
+
+#: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
 msgstr ""
 
-#: plugins/reposync.py:122
+#: plugins/reposync.py:132
 msgid "Can't use --safe-write-path with multiple repositories"
 msgstr ""
 
-#: plugins/reposync.py:141
+#: plugins/reposync.py:151
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr ""
 
-#: plugins/reposync.py:158
+#: plugins/reposync.py:168
 msgid "Failed to get mirror for the group file."
 msgstr ""
 
-#: plugins/reposync.py:177
+#: plugins/reposync.py:187
 #, python-brace-format
 msgid "Removing {}: {}"
 msgstr ""
 
-#: plugins/reposync.py:184
+#: plugins/reposync.py:194
 msgid "GPG signature check failed."
 msgstr ""
 
-#: plugins/reposync.py:208
+#: plugins/reposync.py:218
 #, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
 "write path '{3}'."
 msgstr ""
 
-#: plugins/reposync.py:224
+#: plugins/reposync.py:234
 #, python-format
 msgid "[DELETED] %s"
 msgstr ""
 
-#: plugins/reposync.py:226
+#: plugins/reposync.py:236
 #, python-format
 msgid "failed to delete file %s"
 msgstr ""
 
-#: plugins/reposync.py:235
+#: plugins/reposync.py:245
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr ""

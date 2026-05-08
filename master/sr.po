@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 10:34+0000\n"
+"POT-Creation-Date: 2026-05-07 13:21+0000\n"
 "PO-Revision-Date: 2026-04-15 17:46+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -689,7 +689,7 @@ msgstr "испиши списак адреса одакле се рпм-ови �
 msgid "when running with --url, limit to specific protocols"
 msgstr "када се покреће са --url, ограничи на специфичне протоколе"
 
-#: plugins/download.py:124 plugins/reposync.py:335
+#: plugins/download.py:124 plugins/reposync.py:349
 #, python-format
 msgid "Failed to get mirror for package: %s"
 msgstr "Није успело добављање огледала за пакет: %s"
@@ -1354,31 +1354,31 @@ msgstr "Најновијих N пакета за чување — подразу
 msgid "Path to directory"
 msgstr "Путања до директоријума"
 
-#: plugins/reposync.py:55
+#: plugins/reposync.py:63
 msgid "download all packages from remote repo"
 msgstr "преузми све пакете из удаљене ризнице"
 
-#: plugins/reposync.py:64
+#: plugins/reposync.py:72
 msgid "download only packages for this ARCH"
 msgstr "преузми само пакете за ову АРХИТЕКТУРУ"
 
-#: plugins/reposync.py:66
+#: plugins/reposync.py:74
 msgid "delete local packages no longer present in repository"
 msgstr "обриши локалне пакете који више нису присутни у ризници"
 
-#: plugins/reposync.py:68
+#: plugins/reposync.py:76
 msgid "download all the metadata."
 msgstr "преузми све метаподатке."
 
-#: plugins/reposync.py:70
+#: plugins/reposync.py:78
 msgid "Remove packages that fail GPG signature checking after downloading"
 msgstr "Уклони пакете који не прођу проверу GPG потписа након преузимања"
 
-#: plugins/reposync.py:73
+#: plugins/reposync.py:81
 msgid "also download and uncompress comps.xml"
 msgstr "такође преузми и распакуј comps.xml"
 
-#: plugins/reposync.py:75
+#: plugins/reposync.py:83
 msgid ""
 "where to store downloaded repository metadata. Defaults to the value of --"
 "download-path."
@@ -1386,33 +1386,33 @@ msgstr ""
 "место за складиштење преузетих метаподатака ризнице. Подразумевано је "
 "вредност опције --download-path."
 
-#: plugins/reposync.py:78
+#: plugins/reposync.py:86
 msgid "download only newest packages per-repo"
 msgstr "преузми само најновије пакете по ризници"
 
-#: plugins/reposync.py:80
+#: plugins/reposync.py:88
 msgid "Don't add the reponame to the download path."
 msgstr "Не додај назив ризнице у путању за преузимање."
 
-#: plugins/reposync.py:82
+#: plugins/reposync.py:90
 msgid "where to store downloaded repositories"
 msgstr "место за складиштење преузетих ризница"
 
-#: plugins/reposync.py:84
+#: plugins/reposync.py:92
 msgid "try to set local timestamps of local files by the one on the server"
 msgstr ""
 "покушај да поставиш локалне временске ознаке локалних датотека према онима "
 "на серверу"
 
-#: plugins/reposync.py:87
+#: plugins/reposync.py:95
 msgid "download only source packages"
 msgstr "преузми само изворне пакете"
 
-#: plugins/reposync.py:89
+#: plugins/reposync.py:97
 msgid "Just list urls of what would be downloaded, don't download"
 msgstr "Само излистај адресе онога што би било преузето, не преузимај"
 
-#: plugins/reposync.py:92
+#: plugins/reposync.py:100
 msgid ""
 "Filesystem path that is considered safe for writing. Defaults to download "
 "path."
@@ -1420,33 +1420,39 @@ msgstr ""
 "Путања система датотека која се сматра безбедном за уписивање. Подразумевано "
 "је путања за преузимање."
 
-#: plugins/reposync.py:119
+#: plugins/reposync.py:102
+#, fuzzy
+#| msgid "download only packages from newest modules"
+msgid "download only packages with buildtime newer than YYYY-MM-DD"
+msgstr "преузми само пакете из најновијих модула"
+
+#: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
 msgstr "Не могу да користим --norepopath са више ризница"
 
-#: plugins/reposync.py:122
+#: plugins/reposync.py:132
 msgid "Can't use --safe-write-path with multiple repositories"
 msgstr "Не могу да користим --safe-write-path са више ризница"
 
-#: plugins/reposync.py:141
+#: plugins/reposync.py:151
 #, python-format
 msgid "Failed to get mirror for metadata: %s"
 msgstr "Нисам успео да добавим одраз за метаподатке: %s"
 
-#: plugins/reposync.py:158
+#: plugins/reposync.py:168
 msgid "Failed to get mirror for the group file."
 msgstr "Нисам успео да добавим одраз за датотеку групе."
 
-#: plugins/reposync.py:177
+#: plugins/reposync.py:187
 #, python-brace-format
 msgid "Removing {}: {}"
 msgstr "Уклањам {}: {}"
 
-#: plugins/reposync.py:184
+#: plugins/reposync.py:194
 msgid "GPG signature check failed."
 msgstr "Провера GPG потписа није успела."
 
-#: plugins/reposync.py:208
+#: plugins/reposync.py:218
 #, python-brace-format
 msgid ""
 "Download target '{0}' for location '{1}' of '{2}' package is outside of safe "
@@ -1455,17 +1461,17 @@ msgstr ""
 "Циљ преузимања „{0}“ за локацију „{1}“ пакета „{2}“ је изван безбедне путање "
 "за уписивање „{3}“."
 
-#: plugins/reposync.py:224
+#: plugins/reposync.py:234
 #, python-format
 msgid "[DELETED] %s"
 msgstr "[ОБРИСАНО] %s"
 
-#: plugins/reposync.py:226
+#: plugins/reposync.py:236
 #, python-format
 msgid "failed to delete file %s"
 msgstr "нисам успео да обришем датотеку %s"
 
-#: plugins/reposync.py:235
+#: plugins/reposync.py:245
 #, python-format
 msgid "comps.xml for repository %s saved"
 msgstr "comps.xml за ризницу %s је сачуван"
