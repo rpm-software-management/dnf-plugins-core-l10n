@@ -4,13 +4,13 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata, 2021, 2022, 2023.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Luna Jernberg <bittin@reimu.nl>, 2021, 2022, 2023, 2024.
-# Luna Jernberg <droidbittin@gmail.com>, 2025.
+# Luna Jernberg <droidbittin@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-07 13:21+0000\n"
-"PO-Revision-Date: 2025-08-11 09:08+0000\n"
+"PO-Revision-Date: 2026-05-09 16:59+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/sv/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1423,10 +1423,8 @@ msgstr ""
 "hämta till."
 
 #: plugins/reposync.py:102
-#, fuzzy
-#| msgid "download only packages from newest modules"
 msgid "download only packages with buildtime newer than YYYY-MM-DD"
-msgstr "hämta endast paket från de senaste modulerna"
+msgstr "hämta endast paket med byggtid nyare än YYYY-MM-DD"
 
 #: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
