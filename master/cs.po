@@ -10,13 +10,15 @@
 # Petr Ptacek <petr106@atlas.cz>, 2023.
 # Jonáš Loskot <fedoraproject.org@alius.cz>, 2025.
 # Tomas Longin Hoffmann <ask@tomek.wtf>, 2025.
+# Jonáš Loskot <alius@users.noreply.translate.fedoraproject.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-07 13:21+0000\n"
-"PO-Revision-Date: 2025-10-07 18:15+0000\n"
-"Last-Translator: Tomas Longin Hoffmann <ask@tomek.wtf>\n"
+"PO-Revision-Date: 2026-05-11 21:59+0000\n"
+"Last-Translator: Jonáš Loskot "
+"<alius@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/cs/>\n"
 "Language: cs\n"
@@ -24,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1437,10 +1439,8 @@ msgstr ""
 "cesta ke stažení."
 
 #: plugins/reposync.py:102
-#, fuzzy
-#| msgid "download only packages from newest modules"
 msgid "download only packages with buildtime newer than YYYY-MM-DD"
-msgstr "stahovat pouze balíčky z nejnovějších modulů"
+msgstr "stahovat pouze balíčky s časem sestavení novějším než DD. MM. YYYY"
 
 #: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
