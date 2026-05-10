@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-07 13:21+0000\n"
-"PO-Revision-Date: 2026-03-18 08:58+0000\n"
+"PO-Revision-Date: 2026-05-10 10:59+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1415,10 +1415,8 @@ msgstr ""
 "본값."
 
 #: plugins/reposync.py:102
-#, fuzzy
-#| msgid "download only packages from newest modules"
 msgid "download only packages with buildtime newer than YYYY-MM-DD"
-msgstr "최신 모듈에서 꾸러미만 내려받기"
+msgstr "YYYY-MM-DD 보다 새롭게 제작된 꾸러미만 내려받기"
 
 #: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
