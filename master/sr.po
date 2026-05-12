@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-07 13:21+0000\n"
-"PO-Revision-Date: 2026-04-15 17:46+0000\n"
+"PO-Revision-Date: 2026-05-13 04:01+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/sr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1421,10 +1421,8 @@ msgstr ""
 "је путања за преузимање."
 
 #: plugins/reposync.py:102
-#, fuzzy
-#| msgid "download only packages from newest modules"
 msgid "download only packages with buildtime newer than YYYY-MM-DD"
-msgstr "преузми само пакете из најновијих модула"
+msgstr "преузми само пакете направљене после ГГГГ-ММ-ДД"
 
 #: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
