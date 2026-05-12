@@ -2,13 +2,13 @@
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
 # Oğuz Ersen <oguz@ersen.moe>, 2022, 2023, 2024.
-# Emir SARI <emir_sari@icloud.com>, 2025.
+# Emir SARI <emir_sari@icloud.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-07 13:21+0000\n"
-"PO-Revision-Date: 2025-08-18 09:47+0000\n"
+"PO-Revision-Date: 2026-05-13 04:01+0000\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1443,10 +1443,9 @@ msgstr ""
 "yoludur."
 
 #: plugins/reposync.py:102
-#, fuzzy
-#| msgid "download only packages from newest modules"
 msgid "download only packages with buildtime newer than YYYY-MM-DD"
-msgstr "yalnızca en yeni modüllerden paketleri indir"
+msgstr ""
+"yalnızca YYYY-MM-DD tarihinden daha yeni yapı zamanına sahip paketleri indir"
 
 #: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
