@@ -5,7 +5,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Enrico Bella <enric@e.email>, 2020.
 # dav ide <davide.luigi@gmail.com>, 2021.
-# Nathan <nathan95@live.it>, 2021, 2025.
+# Nathan <nathan95@live.it>, 2021, 2025, 2026.
 # Alessio <alciregi@posteo.net>, 2021.
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-07 13:21+0000\n"
-"PO-Revision-Date: 2026-04-08 06:58+0000\n"
-"Last-Translator: Ali Ciloqlu <ali.ciloqlu@murena.io>\n"
+"PO-Revision-Date: 2026-05-15 14:59+0000\n"
+"Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/it/>\n"
 "Language: it\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1447,10 +1447,9 @@ msgstr ""
 "percorso di download."
 
 #: plugins/reposync.py:102
-#, fuzzy
-#| msgid "download only packages from newest modules"
 msgid "download only packages with buildtime newer than YYYY-MM-DD"
-msgstr "scarica solo pacchetti dai moduli più recenti"
+msgstr ""
+"Scarica solo i pacchetti con data di compilazione successiva al AAAA-MM-GG"
 
 #: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
