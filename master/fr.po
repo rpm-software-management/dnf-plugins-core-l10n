@@ -12,13 +12,13 @@
 # Antoine BACK <antoine.back@hotmail.fr>, 2024.
 # Damien Pou <dampato+linux@ik.me>, 2024.
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
-# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-07 13:21+0000\n"
-"PO-Revision-Date: 2025-08-11 09:08+0000\n"
+"PO-Revision-Date: 2026-05-19 09:01+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/fr/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1470,10 +1470,10 @@ msgstr ""
 "Il s'agit du chemin par défaut pour les téléchargements."
 
 #: plugins/reposync.py:102
-#, fuzzy
-#| msgid "download only packages from newest modules"
 msgid "download only packages with buildtime newer than YYYY-MM-DD"
-msgstr "télécharger uniquement les paquets des modules les plus récents"
+msgstr ""
+"télécharger uniquement les paquets dont la date de construction est plus "
+"récente que AAAA-MM-JJ"
 
 #: plugins/reposync.py:129
 msgid "Can't use --norepopath with multiple repositories"
