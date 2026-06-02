@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 13:21+0000\n"
+"POT-Creation-Date: 2026-05-27 12:19+0000\n"
 "PO-Revision-Date: 2026-05-13 04:01+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -707,8 +707,8 @@ msgstr "Грешка при разрешавању пакета:"
 msgid "No source rpm defined for %s"
 msgstr "Није дефинисан изворни rpm за %s"
 
-#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
-#: plugins/manifest.py:359
+#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:367
+#: plugins/manifest.py:378
 #, python-format
 msgid "No package %s available."
 msgstr "Нема доступног пакета %s."
@@ -922,7 +922,11 @@ msgid "explicitly specify basearchs to use"
 msgstr "изричито наведи основне архитектуре за коришћење"
 
 #: plugins/manifest.py:57
-msgid "separate packages by basearch into individual manifest files"
+#, fuzzy
+#| msgid "separate packages by basearch into individual manifest files"
+msgid ""
+"separate packages by basearch into individual manifest files or download "
+"directories"
 msgstr ""
 "раздвој пакете по основној архитектури у појединачне датотеке манифеста"
 
@@ -931,12 +935,12 @@ msgstr ""
 msgid "Input file '%s' does not exist"
 msgstr "Улазна датотека „%s“ не постоји"
 
-#: plugins/manifest.py:268
+#: plugins/manifest.py:287
 #, python-format
 msgid "Manifest file '%s' does not exist"
 msgstr "Датотека манифеста „%s“ не постоји"
 
-#: plugins/manifest.py:273
+#: plugins/manifest.py:292
 #, python-format
 msgid ""
 "Multiple manifest files detected in the directory. Either use filename with "
@@ -947,12 +951,12 @@ msgstr ""
 "датотеке са суфиксом „%s.yaml“, задржите само једну датотеку, или изричито "
 "наведите датотеку користећи опцију „--manifest“."
 
-#: plugins/manifest.py:477
+#: plugins/manifest.py:496
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "Непозната врста суме провере РПМ пакета: %s"
 
-#: plugins/manifest.py:492
+#: plugins/manifest.py:511
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "Непозната врста суме провере DNF пакета: %s"

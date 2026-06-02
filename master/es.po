@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 13:21+0000\n"
+"POT-Creation-Date: 2026-05-27 12:19+0000\n"
 "PO-Revision-Date: 2026-05-09 16:59+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -729,8 +729,8 @@ msgstr "Error en la resolución de paquetes:"
 msgid "No source rpm defined for %s"
 msgstr "No hay fuente de rpm definido para %s"
 
-#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
-#: plugins/manifest.py:359
+#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:367
+#: plugins/manifest.py:378
 #, python-format
 msgid "No package %s available."
 msgstr "No hay ningún paquete %s disponible."
@@ -968,7 +968,11 @@ msgid "explicitly specify basearchs to use"
 msgstr "especifica explícitamente arquitecturas base para utilizar"
 
 #: plugins/manifest.py:57
-msgid "separate packages by basearch into individual manifest files"
+#, fuzzy
+#| msgid "separate packages by basearch into individual manifest files"
+msgid ""
+"separate packages by basearch into individual manifest files or download "
+"directories"
 msgstr ""
 "separa paquetes por búsqueda base en archivos de manifestación individual"
 
@@ -977,12 +981,12 @@ msgstr ""
 msgid "Input file '%s' does not exist"
 msgstr "Archivo «%s» de entrada no existe"
 
-#: plugins/manifest.py:268
+#: plugins/manifest.py:287
 #, python-format
 msgid "Manifest file '%s' does not exist"
 msgstr "Archivo «%s» de manifiesto no existe"
 
-#: plugins/manifest.py:273
+#: plugins/manifest.py:292
 #, python-format
 msgid ""
 "Multiple manifest files detected in the directory. Either use filename with "
@@ -993,12 +997,12 @@ msgstr ""
 "nombre de archivo con el sufijo '%s.yaml', conserve solo un archivo, o "
 "especifique un archivo explícitamente utilizando la opción '--manifest'."
 
-#: plugins/manifest.py:477
+#: plugins/manifest.py:496
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "Tipo de comprobante sumatorio del paquete RPM desconocido: %s"
 
-#: plugins/manifest.py:492
+#: plugins/manifest.py:511
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "Tipo de comprobante sumatorio del paquete DNF desconocido: %s"

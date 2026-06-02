@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 13:21+0000\n"
+"POT-Creation-Date: 2026-05-27 12:19+0000\n"
 "PO-Revision-Date: 2026-05-09 16:59+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -723,8 +723,8 @@ msgstr "Помилка під час спроби розв'язати залеж
 msgid "No source rpm defined for %s"
 msgstr "Не визначено rpm із початковим кодом для %s"
 
-#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
-#: plugins/manifest.py:359
+#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:367
+#: plugins/manifest.py:378
 #, python-format
 msgid "No package %s available."
 msgstr "Немає доступного пакунка %s."
@@ -944,7 +944,11 @@ msgid "explicitly specify basearchs to use"
 msgstr "явно вказати базові архітектури, якими слід скористатися"
 
 #: plugins/manifest.py:57
-msgid "separate packages by basearch into individual manifest files"
+#, fuzzy
+#| msgid "separate packages by basearch into individual manifest files"
+msgid ""
+"separate packages by basearch into individual manifest files or download "
+"directories"
 msgstr ""
 "розділити пакунки за базовою архітектурою між окремими файлами маніфестів"
 
@@ -953,12 +957,12 @@ msgstr ""
 msgid "Input file '%s' does not exist"
 msgstr "файла вхідних даних «%s» не існує"
 
-#: plugins/manifest.py:268
+#: plugins/manifest.py:287
 #, python-format
 msgid "Manifest file '%s' does not exist"
 msgstr "Файл маніфеста «%s» не існує"
 
-#: plugins/manifest.py:273
+#: plugins/manifest.py:292
 #, python-format
 msgid ""
 "Multiple manifest files detected in the directory. Either use filename with "
@@ -969,12 +973,12 @@ msgstr ""
 "файла з суфіксом «%s.yaml», зберігши лише один файл, або вкажіть файл явно "
 "за допомогою параметра «--manifest»."
 
-#: plugins/manifest.py:477
+#: plugins/manifest.py:496
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "Невідомий тип контрольної суми пакунка RPM: %s"
 
-#: plugins/manifest.py:492
+#: plugins/manifest.py:511
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "Невідомий тип контрольної суми пакунка DNF: %s"

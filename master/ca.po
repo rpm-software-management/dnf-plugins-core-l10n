@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 13:21+0000\n"
+"POT-Creation-Date: 2026-05-27 12:19+0000\n"
 "PO-Revision-Date: 2026-05-08 14:59+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -728,8 +728,8 @@ msgstr "Error en la resolució de paquets:"
 msgid "No source rpm defined for %s"
 msgstr "rpm de les fonts sense definir per %s"
 
-#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
-#: plugins/manifest.py:359
+#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:367
+#: plugins/manifest.py:378
 #, python-format
 msgid "No package %s available."
 msgstr "No hi ha cap paquet %s disponible."
@@ -949,7 +949,11 @@ msgid "explicitly specify basearchs to use"
 msgstr "especifiqueu explícitament les arquitectures base a utilitzar"
 
 #: plugins/manifest.py:57
-msgid "separate packages by basearch into individual manifest files"
+#, fuzzy
+#| msgid "separate packages by basearch into individual manifest files"
+msgid ""
+"separate packages by basearch into individual manifest files or download "
+"directories"
 msgstr ""
 "separa els paquets per arquitectura base en fitxers de manifest individuals"
 
@@ -958,12 +962,12 @@ msgstr ""
 msgid "Input file '%s' does not exist"
 msgstr "El fitxer d'entrada '%s' no existeix"
 
-#: plugins/manifest.py:268
+#: plugins/manifest.py:287
 #, python-format
 msgid "Manifest file '%s' does not exist"
 msgstr "El fitxer de manifest '%s' no existeix"
 
-#: plugins/manifest.py:273
+#: plugins/manifest.py:292
 #, python-format
 msgid ""
 "Multiple manifest files detected in the directory. Either use filename with "
@@ -974,12 +978,12 @@ msgstr ""
 "del fitxer amb el sufix '%s.yaml', mantingueu només un fitxer, o "
 "especifiqueu un fitxer explícitament utilitzant l'opció '--manifest'."
 
-#: plugins/manifest.py:477
+#: plugins/manifest.py:496
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "Tipus de suma de comprovació del paquet RPM desconegut: %s"
 
-#: plugins/manifest.py:492
+#: plugins/manifest.py:511
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "Tipus de suma de comprovació del paquet DNF desconegut: %s"

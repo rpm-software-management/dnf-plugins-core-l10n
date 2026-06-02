@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 13:21+0000\n"
+"POT-Creation-Date: 2026-05-27 12:19+0000\n"
 "PO-Revision-Date: 2025-08-18 09:47+0000\n"
 "Last-Translator: middlingphys "
 "<middlingphys@users.noreply.translate.fedoraproject.org>\n"
@@ -721,8 +721,8 @@ msgstr "パッケージの解決でエラー:"
 msgid "No source rpm defined for %s"
 msgstr "%s に対して定義されているソース rpm はありません"
 
-#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
-#: plugins/manifest.py:359
+#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:367
+#: plugins/manifest.py:378
 #, python-format
 msgid "No package %s available."
 msgstr "利用可能なパッケージ %s はありません。"
@@ -941,7 +941,11 @@ msgid "explicitly specify basearchs to use"
 msgstr "使用する basearch を明示的に指定します"
 
 #: plugins/manifest.py:57
-msgid "separate packages by basearch into individual manifest files"
+#, fuzzy
+#| msgid "separate packages by basearch into individual manifest files"
+msgid ""
+"separate packages by basearch into individual manifest files or download "
+"directories"
 msgstr "basearch に従ってパッケージを個別のマニフェストファイルに分けます"
 
 #: plugins/manifest.py:84
@@ -949,12 +953,12 @@ msgstr "basearch に従ってパッケージを個別のマニフェストファ
 msgid "Input file '%s' does not exist"
 msgstr "インプットファイル '%s' は存在しません"
 
-#: plugins/manifest.py:268
+#: plugins/manifest.py:287
 #, python-format
 msgid "Manifest file '%s' does not exist"
 msgstr "マニフェストファイル '%s' は存在しません"
 
-#: plugins/manifest.py:273
+#: plugins/manifest.py:292
 #, python-format
 msgid ""
 "Multiple manifest files detected in the directory. Either use filename with "
@@ -965,12 +969,12 @@ msgstr ""
 "'%s.yaml' サフィックスを使うか、1つのファイルだけを残す、または '--manifest' "
 "オプションを使ってファイルを明示的に指定してください。"
 
-#: plugins/manifest.py:477
+#: plugins/manifest.py:496
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "不明なRPMパッケージチェックサムタイプ: %s"
 
-#: plugins/manifest.py:492
+#: plugins/manifest.py:511
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "不明なDNFパッケージチェックサムタイプ: %s"

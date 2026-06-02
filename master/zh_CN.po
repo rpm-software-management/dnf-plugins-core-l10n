@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 13:21+0000\n"
+"POT-Creation-Date: 2026-05-27 12:19+0000\n"
 "PO-Revision-Date: 2026-04-02 23:00+0000\n"
 "Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -700,8 +700,8 @@ msgstr "resolve 软件包失败："
 msgid "No source rpm defined for %s"
 msgstr "未找到所定义 %s 的源代码软件包 SRPM"
 
-#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
-#: plugins/manifest.py:359
+#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:367
+#: plugins/manifest.py:378
 #, python-format
 msgid "No package %s available."
 msgstr "没有可用的软件包 %s。"
@@ -913,7 +913,11 @@ msgid "explicitly specify basearchs to use"
 msgstr "明确指定要使用的基础架构"
 
 #: plugins/manifest.py:57
-msgid "separate packages by basearch into individual manifest files"
+#, fuzzy
+#| msgid "separate packages by basearch into individual manifest files"
+msgid ""
+"separate packages by basearch into individual manifest files or download "
+"directories"
 msgstr "按基础架构将软件包分隔到单独的清单文件中"
 
 #: plugins/manifest.py:84
@@ -921,12 +925,12 @@ msgstr "按基础架构将软件包分隔到单独的清单文件中"
 msgid "Input file '%s' does not exist"
 msgstr "输入文件 '%s' 不存在"
 
-#: plugins/manifest.py:268
+#: plugins/manifest.py:287
 #, python-format
 msgid "Manifest file '%s' does not exist"
 msgstr "清单文件 '%s' 不存在"
 
-#: plugins/manifest.py:273
+#: plugins/manifest.py:292
 #, python-format
 msgid ""
 "Multiple manifest files detected in the directory. Either use filename with "
@@ -936,12 +940,12 @@ msgstr ""
 "在目录中检测到多个清单文件。请使用带 '%s.yaml' 后缀的文件名，只保留一个文件，"
 "或使用 '--manifest' 选项明确指定文件。"
 
-#: plugins/manifest.py:477
+#: plugins/manifest.py:496
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "未知的 RPM 软件包校验和类型：%s"
 
-#: plugins/manifest.py:492
+#: plugins/manifest.py:511
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "未知的 DNF 软件包校验和类型：%s"

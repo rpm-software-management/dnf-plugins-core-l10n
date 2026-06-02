@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 13:21+0000\n"
+"POT-Creation-Date: 2026-05-27 12:19+0000\n"
 "PO-Revision-Date: 2026-05-10 10:59+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -731,8 +731,8 @@ msgstr "Błąd podczas rozwiązywania pakietów:"
 msgid "No source rpm defined for %s"
 msgstr "Nie określono źródłowego pakietu RPM dla %s"
 
-#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:348
-#: plugins/manifest.py:359
+#: plugins/download.py:305 plugins/download.py:318 plugins/manifest.py:367
+#: plugins/manifest.py:378
 #, python-format
 msgid "No package %s available."
 msgstr "Pakiet %s jest niedostępny."
@@ -953,7 +953,11 @@ msgid "explicitly specify basearchs to use"
 msgstr "bezpośrednio podaje używane architektury podstawowe"
 
 #: plugins/manifest.py:57
-msgid "separate packages by basearch into individual manifest files"
+#, fuzzy
+#| msgid "separate packages by basearch into individual manifest files"
+msgid ""
+"separate packages by basearch into individual manifest files or download "
+"directories"
 msgstr ""
 "oddziela pakiety według architektury podstawowej na poszczególne pliki "
 "manifestów"
@@ -963,12 +967,12 @@ msgstr ""
 msgid "Input file '%s' does not exist"
 msgstr "Plik wejściowy „%s” nie istnieje"
 
-#: plugins/manifest.py:268
+#: plugins/manifest.py:287
 #, python-format
 msgid "Manifest file '%s' does not exist"
 msgstr "Plik manifestu „%s” nie istnieje"
 
-#: plugins/manifest.py:273
+#: plugins/manifest.py:292
 #, python-format
 msgid ""
 "Multiple manifest files detected in the directory. Either use filename with "
@@ -979,12 +983,12 @@ msgstr ""
 "z przyrostkiem „%s.yaml”, zostawić tylko jeden plik, albo bezpośrednio podać "
 "plik za pomocą opcji „--manifest”."
 
-#: plugins/manifest.py:477
+#: plugins/manifest.py:496
 #, python-format
 msgid "Unknown RPM package checksum type: %s"
 msgstr "Nieznany typ sumy kontrolnej pakietu RPM: %s"
 
-#: plugins/manifest.py:492
+#: plugins/manifest.py:511
 #, python-format
 msgid "Unknown DNF package checksum type: %s"
 msgstr "Nieznany typ sumy kontrolnej pakietu DNF: %s"
