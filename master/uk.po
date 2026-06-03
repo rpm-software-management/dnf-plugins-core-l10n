@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-27 12:19+0000\n"
-"PO-Revision-Date: 2026-05-09 16:59+0000\n"
+"PO-Revision-Date: 2026-06-03 15:01+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/uk/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -944,13 +944,12 @@ msgid "explicitly specify basearchs to use"
 msgstr "явно вказати базові архітектури, якими слід скористатися"
 
 #: plugins/manifest.py:57
-#, fuzzy
-#| msgid "separate packages by basearch into individual manifest files"
 msgid ""
 "separate packages by basearch into individual manifest files or download "
 "directories"
 msgstr ""
-"розділити пакунки за базовою архітектурою між окремими файлами маніфестів"
+"розділити пакунки за базовою архітектурою між окремими файлами маніфестів "
+"або каталогами отриманих даних"
 
 #: plugins/manifest.py:84
 #, python-format
