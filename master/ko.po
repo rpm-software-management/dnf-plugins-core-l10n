@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-27 12:19+0000\n"
-"PO-Revision-Date: 2026-05-10 10:59+0000\n"
+"PO-Revision-Date: 2026-06-04 16:01+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -924,12 +924,12 @@ msgid "explicitly specify basearchs to use"
 msgstr "사용하려는 basearchs를 명시적으로 지정하세요"
 
 #: plugins/manifest.py:57
-#, fuzzy
-#| msgid "separate packages by basearch into individual manifest files"
 msgid ""
 "separate packages by basearch into individual manifest files or download "
 "directories"
-msgstr "basearch를 통해 개별 상세목록 파일로 꾸러미를 분리합니다"
+msgstr ""
+"basearch를 통해 개별 상세목록 파일 또는 내려받기 디렉토리로 꾸러미를 "
+"분리합니다"
 
 #: plugins/manifest.py:84
 #, python-format
