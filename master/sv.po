@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-27 12:19+0000\n"
-"PO-Revision-Date: 2026-05-09 16:59+0000\n"
+"PO-Revision-Date: 2026-06-04 16:01+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/sv/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -930,12 +930,12 @@ msgid "explicitly specify basearchs to use"
 msgstr "specificera uttryckligen bas arkitekturer att använda"
 
 #: plugins/manifest.py:57
-#, fuzzy
-#| msgid "separate packages by basearch into individual manifest files"
 msgid ""
 "separate packages by basearch into individual manifest files or download "
 "directories"
-msgstr "separera paket med bas arkitekturer till individuella manifestfiler"
+msgstr ""
+"separera paket med bas arkitekturer till individuella manifestfiler eller "
+"ladda ner kataloger"
 
 #: plugins/manifest.py:84
 #, python-format
