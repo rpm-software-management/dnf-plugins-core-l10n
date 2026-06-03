@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-27 12:19+0000\n"
-"PO-Revision-Date: 2026-05-09 16:59+0000\n"
+"PO-Revision-Date: 2026-06-03 15:01+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/es/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -769,7 +769,7 @@ msgstr "Ha fallado al desinstalar la clave."
 
 #: plugins/groups_manager.py:49
 msgid "Invalid group id"
-msgstr "ID de grupo no válido"
+msgstr "Id de grupo no válido"
 
 #: plugins/groups_manager.py:58
 msgid "Invalid translated data, should be in form 'lang:text'"
@@ -893,7 +893,7 @@ msgid ""
 "Group id '{}' generated from '{}' is duplicit. Please specify group id using "
 "--id."
 msgstr ""
-"ID de grupo {} generado desde '{}' está duplicado. Especifique el id de "
+"Id de grupo {} generado desde '{}' está duplicado. Especifique el id de "
 "grupo utilizando --id."
 
 # auto translated by TM merge from project: dnf-plugins-extras, version:
@@ -968,13 +968,12 @@ msgid "explicitly specify basearchs to use"
 msgstr "especifica explícitamente arquitecturas base para utilizar"
 
 #: plugins/manifest.py:57
-#, fuzzy
-#| msgid "separate packages by basearch into individual manifest files"
 msgid ""
 "separate packages by basearch into individual manifest files or download "
 "directories"
 msgstr ""
-"separa paquetes por búsqueda base en archivos de manifestación individual"
+"separa paquetes por búsqueda base en archivos de manifestación individual "
+"descarga directorios"
 
 #: plugins/manifest.py:84
 #, python-format
