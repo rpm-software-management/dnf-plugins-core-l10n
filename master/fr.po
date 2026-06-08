@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-27 12:19+0000\n"
-"PO-Revision-Date: 2026-05-19 09:01+0000\n"
+"PO-Revision-Date: 2026-06-09 09:04+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/fr/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.5\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -958,13 +958,12 @@ msgid "explicitly specify basearchs to use"
 msgstr "spécifier explicitement les basearchs à utiliser"
 
 #: plugins/manifest.py:57
-#, fuzzy
-#| msgid "separate packages by basearch into individual manifest files"
 msgid ""
 "separate packages by basearch into individual manifest files or download "
 "directories"
 msgstr ""
-"séparer les paquets par basearch dans des fichiers de manifeste individuels"
+"séparer les paquets par basearch dans des fichiers de manifeste individuels "
+"ou des répertoires de téléchargement"
 
 #: plugins/manifest.py:84
 #, python-format
