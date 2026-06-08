@@ -10,13 +10,14 @@
 # Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
 # Piotr Drąg <piotrdrag@gmail.com>, 2019. #zanata, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
 # Piotr Drąg <piotrdrag@gmail.com>, 2020. #zanata, 2021, 2022, 2023, 2024, 2025, 2026.
+# Nik Nikovsky <zejdzztegomaila@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-27 12:19+0000\n"
-"PO-Revision-Date: 2026-05-10 10:59+0000\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"PO-Revision-Date: 2026-06-09 09:04+0000\n"
+"Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/pl/>\n"
 "Language: pl\n"
@@ -25,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -54,7 +55,7 @@ msgstr "traktuje parametry wiersza poleceń jako pliki spec"
 
 #: plugins/builddep.py:100
 msgid "treat commandline arguments as source rpm"
-msgstr "traktuje parametry wiersza poleceń jako źródłowe pliki RPM"
+msgstr "traktuje parametry wiersza poleceń jako źródłowe pliki rpm"
 
 #: plugins/builddep.py:144
 #, python-brace-format
@@ -953,14 +954,12 @@ msgid "explicitly specify basearchs to use"
 msgstr "bezpośrednio podaje używane architektury podstawowe"
 
 #: plugins/manifest.py:57
-#, fuzzy
-#| msgid "separate packages by basearch into individual manifest files"
 msgid ""
 "separate packages by basearch into individual manifest files or download "
 "directories"
 msgstr ""
 "oddziela pakiety według architektury podstawowej na poszczególne pliki "
-"manifestów"
+"manifestów lub katalogi pobierania"
 
 #: plugins/manifest.py:84
 #, python-format
