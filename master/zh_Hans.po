@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-27 12:19+0000\n"
+"POT-Creation-Date: 2026-06-09 20:21+0000\n"
 "PO-Revision-Date: 2026-04-02 22:59+0000\n"
 "Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -1010,7 +1010,7 @@ msgstr "没有与参数 '{}' 相匹配的项"
 msgid "Unable to satisfy require {}"
 msgstr "无法满足要求 {}"
 
-#: plugins/needs_restarting.py:68
+#: plugins/needs_restarting.py:69
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
@@ -1019,46 +1019,51 @@ msgstr ""
 "未找到在需要重新启动的文件 \"{file}\" 中指定的软件包名为 \"{pkg}\" 的已安装的"
 "软件包。"
 
-#: plugins/needs_restarting.py:309
+#: plugins/needs_restarting.py:315
 msgid "determine updated binaries that need restarting"
 msgstr "判断所升级的二进制文件是否需要重启"
 
-#: plugins/needs_restarting.py:314
+#: plugins/needs_restarting.py:320
 msgid "only consider this user's processes"
 msgstr "仅考虑当前用户的进程"
 
-#: plugins/needs_restarting.py:316
+#: plugins/needs_restarting.py:322
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr "只报告需要重新引导 (退出代码为 1) 或不需要重新引导 (退出代码为 0)"
 
-#: plugins/needs_restarting.py:319
+#: plugins/needs_restarting.py:325
 msgid "only report affected systemd services"
 msgstr "只报告受影响的 systemd 服务"
 
-#: plugins/needs_restarting.py:321
+#: plugins/needs_restarting.py:327
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr "不要列出与 systemd 服务相对应的过时进程"
 
-#: plugins/needs_restarting.py:345
+#: plugins/needs_restarting.py:351
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "在引导后 Core 库或服务已被更新 ："
 
-#: plugins/needs_restarting.py:350
+#: plugins/needs_restarting.py:356
 msgid "Reboot is required to fully utilize these updates."
 msgstr "需要重新启动后才可以使这些更新完全生效。"
 
-#: plugins/needs_restarting.py:351
+#: plugins/needs_restarting.py:357
 msgid "More information:"
 msgstr "更多信息 :"
 
-#: plugins/needs_restarting.py:355
+#: plugins/needs_restarting.py:361
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "在引导后没有 core 库或服务被更新。"
 
-#: plugins/needs_restarting.py:357
+#: plugins/needs_restarting.py:363
 msgid "Reboot should not be necessary."
 msgstr "不需要重新启动。"
+
+#: plugins/needs_restarting.py:405
+msgid ""
+"Warning: The following services should not be restarted but require a reboot:"
+msgstr ""
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format

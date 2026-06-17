@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-27 12:19+0000\n"
+"POT-Creation-Date: 2026-06-09 20:21+0000\n"
 "PO-Revision-Date: 2026-05-13 04:01+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1032,7 +1032,7 @@ msgstr "Нема поклапања за аргумент „{}“"
 msgid "Unable to satisfy require {}"
 msgstr "Не могу да задовољим захтев {}"
 
-#: plugins/needs_restarting.py:68
+#: plugins/needs_restarting.py:69
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
@@ -1041,51 +1041,56 @@ msgstr ""
 "Није пронађен инсталирани пакет за назив пакета „{pkg}“ наведен у датотеци "
 "„{file}“ која захтева поновно покретање."
 
-#: plugins/needs_restarting.py:309
+#: plugins/needs_restarting.py:315
 msgid "determine updated binaries that need restarting"
 msgstr "утврди ажуриране бинарне датотеке које треба поново покренути"
 
-#: plugins/needs_restarting.py:314
+#: plugins/needs_restarting.py:320
 msgid "only consider this user's processes"
 msgstr "узми у обзир процесе само од овог корисника"
 
-#: plugins/needs_restarting.py:316
+#: plugins/needs_restarting.py:322
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "само извести да ли је потребно поновно покретање (излазни код 1) или не "
 "(излазни код 0)"
 
-#: plugins/needs_restarting.py:319
+#: plugins/needs_restarting.py:325
 msgid "only report affected systemd services"
 msgstr "само извести о обухваћеним системд услугама"
 
-#: plugins/needs_restarting.py:321
+#: plugins/needs_restarting.py:327
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr "не исписуј застареле процесе који одговарају системд услузи"
 
-#: plugins/needs_restarting.py:345
+#: plugins/needs_restarting.py:351
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Основне библиотеке или услуге су ажуриране од подизања система:"
 
-#: plugins/needs_restarting.py:350
+#: plugins/needs_restarting.py:356
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Потребно је поновно покретање како би се ова ажурирања у потпуности "
 "искористила."
 
-#: plugins/needs_restarting.py:351
+#: plugins/needs_restarting.py:357
 msgid "More information:"
 msgstr "Више података:"
 
-#: plugins/needs_restarting.py:355
+#: plugins/needs_restarting.py:361
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Ниједна основна библиотека или услуга није ажурирана од подизања система."
 
-#: plugins/needs_restarting.py:357
+#: plugins/needs_restarting.py:363
 msgid "Reboot should not be necessary."
 msgstr "Поновно покретање не би требало да буде неопходно."
+
+#: plugins/needs_restarting.py:405
+msgid ""
+"Warning: The following services should not be restarted but require a reboot:"
+msgstr ""
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format

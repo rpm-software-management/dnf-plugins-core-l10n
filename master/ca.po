@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-27 12:19+0000\n"
+"POT-Creation-Date: 2026-06-09 20:21+0000\n"
 "PO-Revision-Date: 2026-05-08 14:59+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1060,7 +1060,7 @@ msgstr "No hi ha cap coincidència per a l'argument '{}'"
 msgid "Unable to satisfy require {}"
 msgstr "No s'ha pogut satisfer el requisit {}"
 
-#: plugins/needs_restarting.py:68
+#: plugins/needs_restarting.py:69
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
@@ -1069,49 +1069,54 @@ msgstr ""
 "No s'ha trobat cap paquet instal·lat per al nom del paquet \"{pkg}\" "
 "especificat al fitxer needs-restarting \"{file}\"."
 
-#: plugins/needs_restarting.py:309
+#: plugins/needs_restarting.py:315
 msgid "determine updated binaries that need restarting"
 msgstr "determina els binaris que requereixen reinici"
 
-#: plugins/needs_restarting.py:314
+#: plugins/needs_restarting.py:320
 msgid "only consider this user's processes"
 msgstr "considera únicament els processos d'aquest usuari"
 
-#: plugins/needs_restarting.py:316
+#: plugins/needs_restarting.py:322
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "només informa si es requereix un reinici (codi de sortida 1) o no (codi de "
 "sortida 0)"
 
-#: plugins/needs_restarting.py:319
+#: plugins/needs_restarting.py:325
 msgid "only report affected systemd services"
 msgstr "només informa dels serveis systemd afectats"
 
-#: plugins/needs_restarting.py:321
+#: plugins/needs_restarting.py:327
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr "no llistis els processos obsolets que corresponen a un servei systemd"
 
-#: plugins/needs_restarting.py:345
+#: plugins/needs_restarting.py:351
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Les biblioteques o serveis bàsics s'han actualitzat des de l'inici:"
 
-#: plugins/needs_restarting.py:350
+#: plugins/needs_restarting.py:356
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Es requereix reiniciar per utilitzar completament aquestes actualitzacions."
 
-#: plugins/needs_restarting.py:351
+#: plugins/needs_restarting.py:357
 msgid "More information:"
 msgstr "Més informació:"
 
-#: plugins/needs_restarting.py:355
+#: plugins/needs_restarting.py:361
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "No s'han actualitzat biblioteques o serveis bàsics des de l'inici."
 
-#: plugins/needs_restarting.py:357
+#: plugins/needs_restarting.py:363
 msgid "Reboot should not be necessary."
 msgstr "Reiniciar no hauria de ser necessari."
+
+#: plugins/needs_restarting.py:405
+msgid ""
+"Warning: The following services should not be restarted but require a reboot:"
+msgstr ""
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format

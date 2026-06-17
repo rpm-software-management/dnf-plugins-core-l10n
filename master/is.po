@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-27 12:19+0000\n"
+"POT-Creation-Date: 2026-06-09 20:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -944,52 +944,57 @@ msgstr ""
 msgid "Unable to satisfy require {}"
 msgstr ""
 
-#: plugins/needs_restarting.py:68
+#: plugins/needs_restarting.py:69
 #, python-brace-format
 msgid ""
 "No installed package found for package name \"{pkg}\" specified in needs-"
 "restarting file \"{file}\"."
 msgstr ""
 
-#: plugins/needs_restarting.py:309
+#: plugins/needs_restarting.py:315
 msgid "determine updated binaries that need restarting"
 msgstr ""
 
-#: plugins/needs_restarting.py:314
+#: plugins/needs_restarting.py:320
 msgid "only consider this user's processes"
 msgstr ""
 
-#: plugins/needs_restarting.py:316
+#: plugins/needs_restarting.py:322
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 
-#: plugins/needs_restarting.py:319
+#: plugins/needs_restarting.py:325
 msgid "only report affected systemd services"
 msgstr ""
 
-#: plugins/needs_restarting.py:321
+#: plugins/needs_restarting.py:327
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr ""
 
-#: plugins/needs_restarting.py:345
+#: plugins/needs_restarting.py:351
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 
-#: plugins/needs_restarting.py:350
+#: plugins/needs_restarting.py:356
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 
-#: plugins/needs_restarting.py:351
+#: plugins/needs_restarting.py:357
 msgid "More information:"
 msgstr ""
 
-#: plugins/needs_restarting.py:355
+#: plugins/needs_restarting.py:361
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 
-#: plugins/needs_restarting.py:357
+#: plugins/needs_restarting.py:363
 msgid "Reboot should not be necessary."
+msgstr ""
+
+#: plugins/needs_restarting.py:405
+msgid ""
+"Warning: The following services should not be restarted but require a reboot:"
 msgstr ""
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
