@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-09 20:21+0000\n"
-"PO-Revision-Date: 2026-06-03 15:01+0000\n"
+"PO-Revision-Date: 2026-06-18 15:10+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/es/>\n"
@@ -1145,6 +1145,8 @@ msgstr "Reinicio no sería necesario."
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""
+"Advertencia: Los siguientes servicios no deben reiniciarse, sino que "
+"requieren un reinicio del sistema:"
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
