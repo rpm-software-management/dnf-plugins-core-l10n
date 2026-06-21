@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-09 20:21+0000\n"
-"PO-Revision-Date: 2026-06-04 16:01+0000\n"
+"PO-Revision-Date: 2026-06-22 17:43+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/ko/>\n"
@@ -1087,7 +1087,7 @@ msgstr "재시작은 필요하지 않을 수 있습니다."
 #: plugins/needs_restarting.py:405
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
-msgstr ""
+msgstr "경고: 다음 서비스는 재시작되지 않지만 시스템을 다시 시작해야 합니다:"
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
