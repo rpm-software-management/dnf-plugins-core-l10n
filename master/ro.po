@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
-# Petru Rebeja <petru@rebeja.eu>, 2025.
+# Petru Rebeja <petru@rebeja.eu>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-09 20:21+0000\n"
-"PO-Revision-Date: 2026-04-16 18:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-06-23 09:22+0000\n"
+"Last-Translator: Petru Rebeja <petru@rebeja.eu>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-core-l10n-master/ro/>\n"
 "Language: ro\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1002,6 +1001,8 @@ msgstr ""
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""
+"Avertisment: Următoarele servicii nu ar trebui repornite dar necesită o "
+"repornire a calculatorului:"
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
