@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 20:21+0000\n"
+"POT-Creation-Date: 2026-06-29 06:59+0000\n"
 "PO-Revision-Date: 2023-03-03 04:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -1058,54 +1058,54 @@ msgstr ""
 "Nissun pachet instalât cjatât pal non di pachet \"{pkg}\" specificât tal "
 "file di needs-restarting \"{file}\"."
 
-#: plugins/needs_restarting.py:315
+#: plugins/needs_restarting.py:322
 msgid "determine updated binaries that need restarting"
 msgstr "determine i binaris inzornâts che a àn bisugne di tornâ a inviâsi"
 
-#: plugins/needs_restarting.py:320
+#: plugins/needs_restarting.py:327
 msgid "only consider this user's processes"
 msgstr "considere dome i procès di chest utent"
 
-#: plugins/needs_restarting.py:322
+#: plugins/needs_restarting.py:329
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "segnale dome se al covente tornâ a inviâ (codiç di jessude 1) o mancul "
 "(codiç di jessude 0)"
 
-#: plugins/needs_restarting.py:325
+#: plugins/needs_restarting.py:332
 msgid "only report affected systemd services"
 msgstr "segnale dome i servizis di systemd interessâts"
 
-#: plugins/needs_restarting.py:327
+#: plugins/needs_restarting.py:334
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr ""
 
-#: plugins/needs_restarting.py:351
+#: plugins/needs_restarting.py:358
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 "Dal inviament dal sisteme, lis librariis cûr o i servizis a son stâts "
 "inzornâts:"
 
-#: plugins/needs_restarting.py:356
+#: plugins/needs_restarting.py:363
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Al covente tornâ a inviâ il sisteme par utilizâ dal dut chescj inzornaments."
 
-#: plugins/needs_restarting.py:357
+#: plugins/needs_restarting.py:364
 msgid "More information:"
 msgstr "Plui informazions:"
 
-#: plugins/needs_restarting.py:361
+#: plugins/needs_restarting.py:368
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Dal inviament dal sisteme nissune librarie cûr o servizi al è stât inzornât."
 
-#: plugins/needs_restarting.py:363
+#: plugins/needs_restarting.py:370
 msgid "Reboot should not be necessary."
 msgstr "Nol varès di coventâ tornâ a inviâ il sisteme."
 
-#: plugins/needs_restarting.py:405
+#: plugins/needs_restarting.py:412
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""

@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 20:21+0000\n"
+"POT-Creation-Date: 2026-06-29 06:59+0000\n"
 "PO-Revision-Date: 2026-06-18 15:10+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1093,55 +1093,55 @@ msgstr ""
 "Paquete no instalado encontrado para nombre de paquete \"{pkg}\" "
 "especificado dentro es archivo needs-restarting \"{file}\"."
 
-#: plugins/needs_restarting.py:315
+#: plugins/needs_restarting.py:322
 msgid "determine updated binaries that need restarting"
 msgstr "determinar binarios actualizados que se necesitan reiniciar"
 
-#: plugins/needs_restarting.py:320
+#: plugins/needs_restarting.py:327
 msgid "only consider this user's processes"
 msgstr "solo considerar estos procesos del usuario"
 
-#: plugins/needs_restarting.py:322
+#: plugins/needs_restarting.py:329
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "solo informe si es requerido un reinicio (código de salida 1) o no (código "
 "de salida 0)"
 
-#: plugins/needs_restarting.py:325
+#: plugins/needs_restarting.py:332
 msgid "only report affected systemd services"
 msgstr "solo informe afectado en servicios systemd"
 
-#: plugins/needs_restarting.py:327
+#: plugins/needs_restarting.py:334
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr "no enumere procesos obsoletos que correspondan a un servicio systemd"
 
-#: plugins/needs_restarting.py:351
+#: plugins/needs_restarting.py:358
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr ""
 "Bibliotecas de núcleo o los servicios han sido actualizadas desde el "
 "arranque:"
 
-#: plugins/needs_restarting.py:356
+#: plugins/needs_restarting.py:363
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Se requiere el reinicio para utilizar completamente estas actualizaciones."
 
-#: plugins/needs_restarting.py:357
+#: plugins/needs_restarting.py:364
 msgid "More information:"
 msgstr "Más información:"
 
-#: plugins/needs_restarting.py:361
+#: plugins/needs_restarting.py:368
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Ninguna de las bibliotecas de núcleo o los servicios han sido actualizados "
 "desde el arranque."
 
-#: plugins/needs_restarting.py:363
+#: plugins/needs_restarting.py:370
 msgid "Reboot should not be necessary."
 msgstr "Reinicio no sería necesario."
 
-#: plugins/needs_restarting.py:405
+#: plugins/needs_restarting.py:412
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 20:21+0000\n"
+"POT-Creation-Date: 2026-06-29 06:59+0000\n"
 "PO-Revision-Date: 2025-10-11 12:53+0000\n"
 "Last-Translator: \"Richard E. van der Luit\" <fedoraproject@veneax.nl>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1067,53 +1067,53 @@ msgstr ""
 "Geen geïnstalleerd pakket gevonden voor pakketnaam \"{pkg}\" gespecificeerd "
 "in het herstartbestand \"{file}\"."
 
-#: plugins/needs_restarting.py:315
+#: plugins/needs_restarting.py:322
 msgid "determine updated binaries that need restarting"
 msgstr "bepaal bijgewerkte binaire bestanden die opnieuw moeten worden gestart"
 
-#: plugins/needs_restarting.py:320
+#: plugins/needs_restarting.py:327
 msgid "only consider this user's processes"
 msgstr "houd alleen rekening met de processen van deze gebruiker"
 
-#: plugins/needs_restarting.py:322
+#: plugins/needs_restarting.py:329
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "rapporteer alleen of opnieuw opstarten vereist is (exitcode 1) of niet "
 "(exitcode 0)"
 
-#: plugins/needs_restarting.py:325
+#: plugins/needs_restarting.py:332
 msgid "only report affected systemd services"
 msgstr "rapporteer alleen getroffen systemd-services"
 
-#: plugins/needs_restarting.py:327
+#: plugins/needs_restarting.py:334
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr ""
 
-#: plugins/needs_restarting.py:351
+#: plugins/needs_restarting.py:358
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "Kernbibliotheken of services die sinds het opstarten zijn bijgewerkt:"
 
-#: plugins/needs_restarting.py:356
+#: plugins/needs_restarting.py:363
 msgid "Reboot is required to fully utilize these updates."
 msgstr ""
 "Opnieuw opstarten is vereist om deze vernieuwingen volledig te kunnen "
 "gebruiken."
 
-#: plugins/needs_restarting.py:357
+#: plugins/needs_restarting.py:364
 msgid "More information:"
 msgstr "Meer informatie:"
 
-#: plugins/needs_restarting.py:361
+#: plugins/needs_restarting.py:368
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "Sinds het opstarten zijn er geen kernbibliotheken of services bijgewerkt."
 
-#: plugins/needs_restarting.py:363
+#: plugins/needs_restarting.py:370
 msgid "Reboot should not be necessary."
 msgstr "Opnieuw opstarten zou niet nodig moeten zijn."
 
-#: plugins/needs_restarting.py:405
+#: plugins/needs_restarting.py:412
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""

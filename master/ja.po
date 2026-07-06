@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 20:21+0000\n"
+"POT-Creation-Date: 2026-06-29 06:59+0000\n"
 "PO-Revision-Date: 2025-08-18 09:47+0000\n"
 "Last-Translator: middlingphys "
 "<middlingphys@users.noreply.translate.fedoraproject.org>\n"
@@ -1063,50 +1063,50 @@ msgstr ""
 "needs-restarting ファイル \"{file}\" に指定されている \"{pkg}\" というパッ"
 "ケージのインストール済みパッケージが見つかりません。"
 
-#: plugins/needs_restarting.py:315
+#: plugins/needs_restarting.py:322
 msgid "determine updated binaries that need restarting"
 msgstr "再起動が必要な更新済みバイナリーを決定します"
 
-#: plugins/needs_restarting.py:320
+#: plugins/needs_restarting.py:327
 msgid "only consider this user's processes"
 msgstr "このユーザーのプロセスのみを検討します"
 
-#: plugins/needs_restarting.py:322
+#: plugins/needs_restarting.py:329
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr ""
 "再起動が必要か (終了コード 1) 必要でないか (終了コード 0) のみを報告します"
 
-#: plugins/needs_restarting.py:325
+#: plugins/needs_restarting.py:332
 msgid "only report affected systemd services"
 msgstr "影響を受ける systemd サービスのみを報告"
 
-#: plugins/needs_restarting.py:327
+#: plugins/needs_restarting.py:334
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr "systemd サービスに対応する古いプロセスをリストアップしない"
 
-#: plugins/needs_restarting.py:351
+#: plugins/needs_restarting.py:358
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "起動以降にコアライブラリーまたはサービスがアップデートされました:"
 
-#: plugins/needs_restarting.py:356
+#: plugins/needs_restarting.py:363
 msgid "Reboot is required to fully utilize these updates."
 msgstr "これらのアップデートを完全に活用するには、再起動が必要です。"
 
-#: plugins/needs_restarting.py:357
+#: plugins/needs_restarting.py:364
 msgid "More information:"
 msgstr "詳細情報:"
 
-#: plugins/needs_restarting.py:361
+#: plugins/needs_restarting.py:368
 msgid "No core libraries or services have been updated since boot-up."
 msgstr ""
 "起動以降にアップデートされたコアライブラリーまたはサービスはありません。"
 
-#: plugins/needs_restarting.py:363
+#: plugins/needs_restarting.py:370
 msgid "Reboot should not be necessary."
 msgstr "再起動は必要ありません。"
 
-#: plugins/needs_restarting.py:405
+#: plugins/needs_restarting.py:412
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""

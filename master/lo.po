@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 20:21+0000\n"
+"POT-Creation-Date: 2026-06-29 06:59+0000\n"
 "PO-Revision-Date: 2026-05-06 19:59+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -1016,48 +1016,48 @@ msgid ""
 msgstr ""
 "ບໍ່ພົບແພັກເກດທີ່ຕິດຕັ້ງໄວ້ສຳລັບຊື່ແພັກເກດ \"{pkg}\" ທີ່ລະບຸໃນໄຟລ໌ needs-restarting \"{file}\"."
 
-#: plugins/needs_restarting.py:315
+#: plugins/needs_restarting.py:322
 msgid "determine updated binaries that need restarting"
 msgstr "ກຳນົດໄຟລ໌ binary ທີ່ອັບເດດແລ້ວເຊິ່ງຈຳເປັນຕ້ອງມີການເລີ່ມຕົ້ນໃໝ່ (restarting)"
 
-#: plugins/needs_restarting.py:320
+#: plugins/needs_restarting.py:327
 msgid "only consider this user's processes"
 msgstr "ພິຈາລະນາສະເພາະໂປຣເຊສ (process) ຂອງຜູ້ໃຊ້ນີ້ເທົ່ານັ້ນ"
 
-#: plugins/needs_restarting.py:322
+#: plugins/needs_restarting.py:329
 msgid ""
 "only report whether a reboot is required (exit code 1) or not (exit code 0)"
 msgstr "ລາຍງານສະເພາະວ່າຈຳເປັນຕ້ອງ reboot (exit code 1) ຫຼື ບໍ່ (exit code 0)"
 
-#: plugins/needs_restarting.py:325
+#: plugins/needs_restarting.py:332
 msgid "only report affected systemd services"
 msgstr "ລາຍງານສະເພາະການບໍລິການ systemd ທີ່ໄດ້ຮັບຜົນກະທົບ"
 
-#: plugins/needs_restarting.py:327
+#: plugins/needs_restarting.py:334
 msgid "don't list stale processes that correspond to a systemd service"
 msgstr "ບໍ່ຕ້ອງສະແດງລາຍຊື່ໂປຣເຊສທີ່ຄ້າງຢູ່ເຊິ່ງກ່ຽວຂ້ອງກັບການບໍລິການ systemd"
 
-#: plugins/needs_restarting.py:351
+#: plugins/needs_restarting.py:358
 msgid "Core libraries or services have been updated since boot-up:"
 msgstr "ໄລບຣາຣີຫຼັກ ຫຼື ການບໍລິການຕ່າງໆໄດ້ຖືກອັບເດດແລ້ວຕັ້ງແຕ່ເລີ່ມລະບົບ:"
 
-#: plugins/needs_restarting.py:356
+#: plugins/needs_restarting.py:363
 msgid "Reboot is required to fully utilize these updates."
 msgstr "ຈຳເປັນຕ້ອງ Reboot ເພື່ອໃຫ້ການອັບເດດເຫຼົ່ານີ້ມີຜົນເຕັມທີ່."
 
-#: plugins/needs_restarting.py:357
+#: plugins/needs_restarting.py:364
 msgid "More information:"
 msgstr "ຂໍ້ມູນເພີ່ມເຕີມ:"
 
-#: plugins/needs_restarting.py:361
+#: plugins/needs_restarting.py:368
 msgid "No core libraries or services have been updated since boot-up."
 msgstr "ບໍ່ມີໄລບຣາຣີຫຼັກ ຫຼື ການບໍລິການໃດໆຖືກອັບເດດຕັ້ງແຕ່ເລີ່ມລະບົບ."
 
-#: plugins/needs_restarting.py:363
+#: plugins/needs_restarting.py:370
 msgid "Reboot should not be necessary."
 msgstr "ບໍ່ຈຳເປັນຕ້ອງ Reboot."
 
-#: plugins/needs_restarting.py:405
+#: plugins/needs_restarting.py:412
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""
