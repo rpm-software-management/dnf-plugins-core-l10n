@@ -10,13 +10,14 @@
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
 # Ali Ciloqlu <ali.ciloqlu@murena.io>, 2026.
+# Emanuele Petriglia <inbox@emanuelepetriglia.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-29 06:59+0000\n"
-"PO-Revision-Date: 2026-05-15 14:59+0000\n"
-"Last-Translator: Nathan <nathan95@live.it>\n"
+"PO-Revision-Date: 2026-08-19 14:18+0000\n"
+"Last-Translator: Emanuele Petriglia <inbox@emanuelepetriglia.com>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/it/>\n"
 "Language: it\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.5\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -947,12 +948,12 @@ msgid "explicitly specify basearchs to use"
 msgstr "specificare esplicitamente le basi da utilizzare"
 
 #: plugins/manifest.py:57
-#, fuzzy
-#| msgid "separate packages by basearch into individual manifest files"
 msgid ""
 "separate packages by basearch into individual manifest files or download "
 "directories"
-msgstr "pacchetti separati per base in file manifest singoli"
+msgstr ""
+"separa i pacchetti per architettura di base in file manifest o directory di "
+"download distinti"
 
 #: plugins/manifest.py:84
 #, python-format
@@ -1114,6 +1115,8 @@ msgstr "Il riavvio non dovrebbe essere necessario."
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""
+"Attenzione: I seguenti servizi non devono essere riavviati, ma richiedono un "
+"riavvio del sistema:"
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
