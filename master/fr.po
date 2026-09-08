@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-29 06:59+0000\n"
-"PO-Revision-Date: 2026-06-09 09:04+0000\n"
+"PO-Revision-Date: 2026-09-09 14:17+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/fr/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1132,6 +1132,8 @@ msgstr "Un nouveau démarrage ne devrait pas être utile."
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""
+"Attention : Les services suivants ne doivent pas être redémarrés mais "
+"nécessitent un redémarrage du système :"
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
