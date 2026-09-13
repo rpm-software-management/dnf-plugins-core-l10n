@@ -2,13 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Bone NI <bounkirdni@gmail.com>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-29 06:59+0000\n"
-"PO-Revision-Date: 2026-05-06 19:59+0000\n"
-"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"PO-Revision-Date: 2026-09-14 09:17+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/lo/>\n"
 "Language: lo\n"
@@ -16,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1061,6 +1063,7 @@ msgstr "ບໍ່ຈຳເປັນຕ້ອງ Reboot."
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""
+"ຄຳເຕືອນ: ບໍລິການຕໍ່ໄປນີ້ບໍ່ຄວນຖືກເລີ່ມຕົ້ນໃໝ່ ແຕ່ຈຳເປັນຕ້ອງໄດ້ເລີ່ມເຄື່ອງໃໝ່:"
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
