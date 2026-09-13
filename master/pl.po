@@ -11,13 +11,15 @@
 # Piotr Drąg <piotrdrag@gmail.com>, 2019. #zanata, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
 # Piotr Drąg <piotrdrag@gmail.com>, 2020. #zanata, 2021, 2022, 2023, 2024, 2025, 2026.
 # Nik Nikovsky <zejdzztegomaila@gmail.com>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-29 06:59+0000\n"
-"PO-Revision-Date: 2026-06-09 09:04+0000\n"
-"Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
+"PO-Revision-Date: 2026-09-14 09:17+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/pl/>\n"
 "Language: pl\n"
@@ -26,7 +28,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1124,6 +1126,8 @@ msgstr "Ponowne uruchomienie nie powinno być konieczne."
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""
+"Ostrzeżenie: Następujących usług nie należy uruchamiać ponownie, lecz "
+"wymagają ponownego rebootu:"
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
