@@ -5,13 +5,15 @@
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023, 2024.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2023.
 # Jouko Tiilikainen <jti65@users.noreply.translate.fedoraproject.org>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-22 20:43+0000\n"
-"PO-Revision-Date: 2026-05-08 14:59+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2026-11-14 09:18+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-core-l10n-master/fi/>\n"
 "Language: fi\n"
@@ -19,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: plugins/builddep.py:45
 msgid "[PACKAGE|PACKAGE.spec]"
@@ -1104,6 +1106,8 @@ msgstr "Uudelleenkäynnistyksen ei pitäisi olla tarpeen."
 msgid ""
 "Warning: The following services should not be restarted but require a reboot:"
 msgstr ""
+"Varoitus: Seuraavia palveluita ei tule käynnistää uudelleen, vaan ne "
+"edellyttävät järjestelmän uudelleenkäynnistystä:"
 
 #: plugins/post-transaction-actions.py:71 plugins/pre-transaction-actions.py:56
 #, python-format
